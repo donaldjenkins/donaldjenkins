@@ -7,7 +7,6 @@ sections:
 - type: document
   path: README-FORESTRY.md
   label: Help
-  match: "**/*"
   read_only: true
 - type: directory
   path: content
@@ -19,4 +18,12 @@ public_path: "/uploads"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
+build:
+  preview_env:
+  - HUGO_ENV=staging
+  - HUGO_VERSION=0.75.1
+  preview_output_directory: public
+  preview_docker_image: forestryio/hugo:latest
+  mount_path: "/srv"
+  instant_preview_command: hugo server -D -E -F --renderToDisk -d public
 version: 0.42.1

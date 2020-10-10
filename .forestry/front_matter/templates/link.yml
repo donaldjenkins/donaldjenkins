@@ -1,6 +1,6 @@
 ---
+label: link
 hide_body: false
-is_partial: true
 fields:
 - type: text
   name: link_text
