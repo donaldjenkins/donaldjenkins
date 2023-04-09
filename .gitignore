@@ -1,0 +1,26 @@
+# Created by https://www.toptal.com/developers/gitignore/api/hugo,codekit,nova
+# Edit at https://www.toptal.com/developers/gitignore?templates=hugo,codekit,nova
+
+### Node_Modules ###
+node_modules
+
+### CodeKit ###
+# General CodeKit files to ignore
+config.codekit3
+
+### Hugo ###
+# Generated files by hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+hugo.log
+hugo_stats.jso
+
+# Temporary lock file while building
+/.hugo_build.lock
+
+### nova ###
+.nova/*
+
+# End of https://www.toptal.com/developers/gitignore/api/hugo,codekit,nova
