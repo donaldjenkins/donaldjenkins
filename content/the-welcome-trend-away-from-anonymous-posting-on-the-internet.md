@@ -1,0 +1,58 @@
+---
+title: 'The welcome trend away from anonymous posting on the Internet'
+date: '2010-04-10T19:16:07+00:00'
+status: publish
+permalink: /the-welcome-trend-away-from-anonymous-posting-on-the-internet
+author: donaldjenkins
+excerpt: 'The recent case of an Ohio judge locked in a dispute with a local newspaper over an anonymous comment posted on its website using her email address has given a vivid illustration of how the shift to contributing content to the Internet under your own name has radically changed the nature of interaction on the Web since it started in the middle of the last decade and gathered pace between 2007 and 2009, powerfully assisted by the emergence of Facebook, a notably proponent of being transparent about your identity, in the social network sector. Content quality, on balance is improved immeasurably if people are prepared to stand up for they are saying. Does this mean people will comment less? Probably. Does it matter all that much? I don’t think so. So long as Mr Zuckerberg doesn’t kill my privacy, its still possible to share content with selected audiences, but not everyone, on Facebook, while a public blog, and content one posts to third-party sites, reflects views one is happy to own up to.'
+type: post
+id: 876
+thumbnail: ../uploads/man-takes-off-his-guy-fawkes-mask.jpg
+category:
+    - Sundry
+tag:
+    - anonymous
+    - blogging
+    - Facebook
+    - Internet
+    - privacy
+post_format: []
+aktt_notify_twitter:
+    - 'yes'
+aktt_tweeted:
+    - '1'
+swp_pinterest_image_url:
+    - ''
+swp_open_graph_image_data:
+    - 'false'
+swp_open_graph_image_url:
+    - ''
+swp_cache_timestamp:
+    - '432238'
+wp_criticalcss_cache:
+    - ''
+wp_criticalcss_css_hash:
+    - 72f0834e
+wp_criticalcss_html_hash:
+    - ''
+wp_criticalcss_manual_css:
+    - ''
+---
+Just over a year ago, I [moved to writing under my own name](https://www.donaldjenkins.com/why-i-have-finally-decided-to-blog-in-my-own-name/ "Why I have finally decided to blog in my own name"), after four years of blogging under a pseudonym. Of course an individual’s circumstances (his job, in particular) will dictate how much leeway he has to make or not to make his thoughts on certain subjects public. My decision to do so was the result of a number of factors, not least the shift towards posting content under your own name that had broken into the mainstream with the spectacular rise to prominence of Facebook — which has from the start been designed for users to join under their real names.
+
+When a major international newspaper recently very generously offered to host a column for me on its web edition with posts on French and tech subjects, I asked a French friend of mine what he thought of the idea: he replied he thought it would be fantastic, so long as I chose my pseudonym cleverly. He was somewhat nonplussed when I explained that Anglo-Saxon media expect those contributing content to write under their own names, in sharp contrast to France where anonymous blogging is still acceptable, indeed the norm in many sites. I explained that if I took up the offer — and I have not done so yet, for various reasons — I would be writing as Donald Jenkins.
+
+Not that anonymity has completely died out on normal, sane Anglo-Saxon sites yet, at least as far as comments are concerned. Two weeks ago, Mrs Shirley Strickland, a judge in Cuyahoga County, Ohio was the subject of a [story](http://blog.cleveland.com/metro/2010/03/post_258.html "Article about Mrs Strickland in the Cleveland Plain-dealer") by the <cite>Cleveland Plain-Dealer</cite> claiming that anonymous comments on its website by a user named <q>lawmiss</q> had come from the judge’s personal email account. The incident[§](#bfn-footnotes-140) is detailed in a [web post](https://www.donaldjenkins.com/documents/can-anonymous-commenters-be-outed-if-they-do-something-newsworthy.pdf "Valleywag post on the Strickland case: Can Anonymous Commenters Be Outed if They Do Something Newsworthy?") by Valleywag, which sums up the underlying point at issue rather well:
+
+> The paper, seeing what it believed was a plain example of judicial misconduct, felt obligated to publish. They presumably cleared it with their lawyers. But they may not have reckoned on just how strongly the average internet commenter feels entitled to anonymity, privacy policies be damned. If the average reader who comments on news sites felt that there was even a chance of his identity being connected to his comments, then the comments on news sites wouldn’t be so fucking hateful and asinine, in general.
+> 
+> There’s already a movement — popular with columnists who frequently get trashed in their own comments sections — to do away with anonymous comments, and make everyone attach their name to what they say. Nice thought. But there’s a reason that anonymous comments are the standard: they encourage free speech, creativity, and honesty. They also encourage commenting, period. Do you know what percentage of online comments come from people who should be engaged in something else, like their job? A high percentage.
+
+Towards the end of last year, I stopped using a pseudonym when commenting, bringing the change that had started with the closing of my old blog and of my previous social network accounts, the opening of my Facebook profile in 2007, and the above-mentioned move to blog in my own name in early 2009 to its logical conclusion.
+
+Does this mean a change in the type of content that I post under my own name? It probably does. While I don’t think anything I posted anonymously was ever hateful or asinine, let alone libellous, I did choose not to port some of my previous articles to this site when I made the move. It doesn’t mean I regret writing them, because I enjoyed it at the time, but the Internet in 2010 is not the same as it was in 2005: while this probably doesn’t apply to less mature locations like France, it’s obvious that content quality, on balance, is improved immeasurably if people are prepared to stand up for they are saying. Does this mean people will comment less? Probably[§](#bfn-footnotes-140). Does it matter all that much? I don’t think so: I have never thought that the number of comments it attracts are a measure of a website’s quality. So long as [Mr Zuckerberg doesn’t kill my privacy](https://www.donaldjenkins.com/social-networking-going-towards-an-oligopolistic-closed-shop-system/ "My blog post on how privacy norms have changed, but not as much as Mark Zuckerberg claims"), it is still possible to [keep my Facebook profile private](http://howto.wired.com/wiki/Make_Your_Facebook_Account_Private "How to keep your Facebook account private"), although it has become a pretty complex process. Thoughts I want to share with some audiences, but not everyone, can be safely posted there — where they are likely to attract much higher quality and also more numerous comments — while this site, and content I post to third-party sites, reflects views I’m happy to own up to.
+
+<div class="bfn-footnotes" data-container="" data-post-id="140" id="bfn-footnotes-140" style="display: none;">### References
+
+
+</div>

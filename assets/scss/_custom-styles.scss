@@ -1,0 +1,355 @@
+body,
+.content {
+  font-family: $family-primary;
+  font-stretch: 72%;
+}
+
+.card-header-title,
+.menu-label,
+.message-header,
+.modal-card-title,
+.panel-heading,
+.subtitle,
+.title,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  font-family: $family-primary;
+}
+
+strong,
+a {
+  font-weight: 700;
+}
+
+body {
+  font-variation-settings: "slnt" 0;
+}
+
+em {
+  font-variation-settings: "slnt" 1;
+}
+
+.title {
+  font-family: $family-primary;
+}
+
+.subtitle {
+  font-family: $family-primary;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @extend .title;
+}
+
+h1 {
+  @extend.is-1;
+}
+
+h2 {
+  @extend.is-2;
+}
+
+h3 {
+  @extend.is-3;
+}
+
+h4 {
+  @extend.is-4;
+}
+
+h5 {
+  @extend.is-5;
+
+}
+
+h6 {
+  @extend.is-6;
+}
+
+p {
+  @extend.mb-3;
+}
+
+.button {
+  font-family: $family-primary;
+}
+
+.content figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Source: https://stackoverflow.com/questions/22252472/how-can-i-change-the-color-of-an-svg-element*/
+.filter-white {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(307deg) brightness(101%) contrast(103%)
+}
+
+.filter-white {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(307deg) brightness(101%) contrast(103%)
+}
+
+ .filter-white:hover, .navbar-item img:hover, .navbar-burger:hover {
+  filter: invert(61%) sepia(22%) saturate(284%) hue-rotate(161deg) brightness(97%) contrast(84%);
+}
+
+/* Lists
+--------------------------------------------------------------------------------------------- */
+
+.bullet ul,
+.bullet li,
+.bullet ol {
+  margin-left: 3vw;
+}
+
+ul {
+    list-style: none;
+}
+
+.bullet li, .bullet-list ol {
+  margin-bottom: 1rem;
+  line-height: 50%;
+}
+
+.bullet li::marker {
+  color: #437daa;
+}
+
+.bullet li::before {
+  content: "\25AA";
+  color: #437daa;
+  font-weight: bold;
+  display: inline-block;
+  width: 0.75em;
+  margin-left: -1em;	
+}
+
+.navbar {
+  background-color: hsl(0 100% 100% / 0);
+  border: none;
+}
+
+/* .navbar-item, .navbar-burger {
+  color: $contrast;
+}
+
+.navbar-item:hover, .navbar-burger:hover {
+  color: $contrast;
+} */
+
+.hero {
+  margin-top: -25vh;
+  height: 100%;
+}
+
+.hero-video > div {
+  position: relative; // 16:9
+}
+
+.hero-video {
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  
+}
+
+// https://github.com/jgthms/bulma/issues/1121
+.is-fullheight {
+  height: 100%;
+  flex-direction: column;
+}
+
+// https://css-tricks.com/almanac/properties/a/align-items/
+.fullheight-container {
+  display: flex;
+  align-items: stretch;
+}
+
+/* Blockquotes & citations */
+
+.content blockquote {
+  background-color: inherit;
+  border-left: none;
+  padding: 1.75em 1.5em 1.25em;
+}
+
+blockquote {
+  display: block;
+  border-width: 2px 0;
+  border-style: solid;
+  border-color: $white-ter;
+  padding: 1.5em 0 0.5em;
+  margin: 1.5em 0;
+  position: relative;
+}
+blockquote:before {
+  content: '\201C';
+  position: absolute;
+  top: 0em;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: $white;
+  width: 3rem;
+  height: 2rem;
+  font: 6em/1.08em 'Quicksand', sans-serif;
+  color: $davys-gray;
+  text-align: center;
+}
+blockquote:after {
+  content: "\2013 \2003" attr(cite);
+  display: block;
+  text-align: right;
+  color: $squirrel;
+}
+
+.attribution, .attribution p {
+  text-align: right;
+  color: $squirrel;
+}
+
+.caption, .figcaption, .photo-credit {
+  font-size: 0.75rem;
+  text-align: right;
+}
+
+.quote {
+  font-size: inherit;
+  font-style: italic
+}
+
+figure blockquote {
+  margin-bottom: 0;
+  text-align: left;
+  padding-bottom: 1%
+}
+
+.quote-source {
+  padding: 1% 0 5%;
+  text-align: right
+}
+
+.quote-source::before {
+  content: '\2014\2009'
+}
+
+.quote-source::after {
+  content: '.'
+}
+
+:lang(en)>q{quotes:'\2018''\2019''\201C''\201D'}:lang(fr)>q {
+  quotes: '\00AB\202F''\202F\00BB''\201C''\201D'
+}
+
+.card-footer {
+  border-top: none;
+}
+
+.equal-height {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.equal-height .card-content {
+    flex: auto;
+}
+
+.h1, h2, h3, h4, h5, h6, title {
+  line-height: 1;
+}
+
+/* Footnotes
+--------------------------------------------------------------------------------------------- */
+
+.footnotes hr{
+   border: none;
+    height: 2px;
+    background: $grey-lighter;
+    max-width: 20%;
+}
+
+.footnotes {
+  font-size: 0.875rem
+}
+
+.footnote-ref {
+  color:  $white;
+  background-color: $tomato;
+  padding: 1px 2px 1px;
+}
+
+/* Lists
+--------------------------------------------------------------------------------------------- */
+
+/* Source: https://github.com/bluefantail/bulma-list/blob/main/css/bulma-list.css */
+
+.list {
+  color: $davys-gray;
+  flex-direction: column;
+  display: flex
+}
+
+.list-item-content {
+  min-width: 0;
+  max-width: calc(var(--length)*1ch);
+  font-size: 0.875rem
+}
+
+.list-item-content>* {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden
+}
+
+
+.list-item:not(.box){padding:.75em}.list-item:not(:last-child):not(.box) {
+  border-bottom: 1px solid $grey-lighter
+}
+
+
+@media screen and (max-width:768px) {
+  .list-item-image {
+    padding: .5rem 0
+  }
+}.list-item-content {
+  flex-direction: column;
+  flex-grow: 1;
+  display: flex
+}
+
+@media screen and (max-width:768px) {
+  .list-item-content {
+    padding: .5rem 0
+  }
+}.list-item-title {
+  color: $davys-gray;
+  font-weight: 600
+}
+
+.list-item-description {
+  color: $grey-dark
+}
+
+/* Footer
+--------------------------------------------------------------------------------------------- */
+
+footer * {
+  color:  $white;
+  font-size: 0.87rem;
+  font-weight: normal;
+}
+
+footer a:hover {
+  color: $link-light;
+}
+
+footer img {
+  border-radius: 6px;
+  padding:  5px;
+  overflow: hidden;
+}

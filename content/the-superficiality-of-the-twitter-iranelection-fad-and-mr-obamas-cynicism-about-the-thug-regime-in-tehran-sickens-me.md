@@ -1,0 +1,51 @@
+---
+title: 'The superficiality of the Twitter #Iranelection fad and Mr Obama&#8217;s cynicism about the thug regime in Tehran sicken me'
+date: '2009-06-21T14:18:36+00:00'
+status: private
+permalink: /the-superficiality-of-the-twitter-iranelection-fad-and-mr-obamas-cynicism-about-the-thug-regime-in-tehran-sickens-me
+author: donaldjenkins
+excerpt: 'The only thing that worries Western governments is the prospect of an Islamic bomb. These hyprocrites are oblivious of the fact that they deliberately toppled a friendly Iranian ruler who had repeatedly ruled out acquiring nuclear weapons because he foresaw the huge risk it would represent for the world’s most unstable region. And yet my fear is that, depite Twitter, YouTube and, especially, despite *Le Monde*, Mr Obama and his kind will have their way: just like previous protest movements by urban youth whose lives and prospects are being ruined by the oppressive theocracy ruling iran, Khameini, Amadinejad and their associated thugs will survive, secure in the knowledge that by manipulating the peasants whom they have rendered totally docile by reversing the Shah’s campaign against illiteracy and indoctrinating them, for thirty years, with nothing but Coranic propaganda will support them, that the population, like that of Nazi Germany between 1933 and 1945, will be cowered into docility by the [unspeakable brutality of the regime](http://images.google.com/images?client=safari&rls=en-us&q=iran%20execution&oe=UTF-8&um=1&ie=UTF-8&sa=N&hl=en&tab=wi "Google Image Search"), that they will be able to continue to rig elections and, above all, that the West, still reeling from the damage it inflicted on itself in its inopportune attack on Iran’s historic enemy Irak, will do nothing. The media-greedy liberal lefties will move on to the next subject that Twitter makes fashionable, listen to what Mr Obama has to say on the subject, and the abominable sufferings of one of the world''s most civilised peoples will continue.'
+type: post
+id: 780
+category:
+    - Politics
+tag:
+    - 'death penalty'
+    - Iran
+    - Islam
+    - Obama
+    - Pahlavi
+    - politics
+    - shah
+    - 'social networks'
+    - Twitter
+post_format: []
+aktt_notify_twitter:
+    - 'no'
+lead_image:
+    - 'https://www.donaldjenkins.com/images/2009/06/h1-iran-troubles.jpg'
+secondary_image:
+    - 'https://www.donaldjenkins.com/images/2009/06/h2-iran-troubles.jpg'
+wp_criticalcss_cache:
+    - ''
+---
+I am deeply distressed by the current treatment of the disturbances in Iran by the media and the blogosphere.
+
+These are the same wishy-washy, liberal elite that deliberately allowed Iran to be taken over by a bunch of reactionary thugs in 1979. In doing so, they thrust a once great nation [that had achieved a remarkably modernisation under the Pahlavi dynasty](https://www.donaldjenkins.com/the-man-who-dreamt-of-a-modern-rich-democratic-peaceful-iran/ "The man who dreamt of a modern, rich, democratic, peaceful Iran") and could legitimately aspire to be one of the five greatest *non-nuclear*[§](#bfn-footnotes-140) powers in world first into chaos, then into an orgy of repression, torture, murder, corruption and the promotion of ignorance, terrorism, that has lasted for thirty years.
+
+Despite the evidence that women, children, gays, in particular, were being systematically humiliated, tortured, maimed and executed after, at best, travesties of justice, the Western world and its hypocritical media looked on indifferently. I often wondered whether the average journalist writing about Iran has ever bothered to carry out even elementary research about that country’s 2,500-year History, and about the [remarkable resurrection undergone by the Pahlavis](http://en.wikipedia.org/wiki/White_Revolution "Read about the White Revolution period in Iran") over the period 1925-1979. Indeed, the only plausible explanation for the hypocrisy of the Western governments and media towards that unfortunate country is that it expresses a form of contempt, almost of racism towards a people whose civilisation has stood the test of time and towered, for most of that period, well above even ours: in the eyes of a bourgeois-bohemian, two-faced Western politician or journalist, the Iranians are incapable of being organised as an advanced society; in their view, the Pahlavi modernisation was an aberration, a high-risk adventure conducted by a luminary and best terminated before it went badly wrong. Mediaeval barbarity, in the eyes of the Western, liberal establishment, is the natural state of a country like Iran.
+
+Even now that [Twitter](http://twitter.com/#search?q=%23IranElection "Twitter: What are you doing?") provides these despicable cyberfashionistas with their latest pretext to sound both concerned and in tune with technology (whereas, in reality, they are neither), not one of them is reflecting on the deep causes of the tragedy, on the horrific suffering endured by Iranians for thirty years, entirely through our own fault; none of them even remembers the judicial murders of children such as [Mahmoud Asgari, 16, and Ayaz Marhoni, 18](http://en.wikipedia.org/wiki/Mahmoud_Asgari_and_Ayaz_Marhoni "Mahmoud Asgari and Ayaz Marhoni - Wikipedia, the free encyclopedia"), who were publicly hanged on July 19, 2005 because they were gay (the news of which, when I read a cursory account of it in France’s trendy, bourgeois bohemian newspaper *Le Monde,* was actually what prompted me to write my first-ever blog post), or [Atefah Rafavi Sahaaleh](http://en.wikipedia.org/wiki/Atefah_Sahaaleh "Atefah Sahaaleh - Wikipedia, the free encyclopedia"), 16, hanged in a public square in Neka on August 15, 2004 for “acts incompatible with chastity”:
+
+<object height="300" width="400"><param name="allowfullscreen" value="true"></param><param name="allowscriptaccess" value="always"></param><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=5256648&server=vimeo.com&show_title=1&show_byline=0&show_portrait=1&color=999966&fullscreen=1"></param><embed allowfullscreen="true" allowscriptaccess="always" height="300" src="http://vimeo.com/moogaloop.swf?clip_id=5256648&server=vimeo.com&show_title=1&show_byline=0&show_portrait=1&color=999966&fullscreen=1" type="application/x-shockwave-flash" width="400"></embed></object>
+
+The list could go on. The [Stop Child Executions](http://www.stopchildexecutions.com/ "Stop Child Executions In Iran") campaign maintains a well-documented website (it also has a [Facebook Group](http://www.facebook.com/group.php?gid=2258845188 "Incompatible Browser | Facebook") which I would encourage you to join) on this abominable scandal, about which Western governments are doing next to nothing. And that is only the so-called “judicial” executions. Even less is said about the mass murders perpetrated by the Iranian regime since 1979. Thus for instance, in the summer of 1988, Ayatollah Khomeini issued a fatwa to physically annihilate the People’s Mojahedin. [Up to 30,000 political prisoners were massacred](http://en.wikipedia.org/wiki/1988_executions_of_Iranian_political_prisoners "1988 executions of Iranian political prisoners - Wikipedia, the free encyclopedia") as a result of this, over a period of several months. The full text of the fatwa was made public years later by his deposed successor Ayatollah Hossein-Ali Montazeri. Yet, of course, this fatwa did not attract as much attention as the one issued a few months later against British author Salman Rushdie: the liberal Western media simply turned its gaze in another direction.
+
+It is Mr Obama, darling of the Western liberal establishment, whose attitude to Iran has most sickened me. Practically his first act after he was inaugurated, in an interview on Monday with the al-Arabiya television network, was to [announce a more friendly approach towards Mr Amadinejad](http://www.guardian.co.uk/world/2009/jan/28/barack-obama-letter-to-iran "Revealed: the letter Barack Obama's team hope will heal Iran rift | World news | guardian.co.uk") and the Iranian regime, an attitude that, even more shockingly, [has not been modified since the street disturbances began](http://feeds.nytimes.com/click.phdo?i=877548afe2c3d8c712c0666f04f76867 "U.S. Officials to Continue to Engage Iran - NYTimes.com"), on the contrary.
+
+Of course, the only thing that worries Western governments is the prospect of an Islamic bomb. These hyprocrites are oblivious of the fact that they deliberately toppled a friendly Iranian ruler who had repeatedly ruled out acquiring nuclear weapons because he foresaw the huge risk it would represent for the world’s most unstable region. And yet my fear is that, despite Twitter, despite YouTube and, especially, despite *Le Monde*, Mr Obama and his kind will have their way: just like like they did after previous protest movements by urban youth whose lives and prospects are being ruined by the oppressive theocracy ruling iran, Khameini, Amadinejad and their associated thugs will survive, secure in the knowledge that by manipulating the peasants whom they have rendered totally docile by reversing the Shah’s campaign against illiteracy and indoctrinating them, for thirty years, with nothing but Coranic propaganda, enough of the population will support them; that the Iranian people, like the equally civilised German people between 1933 and 1945, will be cowered into docility by the [unspeakable brutality of the regime](http://images.google.com/images?client=safari&rls=en-us&q=iran%20execution&oe=UTF-8&um=1&ie=UTF-8&sa=N&hl=en&tab=wi "Google Image Search"); that they will be able to continue to rig elections; and, above all, that the West, still reeling from the damage it inflicted on itself in its inopportune attack on Iran’s historic enemy Iraq, will do nothing. The media-greedy liberal lefties will move on to the next subject that Twitter makes fashionable, listen to what Mr Obama has to say on the subject, and the abominable sufferings of one of the world’s most civilised peoples will continue.
+
+<div class="bfn-footnotes" data-container="" data-post-id="140" id="bfn-footnotes-140" style="display: none;">### References
+
+
+</div>

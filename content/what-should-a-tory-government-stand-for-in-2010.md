@@ -1,0 +1,54 @@
+---
+title: 'What should a Tory government stand for in 2010?'
+date: '2010-05-11T13:58:10+00:00'
+status: publish
+permalink: /what-should-a-tory-government-stand-for-in-2010
+author: donaldjenkins
+excerpt: 'Following last week''s inconclusive General Election result, I''m struck by how people have focused on the short-term issue of how a functioning administration can be cobbled together, to the detriment of what a Tory government, which must still be the most likely eventual outcome, will actually stand for. There would a lot to be said for it refocusing on its traditional values: pride in tradition, an end to constitutional vandalism, inclusiveness in the conservative sense, and a clear commitment to protecting the environment.'
+type: post
+id: 957
+thumbnail: ../uploads/david-cameron.jpg
+category:
+    - Politics
+tag:
+    - Conservatism
+    - England
+    - environment
+    - politics
+    - Tory
+    - UK
+post_format: []
+aktt_notify_twitter:
+    - 'yes'
+aktt_tweeted:
+    - '1'
+swp_pinterest_image_url:
+    - ''
+swp_open_graph_image_data:
+    - 'false'
+swp_open_graph_image_url:
+    - ''
+swp_cache_timestamp:
+    - '432199'
+wp_criticalcss_cache:
+    - ''
+wp_criticalcss_manual_css:
+    - ''
+---
+As I write this from New York, The Queen has yet to call for someone to ask him to take over from Mr Brown’s outgoing Socialist administration following last week’s General Election and the resulting hung Parliament.
+
+Much has already been written about this, so I’m not going to analyse the result yet again. The best Tory view on what we should hope for was perhaps expressed by [Toby Young](http://feedproxy.google.com/~r/donaldjenkins-twitterlinks/~3/PaRJftzO8aU/cIPz4t "Well worth reading by Toby Young: Would a ‘coalition of the losers’ be in the Conservative Party’s best interests?") in the Daily Telegraph on Friday. My main interest lies in trying to define exactly what vision of tomorrow’s Britain a Tory Government could stand for: amid the endless debate about the likely outcome, this has surprisingly been totally overlooked.
+
+Understanding this issue requires placing it in an historical perspective, something that Mr Blair and his Labour Party, who have shown open contempt for the Nation’s history in their desire to mould a New Britain in their New Labour’s image, have made us forget about: if the Tories themselves had done this properly, they would have been less open to accusations of arrogance, vacuity and gimmickness.
+
+The Tory Party, traditionally, has always believed, not in resisting change, but in embracing it cautiously and with due regard to the beacons of precedent and tradition. It has historically required the Nation’s establishment to put the general interest above all other considerations. It was in the name of defending the Nation that the flower of our nobility and gentry gallantly went to battle and an often grisly end, from the Crusades to the Second World War, in pursuit of an ideal that was the product of their age. It was for the common good that the products of our finest schools and universities painted the entire world in pink and strove for justice, progress and freedom at home. That many of the latter objectives were shared with their Whig and even, later, with their Socialist opponents does not in any way diminish the reality: this Kingdom’s greatness has deep foundations and any political party that ignores this is worthy of contempt. That is why the spectacle given to us since 1997 has been so sickening: we have witnessed, under Mr Blair and his pallid successor, an attempt to destroy our Constitution and imprint on the land an experiment in social engineering and interference in people’s lives that has resulted in financial and moral ruin. It was conducted, not to defend the interests of the people, but for the self-aggrandisement of its perpetrators, with unprecedented vulgarity and duplicity. Toryism, on the other hand, has always meant pride in our traditions: in our ancient laws and Constitution, our Royal House, our Established Church, our Army, in Oxford University. These magnificent institutions are the pride and common heritage of every man, woman and child fortunate enough to live on our shores.
+
+Despite the lack of a majority, the people have clearly indicated that they want this reversed. They have *not*, however, given a mandate for further tinkering with our institutions.
+
+In particular, they have emphatically not expressed a desire for electoral reform. Our first-past-the-post is the only system that keeps the power where it should, in last resort, reside, with the people and away from the politicians. It is the antiquity and stability of our electoral system that is at the root of the superiority of the Anglo-Saxon political system. Only a lunatic fringe within the Liberal Democrat political machine seriously believes it is a solution to our problems. The fact that their share of the popular vote in the election is essentially unchanged from 2005 and actually *down* in terms of seats, despite the immense buzz artificially created around Mr Clegg by the media, shows that the British people will not be tricked into this: Mr Cameron has rightly refused to concede anything of substance to these absurd demands.
+
+What, then, should a Tory government stand for in 2010? Compassionate conservatism, surely, in complete continuity with Tory traditions; small government, subsumed, as far as I have been able to understand it, in Mr Cameron’s ‘Big Society’ concept, which I take to mean the right alternative to Big Government; an end to constitutional tinkering, with the exception that the absurd situation where Scotland now has, as a result of Labour’s deeply-flawed constitutional reform, a say in English affairs and not the reverse.
+
+One area in which I believe a Conservative administration should innovate as a matter of urgency is conservation: the issue is not whether a few deceitful and misguided scientists [lied to us](http://en.wikipedia.org/wiki/Global_warming_conspiracy_theory) about whether global temperatures are rising. The plain reality is that we are destroying the planet our ancestors have bequeathed to us, and that such destruction should be every bit as repugnant, to Conservative eyes, as social or economic vandalism: the [Great Pacific Garbage Patch](http://en.wikipedia.org/wiki/Great_Pacific_Garbage_Patch), the [collapse in the bee population](http://en.wikipedia.org/wiki/Colony_collapse_disorder), the fact that, for the first time since the dinosaurs disappeared, [humans are driving animals and plants to extinction faster than new species can evolve](http://www.guardian.co.uk/environment/2010/mar/07/extinction-species-evolve): all this is something that Tories should naturally want to combat, since being a Conservative surely must mean pride in preserving our countryside and wildlife. The absurd association of some American and British conservative lobbies with big business bent on continuing this folly in the name of financial profit is something Mr Cameron would do well to stop.
+
+The country and the world have moved on since Thatcherism: this general election is not a way of passing judgement on Thatcherism, which was an absolute necessity to save Britain from the bankruptcy that threatened her in 1979, and spectacularly succeeded in restoring her relative position over the next eleven years. The issue in 2010 is neither putting the clock back thirty years. Her Majesty’s next government will be concerned with fixing a country that has moved on since that time. It is not resurrecting bygone prejudices and anachronisms, but inventing intelligent solutions that prepare us for the future without showing contempt for our past: the opposite, really to what has been happening for the past thirteen years.

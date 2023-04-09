@@ -1,0 +1,55 @@
+---
+title: 'Jonathan Littell is no match for Julien Green'
+date: '2006-11-21T02:12:38+00:00'
+status: publish
+permalink: /jonathan-littell-is-no-match-for-julien-green
+author: donaldjenkins
+excerpt: 'A review of American-born Jonathan Littel''s rather heavy-handed novel, *Les Bienveillantes*. One inevitably comets the conclusion that he is not is the same league as the other, more famousAmerican writer who wrote in French, Julien Green.'
+type: post
+id: 101
+thumbnail: ../uploads/german-occupation-of-paris.jpg
+category:
+    - Literature
+tag:
+    - France
+post_format: []
+aktt_notify_twitter:
+    - 'yes'
+    - 'no'
+swp_pinterest_image_url:
+    - ''
+swp_open_graph_image_data:
+    - 'false'
+swp_open_graph_image_url:
+    - ''
+swp_cache_timestamp:
+    - '432199'
+wp_criticalcss_cache:
+    - ''
+wp_criticalcss_manual_css:
+    - ''
+---
+I’ve just given in to a French friend who insisted that I must absolutely read <cite>Les Bienveillantes</cite>, the prize-winning novel by a Mr [Jonathan Littell](https://en.wikipedia.org/wiki/Jonathan_Littell), whose mother-tongue, as you might have guessed, is English.
+
+I arrived in France at an age when most young people will already have read all of Balzac, Molière, Racine, Hugo and Proust. What little French books I had read in England I had adored, so I was determined to catch up and decided on a new rule: I would read nothing that had been written by an author who had *started* writing after the death of Camus, if only because at twenty years of age, I had an interminable list of books to read that my contemporaries already knew perfectly, and otherwise I would never catch up. Why the arbitrary date: 1960? It would take too long to explain this in detail here, though I hope to do so at some stage in a specific post. I’ll just say that I love almost everything that was written between [Benjamin Constant](https://en.wikipedia.org/wiki/Benjamin_Constant) and [Albert Camus](https://en.wikipedia.org/wiki/Albert_Camus); but that the stuff that was written subsequently doesn’t convince me at all. Of course there are exceptions, but the great writer has effectively disappeared from contemporary France. Indeed, grammar, sentence construction, style, attention to detail, have lost the importance that they used to enjoy: a combination of such little things means that I am irritated by almost every contemporary book I happen to pick up.
+
+So what decided me to read *Les Bienveillantes* wasn’t any vague hope that I would like the book. I was merely curious to see how an Anglo-Saxon writer, brought up, like me, in between his home country and France, had actually written a novel, published it and been awarded the prestigious *[Prix Goncourt](http://en.wikipedia.org/wiki/Prix_Goncourt)*. I have always thought it impossible for a native English speaker to write French like a Frenchman, and *vice versa*. Julien Green is an exception, of course, but a very specific one: he was born of American parents, but grew up in Passy and only visited his home country a few short times including one long sojourn during the Second World War. It’s no coincidence that Green is one of my three or four favourite French writers, nor that I identify almost totally with him when I read his Memoirs. But is Littell anything like Green? Somehow, I didn’t think so: first, he spent far less time in France than the author of *Épaves* (my favourite Green novel), just a few years at *lycée Fénelon*, followed by an American university. I was certain that the original manuscript, which the publisher, amazingly, had actually admitted correcting, would turn out full of anglicisms and I secretly looked forward to discovering them. The subject of the book, really, mattered less to me than its form.
+
+Before we look at his style, however, a word must be said about the book’s substance. Mr Littell, who is Jewish, chose to write a book about an SS officer during the War. Writing about this appears to have become less controversial than it used to be. I’m not sure this is a good thing. As [Nathalie Crom](http://www.telerama.fr/livres/le-sec-et-l-humide,28228.php) remarked in *Télérama* on August 26, 2006, when Robert Merle wrote *La mort est mon métier* in 1953[§](#bfn-footnotes-140), the writer and publisher Jean Cayrol, who had been sent to Mauthausen, wrote in *Esprit* that this book was an inappropriate attempt to turn a monster into a novel. Jonathan Littell’s 2006 description of Maximilien Aue’s fictitious life no longer results in this kind of reaction: whether you approve or disapprove of this, it reflects a fundamental shift. Mr Littell’s descriptions, are accurate and detailed, to the point of being rather tedious. I spotted no mistakes and he clearly spent a lot of time gathering documents. Yet what appalled me is that although his descriptions of the horrific work of the Einsatzgruppen and the monstrous turn that the war took on the Eastern front are readily convincing, they somehow fail to awaken any real interest. Everything we find here is abundantly documented elsewhere, so what’s the point of it all? At best, *Les Bienveillantes* might serve as an introduction to the subject for anyone unfamiliar with it.
+
+If we now return to form, I found that not one of the French reviews I read even discusses it, beyond wondering whether the author managed to get rid of any anglicisms himself. This total lack of perspective, this inability to analyse or even to offer basic criticism of any kind is totally disconcerting in someone who purports to be a literary critic. It is a terrible indictment of those French people today whose job, supposedly, is to cast a critical eye on what is written in their language: substance matters to them, but not form, because going by the rules is reactionary and narrow-minded. What I found was that *les Bienveillantes*’s style remains marked by the author’s Anglo-Saxon origins. Mr Littell’s style is typical of English speakers with an exceptionally good mastery of French. Yet exceptionally good does not mean perfect and thus we are not reading anything comparable to the works of that French literary genius, [Julien Green](https://en.wikipedia.org/wiki/Julien_Green). Mr Littell tries to conceal this by making an extra effort (or an extra proof-reading effort by his publishers, more likely) in the introduction:
+
+> En fait, j’aurais tout aussi bien pu ne pas écrire. Après tout, ce n’est pas une obligation. Depuis la guerre, je suis resté un homme discret; grâce à Dieu, je n’ai jamais eu besoin, comme certains de mes anciens collègues, d’écrire mes Mémoires à fin de justification, car je n’ai rien à justifier, ni dans un but lucratif, car je gagne assez bien ma vie comme ça. Je ne regrette rien : j’ai fait mon travail, voilà tout; quant à mes histoires de famille, que je raconterai peut-être aussi, elles ne concernent que moi; et pour le reste, vers la fin, j’ai sans doute forcé la limite, mais là je n’étais plus tout à fait moi-même, je vacillais, le monde entier basculait, je ne fus pas le seul à perdre la tête, reconnaissez-le. Malgré mes travers, et ils ont été nombreux, je suis resté de ceux qui pensent que les seules choses indispensables à la vie humaine sont l’air, le manger, le boire et l’excrétion, et la recherche de la vérité. Le reste est facultatif.
+
+Nothing to write home about but still, in a very <q>contemporary</q> way, it isn’t bad at all. The rest, however, is much less convincing. I found this just a little bit further down (on page 12!), for instance:
+
+> D’autant que des souvenirs, j’ai ai, et une quantité considérable même. Je suis une véritable usine à souvenirs. J’aurai passé ma vie à me manufacturer *(sic)* des souvenirs, même si l’on me paye plutôt, maintenant, pour manufacturer de la dentelle.
+
+This heavy-handed style is typical of the <q>cosmopolitan</q> way of writing that can then be easily translated into any language and is more akin to esperanto than to the language of Green or of Camus.
+
+I managed to read it all to the end. But it brought me no pleasure at all and I’m going back to Balzac’s correspondence, which I was reading before my French friend bullied me into reading Mr Littell’s unfortunate prose.
+
+<div class="bfn-footnotes" data-container="" data-post-id="140" id="bfn-footnotes-140" style="display: none;">### References
+
+
+</div>
