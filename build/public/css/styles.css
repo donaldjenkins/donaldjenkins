@@ -2974,6 +2974,11 @@ footer p {
   text-align: center;
 }
 
+.table {
+  display: table; /* Allow the centering to work */
+  margin: 0 auto;
+}
+
 .contact {
   margin: 0;
 }

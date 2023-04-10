@@ -347,3 +347,8 @@ footer p {
   margin: 0.5em;
   text-align: center;
 }
+
+.table {
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+}
