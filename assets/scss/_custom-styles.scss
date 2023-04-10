@@ -1,7 +1,13 @@
 body,
 .content {
   font-family: $family-primary;
-  font-stretch: 72%;
+  font-stretch: 90%;
+  font-variation-settings: "wdth" 60;
+  font-variation-settings: "slnt" 0;
+  font-optical-sizing: auto;
+  width: calc(100% - 12vw);
+  max-width: 640px;
+  margin: 0 auto;
 }
 
 .card-header-title,
@@ -10,79 +16,79 @@ body,
 .modal-card-title,
 .panel-heading,
 .subtitle,
-.title,
+.title {
+  font-weight: 700;
+  font-variation-settings: "wght" 700
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
-  font-family: $family-primary;
+  font-weight: 100;
+  font-variation-settings: "wght" 100;
+  font-stretch: 90%;
+  font-variation-settings: "wdth" 95
+}
+
+a {
+  color: $link;
+  font-weight: 380;
+  font-variation-settings: "wght" 380;
+}
+
+p a:hover {
+  color: $link-hover;
+  text-decoration: none;
+  font-variation-settings: "wght" 500;
+}
+
+em,
+.quote {
+  font-variation-settings: "slnt" 14;
 }
 
 strong,
-a {
-  font-weight: 700;
-}
-
-body {
-  font-variation-settings: "slnt" 0;
-}
-
-em {
-  font-variation-settings: "slnt" 1;
-}
-
-.title {
-  font-family: $family-primary;
-}
-
-.subtitle {
-  font-family: $family-primary;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  @extend .title;
-}
-
-h1 {
-  @extend.is-1;
-}
-
-h2 {
-  @extend.is-2;
-}
-
-h3 {
-  @extend.is-3;
-}
-
-h4 {
-  @extend.is-4;
-}
-
-h5 {
-  @extend.is-5;
-
-}
-
-h6 {
-  @extend.is-6;
-}
-
-p {
-  @extend.mb-3;
-}
-
-.button {
-  font-family: $family-primary;
+b {
+  font-variation-settings: "wght" 380
 }
 
 .content figure {
   margin-left: 0;
   margin-right: 0;
 }
+
+.visually-hidden {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 - a 0 height clip, off to the bottom right of the visible 1px box */
+  clip: rect(1px, 1px, 1px, 1px);
+  /*maybe deprecated but we need to support legacy browsers */
+  clip-path: inset(50%);
+  /*modern browsers, clip-path works inwards from each corner*/
+  white-space: nowrap;
+  /* added line to stop words getting smushed together (as they go onto seperate lines and some screen readers do not understand line feeds as a space */
+}
+
+.icon {
+  color: $davys-gray;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: -.125em;
+}
+
+.icon:hover {
+  color: $link-hover;
+}
+
 
 /* Source: https://stackoverflow.com/questions/22252472/how-can-i-change-the-color-of-an-svg-element*/
 .filter-white {
@@ -93,7 +99,9 @@ p {
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(307deg) brightness(101%) contrast(103%)
 }
 
- .filter-white:hover, .navbar-item img:hover, .navbar-burger:hover {
+.filter-white:hover,
+.navbar-item img:hover,
+.navbar-burger:hover {
   filter: invert(61%) sepia(22%) saturate(284%) hue-rotate(161deg) brightness(97%) contrast(84%);
 }
 
@@ -107,10 +115,11 @@ p {
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
-.bullet li, .bullet-list ol {
+.bullet li,
+.bullet-list ol {
   margin-bottom: 1rem;
   line-height: 50%;
 }
@@ -121,41 +130,12 @@ ul {
 
 .bullet li::before {
   content: "\25AA";
-  color: #437daa;
+  color: $gurkha;
   font-weight: bold;
+  font-variation-settings: "wght" 700;
   display: inline-block;
   width: 0.75em;
-  margin-left: -1em;	
-}
-
-.navbar {
-  background-color: hsl(0 100% 100% / 0);
-  border: none;
-}
-
-/* .navbar-item, .navbar-burger {
-  color: $contrast;
-}
-
-.navbar-item:hover, .navbar-burger:hover {
-  color: $contrast;
-} */
-
-.hero {
-  margin-top: -25vh;
-  height: 100%;
-}
-
-.hero-video > div {
-  position: relative; // 16:9
-}
-
-.hero-video {
-  margin-inline: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  
+  margin-left: -1em;
 }
 
 // https://github.com/jgthms/bulma/issues/1121
@@ -182,11 +162,12 @@ blockquote {
   display: block;
   border-width: 2px 0;
   border-style: solid;
-  border-color: $white-ter;
+  border-color: $concrete;
   padding: 1.5em 0 0.5em;
   margin: 1.5em 0;
   position: relative;
 }
+
 blockquote:before {
   content: '\201C';
   position: absolute;
@@ -200,19 +181,23 @@ blockquote:before {
   color: $davys-gray;
   text-align: center;
 }
+
 blockquote:after {
   content: "\2013 \2003" attr(cite);
   display: block;
   text-align: right;
-  color: $squirrel;
+  color: $gurkha;
 }
 
-.attribution, .attribution p {
+.attribution,
+.attribution p {
   text-align: right;
-  color: $squirrel;
+  color: $primary;
 }
 
-.caption, .figcaption, .photo-credit {
+.caption,
+.figcaption,
+.photo-credit {
   font-size: 0.75rem;
   text-align: right;
 }
@@ -241,8 +226,12 @@ figure blockquote {
   content: '.'
 }
 
-:lang(en)>q{quotes:'\2018''\2019''\201C''\201D'}:lang(fr)>q {
-  quotes: '\00AB\202F''\202F\00BB''\201C''\201D'
+:lang(en)>q {
+  quotes: '\2018' '\2019' '\201C' '\201D'
+}
+
+:lang(fr)>q {
+  quotes: '\00AB\202F' '\202F\00BB' '\201C' '\201D'
 }
 
 .card-footer {
@@ -250,27 +239,33 @@ figure blockquote {
 }
 
 .equal-height {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .equal-height .card-content {
-    flex: auto;
+  flex: auto;
 }
 
-.h1, h2, h3, h4, h5, h6, title {
+.h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+title {
   line-height: 1;
 }
 
 /* Footnotes
 --------------------------------------------------------------------------------------------- */
 
-.footnotes hr{
-   border: none;
-    height: 2px;
-    background: $grey-lighter;
-    max-width: 20%;
+.footnotes hr {
+  border: none;
+  height: 2px;
+  background: $concrete;
+  max-width: 20%;
 }
 
 .footnotes {
@@ -278,7 +273,7 @@ figure blockquote {
 }
 
 .footnote-ref {
-  color:  $white;
+  color: $white;
   background-color: $tomato;
   padding: 1px 2px 1px;
 }
@@ -307,8 +302,12 @@ figure blockquote {
 }
 
 
-.list-item:not(.box){padding:.75em}.list-item:not(:last-child):not(.box) {
-  border-bottom: 1px solid $grey-lighter
+.list-item:not(.box) {
+  padding: .75em
+}
+
+.list-item:not(:last-child):not(.box) {
+  border-bottom: 1px solid $concrete
 }
 
 
@@ -316,7 +315,9 @@ figure blockquote {
   .list-item-image {
     padding: .5rem 0
   }
-}.list-item-content {
+}
+
+.list-item-content {
   flex-direction: column;
   flex-grow: 1;
   display: flex
@@ -326,30 +327,23 @@ figure blockquote {
   .list-item-content {
     padding: .5rem 0
   }
-}.list-item-title {
+}
+
+.list-item-title {
   color: $davys-gray;
-  font-weight: 600
+  font-weight: 600;
+  font-variation-settings: "wght" 600
 }
 
 .list-item-description {
-  color: $grey-dark
+  color: $davys-gray
 }
 
 /* Footer
 --------------------------------------------------------------------------------------------- */
-
-footer * {
-  color:  $white;
-  font-size: 0.87rem;
-  font-weight: normal;
-}
-
-footer a:hover {
-  color: $link-light;
-}
-
-footer img {
-  border-radius: 6px;
-  padding:  5px;
-  overflow: hidden;
+footer p {
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  margin: 0.5em;
+  text-align: center;
 }

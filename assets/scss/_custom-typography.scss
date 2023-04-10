@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: "Commissioner";
+  src: url("{{ .Site.BaseURL }}fonts/commissioner-variable.woff2") format("woff2") tech("variations"),
+      url("{{ .Site.BaseURL }}fonts/commissioner-variable.woff2") format("woff2-variations");
+  font-weight: 100 1000;
+  font-stretch: 75% 125%;
+  font-style: oblique 0deg 20deg;
+  unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+
+:root {
+// Typography
+--font-family: "Commissioner", system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu",
+  "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+  "Segoe UI Symbol", "Noto Color Emoji";
+  --font-weight: 230;
+}

@@ -33,11 +33,7 @@ wp_criticalcss_manual_css:
 wp_criticalcss_override_css:
     - ''
 ---
-Articles
-========
-
-<aside class="page-intro">Donald started publishing articles in 2005. A selection of his older contributions, listed below, is still online and new ones will continue to be published when inspiration and circumstances so dictate. Most of his articles are here, but, obviously, you can look him up on   [Twitter](https://www.twitter.com/donaldjenkins) if you yearn for more frequent updates from him.</aside><article class="page-segment" id="category-personal"><div class="category-description">Personal
---------
+Donald started publishing articles in 2005. A selection of his older contributions, listed below, is still online and new ones will continue to be published when inspiration and circumstances so dictate. Most of his articles are here, but, obviously, you can look him up on   [Twitter](https://www.twitter.com/donaldjenkins) if you yearn for more frequent updates from him.</aside>
 
 This includes a wide range of miscellaneous topics—inevitably inducing an impression of boundless eclecticism.
 

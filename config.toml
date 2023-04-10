@@ -1,9 +1,46 @@
-baseURL = 'http://example.org/'
+baseURL = '/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Donald Jenkins'
+description = "Donald Jenkins writes, takes photographs and dabbles in web design. He’s also a co-founder of the political social network start-up Policymakr."
 
+# Sets homepage meta description (for SEO)
+
+rssTitle = "Silvère Jarrosson"
+# Sets RSS feed title (for RSS readers)
+
+seoTitle = "Silvère Jarrosson, artiste-peintre"
+# Sets homepage <title> (for SEO)
+
+disableKinds = ["taxonomy", "taxonomyTerm"]
+disableHugoGeneratorInject = 'true'
+# relativeURLs = 'true'
+contentDir = 'content'
+enableInlineShortcodes = true
+enableGitInfo = true
+enableRobotsTXT = true
+
+[params]
+    stylesheets = ["styles.css"]
+    
+[sitemap]
+    changefreq = 'monthly'
+    filename = 'sitemap.xml'
+    priority = 0.5
+    
+[build]
+    writeStats = true
 
 [module]
 [[module.mounts]]
-  source = "./node_modules/@picocss/pico/scss"
-  target = "assets/scss"
+  source = "node_modules/@picocss/pico/scss"
+  target = "assets/scss/pico"
+
+[[module.mounts]]
+  source = "node_modules/@fortawesome/fontawesome-pro/scss"
+  target = "assets/scss/fontawesome"
+  
+  color = "#9c9a75"
+  # Sets theme colour& Safari mask icon colour
+  
+  [markup.goldmark.renderer]
+      unsafe = true # Allow HTML in md files

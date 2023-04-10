@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# website: http://ogp.me/ns/website#"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=54709&amp;path=livereload" data-no-instant defer></script>        
+    
+      <meta charset="utf-8" />
+
+  <link rel="preload" as="font" href="/fonts/commissioner-variable.woff2" data-wpacu-preload-font="1" crossorigin>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+
+       
+     
+        <title>
+            Backing up a Mac to Amazon S3 with Arq: the easiest, safest and most accurate solution 
+        </title>
+        <meta name="description" content=""> 
+    
+     <link href="/css/styles.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100;700&display=swap" rel="stylesheet">
+    <meta name="theme-color" content="">
+<link rel="icon" href="//localhost:54709/favicon.ico?v=2" sizes="any">
+<link rel="icon" href="//localhost:54709/icon.svg?v=2" type="image/svg+xml">
+<link rel="apple-touch-icon" href="//localhost:54709/apple-touch-icon.png?v=2">
+<link rel="manifest" href="//localhost:54709/manifest.webmanifest">
+      <meta name="robots" content="noarchive">   
+<link rel="canonical" href="//localhost:54709/backing-up-a-mac-to-amazon-s3-with-arq-the-easiest-safest-and-most-accurate-solution/">
+
+   
+<meta property="og:title" content="Backing up a Mac to Amazon S3 with Arq: the easiest, safest and most accurate solution">
+<meta property="og:description" content="">
+<meta property="og:type" content="article">
+
+<meta property="og:site_name" content="Donald Jenkins">
+<meta property="og:url" content="//localhost:54709/backing-up-a-mac-to-amazon-s3-with-arq-the-easiest-safest-and-most-accurate-solution/">
+<meta property="og:image" content="//localhost:54709/opengraph.png">
+<meta property="og:image:secure_url" content="//localhost:54709/opengraph.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Donald Jenkins logo">
+<meta name="twitter:card" content="summary_large_image"> 
+<meta name="twitter:site" content="@
+
+donaldjenkins">
+
+
+
+<link rel="alternate" type="application/rss+xml" title="" href="//localhost:54709//index.xml">
+
+    
+    
+</head>
+
+<body>
+    
+        
+<header class="container section">
+  
+  <h1 class="visually-hidden">Donald Jenkins</h1>
+   
+    <figure>
+      <a id="logo" class="navbar-item" href="/" title="Home">
+      <img src="/images/logo.svg" alt="Donald Jenkins" width="210" height="50" /></a>
+    </figure>
+  
+  <nav>
+    <ul>
+      <li>
+        <details role="list">
+          <summary aria-haspopup="listbox" role="button" class="secondary">Photos</summary>
+          <ul role="listbox">
+            <li><a href="/photos" data-theme-switcher="auto">Here</a></li>
+            <li><a href="https://www.flickr.com/photos/astorg" data-theme-switcher="light">Flicker</a></li>
+            <li><a href="https://instagram.com/donaldjenkins_/" data-theme-switcher="dark">Instagram</a></li>
+          </ul>
+        </details>
+      </li>
+      <li>
+        <details role="list">
+          <summary aria-haspopup="listbox">Articles</summary>
+          <ul role="listbox">
+            <li><a href="../v1-preview/">Preview</a></li>
+            <li><a href="../v1-preview-rtl/">Right-to-left</a></li>
+            <li><a href="../v1-classless/">Classless</a></li>
+            <li><a href="../v1-basic-template/">Basic template</a></li>
+            <li><a href="../v1-company/">Company</a></li>
+            <li><a href="../v1-google-amp/">Google Amp</a></li>
+            <li><a href="../v1-sign-in/">Sign in</a></li>
+            <li><a href="../v1-bootstrap-grid/">Bootstrap grid</a></li>
+          </ul>
+        </details>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+
+    
+
+<main class="container">
+    
+
+<section>
+        <h1>Backing up a Mac to Amazon S3 with Arq: the easiest, safest and most accurate solution</h1>
+        <p>Mac is among the most difficult systems to backup and restore correctly: Macs have peculiarities; <a href="http://en.wikipedia.org/wiki/Resource_fork">resource forks</a> and <a href="http://www.macosxtips.co.uk/index_files/peek-inside-mac-os-x-packages.html">packages</a>, for example, are unique to the Mac, and not every service handles them well.</p>
+<p>Few people pay much attention to this until they experience data loss through hardware damage, material error, theft or some other act of God the consequences of which can prove impossible to repair.</p>
+<p>The characteristic reaction to this, by many users, is simply to ignore the issue altogether and bank on the fact that data loss is unlikely to occur. This is the digital equivalent of driving uninsured or opening a undeclared bank account at a Latvian bank: it can seem a clever idea at the time, but time seldom stands still when risk-taking is involved.</p>
+<p>So what backup service to choose? To help one with this, there is a great tool called <a href="https://web.archive.org/web/20150414094852/http://www.n8gray.org/code/backup-bouncer/">Backup Bouncer</a> that can be used to verify metadata backup and restore for Mac backup software.</p>
+<h2 id="using-time-machine-or-apples-time-capsule-exposes-one-to-unacceptable-risks">Using Time Machine or Apple’s Time Capsule exposes one to unacceptable risks</h2>
+<p>Of course you can always use Apple’s <a href="http://www.apple.com/macosx/what-is-macosx/time-machine.html">Time Machine</a> to create a copy of your data. Time Machine was somewhat buggy and slow in Mac OS X Leopard 10.5. For example, it would say <q>preparing backup</q> forever. In Mac OS X 10.6 Snow Leopard, Time Machine is admittedly much faster and more reliable too. Nevertheless, a Time Machine backup drive must remain attached to the computer, or relatively near it. Therefore, it’s exposed to the same risks as the computer: theft, fire, flood. Not something I would want to trust.</p>
+<p>Apple offers its own in-house <a href="http://en.wikipedia.org/wiki/Network-attached_storage">network-attached storage</a> backup device, <a href="http://www.apple.com/timecapsule/">Time Capsule</a>, to use in conjunction with Time Machine: one of its key features is the ability to back up a system and files wirelessly and automatically, which eliminates the need for a separate external drive to be attached. In October 2009, several news sites reported that many Time Capsules were failing after eighteen months. Users have alleged that this is due to a design failure in the power supplies; Apple has <a href="http://support.apple.com/kb/TS3351">confirmed</a> that certain Time Capsules sold between February 2008 and June 2008 do not power on or may unexpectedly turn off and has offered free repair or replacement to affected units. The risk of using Time Capsule remains, to my mind, unacceptable, as witnessed by the continued existence of the <a href="https://web.archive.org/web/20161013105725/http://timecapsuledead.org:80/">Apple Time Capsule Memorial Register</a>, in witness to all the defunct devices that perished in active service. The same, in reality, is true of any external drive: I’ve owned several, and not a single one of them has not failed me eventually, occasioning data loss. In fact, horror stories about Time Capsule are so numerous that I haven’t been even remotely tempted to try one out, ever. Here’s <a href="http://www.tuaw.com/2010/07/09/my-trip-through-time-capsule-hell-leads-to-a-different-backup-ap/">one from TUAW</a> taken as an example:</p>
+<blockquote>
+<p>Working with Time Machine in Leopard or Snow Leopard, the Time Capsule updates its backups every hour. This makes perfect sense if you’re just dealing with one Mac wired into the Time Capsule, since it really doesn’t slow anything down. But if you are using it to wirelessly back up multiple Macs, hourly backups slow everything down to a crawl.</p>
+</blockquote>
+<p>TimeMachineEditor (a free utility that I highly recommend), allows you to set Time Machine to back up as frequently or infrequently as you like. I created a setup where, with staggered backups starting between 2am and 4am, each Mac gets backed up once a day. Outside of some errant sparse image problems that required a reformat, all was well. I had long beaten the 18 month Time Capsule funerals that were recently reported… but then things turned ugly.</p>
+<p>About two weeks ago, my Time Capsule died, taking my home network down with it. The next day I went to the Apple Store and bought a replacement. I was quite unhappy that many months of backups were gone, but machines do break. I brought the new unit home and configured it. In less than 10 minutes, I was up and running … for a week. Then my unit died again. The Time Capsule showed a solid amber light that could not be corrected with a factory reset. After replacing the cable modem, and being able to successfully plug it into my iMac, the problem persisted. I went through another two Time Capsules that would not complete the start-up sequence.</p>
+<p>Although strange, the problem seemed to be the power feeding the Time Capsule. All other devices on the same circuit worked fine, but it took a dedicated power line devoted to the Time Capsule for everything to work properly. This may be related to power issues that impaced many users, or maybe not. It seems that power fluctuations that any other devices would take in stride can wreak havoc with a Time Capsule.</p>
+<p>While external drives may often be the only choice for those with large photo libraries (in which case I’d recommend Apple’s <a href="http://www.apple.com/macmini/server/">Mac Mini with Snow Leopard Server</a>, the only realistic solution, to my mind, was off-site backups. The two drawback of these, of course, are (1) that it can take an awfully long time sending one’s initial backup to an offsite server, and (2) that it isn’t altogether reassuring to know that one’s data is stored, even in encrypted form, in the care of a third party.</p>
+<h2 id="unfortunately-most-commercial-off-site-backup-services-are-slow-and-corrupt-the-data-they-store-on-your-behalf">Unfortunately, most commercial off-site backup services are slow, and corrupt the data they store on your behalf</h2>
+<p>Just to make things worse, it turns out a number of commercial backup services corrupt data they store on your behalf. The Mac is among the most difficult systems to backup and restore correctly: on modern filesystems, there is a lot more than just file data on your filesystem. There is lots of metadata information that goes along with your files and can be important to backup and restore in many situations. One example is security information — most desktop users don’t really know about file ownership, security information, and ACLs, but on servers that type of information is important and if lost it could lead to a security leak or permission issues. Fortunately, <a href="https://web.archive.org/web/20150414094852/http://www.n8gray.org/code/backup-bouncer/">Backup Bouncer</a>, which I mentioned earlier, can be used to verify metadata backup and restore for Mac backup software. The results, for most of the commercial services available, are actually pretty disastrous:</p>
+<figure><table id="hor-minimalist-b" summary="Offsite Backup Comparison"><thead><tr><th scope="col">Product</th><th scope="col">Results</th><th scope="col"></th></tr></thead><tbody><tr><td>[Mozy](http://mozy.com/)</td><td>Failed 16 of 20 tests</td><td>[see results](http://www.haystacksoftware.com/arq/mozy-backup-bouncer-test.txt)</td></tr><tr><td>[Backblaze](http://www.backblaze.com/)</td><td>Failed 19 of 20 tests</td><td>[see results](http://www.haystacksoftware.com/arq/backblaze-backup-bouncer-test.txt)</td></tr><tr><td>[Carbonite](http://www.carbonite.com/)</td><td>Failed 20 of 20 tests</td><td>[see results](http://www.haystacksoftware.com/arq/carbonite-backup-bouncer-test.txt)</td></tr><tr><td>[Dropbox](http://itunes.apple.com/us/app/droptext-a-text-editor-for/id371880635?mt=8)</td><td>Failed 19 of 20 tests</td><td>[see results](http://www.haystacksoftware.com/arq/dropbox-backup-bouncer-test.txt)</td></tr><tr><td>CrashPlan Central</td><td>Failed 12 of 20 tests</td><td>[see results](http://www.haystacksoftware.com/blog/2010/06/crashplan-restore-analysis/)</td></tr><tr><td>Jungle Disk</td><td>Passes all tests</td><td>[see results](http://blog.jungledisk.com/2009/11/13/what-does-extended-metadata-backup-mean/)</td></tr></tbody></table>
+<figcaption class="quote-source">Source: [Arq](http://www.haystacksoftware.com/arq/) website</figcaption></figure>The Backup Bouncer data doesn’t, either, take account of the time it takes to carry out one’s initial backup. When I tried to back up a small MacBook with 150GB of data on Backblaze, it took three weeks of continuous use — and considerable CPU slowdown — for my initial upload of files to complete. Crashplan actually offers a service whereby you can [seed your initial backup](http://support.crashplan.com/doku.php/feature/seed_service), sending you a drive by post on which to transfer your data before sending it back to them, but they limit this to 1TB, and charge $124.99 for the service. I still think they are the best of the standard commercial backup services, if only because of this useful feature — but even they are hardly perfect.
+<h2 id="amazon-s3-is-the-cheapest-quickest-most-reliable-and-secure-backup-medium-available">Amazon S3 is the cheapest, quickest, most reliable and secure backup medium available</h2>
+<p>Nonetheless, the best — and by far the cheapest — way of ensuring quick, secure, accurate and truly private backups remains a timeless favourite, <a href="http://aws.amazon.com/s3/">Amazon S3</a>. As Amazon themselves put it:</p>
+<blockquote>
+<p>The Amazon S3 solution offers a highly durable, scalable, and secure solution for backing up and archiving your critical data. You can use Amazon S3’s Versioning capability to provide even further protection for your stored data. If you have data sets of significant size, you can use AWS Import/Export to move large amounts of data into and out of AWS with physical storage devices. This is ideal for moving large quantities of data for periodic backups, or quickly retrieving data for disaster recovery scenarios.</p>
+</blockquote>
+<p>It’s no coincidence that Jungle Disk is the only of the services surveyed above that passes all of Backup Bouncer’s tests: Amazon’s storage service is the <em>only</em> one that provides absolutely accurate copies of Mac OS X files. It also has the enormous advantage over commercial services that store data on their own or on third-party servers that it protects you from the risk of your backup company going under or suffering from some major unforeseen disaster <a href="#bfn-footnotes-140">§</a>.</p>
+<p>I have actually been conducting backups of my various Macs using Amazon S3 ever since <a href="http://paulstamatiou.com/how-to-bulletproof-server-backups-with-amazon-s3">Paul Stamatiou</a> wrote about it in 2007. But in recent months I’ve become increasingly dissatisfied with Jungle Disk, the client I’ve been relying on to back my data to my server: it tends to occupy a very prominent place in my dock, with its extremely ugly icon, uses its own proprietary file format and causes occasional CPU bottlenecks. After giving up on Backblaze because of its atrocious slowness and poor customer service, I finally removed Jungle Disk, Backblaze and Crashplan and instead opted for the little-known, very lightweight <a href="http://www.haystacksoftware.com/arq/">Arq</a> from Haystack Software. Its advantages can be briefly summarised as follows:</p>
+<ul>
+<li>Arq stores your backup data in your own Amazon S3 account, encrypted with your own password — neither Amazon nor Haystack Software have access;</li>
+<li>Arq encrypts your data before it leaves your computer using AES-256, a government and industry standard;</li>
+<li>your backups are stored in an open, documented <a href="http://www.haystacksoftware.com/arq/s3_data_format.txt">format</a>; they’ve also delivered an open-source command-line utility called <a href="https://arqbackup.github.io/arq_restore/">arq_restore</a>, which is <a href="http://github.com/sreitshamer/arq_restore">hosted at github</a>, so you can read your data anytime without depending on Haystack Software in the event they they suddenly do a vanishing act: <em>in other words, whatever happens, your data remains yours</em>.</li>
+</ul>
+<p>Arq’s accuracy is on a par with Jungle Disk’s, without the hassle: its Backup Bouncer <a href="http://www.haystacksoftware.com/arq/arq-backup-bouncer-test.txt">results</a> show it passes all tests, and it resides in a small, inconspicuous menu icon, from which you can launch the main application if you need to change a setting. It also has the advantage, over Jungle Disk, of being designed from the ground as a backup solution for the Mac, whereas Jungle Disk’s backup capacity is just one of a number of services, including mirroring files between client and server, that it offers on both Mac and Windows platforms — with the Mac often giving the impression of being the poor relation.</p>
+<p>Enquiries to the developer behind Haystack Software, Stefan Reitsamer, yielded extremely prompt and relevant responses and the site has a lively <a href="http://www.haystacksoftware.com/support/arqforum/">forum</a> and detailed, well thought-out documentation. Above all, my entire backup for the MacBook Air that currently serves as my only computer was complete in less than a day (and that was on a rather poor, French Internet connection).</p>
+<h2 id="used-in-combination-with-dropbox-google-apps-and-optionally-mobileme-amazon-s3-can-get-you-back-working-exactly-where-you-were-if-something-unexpected-happens-to-your-mac">Used in combination with Dropbox, Google Apps and, optionally, MobileMe, Amazon S3 can get you back working exactly where you were if something unexpected happens to your Mac</h2>
+<p>I continue to use <a href="http://itunes.apple.com/us/app/droptext-a-text-editor-for/id371880635?mt=8">Dropbox</a> syncs for any data that I need to access simultaneously from several devices, whether computers, iPhones or iPads: this means that my Dropbox copies of this data (essentially my 1Password data, documents, photographs and music) can be regarded as <a href="https://www.dropbox.com/">securely backed up</a>. Better still, <a href="https://www.dropbox.com/">Dropbox keeps a thirty-day history</a> of every change you make so that you can undo any mistakes and even undelete files if required.</p>
+<p>The combination of these two simple tools mean that if I lost access to my computer, its replacement could be rapidly running again with an effectively identical file system using a combination of the actual backups created <em>via</em> Arq and the files stored in <a href="http://itunes.apple.com/us/app/droptext-a-text-editor-for/id371880635?mt=8">Dropbox</a>, while emails and calendar items would be safe in Google Apps and Contacts in MobileMe.</p>
+<p>An Arq licence for one computer costs $29, with a five-computer option available at $59. Amazon’s very reasonable monthly charge comes on top of that. You can cap it within Arq’s preferences to whatever suits you, and you’ll be kept within budget by deleting your oldest backups as the new ones come in.</p>
+<div class="bfn-footnotes" data-container="" data-post-id="140" id="bfn-footnotes-140" style="display: none;">### References
+</div>
+</section>
+
+
+    <section class="contact" id="contact">
+    <div class="contact-box">
+        <div class="content-box">
+            <div class="contact-form">
+                <form action="#" method="POST">
+                    <textarea placeholder="Have something to say ?" name="message" required="required"></textarea>
+                    <input placeholder="your email address" id="feedback-from" type="email"
+                        name="email" name="_replyto" required="required">
+                    <button class="button" type="submit" id="send">Send</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="content-box contact-form">
+            <div id="success-message" hidden>
+                <h2 class="is-size-2 has-text-centered has-text-white has-text-weight-bold">We've received your submission</h2>
+                <p class="has-text-centered has-text-white">Thank you for your message and for your interest. We'll reply as soon as possible, obviously.</p>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+
+    
+    <footer class="container">
+    <small>
+
+        <p><a id="footer-logo" href="//localhost:54709/" title="Go to Home page"><img src="//localhost:54709/images/logo.svg" alt="Donald Jenkins" width="100" height="27"></a></p>
+        <p><strong>Copyright &#169; Donald Jenkins 2023</strong></p>
+        <p><a href="/legal" title="Lire les mentions légales">
+                Want to read the legal stuff?
+            </a></p>
+        <p>
+            <a href="https://www.twitter.com/donaldjenkins">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z" />
+                </svg>
+            </a>
+            <a href="https://github.com/donaldjenkins">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM277.3 415.7c-8.4 1.5-11.5-3.7-11.5-8 0-5.4.2-33 .2-55.3 0-15.6-5.2-25.5-11.3-30.7 37-4.1 76-9.2 76-73.1 0-18.2-6.5-27.3-17.1-39 1.7-4.3 7.4-22-1.7-45-13.9-4.3-45.7 17.9-45.7 17.9-13.2-3.7-27.5-5.6-41.6-5.6-14.1 0-28.4 1.9-41.6 5.6 0 0-31.8-22.2-45.7-17.9-9.1 22.9-3.5 40.6-1.7 45-10.6 11.7-15.6 20.8-15.6 39 0 63.6 37.3 69 74.3 73.1-4.8 4.3-9.1 11.7-10.6 22.3-9.5 4.3-33.8 11.7-48.3-13.9-9.1-15.8-25.5-17.1-25.5-17.1-16.2-.2-1.1 10.2-1.1 10.2 10.8 5 18.4 24.2 18.4 24.2 9.7 29.7 56.1 19.7 56.1 19.7 0 13.9.2 36.5.2 40.6 0 4.3-3 9.5-11.5 8-66-22.1-112.2-84.9-112.2-158.3 0-91.8 70.2-161.5 162-161.5S388 165.6 388 257.4c.1 73.4-44.7 136.3-110.7 158.3zm-98.1-61.1c-1.9.4-3.7-.4-3.9-1.7-.2-1.5 1.1-2.8 3-3.2 1.9-.2 3.7.6 3.9 1.9.3 1.3-1 2.6-3 3zm-9.5-.9c0 1.3-1.5 2.4-3.5 2.4-2.2.2-3.7-.9-3.7-2.4 0-1.3 1.5-2.4 3.5-2.4 1.9-.2 3.7.9 3.7 2.4zm-13.7-1.1c-.4 1.3-2.4 1.9-4.1 1.3-1.9-.4-3.2-1.9-2.8-3.2.4-1.3 2.4-1.9 4.1-1.5 2 .6 3.3 2.1 2.8 3.4zm-12.3-5.4c-.9 1.1-2.8.9-4.3-.6-1.5-1.3-1.9-3.2-.9-4.1.9-1.1 2.8-.9 4.3.6 1.3 1.3 1.8 3.3.9 4.1zm-9.1-9.1c-.9.6-2.6 0-3.7-1.5s-1.1-3.2 0-3.9c1.1-.9 2.8-.2 3.7 1.3 1.1 1.5 1.1 3.3 0 4.1zm-6.5-9.7c-.9.9-2.4.4-3.5-.6-1.1-1.3-1.3-2.8-.4-3.5.9-.9 2.4-.4 3.5.6 1.1 1.3 1.3 2.8.4 3.5zm-6.7-7.4c-.4.9-1.7 1.1-2.8.4-1.3-.6-1.9-1.7-1.5-2.6.4-.6 1.5-.9 2.8-.4 1.3.7 1.9 1.8 1.5 2.6z" />
+                </svg>
+            </a>
+            <a href="https://instagram.com/donaldjenkins_/">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path d="M224,202.66A53.34,53.34,0,1,0,277.36,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31,6.43a54,54,0,0,0-30.41,30.41c-8.28,21-6.43,71.05-6.43,94.33S91,329.26,99.32,350.33a54,54,0,0,0,30.41,30.41c21,8.29,71,6.43,94.31,6.43s73.24,1.93,94.3-6.43a54,54,0,0,0,30.41-30.41c8.35-21,6.43-71.05,6.43-94.33S357.1,182.74,348.75,161.67ZM224,338a82,82,0,1,1,82-82A81.9,81.9,0,0,1,224,338Zm85.38-148.3a19.14,19.14,0,1,1,19.13-19.14A19.1,19.1,0,0,1,309.42,189.74ZM400,32H48A48,48,0,0,0,0,80V432a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V80A48,48,0,0,0,400,32ZM382.88,322c-1.29,25.63-7.14,48.34-25.85,67s-41.4,24.63-67,25.85c-26.41,1.49-105.59,1.49-132,0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61,0-132,1.29-25.63,7.07-48.34,25.85-67s41.47-24.56,67-25.78c26.41-1.49,105.59-1.49,132,0,25.63,1.29,48.33,7.15,67,25.85s24.63,41.42,25.85,67.05C384.37,216.44,384.37,295.56,382.88,322Z" />
+                </svg>
+            </a>
+
+            <a href="https://jenkins.social/@donald">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z" />
+                </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/donaldjenkins">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                </svg>
+            </a>
+        </p>
+
+    </small>
+</footer>
+    
+    
+
+</body>
+
+</html>

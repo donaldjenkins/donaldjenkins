@@ -1,6 +1,6 @@
 // Brand colors
-$squirrel: #958b7f;
-$horizon: #50849e;
+$gurkha: #9c9a75;
+$horizon: #889ca6;
 $tin: #7f7f7f;
 $davys-gray: #575757;
 $concrete: #f0f0f0;
@@ -10,10 +10,10 @@ $eton-blue: #96c8a2;
 $tomato: #dd3333;
 
 // Set derived colors
-$primary: $squirrel !default;
+$primary: $gurkha !default;
 $primary-hover: lighten ($primary, 30%) !default;
-$link: lighten($horizon, 5%) !default;
-$link-visited: $horizon !default;
+$link: $primary !default;
+$link-visited: $fuzzy-wuzzy-brown !default;
 $link-hover: darken($link, 10%) !default;
 $link-focus-border: $tin;
 
@@ -26,7 +26,7 @@ $scheme-main-bis: $grey-dark;
 $body-background-color: $white;
 
 // Update Bulma's global variables
-$family-sans-serif: "Quicksand", -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe Ui", "Helvetica Neue", "Helvetica", "Cantarell", "Ubuntu", "Roboto", "Noto", "Arial", Sans-Serif;
+$family-sans-serif: "Commissioner", -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe Ui", "Helvetica Neue", "Helvetica", "Cantarell", "Ubuntu", "Roboto", "Noto", "Arial", Sans-Serif;
 $family-monospace: "Menlo", "Consolas", "Monaco", "Liberation Mono", "Lucida Console", monospace;
 $family-code: "Menlo", "Consolas", "Monaco", "Liberation Mono", "Lucida Console", monospace;
 
@@ -54,3 +54,14 @@ $input-shadow: none;
 $title-color: $davys-gray;
 $subtitle-color: lighten($title-color, 10%);
 $text-on-dark: darken($concrete, 27%);
+
+// Customize pico colors
+
+/* Pink Light scheme (Default) */
+/* Can be forced with data-theme="light" */
+[data-theme="light"],
+:root:not([data-theme="dark"]) {
+  --primary: $primary;
+  --primary-hover: lighten (--primary, 30%);
+  --primary-inverse: #FFF;
+}

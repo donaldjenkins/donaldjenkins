@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# website: http://ogp.me/ns/website#"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=54709&amp;path=livereload" data-no-instant defer></script>        
+    
+      <meta charset="utf-8" />
+
+  <link rel="preload" as="font" href="/fonts/commissioner-variable.woff2" data-wpacu-preload-font="1" crossorigin>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+
+       
+     
+        <title>
+            Connecting WordPress, Lightroom and Apple Photos 
+        </title>
+        <meta name="description" content=""> 
+    
+     <link href="/css/styles.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@100;700&display=swap" rel="stylesheet">
+    <meta name="theme-color" content="">
+<link rel="icon" href="//localhost:54709/favicon.ico?v=2" sizes="any">
+<link rel="icon" href="//localhost:54709/icon.svg?v=2" type="image/svg+xml">
+<link rel="apple-touch-icon" href="//localhost:54709/apple-touch-icon.png?v=2">
+<link rel="manifest" href="//localhost:54709/manifest.webmanifest">
+      <meta name="robots" content="noarchive">   
+<link rel="canonical" href="//localhost:54709/connecting-wordpress-lightroom-and-apple-photos/">
+
+   
+<meta property="og:title" content="Connecting WordPress, Lightroom and Apple Photos">
+<meta property="og:description" content="">
+<meta property="og:type" content="article">
+
+<meta property="og:site_name" content="Donald Jenkins">
+<meta property="og:url" content="//localhost:54709/connecting-wordpress-lightroom-and-apple-photos/">
+<meta property="og:image" content="//localhost:54709/opengraph.png">
+<meta property="og:image:secure_url" content="//localhost:54709/opengraph.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Donald Jenkins logo">
+<meta name="twitter:card" content="summary_large_image"> 
+<meta name="twitter:site" content="@
+
+donaldjenkins">
+
+
+
+<link rel="alternate" type="application/rss+xml" title="" href="//localhost:54709//index.xml">
+
+    
+    
+</head>
+
+<body>
+    
+        
+<header class="container section">
+  
+  <h1 class="visually-hidden">Donald Jenkins</h1>
+   
+    <figure>
+      <a id="logo" class="navbar-item" href="/" title="Home">
+      <img src="/images/logo.svg" alt="Donald Jenkins" width="210" height="50" /></a>
+    </figure>
+  
+  <nav>
+    <ul>
+      <li>
+        <details role="list">
+          <summary aria-haspopup="listbox" role="button" class="secondary">Photos</summary>
+          <ul role="listbox">
+            <li><a href="/photos" data-theme-switcher="auto">Here</a></li>
+            <li><a href="https://www.flickr.com/photos/astorg" data-theme-switcher="light">Flicker</a></li>
+            <li><a href="https://instagram.com/donaldjenkins_/" data-theme-switcher="dark">Instagram</a></li>
+          </ul>
+        </details>
+      </li>
+      <li>
+        <details role="list">
+          <summary aria-haspopup="listbox">Articles</summary>
+          <ul role="listbox">
+            <li><a href="../v1-preview/">Preview</a></li>
+            <li><a href="../v1-preview-rtl/">Right-to-left</a></li>
+            <li><a href="../v1-classless/">Classless</a></li>
+            <li><a href="../v1-basic-template/">Basic template</a></li>
+            <li><a href="../v1-company/">Company</a></li>
+            <li><a href="../v1-google-amp/">Google Amp</a></li>
+            <li><a href="../v1-sign-in/">Sign in</a></li>
+            <li><a href="../v1-bootstrap-grid/">Bootstrap grid</a></li>
+          </ul>
+        </details>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+
+    
+
+<main class="container">
+    
+
+<section>
+        <h1>Connecting WordPress, Lightroom and Apple Photos</h1>
+        <p>While any serious photographer will use several cameras and lenses, the dramatic improvement in the quality of Apple’s iPhone cameras has led many people, me included, to take the majority of their photographs on their phones. A lot of these pictures may end up on an Instagram or Facebook profile—easily done directly from an iPhone—rather than a WordPress site. But if, like me, you wish to keep your photographs in some semblance of order and also display them on your site, the iPhone will have introduced additional complexity into your workflow.</p>
+<p>The complexity grows further if, like me, you want to display your photographs in your WordPress website without using a resource-draining plugin, and retain consistency between the images on your website and those in your Apple <a href="https://www.apple.com/ios/photos/" title="The official Apple Photos for iOS page">Photos</a> Library.</p>
+<p>The workflow I’m going to describe in this article involves two successive stages:</p>
+<ol>
+<li>Automatically pushing all your photographs (whether taken with your iPhone or with an external camera) from Apple Photos to Lightroom.</li>
+<li>Managing all the photographs, post illustrations and images you display on WordPress, together with all the associated metadata, out of Lightroom.</li>
+</ol>
+<p>For the first component of this workflow, we’ll be using <a href="https://www.adobe.com/creativecloud.html" title="What is Creative Cloud?">Adobe Creative Cloud</a>; for the second component, our tool will be a plugin called <a href="https://meowapps.com/plugin/wplr-sync/" title="Home page for WP/LR Sync">WP/LR Sync</a>.</p>
+<p>Before I begin describing those two processes, however, I should provide some context to explain the reason why I chose to use this particular workflow.</p>
+<div class="wp-block-image"><figure class="aligncenter">![The workflow described in this article](https://cdn.donaldjenkins.com/images/the-workflow-described-in-this-article-868x1024.png?lossy=1&ssl=1)<figcaption>The workflow described in this article: once a photo is taken either with my iPhone or an external camera, it is successively (1) integrated into my Apple Photos Library, either automatically, or by being imported via the Lightning to SD Card Camera Reader, or using Photomyne; (2) imported into Adobe Cloud via the Lightroom CC iOS app; (3) synced with Lightroom Classic CC on my Mac and (4) synced with my WordPress Media Library via WP/LR Sync</figcaption></figure></div>Switching from Lightroom to Apple Photos, then (partly) back to Lightroom
+-------------------------------------------------------------------------
+<p>Historically, before the iPhone became the camera I used for most of my photos, including most of the serious ones, I organized my photos in <a href="https://www.adobe.com/products/photoshop-lightroom.html" title="Adobe Lightroom">Adobe Lightroom</a>, which in those days was, essentially, a closed, desktop app.</p>
+<p>But as I started taking most of my photos on my iPhone, I found constantly transferring photos from the Apple ecosystem to the Adobe one inconvenient. So when Apple launched its own new, dramatically-improved photos management system, <a href="https://www.apple.com/macos/photos/" title="Apple Photos">Photos</a>, I decided to switch from the Adobe photo management ecosystem to the Apple Photos one. This was for two primary reasons.</p>
+<p>The first was, quite simply, the convenience of using a photo-management ecosystem that was tightly integrated with all my Apple devices. Using Apple Photos as your primary Photo Management system means all your photos are immediately available all your devices, ready to share using all the apps you’ve installed on them. The sharing options available if you store your photos in Adobe Cloud as I did previously, while they exist, are just not quite as extensive. I found the convenience of this impossible to resist, and converted my photo library from Lightroom to Apple Photos.</p>
+<p>Around the same time, using <a href="https://photomyne.com" title="Photomyne App">Photomyne</a>, I scanned all my old family photos, some of them going back to the first half of the twentieth century, meaning all my photos were available in a single place.</p>
+<p>I assigned a location and title to all the scanned photographs, which you can do in Photomyne itself, but is actually also very <a href="https://support.apple.com/guide/photos/add-titles-descriptions-and-more-phta4e5a733f/mac" title="Add titles, descriptions, and more to photos using Photos on Mac">easy to do</a> in Apple Photos.</p>
+<p>The second reason that prompted me to switch to the Apple Photos ecosystem was that a great deal of the photo editing work that I used to carry out in Lightroom can now be done directly in Apple Photos. This can be done in two ways:</p>
+<ul>
+<li>first, you can use the editing tool built-in to Apple Photos, which allows you to edit a photo directly using any client app that offers built-in support for this feature;</li>
+<li>alternatively, you can edit the photo separately in any third-party app (I personally prefer <a href="https://itunes.apple.com/app/id439438619" title="Snapseed">Snapseed</a>).</li>
+</ul>
+<p>The Apple Photos ecosystem, however, is a relatively closed one, which results in a large number of constraints when you want to display or move your photographs outside of it. Your shots are not individually identifiable, as files, in the way they are in Lightroom, within Apple’s Photos Library. You can share photos from Apple Photos, but <a href="https://www.organizepictures.com/2016/01/move-away-from-photos" title="6 steps to move away from Photos on your Mac">there is no easy way</a> of exporting your photos, individually or collectively, let alone synchronizing them with anything else. From this point of view, the switch to Photos from Lightroom was a step backwards.</p>
+<p>For some time I’d been looking for a workflow that gave me the best of both worlds: the ability to store and edit all my photographs on my iPhone, but also for them to be available in the Classic desktop iteration of Lightroom, should I need the more powerful features that system offers, chief among them (as we shall see) the ability to sync with photos published on my WordPress site. New features that became available in the Adobe ecosystem convinced me to partly switch back to using Lightroom to manage my photos, including those I display on my WordPress site.</p>
+<h2 id="using-lightroom-classic-cc-and-lightroom-cc-to-automatically-push-photos-from-apple-photos-to-the-adobe-cloud-ecosystem">Using Lightroom Classic CC and Lightroom CC to automatically push photos from Apple Photos to the Adobe Cloud ecosystem</h2>
+<p>Adobe reacted to Apple’s new Photos ecosystem, in 2017, by splitting its own Lightroom app into two:</p>
+<ul>
+<li>Lightroom Classic CC, a desktop-only app which continued to manage your library in the same sophisticated way targeted at serious photographers;</li>
+<li>Lightroom CC, the new online cloud-based version of Adobe’s Lightroom application, which can be installed alongside Lightroom Classic CC, can be installed on desktops, laptops, iPad and mobile, and has the ability to sync developed photos easily between all these devices.</li>
+</ul>
+<p>Confusingly, the photo libraries used by Lightroom Classic CC and Lightroom CC are not identical:</p>
+<ul>
+<li>the Lightroom Classic CC library continues to be stored on your desktop hard drive, in <code>*.lrcat</code> format;</li>
+<li>in Lightroom CC, all your photos are stored online by Adobe. You can choose to store them locally too: in this case, however, Lightroom CC stores your entire library in one place.</li>
+</ul>
+<p>The way in which you organize your work is also different:</p>
+<ul>
+<li>Lightroom Classic CC actually offers two parallel organizational systems. It has a Folders panel for showing where your images are actually stored on your hard disk, and a Collections panel for organizing them ‘virtually’ into Collections, Smart Collections and Collection Sets;</li>
+<li>Lightroom CC has no ‘Folders’ at all, and its only organizational tool is Albums (these can be organized into folders, but these are just virtual containers, not actual folders on a computer).</li>
+</ul>
+<p>The key difference, however, is plugins: Lightroom Classic CC supports plug-ins like the Nik Collection, Luminar, ON1 Photo RAW and more; so far, there’s no sign of plug-in support in Lightroom CC.</p>
+<p>There is one last crucial difference between Lightroom Classic CC and Lightroom CC:</p>
+<ul>
+<li>Lightroom Classic CC is a closed ecosystem: you can import photos into it, and in fact the range of options available to you in that respect is quite broad, since you can choose to reference photos located anywhere, without moving them, or import them and move them to a new location—but you can’t make it sync with anything;</li>
+<li>Lightroom CC, on the other hand, can be made to <em>automatically</em> import photos from your camera roll.</li>
+</ul>
+<div class="wp-block-image"><figure class="aligncenter is-resized">![](https://cdn.donaldjenkins.com/images/auto-add-from-camera-roll-in-lightroom-cc.jpg?lossy=1&quality=90&fit=800%2C1024&ssl=1)<figcaption>Lightroom CC can be set to automatically import everything from your iOS device. This effectively injects all your new photos into the Adobe Cloud ecosystem</figcaption></figure></div>The last point to understand, for our purposes, is that the two versions of Lightroom can be made to work together, allowing us to combine the respective advantages we have just described for each of them. This is because Lightroom Classic CC can sync with Lightroom CC; and since the latter can automatically import images from Apple Photos, we have a way of pushing photos we take with our iPhone all the way to Adobe Lightroom Classic CC on our Mac desktop.
+<p>Photos shot on cameras other than my iPhone can easily be incorporated into this workflow. There are several ways if doing this but I find the easiest and most logical to be importing them into Apple Photos by using a <a href="https://www.apple.com/shop/product/MJYT2AM/A/lightning-to-sd-card-camera-reader" title="Lightning to SD Card Camera Reader">Lightning to SD Card Camera Reader</a>. This ensures all my photographs, regardless of what device they were taken on, will be available on both the Apple Photos ecosystem and, once imported via Lightroom CC, on Adobe Cloud and, eventually, on Lightroom Classic CC.</p>
+<p>This means I now have a complete archive of all my photographs, spanning almost a hundred years, originally contained in Apple Photos and now included, with all their metadata, in my Lightroom Classic CC library.</p>
+<p>We now have a workflow whereby all the photographs we take, once they are on one of our iOS devices, are pushed automatically to Lightroom Classic CC on our Mac. The one drawback of this approach is that it is a one-way push, meaning there will be no two-way sync, and any edits we make to these pictures in Lightroom Classic CC will never show up on Apple Photos. But that doesn’t matter for my purposes, since I actually do the editing for my pictures on my iPhone or iPad, and use Lightroom primarily for storing and dispatching them to Flickr and to my WordPress site.</p>
+<h2 id="sync-photos-between-the-mac-and-wordpress">Sync photos between the Mac and WordPress</h2>
+<p>We now move to the second part of this workflow, which brings the photos I wish to display online to my WordPress site, with all the edits and metadata I wish to include from the originals my photo library, as part of a two-way sync. Once photos from my iOS devices are available on the Mac, I can continue processing them within the Lightroom interface.</p>
+<p>In my case, this primarily involves sorting, adding metadata (especially titles, captions, Creative Commons settings, and, occasionally deleting duplicates). Lightroom, with its rich plugin ecosystem, provides an environment to do this that Apple Photos does not.</p>
+<p>In a few cases, I might want to edit a picture using editing tools the equivalent of which is not available for mobile devices, such as <a href="http://www.imagenomic.com/Products/Portraiture" title="Portraiture">Portraiture</a> or <a href="https://nikcollection.dxo.com/silver-efex-pro/" title="Silver Efex">Silver Efex</a>.</p>
+<p>The tool I will be using for this second stage of the workflow, to get the photos I want to share on my site all the way to my WordPress Media Library, is Jordy Meow’s <a href="https://meowapps.com/plugin/wplr-sync/" title="WP/LR Sync">WP/LR Sync</a> plugin, which makes use of Lightroom’s very useful Publish Service functionality. Its key feature is that it allows you to synchronize the version of a photo in Lightroom with the version in WordPress. That can be infinitely useful for managing metadata like titles and captions, if you decide to manage these from within Lightroom. It consists of two components:</p>
+<ul>
+<li>one is available in the WordPress repository and has to be installed on your WordPress website;</li>
+<li>the other one is for Lightroom and can be downloaded from your account on the Meow Apps store.</li>
+</ul>
+<p>The two plugins will communicate and keep everything synchronized, as soon as you hit the Publish button in the WP/LR Sync section of your Lightroom Classic CC library. The settings for the sync allow you to customize the way in which the content of your Lightroom photo library is connected with that of your WordPress Media Library in an almost infinite way. If you decide to change anything in Lightroom subsequently (whether it be metadata, or edits to the image itself), you will be offered the option to republish the modified photo to the WordPress Media Library so that everything stays in sync.</p>
+<p>Meow has a very good <a href="https://meowapps.com/wplr-sync-tutorial/" title="WP/LR Sync: Tutorial">tutorial</a> detailing all the options available.</p>
+<p>I use a set of Lightroom smart collections to determine which photographs I want to display in WordPress:</p>
+ <figure class="wp-block-image">![Lightroom smart collection settings](https://cdn.donaldjenkins.com/images/lightroom-smart-collection-settings-1024x870.jpg?lossy=1&ssl=1)<figcaption>A smart collection is a powerful tool, available in Lightroom Classic CC but not in Lightroom CC. I use it to filter the photographs I want to display in each of my WordPress galleries.</figcaption></figure><div class="wp-block-image"><figure class="aligncenter">![The WP/LR Lightroom interface](https://cdn.donaldjenkins.com/images/the-wplr-lightroom-interface-1024x582.jpg?lossy=1&ssl=1)<figcaption>The WP/LR Sync smart collections in Lightroom Classic CC that I want to sync with my WordPress Media Library</figcaption></figure></div>In my WordPress Media Library, each of these smart collections will correspond to a WordPress gallery: unlike other plugins, WP/LR Sync, and the Meow system of WordPress plugins generally, does not create its own parallel galleries, hooking on instead to the standard WordPress gallery format.
+<div class="wp-block-image"><figure class="aligncenter">![](https://cdn.donaldjenkins.com/images/the-wplr-collections-synced-with-the-wordpress-media-library.jpg?lossy=1&quality=90&fit=1024%2C624&ssl=1)<figcaption>The collections I chose to sync from my Lightroom Classic CC Library using WP/LR Sync are now incorporated in my WordPress Media Library, with an optional navigation tool on the left to switch between them</figcaption></figure></div>At this point, in addition to being grouped in galleries mirroring the collections in your Lightroom Library, the images are in your WordPress Media Library: you can use them in any way you like. The collections you create in Lightroom will be directly usable in the WordPress Gallery shortcode, like this:
+<pre tabindex="0"><code>[ gallery wplr-collection=&#34;1&#34; ] 
+[ gallery wplr-keywords=&#34;10, 20&#34; ]
+</code></pre><p>There is a <q>Collections &amp; Keywords</q> screen in WP/LR Sync in WordPress that helps the users to create those shortcodes.</p>
+<div class="wp-block-image"><figure class="aligncenter">![WP/LR galleries in WordPress](https://cdn.donaldjenkins.com/images/wplr-galleries-in-wordpress-1024x546.jpg?lossy=1&ssl=1)<figcaption>The settings panel for the WP/LR Sync plugin for WordPress displays a list of galleries that match the smart collections created in Lightroom Classic CC. unlike other gallery plugins, WP/LR Sync doesn’t create proprietary galleries: instead, it allows you to use attributes (collections=’…’, keywords=’…’) in the standard WP Gallery shortcode to link your galleries to your collections and keywords in Lightoom dynamically</figcaption></figure></div>As you can see from the illustrations in this article, I chose to create additional Lightroom collections to store content that went beyond photographs authored by me: I set up smart collections for featured images, post illustrations, and system images. The advantage of this is that you can set a large number of metadata (such as those relating to copyright and Creative Commons licenses \\xa0 The only limitation on the latter point is due not to WP/LR Sync, but to Lightroom’s policy of converting all PNG files to JPG on export, meaning any PNG or SVG files must be uploaded to your WordPress Media Library separately.
+<p>While the open standards scrupulously adhered to by WP/LR Sync’s developer (he rightly stresses that every image in your WordPress must be in the Media Library) mean you are not in any way constrained within his extensive plugin ecosystem when it comes to displaying your photos in WordPress once they have made it there, it actually makes a lot sense to use his <a href="https://meowapps.com/plugin/meow-gallery/" title="Meow Gallery plugin for WordPress">Gallery</a> and <a href="https://meowapps.com/plugin/meow-lightbox/" title="Meow Lightbox plugin for WordPress">Lightbox</a> plugins: they are relatively lightweight (though an option to disable any unused javascript would be welcome in a future version), elegantly designed with photographers in mind, and obviously tightly integrated with WP/LR Sync.</p>
+<div class="wp-block-image"><figure class="aligncenter">![The Meow Lightbox with a Retnia Image](https://cdn.donaldjenkins.com/images/the-meow-lightbox-with-a-retina-image-1024x569.jpg?lossy=1&ssl=1)<figcaption>The Meow Lightbox plugin, designed by photographers for photographers, integrates tightly with the rest of the Meow ecosystem. In this example, it displays the metadata from the photograph’s original Lightroom file (if WP/LR Sync is set not to remove the). Optionally, if location data is preserved on sync, the toggle at the top of the window will open a customizable Google Map displaying the photo location</figcaption></figure></div>There is almost no limit to the combinations that you can display using this powerful system: your can either use the standard WordPress gallery [shortcodes](https://codex.wordpress.org/Gallery_Shortcode "Gallery Shortcode in the WordPress.org Codex") or, for adepts of Gutenberg blocks, Meow galleries can be inserted easily within Gutenberg as a block, as the following example demonstrates:
+<div class="mgl-square-container"><style>	.mgl-square {		display: none;	}		#mgl-gallery-6430756daffc3 {		margin: -2.5px;	}	#mgl-gallery-6430756daffc3 .mgl-item {		width: 33%;		padding-bottom: 33%;	}		@media screen and (max-width: 460px) {		#mgl-gallery-6430756daffc3 .mgl-item {			width: 50%;			padding-bottom: 50%;		}	}			@media screen and (max-width: 360px) {		#mgl-gallery-6430756daffc3 .mgl-item {			width: 100%;			padding-bottom: 100%;		}	}		#mgl-gallery-6430756daffc3.custom-gallery-class .mgl-item {		padding-bottom: 22% !important;	}	#mgl-gallery-6430756daffc3 .mgl-item .mgl-icon {		padding: 2.5px;	}	#mgl-gallery-6430756daffc3 .mgl-item figcaption {		padding: 2.5px;	}</style><?xml version="1.0"??>
+<div class="mgl-gallery mgl-square is-animated colorize captions-none" id="mgl-gallery-6430756daffc3" style=""><figure class="mgl-item"><div class="mgl-icon"><div class="mgl-img-container"> ![Village children in Madagascar](https://cdn.donaldjenkins.com/images/village-children-in-madagascar-1024x768.jpg?lossy=1&ssl=1) </div> </div> <figcaption class="mgl-caption">A large number of charities are active in the south-west of Madagascar, working to provide food and education for these desperately poor people
+ </figcaption> </figure><figure class="mgl-item"><div class="mgl-icon"><div class="mgl-img-container"> ![The statue of St. Praxedes](https://cdn.donaldjenkins.com/images/the-statue-of-st.-praxedes-768x1024.jpg?lossy=1&ssl=1) </div> </div> <figcaption class="mgl-caption">This church was built in the honour of the Roman martyr St. Praxedes, on the alleged site of her house, to which, when it was rebuilt by Pope St. Paschal I (the present Santa Prassede), her relics were taken.
+ </figcaption> </figure><figure class="mgl-item"><div class="mgl-icon"><div class="mgl-img-container"> ![Driving through the Aral Sea](https://cdn.donaldjenkins.com/images/driving-through-the-aral-sea-1024x767.jpg?lossy=1&ssl=1) </div> </div> <figcaption class="mgl-caption">Karapakalstan is a remote and isolated area, surrounded by desert sands in every direction; a population of traditional livestock-breeders who raised cattle in the waterways and reed beds of the Amu Darya delta
+ </figcaption> </figure><figure class="mgl-item"><div class="mgl-icon"><div class="mgl-img-container"> ![A bar-mitzvah at Zion Gate](https://cdn.donaldjenkins.com/images/a-bar-mitzvah-at-zion-gate-1024x685.jpg?lossy=1&ssl=1) </div> </div> <figcaption class="mgl-caption">Zion Gate is one of eight gates in the walls of the Old City of Jerusalem. It was built in July 1540, west of the location of the medieval gate.
+ </figcaption> </figure><figure class="mgl-item"><div class="mgl-icon"><div class="mgl-img-container"> ![Bicycle made of wire](https://cdn.donaldjenkins.com/images/bicycle-made-of-wire-1024x768.jpg?lossy=1&ssl=1) </div> </div> <figcaption class="mgl-caption">Found on a table at Momoya on the Upper West Side
+ </figcaption> </figure><figure class="mgl-item"><div class="mgl-icon"><div class="mgl-img-container"> ![The Paris Zombie March](https://cdn.donaldjenkins.com/images/the-paris-zombie-march-1024x768.jpg?lossy=1&ssl=1) </div> </div> <figcaption class="mgl-caption">An unexpected sight on the street sof the Marais district in the Parisian autumn
+ </figcaption> </figure></div></div>The Meow plugin ecosystem provides several useful (but obviously completely optional) additions that can be usefully integrated into this setup:
+<ul>
+<li><a href="https://meowapps.com/plugin/gallery-custom-links/" title="Gallery Custom Links for WordPress">Gallery Custom Links</a>, allows you to link images from galleries to a specified URL; you can use it, for instance, to point your gallery images towards the equivalent entry in Flickr or Instagram;</li>
+<li><a href="https://meowapps.com/plugin/wp-retina-2x/" title="WP Retina 2x for WordPress">WP Retina 2x</a>, as its name indicates, automatically generates the image files required by Retina (or any high-DPI) devices and displays them to site visitors \xa0;</li>
+<li><a href="https://meowapps.com/plugin/media-file-renamer/" title="Media Fie Renamer for WordPress">Media File Renamer</a> renames media files, either automatically or manually; I inevitably end up with a relatively untidy jumble of file names in Lightroom, which the latter makes it difficult to tidy up—this makes it possible to have a clean file-name structure in WordPress, where this actually helps with SEO.</li>
+</ul>
+<div class="wp-block-image"><figure class="aligncenter">![Managing the Retina 2x plugin images](https://cdn.donaldjenkins.com/images/managing-the-retina-2x-plugin-images-1024x451.jpg?lossy=1&ssl=1)<figcaption>If you install the Pro version of Meow’s Retina 2x plugin, it will automatically generate Retina images for each of the images in your WordPress Media Library, providing the size of the image you originally uploaded allows it. With WordPress supporting the srcset attribute, this ensures the right-sized images will be displayed even to users with Retina screens</figcaption></figure></div> <figure class="wp-block-image">![Detailed Retina 2x image setting](https://cdn.donaldjenkins.com/images/detailed-retina-2x-image-setting-1024x1003.jpg?lossy=1&ssl=1)<figcaption>The Retina 2x Pro plugin will give you detailed information of which Retina images it has generated and the reason why some sizes may be missing.</figcaption></figure>An enormous amount of thought was put into developing WP/LR Sync, and because of its adoption of open standards and of the number of options it offers, it is an extremely flexible instrument. Getting it to work in a way that matches your requirements is going to require a lot of work. You should also bear in mind that the sync process is relatively resource-intensive. This is especially true if you have an image optimization procedure set to kick in as soon a new images are uploaded to you site. Sometimes, especially if you’re uploading a large number of images, or if the file sizes involved are large, the sync process may fail and need to be repeated.
+<p>But once you have ironed out all the potential pitfalls, the satisfaction of enjoying flawless synchronization between your Media Library and your Lightroom photographs, with any new content you create in the Apple Photos ecosystem automatically being made available for you to use within those platforms, will make the effort of setting it up worthwhile.</p>
+
+</section>
+
+
+    <section class="contact" id="contact">
+    <div class="contact-box">
+        <div class="content-box">
+            <div class="contact-form">
+                <form action="#" method="POST">
+                    <textarea placeholder="Have something to say ?" name="message" required="required"></textarea>
+                    <input placeholder="your email address" id="feedback-from" type="email"
+                        name="email" name="_replyto" required="required">
+                    <button class="button" type="submit" id="send">Send</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="content-box contact-form">
+            <div id="success-message" hidden>
+                <h2 class="is-size-2 has-text-centered has-text-white has-text-weight-bold">We've received your submission</h2>
+                <p class="has-text-centered has-text-white">Thank you for your message and for your interest. We'll reply as soon as possible, obviously.</p>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+
+    
+    <footer class="container">
+    <small>
+
+        <p><a id="footer-logo" href="//localhost:54709/" title="Go to Home page"><img src="//localhost:54709/images/logo.svg" alt="Donald Jenkins" width="100" height="27"></a></p>
+        <p><strong>Copyright &#169; Donald Jenkins 2023</strong></p>
+        <p><a href="/legal" title="Lire les mentions légales">
+                Want to read the legal stuff?
+            </a></p>
+        <p>
+            <a href="https://www.twitter.com/donaldjenkins">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z" />
+                </svg>
+            </a>
+            <a href="https://github.com/donaldjenkins">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM277.3 415.7c-8.4 1.5-11.5-3.7-11.5-8 0-5.4.2-33 .2-55.3 0-15.6-5.2-25.5-11.3-30.7 37-4.1 76-9.2 76-73.1 0-18.2-6.5-27.3-17.1-39 1.7-4.3 7.4-22-1.7-45-13.9-4.3-45.7 17.9-45.7 17.9-13.2-3.7-27.5-5.6-41.6-5.6-14.1 0-28.4 1.9-41.6 5.6 0 0-31.8-22.2-45.7-17.9-9.1 22.9-3.5 40.6-1.7 45-10.6 11.7-15.6 20.8-15.6 39 0 63.6 37.3 69 74.3 73.1-4.8 4.3-9.1 11.7-10.6 22.3-9.5 4.3-33.8 11.7-48.3-13.9-9.1-15.8-25.5-17.1-25.5-17.1-16.2-.2-1.1 10.2-1.1 10.2 10.8 5 18.4 24.2 18.4 24.2 9.7 29.7 56.1 19.7 56.1 19.7 0 13.9.2 36.5.2 40.6 0 4.3-3 9.5-11.5 8-66-22.1-112.2-84.9-112.2-158.3 0-91.8 70.2-161.5 162-161.5S388 165.6 388 257.4c.1 73.4-44.7 136.3-110.7 158.3zm-98.1-61.1c-1.9.4-3.7-.4-3.9-1.7-.2-1.5 1.1-2.8 3-3.2 1.9-.2 3.7.6 3.9 1.9.3 1.3-1 2.6-3 3zm-9.5-.9c0 1.3-1.5 2.4-3.5 2.4-2.2.2-3.7-.9-3.7-2.4 0-1.3 1.5-2.4 3.5-2.4 1.9-.2 3.7.9 3.7 2.4zm-13.7-1.1c-.4 1.3-2.4 1.9-4.1 1.3-1.9-.4-3.2-1.9-2.8-3.2.4-1.3 2.4-1.9 4.1-1.5 2 .6 3.3 2.1 2.8 3.4zm-12.3-5.4c-.9 1.1-2.8.9-4.3-.6-1.5-1.3-1.9-3.2-.9-4.1.9-1.1 2.8-.9 4.3.6 1.3 1.3 1.8 3.3.9 4.1zm-9.1-9.1c-.9.6-2.6 0-3.7-1.5s-1.1-3.2 0-3.9c1.1-.9 2.8-.2 3.7 1.3 1.1 1.5 1.1 3.3 0 4.1zm-6.5-9.7c-.9.9-2.4.4-3.5-.6-1.1-1.3-1.3-2.8-.4-3.5.9-.9 2.4-.4 3.5.6 1.1 1.3 1.3 2.8.4 3.5zm-6.7-7.4c-.4.9-1.7 1.1-2.8.4-1.3-.6-1.9-1.7-1.5-2.6.4-.6 1.5-.9 2.8-.4 1.3.7 1.9 1.8 1.5 2.6z" />
+                </svg>
+            </a>
+            <a href="https://instagram.com/donaldjenkins_/">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path d="M224,202.66A53.34,53.34,0,1,0,277.36,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31,6.43a54,54,0,0,0-30.41,30.41c-8.28,21-6.43,71.05-6.43,94.33S91,329.26,99.32,350.33a54,54,0,0,0,30.41,30.41c21,8.29,71,6.43,94.31,6.43s73.24,1.93,94.3-6.43a54,54,0,0,0,30.41-30.41c8.35-21,6.43-71.05,6.43-94.33S357.1,182.74,348.75,161.67ZM224,338a82,82,0,1,1,82-82A81.9,81.9,0,0,1,224,338Zm85.38-148.3a19.14,19.14,0,1,1,19.13-19.14A19.1,19.1,0,0,1,309.42,189.74ZM400,32H48A48,48,0,0,0,0,80V432a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V80A48,48,0,0,0,400,32ZM382.88,322c-1.29,25.63-7.14,48.34-25.85,67s-41.4,24.63-67,25.85c-26.41,1.49-105.59,1.49-132,0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61,0-132,1.29-25.63,7.07-48.34,25.85-67s41.47-24.56,67-25.78c26.41-1.49,105.59-1.49,132,0,25.63,1.29,48.33,7.15,67,25.85s24.63,41.42,25.85,67.05C384.37,216.44,384.37,295.56,382.88,322Z" />
+                </svg>
+            </a>
+
+            <a href="https://jenkins.social/@donald">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z" />
+                </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/donaldjenkins">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                </svg>
+            </a>
+        </p>
+
+    </small>
+</footer>
+    
+    
+
+</body>
+
+</html>
