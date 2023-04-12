@@ -3,8 +3,9 @@ title: "Donald Jenkins"
 date: '2019-05-02T17:34:00+00:00'
 permalink: ''
 author: donaldjenkins
-excerpt: ''
+summary: ''
 type: page
+lastmod: 2023-04-11T00:00:00-01:00
 ---
 
 **Donald Jenkins [writes](/articles/ "Read Donald’s articles"), takes [photographs](/photos/ "View Donald’s photographs") and dabbles in web design. He’s also a co-founder of the political social network start-up [Policymakr](http://policymakr.com "Read about Policymakr"). He currently lives in New York City.**

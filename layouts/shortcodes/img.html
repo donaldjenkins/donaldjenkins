@@ -1,0 +1,25 @@
+<figure class="picture"> 
+  <picture>
+    <source srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=640 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1240 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1920 3x"
+            media="(min-width: 640px)">
+    <source srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=600 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1200 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1800 3x"
+            media="(min-width: 600px)">
+    <source srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=540 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1080 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1620 3x"
+            media="(min-width: 540px)">
+    <source srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=480 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=960 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1440 3x"
+            media="(min-width: 480px)">
+    <source srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=420 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=840 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1260 3x"
+            media="(min-width: 420px)">
+    <source srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=380 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=760 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1140 3x"
+            media="(min-width: 380px)">
+    <source srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=320 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=640 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=960 3x"
+            media="(min-width: 320px)">
+    <source srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=225 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=450 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=675 3x"
+            media="(min-width: 225px)">
+    <img src="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1920" alt="{{ if .Get "caption"}}{{ .Get "caption" }}{{ end }}"/>
+  </picture>
+  
+  {{ if .Get "caption"}}
+    <figcaption class="figcaption">{{ .Get "caption" }}</figcaption>
+  </figure>
+  {{ end }}

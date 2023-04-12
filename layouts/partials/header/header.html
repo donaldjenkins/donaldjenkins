@@ -1,45 +1,49 @@
     <!-- Header -->
-<header class="container section">
-  {{/* Add h1 tag to Home page */}}
-  <h1 class="visually-hidden">Donald Jenkins</h1>
-  {{ if .IsHome }} {{/* For the homepage, including its paginations */}}
-    <figure id="logo">
-      <img src="/images/logo.svg" alt="Donald Jenkins" width="210" height="50" /></a>
-    </figure>
-  {{ else }} {{/* For non-homepage pages */}}
-    <figure>
-      <a id="logo" class="navbar-item" href="/" title="Home">
-      <img src="/images/logo.svg" alt="Donald Jenkins" width="210" height="50" /></a>
-    </figure>
-  {{ end }}
-  <nav>
-    <ul>
-      <li>
-        <details role="list">
-          <summary aria-haspopup="listbox" role="button" class="secondary">Photos</summary>
-          <ul role="listbox">
-            <li><a href="/photos" data-theme-switcher="auto">Here</a></li>
-            <li><a href="https://www.flickr.com/photos/astorg" data-theme-switcher="light">Flicker</a></li>
-            <li><a href="https://instagram.com/donaldjenkins_/" data-theme-switcher="dark">Instagram</a></li>
-          </ul>
-        </details>
-      </li>
-      <li>
-        <details role="list">
-          <summary aria-haspopup="listbox">Articles</summary>
-          <ul role="listbox">
-            <li><a href="../v1-preview/">Preview</a></li>
-            <li><a href="../v1-preview-rtl/">Right-to-left</a></li>
-            <li><a href="../v1-classless/">Classless</a></li>
-            <li><a href="../v1-basic-template/">Basic template</a></li>
-            <li><a href="../v1-company/">Company</a></li>
-            <li><a href="../v1-google-amp/">Google Amp</a></li>
-            <li><a href="../v1-sign-in/">Sign in</a></li>
-            <li><a href="../v1-bootstrap-grid/">Bootstrap grid</a></li>
-          </ul>
-        </details>
-      </li>
-    </ul>
-  </nav>
-</header>
-<!-- ./ Header -->
+    <header class="container section">
+      {{/* Add h1 tag to Home page */}}
+      {{ if .IsHome }} {{/* For the homepage, including its paginations */}}
+      <h1 class="visually-hidden">Donald Jenkins</h1>
+      <figure id="logo">
+        <picture>
+          <img src="/images/logo.svg" alt="Donald Jenkins" width="210" height="50" /></a>
+        </picture>
+      </figure>
+      {{ else }} {{/* For non-homepage pages */}}
+      <figure>
+        <picture>
+          <a id="logo" class="navbar-item" href="/" title="Home">
+            <img src="/images/logo.svg" alt="Donald Jenkins" width="210" height="50" /></a>
+        </picture>
+      </figure>
+      {{ end }}
+      <nav>
+        <ul>
+          <li>
+            <details role="list">
+              <summary aria-haspopup="listbox" role="button" class="secondary">Photos</summary>
+              <ul role="listbox">
+                <li><a href="/photos" data-theme-switcher="auto">Here</a></li>
+                <li><a href="https://www.flickr.com/photos/astorg" data-theme-switcher="light">Flicker</a></li>
+                <li><a href="https://instagram.com/donaldjenkins_/" data-theme-switcher="dark">Instagram</a></li>
+              </ul>
+            </details>
+          </li>
+          <li>
+            <details role="list">
+              <summary aria-haspopup="listbox">Articles</summary>
+              <ul role="listbox">
+                <li><a href="../v1-preview/">Preview</a></li>
+                <li><a href="../v1-preview-rtl/">Right-to-left</a></li>
+                <li><a href="../v1-classless/">Classless</a></li>
+                <li><a href="../v1-basic-template/">Basic template</a></li>
+                <li><a href="../v1-company/">Company</a></li>
+                <li><a href="../v1-google-amp/">Google Amp</a></li>
+                <li><a href="../v1-sign-in/">Sign in</a></li>
+                <li><a href="../v1-bootstrap-grid/">Bootstrap grid</a></li>
+              </ul>
+            </details>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- ./ Header -->

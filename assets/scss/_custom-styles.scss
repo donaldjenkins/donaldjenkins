@@ -1,6 +1,8 @@
 body,
 .content {
   font-family: $family-primary;
+  font-weight: 245;
+  font-variation-settings: "wght" 245;
   font-stretch: 90%;
   font-variation-settings: "wdth" 60;
   font-variation-settings: "slnt" 0;
@@ -33,16 +35,17 @@ h6 {
   font-variation-settings: "wdth" 95
 }
 
-a {
+a,
+.meta {
   color: $link;
   font-weight: 380;
   font-variation-settings: "wght" 380;
 }
 
-p a:hover {
+a:hover {
   color: $link-hover;
-  text-decoration: none;
-  font-variation-settings: "wght" 500;
+  text-decoration-style: dotted;
+  text-decoration-line: underline;
 }
 
 em,
@@ -78,11 +81,23 @@ b {
   /* added line to stop words getting smushed together (as they go onto seperate lines and some screen readers do not understand line feeds as a space */
 }
 
-.icon {
+img, picture {
+  border-radius: 1.5%;
+}
+
+.icon, .small-icon {
   color: $davys-gray;
+  vertical-align: -.125em;
+}
+
+.icon {
   width: 1.5em;
   height: 1.5em;
-  vertical-align: -.125em;
+}
+
+.small-icon {
+  width: 1em;
+  height: 1em;
 }
 
 .icon:hover {
@@ -197,9 +212,19 @@ blockquote:after {
 
 .caption,
 .figcaption,
-.photo-credit {
+.photo-credit,
+.meta,
+.meta * {
   font-size: 0.75rem;
+}
+
+.caption,
+.photo-credit {
   text-align: right;
+}
+
+.figcaption {
+  text-align: center;
 }
 
 .quote {
@@ -234,8 +259,30 @@ figure blockquote {
   quotes: '\00AB\202F' '\202F\00BB' '\201C' '\201D'
 }
 
-.card-footer {
-  border-top: none;
+.meta {
+  margin-bottom: 1.25em;
+  line-height: 1.25em;
+}
+
+ul.meta {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+.meta li {
+  padding-top: 0.5rem;
+}
+
+.meta li::before {
+  content: '\00B7';
+  margin-right: 1ch;
+  margin-left: -1ch;
+}
+
+.meta li:first-child:before {
+    content: '';
+    margin-right: 0;
 }
 
 .equal-height {
@@ -348,6 +395,7 @@ footer p {
   text-align: center;
 }
 
+// Source: https://css-tricks.com/centering-list-items-horizontally-slightly-trickier-than-you-might-think/
 .table {
   display: table;   /* Allow the centering to work */
   margin: 0 auto;

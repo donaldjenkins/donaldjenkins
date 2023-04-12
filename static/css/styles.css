@@ -214,9 +214,9 @@ kbd {
   --h6-color: #4d606d;
   --muted-color: hsl(205, 10%, 50%);
   --muted-border-color: hsl(205, 20%, 94%);
-  --primary: hsl(56, 85%, 41%);
-  --primary-hover: hsl(56, 90%, 32%);
-  --primary-focus: rgba(193, 182, 16, 0.125);
+  --primary: hsl(195, 85%, 41%);
+  --primary-hover: hsl(195, 90%, 32%);
+  --primary-focus: rgba(16, 149, 193, 0.125);
   --primary-inverse: #fff;
   --secondary: hsl(205, 15%, 41%);
   --secondary-hover: hsl(205, 20%, 32%);
@@ -320,9 +320,9 @@ kbd {
     --h6-color: #afbbc4;
     --muted-color: hsl(205, 10%, 50%);
     --muted-border-color: #1f2d38;
-    --primary: hsl(56, 85%, 41%);
-    --primary-hover: hsl(56, 80%, 50%);
-    --primary-focus: rgba(193, 182, 16, 0.25);
+    --primary: hsl(195, 85%, 41%);
+    --primary-hover: hsl(195, 80%, 50%);
+    --primary-focus: rgba(16, 149, 193, 0.25);
     --primary-inverse: #fff;
     --secondary: hsl(205, 15%, 41%);
     --secondary-hover: hsl(205, 10%, 50%);
@@ -426,9 +426,9 @@ kbd {
   --h6-color: #afbbc4;
   --muted-color: hsl(205, 10%, 50%);
   --muted-border-color: #1f2d38;
-  --primary: hsl(56, 85%, 41%);
-  --primary-hover: hsl(56, 80%, 50%);
-  --primary-focus: rgba(193, 182, 16, 0.25);
+  --primary: hsl(195, 85%, 41%);
+  --primary-hover: hsl(195, 80%, 50%);
+  --primary-focus: rgba(16, 149, 193, 0.25);
   --primary-inverse: #fff;
   --secondary: hsl(205, 15%, 41%);
   --secondary-hover: hsl(205, 10%, 50%);
@@ -2618,7 +2618,7 @@ textarea,
 :root:not([data-theme=dark]) {
   --primary: $primary;
   --primary-hover: lighten (--primary, 30%);
-  --primary-inverse: #FFF;
+  --primary-inverse: $white;
 }
 
 @font-face {
@@ -2633,12 +2633,14 @@ textarea,
   --font-family: "Commissioner", system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu",
     "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", "Noto Color Emoji";
-  --font-weight: 230;
+  --font-weight: 245;
 }
 
 body,
 .content {
   font-family: "Commissioner", -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe Ui", "Helvetica Neue", "Helvetica", "Cantarell", "Ubuntu", "Roboto", "Noto", "Arial", Sans-Serif;
+  font-weight: 245;
+  font-variation-settings: "wght" 245;
   font-stretch: 90%;
   font-variation-settings: "wdth" 60;
   font-variation-settings: "slnt" 0;
@@ -2671,16 +2673,17 @@ h6 {
   font-variation-settings: "wdth" 95;
 }
 
-a {
+a,
+.meta {
   color: #9c9a75;
   font-weight: 380;
   font-variation-settings: "wght" 380;
 }
 
-p a:hover {
+a:hover {
   color: #817f5d;
-  text-decoration: none;
-  font-variation-settings: "wght" 500;
+  text-decoration-style: dotted;
+  text-decoration-line: underline;
 }
 
 em,
@@ -2716,11 +2719,23 @@ b {
   /* added line to stop words getting smushed together (as they go onto seperate lines and some screen readers do not understand line feeds as a space */
 }
 
-.icon {
+img, picture {
+  border-radius: 1.5%;
+}
+
+.icon, .small-icon {
   color: #575757;
+  vertical-align: -0.125em;
+}
+
+.icon {
   width: 1.5em;
   height: 1.5em;
-  vertical-align: -0.125em;
+}
+
+.small-icon {
+  width: 1em;
+  height: 1em;
 }
 
 .icon:hover {
@@ -2830,9 +2845,19 @@ blockquote:after {
 
 .caption,
 .figcaption,
-.photo-credit {
+.photo-credit,
+.meta,
+.meta * {
   font-size: 0.75rem;
+}
+
+.caption,
+.photo-credit {
   text-align: right;
+}
+
+.figcaption {
+  text-align: center;
 }
 
 .quote {
@@ -2867,8 +2892,30 @@ figure blockquote {
   quotes: "« " " »" "“" "”";
 }
 
-.card-footer {
-  border-top: none;
+.meta {
+  margin-bottom: 1.25em;
+  line-height: 1.25em;
+}
+
+ul.meta {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+.meta li {
+  padding-top: 0.5rem;
+}
+
+.meta li::before {
+  content: "·";
+  margin-right: 1ch;
+  margin-left: -1ch;
+}
+
+.meta li:first-child:before {
+  content: "";
+  margin-right: 0;
 }
 
 .equal-height {
@@ -2988,7 +3035,8 @@ footer p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 96%);
+  border-radius: 3%;
   padding-bottom: 1vh;
   padding-top: 2vh;
 }

@@ -11,7 +11,7 @@ rssTitle = "Silvère Jarrosson"
 seoTitle = "Silvère Jarrosson, artiste-peintre"
 # Sets homepage <title> (for SEO)
 
-disableKinds = ["taxonomy", "taxonomyTerm"]
+# disableKinds = ["taxonomy", "taxonomyTerm"]
 disableHugoGeneratorInject = 'true'
 # relativeURLs = 'true'
 contentDir = 'content'
@@ -19,8 +19,12 @@ enableInlineShortcodes = true
 enableGitInfo = true
 enableRobotsTXT = true
 
+[permalinks] 
+articles = "/:slug"
+
 [params]
     stylesheets = ["styles.css"]
+    cloudflare_images = "https://www.silverejarrosson.com/cdn-cgi/imagedelivery/L0HrrfgxmX01pIlKW6n82w/"
     
 [sitemap]
     changefreq = 'monthly'

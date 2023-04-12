@@ -9,6 +9,17 @@ $baja-white: #fff7d1;
 $eton-blue: #96c8a2;
 $tomato: #dd3333;
 
+// Bulma colors
+$white-bis: hsl(0, 0%, 98%);
+$white-ter: hsl(0, 0%, 96%);
+$grey-lighter: hsl(0, 0%, 86%);
+$grey-light: hsl(0, 0%, 71%);
+$grey: hsl(0, 0%, 48%);
+$grey-dark: hsl(0, 0%, 29%);
+$grey-darker: hsl(0, 0%, 21%);
+$black-ter: hsl(0, 0%, 14%);
+$black-bis: hsl(0, 0%, 7%);
+
 // Set derived colors
 $primary: $gurkha !default;
 $primary-hover: lighten ($primary, 30%) !default;
@@ -63,5 +74,5 @@ $text-on-dark: darken($concrete, 27%);
 :root:not([data-theme="dark"]) {
   --primary: $primary;
   --primary-hover: lighten (--primary, 30%);
-  --primary-inverse: #FFF;
+  --primary-inverse: $white;
 }
