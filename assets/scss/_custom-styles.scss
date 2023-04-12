@@ -29,8 +29,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 100;
-  font-variation-settings: "wght" 100;
+  font-weight: $heading-font;
+  font-variation-settings: "wght" $heading-font;
   font-stretch: 90%;
   font-variation-settings: "wdth" 95
 }
@@ -38,8 +38,8 @@ h6 {
 a,
 .meta {
   color: $link;
-  font-weight: 380;
-  font-variation-settings: "wght" 380;
+  font-weight: $bold-font;
+  font-variation-settings: "wght" $bold-font;
 }
 
 a:hover {
@@ -55,7 +55,7 @@ em,
 
 strong,
 b {
-  font-variation-settings: "wght" 380
+  font-variation-settings: "wght" $bold-font
 }
 
 .content figure {
@@ -147,7 +147,7 @@ ul {
   content: "\25AA";
   color: $gurkha;
   font-weight: bold;
-  font-variation-settings: "wght" 700;
+  font-variation-settings: "wght" $black-font;
   display: inline-block;
   width: 0.75em;
   margin-left: -1em;
