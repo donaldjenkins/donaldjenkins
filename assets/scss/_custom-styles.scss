@@ -1,8 +1,8 @@
 body,
 .content {
   font-family: $family-primary;
-  font-weight: 245;
-  font-variation-settings: "wght" 245;
+  font-weight: $normal-font;
+  font-variation-settings: "wght" $normal-font;
   font-stretch: 90%;
   font-variation-settings: "wdth" 60;
   font-variation-settings: "slnt" 0;
@@ -19,8 +19,8 @@ body,
 .panel-heading,
 .subtitle,
 .title {
-  font-weight: 700;
-  font-variation-settings: "wght" 700
+  font-weight: $black-font;
+  font-variation-settings: "wght" $black-font
 }
 
 h1,
@@ -45,7 +45,6 @@ a,
 a:hover {
   color: $link-hover;
   text-decoration-style: dotted;
-  text-decoration-line: underline;
 }
 
 em,
