@@ -2657,8 +2657,8 @@ body,
 .panel-heading,
 .subtitle,
 .title {
-  font-weight: 825;
-  font-variation-settings: "wght" 825;
+  font-weight: 577.5;
+  font-variation-settings: "wght" 577.5;
 }
 
 h1,
@@ -2782,7 +2782,7 @@ ul {
   content: "▪";
   color: #9c9a75;
   font-weight: bold;
-  font-variation-settings: "wght" 825;
+  font-variation-settings: "wght" 577.5;
   display: inline-block;
   width: 0.75em;
   margin-left: -1em;

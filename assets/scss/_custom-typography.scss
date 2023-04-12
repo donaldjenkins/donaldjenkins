@@ -2,8 +2,14 @@
 
 $normal-font: 330;
 $bold-font: calc($normal-font * 1.4);
-$black-font: calc($normal-font * 2.5);
+$black-font: calc($normal-font * 1.75);
 $heading-font: calc($normal-font * 0.4);
+
+@media (max-width: 768px) {
+  :root {
+    $normal-font: 400;
+  }
+}
 
 
 @font-face {
