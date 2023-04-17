@@ -2642,21 +2642,56 @@ textarea,
   "Segoe UI Symbol", "Noto Color Emoji";
   --font-weight: $normal-font;
   --font-variation-settings: "wght" $normal-font;
+  --font-size-1: clamp(2rem, 1.7993rem + 0.8451vw, 2.75rem);
+  --font-size-2: clamp(1.8rem, 1.6261rem + 0.7324vw, 2.45rem);
+  --font-size-3: clamp(1.6rem, 1.4662rem + 0.5634vw, 2.1rem);
+  --font-size-4: clamp(1.4rem, 1.293rem + 0.4507vw, 1.8rem);
+  --font-size-5: clamp(1.2rem, 1.1331rem + 0.2817vw, 1.45rem);
+  --font-size-6: clamp(0.9rem, 0.8732rem + 0.1127vw, 1rem);
+  --font-size-body: clamp(1rem, 0.9599rem + 0.169vw, 1.15rem);
 }
 
 @media (max-width: 768px) {
   :root {
     --font-weight: calc($normal-font * 1.2);
-    --font-variation-settings: "wght" $bold-font;
+    --font-variation-settings: calc($normal-font * 1.2);
   }
 }
+body .content {
+  font-size: var(--font-size-body);
+}
+
+h1 {
+  font-size: var(--font-size-1);
+}
+
+h2 {
+  font-size: var(--font-size-2);
+}
+
+h3 {
+  font-size: var(--font-size-3);
+}
+
+h4 {
+  font-size: var(--font-size-4);
+}
+
+h5 {
+  font-size: var(--font-size-5);
+}
+
+h6 {
+  font-size: var(--font-size-6);
+}
+
 body,
 .content {
   font-family: "Commissioner", -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe Ui", "Helvetica Neue", "Helvetica", "Cantarell", "Ubuntu", "Roboto", "Noto", "Arial", Sans-Serif;
   font-weight: 344;
   font-variation-settings: "wght" 344;
   font-stretch: 90%;
-  font-variation-settings: "wdth" 60;
+  font-variation-settings: "wdth" 90;
   font-variation-settings: "slnt" 0;
   font-optical-sizing: auto;
   width: calc(100% - 12vw);
@@ -2684,7 +2719,7 @@ h5,
 h6 {
   font-weight: 137.6;
   font-variation-settings: "wght" 137.6;
-  font-stretch: 90%;
+  font-stretch: 95%;
   font-variation-settings: "wdth" 95;
 }
 
