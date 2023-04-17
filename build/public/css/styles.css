@@ -2638,21 +2638,23 @@ textarea,
 }
 :root {
   --font-family: "Commissioner", system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu",
-    "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol", "Noto Color Emoji";
+  "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+  "Segoe UI Symbol", "Noto Color Emoji";
   --font-weight: $normal-font;
+  --font-variation-settings: "wght" $normal-font;
 }
 
 @media (max-width: 768px) {
   :root {
     --font-weight: calc($normal-font * 1.2);
+    --font-variation-settings: "wght" $bold-font;
   }
 }
 body,
 .content {
   font-family: "Commissioner", -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe Ui", "Helvetica Neue", "Helvetica", "Cantarell", "Ubuntu", "Roboto", "Noto", "Arial", Sans-Serif;
-  font-weight: 335;
-  font-variation-settings: "wght" 335;
+  font-weight: 344;
+  font-variation-settings: "wght" 344;
   font-stretch: 90%;
   font-variation-settings: "wdth" 60;
   font-variation-settings: "slnt" 0;
@@ -2670,8 +2672,8 @@ body,
 .panel-heading,
 .subtitle,
 .title {
-  font-weight: 536;
-  font-variation-settings: "wght" 536;
+  font-weight: 550.4;
+  font-variation-settings: "wght" 550.4;
 }
 
 h1,
@@ -2680,8 +2682,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 134;
-  font-variation-settings: "wght" 134;
+  font-weight: 137.6;
+  font-variation-settings: "wght" 137.6;
   font-stretch: 90%;
   font-variation-settings: "wdth" 95;
 }
@@ -2689,8 +2691,8 @@ h6 {
 a,
 .meta {
   color: hsl(56, 16%, 54%);
-  font-weight: 469;
-  font-variation-settings: "wght" 469;
+  font-weight: 481.6;
+  font-variation-settings: "wght" 481.6;
 }
 
 a:hover {
@@ -2705,7 +2707,7 @@ em,
 
 strong,
 b {
-  font-variation-settings: "wght" 469;
+  font-variation-settings: "wght" 481.6;
 }
 
 .content figure {
@@ -2795,7 +2797,7 @@ ul {
   content: "▪";
   color: hsl(56, 16%, 54%);
   font-weight: bold;
-  font-variation-settings: "wght" 536;
+  font-variation-settings: "wght" 550.4;
   display: inline-block;
   width: 0.75em;
   margin-left: -1em;
