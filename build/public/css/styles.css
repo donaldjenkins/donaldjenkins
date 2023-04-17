@@ -3045,10 +3045,12 @@ footer p {
   margin: 30px 0px 0px 0px;
 }
 
-.contact-form {
-  position: relative;
+.contact-form,
+.contact-form textarea,
+.contact-form input {
   width: 360px;
   max-width: 85%;
+  position: relative;
   display: inline-block;
 }
 
@@ -3068,9 +3070,6 @@ input::placeholder {
   -webkit-transition: 0.15s ease-in-out;
   transition: 0.15s ease-in-out;
   background-color: transparent;
-  width: 360px;
-  position: relative;
-  display: inline-block;
   resize: none;
   padding: 2px;
   color: hsl(0, 0%, 100%);
