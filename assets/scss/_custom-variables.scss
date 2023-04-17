@@ -1,13 +1,13 @@
 // Brand colors
-$gurkha: #9c9a75;
-$horizon: #889ca6;
-$tin: #7f7f7f;
-$davys-gray: #575757;
-$concrete: #f0f0f0;
-$fuzzy-wuzzy-brown: #c75757;
-$baja-white: #fff7d1;
-$eton-blue: #96c8a2;
-$tomato: #dd3333;
+$gurkha: hsl(56, 16%, 54%);
+$horizon: $grey-600;
+$tin: hsl(116, 0%, 50%);
+$davys-gray: hsl(111, 0%, 34%);
+$concrete: hsl(117, 0%, 94%);
+$fuzzy-wuzzy-brown: hsl(0, 50%, 56%);
+$baja-white: hsl(49, 100%, 91%);
+$eton-blue: hsl(135, 31%, 68%);
+$tomato: hsl(8, 96%, 63%);
 
 // Bulma colors
 $white-bis: hsl(0, 0%, 98%);
@@ -65,8 +65,19 @@ $input-shadow: none;
 $title-color: $davys-gray;
 $subtitle-color: lighten($title-color, 10%);
 $text-on-dark: darken($concrete, 27%);
+$font-color: $davys-gray;
 
 // Customize pico colors
+$primary-50: hsl(56, 16%, 98%) !default;
+$primary-100: hsl(56, 16%, 93%) !default;
+$primary-200: hsl(56, 16%, 88%) !default;
+$primary-300: hsl(56, 16%, 81%) !default;
+$primary-400: hsl(56, 16%, 73%) !default;
+$primary-500: hsl(56, 16%, 67%) !default;
+$primary-600: hsl(56, 16%, 54%) !default;
+$primary-700: hsl(56, 16%, 37%) !default;
+$primary-800: hsl(56, 95%, 23%) !default;
+$primary-900: hsl(56, 100%, 15%) !default;
 
 /* Pink Light scheme (Default) */
 /* Can be forced with data-theme="light" */
@@ -75,4 +86,11 @@ $text-on-dark: darken($concrete, 27%);
   --primary: $primary;
   --primary-hover: lighten (--primary, 30%);
   --primary-inverse: $white;
-}
+  --color: $font-color;
+  --h1-color: darken($font-color, 30%);
+  --h2-color: darken($font-color, 25%);
+  --h3-color: darken($font-color, 20%);
+  --h4-color: darken($font-color, 15%);
+  --h5-color: darken($font-color, 10%);
+  --h6-color: darken($font-color, 5%);
+  }

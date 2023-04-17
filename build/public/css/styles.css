@@ -2619,6 +2619,13 @@ textarea,
   --primary: $primary;
   --primary-hover: lighten (--primary, 30%);
   --primary-inverse: $white;
+  --color: $font-color;
+  --h1-color: darken($font-color, 30%);
+  --h2-color: darken($font-color, 25%);
+  --h3-color: darken($font-color, 20%);
+  --h4-color: darken($font-color, 15%);
+  --h5-color: darken($font-color, 10%);
+  --h6-color: darken($font-color, 5%);
 }
 
 @font-face {
@@ -2648,7 +2655,7 @@ body,
   width: calc(100% - 12vw);
   max-width: 640px;
   margin: 0 auto;
-  color: #575757;
+  color: hsl(111, 0%, 34%);
 }
 
 .card-header-title,
@@ -2676,13 +2683,13 @@ h6 {
 
 a,
 .meta {
-  color: #9c9a75;
+  color: hsl(56, 16%, 54%);
   font-weight: 469;
   font-variation-settings: "wght" 469;
 }
 
 a:hover {
-  color: #817f5d;
+  color: #82805e;
   text-decoration-style: dotted;
 }
 
@@ -2724,7 +2731,7 @@ img, picture {
 }
 
 .icon, .small-icon {
-  color: #575757;
+  color: hsl(111, 0%, 34%);
   vertical-align: -0.125em;
 }
 
@@ -2739,7 +2746,7 @@ img, picture {
 }
 
 .icon:hover {
-  color: #817f5d;
+  color: #82805e;
 }
 
 /* Source: https://stackoverflow.com/questions/22252472/how-can-i-change-the-color-of-an-svg-element*/
@@ -2781,7 +2788,7 @@ ul {
 
 .bullet li::before {
   content: "▪";
-  color: #9c9a75;
+  color: hsl(56, 16%, 54%);
   font-weight: bold;
   font-variation-settings: "wght" 536;
   display: inline-block;
@@ -2810,7 +2817,7 @@ blockquote {
   display: block;
   border-width: 2px 0;
   border-style: solid;
-  border-color: #f0f0f0;
+  border-color: hsl(117, 0%, 94%);
   padding: 1.5em 0 0.5em;
   margin: 1.5em 0;
   position: relative;
@@ -2826,7 +2833,7 @@ blockquote:before {
   width: 3rem;
   height: 2rem;
   font: 6em/1.08em "Quicksand", sans-serif;
-  color: #575757;
+  color: hsl(111, 0%, 34%);
   text-align: center;
 }
 
@@ -2834,13 +2841,13 @@ blockquote:after {
   content: "– " attr(cite);
   display: block;
   text-align: right;
-  color: #9c9a75;
+  color: hsl(56, 16%, 54%);
 }
 
 .attribution,
 .attribution p {
   text-align: right;
-  color: #9c9a75;
+  color: hsl(56, 16%, 54%);
 }
 
 .caption,
@@ -2943,7 +2950,7 @@ title {
 .footnotes hr {
   border: none;
   height: 2px;
-  background: #f0f0f0;
+  background: hsl(117, 0%, 94%);
   max-width: 20%;
 }
 
@@ -2953,7 +2960,7 @@ title {
 
 .footnote-ref {
   color: hsl(0, 0%, 100%);
-  background-color: #dd3333;
+  background-color: hsl(8, 96%, 63%);
   padding: 1px 2px 1px;
 }
 
@@ -2961,7 +2968,7 @@ title {
 --------------------------------------------------------------------------------------------- */
 /* Source: https://github.com/bluefantail/bulma-list/blob/main/css/bulma-list.css */
 .list {
-  color: #575757;
+  color: hsl(111, 0%, 34%);
   flex-direction: column;
   display: flex;
 }
@@ -2983,7 +2990,7 @@ title {
 }
 
 .list-item:not(:last-child):not(.box) {
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 1px solid hsl(117, 0%, 94%);
 }
 
 @media screen and (max-width: 768px) {
@@ -3003,13 +3010,13 @@ title {
   }
 }
 .list-item-title {
-  color: #575757;
+  color: hsl(111, 0%, 34%);
   font-weight: 600;
   font-variation-settings: "wght" 600;
 }
 
 .list-item-description {
-  color: #575757;
+  color: hsl(111, 0%, 34%);
 }
 
 /* Footer
@@ -3066,7 +3073,7 @@ input::placeholder {
 .contact-form input {
   border: 0;
   border-radius: 0px;
-  border-bottom: 1px #575757 solid;
+  border-bottom: 1px hsl(111, 0%, 34%) solid;
   -webkit-transition: 0.15s ease-in-out;
   transition: 0.15s ease-in-out;
   background-color: transparent;
@@ -3089,7 +3096,7 @@ input::placeholder {
 .contact-form textarea:focus,
 .contact-form input:focus {
   outline: 0;
-  border-bottom: 1px #575757 solid;
+  border-bottom: 1px hsl(111, 0%, 34%) solid;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
@@ -3103,7 +3110,7 @@ input::placeholder {
 }
 
 ::-webkit-input-placeholder {
-  color: #575757;
+  color: hsl(111, 0%, 34%);
 }
 
 #send {
@@ -3113,7 +3120,7 @@ input::placeholder {
   background: hsl(0, 0%, 100%);
   padding: 4px 12px 6px;
   float: right;
-  color: #575757;
+  color: hsl(111, 0%, 34%);
 }
 
 #send:hover {
@@ -3132,7 +3139,7 @@ input::placeholder {
 #contact-form-error {
   margin-right: 20px;
   display: inline-block;
-  color: #dd3333;
+  color: hsl(8, 96%, 63%);
 }
 
 .contact-form.focused #contact-form-error:empty {
