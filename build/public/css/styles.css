@@ -2643,6 +2643,11 @@ textarea,
   --font-weight: $normal-font;
 }
 
+@media (max-width: 768px) {
+  :root {
+    --font-weight: calc($normal-font * 1.2);
+  }
+}
 body,
 .content {
   font-family: "Commissioner", -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe Ui", "Helvetica Neue", "Helvetica", "Cantarell", "Ubuntu", "Roboto", "Noto", "Arial", Sans-Serif;

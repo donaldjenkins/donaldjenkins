@@ -5,9 +5,6 @@ $bold-font: calc($normal-font * 1.4);
 $black-font: calc($normal-font * 1.6);
 $heading-font: calc($normal-font * 0.4);
 
-@media (max-width: 768px) {
-  $normal-font: calc($normal-font * 1.2);
-}
 
 
 @font-face {
@@ -27,4 +24,10 @@ $heading-font: calc($normal-font * 0.4);
   "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
   "Segoe UI Symbol", "Noto Color Emoji";
   --font-weight: $normal-font;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --font-weight: calc($normal-font * 1.2);
+  }
 }
