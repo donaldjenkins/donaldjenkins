@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Personal on Donald Jenkins</title>
-    <link>//localhost:52523/categories/personal/</link>
+    <link>//localhost:1313/categories/personal/</link>
     <description>Recent content in Personal on Donald Jenkins</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Jan 2011 15:45:25 +0000</lastBuildDate><atom:link href="//localhost:52523/categories/personal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Jan 2011 15:45:25 +0000</lastBuildDate><atom:link href="//localhost:1313/categories/personal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A better new decade?</title>
-      <link>//localhost:52523/a-better-new-decade/</link>
+      <link>//localhost:1313/a-better-new-decade/</link>
       <pubDate>Fri, 07 Jan 2011 15:45:25 +0000</pubDate>
       
-      <guid>//localhost:52523/a-better-new-decade/</guid>
+      <guid>//localhost:1313/a-better-new-decade/</guid>
       <description>I wish all who read this a very Happy New Year: I am certain I am not the only one hoping that this new decade will mark a new beginning.</description>
     </item>
     
     <item>
       <title>A time to gather stones together?</title>
-      <link>//localhost:52523/a-time-to-gather-stones-together/</link>
+      <link>//localhost:1313/a-time-to-gather-stones-together/</link>
       <pubDate>Fri, 16 Oct 2009 23:48:03 +0000</pubDate>
       
-      <guid>//localhost:52523/a-time-to-gather-stones-together/</guid>
+      <guid>//localhost:1313/a-time-to-gather-stones-together/</guid>
       <description>A short post written at a challenging time. Yet one of the many the beautiful things about hardship, when it strikes, is that spiritual comfort is always there when one needs it.</description>
     </item>
     

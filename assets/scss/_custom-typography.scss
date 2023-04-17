@@ -1,13 +1,14 @@
 // Definitions
 
-$normal-font: 330;
-$bold-font: calc($normal-font * 1.4);
-$black-font: calc($normal-font * 1.75);
+$normal-font: 360;
+$bold-font: calc($normal-font * 1.3);
+$black-font: calc($normal-font * 1.6);
 $heading-font: calc($normal-font * 0.4);
+$font-color: $davys-gray;
 
 @media (max-width: 768px) {
   :root {
-    $normal-font: 400;
+    $normal-font: calc($normal-font * 1.2);
   }
 }
 

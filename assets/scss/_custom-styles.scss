@@ -4,12 +4,13 @@ body,
   font-weight: $normal-font;
   font-variation-settings: "wght" $normal-font;
   font-stretch: 90%;
-  font-variation-settings: "wdth" 60;
+  // font-variation-settings: "wdth" 60;
   font-variation-settings: "slnt" 0;
   font-optical-sizing: auto;
   width: calc(100% - 12vw);
   max-width: 640px;
   margin: 0 auto;
+  color: $font-color;
 }
 
 .card-header-title,
@@ -85,7 +86,7 @@ img, picture {
 }
 
 .icon, .small-icon {
-  color: $davys-gray;
+  color: $font-color;
   vertical-align: -.125em;
 }
 
@@ -192,7 +193,7 @@ blockquote:before {
   width: 3rem;
   height: 2rem;
   font: 6em/1.08em 'Quicksand', sans-serif;
-  color: $davys-gray;
+  color: $font-color;
   text-align: center;
 }
 
@@ -330,7 +331,7 @@ title {
 /* Source: https://github.com/bluefantail/bulma-list/blob/main/css/bulma-list.css */
 
 .list {
-  color: $davys-gray;
+  color: $font-color;
   flex-direction: column;
   display: flex
 }
@@ -376,13 +377,13 @@ title {
 }
 
 .list-item-title {
-  color: $davys-gray;
+  color: $font-color;
   font-weight: 600;
   font-variation-settings: "wght" 600
 }
 
 .list-item-description {
-  color: $davys-gray
+  color: $font-color
 }
 
 /* Footer
