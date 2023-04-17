@@ -2639,9 +2639,10 @@ textarea,
 body,
 .content {
   font-family: "Commissioner", -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe Ui", "Helvetica Neue", "Helvetica", "Cantarell", "Ubuntu", "Roboto", "Noto", "Arial", Sans-Serif;
-  font-weight: 360;
-  font-variation-settings: "wght" 360;
+  font-weight: 385;
+  font-variation-settings: "wght" 385;
   font-stretch: 90%;
+  font-variation-settings: "wdth" 60;
   font-variation-settings: "slnt" 0;
   font-optical-sizing: auto;
   width: calc(100% - 12vw);
@@ -2657,8 +2658,8 @@ body,
 .panel-heading,
 .subtitle,
 .title {
-  font-weight: 576;
-  font-variation-settings: "wght" 576;
+  font-weight: 616;
+  font-variation-settings: "wght" 616;
 }
 
 h1,
@@ -2667,8 +2668,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 144;
-  font-variation-settings: "wght" 144;
+  font-weight: 154;
+  font-variation-settings: "wght" 154;
   font-stretch: 90%;
   font-variation-settings: "wdth" 95;
 }
@@ -2676,8 +2677,8 @@ h6 {
 a,
 .meta {
   color: #9c9a75;
-  font-weight: 468;
-  font-variation-settings: "wght" 468;
+  font-weight: 500.5;
+  font-variation-settings: "wght" 500.5;
 }
 
 a:hover {
@@ -2692,7 +2693,7 @@ em,
 
 strong,
 b {
-  font-variation-settings: "wght" 468;
+  font-variation-settings: "wght" 500.5;
 }
 
 .content figure {
@@ -2782,7 +2783,7 @@ ul {
   content: "▪";
   color: #9c9a75;
   font-weight: bold;
-  font-variation-settings: "wght" 576;
+  font-variation-settings: "wght" 616;
   display: inline-block;
   width: 0.75em;
   margin-left: -1em;
