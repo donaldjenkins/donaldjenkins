@@ -83,14 +83,14 @@ $primary-900: hsl(56, 100%, 15%) !default;
 /* Can be forced with data-theme="light" */
 [data-theme="light"],
 :root:not([data-theme="dark"]) {
-  --primary: $primary;
-  --primary-hover: lighten (--primary, 30%);
-  --primary-inverse: $white;
-  --color: $font-color;
-  --h1-color: darken($font-color, 30%);
-  --h2-color: darken($font-color, 25%);
-  --h3-color: darken($font-color, 20%);
-  --h4-color: darken($font-color, 15%);
-  --h5-color: darken($font-color, 10%);
-  --h6-color: darken($font-color, 5%);
+  primary: $primary;
+  primary-hover: lighten (--primary, 30%);
+  primary-inverse: $white;
+  color: $font-color;
+  h1-color: darken($font-color, 30%);
+  h2-color: darken($font-color, 25%);
+  h3-color: darken($font-color, 20%);
+  h4-color: darken($font-color, 15%);
+  h5-color: darken($font-color, 10%);
+  h6-color: darken($font-color, 5%);
   }

@@ -1,6 +1,6 @@
 // Definitions
 
-$normal-font: 344;
+$normal-font: 420;
 $bold-font: calc($normal-font * 1.4);
 $black-font: calc($normal-font * 1.6);
 $heading-font: calc($normal-font * 0.4);
@@ -23,8 +23,9 @@ $heading-font: calc($normal-font * 0.4);
   --font-family: "Commissioner", system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu",
   "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
   "Segoe UI Symbol", "Noto Color Emoji";
-  --font-weight: $normal-font;
-  --font-variation-settings: "wght" $normal-font;
+  letter-spacing: -0.02em;
+  font-weight: $normal-font;
+  font-variation-settings: "wght" $normal-font;
   --font-size-1: clamp(2rem, 1.7993rem + 0.8451vw, 2.75rem);
   --font-size-2: clamp(1.8rem, 1.6261rem + 0.7324vw, 2.45rem);
   --font-size-3: clamp(1.6rem, 1.4662rem + 0.5634vw, 2.1rem);
@@ -36,14 +37,9 @@ $heading-font: calc($normal-font * 0.4);
 
 @media (max-width: 768px) {
   :root {
-    --font-weight: calc($normal-font * 1.2);
-    --font-variation-settings: calc($normal-font * 1.2);
+    font-weight: calc($normal-font * 1.2);
+    font-variation-settings: calc($normal-font * 1.2);
   }
-}
-
-body
-.content {
-  font-size: var(--font-size-body);
 }
 
 h1 {

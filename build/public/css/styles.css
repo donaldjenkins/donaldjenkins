@@ -2616,16 +2616,16 @@ textarea,
 /* Can be forced with data-theme="light" */
 [data-theme=light],
 :root:not([data-theme=dark]) {
-  --primary: $primary;
-  --primary-hover: lighten (--primary, 30%);
-  --primary-inverse: $white;
-  --color: $font-color;
-  --h1-color: darken($font-color, 30%);
-  --h2-color: darken($font-color, 25%);
-  --h3-color: darken($font-color, 20%);
-  --h4-color: darken($font-color, 15%);
-  --h5-color: darken($font-color, 10%);
-  --h6-color: darken($font-color, 5%);
+  primary: hsl(56, 16%, 54%);
+  primary-hover: lighten --primary, 30%;
+  primary-inverse: hsl(0, 0%, 100%);
+  color: hsl(111, 0%, 34%);
+  h1-color: #0a0a0a;
+  h2-color: #171717;
+  h3-color: #242424;
+  h4-color: #303030;
+  h5-color: #3d3d3d;
+  h6-color: #4a4a4a;
 }
 
 @font-face {
@@ -2640,8 +2640,9 @@ textarea,
   --font-family: "Commissioner", system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu",
   "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
   "Segoe UI Symbol", "Noto Color Emoji";
-  --font-weight: $normal-font;
-  --font-variation-settings: "wght" $normal-font;
+  letter-spacing: -0.02em;
+  font-weight: 420;
+  font-variation-settings: "wght" 420;
   --font-size-1: clamp(2rem, 1.7993rem + 0.8451vw, 2.75rem);
   --font-size-2: clamp(1.8rem, 1.6261rem + 0.7324vw, 2.45rem);
   --font-size-3: clamp(1.6rem, 1.4662rem + 0.5634vw, 2.1rem);
@@ -2653,14 +2654,10 @@ textarea,
 
 @media (max-width: 768px) {
   :root {
-    --font-weight: calc($normal-font * 1.2);
-    --font-variation-settings: calc($normal-font * 1.2);
+    font-weight: 504;
+    font-variation-settings: 504;
   }
 }
-body .content {
-  font-size: var(--font-size-body);
-}
-
 h1 {
   font-size: var(--font-size-1);
 }
@@ -2688,8 +2685,8 @@ h6 {
 body,
 .content {
   font-family: "Commissioner", -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe Ui", "Helvetica Neue", "Helvetica", "Cantarell", "Ubuntu", "Roboto", "Noto", "Arial", Sans-Serif;
-  font-weight: 344;
-  font-variation-settings: "wght" 344;
+  font-weight: 420;
+  font-variation-settings: "wght" 420;
   font-stretch: 90%;
   font-variation-settings: "wdth" 90;
   font-variation-settings: "slnt" 0;
@@ -2707,8 +2704,8 @@ body,
 .panel-heading,
 .subtitle,
 .title {
-  font-weight: 550.4;
-  font-variation-settings: "wght" 550.4;
+  font-weight: 672;
+  font-variation-settings: "wght" 672;
 }
 
 h1,
@@ -2717,8 +2714,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 137.6;
-  font-variation-settings: "wght" 137.6;
+  font-weight: 168;
+  font-variation-settings: "wght" 168;
   font-stretch: 95%;
   font-variation-settings: "wdth" 95;
 }
@@ -2726,8 +2723,8 @@ h6 {
 a,
 .meta {
   color: hsl(56, 16%, 54%);
-  font-weight: 481.6;
-  font-variation-settings: "wght" 481.6;
+  font-weight: 588;
+  font-variation-settings: "wght" 588;
 }
 
 a:hover {
@@ -2742,7 +2739,7 @@ em,
 
 strong,
 b {
-  font-variation-settings: "wght" 481.6;
+  font-variation-settings: "wght" 588;
 }
 
 .content figure {
@@ -2832,7 +2829,7 @@ ul {
   content: "▪";
   color: hsl(56, 16%, 54%);
   font-weight: bold;
-  font-variation-settings: "wght" 550.4;
+  font-variation-settings: "wght" 672;
   display: inline-block;
   width: 0.75em;
   margin-left: -1em;
