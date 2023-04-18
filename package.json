@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-pro": "^6.4.0",
-    "@picocss/pico": "^1.5.9"
+    "@picocss/pico": "^1.5.9",
+    "simpledotcss": "^2.2.0"
   }
 }

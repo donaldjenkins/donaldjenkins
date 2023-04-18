@@ -6,45 +6,43 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: $white-ter;
-    border-radius: 3%;
-    padding-bottom: 1vh;
-    padding-top: 2vh;
+    border-radius: 0%;
+    padding: 0 0 6vh;
   }
   
   .content-box {
-    margin: 30px 0px 0px 0px;
+    margin: 1vh 0 0;
   }
   
   .contact-form,
   .contact-form textarea,
   .contact-form input {
-    width: 360px;
-    max-width: 85%;
+    width: calc(100% - 0.25vw);
+    max-width: 320px;
+    margin: 0 auto;
     position: relative;
     display: inline-block;
+    font-family: $family-primary;
   }
   
-  textarea::placeholder {
-    font-size: 18px;
-  }
-  
+  textarea::placeholder,
   input::placeholder {
-    font-size: 18px;
+    color: $white;
+    font-size: $font-size;
   }
   
   .contact-form textarea,
   .contact-form input {
     border: 0;
     border-radius:0px;
-    border-bottom: 1px $davys-gray solid;
+    border-bottom: 1px $white solid;
     -webkit-transition: .15s ease-in-out;
     transition: .15s ease-in-out;
     background-color: transparent;
     resize: none;
     padding: 2px;
     color: $white;
-    font-size: 18px;
+    font-size: $font-size;
   }
   
   .contact-form textarea {
@@ -60,7 +58,7 @@
   .contact-form textarea:focus,
   .contact-form input:focus {
     outline: 0;
-    border-bottom: 1px $davys-gray solid;
+    border-bottom: 1px $white solid;
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
   }
@@ -74,7 +72,7 @@
   }
   
   ::-webkit-input-placeholder {
-    color: $davys-gray;
+    color: $white;
   }
   
   #send {
@@ -84,11 +82,11 @@
 //    width: 80px;
     margin-top: 20px;
     margin-right: -1px;
-    background: $white;
+    background: $davys-gray;
     padding: 4px 12px 6px;
     float: right;
-    color: $davys-gray;
-//    font-size: 18px;
+    color: $white;
+//    font-size: $font-size;
   }
   
   #send:hover {

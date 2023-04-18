@@ -1,0 +1,47 @@
+/*!
+ * Pico CSS v1.5.9 (https://picocss.com)
+ * Copyright 2019-2023 - Licensed under MIT
+ *
+ * Slim version example
+ * You can export only the modules you need
+ */
+
+// Config
+// --------------------
+
+// Enable responsive spacings for <header>, <main>, <footer>, <section>, <article>
+$enable-responsive-spacings: false;
+
+// Enable transitions
+$enable-transitions: false;
+
+// Enable overriding with !important
+$enable-important: false;
+
+// Pico Lib
+// --------------------
+
+// Config
+@import "../../../../node_modules/@picocss/pico/scss/variables";
+
+// Theming
+@import "themes/default";
+
+// Layout
+@import "../../../../node_modules/@picocss/pico/scss/layout/document"; // html
+@import "../../../../node_modules/@picocss/pico/scss/layout/sectioning"; // body, header, main, footer
+@import "../../../../node_modules/@picocss/pico/scss/layout/container"; // .container, .container-fluid
+@import "../../../../node_modules/@picocss/pico/scss/layout/section"; // section
+@import "../../../../node_modules/@picocss/pico/scss/layout/grid"; // .grid
+@import "../../../../node_modules/@picocss/pico/scss/layout/scroller"; // figure
+
+// Content
+@import "../../../../node_modules/@picocss/pico/scss/content/typography"; // a, headings, p, ul, blockquote, ...
+@import "../../../../node_modules/@picocss/pico/scss/content/embedded"; // audio, canvas, iframe, img, svg, video
+@import "../../../../node_modules/@picocss/pico/scss/content/button"; // button, a[role=button], type=button, type=submit ...
+@import "../../../../node_modules/@picocss/pico/scss/content/form"; // input, select, textarea, label, fieldset, legend
+@import "../../../../node_modules/@picocss/pico/scss/content/table"; // table, tr, td, ...
+
+// Utilities
+@import "../../../../node_modules/@picocss/pico/scss/utilities/accessibility"; // -ms-touch-action, aria-*
+@import "../../../../node_modules/@picocss/pico/scss/utilities/reduce-motion"; // prefers-reduced-motion

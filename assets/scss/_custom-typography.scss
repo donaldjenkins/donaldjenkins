@@ -1,11 +1,10 @@
 // Definitions
-
-$normal-font: 420;
-$bold-font: calc($normal-font * 1.4);
-$black-font: calc($normal-font * 1.6);
+$font-size: 18px;
+$normal-font: 345;
+$bold-font: calc($normal-font * 1.67);
+$black-font: calc($bold-font * 1.3);
 $heading-font: calc($normal-font * 0.4);
-
-
+$thin-font: 100;
 
 @font-face {
   font-family: "Commissioner";
@@ -17,29 +16,70 @@ $heading-font: calc($normal-font * 0.4);
   unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
+$family-sans-serif: "Commissioner", system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu",
+"Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+"Segoe UI Symbol", "Noto Color Emoji";
+$family-monospace: "Menlo", "Consolas", "Monaco", "Liberation Mono", "Lucida Console", monospace;
+$family-code: "Menlo", "Consolas", "Monaco", "Liberation Mono", "Lucida Console", monospace;
 
+$family-primary: $family-sans-serif;
+$family-secondary: $family-sans-serif;
+
+/* Global variables. */
 :root {
-// Typography
-  --font-family: "Commissioner", system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu",
-  "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-  "Segoe UI Symbol", "Noto Color Emoji";
-  letter-spacing: -0.02em;
+  /* Set sans-serif & mono fonts */
+  --sans-font: $family-primary;
+  --mono-font: $family-monospace
+  --standard-border-radius: $standard-border-radius;
+
+  /* Default (light) theme */
+  --bg: $bg;
+  --accent-bg: $accent-bg;
+  --text: $text;
+  --text-light: $text-light;
+  --border: $border;
+  --accent: $accent;
+  --code: $code;
+  --preformatted: $preformatted;
+  --marked: $marked;
+  --disabled: $disabled;
+  
+  /* Responsive font sizes */
+  font-size: $font-size;
   font-weight: $normal-font;
   font-variation-settings: "wght" $normal-font;
-  --font-size-1: clamp(2rem, 1.7993rem + 0.8451vw, 2.75rem);
-  --font-size-2: clamp(1.8rem, 1.6261rem + 0.7324vw, 2.45rem);
-  --font-size-3: clamp(1.6rem, 1.4662rem + 0.5634vw, 2.1rem);
-  --font-size-4: clamp(1.4rem, 1.293rem + 0.4507vw, 1.8rem);
-  --font-size-5: clamp(1.2rem, 1.1331rem + 0.2817vw, 1.45rem);
-  --font-size-6: clamp(0.9rem, 0.8732rem + 0.1127vw, 1rem);
-  --font-size-body: clamp(1rem, 0.9599rem + 0.169vw, 1.15rem);
+  letter-spacing: -0.02em;
+  --font-size-1: clamp(2rem, 1.25rem + 3.1579vw, 2.75rem);
+  --font-size-2: clamp(1.8rem, 1.15rem + 2.7368vw, 2.45rem);
+  --font-size-3: clamp(1.6rem, 1.1rem + 2.1053vw, 2.1rem);
+  --font-size-4: clamp(1.4rem, 1rem + 1.6842vw, 1.8rem);
+  --font-size-5: clamp(1.2rem, 0.95rem + 1.0526vw, 1.45rem);
+  --font-size-6: clamp(0.9rem, 0.45rem + 1.8947vw, 1.35rem);
+  --font-size-body: clamp(0.85rem, 0.45rem + 1.6842vw, 1.25rem);
 }
 
-@media (max-width: 768px) {
-  :root {
-    font-weight: calc($normal-font * 1.2);
-    font-variation-settings: calc($normal-font * 1.2);
-  }
+body {
+  margin: 0;
+  font-family: var(--sans-font);
+  font-size: var(--font-size-body);
+}
+
+body,
+.content {
+  font-family: $family-primary;
+  font-weight: $normal-font;
+  font-variation-settings: "wght" $normal-font;
+  line-height: 1.5;  
+  font-stretch: 90%;
+  font-variation-settings: "wdth" 90;
+  font-variation-settings: "slnt" 0;
+  font-optical-sizing: auto;
+  color: $font-color;
+}
+
+p {
+  font-weight: $normal-font;
+  font-variation-settings: "wght" $normal-font;  
 }
 
 h1 {
@@ -65,4 +105,22 @@ h5 {
 
 h6 {
   font-size: var(--font-size-6);  
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  font-weight: $heading-font;
+  font-variation-settings: "wght" $heading-font;
+  font-stretch: 95%;
+  font-variation-settings: "wdth" 95
+}
+
+#legal * {
+  font-weight: $heading-font;
+  font-variation-settings: "wght" $heading-font;
 }

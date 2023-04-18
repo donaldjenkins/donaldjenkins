@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>France on Donald Jenkins</title>
-    <link>//localhost:1313/tags/france/</link>
+    <link>//localhost:55068/tags/france/</link>
     <description>Recent content in France on Donald Jenkins</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Jan 2011 15:45:25 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/france/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Jan 2011 15:45:25 +0000</lastBuildDate><atom:link href="//localhost:55068/tags/france/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A better new decade?</title>
-      <link>//localhost:1313/a-better-new-decade/</link>
+      <link>//localhost:55068/a-better-new-decade/</link>
       <pubDate>Fri, 07 Jan 2011 15:45:25 +0000</pubDate>
       
-      <guid>//localhost:1313/a-better-new-decade/</guid>
+      <guid>//localhost:55068/a-better-new-decade/</guid>
       <description>I wish all who read this a very Happy New Year: I am certain I am not the only one hoping that this new decade will mark a new beginning.</description>
     </item>
     

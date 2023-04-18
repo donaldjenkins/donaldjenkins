@@ -1,5 +1,6 @@
-@import '../node_modules/@picocss/pico/scss/pico';
-@import 'custom-variables';
+@import '../../node_modules/simpledotcss/simple.min.css';
+@import 'custom-colors';
 @import 'custom-typography';
+@import 'custom-override';
 @import 'custom-styles';
 @import 'custom-contact';
