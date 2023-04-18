@@ -58,7 +58,9 @@ footer {
 }
 
 #logo {
-  margin-top: 5vh; 
+  position: fixed;
+  top: 2vh;
+  left:5vh;
 }
 
 nav {
@@ -98,7 +100,9 @@ ul {
   aspect-ratio: 5/1;
   border-radius: 100px;
   display: inline-block;
-  position: relative;
+  position: fixed;
+  top: 5vh;
+  right:5vh;
   transition: 0.5s;
   box-shadow: 
     0 calc(2 * var(--s)) 0 $font-color, 
@@ -166,10 +170,10 @@ ul {
 @media (max-width:600px) {
 #menu ul {
     position: fixed;
-    background-color: #57575798;
+    background-color: #32323298;
     /*-- The value after six digit is your alpha color or opacity of background.--*/
-    background-color: #5759; /*-- Same as previous one.--*/
-    background-color: rgba(87, 87, 87, 0.6); /*-- a extend for alpha color--*/
+    background-color: #3359; /*-- Same as previous one.--*/
+    background-color: rgba(50, 50, 50, 0.6); /*-- a extend for alpha color--*/
     flex-direction: column;
     inset: 0 0 0;
     padding: 40px;
