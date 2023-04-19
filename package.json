@@ -23,6 +23,7 @@
     "@fortawesome/fontawesome-pro": "^6.4.0",
     "@picocss/pico": "^1.5.9",
     "normalize.css": "^8.0.1",
+    "sass-mq": "^6.0.0",
     "simpledotcss": "^2.2.0"
   }
 }

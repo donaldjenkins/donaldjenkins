@@ -249,7 +249,7 @@ a:hover {
   text-decoration-style: dotted;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 29.99em) {
   a {
     text-decoration: underline;
     text-decoration: underline;
@@ -603,7 +603,7 @@ ul {
   transform: rotate(-45deg);
 }
 
-@media (min-width: 728px) {
+@media (min-width: 46.25em) {
   #hamburger {
     border: 0;
     padding: 0;
@@ -637,7 +637,7 @@ ul {
     top: 3.5%;
   }
 }
-@media (max-width: 728px) {
+@media (max-width: 46.24em) {
   #menu ul {
     position: fixed;
     background-color: rgba(37, 37, 37, 0.5960784314);
@@ -726,7 +726,7 @@ ul {
   border-bottom: 1px solid hsl(117, 0%, 94%);
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 46.24em) {
   .list-item-image {
     padding: 0.5rem 0;
   }
@@ -737,7 +737,7 @@ ul {
   display: flex;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 46.24em) {
   .list-item-content {
     padding: 0.5rem 0;
   }

@@ -119,7 +119,7 @@ a {
   
 }
 
-@media (max-width:480px) {
+@include mq($until: smartphone) {
   a {
     text-decoration: underline;
     text-decoration: underline;
@@ -519,7 +519,7 @@ ul {
   
 }
 
-@media (min-width:$hamburger-container) {
+@include mq($from: tablet) {
   #hamburger {
     @include visually-hidden-mixin;
   }
@@ -546,7 +546,7 @@ ul {
   }
 }
 
-@media (max-width:$hamburger-container) {
+@include mq($until: tablet) {
   #menu ul {
     position: fixed;
     background-color: #25252598;
@@ -648,7 +648,7 @@ ul {
 }
 
 
-@media screen and (max-width:768px) {
+@include mq($until: tablet){
   .list-item-image {
     padding: .5rem 0
   }
@@ -660,7 +660,7 @@ ul {
   display: flex
 }
 
-@media screen and (max-width:768px) {
+@include mq($until: tablet){
   .list-item-content {
     padding: .5rem 0
   }
