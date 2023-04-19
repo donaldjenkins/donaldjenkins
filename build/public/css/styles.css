@@ -35,8 +35,8 @@
   --font-size-3: clamp(1.6rem, 1.1rem + 2.1053vw, 2.1rem);
   --font-size-4: clamp(1.4rem, 1rem + 1.6842vw, 1.8rem);
   --font-size-5: clamp(1.2rem, 0.95rem + 1.0526vw, 1.45rem);
-  --font-size-6: clamp(0.9rem, 0.45rem + 1.8947vw, 1.35rem);
-  --font-size-body: clamp(0.85rem, 0.45rem + 1.6842vw, 1.25rem);
+  --font-size-6: clamp(1.1rem, 0.45rem + 1.8947vw, 1.35rem);
+  --font-size-body: clamp(1rem, 0.45rem + 1.6842vw, 1.17rem);
 }
 
 body {
@@ -235,7 +235,7 @@ ul {
   border-radius: 100px;
   display: inline-block;
   position: absolute;
-  top: 6.5vh;
+  top: 7.5vh;
   right: 5vh;
   transition: 0.5s;
   box-shadow: 0 calc(2 * var(--s)) 0 hsl(111, 0%, 34%), 0 calc(-2 * var(--s)) 0 hsl(111, 0%, 34%);
