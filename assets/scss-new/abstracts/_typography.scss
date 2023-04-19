@@ -1,0 +1,21 @@
+/// Font-face declaration
+@font-face {
+  font-family: "$font-name";
+  src: url("{{ .Site.BaseURL }}fonts/commissioner-variable.woff2") format("woff2") tech("variations"),
+      url("{{ .Site.BaseURL }}fonts/commissioner-variable.woff2") format("woff2-variations");
+  font-weight: 100 1000;
+  font-stretch: 75% 125%;
+  font-style: oblique 0deg 20deg;
+  unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/// Regular font family
+/// @type List
+$text-font-stack: system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu",
+"Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+$regular-font-stack: "$font-name", $text-font-stack;
+
+/// Code (monospace) font family
+/// @type List
+$code-font-stack: "Menlo", "Consolas", "Monaco", "Liberation Mono", "Lucida Console", monospace;
+$monospace-font-stack: $code-font-stack;

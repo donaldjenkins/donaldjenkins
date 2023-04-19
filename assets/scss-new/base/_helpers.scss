@@ -18,7 +18,7 @@
  * 3. Leave some space on the edges, especially valuable on small screens
  */
 .container {
-  max-width: $max-width; /* 1 */
+  max-width: $container; /* 1 */
   margin-left: auto; /* 2 */
   margin-right: auto; /* 2 */
   padding-left: 20px; /* 3 */
@@ -44,12 +44,57 @@
  * https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L119-L133
  */
 .visually-hidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-}
+   @include visually-hidden-mixin;
+ }
+ 
+ // Source: https://www.w3schools.com/howto/howto_css_center-vertical.asp
+ 
+ .vertically-centered {
+   margin: 0;
+   position: absolute;
+   top: 50%;
+   -ms-transform: translateY(-50%);
+   transform: translateY(-50%);
+ }
+ 
+ .equal-height {
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+ }
+ 
+ .equal-height .card-content {
+   flex: auto;
+ }
+ 
+ // https://github.com/jgthms/bulma/issues/1121
+ .is-fullheight {
+   height: 100%;
+   flex-direction: column;
+ }
+ 
+ // https://css-tricks.com/almanac/properties/a/align-items/
+ .fullheight-container {
+   display: flex;
+   align-items: stretch;
+ }
+ 
+ /* Source: https://stackoverflow.com/questions/22252472/how-can-i-change-the-color-of-an-svg-element*/
+ 
+ .filter-white {
+   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(307deg) brightness(101%) contrast(103%)
+ }
+ 
+ .filter-white:hover,
+ .navbar-item img:hover,
+ .navbar-burger:hover {
+   filter: invert(61%) sepia(22%) saturate(284%) hue-rotate(161deg) brightness(97%) contrast(84%);
+ }
+ 
+ // Source: https://css-tricks.com/centering-list-items-horizontally-slightly-trickier-than-you-might-think/
+ 
+ .table {
+   display: table;
+   /* Allow the centering to work */
+   margin: 0 auto;
+ }

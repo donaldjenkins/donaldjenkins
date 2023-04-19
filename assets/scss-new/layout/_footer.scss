@@ -1,3 +1,23 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
+
+footer {
+  padding: 0 0 2rem;
+}
+
+#social {
+  padding-top: 3.5vh;
+  margin-bottom: 1.2vh;
+}
+
+footer p {
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  margin: 0.5em;
+  text-align: center;
+}
+
+footer li {
+  padding: 0 1rem;
+}

@@ -1,7 +1,172 @@
 /**
  * Basic typography style for copy text
  */
+ /* Global variables. */
+ :root {
+   /* Set sans-serif & mono fonts */
+   --sans-font: $regular-font-stack;
+   --mono-font: $monospace-font-stack-font-stack
+   --standard-border-radius: $standard-border-radius;
+ 
+   /* Default (light) theme */
+   --bg: $bg;
+   --accent-bg: $accent-bg;
+   --text: $text;
+   --text-light: $text-light;
+   --border: $border;
+   --accent: $accent;
+   --code: $code;
+   --preformatted: $preformatted;
+   --marked: $marked;
+   --disabled: $disabled;
+   
+   /* Responsive font sizes */
+   font-size: $font-size;
+   font-weight: $normal-font;
+   font-variation-settings: "wght" $normal-font;
+   letter-spacing: -0.02em;
+   --font-size-1: clamp(2rem, 1.25rem + 3.1579vw, 2.75rem);
+   --font-size-2: clamp(1.8rem, 1.15rem + 2.7368vw, 2.45rem);
+   --font-size-3: clamp(1.6rem, 1.1rem + 2.1053vw, 2.1rem);
+   --font-size-4: clamp(1.4rem, 1rem + 1.6842vw, 1.8rem);
+   --font-size-5: clamp(1.2rem, 0.95rem + 1.0526vw, 1.45rem);
+   --font-size-6: clamp(1.1rem, 0.45rem + 1.8947vw, 1.35rem);
+   --font-size-body: clamp(1rem, 0.45rem + 1.6842vw, 1.17rem);
+ }
+
 body {
+  margin: 0;
   color: $text-color;
-  font: normal 125% / 1.4 $text-font-stack;
+  font-family: var(--sans-font);
+  font-size: var(--font-size-body);
 }
+
+body,
+.content {
+  font-family: $regular-font-stack;
+  font-weight: $normal-font;
+  font-variation-settings: "wght" $normal-font;
+  line-height: 1.5;  
+  font-stretch: 90%;
+  font-variation-settings: "wdth" 90;
+  font-variation-settings: "slnt" 0;
+  font-optical-sizing: auto;
+  color: $font-color;
+}
+
+h1 {
+  font-size: var(--font-size-1);  
+}
+
+h2 {
+  font-size: var(--font-size-2);  
+}
+
+h3 {
+  font-size: var(--font-size-3);  
+}
+
+h4 {
+  font-size: var(--font-size-4);  
+}
+
+h5 {
+  font-size: var(--font-size-5);  
+}
+
+
+h6 {
+  font-size: var(--font-size-6);  
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  font-weight: $heading-font;
+  font-variation-settings: "wght" $heading-font;
+  font-stretch: 95%;
+  font-variation-settings: "wdth" 95;
+  letter-spacing: -0.038em;
+  line-height: 1.1em;
+}
+
+/**
+ * Basic styles for font attributes | Source: https://variablefonts.io/about-variable-fonts/ */
+ */
+
+:root {
+--text-slnt: 0;
+}
+
+body {
+  font-variation-settings: 'slnt' var(--text-slnt);  
+}
+
+p,
+p em {
+  font-weight: $normal-font;
+  font-variation-settings: "wght" $normal-font;  
+}
+
+small {
+  font-size: $small-font;
+  font-weight: $bold-font;
+  font-variation-settings: "wght" $bold-font;
+}
+
+#legal * {
+  font-size: $smallest-font;
+  font-weight: $heading-font;
+  font-variation-settings: "wght" $heading-font;
+}
+
+em,
+p em,
+cite,
+.quote {
+    --text-slnt: 12;
+    font-variation-settings: "slnt" 12;
+    letter-spacing: -0.02em;
+    margin-right: 0.25ex;
+}
+
+strong,
+b {
+  font-weight: $bold-font;
+  font-variation-settings: "wght"$bold-font
+}
+
+.meta {
+  color: $primary;
+  font-weight: $bold-font;
+  font-variation-settings: "wght"$bold-font;
+  margin-bottom: 1.25em;
+  line-height: 1.25em;
+}
+
+ul.meta {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+.meta li {
+  padding-top: 0.5rem;
+  
+  &::before {
+    content: '\00B7';
+    margin-right: 1ch;
+    margin-left: -1ch;
+  }
+  
+  &:first-child:before {
+    content: '';
+    margin-right: 0;
+  }
+  
+}
+
