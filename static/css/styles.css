@@ -1,6 +1,26 @@
 @charset "UTF-8";
 @import '../../node_modules/normalize.css/normalize.css.css';
 @import '../../node_modules/simpledotcss/simple.min.css';
+/* Overrides ../../node_modules/simpledotcss/simple.min.css */
+button,
+[role=button],
+input[type=submit],
+input[type=reset],
+input[type=button],
+label[type=button],
+.button {
+  all: unset;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: unset;
+}
+
 @font-face {
   font-family: "Commissioner";
   src: url("{{ .Site.BaseURL }}fonts/commissioner-variable.woff2") format("woff2") tech("variations"), url("{{ .Site.BaseURL }}fonts/commissioner-variable.woff2") format("woff2-variations");
@@ -132,17 +152,6 @@ small {
   font-variation-settings: "wght" 138;
 }
 
-/* Overrides ../../node_modules/simpledotcss/simple.min.css */
-button,
-[role=button],
-input[type=submit],
-input[type=reset],
-input[type=button],
-label[type=button],
-.button {
-  all: unset;
-}
-
 /* Helpers
 --------------------------------------------------------------------------------------------- */
 .visually-hidden {
@@ -186,10 +195,6 @@ label[type=button],
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(307deg) brightness(101%) contrast(103%);
 }
 
-.filter-white {
-  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(307deg) brightness(101%) contrast(103%);
-}
-
 .filter-white:hover,
 .navbar-item img:hover,
 .navbar-burger:hover {
@@ -198,7 +203,7 @@ label[type=button],
 
 /* Definitions
 --------------------------------------------------------------------------------------------- */
-/* Colors
+/* Abstracts
 --------------------------------------------------------------------------------------------- */
 .dark {
   background-color: hsl(111, 0%, 34%);
@@ -208,8 +213,7 @@ label[type=button],
 .dark:a {
   color: #dddcd0;
 }
-
-.dark a:hover {
+.dark:a:hover {
   color: #aab7c0;
 }
 
@@ -217,7 +221,6 @@ label[type=button],
   background-color: hsl(56, 16%, 54%);
   color: hsl(0, 0%, 100%);
 }
-
 .primary:hover {
   background-color: #82805e;
   color: hsl(0, 0%, 100%);
@@ -227,10 +230,253 @@ label[type=button],
   background-color: hsl(205, 15%, 41%);
   color: hsl(0, 0%, 100%);
 }
-
 .secondary:hover {
   background-color: #43515b;
   color: hsl(0, 0%, 100%);
+}
+
+/* Content
+--------------------------------------------------------------------------------------------- */
+a {
+  color: #b2b095;
+  font-weight: 576.15;
+  font-variation-settings: "wght" 576.15;
+  text-decoration: none;
+}
+a:hover {
+  color: hsl(205, 15%, 41%);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+@media (max-width: 480px) {
+  a {
+    text-decoration: underline;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+  }
+}
+em,
+.quote {
+  font-variation-settings: "slnt" 14;
+}
+
+strong,
+b {
+  font-variation-settings: "wght" 576.15;
+}
+
+.meta {
+  color: hsl(56, 16%, 54%);
+  font-weight: 576.15;
+  font-variation-settings: "wght" 576.15;
+  margin-bottom: 1.25em;
+  line-height: 1.25em;
+}
+
+ul.meta {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+.meta li {
+  padding-top: 0.5rem;
+}
+.meta li::before {
+  content: "·";
+  margin-right: 1ch;
+  margin-left: -1ch;
+}
+.meta li:first-child:before {
+  content: "";
+  margin-right: 0;
+}
+
+/* Buttons
+--------------------------------------------------------------------------------------------- */
+button,
+[role=button],
+input[type=submit],
+input[type=reset],
+input[type=button],
+label[type=button],
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: hsl(56, 16%, 54%);
+  border: none;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  font-size: var(--font-size-body);
+  padding: 1rem;
+  cursor: pointer;
+  margin: 0.3rem;
+}
+
+/* Images
+--------------------------------------------------------------------------------------------- */
+.content figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+img,
+picture {
+  border-radius: 1.5%;
+}
+
+.icon,
+.small-icon {
+  color: hsl(111, 0%, 34%);
+  vertical-align: -0.125em;
+}
+
+.icon {
+  width: 1.5em;
+  height: 1.5em;
+}
+.icon:hover {
+  color: hsl(205, 15%, 41%);
+}
+
+.small-icon {
+  width: 1em;
+  height: 1em;
+}
+
+/* Lists
+--------------------------------------------------------------------------------------------- */
+.bullet ul,
+.bullet li,
+.bullet ol {
+  margin-left: 3vw;
+}
+
+ul {
+  list-style: none;
+}
+
+.bullet-list ol {
+  margin-bottom: 1rem;
+  line-height: 50%;
+}
+
+.bullet li {
+  margin-bottom: 1rem;
+  line-height: 50%;
+}
+.bullet li::marker {
+  color: #437daa;
+}
+.bullet li::before {
+  content: "▪";
+  color: hsl(56, 16%, 54%);
+  font-weight: bold;
+  font-variation-settings: "wght" 748.995;
+  display: inline-block;
+  width: 0.75em;
+  margin-left: -1em;
+}
+
+.is-fullheight {
+  height: 100%;
+  flex-direction: column;
+}
+
+.fullheight-container {
+  display: flex;
+  align-items: stretch;
+}
+
+/* Blockquotes & citations
+--------------------------------------------------------------------------------------------- */
+.content blockquote {
+  background-color: inherit;
+  border-left: none;
+  padding: 1.75em 1.5em 1.25em;
+}
+
+blockquote {
+  display: block;
+  border-width: 2px 0;
+  border-style: solid;
+  border-color: hsl(117, 0%, 94%);
+  padding: 1.5em 0 0.5em;
+  margin: 1.5em 0;
+  position: relative;
+}
+blockquote:before {
+  content: "“";
+  position: absolute;
+  top: 0em;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: hsl(0, 0%, 100%);
+  width: 3rem;
+  height: 2rem;
+  font: 6em/1.08em "Quicksand", sans-serif;
+  color: hsl(111, 0%, 34%);
+  text-align: center;
+}
+blockquote:after {
+  content: "– " attr(cite);
+  display: block;
+  text-align: right;
+  color: hsl(56, 16%, 54%);
+}
+
+.attribution,
+.attribution p {
+  text-align: right;
+  color: hsl(56, 16%, 54%);
+}
+
+.caption,
+.figcaption,
+.photo-credit,
+.meta,
+.meta * {
+  font-size: 0.75rem;
+}
+
+.caption,
+.photo-credit {
+  text-align: right;
+}
+
+.figcaption {
+  text-align: center;
+}
+
+.quote {
+  font-size: inherit;
+  font-style: italic;
+}
+
+figure blockquote {
+  margin-bottom: 0;
+  text-align: left;
+  padding-bottom: 1%;
+}
+
+.quote-source {
+  padding: 1% 0 5%;
+  text-align: right;
+}
+.quote-source::before {
+  content: "— ";
+}
+.quote-source::after {
+  content: ".";
+}
+
+:lang(en) > q {
+  quotes: "‘" "’" "“" "”";
+}
+
+:lang(fr) > q {
+  quotes: "« " " »" "“" "”";
 }
 
 /* Layout
@@ -292,7 +538,6 @@ ul {
   font-variation-settings: "wdth" 95;
   font-family: sans-serif;
 }
-
 #menu li a:hover {
   color: hsl(0, 0%, 100%);
   text-decoration: none;
@@ -319,8 +564,13 @@ ul {
   -moz-appearance: none;
   appearance: none;
 }
-
-#hamburger:before,
+#hamburger:before {
+  content: "";
+  position: absolute;
+  inset: calc(-2 * var(--s)) 0;
+  transition: 0.4s;
+  background: radial-gradient(farthest-side, hsl(111, 0%, 34%) 98%, rgba(0, 0, 0, 0)) 0/var(--s) var(--s) repeat-x, linear-gradient(hsl(111, 0%, 34%) 0 0) 50%/calc(100% - var(--s)) var(--s) no-repeat;
+}
 #hamburger:after {
   content: "";
   position: absolute;
@@ -328,30 +578,27 @@ ul {
   transition: 0.4s;
   background: radial-gradient(farthest-side, hsl(111, 0%, 34%) 98%, rgba(0, 0, 0, 0)) 0/var(--s) var(--s) repeat-x, linear-gradient(hsl(111, 0%, 34%) 0 0) 50%/calc(100% - var(--s)) var(--s) no-repeat;
 }
-
 #hamburger:focus-visible {
   outline: none;
 }
-
 #hamburger:focus-visible::before {
   outline: 1px solid;
   outline-offset: 5px;
 }
-
 #hamburger:hover {
   box-shadow: 0 calc(1.6 * var(--s)) 0 hsl(111, 0%, 34%), 0 calc(-1.6 * var(--s)) 0 hsl(111, 0%, 34%);
 }
-
 #hamburger:checked {
   box-shadow: 0 calc(6 * var(--s)) 0 rgba(0, 0, 0, 0), 0 calc(-6 * var(--s)) 0 rgba(0, 0, 0, 0);
 }
-
-#hamburger:checked::before,
+#hamburger:checked::before {
+  transform: rotate(45deg);
+  transition: 0.6s 0.1s;
+}
 #hamburger:checked::after {
   transform: rotate(45deg);
   transition: 0.6s 0.1s;
 }
-
 #hamburger:checked::after {
   transform: rotate(-45deg);
 }
@@ -373,6 +620,18 @@ ul {
     /*modern browsers, clip-path works inwards from each corner*/
     white-space: nowrap;
     /* added line to stop words getting smushed together (as they go onto seperate lines and some screen readers do not understand line feeds as a space */
+  }
+  #menu .primary {
+    background-color: hsl(56, 16%, 54%);
+  }
+  #menu .primary:hover {
+    background-color: #82805e;
+  }
+  #menu .secondary {
+    background-color: hsl(205, 15%, 41%);
+  }
+  #menu .secondary:hover {
+    background-color: #43515b;
   }
   #menu .button {
     top: 3.5%;
@@ -414,256 +673,6 @@ ul {
     opacity: 1;
   }
 }
-/* Content
---------------------------------------------------------------------------------------------- */
-a {
-  color: #b2b095;
-  font-weight: 576.15;
-  font-variation-settings: "wght" 576.15;
-  text-decoration: none;
-}
-
-@media (max-width: 480px) {
-  a {
-    text-decoration: underline;
-    text-decoration: underline;
-    text-decoration-style: dotted;
-  }
-}
-a:hover {
-  color: hsl(205, 15%, 41%);
-  text-decoration: underline;
-  text-decoration-style: dotted;
-}
-
-em,
-.quote {
-  font-variation-settings: "slnt" 14;
-}
-
-strong,
-b {
-  font-variation-settings: "wght" 576.15;
-}
-
-.meta {
-  color: hsl(56, 16%, 54%);
-  font-weight: 576.15;
-  font-variation-settings: "wght" 576.15;
-  margin-bottom: 1.25em;
-  line-height: 1.25em;
-}
-
-ul.meta {
-  display: flex;
-  padding-left: 0;
-  list-style: none;
-}
-
-.meta li {
-  padding-top: 0.5rem;
-}
-
-.meta li::before {
-  content: "·";
-  margin-right: 1ch;
-  margin-left: -1ch;
-}
-
-.meta li:first-child:before {
-  content: "";
-  margin-right: 0;
-}
-
-/* Buttons
---------------------------------------------------------------------------------------------- */
-button,
-[role=button],
-input[type=submit],
-input[type=reset],
-input[type=button],
-label[type=button],
-.button {
-  display: inline-block;
-  border-radius: 4px;
-  background-color: hsl(56, 16%, 54%);
-  border: none;
-  color: hsl(0, 0%, 100%);
-  text-align: center;
-  font-size: var(--font-size-body);
-  padding: 1rem;
-  cursor: pointer;
-  margin: 0.3rem;
-}
-
-/* Images
---------------------------------------------------------------------------------------------- */
-.content figure {
-  margin-left: 0;
-  margin-right: 0;
-}
-
-img,
-picture {
-  border-radius: 1.5%;
-}
-
-.icon,
-.small-icon {
-  color: hsl(111, 0%, 34%);
-  vertical-align: -0.125em;
-}
-
-.icon {
-  width: 1.5em;
-  height: 1.5em;
-}
-
-.small-icon {
-  width: 1em;
-  height: 1em;
-}
-
-.icon:hover {
-  color: hsl(205, 15%, 41%);
-}
-
-/* Lists
---------------------------------------------------------------------------------------------- */
-.bullet ul,
-.bullet li,
-.bullet ol {
-  margin-left: 3vw;
-}
-
-ul {
-  list-style: none;
-}
-
-.bullet li,
-.bullet-list ol {
-  margin-bottom: 1rem;
-  line-height: 50%;
-}
-
-.bullet li::marker {
-  color: #437daa;
-}
-
-.bullet li::before {
-  content: "▪";
-  color: hsl(56, 16%, 54%);
-  font-weight: bold;
-  font-variation-settings: "wght" 748.995;
-  display: inline-block;
-  width: 0.75em;
-  margin-left: -1em;
-}
-
-.is-fullheight {
-  height: 100%;
-  flex-direction: column;
-}
-
-.fullheight-container {
-  display: flex;
-  align-items: stretch;
-}
-
-/* Blockquotes & citations
---------------------------------------------------------------------------------------------- */
-.content blockquote {
-  background-color: inherit;
-  border-left: none;
-  padding: 1.75em 1.5em 1.25em;
-}
-
-blockquote {
-  display: block;
-  border-width: 2px 0;
-  border-style: solid;
-  border-color: hsl(117, 0%, 94%);
-  padding: 1.5em 0 0.5em;
-  margin: 1.5em 0;
-  position: relative;
-}
-
-blockquote:before {
-  content: "“";
-  position: absolute;
-  top: 0em;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: hsl(0, 0%, 100%);
-  width: 3rem;
-  height: 2rem;
-  font: 6em/1.08em "Quicksand", sans-serif;
-  color: hsl(111, 0%, 34%);
-  text-align: center;
-}
-
-blockquote:after {
-  content: "– " attr(cite);
-  display: block;
-  text-align: right;
-  color: hsl(56, 16%, 54%);
-}
-
-.attribution,
-.attribution p {
-  text-align: right;
-  color: hsl(56, 16%, 54%);
-}
-
-.caption,
-.figcaption,
-.photo-credit,
-.meta,
-.meta * {
-  font-size: 0.75rem;
-}
-
-.caption,
-.photo-credit {
-  text-align: right;
-}
-
-.figcaption {
-  text-align: center;
-}
-
-.quote {
-  font-size: inherit;
-  font-style: italic;
-}
-
-figure blockquote {
-  margin-bottom: 0;
-  text-align: left;
-  padding-bottom: 1%;
-}
-
-.quote-source {
-  padding: 1% 0 5%;
-  text-align: right;
-}
-
-.quote-source::before {
-  content: "— ";
-}
-
-.quote-source::after {
-  content: ".";
-}
-
-:lang(en) > q {
-  quotes: "‘" "’" "“" "”";
-}
-
-:lang(fr) > q {
-  quotes: "« " " »" "“" "”";
-}
-
 /* Footnotes
 --------------------------------------------------------------------------------------------- */
 .footnotes hr {
@@ -682,7 +691,6 @@ figure blockquote {
   background-color: #54a067;
   padding: 1px 2px 1px;
 }
-
 .footnote-ref:hover {
   color: hsl(0, 0%, 100%);
   background-color: hsl(8, 96%, 63%);

@@ -1,4 +1,4 @@
-// Brand colors
+/// Brand colors
 $gurkha: hsl(56, 16%, 54%);
 $horizon: hsl(205, 15%, 41%);
 $tin: hsl(116, 0%, 50%);
@@ -9,11 +9,11 @@ $baja-white: hsl(49, 100%, 91%);
 $eton-blue: hsl(135, 31%, 68%);
 $tomato: hsl(8, 96%, 63%);
 
-// Black & White
+/// Black & White
 $black: #000 !default;
 $white: hsl(0, 0%, 100%) !default;
 
-// Bulma colors
+/// Bulma colors
 $white-bis: hsl(0, 0%, 98%);
 $white-ter: hsl(0, 0%, 96%);
 $grey-lighter: hsl(0, 0%, 86%);
@@ -24,7 +24,7 @@ $grey-darker: hsl(0, 0%, 21%);
 $black-ter: hsl(0, 0%, 14%);
 $black-bis: hsl(0, 0%, 7%);
 
-// Define custom colors
+/// Define custom colors
 $primary: $gurkha;
 $secondary: $horizon;
 $primary-hover: darken($primary, 10%);
@@ -44,7 +44,7 @@ $warning: darken($baja-white, 60%);
 $success: $eton-blue;
 $warning: $tomato;
 
-// Reset simple.css colors
+/// Reset simple.css colors
 $bg: $white;
 $accent-bg: $white-bis;
 $text: $font-color;

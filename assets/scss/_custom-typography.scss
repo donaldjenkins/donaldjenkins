@@ -8,6 +8,12 @@ $black-font: calc($bold-font * 1.3);
 $heading-font: calc($normal-font * 0.4);
 $thin-font: 100;
 
+$container: 640px;
+$hamburger-container: 728px;
+$header-height: 125px;
+$standard-border-radius: 5px;
+$button-border-radius: 4px;
+
 @font-face {
   font-family: "Commissioner";
   src: url("{{ .Site.BaseURL }}fonts/commissioner-variable.woff2") format("woff2") tech("variations"),

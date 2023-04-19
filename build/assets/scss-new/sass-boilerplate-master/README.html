@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+
+<h1 id="sassboilerplate">Sass Boilerplate</h1>
+
+<p>This is a sample project using the <a href="https://sass-guidelin.es/#architecture">7&#8211;1 architecture pattern</a> and sticking to <a href="https://sass-guidelin.es">Sass Guidelines</a> writing conventions.</p>
+
+<p>Each folder of this project has its own <code>README.md</code> file to explain the purpose and add extra information. Be sure to browse the repository to see how it works.</p>
+
+<h2 id="usingtheindentedsyntax">Using the indented syntax</h2>
+
+<h3 id="sassconversion">Sass conversion</h3>
+
+<p>This boilerplate does not provide a <code>.sass</code> version as it would be painful to maintain both versions without an appropriate build process. However, it is very easy to convert this boilerplate to Sass indented syntax.</p>
+
+<p>Clone it, head into the project and then run:</p>
+
+<pre><code>sass-convert -F scss -T sass -i -R ./  &amp;&amp; find . -iname “*.scss” -exec bash -c 'mv &quot;$0&quot; “${0%\.scss}.sass&quot;' {} \;
+</code></pre>
+
+<h3 id="usewithsass">Use with Sass</h3>
+
+<p>When using <code>sass</code> - in order to build that boilerplate, one needs to:</p>
+
+<ul>
+<li>install <code>sass</code> if not yet installed:</li>
+</ul>
+
+<pre><code class="bash">npm install -g sass
+</code></pre>
+
+<ul>
+<li>run build command from command line:</li>
+</ul>
+
+<pre><code class="bash">sass stylesheets/main.scss dist/main.css
+</code></pre>
+
+</body>
+</html>
+
