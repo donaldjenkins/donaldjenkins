@@ -326,7 +326,7 @@ ul {
   #menu input {
     display: grid;
     z-index: 3;
-    top: 8vh;
+    top: 8.3vh;
   }
   #menu input:checked + ul {
     transform: translate(0);
