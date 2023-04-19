@@ -13,9 +13,11 @@
     </head>
     
     <body>
+        <header id="navbar" class="container section">
         {{ block "header" . }}
         {{ partial "header/header.html" . }}
         {{ end }}
+        </header>
     
         <main class="container">
             {{ block "main" . }}
@@ -27,10 +29,9 @@
         {{ block "footer" . }}
         {{ partial "footer/contact-form.html" . }}
         {{ partial "footer/footer-info.html" . }}
-        {{ partial "footer/footer-scripts.html" . }}
         {{ end }}
-        </footer>
-    
+        </footer>    
+    {{ partial "footer/footer-scripts.html" . }}
     </body>
 
 </html>

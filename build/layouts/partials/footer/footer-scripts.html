@@ -1,8 +1,29 @@
 <!-- Hamburger animation | Source: https://verpex.com/blog/website-tips/how-to-create-a-responsive-hamburger-menu-using-css -->
 
+<script>
 document.querySelector('nav input').onclick = function() {
     if(this.checked)
       this.setAttribute("aria-expanded",true)
     else
       this.setAttribute("aria-expanded",false)
 }
+</script>
+
+<!-- Sticky navbar | Source: https://alvarotrigo.com/blog/sticky-navbar/ -->
+<script>
+  let timVine = document.getElementById("tim-vine");
+  let navbar = document.getElementById("menu");
+  
+  let navPos = navbar.getBoundingClientRect().top;
+  
+  window.addEventListener("scroll", e => {
+    let scrollPos = window.scrollY;
+    if (scrollPos > navPos) {
+      navbar.classList.add('sticky');
+      header.classList.add('navbarOffsetMargin');
+    } else {
+      navbar.classList.remove('sticky');
+      header.classList.remove('navbarOffsetMargin');
+    }
+  });
+</script>

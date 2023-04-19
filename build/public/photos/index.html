@@ -53,10 +53,9 @@ donaldjenkins">
     </head>
     
     <body>
+        <header id="navbar" class="container section">
         
-            
-    <header class="container section">
-        <nav id="menu">
+                <nav id="menu">
             
              
             <figure>
@@ -76,9 +75,8 @@ donaldjenkins">
                     </a></li>
             </ul>
         </nav>
-    </header>
-    
         
+        </header>
     
         <main class="container">
             
@@ -267,16 +265,36 @@ donaldjenkins">
     </nav>
 </section>
         
+        </footer>    
+    
 
+<script>
 document.querySelector('nav input').onclick = function() {
     if(this.checked)
       this.setAttribute("aria-expanded",true)
     else
       this.setAttribute("aria-expanded",false)
 }
-        
-        </footer>
-    
+</script>
+
+
+<script>
+  let timVine = document.getElementById("tim-vine");
+  let navbar = document.getElementById("menu");
+  
+  let navPos = navbar.getBoundingClientRect().top;
+  
+  window.addEventListener("scroll", e => {
+    let scrollPos = window.scrollY;
+    if (scrollPos > navPos) {
+      navbar.classList.add('sticky');
+      header.classList.add('navbarOffsetMargin');
+    } else {
+      navbar.classList.remove('sticky');
+      header.classList.remove('navbarOffsetMargin');
+    }
+  });
+</script>
     </body>
 
 </html>

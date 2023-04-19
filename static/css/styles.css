@@ -131,7 +131,8 @@ label[type=button],
 }
 
 header,
-main {
+main,
+#navbar {
   width: calc(100% - 12vw);
   max-width: 640px;
   margin: 0 auto;
@@ -188,14 +189,14 @@ footer {
   color: hsl(0, 0%, 100%);
 }
 
-#logo {
-  position: fixed;
-  top: 2vh;
-  left: 5vh;
+#menu {
+  background-color: #ffffff;
+  display: flex;
+  position: relative;
 }
 
-nav {
-  display: flex;
+#logo {
+  margin-top: 6%;
 }
 
 ul {
@@ -223,7 +224,7 @@ ul {
 }
 
 #menu input {
-  --s: 7.5px; /* control the size */
+  --s: 0.33rem; /* control the size */
   border: none;
   background: none;
   padding: 0;
@@ -233,8 +234,8 @@ ul {
   aspect-ratio: 5/1;
   border-radius: 100px;
   display: inline-block;
-  position: fixed;
-  top: 5vh;
+  position: absolute;
+  top: 6.5vh;
   right: 5vh;
   transition: 0.5s;
   box-shadow: 0 calc(2 * var(--s)) 0 hsl(111, 0%, 34%), 0 calc(-2 * var(--s)) 0 hsl(111, 0%, 34%);
@@ -301,10 +302,10 @@ ul {
 @media (max-width: 600px) {
   #menu ul {
     position: fixed;
-    background-color: rgba(50, 50, 50, 0.5960784314);
+    background-color: rgba(37, 37, 37, 0.5960784314);
     /*-- The value after six digit is your alpha color or opacity of background.--*/
-    background-color: rgba(51, 51, 85, 0.6); /*-- Same as previous one.--*/
-    background-color: rgba(50, 50, 50, 0.6); /*-- a extend for alpha color--*/
+    background-color: rgba(34, 34, 85, 0.6); /*-- Same as previous one.--*/
+    background-color: rgba(37, 37, 37, 0.6); /*-- a extend for alpha color--*/
     flex-direction: column;
     inset: 0 0 0;
     padding: 40px;
@@ -316,6 +317,12 @@ ul {
     opacity: 0;
     transition: 0.3s;
   }
+  #menu .primary {
+    background-color: #c3c2ac;
+  }
+  #menu .secondary {
+    background-color: #8799a6;
+  }
   #menu input {
     display: grid;
     z-index: 3;
@@ -325,17 +332,6 @@ ul {
     opacity: 1;
   }
 }
-.card-header-title,
-.menu-label,
-.message-header,
-.modal-card-title,
-.panel-heading,
-.subtitle,
-.title {
-  font-weight: 748.995;
-  font-variation-settings: "wght" 748.995;
-}
-
 a {
   color: hsl(56, 16%, 54%);
   font-weight: 576.15;
@@ -699,6 +695,10 @@ footer p {
 .table {
   display: table; /* Allow the centering to work */
   margin: 0 auto;
+}
+
+footer li {
+  padding: 0 1rem;
 }
 
 .contact {
