@@ -4,10 +4,10 @@ categories: ['Personal']
 tags: ['France', 'healthcare', 'Paris']
 seoTitle: "Donald Jenkins: A better new decade?"
 date: 2016-06-19T11:50:32+00:00
-type: page
+type: articles
 layout: 'single'
-slug: "a-better-new-decade"
-draft: true
+slug: "test-article"
+draft: false
 description: "I wish all who read this a very Happy New Year: I am certain I am not the only one hoping that this new decade will mark a new beginning."
 summary: "I wish all who read this a very Happy New Year: I am certain I am not the only one hoping that this new decade will mark a new beginning."
 featured_image: "969a796-2fbc-451f-ba14-8f6e0276b000"

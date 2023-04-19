@@ -65,7 +65,7 @@ footer {
 }
 
 #logo {
-  margin-top:5.5vh;
+  margin:5.5vh 0 0;
 }
 
 ul {
@@ -597,4 +597,19 @@ footer p {
 
 footer li {
   padding: 0 1rem;
+}
+
+/* Article
+--------------------------------------------------------------------------------------------- */
+
+hgroup {
+  border-bottom: 1px solid $grey-lighter;
+}
+
+.title:has(+ .subtitle) { 
+  margin-bottom: 0; 
+}
+
+.title + .subtitle {
+  margin-top: 0;
 }

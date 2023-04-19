@@ -1,5 +1,7 @@
 // Definitions
 $font-size: 18px;
+$small-font: calc($font-size * 0.85);
+$smallest-font: calc($font-size * 0.65);
 $normal-font: 345;
 $bold-font: calc($normal-font * 1.67);
 $black-font: calc($bold-font * 1.3);
@@ -117,10 +119,33 @@ button {
   font-weight: $heading-font;
   font-variation-settings: "wght" $heading-font;
   font-stretch: 95%;
-  font-variation-settings: "wdth" 95
+  font-variation-settings: "wdth" 95;
+  letter-spacing: -0.035em;
+}
+
+/* Italics | Source: https://variablefonts.io/about-variable-fonts/ */
+
+:root {
+--text-slnt: 0;
+}
+
+body {
+  font-variation-settings: 'slnt' var(--text-slnt);  
+}
+
+em {
+    --text-slnt: 12;
+    font-style: oblique 12deg;
+}
+
+small {
+  font-size: $small-font;
+  font-weight: $bold-font;
+  font-variation-settings: "wght" $bold-font;
 }
 
 #legal * {
+  font-size: $smallest-font;
   font-weight: $heading-font;
   font-variation-settings: "wght" $heading-font;
 }
