@@ -2,17 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>healthcare on Donald Jenkins</title>
-    <link>//localhost:55068/tags/healthcare/</link>
+    <link>//localhost:62032/tags/healthcare/</link>
     <description>Recent content in healthcare on Donald Jenkins</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Jan 2011 15:45:25 +0000</lastBuildDate><atom:link href="//localhost:55068/tags/healthcare/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Jun 2016 11:50:32 +0000</lastBuildDate><atom:link href="//localhost:62032/tags/healthcare/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test article</title>
+      <link>//localhost:62032/test-article/</link>
+      <pubDate>Sun, 19 Jun 2016 11:50:32 +0000</pubDate>
+      
+      <guid>//localhost:62032/test-article/</guid>
+      <description>I wish all who read this a very Happy New Year: I am certain I am not the only one hoping that this new decade will mark a new beginning.</description>
+    </item>
+    
     <item>
       <title>A better new decade?</title>
-      <link>//localhost:55068/a-better-new-decade/</link>
+      <link>//localhost:62032/a-better-new-decade/</link>
       <pubDate>Fri, 07 Jan 2011 15:45:25 +0000</pubDate>
       
-      <guid>//localhost:55068/a-better-new-decade/</guid>
+      <guid>//localhost:62032/a-better-new-decade/</guid>
       <description>I wish all who read this a very Happy New Year: I am certain I am not the only one hoping that this new decade will mark a new beginning.</description>
     </item>
     

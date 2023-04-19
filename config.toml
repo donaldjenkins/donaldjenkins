@@ -23,8 +23,8 @@ enableRobotsTXT = true
 articles = "/:slug"
 
 [params]
-    stylesheets = ["styles.css"]
-    cloudflare_images = "https://www.silverejarrosson.com/cdn-cgi/imagedelivery/L0HrrfgxmX01pIlKW6n82w/"
+    stylesheets = ["main.css"]
+    cloudflare_images = "https://www.donaldjenkins.com/cdn-cgi/imagedelivery/L0HrrfgxmX01pIlKW6n82w/"
     
 [sitemap]
     changefreq = 'monthly'

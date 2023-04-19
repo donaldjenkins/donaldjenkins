@@ -1,0 +1,192 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+/**
+ * Navigation
+ */
+ 
+#logo {
+  margin: 0 0 0 -0.5rem;
+}
+
+ul {
+  margin-left: auto;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+#menu {
+  background-color: #ffffff;
+  display: flex;
+  position: relative;
+  height: $header-height;
+}
+
+#menu li a {
+  color: $bg;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: var(--font-size-body);
+  font-weight: $heading-font;
+  font-variation-settings: "wght"$heading-font;
+  font-stretch: 95%;
+  font-variation-settings: "wdth" 95;
+  font-family: sans-serif;
+  
+  &:hover {
+    color: $bg;
+    text-decoration: none;
+  }
+}
+
+/// Style hamburger animation
+
+#hamburger {
+  --s: 0.2rem;
+  /* control the size */
+  border: none;
+  background: none;
+  padding: 0;
+  margin: calc(2 * var(--s)) 0;
+  cursor: pointer;
+  height: var(--s);
+  aspect-ratio: 5/1;
+  border-radius: 100px;
+  display: inline-block;
+  position: absolute;
+  top: 5vh;
+  right: 5vh;
+  transition: 0.5s;
+  box-shadow:
+    0 calc(2 * var(--s)) 0 $font-color,
+    0 calc(-2 * var(--s)) 0 $font-color;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  
+  &:before {
+    content: "";
+    position: absolute;
+    inset: calc(-2 * var(--s)) 0;
+    transition: 0.4s;
+    background:
+      radial-gradient(farthest-side, $font-color 98%, #0000) 0 / var(--s) var(--s) repeat-x,
+      linear-gradient($font-color 0 0) 50% / calc(100% - var(--s)) var(--s) no-repeat;
+  }
+  
+  &:after {
+    content: "";
+    position: absolute;
+    inset: calc(-2 * var(--s)) 0;
+    transition: 0.4s;
+    background:
+      radial-gradient(farthest-side, $font-color 98%, #0000) 0 / var(--s) var(--s) repeat-x,
+      linear-gradient($font-color 0 0) 50% / calc(100% - var(--s)) var(--s) no-repeat;
+  }
+  
+  &:focus-visible {
+    outline: none;
+  }
+  
+  &:focus-visible::before {
+    outline: 1px solid;
+    outline-offset: 5px;
+  }
+  
+  &:hover {
+    box-shadow:
+      0 calc(1.6 * var(--s)) 0 $font-color,
+      0 calc(-1.6 * var(--s)) 0 $font-color;
+  }
+  
+  &:checked {
+    box-shadow:
+      0 calc(6 * var(--s)) 0 #0000,
+      0 calc(-6 * var(--s)) 0 #0000;
+  }
+  
+  &:checked::before {
+    transform: rotate(45deg);
+    transition: 0.6s 0.1s;
+  }
+  
+  &:checked::after {
+    transform: rotate(45deg);
+    transition: 0.6s 0.1s;
+  }
+  
+  &:checked::after {
+    transform: rotate(-45deg);
+  }
+  
+}
+
+@include media(">hamburger") {
+  #hamburger {
+    @include visually-hidden-mixin;
+  }
+  
+  #menu .primary {
+    background-color: $primary;
+    
+    &:hover {
+      background-color: $primary-hover;
+    }    
+    
+  }
+  
+  #menu .secondary {
+    background-color: $secondary;
+    
+    &:hover {
+      background-color: $secondary-hover;
+    }
+  }  
+
+  #menu .button {
+    top: 3.5%;
+  }
+}
+
+@include media("<hamburger") {
+  #menu ul {
+    position: fixed;
+    background-color: #25252598;
+    /*-- The value after six digit is your alpha color or opacity of background.--*/
+    background-color: #2259;
+    /*-- Same as previous one.--*/
+    background-color: rgba(37, 37, 37, 0.6);
+    /*-- a extend for alpha color--*/
+    flex-direction: column;
+    inset: 0 0 0;
+    padding: 40px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    transform: translate(-100%);
+    opacity: 0;
+    transition: .3s;
+  }
+
+  #menu .primary {
+    background-color: tint($primary, 18%);
+  }
+
+  #menu .secondary {
+    background-color: tint($secondary, 18%);
+  }
+
+  #hamburger {
+    display: grid;
+    z-index: 3;
+    top: 42%;
+  }
+
+  #hamburger:checked+ul {
+    transform: translate(0);
+    opacity: 1;
+  }
+}

@@ -1,5 +1,6 @@
-/* Buttons
---------------------------------------------------------------------------------------------- */
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
 
 button,
 [role="button"],
@@ -18,11 +19,4 @@ label[type="button"],
  padding: 1rem;
  cursor: pointer;
  margin: 0.3rem;
-}
-
-/**
- * Icons within buttons
- */
-.button > svg {
-  fill: currentcolor;
 }

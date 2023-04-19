@@ -2,89 +2,125 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Donald Jenkins</title>
-    <link>//localhost:55068/tags/</link>
+    <link>//localhost:62032/tags/</link>
     <description>Recent content in Tags on Donald Jenkins</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Jan 2011 15:45:25 +0000</lastBuildDate><atom:link href="//localhost:55068/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Jun 2016 11:50:32 +0000</lastBuildDate><atom:link href="//localhost:62032/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>France</title>
-      <link>//localhost:55068/tags/france/</link>
-      <pubDate>Fri, 07 Jan 2011 15:45:25 +0000</pubDate>
+      <link>//localhost:62032/tags/france/</link>
+      <pubDate>Sun, 19 Jun 2016 11:50:32 +0000</pubDate>
       
-      <guid>//localhost:55068/tags/france/</guid>
+      <guid>//localhost:62032/tags/france/</guid>
       <description></description>
     </item>
     
     <item>
       <title>healthcare</title>
-      <link>//localhost:55068/tags/healthcare/</link>
-      <pubDate>Fri, 07 Jan 2011 15:45:25 +0000</pubDate>
+      <link>//localhost:62032/tags/healthcare/</link>
+      <pubDate>Sun, 19 Jun 2016 11:50:32 +0000</pubDate>
       
-      <guid>//localhost:55068/tags/healthcare/</guid>
+      <guid>//localhost:62032/tags/healthcare/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Paris</title>
-      <link>//localhost:55068/tags/paris/</link>
-      <pubDate>Fri, 07 Jan 2011 15:45:25 +0000</pubDate>
+      <link>//localhost:62032/tags/paris/</link>
+      <pubDate>Sun, 19 Jun 2016 11:50:32 +0000</pubDate>
       
-      <guid>//localhost:55068/tags/paris/</guid>
+      <guid>//localhost:62032/tags/paris/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blogging</title>
-      <link>//localhost:55068/tags/blogging/</link>
+      <link>//localhost:62032/tags/blogging/</link>
       <pubDate>Fri, 16 Oct 2009 23:48:03 +0000</pubDate>
       
-      <guid>//localhost:55068/tags/blogging/</guid>
+      <guid>//localhost:62032/tags/blogging/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Catholicism</title>
-      <link>//localhost:55068/tags/catholicism/</link>
+      <link>//localhost:62032/tags/catholicism/</link>
       <pubDate>Fri, 16 Oct 2009 23:48:03 +0000</pubDate>
       
-      <guid>//localhost:55068/tags/catholicism/</guid>
+      <guid>//localhost:62032/tags/catholicism/</guid>
       <description></description>
     </item>
     
     <item>
       <title>death</title>
-      <link>//localhost:55068/tags/death/</link>
+      <link>//localhost:62032/tags/death/</link>
       <pubDate>Fri, 16 Oct 2009 23:48:03 +0000</pubDate>
       
-      <guid>//localhost:55068/tags/death/</guid>
+      <guid>//localhost:62032/tags/death/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ballet</title>
+      <link>//localhost:62032/tags/ballet/</link>
+      <pubDate>Sat, 03 Mar 2007 12:47:34 +0000</pubDate>
+      
+      <guid>//localhost:62032/tags/ballet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>literature</title>
+      <link>//localhost:62032/tags/literature/</link>
+      <pubDate>Sat, 03 Mar 2007 12:47:34 +0000</pubDate>
+      
+      <guid>//localhost:62032/tags/literature/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proust</title>
+      <link>//localhost:62032/tags/proust/</link>
+      <pubDate>Sat, 03 Mar 2007 12:47:34 +0000</pubDate>
+      
+      <guid>//localhost:62032/tags/proust/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Roland Petit</title>
+      <link>//localhost:62032/tags/roland-petit/</link>
+      <pubDate>Sat, 03 Mar 2007 12:47:34 +0000</pubDate>
+      
+      <guid>//localhost:62032/tags/roland-petit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>death penalty</title>
-      <link>//localhost:55068/tags/death-penalty/</link>
+      <link>//localhost:62032/tags/death-penalty/</link>
       <pubDate>Fri, 12 Aug 2005 21:34:14 +0000</pubDate>
       
-      <guid>//localhost:55068/tags/death-penalty/</guid>
+      <guid>//localhost:62032/tags/death-penalty/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gay</title>
-      <link>//localhost:55068/tags/gay/</link>
+      <link>//localhost:62032/tags/gay/</link>
       <pubDate>Fri, 12 Aug 2005 21:34:14 +0000</pubDate>
       
-      <guid>//localhost:55068/tags/gay/</guid>
+      <guid>//localhost:62032/tags/gay/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Iran</title>
-      <link>//localhost:55068/tags/iran/</link>
+      <link>//localhost:62032/tags/iran/</link>
       <pubDate>Fri, 12 Aug 2005 21:34:14 +0000</pubDate>
       
-      <guid>//localhost:55068/tags/iran/</guid>
+      <guid>//localhost:62032/tags/iran/</guid>
       <description></description>
     </item>
     

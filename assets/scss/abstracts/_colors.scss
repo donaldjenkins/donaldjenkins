@@ -1,0 +1,68 @@
+/// Brand colors
+$gurkha: hsl(56, 16%, 54%);
+$horizon: hsl(205, 15%, 41%);
+$tin: hsl(116, 0%, 50%);
+$davys-gray: hsl(111, 0%, 34%);
+$concrete: hsl(117, 0%, 94%);
+$fuzzy-wuzzy-brown: hsl(0, 50%, 56%);
+$baja-white: hsl(49, 100%, 91%);
+$eton-blue: hsl(135, 31%, 68%);
+$tomato: hsl(8, 96%, 63%);
+$papaya-whip: hsl(37, 100%, 92%);
+$slate: hsl(217, 29%, 72%);
+
+/// Black & White
+$black: #000;
+$white: hsl(0, 0%, 100%);
+
+/// Bulma colors
+$white-bis: hsl(0, 0%, 98%);
+$white-ter: hsl(0, 0%, 96%);
+$grey-lighter: hsl(0, 0%, 86%);
+$grey-light: hsl(0, 0%, 71%);
+$grey: hsl(0, 0%, 48%);
+$grey-dark: hsl(0, 0%, 29%);
+$grey-darker: hsl(0, 0%, 21%);
+$black-ter: hsl(0, 0%, 14%);
+$black-bis: hsl(0, 0%, 7%);
+
+/// Define custom colors
+$primary: $gurkha;
+$secondary: $horizon;
+$primary-hover: shade($primary, 10%);
+$secondary-hover: shade($secondary, 10%);
+$title-color: $davys-gray;
+$subtitle-color: tint($title-color, 10%);
+$text-on-dark: shade($concrete, 27%);
+$font-color: $davys-gray;
+$link: tint($primary, 10%);
+$link-visited: shade($link, 27%);
+$link-hover: $horizon !default;
+$link-focus-border: $tin;
+$link-on-dark: tint($link, 30%);
+$link-hover-on-dark: tint($link-on-dark, 20%);
+$info: tint($slate, 20%);
+$warning: shade($papaya-whip, 60%);
+$success: $eton-blue;
+$warning: $tomato;
+
+/// Reset simple.css colors
+$bg: $white;
+$accent-bg: $white-bis;
+$text: $font-color;
+$text-light: tint($font-color, 20%);
+$border: $grey;
+$accent: $primary;
+$code: $tomato;
+$preformatted: $font-color;
+$marked: shade($baja-white, 60%);
+$disabled: $concrete;
+
+
+/// Copy text color
+/// @type Color
+$text-color: $font-color;
+
+/// Main brand color
+/// @type Color
+$brand-color: $primary;
