@@ -59,7 +59,8 @@ body,
   color: hsl(111, 0%, 34%);
 }
 
-p {
+p,
+p em {
   font-weight: 345;
   font-variation-settings: "wght" 345;
 }
@@ -99,7 +100,8 @@ button {
   font-variation-settings: "wght" 138;
   font-stretch: 95%;
   font-variation-settings: "wdth" 95;
-  letter-spacing: -0.035em;
+  letter-spacing: -0.038em;
+  line-height: 1.1em;
 }
 
 /* Italics | Source: https://variablefonts.io/about-variable-fonts/ */
@@ -111,9 +113,11 @@ body {
   font-variation-settings: "slnt" var(--text-slnt);
 }
 
-em {
+p em,
+cite {
   --text-slnt: 12;
-  font-style: oblique 12deg;
+  letter-spacing: -0.02em;
+  margin-right: 0.25ex;
 }
 
 small {
@@ -129,10 +133,6 @@ small {
 }
 
 /* Overrides ../../node_modules/simpledotcss/simple.min.css */
-figure#logo {
-  margin-left: -0.5rem;
-}
-
 button,
 [role=button],
 input[type=submit],
@@ -141,44 +141,65 @@ input[type=button],
 label[type=button],
 .button {
   all: unset;
-  display: inline-block;
-  border-radius: 4px;
-  background-color: hsl(56, 16%, 54%);
-  border: none;
-  color: hsl(0, 0%, 100%);
-  text-align: center;
-  font-size: var(--font-size-body);
-  padding: 1rem;
-  cursor: pointer;
-  margin: 0.3rem;
 }
 
-header,
-main,
-#navbar {
-  width: calc(100% - 12vw);
-  max-width: 640px;
-  margin: 0 auto;
+/* Helpers
+--------------------------------------------------------------------------------------------- */
+.visually-hidden {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 - a 0 height clip, off to the bottom right of the visible 1px box */
+  clip: rect(1px, 1px, 1px, 1px);
+  /*maybe deprecated but we need to support legacy browsers */
+  clip-path: inset(50%);
+  /*modern browsers, clip-path works inwards from each corner*/
+  white-space: nowrap;
+  /* added line to stop words getting smushed together (as they go onto seperate lines and some screen readers do not understand line feeds as a space */
 }
 
-body .content {
-  font-family: "Commissioner", system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu", "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-stretch: 90%;
-  font-variation-settings: "wdth" 90;
-  font-variation-settings: "slnt" 0;
-  font-optical-sizing: auto;
-  color: hsl(111, 0%, 34%);
+.vertically-centered {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
-main {
-  margin-top: 7.5vh;
-  margin-bottom: 7.5vh;
+.equal-height {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
-footer {
-  padding: 0 0 2rem;
+.equal-height .card-content {
+  flex: auto;
 }
 
+/* Source: https://stackoverflow.com/questions/22252472/how-can-i-change-the-color-of-an-svg-element*/
+.filter-white {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(307deg) brightness(101%) contrast(103%);
+}
+
+.filter-white {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(307deg) brightness(101%) contrast(103%);
+}
+
+.filter-white:hover,
+.navbar-item img:hover,
+.navbar-burger:hover {
+  filter: invert(61%) sepia(22%) saturate(284%) hue-rotate(161deg) brightness(97%) contrast(84%);
+}
+
+/* Definitions
+--------------------------------------------------------------------------------------------- */
+/* Colors
+--------------------------------------------------------------------------------------------- */
 .dark {
   background-color: hsl(111, 0%, 34%);
   color: hsl(0, 0%, 100%);
@@ -212,14 +233,38 @@ footer {
   color: hsl(0, 0%, 100%);
 }
 
-#menu {
-  background-color: #ffffff;
-  display: flex;
-  position: relative;
+/* Layout
+--------------------------------------------------------------------------------------------- */
+header,
+main,
+#navbar {
+  width: calc(100% - 12vw);
+  max-width: 640px;
+  margin: 0 auto;
 }
 
+body .content {
+  font-family: "Commissioner", system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu", "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-stretch: 90%;
+  font-variation-settings: "wdth" 90;
+  font-variation-settings: "slnt" 0;
+  font-optical-sizing: auto;
+  color: hsl(111, 0%, 34%);
+}
+
+main {
+  margin-top: 7.5vh;
+  margin-bottom: 7.5vh;
+}
+
+footer {
+  padding: 0 0 2rem;
+}
+
+/* Navbar
+--------------------------------------------------------------------------------------------- */
 #logo {
-  margin: 5.5vh 0 0;
+  margin: 0 0 0 -0.5rem;
 }
 
 ul {
@@ -227,6 +272,13 @@ ul {
   padding: 0;
   display: flex;
   list-style: none;
+}
+
+#menu {
+  background-color: #ffffff;
+  display: flex;
+  position: relative;
+  height: 125px;
 }
 
 #menu li a {
@@ -246,8 +298,9 @@ ul {
   text-decoration: none;
 }
 
-#menu input {
-  --s: 0.2rem; /* control the size */
+#hamburger {
+  --s: 0.2rem;
+  /* control the size */
   border: none;
   background: none;
   padding: 0;
@@ -258,7 +311,7 @@ ul {
   border-radius: 100px;
   display: inline-block;
   position: absolute;
-  top: 6vh;
+  top: 5vh;
   right: 5vh;
   transition: 0.5s;
   box-shadow: 0 calc(2 * var(--s)) 0 hsl(111, 0%, 34%), 0 calc(-2 * var(--s)) 0 hsl(111, 0%, 34%);
@@ -267,8 +320,8 @@ ul {
   appearance: none;
 }
 
-#menu input:before,
-#menu input:after {
+#hamburger:before,
+#hamburger:after {
   content: "";
   position: absolute;
   inset: calc(-2 * var(--s)) 0;
@@ -276,35 +329,35 @@ ul {
   background: radial-gradient(farthest-side, hsl(111, 0%, 34%) 98%, rgba(0, 0, 0, 0)) 0/var(--s) var(--s) repeat-x, linear-gradient(hsl(111, 0%, 34%) 0 0) 50%/calc(100% - var(--s)) var(--s) no-repeat;
 }
 
-#menu input:focus-visible {
+#hamburger:focus-visible {
   outline: none;
 }
 
-#menu input:focus-visible::before {
+#hamburger:focus-visible::before {
   outline: 1px solid;
   outline-offset: 5px;
 }
 
-#menu input:hover {
+#hamburger:hover {
   box-shadow: 0 calc(1.6 * var(--s)) 0 hsl(111, 0%, 34%), 0 calc(-1.6 * var(--s)) 0 hsl(111, 0%, 34%);
 }
 
-#menu input:checked {
+#hamburger:checked {
   box-shadow: 0 calc(6 * var(--s)) 0 rgba(0, 0, 0, 0), 0 calc(-6 * var(--s)) 0 rgba(0, 0, 0, 0);
 }
 
-#menu input:checked::before,
-#menu input:checked::after {
+#hamburger:checked::before,
+#hamburger:checked::after {
   transform: rotate(45deg);
   transition: 0.6s 0.1s;
 }
 
-#menu input:checked::after {
+#hamburger:checked::after {
   transform: rotate(-45deg);
 }
 
-@media (min-width: 600px) {
-  #menu input {
+@media (min-width: 728px) {
+  #hamburger {
     border: 0;
     padding: 0;
     margin: 0;
@@ -321,14 +374,19 @@ ul {
     white-space: nowrap;
     /* added line to stop words getting smushed together (as they go onto seperate lines and some screen readers do not understand line feeds as a space */
   }
+  #menu .button {
+    top: 3.5%;
+  }
 }
-@media (max-width: 600px) {
+@media (max-width: 728px) {
   #menu ul {
     position: fixed;
     background-color: rgba(37, 37, 37, 0.5960784314);
     /*-- The value after six digit is your alpha color or opacity of background.--*/
-    background-color: rgba(34, 34, 85, 0.6); /*-- Same as previous one.--*/
-    background-color: rgba(37, 37, 37, 0.6); /*-- a extend for alpha color--*/
+    background-color: rgba(34, 34, 85, 0.6);
+    /*-- Same as previous one.--*/
+    background-color: rgba(37, 37, 37, 0.6);
+    /*-- a extend for alpha color--*/
     flex-direction: column;
     inset: 0 0 0;
     padding: 40px;
@@ -346,16 +404,18 @@ ul {
   #menu .secondary {
     background-color: #8799a6;
   }
-  #menu input {
+  #hamburger {
     display: grid;
     z-index: 3;
-    top: 8.1vh;
+    top: 42%;
   }
-  #menu input:checked + ul {
+  #hamburger:checked + ul {
     transform: translate(0);
     opacity: 1;
   }
 }
+/* Content
+--------------------------------------------------------------------------------------------- */
 a {
   color: #b2b095;
   font-weight: 576.15;
@@ -386,34 +446,70 @@ b {
   font-variation-settings: "wght" 576.15;
 }
 
+.meta {
+  color: hsl(56, 16%, 54%);
+  font-weight: 576.15;
+  font-variation-settings: "wght" 576.15;
+  margin-bottom: 1.25em;
+  line-height: 1.25em;
+}
+
+ul.meta {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+.meta li {
+  padding-top: 0.5rem;
+}
+
+.meta li::before {
+  content: "·";
+  margin-right: 1ch;
+  margin-left: -1ch;
+}
+
+.meta li:first-child:before {
+  content: "";
+  margin-right: 0;
+}
+
+/* Buttons
+--------------------------------------------------------------------------------------------- */
+button,
+[role=button],
+input[type=submit],
+input[type=reset],
+input[type=button],
+label[type=button],
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: hsl(56, 16%, 54%);
+  border: none;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  font-size: var(--font-size-body);
+  padding: 1rem;
+  cursor: pointer;
+  margin: 0.3rem;
+}
+
+/* Images
+--------------------------------------------------------------------------------------------- */
 .content figure {
   margin-left: 0;
   margin-right: 0;
 }
 
-.visually-hidden {
-  border: 0;
-  padding: 0;
-  margin: 0;
-  position: absolute !important;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  clip: rect(1px 1px 1px 1px);
-  /* IE6, IE7 - a 0 height clip, off to the bottom right of the visible 1px box */
-  clip: rect(1px, 1px, 1px, 1px);
-  /*maybe deprecated but we need to support legacy browsers */
-  clip-path: inset(50%);
-  /*modern browsers, clip-path works inwards from each corner*/
-  white-space: nowrap;
-  /* added line to stop words getting smushed together (as they go onto seperate lines and some screen readers do not understand line feeds as a space */
-}
-
-img, picture {
+img,
+picture {
   border-radius: 1.5%;
 }
 
-.icon, .small-icon {
+.icon,
+.small-icon {
   color: hsl(111, 0%, 34%);
   vertical-align: -0.125em;
 }
@@ -430,27 +526,6 @@ img, picture {
 
 .icon:hover {
   color: hsl(205, 15%, 41%);
-}
-
-.meta {
-  color: hsl(56, 16%, 54%);
-  font-weight: 576.15;
-  font-variation-settings: "wght" 576.15;
-}
-
-/* Source: https://stackoverflow.com/questions/22252472/how-can-i-change-the-color-of-an-svg-element*/
-.filter-white {
-  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(307deg) brightness(101%) contrast(103%);
-}
-
-.filter-white {
-  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(307deg) brightness(101%) contrast(103%);
-}
-
-.filter-white:hover,
-.navbar-item img:hover,
-.navbar-burger:hover {
-  filter: invert(61%) sepia(22%) saturate(284%) hue-rotate(161deg) brightness(97%) contrast(84%);
 }
 
 /* Lists
@@ -495,7 +570,8 @@ ul {
   align-items: stretch;
 }
 
-/* Blockquotes & citations */
+/* Blockquotes & citations
+--------------------------------------------------------------------------------------------- */
 .content blockquote {
   background-color: inherit;
   border-left: none;
@@ -586,52 +662,6 @@ figure blockquote {
 
 :lang(fr) > q {
   quotes: "« " " »" "“" "”";
-}
-
-.meta {
-  margin-bottom: 1.25em;
-  line-height: 1.25em;
-}
-
-ul.meta {
-  display: flex;
-  padding-left: 0;
-  list-style: none;
-}
-
-.meta li {
-  padding-top: 0.5rem;
-}
-
-.meta li::before {
-  content: "·";
-  margin-right: 1ch;
-  margin-left: -1ch;
-}
-
-.meta li:first-child:before {
-  content: "";
-  margin-right: 0;
-}
-
-.equal-height {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-.equal-height .card-content {
-  flex: auto;
-}
-
-.h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-title {
-  line-height: 1;
 }
 
 /* Footnotes
@@ -729,7 +759,8 @@ footer p {
 }
 
 .table {
-  display: table; /* Allow the centering to work */
+  display: table;
+  /* Allow the centering to work */
   margin: 0 auto;
 }
 

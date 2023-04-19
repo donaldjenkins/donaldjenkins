@@ -1,13 +1,5 @@
 /* Overrides ../../node_modules/simpledotcss/simple.min.css */
 
-// Definitions
-$standard-border-radius: 5px;
-$button-border-radius: 4px;
-
-figure#logo {
-  margin-left: -0.5rem;
-}
-
 button,
 [role="button"],
 input[type="submit"],
@@ -16,15 +8,5 @@ input[type="button"],
 label[type="button"],
 .button {
  all: unset;
- display: inline-block;
- border-radius: $button-border-radius;
- background-color: $accent;
- border: none;
- color: $bg;
- text-align: center;
- font-size: var(--font-size-body);
- padding: 1rem;
- cursor: pointer;
- margin: 0.3rem;
 }
 

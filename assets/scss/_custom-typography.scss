@@ -79,7 +79,8 @@ body,
   color: $font-color;
 }
 
-p {
+p,
+p em {
   font-weight: $normal-font;
   font-variation-settings: "wght" $normal-font;  
 }
@@ -120,7 +121,8 @@ button {
   font-variation-settings: "wght" $heading-font;
   font-stretch: 95%;
   font-variation-settings: "wdth" 95;
-  letter-spacing: -0.035em;
+  letter-spacing: -0.038em;
+  line-height: 1.1em;
 }
 
 /* Italics | Source: https://variablefonts.io/about-variable-fonts/ */
@@ -133,10 +135,12 @@ body {
   font-variation-settings: 'slnt' var(--text-slnt);  
 }
 
-em {
+p em,
+cite {
     --text-slnt: 12;
-    font-style: oblique 12deg;
-}
+    letter-spacing: -0.02em;
+    margin-right: 0.25ex;
+}  
 
 small {
   font-size: $small-font;

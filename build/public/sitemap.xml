@@ -28,7 +28,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>//localhost:1313/test-article/</loc>
-    <lastmod>2023-04-12T03:13:02+00:00</lastmod>
+    <lastmod>2023-04-19T04:08:51+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -83,6 +83,36 @@
     <priority>0.5</priority>
   </url><url>
     <loc>//localhost:1313/tags/death/</loc>
+    <lastmod>2023-04-12T03:13:02+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>//localhost:1313/an-amazing-mixture-of-roland-petit-the-corps-de-ballet-and-proust/</loc>
+    <lastmod>2023-04-12T03:13:02+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>//localhost:1313/tags/ballet/</loc>
+    <lastmod>2023-04-12T03:13:02+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>//localhost:1313/categories/culture/</loc>
+    <lastmod>2023-04-12T03:13:02+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>//localhost:1313/tags/literature/</loc>
+    <lastmod>2023-04-12T03:13:02+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>//localhost:1313/tags/proust/</loc>
+    <lastmod>2023-04-12T03:13:02+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>//localhost:1313/tags/roland-petit/</loc>
     <lastmod>2023-04-12T03:13:02+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
