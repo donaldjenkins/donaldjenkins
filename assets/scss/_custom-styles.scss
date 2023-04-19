@@ -65,7 +65,7 @@ footer {
 }
 
 #logo {
-  margin-top:6%;
+  margin-top:5vh;
 }
 
 ul {
@@ -92,7 +92,7 @@ ul {
 
 // Style hamburger animation
 #menu input {
-  --s: 0.33rem; /* control the size */
+  --s: 0.2rem; /* control the size */
   border: none;
   background: none;
   padding: 0;
@@ -103,7 +103,7 @@ ul {
   border-radius: 100px;
   display: inline-block;
   position: absolute;
-  top: 7.5vh;
+  top: 6vh;
   right:5vh;
   transition: 0.5s;
   box-shadow: 
@@ -208,6 +208,14 @@ a {
   font-weight: $bold-font;
   font-variation-settings: "wght" $bold-font;
   text-decoration: none;
+}
+
+@media (max-width:480px) {
+  a {
+    text-decoration: underline;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+  }
 }
 
 a:hover {

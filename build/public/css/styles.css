@@ -162,7 +162,7 @@ footer {
 }
 
 .dark:a {
-  color: #c7c6b2;
+  color: #dddcd0;
 }
 
 .dark a:hover {
@@ -196,7 +196,7 @@ footer {
 }
 
 #logo {
-  margin-top: 6%;
+  margin-top: 5vh;
 }
 
 ul {
@@ -224,7 +224,7 @@ ul {
 }
 
 #menu input {
-  --s: 0.33rem; /* control the size */
+  --s: 0.2rem; /* control the size */
   border: none;
   background: none;
   padding: 0;
@@ -235,7 +235,7 @@ ul {
   border-radius: 100px;
   display: inline-block;
   position: absolute;
-  top: 7.5vh;
+  top: 6vh;
   right: 5vh;
   transition: 0.5s;
   box-shadow: 0 calc(2 * var(--s)) 0 hsl(111, 0%, 34%), 0 calc(-2 * var(--s)) 0 hsl(111, 0%, 34%);
@@ -333,12 +333,19 @@ ul {
   }
 }
 a {
-  color: hsl(56, 16%, 54%);
+  color: #b2b095;
   font-weight: 576.15;
   font-variation-settings: "wght" 576.15;
   text-decoration: none;
 }
 
+@media (max-width: 480px) {
+  a {
+    text-decoration: underline;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+  }
+}
 a:hover {
   color: hsl(205, 15%, 41%);
   text-decoration: underline;
