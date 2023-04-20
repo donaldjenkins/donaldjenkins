@@ -1,3 +1,5 @@
+@use "sass:color";
+
 /// Brand colors
 $gurkha: hsl(56, 16%, 54%);
 $horizon: hsl(205, 15%, 41%);
@@ -29,20 +31,20 @@ $black-bis: hsl(0, 0%, 7%);
 /// Define custom colors
 $primary: $gurkha;
 $secondary: $horizon;
-$primary-hover: shade($primary, 10%);
-$secondary-hover: shade($secondary, 10%);
+$primary-hover: color.adjust($primary, $lightness: 5%);
+$secondary-hover: color.adjust($secondary, $lightness: 5%);
 $title-color: $davys-gray;
-$subtitle-color: tint($title-color, 10%);
-$text-on-dark: shade($concrete, 27%);
+$subtitle-color: color.adjust($title-color,  $lightness: 10%);
+$text-on-dark: color.adjust($concrete, $blackness: 27%);
 $font-color: $davys-gray;
-$link: tint($primary, 10%);
-$link-visited: shade($link, 27%);
-$link-hover: $horizon !default;
+$link: color.adjust($primary, $lightness: 10%);
+$link-visited: color.adjust($link, $blackness: 27%);
+$link-hover: $horizon;
 $link-focus-border: $tin;
-$link-on-dark: tint($link, 30%);
-$link-hover-on-dark: tint($link-on-dark, 20%);
-$info: tint($slate, 20%);
-$warning: shade($papaya-whip, 60%);
+$link-on-dark: color.adjust($eton-blue, $lightness: 20%);
+$link-hover-on-dark: color.adjust($eton-blue, $lightness: 50%);
+$info: color.adjust($slate, $lightness: 20%);
+$warning: color.adjust($papaya-whip, $blackness: 60%);
 $success: $eton-blue;
 $warning: $tomato;
 
@@ -50,12 +52,12 @@ $warning: $tomato;
 $bg: $white;
 $accent-bg: $white-bis;
 $text: $font-color;
-$text-light: tint($font-color, 20%);
+$text-light: color.adjust($font-color, $lightness: 20%);
 $border: $grey;
 $accent: $primary;
 $code: $tomato;
 $preformatted: $font-color;
-$marked: shade($baja-white, 60%);
+$marked: color.adjust($baja-white, $blackness: 60%);
 $disabled: $concrete;
 
 

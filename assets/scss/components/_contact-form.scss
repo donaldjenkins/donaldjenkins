@@ -35,7 +35,7 @@
   .contact-form textarea,
   .contact-form input {
     color: $white;
-    font-size: 0.7rem;
+    font-size: $font-size;
     font-weight: $thin-font;
     font-variation-settings: "wght" $thin-font;
   }
