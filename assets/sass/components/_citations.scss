@@ -16,6 +16,10 @@ blockquote {
   padding: 1.5em 0 0.5em;
   margin: 1.5em 0;
   position: relative;
+  font-size: $smaller-font;
+  font-weight: $thin-font;
+  font-variation-settings: "wght" $thin-font;
+  font-style: italic;
   
   &:before {
     content: '\201C';

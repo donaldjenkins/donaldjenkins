@@ -34,6 +34,11 @@ $primary: $gurkha;
 $secondary: $horizon;
 $primary-hover: color.adjust($primary, $lightness: 5%);
 $secondary-hover: color.adjust($secondary, $lightness: 5%);
+$primary-on-dark: $primary-hover;
+$secondary-on-dark: $secondary-hover;
+$primary-on-dark-hover: color.adjust($primary-hover, $lightness: 5%);
+$secondary-on-dark-hover: color.adjust($secondary-hover, $lightness: 5%);
+
 $title-color: $davys-gray;
 $subtitle-color: color.adjust($title-color,  $lightness: 10%);
 $text-on-dark: color.adjust($concrete, $blackness: 27%);

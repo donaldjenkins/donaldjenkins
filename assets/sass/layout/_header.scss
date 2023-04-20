@@ -10,7 +10,7 @@
   margin: 0 0 0 -0.5rem;
 }
 
-ul {
+#menu ul {
   margin-left: auto;
   padding: 0;
   display: flex;
@@ -24,16 +24,17 @@ ul {
   height: $header-height;
 }
 
+
 #menu li a {
   color: $bg;
   padding: 10px 20px;
   text-decoration: none;
-  font-size: var(--font-size-body);
+  font-size: $font-size;
   font-weight: $heading-font;
   font-variation-settings: "wght"$heading-font;
   font-stretch: 95%;
   font-variation-settings: "wdth" 95;
-  font-family: sans-serif;
+  font-family: $regular-font-stack;
   
   &:hover {
     color: $bg;
@@ -172,12 +173,21 @@ ul {
   }
 
   #menu .primary {
-    background-color: tint($primary, 18%);
+    background-color: $primary-on-dark;
+    
+    &:hover {
+      background-color: $primary-on-dark-hover;
+    }
   }
 
   #menu .secondary {
-    background-color: tint($secondary, 18%);
+    background-color: $secondary-on-dark;
+    
+    &:hover {
+      background-color: $secondary-on-dark-hover;
+    }
   }
+
 
   #hamburger {
     display: grid;

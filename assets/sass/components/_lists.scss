@@ -1,44 +1,33 @@
 // -----------------------------------------------------------------------------
-// This file contains all styles related to lists.
+// This file contains all styles related to lists and menus.
 // -----------------------------------------------------------------------------
 
 /**
  * Basic styles for lists
  */
 
-.bullet ul,
-.bullet li,
-.bullet ol {
-  margin-left: 3vw;
-}
-
-ul {
-  list-style: none;
-}
-
-.bullet-list ol {
+ol {
   margin-bottom: 1rem;
-  line-height: 50%;
 }
 
-.bullet li {
+ li {
   margin-bottom: 1rem;
-  line-height: 50%;
   
   &::marker {
-    color: $brand-color;
+    color: $slate;
   }
   
-  &::before {
-    content: "\25AA";
-    color: $brand-color;
-    font-weight: bold;
-    font-variation-settings: "wght"$black-font;
-    display: inline-block;
-    width: 0.75em;
-    margin-left: -1em;
-  }
-  
+}
+
+/**
+ * Lists for menu items
+ */
+
+#menu ul, #social ul {
+  margin-left: auto;
+  padding: 0;
+  display: flex;
+  list-style: none;
 }
 
 /**

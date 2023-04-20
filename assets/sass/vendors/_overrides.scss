@@ -1,5 +1,9 @@
 /// Overrides ../../node_modules/simpledotcss/simple.min.css
 
+article {
+  all: unset;
+}
+
 button,
 [role="button"],
 input[type="submit"],

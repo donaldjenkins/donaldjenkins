@@ -137,13 +137,13 @@ cite,
 strong,
 b {
   font-weight: $bold-font;
-  font-variation-settings: "wght"$bold-font
+  font-variation-settings: "wght" $bold-font;
 }
 
 .meta {
   color: $brand-color;
   font-weight: $bold-font;
-  font-variation-settings: "wght"$bold-font;
+  font-variation-settings: "wght" $bold-font;
   margin-bottom: 1.25em;
   line-height: 1.25em;
 }
