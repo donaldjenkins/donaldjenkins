@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 0%;
-    padding: 0 0 6vh;
+    padding: 3vh 0 8vh;
   }
   
   .content-box {
@@ -22,12 +22,11 @@
   .contact-form,
   .contact-form textarea,
   .contact-form input {
-    width: calc(100% - 0.25vw);
-    max-width: 320px;
+    width: 360px;
     margin: 0 auto;
     position: relative;
     display: inline-block;
-    font-family: $regular-font-stack;
+    font-family: $monospace-font-stack;
   }
   
   textarea::placeholder,
@@ -35,7 +34,7 @@
   .contact-form textarea,
   .contact-form input {
     color: $white;
-    font-size: $font-size;
+    font-size: 16px;
     font-weight: $thin-font;
     font-variation-settings: "wght" $thin-font;
   }
