@@ -1,8 +1,15 @@
 /**
  * Basic typography style for copy text
  */
+ 
  /* Global variables. */
+ 
  :root {
+   
+ /* Basic styles for font attributes | Source: https://variablefonts.io/about-variable-fonts/
+    */
+   --text-slnt: 0;
+   
    /* Set sans-serif & mono fonts */
    --sans-font: $regular-font-stack;
    --mono-font: $monospace-font-stack-font-stack
@@ -106,17 +113,15 @@ button {
  * Basic styles for font attributes | Source: https://variablefonts.io/about-variable-fonts/
  */
 
-:root {
---text-slnt: 0;
-}
-
 body {
   font-variation-settings: 'slnt' var(--text-slnt);  
 }
 
 p,
 p em,
-.quote-source {
+cite,
+.quote-source,
+li {
   font-weight: $normal-font;
   font-variation-settings: "wght" $normal-font;  
 }
@@ -135,8 +140,8 @@ small {
 
 em,
 p em,
-cite,
-.quote {
+.quote,
+cite em {
     font-weight: $normal-font;
     font-variation-settings: "wght" $normal-font, "slnt" 12;
     --text-slnt: 12;
@@ -148,36 +153,6 @@ strong,
 b {
   font-weight: $bold-font;
   font-variation-settings: "wght" $bold-font;
-}
-
-.meta {
-  color: $brand-color;
-  font-weight: $bold-font;
-  font-variation-settings: "wght" $bold-font;
-  margin-bottom: 1.25em;
-  line-height: 1.25em;
-}
-
-ul.meta {
-  display: flex;
-  padding-left: 0;
-  list-style: none;
-}
-
-.meta li {
-  padding-top: 0.5rem;
-  
-  &::before {
-    content: '\00B7';
-    margin-right: 1ch;
-    margin-left: -1ch;
-  }
-  
-  &:first-child:before {
-    content: '';
-    margin-right: 0;
-  }
-  
 }
 
 .caption,

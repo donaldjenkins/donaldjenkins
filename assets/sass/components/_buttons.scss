@@ -2,6 +2,13 @@
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
 
+//
+// Enter your text via line-height and not via padding. Set a line-height with the same height the button has.
+// Source: https://stackoverflow.com/questions/40847860/different-line-height-and-baseline-on-mobile-and-desktops
+//
+//
+// Source for animation: /* Source: https://uiverse.io/adamgiebl/rude-bear-14 */
+//
 button,
 [role="button"],
 input[type="submit"],
@@ -11,7 +18,7 @@ label[type="button"],
 .button {
  display: inline-block;
  border-radius: $button-border-radius;
- background-color: $accent;
+ background-color: $primary;
  border: none;
  color: $bg;
  text-align: center;
@@ -19,10 +26,24 @@ label[type="button"],
  padding: 1rem;
  cursor: pointer;
  margin: 0.3rem;
+ background: transparent;
+ transition: ease-out 0.5s;
+ border: 2px solid $primary;
+ box-shadow: inset 0 0 0 0 $primary;
 // 
 // Source: https://stackoverflow.com/questions/2883373/simple-css-text-wont-center-in-a-button
 // 
  box-sizing : content-box;
+ 
+ &:hover {
+   color: $primary;
+   background-color: $white;
+   box-shadow: inset 0 -100px 0 0 $primary;
+ }
+ 
+ &:active {
+   transform: scale(0.9);
+ }
 }
 
 

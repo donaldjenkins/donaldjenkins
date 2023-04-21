@@ -1,0 +1,42 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to tables.
+// -----------------------------------------------------------------------------
+
+
+/*	
+  Table Responsive
+  ===================
+  Author: https://github.com/pablorgarcia
+ */
+
+table {
+    font-size: $smaller-font;
+    font-style: normal;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 10px;
+    overflow:hidden;
+    & a {
+      font-weight: $normal-font;
+    }
+}
+
+th {
+    text-align: left;
+    padding: 20px 20px 20px 20px;
+    color: $horizon;
+    background-color: $baja-white;
+}
+
+table,
+td {
+    padding: 8px 8px 8px 20px;
+}
+
+tr:nth-child(even) {
+    background-color: $concrete;
+}
+
+tr:hover {
+    background-color: rgba(114, 114, 113, 0.2);
+}

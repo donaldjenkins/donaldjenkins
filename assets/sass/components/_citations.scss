@@ -62,7 +62,7 @@ blockquote cite {
   }
 }
 
-@include media("<tablet") {
+@include media("<hamburger") {
   blockquote {
     border-top: 2px solid $brand-color;
     border-bottom: 2px solid $brand-color;
@@ -110,7 +110,7 @@ blockquote cite {
   font-style: italic
 }
 
-figure blockquote {
+blockquote {
   margin-bottom: 0;
   text-align: left;
   padding-bottom: 1%
@@ -132,6 +132,7 @@ figure blockquote {
   }
   
 }
+
 
 :lang(en)>q {
   quotes: '\2018' '\2019' '\201C' '\201D'

@@ -89,13 +89,29 @@ a {
 }
 
 /**
- * Basic styles for images
+ * Add box shadow for images and other stuff
  */
-
-img,
-picture {
-  border-radius: 1.5%;
+img:not(#logo picture img),
+table {
+   box-shadow: 0px 0px 10px rgba(114, 114, 113, 0.5);  
 }
+
+
+/**
+ * Basic styles for images and similar stuff
+ */
+ 
+ figure {
+   margin: 0;
+ }
+ 
+ img {
+   border-radius: $standard-border-radius;
+   width: 100%;
+   padding: 0;
+   max-width: $container;
+ }
+
 
 .icon,
 .small-icon {
@@ -116,4 +132,34 @@ picture {
 .small-icon {
   width: 1em;
   height: 1em;
+}
+
+.meta {
+  color: $brand-color;
+  font-weight: $bold-font;
+  font-variation-settings: "wght" $bold-font;
+  margin-bottom: 1.25em;
+  line-height: 1.25em;
+}
+
+ul.meta {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+.meta li {
+  padding-top: 0.5rem;
+  
+  &::before {
+    content: '\00B7';
+    margin-right: 1ch;
+    margin-left: -1ch;
+  }
+  
+  &:first-child:before {
+    content: '';
+    margin-right: 0;
+  }
+  
 }

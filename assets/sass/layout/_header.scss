@@ -147,20 +147,26 @@
     @include visually-hidden-mixin;
   }
   
-  #menu .primary {
+  #menu .button.primary {
     background-color: $primary;
     
     &:hover {
-      background-color: $primary-hover;
-    }    
+       color: $primary;
+       background-color: $white;
+       box-shadow: inset 0 -100px 0 0 $primary;
+     }    
     
   }
   
-  #menu .secondary {
+  #menu .button.secondary {
     background-color: $secondary;
+    border: 2px solid $secondary;
+    box-shadow: inset 0 0 0 0 $secondary;
     
     &:hover {
-      background-color: $secondary-hover;
+     color: $secondary;
+     background-color: $white;
+     box-shadow: inset 0 -100px 0 0 $secondary;
     }
   }  
 
@@ -193,17 +199,25 @@
 
   #menu .primary {
     background-color: $primary-on-dark;
+    border: 2px solid $primary-on-dark;
+    box-shadow: inset 0 0 0 0 $primary-on-dark;
     
     &:hover {
       background-color: $primary-on-dark-hover;
+      background-color: $white;
+      box-shadow: inset 0 -100px 0 0 $primary-on-dark-hover;
     }
   }
 
   #menu .secondary {
     background-color: $secondary-on-dark;
+    border: 2px solid $secondary-on-dark;
+    box-shadow: inset 0 0 0 0 $secondary-on-dark;
     
     &:hover {
-      background-color: $secondary-on-dark-hover;
+     color: $secondary;
+     background-color: $white;
+     box-shadow: inset 0 -100px 0 0 $secondary;
     }
   }
 
