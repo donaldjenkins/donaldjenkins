@@ -24,6 +24,10 @@
 }
 
 #menu li {
+//
+// Enter your text via line-height and not via padding. Set a line-height with the same height the button has.
+// Source: https://stackoverflow.com/questions/40847860/different-line-height-and-baseline-on-mobile-and-desktops
+//
   height: 1.75rem
 }
 
@@ -43,6 +47,10 @@
 //  
   vertical-align: middle;
   margin: auto;
+//
+// Enter your text via line-height and not via padding. Set a line-height with the same height the button has.
+// Source: https://stackoverflow.com/questions/40847860/different-line-height-and-baseline-on-mobile-and-desktops
+//
   line-height: 1.75rem;
   box-sizing : content-box;
   
