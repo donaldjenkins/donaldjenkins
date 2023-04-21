@@ -4,22 +4,42 @@ $button-border-radius: 4px;
 
 /// Typography
 $font-name: "Commissioner";
+
+// Font size
 $font-size: 18px;
 $smaller-font: calc($font-size * 0.91);
 $small-font: calc($font-size * 0.85);
 $smallest-font: calc($font-size * 0.65);
-$normal-font: 315;
+
+// Font weight
+$normal-font: 335;
 $bold-font: calc($normal-font * 1.67);
 $black-font: calc($bold-font * 1.3);
 $heading-font: calc($normal-font * 0.4);
 $thin-font: calc($normal-font * 0.6);
 
-/// Breakpoints
-$breakpoints: (mobile: 320px, smartphone: 480px, container: 640px, hamburger: 720px, tablet: 768px, desktop: 1024px, tv: 1300px);
+// Fot naming conventions | Source: https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight
+$thin: 100;
+$extra-light: 200;
+$light: 300;
+$normal: 400;
+$medium: 500;
+$semi-bold: 600;
+$bold: 700;
+$extra-bold: 800;
+$black: 900;
+$extra-black: 950;
+
+$font-stretch: 95;
+$line-height: 1.34;
 
 /// Layout
-$container: 640px;
+$hamburger: 720px; // point at which hamburger replaces menu
+$container: 960px; // size of main container
 $header-height: 125px;
+
+/// Breakpoints
+$breakpoints: (mobile: 320px, smartphone: 480px, hamburger: $hamburger, tablet: 768px, container: $container, desktop: 1024px, widescreen: 1200px);
 
 ///Paths
 $node-modules: "../../../node_modules/";

@@ -31,7 +31,7 @@
    --font-size-4: clamp(1.4rem, 1rem + 1.6842vw, 1.8rem);
    --font-size-5: clamp(1.2rem, 0.95rem + 1.0526vw, 1.45rem);
    --font-size-6: clamp(1.1rem, 0.45rem + 1.8947vw, 1.35rem);
-   --font-size-body: clamp(0.95rem, 0.75rem + 0.8421vw, 1.15rem);
+   --font-size-body: clamp(0.9rem, 0.7034rem + 0.8276vw, 1.2rem);
  }
 
 body {
@@ -46,9 +46,9 @@ body,
   font-family: $regular-font-stack;
   font-weight: $normal-font;
   font-variation-settings: "wght" $normal-font;
-  line-height: 1.5;  
-  font-stretch: 95%;
-  font-variation-settings: "wdth" 95;
+  line-height: $line-height;  
+  font-stretch: $font-stretch"%";
+  font-variation-settings: "wdth" $font-stretch;
   font-variation-settings: "slnt" 0;
   font-optical-sizing: auto;
   color: $font-color;
@@ -88,10 +88,11 @@ h6,
 button {
   font-weight: $heading-font;
   font-variation-settings: "wght" $heading-font;
-  font-stretch: 100%;
-  font-variation-settings: "wdth" 100;
+  font-stretch: calc($font-stretch * 1.053)"%";
+  font-variation-settings: "wdth" calc($font-stretch * 1.053);
+  font-variation-settings: 'wght' $heading-font, 'slnt' -10, 'VOLM' 70;
   letter-spacing: -0.0075em;
-  line-height: 1.1em;
+  line-height: calc($line-height * 0.75);
 }
 
 /**
@@ -107,7 +108,8 @@ body {
 }
 
 p,
-p em {
+p em,
+.quote-source {
   font-weight: $normal-font;
   font-variation-settings: "wght" $normal-font;  
 }
@@ -128,8 +130,9 @@ em,
 p em,
 cite,
 .quote {
+    font-weight: $normal-font;
+    font-variation-settings: "wght" $normal-font, "slnt" 12;
     --text-slnt: 12;
-    font-variation-settings: "slnt" 12;
     letter-spacing: -0.02em;
     margin-right: 0.25ex;
 }
@@ -170,3 +173,10 @@ ul.meta {
   
 }
 
+.caption,
+.figcaption,
+.photo-credit,
+.meta,
+.meta * {
+  font-size: 0.75rem;
+}

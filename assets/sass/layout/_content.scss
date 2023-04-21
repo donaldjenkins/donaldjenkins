@@ -2,10 +2,7 @@
 // This file contains all styles related to the main section of the site/application.
 // ----------------------------------------------------------------------------------
 
-
-header,
-main,
-#navbar {
+.container {
   width: calc(100% - 12vw);
   max-width: $container;
   margin: 0 auto;

@@ -27,7 +27,17 @@
     position: relative;
     display: inline-block;
     font-family: $monospace-font-stack;
+    
+    @include media("<smartphone") {
+      width: 320px;
+    }
+    
+    @include media("<mobile") {
+      width: 90%;
+    }
   }
+  
+  
   
   textarea::placeholder,
   input::placeholder,

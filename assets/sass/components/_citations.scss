@@ -2,60 +2,98 @@
 // This file contains all styles related to blockquotes, citations, captions and attributions.
 // ------------------------------------------------------------------------------------------
 
-.content blockquote {
-  background-color: inherit;
-  border-left: none;
-  padding: 1.75em 1.5em 1.25em;
-}
-
+/* Source: https://blog.stackfindover.com/css-blockquotes-examples/ | https://codepen.io/r-i-c-h/pen/XveoOX */
 blockquote {
-  display: block;
-  border-width: 2px 0;
-  border-style: solid;
-  border-color: $concrete;
-  padding: 1.5em 0 0.5em;
-  margin: 1.5em 0;
-  position: relative;
-  font-size: $smaller-font;
-  font-weight: $thin-font;
-  font-variation-settings: "wght" $thin-font;
+  border-left: 3px solid $brand-color;
+  color: $secondary;
+  font-size: 1.25em;
   font-style: italic;
+  line-height: 1.8em;
+  margin: 1.1em;
+  padding: 1em 2em;
+  position: relative;
+  transition: 0.2s border ease-in-out;
+  z-index: 0;
   
   &:before {
-    content: '\201C';
+    content: "";
     position: absolute;
-    top: 0em;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: $white;
-    width: 3rem;
-    height: 2rem;
-    font: 6em/1.08em 'Quicksand', sans-serif;
-    color: $font-color;
-    text-align: center;
+    top: 50%;
+    left: -4px;
+    height: 2em;
+    background-color: $white;
+    width: 5px;
+    margin-top: -1em;
   }
   
   &:after {
-    content: "\2013 \2003" attr(cite);
-    display: block;
-    text-align: right;
-    color: $brand-color;
+    content: "\201C";
+    position: absolute;
+    top: 50%;
+    left: -0.5em;
+    color:  $brand-color;
+    width: 0.5rem;
+    height: 0.33rem;
+    font: 3em/0.54em 'Commissioner', sans-serif;
+    text-align: center;
+    text-indent: -2px;
+    width: 1em;
+    margin-top: -0.09em;
+    transition: 0.2s all ease-in-out, 0.4s transform ease-in-out;
   }
   
+  &:active:after {
+    transform: rotateY(360deg);
+  }
+  
+}
+
+blockquote cite {
+  display: block;
+  font-size: 0.75em;
+  line-height: 1.8em;
+  margin-top: 1em;
+}
+
+@include media("<container") {
+  blockquote {
+    font-size: 1.1em;
+    margin: 1.1em;
+  }
+}
+
+@include media("<tablet") {
+  blockquote {
+    border-top: 2px solid $brand-color;
+    border-bottom: 2px solid $brand-color;
+    border-left: none;
+    margin: 1.5em 0;
+    padding: 1.5em 1em;
+  }
+  blockquote:before {
+    left: 50%;
+    top: 0;
+    height: 4px;
+    margin-top: -3px;
+    margin-left: -1em;
+    width: 2em;
+  }
+  blockquote:after {
+    font-size: 2em;
+    left: 50%;
+    top: 0;
+    margin-top: -0.1em;
+    margin-left: -0.5em;
+  }
+  blockquote cite {
+    text-align: right;
+  }
 }
 
 .attribution,
 .attribution p {
   text-align: right;
   color: $brand-color;
-}
-
-.caption,
-.figcaption,
-.photo-credit,
-.meta,
-.meta * {
-  font-size: 0.75rem;
 }
 
 .caption,
@@ -79,6 +117,9 @@ figure blockquote {
 }
 
 .quote-source {
+  font-weight: $normal-font;
+  font-style: normal;
+  font-variation-settings: "wght" $normal-font "slnt" 0;
   padding: 1% 0 5%;
   text-align: right;
   

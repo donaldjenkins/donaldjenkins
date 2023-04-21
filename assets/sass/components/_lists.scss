@@ -10,6 +10,21 @@ ol {
   margin-bottom: 1rem;
 }
 
+ul li, ol li {
+
+//
+// Remove indentation from ul/ol list
+// Source: https://stackoverflow.com/questions/64235551/css-cant-remove-indentation-from-a-bulleted-list
+//
+
+  margin-left: -20px;
+}
+
+//
+// Custom bullets with CSS ::marker
+// Source: https://web.dev/css-marker-pseudo-element/
+//
+
  li {
   margin-bottom: 1rem;
   

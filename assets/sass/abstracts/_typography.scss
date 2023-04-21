@@ -1,8 +1,8 @@
 /// Font-face declaration
 @font-face {
-  font-family: "$font-name";
-  src: url("{{ .Site.BaseURL }}fonts/commissioner-variable.woff2") format("woff2") tech("variations"),
-      url("{{ .Site.BaseURL }}fonts/commissioner-variable.woff2") format("woff2-variations");
+  font-family: $font-name;
+  src: url("/fonts/commissioner-variable.woff2") format("woff2") tech("variations"),
+      url("/fonts/commissioner-variable.woff2") format("woff2-variations");
   font-weight: 100 1000;
   font-stretch: 75% 125%;
   font-style: oblique 0deg 20deg;
@@ -13,7 +13,7 @@
 /// @type List
 $text-font-stack: system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu",
 "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-$regular-font-stack: "$font-name", $text-font-stack;
+$regular-font-stack: $font-name, $text-font-stack;
 
 /// Code (monospace) font family
 /// @type List

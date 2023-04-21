@@ -10,13 +10,6 @@
   margin: 0 0 0 -0.5rem;
 }
 
-#menu ul {
-  margin-left: auto;
-  padding: 0;
-  display: flex;
-  list-style: none;
-}
-
 #menu {
   background-color: #ffffff;
   display: flex;
@@ -24,17 +17,30 @@
   height: $header-height;
 }
 
+#menu ul {
+  margin-left: auto;
+  padding: 0;
+  display: flex;
+}
 
 #menu li a {
   color: $bg;
-  padding: 10px 20px;
+  padding: 0 1em;
   text-decoration: none;
-  font-size: $font-size;
-  font-weight: $heading-font;
-  font-variation-settings: "wght"$heading-font;
+  font-size: $smaller-font;
+  font-weight: $thin-font;
+  font-variation-settings: "wght" $thin-font;
   font-stretch: 95%;
   font-variation-settings: "wdth" 95;
   font-family: $regular-font-stack;
+//
+// Added to center text vertically (bug in simple.css)
+// Source: https://stackoverflow.com/questions/2883373/simple-css-text-wont-center-in-a-button
+//  
+  vertical-align: middle;
+  margin: auto;
+  line-height: 1.25rem;
+  box-sizing : content-box;
   
   &:hover {
     color: $bg;
@@ -58,7 +64,7 @@
   display: inline-block;
   position: absolute;
   top: 5vh;
-  right: 5vh;
+  right: 1vh;
   transition: 0.5s;
   box-shadow:
     0 calc(2 * var(--s)) 0 $font-color,
@@ -170,6 +176,7 @@
     transform: translate(-100%);
     opacity: 0;
     transition: .3s;
+    z-index: 2;
   }
 
   #menu .primary {

@@ -35,6 +35,42 @@
     </item>
     
     <item>
+      <title>health care</title>
+      <link>//localhost:1313/tags/health-care/</link>
+      <pubDate>Sun, 21 Mar 2010 08:29:08 +0000</pubDate>
+      
+      <guid>//localhost:1313/tags/health-care/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Obama</title>
+      <link>//localhost:1313/tags/obama/</link>
+      <pubDate>Sun, 21 Mar 2010 08:29:08 +0000</pubDate>
+      
+      <guid>//localhost:1313/tags/obama/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tea Party</title>
+      <link>//localhost:1313/tags/tea-party/</link>
+      <pubDate>Sun, 21 Mar 2010 08:29:08 +0000</pubDate>
+      
+      <guid>//localhost:1313/tags/tea-party/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>US</title>
+      <link>//localhost:1313/tags/us/</link>
+      <pubDate>Sun, 21 Mar 2010 08:29:08 +0000</pubDate>
+      
+      <guid>//localhost:1313/tags/us/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>blogging</title>
       <link>//localhost:1313/tags/blogging/</link>
       <pubDate>Fri, 16 Oct 2009 23:48:03 +0000</pubDate>

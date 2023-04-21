@@ -19,8 +19,14 @@ label[type="button"],
  padding: 1rem;
  cursor: pointer;
  margin: 0.3rem;
+// 
+// Source: https://stackoverflow.com/questions/2883373/simple-css-text-wont-center-in-a-button
+// 
+ box-sizing : content-box;
 }
 
+
+/* Source: https://uiverse.io/adamgiebl/rude-bear-14 */
 .flip-button {
   position: relative;
   display: inline-block;

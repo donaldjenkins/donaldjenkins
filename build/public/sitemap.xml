@@ -28,7 +28,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>//localhost:62032/categories/</loc>
-    <lastmod>2023-04-19T12:21:59+00:00</lastmod>
+    <lastmod>2023-04-20T04:17:57+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -53,7 +53,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>//localhost:62032/tags/</loc>
-    <lastmod>2023-04-19T12:21:59+00:00</lastmod>
+    <lastmod>2023-04-20T04:17:57+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -68,27 +68,32 @@
     <priority>0.5</priority>
   </url><url>
     <loc>//localhost:62032/a-plea-in-support-of-mr-obamas-perfectible-health-care-bill/</loc>
-    <lastmod>2010-03-21T08:29:08+00:00</lastmod>
+    <lastmod>2023-04-20T04:17:57+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>//localhost:62032/tags/health-care/</loc>
-    <lastmod>2010-03-21T08:29:08+00:00</lastmod>
+    <lastmod>2023-04-20T04:17:57+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>//localhost:62032/tags/obama/</loc>
-    <lastmod>2010-03-21T08:29:08+00:00</lastmod>
+    <lastmod>2023-04-20T04:17:57+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>//localhost:62032/categories/politics/</loc>
+    <lastmod>2023-04-20T04:17:57+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>//localhost:62032/tags/tea-party/</loc>
-    <lastmod>2010-03-21T08:29:08+00:00</lastmod>
+    <lastmod>2023-04-20T04:17:57+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>//localhost:62032/tags/us/</loc>
-    <lastmod>2010-03-21T08:29:08+00:00</lastmod>
+    <lastmod>2023-04-20T04:17:57+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -158,11 +163,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>//localhost:62032/tags/iran/</loc>
-    <lastmod>2023-04-12T03:13:02+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>//localhost:62032/categories/politics/</loc>
     <lastmod>2023-04-12T03:13:02+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
