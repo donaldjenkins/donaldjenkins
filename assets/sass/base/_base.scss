@@ -91,7 +91,7 @@ a {
 /**
  * Add box shadow for images and other stuff
  */
-img:not(#logo picture img),
+img:not(#logo picture img, #footer-logo img),
 table {
    box-shadow: 0px 0px 10px rgba(114, 114, 113, 0.5);  
 }
