@@ -6,7 +6,7 @@
 blockquote {
   border-left: 3px solid $brand-color;
   color: $secondary;
-  font-size: 1.25em;
+  font-size: calc($font-size * 1.2);
   font-style: italic;
   line-height: 1.8em;
   margin: 1.1em;

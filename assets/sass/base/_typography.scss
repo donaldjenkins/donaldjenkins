@@ -31,7 +31,7 @@
    --font-size-4: clamp(1.4rem, 1rem + 1.6842vw, 1.8rem);
    --font-size-5: clamp(1.2rem, 0.95rem + 1.0526vw, 1.45rem);
    --font-size-6: clamp(1.1rem, 0.45rem + 1.8947vw, 1.35rem);
-   --font-size-body: clamp(0.85rem, 0.6rem + 1.0526vw, 1.1rem);
+   --font-size-body: clamp(0.9rem, 0.75rem + 0.6316vw, 1.05rem);
  }
 
 body {
@@ -52,6 +52,13 @@ body,
   font-variation-settings: "slnt" 0;
   font-optical-sizing: auto;
   color: $font-color;
+}
+
+@include media("<smartphone") {
+  body,
+  .content {
+    line-height: calc($line-height * 1.15)
+  }
 }
 
 h1 {

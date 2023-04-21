@@ -23,6 +23,10 @@
   display: flex;
 }
 
+#menu li {
+  height: 1.75rem
+}
+
 #menu li a {
   color: $bg;
   padding: 0 1em;
@@ -39,7 +43,7 @@
 //  
   vertical-align: middle;
   margin: auto;
-  line-height: 1.25rem;
+  line-height: 1.75rem;
   box-sizing : content-box;
   
   &:hover {
