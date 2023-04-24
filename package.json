@@ -12,6 +12,8 @@
   "author": "Donald Jenkins",
   "license": "MIT",
   "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-critical": "^3.0.1",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",

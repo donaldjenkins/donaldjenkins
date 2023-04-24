@@ -31,7 +31,8 @@
    
    font-size: $default-font;
    font-weight: $normal-font;
-   font-variation-settings: "wght" " $normal-font";
+   color: $font-color;
+//   font-variation-settings: "wght" #{" "} #{$normal-font};
    letter-spacing: -0.01;
    --font-size-1: clamp(2rem, 1.25rem + 3.1579vw, 2.75rem);
    --font-size-2: clamp(1.8rem, 1.15rem + 2.7368vw, 2.45rem);
@@ -48,22 +49,24 @@
 
 body {
   margin: 0;
-  color: $text-color;
-  font-family: var(--sans-font);
-  font-size: var(--font-size-body);
+//  color: $text-color;
 }
 
 body,
 .content {
-  font-family: $regular-font-stack;
-  font-weight: $normal-font;
-  font-variation-settings: "wght" $normal-font;
+  font-family: var(--sans-font);
+  font-size: var(--font-size-body);
+//  font-family: $regular-font-stack;
+//  font-weight: $normal-font;
+//  font-variation-settings: "wght" $normal-font;
+  font-variation-settings: "wght" $normal-font, "slnt" 0;
+  --text-slnt: 0;
   line-height: $line-height;  
-  font-stretch: unquote($font-stretch + '%');
-  font-variation-settings: "wdth" $font-stretch;
+//  font-stretch: unquote($font-stretch + '%');
+//  font-variation-settings: "wdth" $font-stretch;
   font-variation-settings: "slnt" 0;
   font-optical-sizing: auto;
-  color: $font-color;
+//  color: $font-color;
 }
 
 @include media("<smartphone") {

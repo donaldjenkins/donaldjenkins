@@ -2,8 +2,10 @@
 
 // 1. Vendors
 @import
-  'vendors/vendors',
-  'vendors/overrides';
+  'vendors/normalize',
+//  'vendors/simple',
+//  'vendors/overrides',
+  'vendors/vendors';
 
 // 2. Configuration and helpers
 @import

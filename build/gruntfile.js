@@ -1,0 +1,1 @@
+module.exports=function(i){i.initConfig({pkg:i.file.readJSON("package.json")}),i.loadNpmTasks("grunt-critical")};

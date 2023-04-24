@@ -18,7 +18,6 @@ $smallest-font: calc($default-font * 0.65);
 
 // Font weight
 $normal-font: 335;
-$normal-font-decl: "\"wght\" #{$normal-font}";
 $bold-font: calc($normal-font * 1.67);
 $black-font: calc($normal-font * 1.3);
 $heading-font: calc($normal-font * 0.4);
@@ -36,6 +35,7 @@ $extra-bold: 800;
 $black: 900;
 $extra-black: 950;
 
+// Other font variables
 $font-stretch: 95;
 $line-height: 1.42;
 
