@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Legal stuff on Donald Jenkins</title>
-    <link>/legal/</link>
+    <link>//localhost:1313/legal/</link>
     <description>Recent content in Legal stuff on Donald Jenkins</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Nov 2018 03:20:07 +0000</lastBuildDate><atom:link href="/legal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Nov 2018 03:20:07 +0000</lastBuildDate><atom:link href="//localhost:1313/legal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Terms</title>
-      <link>/legal/terms/</link>
+      <link>//localhost:1313/legal/terms/</link>
       <pubDate>Wed, 14 Nov 2018 03:20:07 +0000</pubDate>
       
-      <guid>/legal/terms/</guid>
+      <guid>//localhost:1313/legal/terms/</guid>
       <description>These Terms were last revised on 14th January, 2021: see the changelog.
 Definitions · Agreement to Terms These Terms and Conditions of Use (the Terms), as well as the separately available Privacy Policy, which is incorporated by reference into these Terms, apply to your access and use of this Website (www.donaldjenkins.com), and by extension to any subdomains or related websites operated by Donald Jenkins. They establish a framework for what you can expect from us, as well as for what we can expect from you.</description>
     </item>

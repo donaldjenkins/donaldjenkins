@@ -2,260 +2,260 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Donald Jenkins</title>
-    <link>/tags/</link>
+    <link>//localhost:1313/tags/</link>
     <description>Recent content in Tags on Donald Jenkins</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Jun 2016 11:50:32 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Jun 2016 11:50:32 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>France</title>
-      <link>/tags/france/</link>
+      <link>//localhost:1313/tags/france/</link>
       <pubDate>Sun, 19 Jun 2016 11:50:32 +0000</pubDate>
       
-      <guid>/tags/france/</guid>
+      <guid>//localhost:1313/tags/france/</guid>
       <description></description>
     </item>
     
     <item>
       <title>healthcare</title>
-      <link>/tags/healthcare/</link>
+      <link>//localhost:1313/tags/healthcare/</link>
       <pubDate>Sun, 19 Jun 2016 11:50:32 +0000</pubDate>
       
-      <guid>/tags/healthcare/</guid>
+      <guid>//localhost:1313/tags/healthcare/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Paris</title>
-      <link>/tags/paris/</link>
+      <link>//localhost:1313/tags/paris/</link>
       <pubDate>Sun, 19 Jun 2016 11:50:32 +0000</pubDate>
       
-      <guid>/tags/paris/</guid>
+      <guid>//localhost:1313/tags/paris/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Amazon S3</title>
-      <link>/tags/amazon-s3/</link>
+      <link>//localhost:1313/tags/amazon-s3/</link>
       <pubDate>Sun, 21 Nov 2010 05:44:09 +0000</pubDate>
       
-      <guid>/tags/amazon-s3/</guid>
+      <guid>//localhost:1313/tags/amazon-s3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Apple</title>
-      <link>/tags/apple/</link>
+      <link>//localhost:1313/tags/apple/</link>
       <pubDate>Sun, 21 Nov 2010 05:44:09 +0000</pubDate>
       
-      <guid>/tags/apple/</guid>
+      <guid>//localhost:1313/tags/apple/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Arq</title>
-      <link>/tags/arq/</link>
+      <link>//localhost:1313/tags/arq/</link>
       <pubDate>Sun, 21 Nov 2010 05:44:09 +0000</pubDate>
       
-      <guid>/tags/arq/</guid>
+      <guid>//localhost:1313/tags/arq/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Backblaze</title>
-      <link>/tags/backblaze/</link>
+      <link>//localhost:1313/tags/backblaze/</link>
       <pubDate>Sun, 21 Nov 2010 05:44:09 +0000</pubDate>
       
-      <guid>/tags/backblaze/</guid>
+      <guid>//localhost:1313/tags/backblaze/</guid>
       <description></description>
     </item>
     
     <item>
       <title>backup</title>
-      <link>/tags/backup/</link>
+      <link>//localhost:1313/tags/backup/</link>
       <pubDate>Sun, 21 Nov 2010 05:44:09 +0000</pubDate>
       
-      <guid>/tags/backup/</guid>
+      <guid>//localhost:1313/tags/backup/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ChrashPlan</title>
-      <link>/tags/chrashplan/</link>
+      <link>//localhost:1313/tags/chrashplan/</link>
       <pubDate>Sun, 21 Nov 2010 05:44:09 +0000</pubDate>
       
-      <guid>/tags/chrashplan/</guid>
+      <guid>//localhost:1313/tags/chrashplan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jungle Disk</title>
-      <link>/tags/jungle-disk/</link>
+      <link>//localhost:1313/tags/jungle-disk/</link>
       <pubDate>Sun, 21 Nov 2010 05:44:09 +0000</pubDate>
       
-      <guid>/tags/jungle-disk/</guid>
+      <guid>//localhost:1313/tags/jungle-disk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mac</title>
-      <link>/tags/mac/</link>
+      <link>//localhost:1313/tags/mac/</link>
       <pubDate>Sun, 21 Nov 2010 05:44:09 +0000</pubDate>
       
-      <guid>/tags/mac/</guid>
+      <guid>//localhost:1313/tags/mac/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mozy</title>
-      <link>/tags/mozy/</link>
+      <link>//localhost:1313/tags/mozy/</link>
       <pubDate>Sun, 21 Nov 2010 05:44:09 +0000</pubDate>
       
-      <guid>/tags/mozy/</guid>
+      <guid>//localhost:1313/tags/mozy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>health care</title>
-      <link>/tags/health-care/</link>
+      <link>//localhost:1313/tags/health-care/</link>
       <pubDate>Sun, 21 Mar 2010 08:29:08 +0000</pubDate>
       
-      <guid>/tags/health-care/</guid>
+      <guid>//localhost:1313/tags/health-care/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Obama</title>
-      <link>/tags/obama/</link>
+      <link>//localhost:1313/tags/obama/</link>
       <pubDate>Sun, 21 Mar 2010 08:29:08 +0000</pubDate>
       
-      <guid>/tags/obama/</guid>
+      <guid>//localhost:1313/tags/obama/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tea Party</title>
-      <link>/tags/tea-party/</link>
+      <link>//localhost:1313/tags/tea-party/</link>
       <pubDate>Sun, 21 Mar 2010 08:29:08 +0000</pubDate>
       
-      <guid>/tags/tea-party/</guid>
+      <guid>//localhost:1313/tags/tea-party/</guid>
       <description></description>
     </item>
     
     <item>
       <title>US</title>
-      <link>/tags/us/</link>
+      <link>//localhost:1313/tags/us/</link>
       <pubDate>Sun, 21 Mar 2010 08:29:08 +0000</pubDate>
       
-      <guid>/tags/us/</guid>
+      <guid>//localhost:1313/tags/us/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blogging</title>
-      <link>/tags/blogging/</link>
+      <link>//localhost:1313/tags/blogging/</link>
       <pubDate>Fri, 16 Oct 2009 23:48:03 +0000</pubDate>
       
-      <guid>/tags/blogging/</guid>
+      <guid>//localhost:1313/tags/blogging/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Catholicism</title>
-      <link>/tags/catholicism/</link>
+      <link>//localhost:1313/tags/catholicism/</link>
       <pubDate>Fri, 16 Oct 2009 23:48:03 +0000</pubDate>
       
-      <guid>/tags/catholicism/</guid>
+      <guid>//localhost:1313/tags/catholicism/</guid>
       <description></description>
     </item>
     
     <item>
       <title>death</title>
-      <link>/tags/death/</link>
+      <link>//localhost:1313/tags/death/</link>
       <pubDate>Fri, 16 Oct 2009 23:48:03 +0000</pubDate>
       
-      <guid>/tags/death/</guid>
+      <guid>//localhost:1313/tags/death/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ballet</title>
-      <link>/tags/ballet/</link>
+      <link>//localhost:1313/tags/ballet/</link>
       <pubDate>Sat, 03 Mar 2007 12:47:34 +0000</pubDate>
       
-      <guid>/tags/ballet/</guid>
+      <guid>//localhost:1313/tags/ballet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>literature</title>
-      <link>/tags/literature/</link>
+      <link>//localhost:1313/tags/literature/</link>
       <pubDate>Sat, 03 Mar 2007 12:47:34 +0000</pubDate>
       
-      <guid>/tags/literature/</guid>
+      <guid>//localhost:1313/tags/literature/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Proust</title>
-      <link>/tags/proust/</link>
+      <link>//localhost:1313/tags/proust/</link>
       <pubDate>Sat, 03 Mar 2007 12:47:34 +0000</pubDate>
       
-      <guid>/tags/proust/</guid>
+      <guid>//localhost:1313/tags/proust/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Roland Petit</title>
-      <link>/tags/roland-petit/</link>
+      <link>//localhost:1313/tags/roland-petit/</link>
       <pubDate>Sat, 03 Mar 2007 12:47:34 +0000</pubDate>
       
-      <guid>/tags/roland-petit/</guid>
+      <guid>//localhost:1313/tags/roland-petit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Europe</title>
-      <link>/tags/europe/</link>
+      <link>//localhost:1313/tags/europe/</link>
       <pubDate>Thu, 28 Dec 2006 11:50:32 +0000</pubDate>
       
-      <guid>/tags/europe/</guid>
+      <guid>//localhost:1313/tags/europe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>religion</title>
-      <link>/tags/religion/</link>
+      <link>//localhost:1313/tags/religion/</link>
       <pubDate>Thu, 28 Dec 2006 11:50:32 +0000</pubDate>
       
-      <guid>/tags/religion/</guid>
+      <guid>//localhost:1313/tags/religion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>death penalty</title>
-      <link>/tags/death-penalty/</link>
+      <link>//localhost:1313/tags/death-penalty/</link>
       <pubDate>Fri, 12 Aug 2005 21:34:14 +0000</pubDate>
       
-      <guid>/tags/death-penalty/</guid>
+      <guid>//localhost:1313/tags/death-penalty/</guid>
       <description></description>
     </item>
     
     <item>
       <title>gay</title>
-      <link>/tags/gay/</link>
+      <link>//localhost:1313/tags/gay/</link>
       <pubDate>Fri, 12 Aug 2005 21:34:14 +0000</pubDate>
       
-      <guid>/tags/gay/</guid>
+      <guid>//localhost:1313/tags/gay/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Iran</title>
-      <link>/tags/iran/</link>
+      <link>//localhost:1313/tags/iran/</link>
       <pubDate>Fri, 12 Aug 2005 21:34:14 +0000</pubDate>
       
-      <guid>/tags/iran/</guid>
+      <guid>//localhost:1313/tags/iran/</guid>
       <description></description>
     </item>
     
