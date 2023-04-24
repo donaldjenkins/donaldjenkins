@@ -2,242 +2,242 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:60706/photos/</loc>
+    <loc>//localhost:1313/photos/</loc>
     <lastmod>2023-04-12T03:13:02+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/</loc>
+    <loc>//localhost:1313/</loc>
     <lastmod>2023-04-21T05:46:28+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/articles/</loc>
+    <loc>//localhost:1313/articles/</loc>
     <lastmod>2023-04-12T03:13:02+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/legal/</loc>
+    <loc>//localhost:1313/legal/</loc>
     <lastmod>2023-04-12T03:13:02+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/legal/terms/</loc>
+    <loc>//localhost:1313/legal/terms/</loc>
     <lastmod>2023-04-12T03:13:02+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
     <lastmod>2023-04-24T20:10:51+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/tags/france/</loc>
+    <loc>//localhost:1313/tags/france/</loc>
     <lastmod>2023-04-24T20:10:51+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/tags/healthcare/</loc>
+    <loc>//localhost:1313/tags/healthcare/</loc>
     <lastmod>2023-04-24T20:10:51+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/tags/paris/</loc>
+    <loc>//localhost:1313/tags/paris/</loc>
     <lastmod>2023-04-24T20:10:51+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/categories/personal/</loc>
+    <loc>//localhost:1313/categories/personal/</loc>
     <lastmod>2023-04-24T20:10:51+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
     <lastmod>2023-04-24T20:10:51+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/test-article/</loc>
+    <loc>//localhost:1313/test-article/</loc>
     <lastmod>2023-04-24T20:10:51+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/a-better-new-decade/</loc>
+    <loc>//localhost:1313/a-better-new-decade/</loc>
     <lastmod>2023-04-12T03:13:02+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/tags/amazon-s3/</loc>
+    <loc>//localhost:1313/tags/amazon-s3/</loc>
     <lastmod>2023-04-21T11:44:49+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/tags/apple/</loc>
+    <loc>//localhost:1313/tags/apple/</loc>
     <lastmod>2023-04-21T11:44:49+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/tags/arq/</loc>
+    <loc>//localhost:1313/tags/arq/</loc>
     <lastmod>2023-04-21T11:44:49+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/tags/backblaze/</loc>
+    <loc>//localhost:1313/tags/backblaze/</loc>
     <lastmod>2023-04-21T11:44:49+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/backing-up-a-mac-to-amazon-s3-with-arq-the-easiest-safest-and-most-accurate-solution/</loc>
+    <loc>//localhost:1313/backing-up-a-mac-to-amazon-s3-with-arq-the-easiest-safest-and-most-accurate-solution/</loc>
     <lastmod>2023-04-21T11:44:49+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/tags/backup/</loc>
+    <loc>//localhost:1313/tags/backup/</loc>
     <lastmod>2023-04-21T11:44:49+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/tags/chrashplan/</loc>
+    <loc>//localhost:1313/tags/chrashplan/</loc>
     <lastmod>2023-04-21T11:44:49+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/tags/jungle-disk/</loc>
+    <loc>//localhost:1313/tags/jungle-disk/</loc>
     <lastmod>2023-04-21T11:44:49+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/tags/mac/</loc>
+    <loc>//localhost:1313/tags/mac/</loc>
     <lastmod>2023-04-21T11:44:49+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/tags/mozy/</loc>
+    <loc>//localhost:1313/tags/mozy/</loc>
     <lastmod>2023-04-21T11:44:49+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/categories/tech/</loc>
+    <loc>//localhost:1313/categories/tech/</loc>
     <lastmod>2023-04-21T11:44:49+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/a-plea-in-support-of-mr-obamas-perfectible-health-care-bill/</loc>
+    <loc>//localhost:1313/a-plea-in-support-of-mr-obamas-perfectible-health-care-bill/</loc>
     <lastmod>2023-04-21T00:09:25+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/tags/health-care/</loc>
+    <loc>//localhost:1313/tags/health-care/</loc>
     <lastmod>2023-04-21T00:09:25+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/tags/obama/</loc>
+    <loc>//localhost:1313/tags/obama/</loc>
     <lastmod>2023-04-21T00:09:25+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/categories/politics/</loc>
+    <loc>//localhost:1313/categories/politics/</loc>
     <lastmod>2023-04-21T00:09:25+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/tags/tea-party/</loc>
+    <loc>//localhost:1313/tags/tea-party/</loc>
     <lastmod>2023-04-21T00:09:25+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/tags/us/</loc>
+    <loc>//localhost:1313/tags/us/</loc>
     <lastmod>2023-04-21T00:09:25+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/a-time-to-gather-stones-together/</loc>
+    <loc>//localhost:1313/a-time-to-gather-stones-together/</loc>
     <lastmod>2023-04-12T03:13:02+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/tags/blogging/</loc>
+    <loc>//localhost:1313/tags/blogging/</loc>
     <lastmod>2023-04-12T03:13:02+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/tags/catholicism/</loc>
+    <loc>//localhost:1313/tags/catholicism/</loc>
     <lastmod>2023-04-21T06:30:09+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/tags/death/</loc>
+    <loc>//localhost:1313/tags/death/</loc>
     <lastmod>2023-04-12T03:13:02+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/an-amazing-mixture-of-roland-petit-the-corps-de-ballet-and-proust/</loc>
+    <loc>//localhost:1313/an-amazing-mixture-of-roland-petit-the-corps-de-ballet-and-proust/</loc>
     <lastmod>2023-04-19T12:21:59+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/tags/ballet/</loc>
+    <loc>//localhost:1313/tags/ballet/</loc>
     <lastmod>2023-04-19T12:21:59+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/categories/culture/</loc>
+    <loc>//localhost:1313/categories/culture/</loc>
     <lastmod>2023-04-19T12:21:59+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/tags/literature/</loc>
+    <loc>//localhost:1313/tags/literature/</loc>
     <lastmod>2023-04-19T12:21:59+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/tags/proust/</loc>
+    <loc>//localhost:1313/tags/proust/</loc>
     <lastmod>2023-04-19T12:21:59+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/tags/roland-petit/</loc>
+    <loc>//localhost:1313/tags/roland-petit/</loc>
     <lastmod>2023-04-19T12:21:59+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/and-the-word-was-made-flesh-got-that/</loc>
+    <loc>//localhost:1313/and-the-word-was-made-flesh-got-that/</loc>
     <lastmod>2023-04-21T06:30:09+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/tags/europe/</loc>
+    <loc>//localhost:1313/tags/europe/</loc>
     <lastmod>2023-04-21T06:30:09+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/tags/religion/</loc>
+    <loc>//localhost:1313/tags/religion/</loc>
     <lastmod>2023-04-21T06:30:09+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/categories/religion/</loc>
+    <loc>//localhost:1313/categories/religion/</loc>
     <lastmod>2023-04-21T06:30:09+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/aabomination-in-iran/</loc>
+    <loc>//localhost:1313/aabomination-in-iran/</loc>
     <lastmod>2023-04-12T03:13:02+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/tags/death-penalty/</loc>
+    <loc>//localhost:1313/tags/death-penalty/</loc>
     <lastmod>2023-04-12T03:13:02+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/tags/gay/</loc>
+    <loc>//localhost:1313/tags/gay/</loc>
     <lastmod>2023-04-12T03:13:02+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>//localhost:60706/tags/iran/</loc>
+    <loc>//localhost:1313/tags/iran/</loc>
     <lastmod>2023-04-12T03:13:02+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
