@@ -12,10 +12,10 @@ $very-rounded: 10px;      // tables
 $font-name: "Commissioner";
 
 // Font size
-$font-size: 17px;
-$smaller-font: calc($font-size * 0.91);
-$small-font: calc($font-size * 0.85);
-$smallest-font: calc($font-size * 0.65);
+$default-font: 17px;
+$smaller-font: calc($default-font * 0.91);
+$small-font: calc($default-font * 0.85);
+$smallest-font: calc($default-font * 0.65);
 
 // Font weight
 $default-font: 335;
