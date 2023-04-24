@@ -39,6 +39,9 @@
    --font-size-5: clamp(1.2rem, 0.95rem + 1.0526vw, 1.45rem);
    --font-size-6: clamp(1.1rem, 0.45rem + 1.8947vw, 1.35rem);
    --font-size-body: clamp(0.95rem, 0.85rem + 0.4211vw, 1.05rem);
+   --font-size-small: clamp(0.85rem, 0.7517rem + 0.4138vw, 1rem);
+   --font-size-smaller: clamp(0.75rem, 0.6517rem + 0.4138vw, 0.9rem);
+   --font-size-smallest: clamp(0.65rem, 0.5517rem + 0.4138vw, 0.8rem);
  }
 
 body {
@@ -88,7 +91,6 @@ h5 {
   font-size: var(--font-size-5);  
 }
 
-
 h6 {
   font-size: var(--font-size-6);  
 }
@@ -102,7 +104,7 @@ h6,
 button {
   font-weight: $heading-font;
   font-variation-settings: "wght" $heading-font;
-  font-stretch: calc($font-stretch * 1.053)"%";
+  font-stretch: calc($font-stretch * 1.053);
   font-variation-settings: "wdth" calc($font-stretch * 1.053);
   font-variation-settings: 'wght' $heading-font, 'slnt' -10, 'VOLM' 70;
   letter-spacing: -0.0075em;
@@ -127,13 +129,13 @@ li {
 }
 
 small {
-  font-size: $small-font;
+  font-size: var(--font-size-small);
   font-weight: $bold-font;
   font-variation-settings: "wght" $bold-font;
 }
 
 #legal * {
-  font-size: $smallest-font;
+  font-size: var(--font-size-smallest);
   font-weight: $heading-font;
   font-variation-settings: "wght" $heading-font;
 }
@@ -160,5 +162,5 @@ b {
 .photo-credit,
 .meta,
 .meta * {
-  font-size: 0.75rem;
+  font-size: var(--font-size-smaller);
 }

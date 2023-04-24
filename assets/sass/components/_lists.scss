@@ -6,11 +6,11 @@
  * Basic styles for lists
  */
 
-ol {
+article ol {
   margin-bottom: 1rem;
 }
 
-ul li, ol li {
+article ul li, article ol li {
 
 //
 // Remove indentation from ul/ol list
@@ -25,7 +25,7 @@ ul li, ol li {
 // Source: https://web.dev/css-marker-pseudo-element/
 //
 
- li {
+ article li {
   margin-bottom: 1rem;
   
   &::marker {

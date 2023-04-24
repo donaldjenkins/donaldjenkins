@@ -43,8 +43,8 @@
   input::placeholder,
   .contact-form textarea,
   .contact-form input {
-    color: $white;
-    font-size: 16px;
+    color: $white;   
+    font-size: var(--font-size-body);
     font-weight: $thin-font;
     font-variation-settings: "wght" $thin-font;
   }
@@ -73,7 +73,8 @@
   
   .contact-form textarea:focus,
   .contact-form input:focus {
-    outline: 0;
+    outline: 0;    
+    border-radius:0px;
     border-bottom: 1px $white solid;
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
