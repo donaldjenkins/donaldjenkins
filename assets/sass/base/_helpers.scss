@@ -33,7 +33,8 @@
  */
 .hide-text {
   overflow: hidden;
-  padding: 0; /* 1 */
+  padding: 0;
+  /* 1 */
   text-indent: 101%;
   white-space: nowrap;
 }
@@ -44,50 +45,79 @@
  * https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L119-L133
  */
 .visually-hidden {
-   @include visually-hidden-mixin;
- }
- 
- // Source: https://www.w3schools.com/howto/howto_css_center-vertical.asp
- 
- .vertically-centered {
-   margin: 0;
-   position: absolute;
-   top: 50%;
-   -ms-transform: translateY(-50%);
-   transform: translateY(-50%);
- }
- 
- .equal-height {
-   display: flex;
-   flex-direction: column;
-   height: 100%;
- }
- 
- .equal-height .card-content {
-   flex: auto;
- }
- 
- // https://github.com/jgthms/bulma/issues/1121
- .is-fullheight {
-   height: 100%;
-   flex-direction: column;
- }
- 
- // https://css-tricks.com/almanac/properties/a/align-items/
- .fullheight-container {
-   display: flex;
-   align-items: stretch;
- }
- 
- /* Source: https://stackoverflow.com/questions/22252472/how-can-i-change-the-color-of-an-svg-element*/
- 
- .filter-white {
-   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(307deg) brightness(101%) contrast(103%)
- }
- 
- .filter-white:hover,
- .navbar-item img:hover,
- .navbar-burger:hover {
-   filter: invert(61%) sepia(22%) saturate(284%) hue-rotate(161deg) brightness(97%) contrast(84%);
- }
+  @include visually-hidden-mixin;
+}
 
+// Source: https://www.w3schools.com/howto/howto_css_center-vertical.asp
+
+.vertically-centered {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.equal-height {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.equal-height .card-content {
+  flex: auto;
+}
+
+// https://github.com/jgthms/bulma/issues/1121
+.is-fullheight {
+  height: 100%;
+  flex-direction: column;
+}
+
+// https://css-tricks.com/almanac/properties/a/align-items/
+.fullheight-container {
+  display: flex;
+  align-items: stretch;
+}
+
+/* Source: https://stackoverflow.com/questions/22252472/how-can-i-change-the-color-of-an-svg-element*/
+
+.filter-white {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(307deg) brightness(101%) contrast(103%)
+}
+
+.filter-white:hover,
+.navbar-item img:hover,
+.navbar-burger:hover {
+  filter: invert(61%) sepia(22%) saturate(284%) hue-rotate(161deg) brightness(97%) contrast(84%);
+}
+
+
+/* Aspect ratio | Source: https://css-tricks.com/aspect-ratio-boxes/ */
+
+[style*="--aspect-ratio"]> :first-child {
+  width: 100%;
+}
+
+[style*="--aspect-ratio"]>img {
+  height: auto;
+}
+
+@supports (--custom:property) {
+  [style*="--aspect-ratio"] {
+    position: relative;
+  }
+
+  [style*="--aspect-ratio"]::before {
+    content: "";
+    display: block;
+    padding-bottom: calc(100% / (var(--aspect-ratio)));
+  }
+
+  [style*="--aspect-ratio"]> :first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+}

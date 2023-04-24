@@ -1,42 +1,20 @@
 /// Font-face declaration
 @font-face {
-  @supports font-format(woff2) {
-    font-family: $font-name;
-    font-style: normal;
-    font-weight: 100 900;
-    font-display: swap;
-    src: url("https://donaldjenkins.pages.dev/fonts/figtree.woff2") format("woff2-variations");
-    unicode-range: U+0100-02AF, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-  }
-  
-  @supports not font-format(woff2) {
-    font-family: $font-name;
-    font-style: normal;
-    font-weight: 100 900;
-    font-display: swap;
-    src: url("https://donaldjenkins.pages.dev/fonts/figtree.ttf") format("woff2-variations");
-    unicode-range: U+0100-02AF, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-  } 
+  font-family: $font-name;
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("https://donaldjenkins.pages.dev/fonts/figtree.woff2") format("woff2-variations");
+  unicode-range: U+0100-02AF, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
 @font-face {
-  @supports font-format(woff2) {
-    font-family: $font-name;
-    font-style: italic;
-    font-weight: 100 900;
-    font-display: swap;
-    src: url("https://donaldjenkins.pages.dev/fonts/figtree-italic.woff2") format("woff2-variations");
-    unicode-range: U+0100-02AF, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-  }
-  
-  @supports not font-format(woff2) {
-    font-family: $font-name;
-    font-style: italic;
-    font-weight: 100 900;
-    font-display: swap;
-    src: url("https://donaldjenkins.pages.dev/fonts/figtree-italic.ttf") format("woff2-variations");
-    unicode-range: U+0100-02AF, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-  } 
+  font-family: $font-name;
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("https://donaldjenkins.pages.dev/fonts/figtree.woff2") format("woff2-variations");
+  unicode-range: U+0100-02AF, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
 /// Regular font family
