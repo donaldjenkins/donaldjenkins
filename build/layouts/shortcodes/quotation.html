@@ -1,6 +1,0 @@
-<blockquote>
-    <p>{{ .Get "quote" }}</p>
-  {{ if .Get "caption"}}
-  <cite class="quote-source">{{ if .Get "author"}}{{ .Get "author" }}{{ end }}{{ if .Get "source"}}, {{ if .Get "url"}}<a href="{{ .Get "url"}}">{{ end }}{{ .Get "source" }}{{ if .Get "url"}}</a>{{ end }}{{ end }}</cite>
-  {{ end }}
-</blockquote>
