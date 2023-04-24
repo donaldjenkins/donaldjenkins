@@ -11,27 +11,27 @@
    --text-slnt: 0;
    
    /* Set sans-serif & mono fonts */
-   --sans-font: $regular-font-stack;
-   --mono-font: $monospace-font-stack-font-stack
-   --standard-border-radius: $rounded;
+   --sans-font: #{$regular-font-stack};
+   --mono-font: #{$monospace-font-stack};
+   --standard-border-radius: #{$rounded};
  
    /* Default (light) theme */
-   --bg: $bg;
-   --accent-bg: $accent-bg;
-   --text: $text;
-   --text-light: $text-light;
-   --border: $border;
-   --accent: $accent;
-   --code: $code;
-   --preformatted: $preformatted;
-   --marked: $marked;
-   --disabled: $disabled;
+   --bg: #{$bg};
+   --accent-bg: #{$accent-bg};
+   --text: #{$text};
+   --text-light: #{$text-light};
+   --border: #{$border};
+   --accent: #{$accent};
+   --code: #{$code};
+   --preformatted: #{$preformatted};
+   --marked: #{$marked};
+   --disabled: #{$disabled};
    
    /* Responsive font sizes | Source: https://enzedonline.com/en/tech-blog/create-responsive-font-sizes-based-on-the-viewport/*/
    
    font-size: $default-font;
-   font-weight: $default-font;
-   font-variation-settings: "wght" $default-font;
+   font-weight: $normal-font;
+   font-variation-settings: "wght" " $normal-font";
    letter-spacing: -0.01;
    --font-size-1: clamp(2rem, 1.25rem + 3.1579vw, 2.75rem);
    --font-size-2: clamp(1.8rem, 1.15rem + 2.7368vw, 2.45rem);
@@ -39,6 +39,7 @@
    --font-size-4: clamp(1.4rem, 1rem + 1.6842vw, 1.8rem);
    --font-size-5: clamp(1.2rem, 0.95rem + 1.0526vw, 1.45rem);
    --font-size-6: clamp(1.1rem, 0.45rem + 1.8947vw, 1.35rem);
+   --font-size-large: clamp(1.15rem, 1.0845rem + 0.2759vw, 1.25rem);
    --font-size-body: clamp(0.95rem, 0.85rem + 0.4211vw, 1.05rem);
    --font-size-small: clamp(0.85rem, 0.7517rem + 0.4138vw, 1rem);
    --font-size-smaller: clamp(0.75rem, 0.6517rem + 0.4138vw, 0.9rem);
@@ -55,10 +56,10 @@ body {
 body,
 .content {
   font-family: $regular-font-stack;
-  font-weight: $default-font;
-  font-variation-settings: "wght" $default-font;
+  font-weight: $normal-font;
+  font-variation-settings: "wght" $normal-font;
   line-height: $line-height;  
-  font-stretch: $font-stretch;
+  font-stretch: unquote($font-stretch + '%');
   font-variation-settings: "wdth" $font-stretch;
   font-variation-settings: "slnt" 0;
   font-optical-sizing: auto;
@@ -105,7 +106,7 @@ h6,
 button {
   font-weight: $heading-font;
   font-variation-settings: "wght" $heading-font;
-  font-stretch: calc($font-stretch * 1.053);
+  font-stretch: unquote(calc($font-stretch * 1.053)  + '%');
   font-variation-settings: "wdth" calc($font-stretch * 1.053);
   font-variation-settings: 'wght' $heading-font, 'slnt' -10, 'VOLM' 70;
   letter-spacing: -0.0075em;
@@ -125,8 +126,8 @@ p em,
 cite,
 .quote-source,
 li {
-  font-weight: $default-font;
-  font-variation-settings: "wght" $default-font;  
+  font-weight: $normal-font;
+  font-variation-settings: "wght" $normal-font;  
 }
 
 small {
@@ -145,8 +146,8 @@ em,
 p em,
 .quote,
 cite em {
-    font-weight: $default-font;
-    font-variation-settings: "wght" $default-font, "slnt" 12;
+    font-weight: $normal-font;
+    font-variation-settings: "wght" $normal-font, "slnt" 12;
     --text-slnt: 12;
     letter-spacing: -0.02em;
     margin-right: 0.25ex;

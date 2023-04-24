@@ -6,7 +6,7 @@
 blockquote {
   border-left: 3px solid $brand-color;
   color: $secondary;
-  font-size: calc($default-font * 1.2);
+  font-size: var(--font-size-large);
   font-style: italic;
   line-height: 1.8em;
   margin: 1.1em;
@@ -117,9 +117,9 @@ blockquote {
 }
 
 .quote-source {
-  font-weight: $default-font;
   font-style: normal;
-  font-variation-settings: "wght" $default-font "slnt" 0;
+  font-weight: $normal-font;
+  font-variation-settings: "wght" $normal-font "slnt" 0;
   padding: 1% 0 5%;
   text-align: right;
   

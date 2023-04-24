@@ -17,8 +17,12 @@ table {
     border-radius: $very-rounded;
     overflow:hidden;
     & a {
-      font-weight: $default-font;
+      font-weight: $normal-font;
     }
+    
+    @include media ("<tablet") {
+      font-size: $smallest-font;
+    } 
 }
 
 th {
