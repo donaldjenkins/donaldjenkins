@@ -105,13 +105,13 @@ table {
    margin: 0;
  }
  
- img {
+ img:not(#logo picture img, #footer-logo img) {
    border-radius: $rounded;
    width: 100%;
    padding: 0;
    max-width: $container;
  }
-
+ 
 
 .icon,
 .small-icon {

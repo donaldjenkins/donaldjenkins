@@ -13,7 +13,7 @@
    /* Set sans-serif & mono fonts */
    --sans-font: $regular-font-stack;
    --mono-font: $monospace-font-stack-font-stack
-   --standard-border-radius: $standard-border-radius;
+   --standard-border-radius: $rounded;
  
    /* Default (light) theme */
    --bg: $bg;
@@ -29,8 +29,8 @@
    
    /* Responsive font sizes */
    font-size: $font-size;
-   font-weight: $normal-font;
-   font-variation-settings: "wght" $normal-font;
+   font-weight: $default-font;
+   font-variation-settings: "wght" $default-font;
    letter-spacing: -0.01;
    --font-size-1: clamp(2rem, 1.25rem + 3.1579vw, 2.75rem);
    --font-size-2: clamp(1.8rem, 1.15rem + 2.7368vw, 2.45rem);
@@ -51,10 +51,10 @@ body {
 body,
 .content {
   font-family: $regular-font-stack;
-  font-weight: $normal-font;
-  font-variation-settings: "wght" $normal-font;
+  font-weight: $default-font;
+  font-variation-settings: "wght" $default-font;
   line-height: $line-height;  
-  font-stretch: $font-stretch"%";
+  font-stretch: $font-stretch;
   font-variation-settings: "wdth" $font-stretch;
   font-variation-settings: "slnt" 0;
   font-optical-sizing: auto;
@@ -122,8 +122,8 @@ p em,
 cite,
 .quote-source,
 li {
-  font-weight: $normal-font;
-  font-variation-settings: "wght" $normal-font;  
+  font-weight: $default-font;
+  font-variation-settings: "wght" $default-font;  
 }
 
 small {
@@ -142,8 +142,8 @@ em,
 p em,
 .quote,
 cite em {
-    font-weight: $normal-font;
-    font-variation-settings: "wght" $normal-font, "slnt" 12;
+    font-weight: $default-font;
+    font-variation-settings: "wght" $default-font, "slnt" 12;
     --text-slnt: 12;
     letter-spacing: -0.02em;
     margin-right: 0.25ex;

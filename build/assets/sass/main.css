@@ -1,6 +1,14 @@
 @charset "UTF-8";
 @import '../../../node_modules/normalize.css/normalize.css.css';
 @import '../../../node_modules/simpledotcss/simple.min.css';
+article {
+  all: unset;
+}
+
+aside {
+  all: unset;
+}
+
 button,
 [role=button],
 input[type=submit],
@@ -20,40 +28,32 @@ h6 {
   font-size: unset;
 }
 
+/* Source: https://sass-lang.com/documentation/modules/color */
 @font-face {
-  font-family: "$font-name";
-  src: url("{{ .Site.BaseURL }}fonts/commissioner-variable.woff2") format("woff2") tech("variations"), url("{{ .Site.BaseURL }}fonts/commissioner-variable.woff2") format("woff2-variations");
+  font-family: "Commissioner";
+  src: url("/fonts/commissioner-variable.woff2") format("woff2") tech("variations"), url("/fonts/commissioner-variable.woff2") format("woff2-variations");
   font-weight: 100 1000;
   font-stretch: 75% 125%;
   font-style: oblique 0deg 20deg;
   unicode-range: U+0100-02AF, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
+/* Source: https://sass-guidelin.es/#responsive-web-design-and-breakpoints */
 /**
  * Set up a decent box model on the root element
  */
-html {
-  box-sizing: border-box;
-}
-
 /**
  * Make all elements from the DOM inherit from the parent box-sizing
  * Since `*` has a specificity of 0, it does not override the `html` value
  * making all elements inheriting from the root box-sizing value
  * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
  */
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
 /**
  * Basic styles for links
  */
 a {
-  color: hsl(111, 0%, 34%);
-  font-weight: 576.15;
-  font-variation-settings: "wght" 576.15;
+  color: hsl(56, 16%, 54%);
+  font-weight: 559.45;
+  font-variation-settings: "wght" 559.45;
   text-decoration: none;
 }
 a:hover, a:active, a:focus, a:focus-within {
@@ -80,11 +80,11 @@ a:hover {
   color: hsl(0, 0%, 100%);
 }
 
-.dark:a {
-  color: #dddcd0;
+.dark a {
+  color: #d7eadc;
 }
-.dark:a:hover {
-  color: #aab7c0;
+.dark a:hover {
+  color: white;
 }
 
 .primary {
@@ -92,7 +92,7 @@ a:hover {
   color: hsl(0, 0%, 100%);
 }
 .primary:hover {
-  background-color: #82805e;
+  background-color: #a7a586;
   color: hsl(0, 0%, 100%);
 }
 
@@ -101,16 +101,30 @@ a:hover {
   color: hsl(0, 0%, 100%);
 }
 .secondary:hover {
-  background-color: #43515b;
+  background-color: #647887;
   color: hsl(0, 0%, 100%);
 }
 
 /**
- * Basic styles for images
+ * Add box shadow for images and other stuff
  */
-img,
-picture {
-  border-radius: 1.5%;
+img:not(#logo img, #footer-logo img),
+table {
+  box-shadow: 0px 0px 10px rgba(114, 114, 113, 0.5);
+}
+
+/**
+ * Basic styles for images and similar stuff
+ */
+figure {
+  margin: 0;
+}
+
+img:not(#logo img, #footer-logo img) {
+  border-radius: 5px;
+  width: 100%;
+  padding: 0;
+  max-width: 760px;
 }
 
 .icon,
@@ -132,11 +146,41 @@ picture {
   height: 1em;
 }
 
+.meta {
+  color: hsl(56, 16%, 54%);
+  font-weight: 559.45;
+  font-variation-settings: "wght" 559.45;
+  margin-bottom: 1.25em;
+  line-height: 1.25em;
+}
+
+ul.meta {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+.meta li {
+  padding-top: 0.5rem;
+}
+.meta li::before {
+  content: "·";
+  margin-right: 1ch;
+  margin-left: -1ch;
+}
+.meta li:first-child:before {
+  content: "";
+  margin-right: 0;
+}
+
 /**
  * Basic typography style for copy text
  */
 /* Global variables. */
 :root {
+  /* Basic styles for font attributes | Source: https://variablefonts.io/about-variable-fonts/
+     */
+  --text-slnt: 0;
   /* Set sans-serif & mono fonts */
   --sans-font: $regular-font-stack;
   --mono-font: $monospace-font-stack-font-stack
@@ -153,17 +197,17 @@ picture {
   --marked: $marked;
   --disabled: $disabled;
   /* Responsive font sizes */
-  font-size: 18px;
-  font-weight: 345;
-  font-variation-settings: "wght" 345;
-  letter-spacing: -0.02em;
+  font-size: 17px;
+  font-weight: 335;
+  font-variation-settings: "wght" 335;
+  letter-spacing: -0.01;
   --font-size-1: clamp(2rem, 1.25rem + 3.1579vw, 2.75rem);
   --font-size-2: clamp(1.8rem, 1.15rem + 2.7368vw, 2.45rem);
   --font-size-3: clamp(1.6rem, 1.1rem + 2.1053vw, 2.1rem);
   --font-size-4: clamp(1.4rem, 1rem + 1.6842vw, 1.8rem);
   --font-size-5: clamp(1.2rem, 0.95rem + 1.0526vw, 1.45rem);
   --font-size-6: clamp(1.1rem, 0.45rem + 1.8947vw, 1.35rem);
-  --font-size-body: clamp(1rem, 0.45rem + 1.6842vw, 1.17rem);
+  --font-size-body: clamp(0.95rem, 0.85rem + 0.4211vw, 1.05rem);
 }
 
 body {
@@ -175,17 +219,23 @@ body {
 
 body,
 .content {
-  font-family: "$font-name", system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu", "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-  font-weight: 345;
-  font-variation-settings: "wght" 345;
-  line-height: 1.5;
-  font-stretch: 90%;
-  font-variation-settings: "wdth" 90;
+  font-family: "Commissioner", system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu", "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-weight: 335;
+  font-variation-settings: "wght" 335;
+  line-height: 1.42;
+  font-stretch: 95% "%";
+  font-variation-settings: "wdth" 95%;
   font-variation-settings: "slnt" 0;
   font-optical-sizing: auto;
   color: hsl(111, 0%, 34%);
 }
 
+@media (max-width: 479px) {
+  body,
+  .content {
+    line-height: 1.6472;
+  }
+}
 h1 {
   font-size: var(--font-size-1);
 }
@@ -217,84 +267,66 @@ h4,
 h5,
 h6,
 button {
-  font-weight: 138;
-  font-variation-settings: "wght" 138;
-  font-stretch: 95%;
-  font-variation-settings: "wdth" 95;
-  letter-spacing: -0.038em;
-  line-height: 1.1em;
+  font-weight: 134;
+  font-variation-settings: "wght" 134;
+  font-stretch: 100.035% "%";
+  font-variation-settings: "wdth" 100.035%;
+  font-variation-settings: "wght" 134, "slnt" -10, "VOLM" 70;
+  letter-spacing: -0.0075em;
+  line-height: 1.065;
 }
 
 /**
  * Basic styles for font attributes | Source: https://variablefonts.io/about-variable-fonts/
  */
-:root {
-  --text-slnt: 0;
-}
-
 body {
   font-variation-settings: "slnt" var(--text-slnt);
 }
 
 p,
-p em {
-  font-weight: 345;
-  font-variation-settings: "wght" 345;
+p em,
+cite,
+.quote-source,
+li {
+  font-weight: 335;
+  font-variation-settings: "wght" 335;
 }
 
 small {
-  font-size: 15.3px;
-  font-weight: 576.15;
-  font-variation-settings: "wght" 576.15;
+  font-size: 14.45px;
+  font-weight: 559.45;
+  font-variation-settings: "wght" 559.45;
 }
 
 #legal * {
-  font-size: 11.7px;
-  font-weight: 138;
-  font-variation-settings: "wght" 138;
+  font-size: 11.05px;
+  font-weight: 134;
+  font-variation-settings: "wght" 134;
 }
 
 em,
 p em,
-cite,
-.quote {
+.quote,
+cite em {
+  font-weight: 335;
+  font-variation-settings: "wght" 335, "slnt" 12;
   --text-slnt: 12;
-  font-variation-settings: "slnt" 12;
   letter-spacing: -0.02em;
   margin-right: 0.25ex;
 }
 
 strong,
 b {
-  font-weight: 576.15;
-  font-variation-settings: "wght" 576.15;
+  font-weight: 559.45;
+  font-variation-settings: "wght" 559.45;
 }
 
-.meta {
-  color: hsl(56, 16%, 54%);
-  font-weight: 576.15;
-  font-variation-settings: "wght" 576.15;
-  margin-bottom: 1.25em;
-  line-height: 1.25em;
-}
-
-ul.meta {
-  display: flex;
-  padding-left: 0;
-  list-style: none;
-}
-
-.meta li {
-  padding-top: 0.5rem;
-}
-.meta li::before {
-  content: "·";
-  margin-right: 1ch;
-  margin-left: -1ch;
-}
-.meta li:first-child:before {
-  content: "";
-  margin-right: 0;
+.caption,
+.figcaption,
+.photo-credit,
+.meta,
+.meta * {
+  font-size: 0.75rem;
 }
 
 /**
@@ -312,15 +344,6 @@ ul.meta {
  * 2. Center it in the viewport
  * 3. Leave some space on the edges, especially valuable on small screens
  */
-.container {
-  max-width: 640px; /* 1 */
-  margin-left: auto; /* 2 */
-  margin-right: auto; /* 2 */
-  padding-left: 20px; /* 3 */
-  padding-right: 20px; /* 3 */
-  width: 100%; /* 1 */
-}
-
 /**
  * Hide text while making it readable for screen readers
  * 1. Needed in WebKit-based browsers because of an implementation bug;
@@ -401,41 +424,31 @@ ul.meta {
   margin: 0 auto;
 }
 
+#logo {
+  margin-top: 13px;
+  width: 210px;
+}
+
+#logo img {
+  margin-left: -0.5rem;
+}
+
 /**
  * Navigation
  */
-#logo {
-  margin: 0 0 0 -0.5rem;
-}
-
-ul {
-  margin-left: auto;
-  padding: 0;
-  display: flex;
-  list-style: none;
-}
-
-#menu {
-  background-color: #ffffff;
-  display: flex;
-  position: relative;
-  height: 125px;
+#menu li {
+  width: max(4vw, 75px);
+  text-align: center;
 }
 
 #menu li a {
   color: hsl(0, 0%, 100%);
-  padding: 10px 20px;
   text-decoration: none;
-  font-size: var(--font-size-body);
-  font-weight: 138;
-  font-variation-settings: "wght" 138;
+  font-size: 15.47px;
+  font-weight: 201;
+  font-variation-settings: "wght" 201;
   font-stretch: 95%;
   font-variation-settings: "wdth" 95;
-  font-family: sans-serif;
-}
-#menu li a:hover {
-  color: hsl(0, 0%, 100%);
-  text-decoration: none;
 }
 
 #hamburger {
@@ -451,8 +464,8 @@ ul {
   border-radius: 100px;
   display: inline-block;
   position: absolute;
-  top: 5vh;
-  right: 5vh;
+  top: 4vh;
+  right: 7vw;
   transition: 0.5s;
   box-shadow: 0 calc(2 * var(--s)) 0 hsl(111, 0%, 34%), 0 calc(-2 * var(--s)) 0 hsl(111, 0%, 34%);
   -webkit-appearance: none;
@@ -499,6 +512,15 @@ ul {
 }
 
 @media (min-width: 721px) {
+  #header {
+    display: flow-root;
+  }
+  #logo {
+    float: left;
+  }
+  #menu {
+    float: right;
+  }
   #hamburger {
     border: 0;
     padding: 0;
@@ -516,23 +538,36 @@ ul {
     white-space: nowrap;
     /* added line to stop words getting smushed together (as they go onto seperate lines and some screen readers do not understand line feeds as a space */
   }
-  #menu .primary {
+  #menu .button.primary {
     background-color: hsl(56, 16%, 54%);
   }
-  #menu .primary:hover {
-    background-color: #82805e;
+  #menu .button.primary:hover {
+    color: hsl(56, 16%, 54%);
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: inset 0 -100px 0 0 hsl(56, 16%, 54%);
   }
-  #menu .secondary {
+  #menu .button.secondary {
     background-color: hsl(205, 15%, 41%);
+    border: 2px solid hsl(205, 15%, 41%);
+    box-shadow: inset 0 0 0 0 hsl(205, 15%, 41%);
   }
-  #menu .secondary:hover {
-    background-color: #43515b;
+  #menu .button.secondary:hover {
+    color: hsl(205, 15%, 41%);
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: inset 0 -100px 0 0 hsl(205, 15%, 41%);
   }
   #menu .button {
     top: 3.5%;
   }
 }
 @media (max-width: 719px) {
+  #header nav {
+    background: teal;
+    display: flex;
+  }
+  #menu ul {
+    display: none;
+  }
   #menu ul {
     position: fixed;
     background-color: rgba(37, 37, 37, 0.5960784314);
@@ -551,33 +586,45 @@ ul {
     transform: translate(-100%);
     opacity: 0;
     transition: 0.3s;
+    z-index: 2;
   }
   #menu .primary {
-    background-color: #c3c2ac;
+    background-color: #a7a586;
+    border: 2px solid #a7a586;
+    box-shadow: inset 0 0 0 0 #a7a586;
+  }
+  #menu .primary:hover {
+    background-color: #b2b095;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: inset 0 -100px 0 0 #b2b095;
   }
   #menu .secondary {
-    background-color: #8799a6;
+    background-color: #647887;
+    border: 2px solid #647887;
+    box-shadow: inset 0 0 0 0 #647887;
+  }
+  #menu .secondary:hover {
+    color: hsl(205, 15%, 41%);
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: inset 0 -100px 0 0 hsl(205, 15%, 41%);
   }
   #hamburger {
     display: grid;
     z-index: 3;
-    top: 42%;
   }
   #hamburger:checked + ul {
     transform: translate(0);
     opacity: 1;
   }
 }
-header,
-main,
-#navbar {
+.container {
   width: calc(100% - 12vw);
-  max-width: 640px;
+  max-width: 760px;
   margin: 0 auto;
 }
 
 body .content {
-  font-family: "$font-name", system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu", "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-family: "Commissioner", system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu", "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
   font-stretch: 90%;
   font-variation-settings: "wdth" 90;
   font-variation-settings: "slnt" 0;
@@ -595,8 +642,11 @@ footer {
 }
 
 #social {
-  padding-top: 3.5vh;
+  padding-top: 2.5vh;
   margin-bottom: 1.2vh;
+  display: flex;
+  justify-content: center;
+  column-gap: 2.5vw;
 }
 
 footer p {
@@ -627,55 +677,204 @@ label[type=button],
   padding: 1rem;
   cursor: pointer;
   margin: 0.3rem;
+  background: transparent;
+  transition: ease-out 0.5s;
+  border: 2px solid hsl(56, 16%, 54%);
+  box-shadow: inset 0 0 0 0 hsl(56, 16%, 54%);
+  box-sizing: content-box;
+}
+button:hover,
+[role=button]:hover,
+input[type=submit]:hover,
+input[type=reset]:hover,
+input[type=button]:hover,
+label[type=button]:hover,
+.button:hover {
+  color: hsl(56, 16%, 54%);
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: inset 0 -100px 0 0 hsl(56, 16%, 54%);
+}
+button:active,
+[role=button]:active,
+input[type=submit]:active,
+input[type=reset]:active,
+input[type=button]:active,
+label[type=button]:active,
+.button:active {
+  transform: scale(0.9);
 }
 
-.content blockquote {
-  background-color: inherit;
-  border-left: none;
-  padding: 1.75em 1.5em 1.25em;
-}
-
-blockquote {
-  display: block;
-  border-width: 2px 0;
-  border-style: solid;
-  border-color: hsl(117, 0%, 94%);
-  padding: 1.5em 0 0.5em;
-  margin: 1.5em 0;
+/* Source: https://uiverse.io/adamgiebl/rude-bear-14 */
+.flip-button {
   position: relative;
+  display: inline-block;
+  margin: 15px;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #725AC1;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 2px solid #725AC1;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 #725AC1;
+}
+
+.flip-button:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0 #725AC1;
+}
+
+.flip-button:active {
+  transform: scale(0.9);
+}
+
+/* Source: https://uiverse.io/alexmaracinaru/purple-zebra-61 */
+.card {
+  width: 190px;
+  height: 274px;
+  background: white;
+  padding: 0.4em;
+  border-radius: 6px;
+}
+
+.card-image {
+  background-color: rgb(236, 236, 236);
+  width: 100%;
+  height: 60%;
+  border-radius: 6px 6px 0 0;
+}
+
+.card-image:hover {
+  transform: scale(0.98);
+}
+
+.category {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-weight: 600;
+  color: rgb(63, 121, 230);
+  padding: 10px 7px 0;
+}
+
+.category:hover {
+  cursor: pointer;
+}
+
+.heading {
+  font-weight: 600;
+  color: rgb(88, 87, 87);
+  padding: 7px;
+}
+
+.heading:hover {
+  cursor: pointer;
+}
+
+.author {
+  color: gray;
+  font-weight: 400;
+  font-size: 11px;
+  padding-top: 20px;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.name:hover {
+  cursor: pointer;
+}
+
+/* Source: https://blog.stackfindover.com/css-blockquotes-examples/ | https://codepen.io/r-i-c-h/pen/XveoOX */
+blockquote {
+  border-left: 3px solid hsl(56, 16%, 54%);
+  color: hsl(205, 15%, 41%);
+  font-size: 20.4px;
+  font-style: italic;
+  line-height: 1.8em;
+  margin: 1.1em;
+  padding: 1em 2em;
+  position: relative;
+  transition: 0.2s border ease-in-out;
+  z-index: 0;
 }
 blockquote:before {
-  content: "“";
+  content: "";
   position: absolute;
-  top: 0em;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: hsl(0, 0%, 100%);
-  width: 3rem;
-  height: 2rem;
-  font: 6em/1.08em "Quicksand", sans-serif;
-  color: hsl(111, 0%, 34%);
-  text-align: center;
+  top: 50%;
+  left: -4px;
+  height: 2em;
+  background-color: hsl(0, 0%, 100%);
+  width: 5px;
+  margin-top: -1em;
 }
 blockquote:after {
-  content: "– " attr(cite);
-  display: block;
-  text-align: right;
+  content: "“";
+  position: absolute;
+  top: 50%;
+  left: -0.5em;
   color: hsl(56, 16%, 54%);
+  width: 0.5rem;
+  height: 0.33rem;
+  font: 3em/0.54em "Commissioner", sans-serif;
+  text-align: center;
+  text-indent: -2px;
+  width: 1em;
+  margin-top: -0.09em;
+  transition: 0.2s all ease-in-out, 0.4s transform ease-in-out;
+}
+blockquote:active:after {
+  transform: rotateY(360deg);
 }
 
+blockquote cite {
+  display: block;
+  font-size: 0.75em;
+  line-height: 1.8em;
+  margin-top: 1em;
+}
+
+@media (max-width: 759px) {
+  blockquote {
+    font-size: 1.1em;
+    margin: 1.1em;
+  }
+}
+@media (max-width: 719px) {
+  blockquote {
+    border-top: 2px solid hsl(56, 16%, 54%);
+    border-bottom: 2px solid hsl(56, 16%, 54%);
+    border-left: none;
+    margin: 1.5em 0;
+    padding: 1.5em 1em;
+  }
+  blockquote:before {
+    left: 50%;
+    top: 0;
+    height: 4px;
+    margin-top: -3px;
+    margin-left: -1em;
+    width: 2em;
+  }
+  blockquote:after {
+    font-size: 2em;
+    left: 50%;
+    top: 0;
+    margin-top: -0.1em;
+    margin-left: -0.5em;
+  }
+  blockquote cite {
+    text-align: right;
+  }
+}
 .attribution,
 .attribution p {
   text-align: right;
   color: hsl(56, 16%, 54%);
-}
-
-.caption,
-.figcaption,
-.photo-credit,
-.meta,
-.meta * {
-  font-size: 0.75rem;
 }
 
 .caption,
@@ -692,13 +891,16 @@ blockquote:after {
   font-style: italic;
 }
 
-figure blockquote {
+blockquote {
   margin-bottom: 0;
   text-align: left;
   padding-bottom: 1%;
 }
 
 .quote-source {
+  font-weight: 335;
+  font-style: normal;
+  font-variation-settings: "wght" 335 "slnt" 0;
   padding: 1% 0 5%;
   text-align: right;
 }
@@ -720,36 +922,29 @@ figure blockquote {
 /**
  * Basic styles for lists
  */
-.bullet ul,
-.bullet li,
-.bullet ol {
-  margin-left: 3vw;
+ol {
+  margin-bottom: 1rem;
 }
 
-ul {
+ul li, ol li {
+  margin-left: -20px;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+li::marker {
+  color: hsl(217, 29%, 72%);
+}
+
+/**
+ * Lists for menu items
+ */
+#menu ul, #social ul {
+  margin-left: auto;
+  padding: 0;
+  display: flex;
   list-style: none;
-}
-
-.bullet-list ol {
-  margin-bottom: 1rem;
-  line-height: 50%;
-}
-
-.bullet li {
-  margin-bottom: 1rem;
-  line-height: 50%;
-}
-.bullet li::marker {
-  color: hsl(111, 0%, 34%);
-}
-.bullet li::before {
-  content: "▪";
-  color: hsl(111, 0%, 34%);
-  font-weight: bold;
-  font-variation-settings: "wght" 748.995;
-  display: inline-block;
-  width: 0.75em;
-  margin-left: -1em;
 }
 
 /**
@@ -808,6 +1003,43 @@ ul {
   color: hsl(111, 0%, 34%);
 }
 
+/*	
+  Table Responsive
+  ===================
+  Author: https://github.com/pablorgarcia
+ */
+table {
+  font-size: 15.47px;
+  font-style: normal;
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+table a {
+  font-weight: 335;
+}
+
+th {
+  text-align: left;
+  padding: 20px 20px 20px 20px;
+  color: hsl(205, 15%, 41%);
+  background-color: hsl(49, 100%, 91%);
+}
+
+table,
+td {
+  padding: 8px 8px 8px 20px;
+}
+
+tr:nth-child(even) {
+  background-color: hsl(117, 0%, 94%);
+}
+
+tr:hover {
+  background-color: rgba(114, 114, 113, 0.2);
+}
+
 .footnotes hr {
   border: none;
   height: 2px;
@@ -821,7 +1053,7 @@ ul {
 
 .footnote-ref {
   color: hsl(0, 0%, 100%);
-  background-color: #617ca8;
+  background-color: #e5e9f1;
   padding: 1px 2px 1px;
 }
 .footnote-ref:hover {
@@ -840,7 +1072,7 @@ ul {
   align-items: center;
   justify-content: center;
   border-radius: 0%;
-  padding: 0 0 6vh;
+  padding: 3vh 0 8vh;
 }
 
 .content-box {
@@ -850,18 +1082,35 @@ ul {
 .contact-form,
 .contact-form textarea,
 .contact-form input {
-  width: calc(100% - 0.25vw);
-  max-width: 320px;
+  width: 360px;
   margin: 0 auto;
   position: relative;
   display: inline-block;
-  font-family: "$font-name", system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu", "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-family: "Menlo", "Consolas", "Monaco", "Liberation Mono", "Lucida Console", monospace;
+}
+@media (max-width: 479px) {
+  .contact-form,
+  .contact-form textarea,
+  .contact-form input {
+    width: 320px;
+  }
+}
+@media (max-width: 319px) {
+  .contact-form,
+  .contact-form textarea,
+  .contact-form input {
+    width: 90%;
+  }
 }
 
 textarea::placeholder,
-input::placeholder {
+input::placeholder,
+.contact-form textarea,
+.contact-form input {
   color: hsl(0, 0%, 100%);
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 201;
+  font-variation-settings: "wght" 201;
 }
 
 .contact-form textarea,
@@ -874,8 +1123,6 @@ input::placeholder {
   background-color: transparent;
   resize: none;
   padding: 2px;
-  color: hsl(0, 0%, 100%);
-  font-size: 18px;
 }
 
 .contact-form textarea {

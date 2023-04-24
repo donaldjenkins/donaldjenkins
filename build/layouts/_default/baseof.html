@@ -26,10 +26,13 @@
         </main>
     
         <footer class="dark">
-        {{ block "footer" . }}
-        {{ partial "footer/contact-form.html" . }}
-        {{ partial "footer/legal-info.html" . }}
-        {{ end }}
+            <section id="footer" class="container">
+                {{ block "footer" . }}
+                {{ partial "footer/social.html" . }}
+                {{ partial "footer/contact-form.html" . }}
+                {{ partial "footer/legal-info.html" . }}
+                {{ end }}
+            </section>
         </footer>    
     {{ partial "footer/footer-scripts.html" . }}
     </body>

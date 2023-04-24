@@ -17,7 +17,7 @@ input[type="button"],
 label[type="button"],
 .button {
  display: inline-block;
- border-radius: $button-border-radius;
+ border-radius: $slightly-rounded;
  background-color: $primary;
  border: none;
  color: $bg;

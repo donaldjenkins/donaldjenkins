@@ -34,7 +34,7 @@ h6 {
   /* Set sans-serif & mono fonts */
   --sans-font: $family-primary;
   --mono-font: $family-monospace
-  --standard-border-radius: $standard-border-radius;
+  --standard-border-radius: $rounded;
   /* Default (light) theme */
   --bg: $bg;
   --accent-bg: $accent-bg;

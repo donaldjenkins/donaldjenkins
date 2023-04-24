@@ -90,11 +90,4 @@
  .navbar-burger:hover {
    filter: invert(61%) sepia(22%) saturate(284%) hue-rotate(161deg) brightness(97%) contrast(84%);
  }
- 
- // Source: https://css-tricks.com/centering-list-items-horizontally-slightly-trickier-than-you-might-think/
- 
- .table {
-   display: table;
-   /* Allow the centering to work */
-   margin: 0 auto;
- }
+

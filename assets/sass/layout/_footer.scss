@@ -9,6 +9,9 @@ footer {
 #social {
   padding-top: 2.5vh;
   margin-bottom: 1.2vh;
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
 }
 
 footer p {
