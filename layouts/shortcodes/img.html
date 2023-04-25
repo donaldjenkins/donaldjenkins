@@ -1,3 +1,5 @@
+<!-- Give images width and height | Source: https://imagekit.io/responsive-images/ & https://web.dev/patterns/web-vitals-patterns/images/responsive-images/ -->
+
 <figure class="picture"> 
   <picture>
     <source width="100vw" height="auto" srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=960 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1920 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=2880 3x"
