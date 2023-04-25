@@ -1,32 +1,30 @@
-<!-- Give images width and height | Source: https://imagekit.io/responsive-images/ & https://web.dev/patterns/web-vitals-patterns/images/responsive-images/ -->
-
 <figure class="picture"> 
   <picture>
-    <source width="100vw" height="auto" srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=960 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1920 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=2880 3x"
+    <source srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=960 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1920 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=2880 3x"
             media="(min-width: 960px)">
-    <source width="100vw" height="auto" srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=860 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1720 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=2580 3x"
+    <source srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=860 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1720 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=2580 3x"
             media="(min-width: 860px)">
-    <source width="100vw" height="auto" srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=780 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1560 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=2340 3x"
+    <source srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=780 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1560 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=2340 3x"
             media="(min-width: 780px)">
-    <source width="100vw" height="auto" srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=720 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1440 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=2160 3x"
+    <source srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=720 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1440 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=2160 3x"
             media="(min-width: 720px)">
-    <source width="100vw" height="auto" srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=640 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1240 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1920 3x"
+    <source srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=640 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1240 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1920 3x"
             media="(min-width: 640px)">
-    <source width="100vw" height="auto" srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=600 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1200 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1800 3x"
+    <source srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=600 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1200 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1800 3x"
             media="(min-width: 600px)">
-    <source width="100vw" height="auto" srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=540 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1080 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1620 3x"
+    <source srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=540 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1080 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1620 3x"
             media="(min-width: 540px)">
-    <source width="100vw" height="auto" srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=480 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=960 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1440 3x"
+    <source srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=480 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=960 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1440 3x"
             media="(min-width: 480px)">
-    <source width="100vw" height="auto" srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=420 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=840 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1260 3x"
+    <source srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=420 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=840 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1260 3x"
             media="(min-width: 420px)">
-    <source width="100vw" height="auto" srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=380 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=760 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1140 3x"
+    <source srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=380 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=760 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1140 3x"
             media="(min-width: 380px)">
-    <source width="100vw" height="auto" srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=320 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=640 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=960 3x"
+    <source srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=320 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=640 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=960 3x"
             media="(min-width: 320px)">
-    <source width="100vw" height="auto" srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=225 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=450 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=675 3x"
+    <source srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=225 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=450 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=675 3x"
             media="(min-width: 225px)">
-    <img width="1920px" height="{{ if .Get "height"}}{{ .Get "height" }} {{ else }}100%{{ end }}" src="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1920" alt="{{ if .Get "caption"}}{{ .Get "caption" }}{{ end }}"/>
+    <img src="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1920" alt="{{ if .Get "caption"}}{{ .Get "caption" }}{{ end }}"/>
   </picture>
   
   {{ if .Get "caption"}}
