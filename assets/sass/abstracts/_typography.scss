@@ -1,5 +1,5 @@
 /// Font-face declaration
-@font-face {
+/* @font-face {
   font-family: $font-name;
   font-style: normal;
   font-weight: 100 900;
@@ -15,15 +15,23 @@
   font-display: swap;
   src: url("https://donaldjenkins.pages.dev/fonts/figtree.woff2") format("woff2-variations");
   unicode-range: U+0100-02AF, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
+} */
+
+/// Font stacks
+$humanist-font-stack: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+
+$system-ui-font-stack: system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu", "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+
+$geometric-humanist-font-stack: Avenir, 'Avenir Next LT Pro', Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+
 
 /// Regular font family
 /// @type List
-$text-font-stack: system-ui, -apple-system, "Segoe UI", "Roboto", "Ubuntu",
-"Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-$regular-font-stack: $font-name, $text-font-stack;
+$text-font-stack: $geometric-humanist-font-stack;
 
 /// Code (monospace) font family
 /// @type List
 $code-font-stack: "Menlo", "Consolas", "Monaco", "Liberation Mono", "Lucida Console", monospace;
 $monospace-font-stack: $code-font-stack;
+
+$regular-font-stack: $text-font-stack;
