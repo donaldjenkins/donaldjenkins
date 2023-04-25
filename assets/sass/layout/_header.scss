@@ -40,10 +40,8 @@
   padding: 0 1em;
   text-decoration: none;
   font-size: $smaller-font;
-  font-weight: $thin-font;
-  font-variation-settings: "wght" $thin-font;
+  font-weight: $heading-font;
   font-stretch: 95%;
-  font-variation-settings: "wdth" 95;
   font-family: $regular-font-stack;
 //
 // Added to center text vertically (bug in simple.css)

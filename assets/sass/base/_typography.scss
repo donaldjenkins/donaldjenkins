@@ -32,8 +32,6 @@
    font-size: $default-font;
    font-weight: $normal-font;
    color: $font-color;
-//   font-variation-settings: "wght" #{" "} #{$normal-font};
-   letter-spacing: -0.01;
    --font-size-1: clamp(2rem, 1.25rem + 3.1579vw, 2.75rem);
    --font-size-2: clamp(1.8rem, 1.15rem + 2.7368vw, 2.45rem);
    --font-size-3: clamp(1.6rem, 1.1rem + 2.1053vw, 2.1rem);
@@ -56,17 +54,8 @@ body,
 .content {
   font-family: var(--sans-font);
   font-size: var(--font-size-body);
-//  font-family: $regular-font-stack;
-//  font-weight: $normal-font;
-//  font-variation-settings: "wght" $normal-font;
-  font-variation-settings: "wght" $normal-font, "slnt" 0;
-  --text-slnt: 0;
+  font-stretch: 95%;
   line-height: $line-height;  
-//  font-stretch: unquote($font-stretch + '%');
-//  font-variation-settings: "wdth" $font-stretch;
-  font-variation-settings: "slnt" 0;
-  font-optical-sizing: auto;
-//  color: $font-color;
 }
 
 @include media("<smartphone") {
@@ -108,20 +97,9 @@ h5,
 h6,
 button {
   font-weight: $heading-font;
-  font-variation-settings: "wght" $heading-font;
   font-stretch: unquote(calc($font-stretch * 1.053)  + '%');
-  font-variation-settings: "wdth" calc($font-stretch * 1.053);
-  font-variation-settings: 'wght' $heading-font, 'slnt' -10, 'VOLM' 70;
   letter-spacing: -0.0075em;
   line-height: calc($line-height * 0.75);
-}
-
-/**
- * Basic styles for font attributes | Source: https://variablefonts.io/about-variable-fonts/
- */
-
-body {
-  font-variation-settings: 'slnt' var(--text-slnt);  
 }
 
 p,
@@ -129,20 +107,17 @@ p em,
 cite,
 .quote-source,
 li {
-  font-weight: $normal-font;
-  font-variation-settings: "wght" $normal-font;  
+  font-weight: $normal-font;  
 }
 
 small {
   font-size: var(--font-size-small);
   font-weight: $bold-font;
-  font-variation-settings: "wght" $bold-font;
 }
 
 #legal * {
   font-size: var(--font-size-smallest);
   font-weight: $heading-font;
-  font-variation-settings: "wght" $heading-font;
 }
 
 em,
@@ -150,8 +125,6 @@ p em,
 .quote,
 cite em {
     font-weight: $normal-font;
-    font-variation-settings: "wght" $normal-font, "slnt" 12;
-    --text-slnt: 12;
     letter-spacing: -0.02em;
     margin-right: 0.25ex;
 }
@@ -159,7 +132,6 @@ cite em {
 strong,
 b {
   font-weight: $bold-font;
-  font-variation-settings: "wght" $bold-font;
 }
 
 .caption,
@@ -168,4 +140,5 @@ b {
 .meta,
 .meta * {
   font-size: var(--font-size-smaller);
+  color: $grey-light;
 }
