@@ -26,10 +26,9 @@
  */
  
 a {
-  color: $brand-color;
-  font-weight: $bold-font;
-  font-variation-settings: "wght"$bold-font;
-  text-decoration: none;
+  color: $link;
+  text-decoration: underline;
+  text-decoration-style: dotted;
 
   @include on-event {
     color: $text-color;
@@ -38,8 +37,7 @@ a {
   
   &:hover {
   color: $link-hover;
-  text-decoration: underline;
-  text-decoration-style: dotted;
+  text-decoration: none;
   }
   
   @include media ("<smartphone") {
@@ -135,7 +133,7 @@ table {
 }
 
 .meta {
-  color: $brand-color;
+  color: $link;
   font-weight: $bold-font;
   font-variation-settings: "wght" $bold-font;
   margin-bottom: 1.25em;
