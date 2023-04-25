@@ -27,6 +27,7 @@
  
 a {
   color: $link;
+  font-weight: $normal;
   text-decoration: underline;
   text-decoration-style: dotted;
 
@@ -133,11 +134,22 @@ table {
 }
 
 .meta {
-  color: $link;
+  color: $brand-color;
+  font-size: $smaller-font;
   font-weight: $bold-font;
-  font-variation-settings: "wght" $bold-font;
   margin-bottom: 1.25em;
   line-height: 1.25em;
+}
+
+.meta a {
+  color: $brand-color;  
+  font-size: $smaller-font;
+  font-weight: $bold-font;
+  text-decoration: none;
+  
+  &:hover {
+    color: $link-hover;
+  }
 }
 
 ul.meta {

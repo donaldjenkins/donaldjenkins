@@ -137,8 +137,7 @@ b {
 .caption,
 .figcaption,
 .photo-credit,
-.meta,
-.meta * {
-  font-size: var(--font-size-smaller);
-  color: $grey-light;
+ {
+  font-size: var(--font-size-smallest);
+  color: $grey;
 }

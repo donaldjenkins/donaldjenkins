@@ -32,6 +32,7 @@ $black-bis: hsl(0, 0%, 7%);
 /// Define custom colors
 $primary: $gurkha;
 $secondary: $horizon;
+$tertiary: $fuzzy-wuzzy-brown;
 $primary-hover: color.adjust($primary, $lightness: 5%);
 $secondary-hover: color.adjust($secondary, $lightness: 5%);
 $primary-on-dark: $primary-hover;
@@ -45,7 +46,7 @@ $text-on-dark: color.adjust($concrete, $blackness: 27%);
 $font-color: $davys-gray;
 $link: $font-color;
 $link-visited: color.adjust($link, $blackness: 27%);
-$link-hover: $fuzzy-wuzzy-brown;
+$link-hover: $tertiary;
 $link-focus-border: $tin;
 $link-on-dark: color.adjust($eton-blue, $lightness: 20%);
 $link-hover-on-dark: color.adjust($eton-blue, $lightness: 50%);
