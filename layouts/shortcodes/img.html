@@ -1,5 +1,5 @@
 <figure class="picture"> 
-  <picture  style="--aspect-ratio:{{ .Get "width" }}/{{ .Get "height" }};">
+  <picture>
     <source srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=960 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1920 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=2880 3x"
             media="(min-width: 960px)">
     <source srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=860 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1720 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=2580 3x"
@@ -24,7 +24,7 @@
             media="(min-width: 320px)">
     <source srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=225 1x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=450 2x, {{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=675 3x"
             media="(min-width: 225px)">
-    <img src="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1920" alt="{{ if .Get "caption"}}{{ .Get "caption" }}{{ end }}"/>
+    <img style="--aspect-ratio:{{ .Get "width" }}/{{ .Get "height" }};" src="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=1920" alt="{{ if .Get "caption"}}{{ .Get "caption" }}{{ end }}"/>
   </picture>
   
   {{ if .Get "caption"}}
