@@ -8,8 +8,8 @@ blockquote {
   color: $secondary;
   font-size: var(--font-size-large);
   font-style: italic;
-  line-height: 1.8em;
-  margin: 1.1em;
+  line-height: var(--line-height-large);
+  margin: 1.5em;
   padding: 1em 2em;
   position: relative;
   transition: 0.2s border ease-in-out;
@@ -57,8 +57,7 @@ blockquote cite {
 
 @include media("<container") {
   blockquote {
-    font-size: 1.1em;
-    margin: 1.1em;
+    margin: 1.25em;
   }
 }
 

@@ -14,12 +14,10 @@
 }
 
 .footnote-ref {
-  color: $white;
   background-color: $info;
   padding: 1px 2px 1px;
   
   &:hover {
-    color: $white;
     background-color: $warning;
     padding: 1px 2px 1px;
   }

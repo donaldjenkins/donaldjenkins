@@ -23,13 +23,13 @@ $font-size-4: clamp(1.4rem, 1rem + 1.6842vw, 1.8rem);
 $font-size-5: clamp(1.2rem, 0.95rem + 1.0526vw, 1.45rem);
 $font-size-6: clamp(1.1rem, 0.45rem + 1.8947vw, 1.35rem);
 $font-size-large: clamp(1.15rem, 1.0845rem + 0.2759vw, 1.25rem);
-$font-size-body: clamp(0.938rem, 0.517vw + 0.815rem, 1.125rem);
+$font-size-body: clamp(0.988rem, 0.414vw + 0.889rem, 1.138rem);
 $font-size-small: clamp(0.85rem, 0.7517rem + 0.4138vw, 1rem);
 $font-size-smaller: clamp(0.75rem, 0.6517rem + 0.4138vw, 0.9rem);
 $font-size-smallest: clamp(0.65rem, 0.5517rem + 0.4138vw, 0.8rem);
 
 // Font weight
-$normal-font: 335;
+$normal-font: 341;
 $semi-bold-font: calc($normal-font*1.47);
 $bold-font: calc($normal-font * 1.67);
 $black-font: calc($bold-font * 1.3);
@@ -59,6 +59,7 @@ $line-height-3: clamp(1.968rem, 0.712vw + 1.799rem, 2.226rem);
 $line-height-4: clamp(1.722rem, 0.513vw + 1.6rem, 1.908rem);
 $line-height-5: clamp(1.476rem, 0.168vw + 1.436rem, 1.537rem);
 $line-height-6: clamp(1.353rem, 0.215vw + 1.302rem, 1.431rem);
+$line-height-large: clamp(2.063rem, -0.179vw + 2.17rem, 2.128rem);
 $line-height-body: clamp(1.537rem, 0.166vw + 1.498rem, 1.598rem);
 
 $line-height: $line-height-body;

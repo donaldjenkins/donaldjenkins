@@ -16,6 +16,7 @@
   --title-color: #{$title-color};
   --text-on-dark: #{$text-on-dark};
   --caption-color: #{$caption-color};
+  --brand-text: #{$brand-text};
 
   /// Link colors
   --link: #{$link};
@@ -65,6 +66,21 @@
 }
 
 body,
+.content,
+strong a,
+em a,
+strong a,
+em a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text-color);
+}
+
+body,
 .content {
   font-family: var(--sans-font);
   font-size: var(--font-size-body);
@@ -77,39 +93,39 @@ a {
 }
 
 a {
-  color: $link;
+  color: var(--link);
   
   &:hover {
-  color: $link-hover;
+  color: var(--link-hover);
   }  
 }
 
 .dark {
-  color: $text-on-dark;
+  color: var(--text-on-dark);
 }
 
 .dark a {
-  color: $link-on-dark;
+  color: var(--link-on-dark);
   
   &:hover {
-    color: $link-hover-on-dark;
+    color: var(--link-hover-on-dark);
   }
 }
 
 .primary {
- color: $text-on-dark;
+ color: var(--text-on-dark);
   
   &:hover {
-   color: $text-on-dark;
+   color: var(--text-on-dark);
   }
   
 }
 
 .secondary {
- color: $text-on-dark;
+ color: var(--text-on-dark);
   
   &:hover {
-   color: $text-on-dark;
+   color: var(--text-on-dark);
   }
   
 }
@@ -214,7 +230,7 @@ b {
 .photo-credit,
 {
 font-size: var(--font-size-smallest);
-color: $caption-color;
+color: var(--caption-color);
 }
 
 button,
@@ -224,16 +240,16 @@ input[type="reset"],
 input[type="button"],
 label[type="button"],
 .button {
-  color: $text-on-dark;
+  color: var(--text-on-dark);
 
   &:hover {
-    color: $primary;
+    color: var(--brand-text);
   }
 }
 
 table {
   font-size: var(--font-size-smaller);
-  font-style: normal;
+  font-style: var(--font-weight-normal);
 
   & a {
     font-weight: var(--font-weight-normal);
@@ -244,24 +260,32 @@ table {
   }
 }
 
+.footnote-ref {
+  color: var(--text-on-dark);
+  
+  &:hover {
+    color: var(--text-on-dark);
+  }
+}
+
 .icon,
 .small-icon {
-  color: $text-color;
+  color: var(--text-color);
 }
 
 .icon:hover {
-    color: $link-hover;  
+    color: var(--link-hover);  
 }
 
 .meta {
-  color: $brand-text;
+  color: var(--brand-text);
 }
 
 .meta a {
-  color: $brand-text;
+  color: var(--brand-text);
   
   &:hover {
-    color: $link-hover;
+    color: var(--link-hover);
   }
 }
 
