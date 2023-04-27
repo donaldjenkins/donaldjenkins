@@ -1,10 +1,9 @@
-
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Donald Jenkins is a writer and photographer'
 [params]
   stylesheets = ["main.css"]
   cloudflare_images = "https://www.silverejarrosson.com/cdn-cgi/imagedelivery/L0HrrfgxmX01pIlKW6n82w/"
-  baseURL = '/'
-  languageCode = 'en-us'
-  title = 'Donald Jenkins is a writer and photographer'
   description = "Donald Jenkins [writes](https://www.donaldjenkins.com/articles/) and takes [photographs](https://www.donaldjenkins.com/photos/). He’s a co-founder of start-up [Policymakr](http://policymakr.com/), a political think-tank, and lives in New York."
   summary = "Donald read Philosophy, Politics and Economics at Magdalen College, Oxford, and government at École nationale d’administration. He has worked in merchant banking, the media, public administration and contemporary art. His main subjects of interest and concern are the environment, animal rights, politics and technology. He rides a bicycle and is a vegan."
 

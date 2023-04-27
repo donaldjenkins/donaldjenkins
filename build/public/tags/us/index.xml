@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>US on </title>
+    <title>US on Donald Jenkins is a writer and photographer</title>
     <link>//localhost:1313/tags/us/</link>
-    <description>Recent content in US on </description>
+    <description>Recent content in US on Donald Jenkins is a writer and photographer</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
     <lastBuildDate>Sun, 21 Mar 2010 08:29:08 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/us/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A plea in support of Mr Obama&#39;s perfectible health-care bill</title>
