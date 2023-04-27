@@ -1,5 +1,9 @@
 <!DOCTYPE html>
+{{ if .IsHome }}
+<html lang="en" data-theme="dark">
+{{ else }}
 <html lang="en" data-theme="light">
+{{ end }}
 
     <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# website: http://ogp.me/ns/website#">
         {{ block "head" . }}

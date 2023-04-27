@@ -68,6 +68,20 @@ $normal-width: 24rem;
   }
 }
 
+/// Set background color of home page
+
+@mixin background-color($is-dark: true) {
+  @if $is-dark {
+    color: $text-on-dark;
+    background-color: $dark-background;
+    }
+  
+  @else {
+    color: $text-color;
+    background-color: $dark-background;
+  }
+}
+
 /// Centering elements
 /// Depending on your layout, there are many different ways to center align an element in your styles.
 /// The below method uses absolute positioning and will allow you to define vertical, horizontal, or both centered elements. 

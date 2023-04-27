@@ -2,6 +2,11 @@
 // This file contains all styles related to the main section of the site/application.
 // ----------------------------------------------------------------------------------
 
+html {
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
 .container {
   width: calc(100% - 12vw);
   max-width: $container;

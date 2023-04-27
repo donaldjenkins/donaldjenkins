@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Donald Jenkins is a writer and photographer</title>
+    <title>Categories on </title>
     <link>//localhost:1313/categories/</link>
-    <description>Recent content in Categories on Donald Jenkins is a writer and photographer</description>
+    <description>Recent content in Categories on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <lastBuildDate>Sun, 19 Jun 2016 11:50:32 +0000</lastBuildDate><atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Personal</title>

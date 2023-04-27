@@ -51,6 +51,10 @@ $secondary-on-dark-hover: color.adjust($secondary-hover, $lightness: 5%);
 /// Brand color
 $brand-color: $primary; // Main brand color
 
+///Background colors
+$dark-background: $davys-gray;
+$light-background: $white;
+
 /// Text colors
 $text-color: $davys-gray; // Main text color
 $title-color: color.adjust($text-color, $blackness: 27%);

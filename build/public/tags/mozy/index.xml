@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mozy on Donald Jenkins is a writer and photographer</title>
+    <title>Mozy on </title>
     <link>//localhost:1313/tags/mozy/</link>
-    <description>Recent content in Mozy on Donald Jenkins is a writer and photographer</description>
+    <description>Recent content in Mozy on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <lastBuildDate>Sun, 21 Nov 2010 05:44:09 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/mozy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Backing up a Mac to Amazon S3 with Arq: the easiest, safest and most accurate solution</title>

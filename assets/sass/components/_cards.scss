@@ -16,7 +16,7 @@
   overflow: hidden;
   cursor: pointer;
   position: relative;
-  color: $white;
+  color: var(--text-on-dark);
 //  box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2); // Use common box-shadow
 
   @include article-card-width;
@@ -86,7 +86,7 @@
   &:hover {
    background-color: transparent;
    box-shadow: inset 0 -100px 0 0 transparent;
-   color: $white;
+   color: var(--text-on-dark);
   }
 }
 

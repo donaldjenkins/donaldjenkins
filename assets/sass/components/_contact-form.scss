@@ -41,7 +41,7 @@
   input::placeholder,
   .contact-form textarea,
   .contact-form input {
-    color: $white;
+    color: var(--text-on-dark);
   }
   
   .contact-form textarea,
@@ -84,7 +84,7 @@
   }
   
   ::-webkit-input-placeholder {
-    color: $white;
+    color: var(--text-on-dark);
   }
   
   #send {
@@ -97,7 +97,7 @@
     background: $davys-gray;
     padding: 4px 12px 6px;
     float: right;
-    color: $white;
+    color: var(--text-on-dark);
 //  font-size: 18px;
   }
   
