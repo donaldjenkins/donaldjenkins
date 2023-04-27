@@ -1,7 +1,10 @@
 {{ define "main" }}
 
 {{ with .Site.Params }}
-<p class="hero-text">{{ .description | markdownify }}</p>
+<article class="hero-text">
+<p class="title">{{ .description | markdownify }}</p>
+<p class="title expandable">{{ .summary | markdownify }}</p>
+</article>
 {{ end }}
 
 {{ end }}

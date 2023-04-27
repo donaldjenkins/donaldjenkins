@@ -10,6 +10,7 @@
   --secondary-color: #{$secondary};
   --text-color: #{$text-color};
   --bg-color: #{$white};
+  --contrast-bg-color: #{$dark-background}
   --heading-color: #{$text-color};
   --link-color: #{$text-color};
 
@@ -73,6 +74,7 @@
   --secondary-color: #818cab;
   --text-color: #e1e1ff;
   --bg-color: #{$dark-background};
+  --contrast-bg-color: #{$concrete};
   --heading-color: #818cab;
   --link-color: #{$link-on-dark};
 }
