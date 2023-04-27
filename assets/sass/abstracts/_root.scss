@@ -1,15 +1,17 @@
 /// Global variables.
 
 :root {
+    
+  /* Basic styles for font attributes | Source: https://variablefonts.io/about-variable-fonts/
+ */
+ 
   /* Colors */
   --primary-color: #{$primary};
   --secondary-color: #{$secondary};
   --text-color: #{$text-color};
   --bg-color: #{$white};
   --heading-color: #{$text-color};
-
-  /* Basic styles for font attributes | Source: https://variablefonts.io/about-variable-fonts/
-    */
+  --link-color: #{$text-color};
 
   // Other text colors
   --title-color: #{$title-color};
@@ -70,4 +72,5 @@
   --text-color: #e1e1ff;
   --bg-color: #{$dark-background};
   --heading-color: #818cab;
+  --link-color: #{$link-on-dark};
 }
