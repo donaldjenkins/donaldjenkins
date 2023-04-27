@@ -48,8 +48,8 @@
   right: 1vh;
   transition: 0.5s;
   box-shadow:
-    0 calc(2 * var(--s)) 0 $text-color,
-    0 calc(-2 * var(--s)) 0 $text-color;
+    0 calc(2 * var(--s)) 0 var(--text-color),
+    0 calc(-2 * var(--s)) 0 var(--text-color);
   
   &:before {
     content: "";
@@ -57,8 +57,8 @@
     inset: calc(-2 * var(--s)) 0;
     transition: 0.4s;
     background:
-      radial-gradient(farthest-side, $text-color 98%, #0000) 0 / var(--s) var(--s) repeat-x,
-      linear-gradient($text-color 0 0) 50% / calc(100% - var(--s)) var(--s) no-repeat;
+      radial-gradient(farthest-side, var(--text-color) 98%, #0000) 0 / var(--s) var(--s) repeat-x,
+      linear-gradient(var(--text-color) 0 0) 50% / calc(100% - var(--s)) var(--s) no-repeat;
   }
   
   &:after {
@@ -67,8 +67,8 @@
     inset: calc(-2 * var(--s)) 0;
     transition: 0.4s;
     background:
-      radial-gradient(farthest-side, $text-color 98%, #0000) 0 / var(--s) var(--s) repeat-x,
-      linear-gradient($text-color 0 0) 50% / calc(100% - var(--s)) var(--s) no-repeat;
+      radial-gradient(farthest-side, var(--text-color) 98%, #0000) 0 / var(--s) var(--s) repeat-x,
+      linear-gradient(var(--text-color) 0 0) 50% / calc(100% - var(--s)) var(--s) no-repeat;
   }
   
   &:focus-visible {
@@ -82,8 +82,8 @@
   
   &:hover {
     box-shadow:
-      0 calc(1.6 * var(--s)) 0 $text-color,
-      0 calc(-1.6 * var(--s)) 0 $text-color;
+      0 calc(1.6 * var(--s)) 0 var(--text-color),
+      0 calc(-1.6 * var(--s)) 0 var(--text-color);
   }
   
   &:checked {
