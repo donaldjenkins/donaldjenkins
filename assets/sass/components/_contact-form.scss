@@ -36,17 +36,12 @@
       width: 90%;
     }
   }
-  
-  
-  
+ 
   textarea::placeholder,
   input::placeholder,
   .contact-form textarea,
   .contact-form input {
-    color: $white;   
-    font-size: var(--font-size-body);
-    font-weight: $thin-font;
-    font-variation-settings: "wght" $thin-font;
+    color: $white;
   }
   
   .contact-form textarea,

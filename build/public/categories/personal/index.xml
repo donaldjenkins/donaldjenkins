@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Personal on Donald Jenkins</title>
-    <link>/categories/personal/</link>
-    <description>Recent content in Personal on Donald Jenkins</description>
+    <title>Personal on Donald Jenkins is a writer and photographer</title>
+    <link>//localhost:1313/categories/personal/</link>
+    <description>Recent content in Personal on Donald Jenkins is a writer and photographer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Jun 2016 11:50:32 +0000</lastBuildDate><atom:link href="/categories/personal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Jun 2016 11:50:32 +0000</lastBuildDate><atom:link href="//localhost:1313/categories/personal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test article</title>
-      <link>/test-article/</link>
+      <link>//localhost:1313/test-article/</link>
       <pubDate>Sun, 19 Jun 2016 11:50:32 +0000</pubDate>
       
-      <guid>/test-article/</guid>
+      <guid>//localhost:1313/test-article/</guid>
       <description>I wish all who read this a very Happy New Year: I am certain I am not the only one hoping that this new decade will mark a new beginning.</description>
     </item>
     
     <item>
       <title>A better new decade?</title>
-      <link>/a-better-new-decade/</link>
+      <link>//localhost:1313/a-better-new-decade/</link>
       <pubDate>Fri, 07 Jan 2011 15:45:25 +0000</pubDate>
       
-      <guid>/a-better-new-decade/</guid>
+      <guid>//localhost:1313/a-better-new-decade/</guid>
       <description>I wish all who read this a very Happy New Year: I am certain I am not the only one hoping that this new decade will mark a new beginning.</description>
     </item>
     
     <item>
       <title>A time to gather stones together?</title>
-      <link>/a-time-to-gather-stones-together/</link>
+      <link>//localhost:1313/a-time-to-gather-stones-together/</link>
       <pubDate>Fri, 16 Oct 2009 23:48:03 +0000</pubDate>
       
-      <guid>/a-time-to-gather-stones-together/</guid>
+      <guid>//localhost:1313/a-time-to-gather-stones-together/</guid>
       <description>A short post written at a challenging time. Yet one of the many the beautiful things about hardship, when it strikes, is that spiritual comfort is always there when one needs it.</description>
     </item>
     

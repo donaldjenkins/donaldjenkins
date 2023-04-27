@@ -1,5 +1,102 @@
+/* Source: https://codepen.io/jepooley/pen/NWYryap */
 
-/* Source: https://uiverse.io/alexmaracinaru/purple-zebra-61 */
+// Colors
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+//  width: 24rem;
+  height: 36rem;
+  border-radius: $very-rounded;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  color: $white;
+//  box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2); // Use common box-shadow
+
+  @include article-card-width;
+  
+  img {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+    transition: opacity .2s ease-out;
+  }
+
+  h2 {
+    position: absolute;
+    inset: auto auto 30px 30px;
+    margin: 0;
+    transition: inset .3s .3s ease-out;
+    font-weight: $normal-font;
+  }
+  
+  p, a {
+    position: absolute;
+    opacity: 0;
+    max-width: 80%;
+    transition: opacity .3s ease-out;
+  }
+  
+  p {
+    inset: auto auto 80px 30px;
+  }
+  
+  a {
+    inset: auto auto 40px 30px;
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  h2,
+  p {
+    white-space: pre-wrap;
+  }
+  
+  &:hover h2 {
+    inset: auto auto 220px 30px;
+    transition: inset .3s ease-out;
+  }
+  
+  &:hover p, &:hover a {
+    opacity: 1;
+    transition: opacity .5s .1s ease-in;
+  }
+  
+  &:hover img {
+    transition: opacity .3s ease-in;
+    opacity: 1;
+  }
+
+}
+
+.card-content .button {
+  opacity: 0;
+  background-color: transparent;
+  border: 2px solid $white;
+  &:hover {
+   background-color: transparent;
+   box-shadow: inset 0 -100px 0 0 transparent;
+   color: $white;
+  }
+}
+
+.material-symbols-outlined {
+  vertical-align: middle;
+}
+
+
+
+/* Source: https://uiverse.io/alexmaracinaru/purple-zebra-61 
 .card {
   width: 190px;
   height: 274px;
@@ -54,7 +151,7 @@
 
 .name:hover {
   cursor: pointer;
-}
+} */
 
 /// html
 //<div class="card">

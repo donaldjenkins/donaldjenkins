@@ -5,61 +5,26 @@
 /**
  * Navigation
  */
- 
-#logo {
-   width: 210px;
- }
- 
- #logo img {
-   margin-left: -0.5rem;
- }
 
-#menu {
-  background-color: #ffffff;
-  display: flex;
+#navbar {
+  background-color: $white;
   position: relative;
   height: $header-height;
+  display: flex;
+}
+
+#logo {
+  width: 210px;
+}
+
+#logo img {
+  margin-left: -0.5rem;
 }
 
 #menu ul {
   margin-left: auto;
   padding: 0;
   display: flex;
-}
-
-#menu li {
-//
-// Enter your text via line-height and not via padding. Set a line-height with the same height the button has.
-// Source: https://stackoverflow.com/questions/40847860/different-line-height-and-baseline-on-mobile-and-desktops
-//
-  height: 1.75rem
-}
-
-#menu li a {
-  color: $bg;
-  padding: 0 1em;
-  text-decoration: none;
-  font-size: $smaller-font;
-  font-weight: $heading-font;
-  font-stretch: 95%;
-  font-family: $regular-font-stack;
-//
-// Added to center text vertically (bug in simple.css)
-// Source: https://stackoverflow.com/questions/2883373/simple-css-text-wont-center-in-a-button
-//  
-  vertical-align: middle;
-  margin: auto;
-//
-// Enter your text via line-height and not via padding. Set a line-height with the same height the button has.
-// Source: https://stackoverflow.com/questions/40847860/different-line-height-and-baseline-on-mobile-and-desktops
-//
-  line-height: 1.75rem;
-  box-sizing : content-box;
-  
-  &:hover {
-    color: $bg;
-    text-decoration: none;
-  }
 }
 
 /// Style hamburger animation
@@ -77,15 +42,14 @@
   border-radius: 100px;
   display: inline-block;
   position: absolute;
-  top: 5.4vh;
+  // overflow: hidden;
+  // box-sizing: border-box;
+  top: 6.8vh;
   right: 1vh;
   transition: 0.5s;
   box-shadow:
-    0 calc(2 * var(--s)) 0 $font-color,
-    0 calc(-2 * var(--s)) 0 $font-color;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+    0 calc(2 * var(--s)) 0 $text-color,
+    0 calc(-2 * var(--s)) 0 $text-color;
   
   &:before {
     content: "";
@@ -93,8 +57,8 @@
     inset: calc(-2 * var(--s)) 0;
     transition: 0.4s;
     background:
-      radial-gradient(farthest-side, $font-color 98%, #0000) 0 / var(--s) var(--s) repeat-x,
-      linear-gradient($font-color 0 0) 50% / calc(100% - var(--s)) var(--s) no-repeat;
+      radial-gradient(farthest-side, $text-color 98%, #0000) 0 / var(--s) var(--s) repeat-x,
+      linear-gradient($text-color 0 0) 50% / calc(100% - var(--s)) var(--s) no-repeat;
   }
   
   &:after {
@@ -103,8 +67,8 @@
     inset: calc(-2 * var(--s)) 0;
     transition: 0.4s;
     background:
-      radial-gradient(farthest-side, $font-color 98%, #0000) 0 / var(--s) var(--s) repeat-x,
-      linear-gradient($font-color 0 0) 50% / calc(100% - var(--s)) var(--s) no-repeat;
+      radial-gradient(farthest-side, $text-color 98%, #0000) 0 / var(--s) var(--s) repeat-x,
+      linear-gradient($text-color 0 0) 50% / calc(100% - var(--s)) var(--s) no-repeat;
   }
   
   &:focus-visible {
@@ -118,8 +82,8 @@
   
   &:hover {
     box-shadow:
-      0 calc(1.6 * var(--s)) 0 $font-color,
-      0 calc(-1.6 * var(--s)) 0 $font-color;
+      0 calc(1.6 * var(--s)) 0 $text-color,
+      0 calc(-1.6 * var(--s)) 0 $text-color;
   }
   
   &:checked {
@@ -145,39 +109,74 @@
 }
 
 @include media(">hamburger") {
+  
   #hamburger {
     @include visually-hidden-mixin;
   }
-  
-  #menu .button.primary {
-    background-color: $primary;
-    
-    &:hover {
-       color: $primary;
-       background-color: $white;
-       box-shadow: inset 0 -100px 0 0 $primary;
-     }    
-    
+
+  /// Position menu at right | Source: https://stackoverflow.com/questions/36182635/making-a-flex-item-float-right  
+  #menu {
+    margin-left: auto;
+    order: 2;
   }
   
+  #menu li {
+    height: 1.75rem;
+  }
+  
+  #menu li a {
+    color: $text-on-dark;
+    padding: 0 1em;
+    text-decoration: none;
+    font-size: $smaller-font;
+    font-weight: $heading-font;
+    font-stretch: 95%;
+    font-family: $regular-font-stack;
+    //
+    // Added to center text vertically (bug in simple.css)
+    // Source: https://stackoverflow.com/questions/2883373/simple-css-text-wont-center-in-a-button
+    //  
+    vertical-align: middle;
+    margin: auto;
+    //
+    // Enter your text via line-height and not via padding. Set a line-height with the same height the button has.
+    // Source: https://stackoverflow.com/questions/40847860/different-line-height-and-baseline-on-mobile-and-desktops
+    //
+    line-height: 1.75rem;
+    box-sizing: content-box;
+  
+    &:hover {
+      color: $text-on-dark;
+      text-decoration: none;
+    }
+  }
+
+  #menu .button.primary {
+    background-color: $primary;
+
+    &:hover {
+      color: $primary;
+      background-color: $white;
+      box-shadow: inset 0 -100px 0 0 $primary;
+    }
+
+  }
+
   #menu .button.secondary {
     background-color: $secondary;
     border: 2px solid $secondary;
     box-shadow: inset 0 0 0 0 $secondary;
-    
-    &:hover {
-     color: $secondary;
-     background-color: $white;
-     box-shadow: inset 0 -100px 0 0 $secondary;
-    }
-  }  
 
-  #menu .button {
-    top: 3.5%;
+    &:hover {
+      color: $secondary;
+      background-color: $white;
+      box-shadow: inset 0 -100px 0 0 $secondary;
+    }
   }
 }
 
 @include media("<hamburger") {
+  
   #menu ul {
     position: fixed;
     background-color: #25252598;
@@ -198,39 +197,21 @@
     transition: .3s;
     z-index: 2;
   }
-
-  #menu .primary {
-    background-color: $primary-on-dark;
-    border: 2px solid $primary-on-dark;
-    box-shadow: inset 0 0 0 0 $primary-on-dark;
-    
-    &:hover {
-      background-color: $primary-on-dark-hover;
-      background-color: $white;
-      box-shadow: inset 0 -100px 0 0 $primary-on-dark-hover;
-    }
+  
+  #menu ul li a {
+    padding: 10px 20px;
+    color: $white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: $bold;
   }
-
-  #menu .secondary {
-    background-color: $secondary-on-dark;
-    border: 2px solid $secondary-on-dark;
-    box-shadow: inset 0 0 0 0 $secondary-on-dark;
-    
-    &:hover {
-     color: $secondary;
-     background-color: $white;
-     box-shadow: inset 0 -100px 0 0 $secondary;
-    }
-  }
-
-
+  
   #hamburger {
     display: grid;
     z-index: 3;
-    top: 42%;
   }
-
-  #hamburger:checked+ul {
+  
+  #hamburger:checked + #menu ul {
     transform: translate(0);
     opacity: 1;
   }

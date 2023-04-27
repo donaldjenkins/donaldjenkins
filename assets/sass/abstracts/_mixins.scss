@@ -53,3 +53,76 @@
   /* added line to stop words getting smushed together (as they go onto seperate lines and some screen readers do not understand line feeds as a space */
 }
 
+/// Set width of article card
+
+$full-width: 100%;
+$normal-width: 24rem;
+
+@mixin article-card-width($article-card-full-width: true) {
+  @if $article-card-full-width {
+    width: $full-width;
+    }
+  
+  @else {
+    width: $normal-width;
+  }
+}
+
+/// Centering elements
+/// Depending on your layout, there are many different ways to center align an element in your styles.
+/// The below method uses absolute positioning and will allow you to define vertical, horizontal, or both centered elements. 
+/// The parent element will need to have position: relative.
+
+/// .foo {
+///   @include center(both);
+/// }
+/// .foo-parent {
+///   position: relative;
+/// }
+
+@mixin center($position) {
+  position: absolute;
+  
+  @if $position == 'vertical' {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  @else if $position == 'horizontal' {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translate(-50%);
+  }
+  @else if $position == 'both' {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}
+
+/// Responsive ratio
+///The responsive ratio is not supported for all browsers.
+///We use this to lock the aspect ratio of an element or make it fit content if it exceeds the aspect ratio's boundaries.
+
+/// Example:
+/// img {
+///  @include ratio(16, 9);
+/// }
+
+@mixin ratio($x,$y, $pseudo: false) {
+    $padding: unquote( ( $y / $x ) * 100 + '%' );
+    @if $pseudo {
+        &:before {
+            @include pseudo($pos: relative);
+            width: 100%;
+            padding-top: $padding;
+        }
+    } @else {
+        padding-top: $padding;
+    }
+}
+

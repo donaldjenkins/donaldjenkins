@@ -86,9 +86,7 @@
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(307deg) brightness(101%) contrast(103%)
 }
 
-.filter-white:hover,
-.navbar-item img:hover,
-.navbar-burger:hover {
+.filter-white:hover {
   filter: invert(61%) sepia(22%) saturate(284%) hue-rotate(161deg) brightness(97%) contrast(84%);
 }
 

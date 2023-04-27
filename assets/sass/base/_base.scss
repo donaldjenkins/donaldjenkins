@@ -3,41 +3,36 @@
 // -----------------------------------------------------------------------------
 
 /**
- * Set up a decent box model on the root element
+ * Set up a decent box model on the root element 
  */
-//html {
-//  box-sizing: border-box;
-//}
-
+ 
+/** | Already done by normalize.css | April 27, 2023
+* html {
+*   box-sizing: border-box;
+* }
+*/
+ 
 /**
  * Make all elements from the DOM inherit from the parent box-sizing
  * Since `*` has a specificity of 0, it does not override the `html` value
  * making all elements inheriting from the root box-sizing value
  * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
  */
-//*,
-//*::before,
-//*::after {
-//  box-sizing: inherit;
-//}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 
 /**
  * Basic styles for links
  */
  
 a {
-  color: $link;
-  font-weight: $normal;
   text-decoration: underline;
   text-decoration-style: dotted;
-
-  @include on-event {
-    color: $text-color;
-    text-decoration: underline;
-  }
   
   &:hover {
-  color: $link-hover;
   text-decoration: none;
   }
   
@@ -54,35 +49,23 @@ a {
 
 .dark {
   background-color: $davys-gray;
-  color: $white;
-}
-
-.dark a {
-  color: $link-on-dark;
-  
-  &:hover {
-    color: $link-hover-on-dark;
-  }
 }
 
 .primary {
   background-color: $primary;
-  color: $bg;
+
   
   &:hover {
     background-color: $primary-hover;
-    color: $bg;
   }
   
 }
 
 .secondary {
   background-color: $secondary;
-  color: $bg;
   
   &:hover {
     background-color: $secondary-hover;
-    color: $bg;
   }
   
 }
@@ -90,8 +73,9 @@ a {
 /**
  * Add box shadow for images and other stuff
  */
-img:not(#logo img, #footer-logo img),
-table {
+img:not(#logo img, #footer-logo img, .gallery img),
+table,
+.card {
    box-shadow: 0px 0px 10px rgba(114, 114, 113, 0.5);  
 }
 
@@ -104,8 +88,9 @@ table {
    margin: 0;
  }
  
- img {
-   border-radius: $rounded;
+ img,
+ picture {
+   border-radius: $very-rounded;
    width: 100%;
    padding: 0;
    max-width: $container;
@@ -114,18 +99,12 @@ table {
 
 .icon,
 .small-icon {
-  color: $font-color;
   vertical-align: -.125em;
 }
 
 .icon {
   width: 1.5em;
-  height: 1.5em;
-  
-  &:hover {
-    color: $link-hover;
-  }
-  
+  height: 1.5em; 
 }
 
 .small-icon {
@@ -134,22 +113,12 @@ table {
 }
 
 .meta {
-  color: $brand-color;
-  font-size: $smaller-font;
-  font-weight: $bold-font;
   margin-bottom: 1.25em;
   line-height: 1.25em;
 }
 
-.meta a {
-  color: $brand-color;  
-  font-size: $smaller-font;
-  font-weight: $bold-font;
+.meta a {  
   text-decoration: none;
-  
-  &:hover {
-    color: $link-hover;
-  }
 }
 
 ul.meta {

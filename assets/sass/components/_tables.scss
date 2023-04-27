@@ -10,19 +10,10 @@
  */
 
 table {
-    font-size: $smaller-font;
-    font-style: normal;
     border-collapse: collapse;
     width: 100%;
     border-radius: $very-rounded;
-    overflow:hidden;
-    & a {
-      font-weight: $normal-font;
-    }
-    
-    @include media ("<tablet") {
-      font-size: $smallest-font;
-    } 
+    overflow:hidden; 
 }
 
 th {

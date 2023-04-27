@@ -1,14 +1,15 @@
 baseURL = '/'
 languageCode = 'en-us'
-title = 'Donald Jenkins'
+title = 'Donald Jenkins is a writer and photographer'
 description = "Donald Jenkins writes, takes photographs and dabbles in web design. He’s also a co-founder of the political social network start-up Policymakr."
+summary = "Donald read Philosophy, Politics and Economics at Magdalen College, Oxford, and government at École nationale d’administration. He has worked in merchant banking, the media, public administration and contemporary art. His main subjects of interest and concern are the environment, animal rights, politics and technology. He rides a bicycle and is a vegan."
 
 # Sets homepage meta description (for SEO)
 
 rssTitle = "Donald Jenkins"
 # Sets RSS feed title (for RSS readers)
 
-seoTitle = "SDonald Jenkins: writer and photographer"
+seoTitle = "Donald Jenkins is a writer and photographer"
 # Sets homepage <title> (for SEO)
 
 # disableKinds = ["taxonomy", "taxonomyTerm"]

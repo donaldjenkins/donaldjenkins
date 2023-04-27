@@ -1,24 +1,30 @@
 /* Source: https://sass-lang.com/documentation/modules/color */
 @use "sass:color";
 
-/// Brand colors
-$gurkha: hsl(56, 16%, 54%);
-$horizon: hsl(205, 15%, 41%);
-$tin: hsl(116, 0%, 50%);
+/// Hues
+$primary-hue: 56;
+$secondary-hue: 204;
+$success-hue: 135;
+$warning-hue: 37;
+$danger-hue: 8;
+
+/// Brand colors | https://convertingcolors.com/color-bucket/view/9C9A77585A79575757C75757F0F0F094C7A1FB5E46.html
+$gurkha: hsl($primary-hue, 16%, 54%);
+$horizon: hsl($secondary-hue, 15%, 41%);
 $davys-gray: hsl(111, 0%, 34%);
 $concrete: hsl(117, 0%, 94%);
 $fuzzy-wuzzy-brown: hsl(0, 50%, 56%);
 $baja-white: hsl(49, 100%, 91%);
-$eton-blue: hsl(135, 31%, 68%);
-$tomato: hsl(8, 96%, 63%);
-$papaya-whip: hsl(37, 100%, 92%);
+$eton-blue: hsl($success-hue, 31%, 68%);
+$tomato: hsl($danger-hue, 96%, 63%);
+$papaya-whip: hsl($warning-hue, 100%, 92%);
 $slate: hsl(217, 29%, 72%);
 
 /// Black & White
 $black: #000;
 $white: hsl(0, 0%, 100%);
 
-/// Bulma colors
+/// Black/white shades [Bulma]
 $white-bis: hsl(0, 0%, 98%);
 $white-ter: hsl(0, 0%, 96%);
 $grey-lighter: hsl(0, 0%, 86%);
@@ -29,49 +35,60 @@ $grey-darker: hsl(0, 0%, 21%);
 $black-ter: hsl(0, 0%, 14%);
 $black-bis: hsl(0, 0%, 7%);
 
-/// Define custom colors
+/// Custom colors
 $primary: $gurkha;
+$primary-light:	hsl($primary-hue, 18%, 90%);
 $secondary: $horizon;
+$secondary-light:	hsl($secondary-hue, 18%, 90%);
 $tertiary: $fuzzy-wuzzy-brown;
 $primary-hover: color.adjust($primary, $lightness: 5%);
 $secondary-hover: color.adjust($secondary, $lightness: 5%);
-$primary-on-dark: $primary-hover;
-$secondary-on-dark: $secondary-hover;
+$primary-on-dark: $primary-light;
+$secondary-on-dark: $secondary-light;
 $primary-on-dark-hover: color.adjust($primary-hover, $lightness: 5%);
 $secondary-on-dark-hover: color.adjust($secondary-hover, $lightness: 5%);
 
-$title-color: $davys-gray;
-$subtitle-color: color.adjust($title-color,  $lightness: 10%);
-$text-on-dark: color.adjust($concrete, $blackness: 27%);
-$font-color: $davys-gray;
-$link: $font-color;
+/// Brand color
+$brand-color: $primary; // Main brand color
+
+/// Text colors
+$text-color: $davys-gray; // Main text color
+$title-color: color.adjust($text-color, $blackness: 27%);
+$text-on-dark: color.adjust($concrete, $lightness: 40%);
+$caption-color: $grey;
+$brand-text: color.adjust($brand-color, $blackness: 5%);
+
+ 
+/// Link colors
+$link: $text-color;
 $link-visited: color.adjust($link, $blackness: 27%);
 $link-hover: $tertiary;
-$link-focus-border: $tin;
 $link-on-dark: color.adjust($eton-blue, $lightness: 20%);
 $link-hover-on-dark: color.adjust($eton-blue, $lightness: 50%);
-$info: color.adjust($slate, $lightness: 20%);
-$warning: color.adjust($papaya-whip, $blackness: 60%);
-$success: $eton-blue;
-$warning: $tomato;
 
-/// Reset simple.css colors
-$bg: $white;
+/// Alert colors
+$info: color.adjust($slate, $lightness: 20%);
+$success: $eton-blue;
+$warning: hsl(36, 100%, 40%); // $papaya-whip => 600
+$danger: $tomato;
+
+$info-light	: $secondary-light;
+$success-light: hsl($success-hue, 18%, 90%);
+$warning-light: $papaya-whip;
+$danger-light:	hsl($danger-hue, 96%, 90%);
+
+/* /// Reset simple.css colors
+$text-on-dark: $white;
 $accent-bg: $white-bis;
-$text: $font-color;
-$text-light: color.adjust($font-color, $lightness: 20%);
+$text: $text-color;
+$text-light: color.adjust($text-color, $lightness: 20%);
 $border: $grey;
 $accent: $primary;
 $code: $tomato;
-$preformatted: $font-color;
+$preformatted: $text-color;
 $marked: color.adjust($baja-white, $blackness: 60%);
-$disabled: $concrete;
+$disabled: $concrete; */
 
 
-/// Copy text color
-/// @type Color
-$text-color: $font-color;
 
-/// Main brand color
-/// @type Color
-$brand-color: $primary;
+

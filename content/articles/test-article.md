@@ -1,5 +1,5 @@
 ---
-title: "Test article"
+title: "Test article: we need to see what these articles look like on a screen"
 categories: ['Personal']
 tags: ['France', 'healthcare', 'Paris']
 seoTitle: "Donald Jenkins: A better new decade?"

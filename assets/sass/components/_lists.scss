@@ -26,12 +26,7 @@ article ul li, article ol li {
 //
 
  article li {
-  margin-bottom: 1rem;
-  
-  &::marker {
-    color: $slate;
-  }
-  
+  margin-bottom: 1rem;  
 }
 
 /**
@@ -39,8 +34,9 @@ article ul li, article ol li {
  */
 /* Source: https://github.com/bluefantail/bulma-list/blob/main/css/bulma-list.css */
 
+/*
 .list {
-  color: $font-color;
+  color: $text-color;
   flex-direction: column;
   display: flex
 }
@@ -86,11 +82,12 @@ article ul li, article ol li {
 }
 
 .list-item-title {
-  color: $font-color;
+  color: $text-color;
   font-weight: 600;
   font-variation-settings: "wght" 600
 }
 
 .list-item-description {
-  color: $font-color
+  color: $text-color
 }
+*/

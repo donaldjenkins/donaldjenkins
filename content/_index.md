@@ -3,12 +3,15 @@ title: "Donald Jenkins"
 date: '2019-05-02T17:34:00+00:00'
 permalink: ''
 author: donaldjenkins
-summary: ''
+description: 'Donald Jenkins writes, takes photographs and dabbles in web design. He’s also a co-founder of the political social network start-up Policymakr. He currently lives in New York City.'
+summary: 'Donald read Philosophy, Politics and Economics at Magdalen College, Oxford, and government at École nationale d’administration. He has worked in merchant banking, the media, public administration and contemporary art. His main subjects of interest and concern are the environment, animal rights, politics and technology. He rides a bicycle and is a vegan.'
 type: page
 lastmod: 2023-04-11T00:00:00-01:00
 ---
 
-**Donald Jenkins [writes](/articles/ "Read Donald’s articles"), takes [photographs](/photos/ "View Donald’s photographs") and dabbles in web design. He’s also a co-founder of the political social network start-up [Policymakr](http://policymakr.com "Read about Policymakr"). He currently lives in New York City.**
+**Donald Jenkins [writes](https://donaldjenkins.pages.dev/articles/), takes [photographs](https://donaldjenkins.pages.dev/photos/) and dabbles in web design. He’s also a co-founder of the political social network start-up [Policymakr](http://policymakr.com/). He currently lives in New York City.**
+
+{{< img src="9032b61d-ee17-4d95-579d-0172258b9e00" >}}
 
 Donald read Philosophy, Politics and Economics at [Magdalen College, Oxford](http://www.magd.ox.ac.uk/), and government at [École nationale d’administration](https://en.wikipedia.org/wiki/%C3%89cole_nationale_d%27administration). He has worked in [merchant banking](https://en.wikipedia.org/wiki/Merchant_bank), the [media](http://www.rfi.fr/), [public administration](https://www.culture.gouv.fr/en) and [contemporary art](https://www.centrepompidou.fr/en). His main subjects of interest and concern are the [environment](http://nymag.com/intelligencer/2018/10/un-says-climate-genocide-coming-but-its-worse-than-that.html), [animal rights](/non-human-animal-rights-the-categorical-imperative-of-our-time/), [politics](/category/politics/) and [technology](/category/tech/). He rides a bicycle and is a [vegan](/non-human-animal-rights-the-categorical-imperative-of-our-time/).
 

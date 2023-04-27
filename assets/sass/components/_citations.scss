@@ -93,7 +93,7 @@ blockquote cite {
 .attribution,
 .attribution p {
   text-align: right;
-  color: $brand-color;
+  color: $brand-text;
 }
 
 .caption,
@@ -117,9 +117,6 @@ blockquote {
 }
 
 .quote-source {
-  font-style: normal;
-  font-weight: $normal-font;
-  font-variation-settings: "wght" $normal-font "slnt" 0;
   padding: 1% 0 5%;
   text-align: right;
   

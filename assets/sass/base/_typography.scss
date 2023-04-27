@@ -1,53 +1,67 @@
 /**
  * Basic typography style for copy text
  */
- 
- /* Global variables. */
- 
- :root {
-   
- /* Basic styles for font attributes | Source: https://variablefonts.io/about-variable-fonts/
-    */
-   --text-slnt: 0;
-   
-   /* Set sans-serif & mono fonts */
-   --sans-font: #{$regular-font-stack};
-   --mono-font: #{$monospace-font-stack};
-   --standard-border-radius: #{$rounded};
- 
-   /* Default (light) theme */
-   --bg: #{$bg};
-   --accent-bg: #{$accent-bg};
-   --text: #{$text};
-   --text-light: #{$text-light};
-   --border: #{$border};
-   --accent: #{$accent};
-   --code: #{$code};
-   --preformatted: #{$preformatted};
-   --marked: #{$marked};
-   --disabled: #{$disabled};
-   
-   /* Responsive font sizes | Source: https://enzedonline.com/en/tech-blog/create-responsive-font-sizes-based-on-the-viewport/*/
-   
-   font-size: $default-font;
-   font-weight: $normal-font;
-   color: $font-color;
-   --font-size-1: clamp(2rem, 1.25rem + 3.1579vw, 2.75rem);
-   --font-size-2: clamp(1.8rem, 1.15rem + 2.7368vw, 2.45rem);
-   --font-size-3: clamp(1.6rem, 1.1rem + 2.1053vw, 2.1rem);
-   --font-size-4: clamp(1.4rem, 1rem + 1.6842vw, 1.8rem);
-   --font-size-5: clamp(1.2rem, 0.95rem + 1.0526vw, 1.45rem);
-   --font-size-6: clamp(1.1rem, 0.45rem + 1.8947vw, 1.35rem);
-   --font-size-large: clamp(1.15rem, 1.0845rem + 0.2759vw, 1.25rem);
-   --font-size-body: clamp(0.95rem, 0.85rem + 0.4211vw, 1.05rem);
-   --font-size-small: clamp(0.85rem, 0.7517rem + 0.4138vw, 1rem);
-   --font-size-smaller: clamp(0.75rem, 0.6517rem + 0.4138vw, 0.9rem);
-   --font-size-smallest: clamp(0.65rem, 0.5517rem + 0.4138vw, 0.8rem);
- }
 
-body {
-  margin: 0;
-//  color: $text-color;
+/* Global variables. */
+
+:root {
+
+  /* Basic styles for font attributes | Source: https://variablefonts.io/about-variable-fonts/
+    */
+
+  /* Colors */
+  --text-color: #{$text-color};
+
+  // Other text colors
+  --title-color: #{$title-color};
+  --text-on-dark: #{$text-on-dark};
+  --caption-color: #{$caption-color};
+
+  /// Link colors
+  --link: #{$link};
+  --link-visited: #{$link-visited};
+  --link-hover: #{$link-hover};
+  --link-on-dark: #{$link-on-dark};
+  --link-hover-on-dark: #{$link-hover-on-dark};
+
+  /* Set sans-serif & mono fonts */
+  --sans-font: #{$regular-font-stack};
+  --mono-font: #{$monospace-font-stack};
+
+  /* Set font-weight */
+  --font-weight-normal: #{$normal-font};
+  --font-weight-semi-bold: #{$semi-bold-font};
+  --font-weight-bold: #{$bold-font};
+  --font-weight-black: #{$black-font};
+  --font-weight-heading: #{$heading-font};
+  --font-weight-thin: #{$thin-font};
+
+  /* Responsive font sizes | Source: https://enzedonline.com/en/tech-blog/create-responsive-font-sizes-based-on-the-viewport/*/
+  --font-size-1: #{$font-size-1};
+  --font-size-2: #{$font-size-2};
+  --font-size-3: #{$font-size-3};
+  --font-size-4: #{$font-size-4};
+  --font-size-5: #{$font-size-5};
+  --font-size-6: #{$font-size-6};
+  --font-size-large: #{$font-size-large};
+  --font-size-body: #{$font-size-body};
+  --font-size-small: #{$font-size-small};
+  --font-size-smaller: #{$font-size-smaller};
+  --font-size-smallest: #{$font-size-smallest};
+  
+  /* Set line-height */
+  --line-height-1: #{$line-height-1};
+  --line-height-2: #{$line-height-2};
+  --line-height-3: #{$line-height-3};
+  --line-height-4: #{$line-height-4};
+  --line-height-5: #{$line-height-5};
+  --line-height-6: #{$line-height-6};
+  --line-height-body: #{$line-height-body};
+
+  /* Set border-radius */
+  --rounded: #{$rounded};
+  --slightly-rounded: #{$slightly-rounded};
+  --rounded: #{$very-rounded};
 }
 
 body,
@@ -55,38 +69,84 @@ body,
   font-family: var(--sans-font);
   font-size: var(--font-size-body);
   font-stretch: 95%;
-  line-height: $line-height;  
+  line-height: var(--line-height-body);
 }
 
-@include media("<smartphone") {
-  body,
-  .content {
-    line-height: calc($line-height * 1.16)
+a {
+  font-weight: var(--font-weight-semi-bold);
+}
+
+a {
+  color: $link;
+  
+  &:hover {
+  color: $link-hover;
+  }  
+}
+
+.dark {
+  color: $text-on-dark;
+}
+
+.dark a {
+  color: $link-on-dark;
+  
+  &:hover {
+    color: $link-hover-on-dark;
   }
 }
 
+.primary {
+ color: $text-on-dark;
+  
+  &:hover {
+   color: $text-on-dark;
+  }
+  
+}
+
+.secondary {
+ color: $text-on-dark;
+  
+  &:hover {
+   color: $text-on-dark;
+  }
+  
+}
+
+strong a,
+em a {
+  font-weight: inherit;
+}
+
 h1 {
-  font-size: var(--font-size-1);  
+  font-size: var(--font-size-1);
+  line-height: var(--line-height-1);
 }
 
 h2 {
-  font-size: var(--font-size-2);  
+  font-size: var(--font-size-2);
+  line-height: var(--line-height-2);
 }
 
 h3 {
-  font-size: var(--font-size-3);  
+  font-size: var(--font-size-3);
+  line-height: var(--line-height-3);
 }
 
 h4 {
-  font-size: var(--font-size-4);  
+  font-size: var(--font-size-4);
+  line-height: var(--line-height-4);
 }
 
 h5 {
-  font-size: var(--font-size-5);  
+  font-size: var(--font-size-5);
+  line-height: var(--line-height-5);
 }
 
 h6 {
-  font-size: var(--font-size-6);  
+  font-size: var(--font-size-6);
+  line-height: var(--line-height-6);
 }
 
 h1,
@@ -96,8 +156,11 @@ h4,
 h5,
 h6,
 button {
-  font-weight: $heading-font;
-  font-stretch: unquote(calc($font-stretch * 1.053)  + '%');
+  font-weight: var(--font-weight-heading);
+}
+
+button {
+  font-stretch: unquote(calc($font-stretch * 1.053) + '%');
   letter-spacing: -0.0075em;
   line-height: calc($line-height * 0.75);
 }
@@ -107,37 +170,116 @@ p em,
 cite,
 .quote-source,
 li {
-  font-weight: $normal-font;  
+  font-weight: var(--font-weight-normal);
+}
+
+#menu li a {
+  font-size: var(--font-size-smaller);
+  font-weight: var(--font-weight-heading);
+}
+
+article li {
+
+  &::marker {
+    color: $slate;
+  }
 }
 
 small {
   font-size: var(--font-size-small);
-  font-weight: $bold-font;
+  font-weight: var(--font-weight-bold);
 }
 
 #legal * {
   font-size: var(--font-size-smallest);
-  font-weight: $heading-font;
+  font-weight: var(--font-weight-thin);
 }
 
 em,
 p em,
 .quote,
 cite em {
-    font-weight: $normal-font;
-    letter-spacing: -0.02em;
-    margin-right: 0.25ex;
+  font-weight: var(--font-weight-normal);
+  letter-spacing: -0.02em;
+  margin-right: 0.25ex;
 }
 
 strong,
 b {
-  font-weight: $bold-font;
+  font-weight: var(--font-weight-bold);
 }
 
 .caption,
 .figcaption,
 .photo-credit,
- {
-  font-size: var(--font-size-smallest);
-  color: $grey;
+{
+font-size: var(--font-size-smallest);
+color: $caption-color;
+}
+
+button,
+[role="button"],
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+label[type="button"],
+.button {
+  color: $text-on-dark;
+
+  &:hover {
+    color: $primary;
+  }
+}
+
+table {
+  font-size: var(--font-size-smaller);
+  font-style: normal;
+
+  & a {
+    font-weight: var(--font-weight-normal);
+  }
+
+  @include media ("<tablet") {
+    font-size: var(--font-size-smallest);
+  }
+}
+
+.icon,
+.small-icon {
+  color: $text-color;
+}
+
+.icon:hover {
+    color: $link-hover;  
+}
+
+.meta {
+  color: $brand-text;
+}
+
+.meta a {
+  color: $brand-text;
+  
+  &:hover {
+    color: $link-hover;
+  }
+}
+
+.meta,
+.meta a {
+  font-size: var(--font-size-smaller);
+  font-weight: var(--font-weight-bold);
+}
+
+.quote-source {
+  font-size: var(--font-size-smaller);
+  font-weight: var(--font-weight-normal);
+}
+
+textarea::placeholder,
+input::placeholder,
+.contact-form textarea,
+.contact-form input {
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-thin);
 }
