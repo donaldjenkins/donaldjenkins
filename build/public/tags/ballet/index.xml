@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ballet on </title>
-    <link>//localhost:1313/tags/ballet/</link>
+    <link>/tags/ballet/</link>
     <description>Recent content in ballet on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 03 Mar 2007 12:47:34 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/ballet/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Mar 2007 12:47:34 +0000</lastBuildDate><atom:link href="/tags/ballet/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An amazing mixture of Roland Petit, the Corps de Ballet and Proust</title>
-      <link>//localhost:1313/an-amazing-mixture-of-roland-petit-the-corps-de-ballet-and-proust/</link>
+      <link>/an-amazing-mixture-of-roland-petit-the-corps-de-ballet-and-proust/</link>
       <pubDate>Sat, 03 Mar 2007 12:47:34 +0000</pubDate>
       
-      <guid>//localhost:1313/an-amazing-mixture-of-roland-petit-the-corps-de-ballet-and-proust/</guid>
+      <guid>/an-amazing-mixture-of-roland-petit-the-corps-de-ballet-and-proust/</guid>
       <description>A review of RolandPetit&amp;rsquo;&amp;rsquo;s impressive ballet &lt;em&gt;Proust ou les intermittences du coeur&lt;/em&gt; : « Les enfers de Monsieur de Charlus ».</description>
     </item>
     

@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on </title>
-    <link>//localhost:1313/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 19 Jun 2016 11:50:32 +0000</lastBuildDate><atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Jun 2016 11:50:32 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Personal</title>
-      <link>//localhost:1313/categories/personal/</link>
+      <link>/categories/personal/</link>
       <pubDate>Sun, 19 Jun 2016 11:50:32 +0000</pubDate>
       
-      <guid>//localhost:1313/categories/personal/</guid>
+      <guid>/categories/personal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tech</title>
-      <link>//localhost:1313/categories/tech/</link>
+      <link>/categories/tech/</link>
       <pubDate>Sun, 21 Nov 2010 05:44:09 +0000</pubDate>
       
-      <guid>//localhost:1313/categories/tech/</guid>
+      <guid>/categories/tech/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Politics</title>
-      <link>//localhost:1313/categories/politics/</link>
+      <link>/categories/politics/</link>
       <pubDate>Sun, 21 Mar 2010 08:29:08 +0000</pubDate>
       
-      <guid>//localhost:1313/categories/politics/</guid>
+      <guid>/categories/politics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Culture</title>
-      <link>//localhost:1313/categories/culture/</link>
+      <link>/categories/culture/</link>
       <pubDate>Sat, 03 Mar 2007 12:47:34 +0000</pubDate>
       
-      <guid>//localhost:1313/categories/culture/</guid>
+      <guid>/categories/culture/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Religion</title>
-      <link>//localhost:1313/categories/religion/</link>
+      <link>/categories/religion/</link>
       <pubDate>Thu, 28 Dec 2006 11:50:32 +0000</pubDate>
       
-      <guid>//localhost:1313/categories/religion/</guid>
+      <guid>/categories/religion/</guid>
       <description></description>
     </item>
     
