@@ -2,13 +2,14 @@
 // This file contains all styles related to the home page template.
 // -----------------------------------------------------------------------------
 
-#slogan {
-  height: 79vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@include media (">smartphone"){
+  #slogan {
+    height: 79vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
-
 
 .hero-text p,
 .hero-text a {
