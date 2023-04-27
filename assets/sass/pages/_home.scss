@@ -1,6 +1,15 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the home page template.
 // -----------------------------------------------------------------------------
+
+#slogan {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .hero-text p,
 .hero-text a {
   font-size: var(--font-size-hero);

@@ -15,8 +15,8 @@ $default-font: 17px;
 $smaller-font: calc($default-font * 0.91);
 $small-font: calc($default-font * 0.85);
 $smallest-font: calc($default-font * 0.65);
- 
-$font-size-hero: clamp(1.125rem, 5.517vw + -0.185rem, 3.125rem);
+
+$font-size-hero: clamp(1.375rem, 4.828vw + 0.228rem, 3.125rem);
 $font-size-1: clamp(2rem, 1.25rem + 3.1579vw, 2.75rem);
 $font-size-2: clamp(1.8rem, 1.15rem + 2.7368vw, 2.45rem);
 $font-size-3: clamp(1.6rem, 1.1rem + 2.1053vw, 2.1rem);
@@ -54,7 +54,7 @@ $font-stretch: 95;
 //$line-height: 1.42;
 
 /// Line height | Source: https://fluidtypography.com/
-$line-height-hero: clamp(1.688rem, 6.552vw + 0.131rem, 4.063rem);
+$line-height-hero: clamp(2.063rem, 5.517vw + 0.752rem, 4.063rem);
 $line-height-1: clamp(2.46rem, 1.255vw + 2.162rem, 2.915rem);
 $line-height-2: clamp(2.214rem, 1.057vw + 1.963rem, 2.597rem);
 $line-height-3: clamp(1.968rem, 0.712vw + 1.799rem, 2.226rem);
