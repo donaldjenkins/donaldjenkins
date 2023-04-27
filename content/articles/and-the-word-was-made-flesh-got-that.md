@@ -11,7 +11,7 @@ slug: "and-the-word-was-made-flesh-got-that"
 draft: false
 description: "Quite simply put, the most important words ever written: a recollection for Christmas."
 summary: "Quite simply put, the most important words ever written: a recollection for Christmas."
-featured_image: "969a796-2fbc-451f-ba14-8f6e0276b000"
+featured_image: "4ce546a9-7c95-47e7-7458-c5e1a8ff0800"
 author: "Donald Jenkins"
 showthedate: false
 tableOfContents: true

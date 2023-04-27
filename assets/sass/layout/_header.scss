@@ -216,5 +216,6 @@
   #hamburger:checked + #menu ul {
     transform: translate(0);
     opacity: 1;
+    backdrop-filter: blur(4px);
   }
 }
