@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Catholicism on </title>
-    <link>/tags/catholicism/</link>
+    <link>//localhost:1313/tags/catholicism/</link>
     <description>Recent content in Catholicism on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 16 Oct 2009 23:48:03 +0000</lastBuildDate><atom:link href="/tags/catholicism/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Oct 2009 23:48:03 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/catholicism/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A time to gather stones together?</title>
-      <link>/a-time-to-gather-stones-together/</link>
+      <link>//localhost:1313/a-time-to-gather-stones-together/</link>
       <pubDate>Fri, 16 Oct 2009 23:48:03 +0000</pubDate>
       
-      <guid>/a-time-to-gather-stones-together/</guid>
+      <guid>//localhost:1313/a-time-to-gather-stones-together/</guid>
       <description>A short post written at a challenging time. Yet one of the many the beautiful things about hardship, when it strikes, is that spiritual comfort is always there when one needs it.</description>
     </item>
     
     <item>
       <title>And the Word was made flesh. Got that?</title>
-      <link>/and-the-word-was-made-flesh-got-that/</link>
+      <link>//localhost:1313/and-the-word-was-made-flesh-got-that/</link>
       <pubDate>Thu, 28 Dec 2006 11:50:32 +0000</pubDate>
       
-      <guid>/and-the-word-was-made-flesh-got-that/</guid>
+      <guid>//localhost:1313/and-the-word-was-made-flesh-got-that/</guid>
       <description>Quite simply put, the most important words ever written: a recollection for Christmas.</description>
     </item>
     

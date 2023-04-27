@@ -39,6 +39,7 @@
   --font-weight-thin: #{$thin-font};
 
   /* Responsive font sizes | Source: https://enzedonline.com/en/tech-blog/create-responsive-font-sizes-based-on-the-viewport/*/
+  --font-size-hero: #{$font-size-hero};
   --font-size-1: #{$font-size-1};
   --font-size-2: #{$font-size-2};
   --font-size-3: #{$font-size-3};
@@ -52,6 +53,7 @@
   --font-size-smallest: #{$font-size-smallest};
   
   /* Set line-height */
+  --line-height-hero: #{$line-height-hero};
   --line-height-1: #{$line-height-1};
   --line-height-2: #{$line-height-2};
   --line-height-3: #{$line-height-3};

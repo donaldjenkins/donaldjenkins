@@ -1,0 +1,13 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the home page template.
+// -----------------------------------------------------------------------------
+.hero-text,
+.hero-text a {
+  font-size: var(--font-size-hero);
+  font-weight: var(--font-weight-thin);
+  line-height: var(--line-height-hero);
+  & a {
+    font-weight: var(--font-weight-thin);
+  }
+   
+}
