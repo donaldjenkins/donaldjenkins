@@ -30,7 +30,7 @@ $font-size-smallest: clamp(0.65rem, 0.5517rem + 0.4138vw, 0.8rem);
 
 // Font weight
 $normal-font: 341;
-$semi-bold-font: calc($normal-font*1.47);
+$semi-bold-font: calc($normal-font*1.32);
 $bold-font: calc($normal-font * 1.67);
 $black-font: calc($bold-font * 1.3);
 $heading-font: calc($normal-font * 0.4);
