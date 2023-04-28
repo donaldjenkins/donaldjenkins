@@ -61,6 +61,7 @@ $text-color: $davys-gray; // Main text color
 $title-color: color.adjust($text-color, $blackness: 27%);
 $text-on-dark: color.adjust($concrete, $lightness: 40%);
 $caption-color: $grey;
+$caption-color-on-dark: $grey-lighter;
 $brand-text: color.adjust($brand-color, $blackness: 5%);
 
  

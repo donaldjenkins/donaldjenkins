@@ -5,25 +5,24 @@
   /* Basic styles for font attributes | Source: https://variablefonts.io/about-variable-fonts/
  */
  
-  /* Colors */
+  /* Light color scheme */
   --primary-color: #{$primary};
   --secondary-color: #{$secondary};
   --text-color: #{$text-color};
+  --caption-color: #{$caption-color};
   --bg-color: #{$white};
   --contrast-bg-color: #{$dark-background}
   --heading-color: #{$text-color};
-  --link-color: #{$text-color};
+  --link: #{$link};
+  --link-hover: #{$link-hover};
 
   // Other text colors
   --title-color: #{$title-color};
   --text-on-dark: #{$text-on-dark};
-  --caption-color: #{$caption-color};
   --brand-text: #{$brand-text};
 
   /// Link colors
-  --link: #{$link};
   --link-visited: #{$link-visited};
-  --link-hover: #{$link-hover};
   --link-on-dark: #{$link-on-dark};
   --link-hover-on-dark: #{$link-hover-on-dark};
 
@@ -73,8 +72,11 @@
   --primary-color: #9A97F3;
   --secondary-color: #818cab;
   --text-color: #e1e1ff;
+  --caption-color: #{$caption-color-on-dark};
   --bg-color: #{$dark-background};
   --contrast-bg-color: #{$concrete};
-  --heading-color: #818cab;
-  --link-color: #{$link-on-dark};
+  //--heading-color: #818cab;
+  --heading-color: #e1e1ff;
+  --link: #{$link-on-dark};
+  --link-hover: #{$link-hover-on-dark};
 }

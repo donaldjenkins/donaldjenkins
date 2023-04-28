@@ -3,6 +3,14 @@
  */
 
 body,
+ .content {
+   font-family: var(--sans-font);
+   font-size: var(--font-size-body);
+   font-stretch: 95%;
+   line-height: var(--line-height-body);
+ }
+
+body,
 .content,
 strong a,
 em a,
@@ -17,20 +25,12 @@ h6 {
   color: var(--text-color);
 }
 
-body,
-.content {
-  font-family: var(--sans-font);
-  font-size: var(--font-size-body);
-  font-stretch: 95%;
-  line-height: var(--line-height-body);
-}
-
 a {
   font-weight: var(--font-weight-semi-bold);
 }
 
 a {
-  color: var(--link-color);
+  color: var(--link);
   
   &:hover {
   color: var(--link-hover);
