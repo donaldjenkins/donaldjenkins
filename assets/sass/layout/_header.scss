@@ -50,7 +50,7 @@
     0 calc(-2 * var(--s)) 0 var(--text-color);
   -webkit-appearance:none;
   -moz-appearance:none;
-  appearance:none;
+  appearance:none; 
   
   &:before {
     content: "";
