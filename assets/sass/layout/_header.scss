@@ -199,7 +199,9 @@
 
     opacity: 0;
     transition: .3s;
-    z-index: -1;
+    z-index: -1;    
+    transform-origin: top right; transform: rotate(45deg);
+    
     @supports (backdrop-filter: blur(10px)) {
       background: rgba(255, 255, 255, 0.7);
         backdrop-filter: blur(10px);
@@ -232,6 +234,7 @@
     opacity: 1;
     backdrop-filter: blur(10px);
     z-index: 2;
+    transform: rotate(0deg);
   }
 }
 

@@ -62,7 +62,7 @@ $title-color: color.adjust($text-color, $blackness: 27%);
 $text-on-dark: color.adjust($concrete, $lightness: 40%);
 $caption-color: $grey;
 $caption-color-on-dark: $grey-lighter;
-$brand-text: color.adjust($brand-color, $blackness: 5%);
+$brand-text: hsl(58, 14%, 40%); // brand-color darkened enough to pass contrast test
 
  
 /// Link colors
