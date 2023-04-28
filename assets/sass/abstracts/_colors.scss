@@ -4,6 +4,7 @@
 /// Hues
 $primary-hue: 56;
 $secondary-hue: 204;
+$tertiary-hue: 0;
 $success-hue: 135;
 $warning-hue: 37;
 $danger-hue: 8;
@@ -13,7 +14,7 @@ $gurkha: hsl($primary-hue, 16%, 54%);
 $horizon: hsl($secondary-hue, 15%, 41%);
 $davys-gray: hsl(111, 0%, 34%);
 $concrete: hsl(117, 0%, 94%);
-$fuzzy-wuzzy-brown: hsl(0, 50%, 56%);
+$fuzzy-wuzzy-brown: hsl($tertiary-hue, 50%, 56%);
 $baja-white: hsl(49, 100%, 91%);
 $eton-blue: hsl($success-hue, 31%, 68%);
 $tomato: hsl($danger-hue, 96%, 63%);
@@ -68,7 +69,7 @@ $link: $text-color;
 $link-visited: color.adjust($link, $blackness: 27%);
 $link-hover: $tertiary;
 $link-on-dark: color.adjust($eton-blue, $lightness: 20%);
-$link-hover-on-dark: color.adjust($eton-blue, $lightness: 50%);
+$link-hover-on-dark: hsl($tertiary-hue, 51%, 83%);
 
 /// Alert colors
 $info: color.adjust($slate, $lightness: 20%);

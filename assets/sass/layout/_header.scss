@@ -180,32 +180,47 @@
 @include media("<hamburger") {
   
   #menu ul {
-    position: fixed;
-    background-color: #25252598;
-    /*-- The value after six digit is your alpha color or opacity of background.--*/
-    background-color: #2259;
-    /*-- Same as previous one.--*/
-    background-color: rgba(37, 37, 37, 0.6);
-    /*-- a extend for alpha color--*/
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    inset: 0 0 0;
-    padding: 40px;
-    margin: 0;
     align-items: center;
     justify-content: center;
-    gap: 30px;
-    transform: translate(-100%);
+    //gap: -0.5rem;
+    //font-size: 0.95rem;
+    //font-weight: 500;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.19);
+    border: 2px solid rgba(255, 255, 255, 0.2); /* part of glass morphism effect */
+    border-radius: 2rem 0 2rem 2rem;
+    background: rgba(255, 255, 255, 1);
+
+    inset: 50px 25px auto auto;
+    padding: 0.3rem;
+
     opacity: 0;
     transition: .3s;
-    z-index: 2;
+    z-index: -1;
+    @supports (backdrop-filter: blur(10px)) {
+      background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(10px);
+      }
   }
   
   #menu ul li a {
-    padding: 10px 20px;
-    color: var(--text-on-dark);
+    padding: none;
+    color: $grey-dark;
     text-decoration: none;
-    font-size: 20px;
-    font-weight: $bold;
+    font-size: var(--font-size-small);
+    font-weight: $medium;
+    &:hover {
+      color: $link-hover;
+    }
+  }
+  
+  #menu .button {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;  
   }
   
   #hamburger {
@@ -213,9 +228,11 @@
     z-index: 3;
   }
   
-  #hamburger:checked + #menu ul {
-    transform: translate(0);
+  #hamburger:checked+#menu ul {
     opacity: 1;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(10px);
+    z-index: 2;
   }
 }
+
+
