@@ -46,8 +46,11 @@
   right: 1vh;
   transition: 0.5s;
   box-shadow:
-    0  0.4rem 0 var(--text-color),
-    0 -0.4rem 0 var(--text-color);
+    0 calc(2 * var(--s)) 0 var(--text-color),
+    0 calc(-2 * var(--s)) 0 var(--text-color);
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
   
   &:before {
     content: "";
@@ -103,7 +106,6 @@
   &:checked::after {
     transform: rotate(-45deg);
   }
-  
 }
 
 @include media(">hamburger") {
