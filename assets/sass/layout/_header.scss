@@ -42,14 +42,12 @@
   border-radius: 100px;
   display: inline-block;
   position: absolute;
-  // overflow: hidden;
-  // box-sizing: border-box;
   top: 6.8vh;
   right: 1vh;
   transition: 0.5s;
   box-shadow:
-    0 calc(2 * var(--s)) 0 var(--text-color),
-    0 calc(-2 * var(--s)) 0 var(--text-color);
+    0  0.4rem 0 var(--text-color),
+    0 -0.4rem 0 var(--text-color);
   
   &:before {
     content: "";
