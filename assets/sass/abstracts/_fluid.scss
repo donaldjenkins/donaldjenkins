@@ -1,0 +1,34 @@
+/// Easy Fluid Typography With clamp() | Source: https://web.getmatter.com/entry/14347008
+// default values (320px => 960px): font-size: #{fluid(16px, 31px)};
+// change default viewports: font-size: #{fluid(16px, 31px, 320px, 960px)};
+
+// NB: You need to have your function defined before you use it inside sass file | source: https://stackoverflow.com/questions/60817864/use-sass-function-result-in-function
+
+@use 'sass:math';
+
+$default-min-bp: 320px;
+$default-max-bp: 960px;
+
+@function round($number, $decimals: 0) {
+    $n: 1;
+    @if $decimals > 0 {
+        @for $i from 1 through $decimals {
+            $n: $n * 10;
+        }
+    }
+    @return math.div(math.round($number * $n), $n);
+}
+
+@function px-to-rem($px) {
+    $rems: math.div($px, 16px) * 1rem;
+    @return $rems;
+}
+
+@function fluid($min-size, $max-size, $min-breakpoint: $default-min-bp, $max-breakpoint: $default-max-bp, $unit: vw) {
+    $slope: math.div($max-size - $min-size, $max-breakpoint - $min-breakpoint);
+    $slope-to-unit: round($slope * 100, 2);
+    $intercept-rem: round(px-to-rem($min-size - $slope * $min-breakpoint), 2);
+    $min-size-rem: round(px-to-rem($min-size), 2);
+    $max-size-rem: round(px-to-rem($max-size), 2);
+    @return clamp(#{$min-size-rem}, #{$slope-to-unit}#{$unit} + #{$intercept-rem}, #{$max-size-rem});
+}

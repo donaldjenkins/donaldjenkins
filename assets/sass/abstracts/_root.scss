@@ -18,7 +18,7 @@
 
   // Other text colors
   --title-color: #{$title-color};
-  --text-on-dark: #{$text-on-dark};
+  --text-on-dark: #{$dark-text-color};
   --brand-text: #{$brand-text};
 
   /// Link colors
@@ -32,6 +32,7 @@
 
   /* Set font-weight */
   --font-weight-normal: #{$normal-font};
+  --font-weight-medium: #{$medium-font};
   --font-weight-semi-bold: #{$semi-bold-font};
   --font-weight-bold: #{$bold-font};
   --font-weight-black: #{$black-font};
@@ -69,14 +70,14 @@
 }
 
 [data-theme="dark"] {
-  --primary-color: #9A97F3;
-  --secondary-color: #818cab;
-  --text-color: #e1e1ff;
+  --primary-color: #{$dark-primary-color}; 
+  --secondary-color: #{$dark-secondary-color};
+  --text-color:  #{$dark-text-color};
   --caption-color: #{$caption-color-on-dark};
   --bg-color: #{$dark-background};
   --contrast-bg-color: #{$concrete};
   //--heading-color: #818cab;
-  --heading-color: #e1e1ff;
+  --heading-color: #{$dark-text-color};
   --link: #{$link-on-dark};
   --link-hover: #{$link-hover-on-dark};
 }

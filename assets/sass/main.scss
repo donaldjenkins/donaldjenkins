@@ -9,6 +9,7 @@
 
 // 2. Configuration and helpers
 @import
+  'abstracts/fluid',
   'abstracts/definitions',
   'abstracts/colors',
   'abstracts/typography',
@@ -20,6 +21,7 @@
 @import
   'base/base',
   'base/typography',
+  'base/grids',
   'base/helpers';
 
 // 4. Layout-related sections

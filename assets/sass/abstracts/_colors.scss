@@ -21,6 +21,11 @@ $tomato: hsl($danger-hue, 96%, 63%);
 $papaya-whip: hsl($warning-hue, 100%, 92%);
 $slate: hsl(217, 29%, 72%);
 
+/// Dark theme colors: 
+$dark-primary-color: hsl(242, 79%, 77%);
+$dark-secondary-color: hsl(224, 20%, 59%);
+$dark-text-color: hsl(240, 100%, 94%);
+
 /// Black & White
 $black: #000;
 $white: hsl(0, 0%, 100%);
@@ -57,14 +62,12 @@ $dark-background: $davys-gray;
 $light-background: $white;
 
 /// Text colors
+$brand-text: hsl(58, 14%, 40%); // brand-color darkened enough to pass contrast test
 $text-color: $davys-gray; // Main text color
 $title-color: color.adjust($text-color, $blackness: 27%);
-$text-on-dark: color.adjust($concrete, $lightness: 40%);
 $caption-color: $grey;
 $caption-color-on-dark: $grey-lighter;
-$brand-text: hsl(58, 14%, 40%); // brand-color darkened enough to pass contrast test
 
- 
 /// Link colors
 $link: $text-color;
 $link-visited: color.adjust($link, $blackness: 27%);
@@ -84,7 +87,7 @@ $warning-light: $papaya-whip;
 $danger-light:	hsl($danger-hue, 96%, 90%);
 
 /* /// Reset simple.css colors
-$text-on-dark: $white;
+$dark-text-color: $white;
 $accent-bg: $white-bis;
 $text: $text-color;
 $text-light: color.adjust($text-color, $lightness: 20%);

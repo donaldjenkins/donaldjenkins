@@ -17,7 +17,7 @@
     </head>
     
     <body>
-        <header  id="navbar" class="container">
+        <header  id="navbar">
         {{ block "header" . }}
         {{ partial "header/header.html" . }}
         {{ end }}
@@ -30,7 +30,7 @@
         </main>
     
         <footer class="dark">
-            <section id="footer" class="container">
+            <section id="footer">
                 {{ block "footer" . }}
                 {{ partial "footer/social.html" . }}
                 {{ partial "footer/contact-form.html" . }}

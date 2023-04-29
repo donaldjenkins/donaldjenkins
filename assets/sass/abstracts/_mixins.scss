@@ -72,7 +72,7 @@ $normal-width: 24rem;
 
 @mixin background-color($is-dark: true) {
   @if $is-dark {
-    color: $text-on-dark;
+    color: $dark-text-color;
     background-color: $dark-background;
     }
   

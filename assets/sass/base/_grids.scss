@@ -1,0 +1,18 @@
+// -----------------------------------------------------------------------------
+// This file contains CSS grid size.
+// ------------------------------------------------------------------------------
+
+/* You Probably Don't Need Media Queries Anymore | Source: https://dev.to/kathryngrayson/you-probably-dont-need-media-queries-anymore-a4j */
+
+/**
+* <div class="grid">
+*  <div></div>
+*  <div></div>
+*  <div></div>
+*  </div>
+**/
+
+.grid {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+}

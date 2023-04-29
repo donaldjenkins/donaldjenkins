@@ -7,9 +7,11 @@ html {
   background-color: var(--bg-color);
 }
 
-.container {
+.post {
   width: calc(100% - 12vw);
-  max-width: $container;
+  
+// Sets container width to 70 characters  
+  max-width: 70ch;
   margin: 0 auto;
 }
 

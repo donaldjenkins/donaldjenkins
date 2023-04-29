@@ -55,7 +55,7 @@ blockquote cite {
   margin-top: 1em;
 }
 
-@include media("<container") {
+@include media("<desktop") {
   blockquote {
     margin: 1.25em;
   }

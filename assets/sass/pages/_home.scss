@@ -2,18 +2,38 @@
 // This file contains all styles related to the home page template.
 // -----------------------------------------------------------------------------
 
-@include media (">smartphone"){
-  #slogan {
-    height: 79vh;
+#statement {
+  padding: 0 $padding;
+  width: clamp((9.5 * $font-size-hero), 75%, 95vw);
+  margin: 0 auto;
+}
+
+@include media (">200px") {
+  #slogan,
+  #summary {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    height: 100vh;
+    margin-top: $padding;
   }
 }
 
 .hero-text p,
-.hero-text a {
+.hero-text p a {
   font-size: var(--font-size-hero);
+  line-height: var(--line-height-hero);
+}
+
+.sub-hero-text p,
+.sub-hero-text p a {
+  font-size: calc($font-size-hero * 0.7);
+  line-height: calc(var(--line-height-hero) * 0.8);
+}
+
+.hero-text p,
+.hero-text p a,
+.sub-hero-text p,
+.sub-hero-text p a {
   font-weight: var(--font-weight-heading);
-  line-height: var(--line-height-hero);  
 }
