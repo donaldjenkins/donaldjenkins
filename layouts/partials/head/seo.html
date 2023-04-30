@@ -1,7 +1,3 @@
-{{/* Added layer of security that helps to detect and mitigate certain types of attacks, including Cross-Site Scripting (XSS) and data injection attacks. [Lighthouse "Ensure CSP is effective against XSS attacks"] Source: https://developer.mozilla.org/en-US/docs/web/http/csp */}}
-<meta http-equiv="Content-Security-Policy"
-content="default-src 'self'; img-src https://*; child-src 'none'; script-src 'self' ajax.cloudflare.com;" />
-
 {{/* SEO noindex: used to block the "page not found" and "thank you for signing up" pages from appearing on Google */}} {{ if .Params.noindex }} {{/* If the `noindex` parameter has been set to `true` ... */}}
 <meta name="robots" content="noindex"> {{/* ... block the page from appearing on Google */}} {{ else }} <meta name="robots" content="noarchive"> {{/* Otherwise, fall back to `noarchive`, which allows the content to be indexed, but not cached by Google and other search engines. This is useful if you don't want old versions of your site visible on Google. This will also stop your site from appearing in the Wayback Machine (archive.org), for better or for worse. */}} {{ end }} {{/* SEO canonicals: helps Google understand your site better when using marketing campaign tagging etc */}}
 <link rel="canonical" href="{{ .Permalink }}">
