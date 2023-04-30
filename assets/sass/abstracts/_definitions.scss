@@ -16,7 +16,7 @@ $smaller-font: calc($default-font * 0.91);
 $small-font: calc($default-font * 0.85);
 $smallest-font: calc($default-font * 0.65);
 
-$font-size-hero: #{fluid(30px, 100px, 320px, 2560px)};
+$font-size-hero: #{fluid(28px, 100px, 320px, 2560px)};
 $font-size-1: #{fluid(32px, 44px)};
 $font-size-2: #{fluid(28.8px, 39.2px)};
 $font-size-3: #{fluid(25.6px, 33.6px)};
@@ -24,7 +24,7 @@ $font-size-4: #{fluid(22.4px, 28.8px)};
 $font-size-5: #{fluid(19.2px, 23.2px)};
 $font-size-6: #{fluid(17.6px, 21.6px)};
 $font-size-large: #{fluid(18.4px, 20px)};
-$font-size-body: #{fluid(15.808px, 18.208px)};
+$font-size-body: #{fluid(15.8px, 18.2px)};
 $font-size-small: #{fluid(13.6px, 16px)};
 $font-size-smaller: #{fluid(12px, 14.4px)};
 $font-size-smallest: #{fluid(10.4px, 12.8px)};
@@ -55,25 +55,25 @@ $font-stretch: 95;
 //$line-height: 1.42;
 
 /// Line height | Source: https://fluidtypography.com/
-$line-height-hero: clamp(3.375rem, 3.393vw + 2.696rem, 8.125rem);
-$line-height-1: clamp(2.46rem, 1.255vw + 2.162rem, 2.915rem);
-$line-height-2: clamp(2.214rem, 1.057vw + 1.963rem, 2.597rem);
-$line-height-3: clamp(1.968rem, 0.712vw + 1.799rem, 2.226rem);
-$line-height-4: clamp(1.722rem, 0.513vw + 1.6rem, 1.908rem);
-$line-height-5: clamp(1.476rem, 0.168vw + 1.436rem, 1.537rem);
-$line-height-6: clamp(1.353rem, 0.215vw + 1.302rem, 1.431rem);
-$line-height-large: clamp(2.063rem, -0.179vw + 2.17rem, 2.128rem);
-$line-height-body: clamp(1.537rem, 0.166vw + 1.498rem, 1.598rem);
-
+$line-height-hero: clamp(2.625rem, 4.375vw + 1.75rem, 8.75rem); 
+$line-height-1: clamp(2.4rem, 1.136vw + 2.173rem, 3.025rem);
+$line-height-2: clamp(2.16rem, 0.973vw + 1.965rem, 2.695rem);
+$line-height-3: clamp(1.92rem, 0.709vw + 1.778rem, 2.31rem);
+$line-height-4: clamp(1.68rem, 0.545vw + 1.571rem, 1.98rem);
+$line-height-5: clamp(1.44rem, 0.282vw + 1.384rem, 1.595rem); 
+$line-height-6: clamp(1.32rem, 0.3vw + 1.26rem, 1.485rem);
+$line-height-large: clamp(1.75rem, -0.164vw + 1.873rem, 1.84rem);
+$line-height-citation: calc($line-height-large * 1.275);
+$line-height-body: clamp(1.58rem, 0.023vw + 1.575rem, 1.592rem);
 $line-height: $line-height-body;
 
-/// Layout
+/// Layout | smallest and largest screen sizes set in abstracts/fluid
 $hamburger: 720px; // point at which hamburger replaces menu
-$container: 1200px; // size of main container
+$container: 70ch; // size of main container
 $header-height: 105px;
 
 /// Breakpoints
-$breakpoints: (mobile: 320px, smartphone: 480px, hamburger: $hamburger, tablet: 768px, desktop: 1024px, widescreen: 1200px);
+$breakpoints: (mobile: $smallest-screen, smartphone: 480px, hamburger: $hamburger, tablet: 768px, desktop: 1024px, widescreen: $largest-screen);
 
 /// Responsive Padding, Margin & Gutters
 //  Soource: https://matthewjamestaylor.com/responsive-padding

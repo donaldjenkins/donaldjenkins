@@ -21,7 +21,9 @@
 @import
   'base/base',
   'base/typography',
+  'base/tags',
   'base/grids',
+  'base/animations',
   'base/helpers';
 
 // 4. Layout-related sections
@@ -36,7 +38,6 @@
   'components/cards',
   'components/citations',
   'components/lists',
- // 'components/toggles',
   'components/tables',
   'components/footnotes',
   'components/contact-form';

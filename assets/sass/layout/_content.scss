@@ -7,15 +7,19 @@ html {
   background-color: var(--bg-color);
 }
 
+main {
+  margin-top: $padding;
+  margin-bottom: $padding;
+}
+
+.container {
+  
+}
+
 .post {
   width: calc(100% - 12vw);
   
 // Sets container width to 70 characters  
   max-width: 70ch;
   margin: 0 auto;
-}
-
-main {
-  margin-top: 7.5vh;
-  margin-bottom: 7.5vh;
 }

@@ -6,8 +6,10 @@
 
 @use 'sass:math';
 
-$default-min-bp: 320px;
-$default-max-bp: 960px;
+$smallest-screen: 320px;
+$largest-screen: 1200px;
+$default-min-bp:$smallest-screen;
+$default-max-bp: $largest-screen;
 
 @function round($number, $decimals: 0) {
     $n: 1;

@@ -76,9 +76,17 @@ a {
 img:not(#logo img, #footer-logo img, .gallery img),
 table,
 .card {
-   box-shadow: 0px 0px 10px rgba(114, 114, 113, 0.5);  
+   //box-shadow: 0px 0px 10px rgba(114, 114, 113, 0.5);
+   box-shadow: 0px 0px 10px hsl(var(--shadow-color) / 0.5);
+   /*box-shadow: 0px 0.1px 0.1px hsl(var(--shadow-color) / 0.37),
+   0.3px 0.7px 0.9px -0.4px hsl(var(--shadow-color) / 0.38),
+   0.5px 1.3px 1.6px -0.8px hsl(var(--shadow-color) / 0.39),
+   0.9px 2.2px 2.7px -1.2px hsl(var(--shadow-color) / 0.4),
+   1.5px 3.7px 4.6px -1.5px hsl(var(--shadow-color) / 0.41),
+   2.4px 6px 7.5px -1.9px hsl(var(--shadow-color) / 0.42),
+   3.8px 9.4px 11.7px -2.3px hsl(var(--shadow-color) / 0.43);  */
 }
-
+// hsl(60, 0%, 45%) / 0.5
 
 /**
  * Basic styles for images and similar stuff

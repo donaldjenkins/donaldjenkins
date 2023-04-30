@@ -6,34 +6,40 @@
   padding: 0 $padding;
   width: clamp((9.5 * $font-size-hero), 75%, 95vw);
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  //align-items: center;
 }
 
-@include media (">200px") {
-  #slogan,
-  #summary {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-    margin-top: $padding;
-  }
+#slogan,
+#summary {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
 }
 
-.hero-text p,
-.hero-text p a {
+.hero p,
+.hero p a {
   font-size: var(--font-size-hero);
   line-height: var(--line-height-hero);
 }
 
-.sub-hero-text p,
-.sub-hero-text p a {
+.sub-hero p,
+.sub-hero p a {
   font-size: calc($font-size-hero * 0.7);
   line-height: calc(var(--line-height-hero) * 0.8);
 }
 
-.hero-text p,
-.hero-text p a,
-.sub-hero-text p,
-.sub-hero-text p a {
+.hero p,
+.hero p a,
+.sub-hero p,
+.sub-hero p a {
   font-weight: var(--font-weight-heading);
+}
+
+.hero-arrow {
+  display: flex;
+  justify-content: center;
 }

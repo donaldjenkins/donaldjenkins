@@ -5,11 +5,14 @@
 $primary-hue: 56;
 $secondary-hue: 204;
 $tertiary-hue: 0;
+
 $success-hue: 135;
 $warning-hue: 37;
 $danger-hue: 8;
 
 /// Brand colors | https://convertingcolors.com/color-bucket/view/9C9A77585A79575757C75757F0F0F094C7A1FB5E46.html
+
+// light theme
 $gurkha: hsl($primary-hue, 16%, 54%);
 $horizon: hsl($secondary-hue, 15%, 41%);
 $davys-gray: hsl(111, 0%, 34%);
@@ -21,10 +24,15 @@ $tomato: hsl($danger-hue, 96%, 63%);
 $papaya-whip: hsl($warning-hue, 100%, 92%);
 $slate: hsl(217, 29%, 72%);
 
+// dark theme
+$portage: hsl(242, 79%, 77%);
+$ship-cove: hsl(224, 20%, 59%);
+$quartz: hsl(240, 100%, 94%);
+
 /// Dark theme colors: 
-$dark-primary-color: hsl(242, 79%, 77%);
-$dark-secondary-color: hsl(224, 20%, 59%);
-$dark-text-color: hsl(240, 100%, 94%);
+$dark-primary-color: $portage;
+$dark-secondary-color: $ship-cove;
+$dark-text-color: $quartz;
 
 /// Black & White
 $black: #000;
@@ -57,12 +65,16 @@ $secondary-on-dark-hover: color.adjust($secondary-hover, $lightness: 5%);
 /// Brand color
 $brand-color: $primary; // Main brand color
 
-///Background colors
-$dark-background: $davys-gray;
+///Background/shadow colors
 $light-background: $white;
+$dark-background: $davys-gray;
+
+// Source: https://www.joshwcomeau.com/css/designing-shadows/
+$light-shadow: 60deg 0% 45%;
+$dark-shadow: 111deg 60% 50%;
 
 /// Text colors
-$brand-text: hsl(58, 14%, 40%); // brand-color darkened enough to pass contrast test
+$brand-text: hsl(calc($primary-hue + 1), 13%, 35%); // brand-color darkened enough to pass contrast test
 $text-color: $davys-gray; // Main text color
 $title-color: color.adjust($text-color, $blackness: 27%);
 $caption-color: $grey;
@@ -76,7 +88,7 @@ $link-on-dark: color.adjust($eton-blue, $lightness: 20%);
 $link-hover-on-dark: hsl($tertiary-hue, 51%, 83%);
 
 /// Alert colors
-$info: color.adjust($slate, $lightness: 20%);
+$info: color.adjust($slate, $lightness: 20%); 
 $success: $eton-blue;
 $warning: hsl(36, 100%, 40%); // $papaya-whip => 600
 $danger: $tomato;
@@ -85,18 +97,6 @@ $info-light	: $secondary-light;
 $success-light: hsl($success-hue, 18%, 90%);
 $warning-light: $papaya-whip;
 $danger-light:	hsl($danger-hue, 96%, 90%);
-
-/* /// Reset simple.css colors
-$dark-text-color: $white;
-$accent-bg: $white-bis;
-$text: $text-color;
-$text-light: color.adjust($text-color, $lightness: 20%);
-$border: $grey;
-$accent: $primary;
-$code: $tomato;
-$preformatted: $text-color;
-$marked: color.adjust($baja-white, $blackness: 60%);
-$disabled: $concrete; */
 
 
 

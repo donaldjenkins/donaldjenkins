@@ -170,6 +170,11 @@ font-size: var(--font-size-smallest);
 color: var(--caption-color);
 }
 
+caption {
+  text-align: center;
+  caption-side: top
+}
+
 button,
 [role="button"],
 input[type="submit"],
