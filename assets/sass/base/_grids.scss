@@ -1,7 +1,8 @@
 // -----------------------------------------------------------------------------
-// This file contains CSS grid size.
+// This file contains CSS grid and flexbox sizes.
 // ------------------------------------------------------------------------------
 
+/// 1. Responsive Column Layout (Grid)
 /* You Probably Don't Need Media Queries Anymore | Source: https://dev.to/kathryngrayson/you-probably-dont-need-media-queries-anymore-a4j */
 
 /**
@@ -12,7 +13,104 @@
 *  </div>
 **/
 
-.grid {
+// Using Auto-Fit Or Auto-Fill Keywords
+// We can get the benefit of the auto-fit or auto-fill keywords. The difference between auto-fit and auto-fill is tricky.
+
+// In short, auto-fit will expand the grid items to fill the available space. While auto-fill won’t expand the items. Instead, auto-fill will keep the available space reserved without altering the grid items width.
+// Source: https://ishadeed.com/article/css-grid-minmax/
+
+// Children stay at max size
+/*
+.grid-auto-fit {
  display: grid;
  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
 }
+
+// Children expand to fill available space
+.grid-auto-fill {
+ display: grid;
+ grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+}
+
+In viewports below 250px, as there will be a horizontal scrollbar. To solve this, we have two solutions. The first one is using CSS media queries. The idea is to set the grid-template-columns to 1fr, and when the viewport width is big enough, we will apply the minmax().
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+}
+
+@media (min-width: 300px) {
+  .wrapper {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+*/
+
+//The second solution is to use CSS comparison functions. This solution is modern, and you need to check for browser support before using it.
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr));
+  grid-gap: 1rem;
+}
+
+/// 2. Responsive 3 Column Layout (Flexbox)
+/* This three-column layout has stacked columns on mobile, and uses flexbox to align columns side-by-side on tablet and larger devices. | Source: https://matthewjamestaylor.com/3-column-layouts*/
+
+/**
+* <div class="responsive-three-columns">
+*   <div>1</div>
+*   <div>2</div>
+*   <div>3</div>
+* </div>
+**/
+
+/* container */
+.responsive-three-columns {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+/* columns */
+.responsive-three-columns > * {
+    width:100%;
+    padding:1rem;
+}
+
+/* tablet breakpoint */
+@include media (">tablet") {
+    .responsive-three-columns > * {
+        width:calc(100% / 3);
+    }
+}
+
+/// 3. Flexbox — Equal-Height Columns
+
+/* Use a container set to display-flex and add any number of child elements, these will each become equal-height columns. | Source: https://matthewjamestaylor.com/equal-height-columns */
+
+/**
+* <div class="flex">
+*     <div>A</div>
+*     <div>A<br>B<br>C</div>
+*    <div>A<br>B</div>
+* </div>
+**/
+
+.is-equal-height {
+display: flex;
+
+}
+.is-equal-height > div {
+    width: calc(100%/3); /* Setting the width of columns at one third each */
+}
+/* The following CSS is for background colors only 
+.is-equal-height > div:nth-child(1) {
+    background-color: #f97171;
+}
+.is-equal-height > div:nth-child(2) {
+    background-color: #f99e50;
+}
+.is-equal-height > div:nth-child(3) {
+    background-color: #f5d55f;
+} */
