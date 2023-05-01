@@ -2,23 +2,50 @@
 // This file contains all styles related to footnotes.
 // -----------------------------------------------------------------------------
 
-.footnotes hr {
-  border: none;
-  height: 2px;
-  background: $concrete;
-  max-width: 20%;
+.footnotes {
+  //display: flex;
+  // align-items: left;
 }
 
-.footnotes {
+.footnotes hr {
+  border: $grey-light;
+  height: 1px;
+  background: $grey-light;
+}
+
+.footnotes p,
+.footnote-ref,
+.footnotes li::marker {
   font-size: 0.875rem
 }
 
 .footnote-ref {
-  background-color: $info;
-  padding: 1px 2px 1px;
+  color: $white;
+  background-color: $tertiary;
+  margin-left: 1px;
+  padding: 0.05em 0.15em;
+  text-decoration: none;
+  border-radius: $slightly-rounded;
   
   &:hover {
-    background-color: $warning;
+    background-color: $danger;
     padding: 1px 2px 1px;
   }
+}
+
+.footnotes li::marker {
+  color: $tertiary;
+}
+
+.footnote-backref {
+  visibility: hidden;
+  position: relative;
+}
+
+.footnote-backref:after {
+  visibility: visible;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "\21B5";
 }

@@ -1,5 +1,5 @@
 // -----------------------------------------------------------------------------
-// This file contains all styles related to tables.
+// This file contains all styles related to tables and definition lists
 // -----------------------------------------------------------------------------
 
 
@@ -10,10 +10,10 @@
  */
 
 table {
-    border-collapse: collapse;
-    width: 100%;
-    border-radius: $very-rounded;
-    overflow:hidden; 
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: $very-rounded; 
+  overflow:hidden; 
 }
 
 th {
@@ -35,3 +35,21 @@ tr:nth-child(even) {
 tr:hover {
     background-color: rgba(114, 114, 113, 0.2);
 }
+
+// Definitions lists
+
+dt,
+dd {
+  margin-left: 0;
+}
+
+dt {
+  font-weight: var(--font-weight-bold);
+  margin-top: $padding;
+}
+
+dd {
+}
+
+
+
