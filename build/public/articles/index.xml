@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 14 Nov 2018 13:02:27 +0000</lastBuildDate><atom:link href="//localhost:1313/articles/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Introducing Policymakr</title>
+      <link>//localhost:1313/introducing-policymakr/</link>
+      <pubDate>Fri, 18 Jan 2019 10:53:38 +0000</pubDate>
+      
+      <guid>//localhost:1313/introducing-policymakr/</guid>
+      <description>A quick introduction to Policymakr, the new start-up I&amp;rsquo;&amp;rsquo;ve been planning since the dramatic events of 2016, and which I&amp;rsquo;&amp;rsquo;ve finally decided to launch. And a little question-and-answer session, as an added bonus.</description>
+    </item>
+    
+    <item>
       <title>Test article: we need to see what these articles look like on a screen</title>
       <link>//localhost:1313/test-article/</link>
       <pubDate>Sun, 19 Jun 2016 11:50:32 +0000</pubDate>

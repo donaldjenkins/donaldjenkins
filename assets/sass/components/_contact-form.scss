@@ -26,7 +26,6 @@
     margin: 0 auto;
     position: relative;
     display: inline-block;
-    font-family: $monospace-font-stack;
     
     @include media("<smartphone") {
       width: 320px;

@@ -25,7 +25,7 @@
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^5.1.0",
     "hugo-bin": "^0.102.0",
-    "node-sass": "^8.0.0",
+    "load-grunt-tasks": "^5.1.0",
     "sass": "^1.62.1"
   },
   "dependencies": {

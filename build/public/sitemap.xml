@@ -12,6 +12,31 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>//localhost:1313/tags/facebook/</loc>
+    <lastmod>2019-01-18T10:53:38+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>//localhost:1313/tags/internet/</loc>
+    <lastmod>2019-01-18T10:53:38+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>//localhost:1313/introducing-policymakr/</loc>
+    <lastmod>2019-01-18T10:53:38+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>//localhost:1313/tags/social-networks/</loc>
+    <lastmod>2019-01-18T10:53:38+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>//localhost:1313/tags/startup/</loc>
+    <lastmod>2019-01-18T10:53:38+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>//localhost:1313/articles/</loc>
     <lastmod>2018-11-14T13:02:27+00:00</lastmod>
     <changefreq>monthly</changefreq>
