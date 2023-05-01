@@ -86,8 +86,8 @@
   "image": [
     "https://www.donaldjenkins.com/opengraph.png"
    ],
-  "datePublished": "{{ .PublishDate }}",
-  "dateModified": "{{ .Lastmod }}",
+  "datePublished": "{{ .PublishDate.Format "RFC3339" }}",
+  "dateModified": "{{ .Lastmod.Format "RFC3339" }}",
   "author": [{
       "@type": "Person",
         "name": "Donald Jenkins",

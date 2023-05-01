@@ -2,7 +2,7 @@
 
 {{ with .Site.Params }}
 <article id="statement">
-   <section id="slogan" class="hero slide-up is-full-height">
+   <section id="slogan" class="hero is-full-height">
       <p>
          {{ .description | markdownify }}
       </p>
@@ -14,7 +14,7 @@
          </a>
       </p>
    </section>
-   <section id="summary" class="sub-hero slide-up is-full-height">
+   <section id="summary" class="sub-hero is-full-height">
       <p>
          {{ .summary | markdownify }}
       </p>
@@ -26,7 +26,7 @@
          </a>
       </p>
    </section>
-   <section id="articles" class="sub-hero slide-up is-full-height">
+   <section id="articles" class="sub-hero is-full-height">
       <p>
          {{ with site.GetPage "articles" }}
          {{ .Summary | markdownify }}
