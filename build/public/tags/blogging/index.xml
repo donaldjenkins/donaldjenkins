@@ -2,45 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blogging on Donald Jenkins is a writer and photographer</title>
-    <link>//localhost:1313/tags/blogging/</link>
+    <link>/tags/blogging/</link>
     <description>Recent content in blogging on Donald Jenkins is a writer and photographer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Mar 2010 01:03:21 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Oct 2009 23:48:03 +0000</lastBuildDate><atom:link href="/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Reorganising this blog</title>
-      <link>//localhost:1313/stuff-i-couldnt-live-without-in-2010/</link>
-      <pubDate>Mon, 15 Mar 2010 01:03:21 +0000</pubDate>
-      
-      <guid>//localhost:1313/stuff-i-couldnt-live-without-in-2010/</guid>
-      <description>The time has come to consolidate all the posts I’ve written since 2005 in a variety of guises, in one language and one site. The language, of course, had to be English and the site had to be donaldjenkins.com. I did toy for a while with the idea of running a bilingual blog. But the SEO implications of this were unclear and I thought it might be overkill. So I translated all the old blog posts, which hadn’t been available online for nearly two years, and uploaded them, for the first time, to this site. They have occasionally been made more concise, and comments (which were in French anyway) haven’t been preserved. You can browse through them by visiting the archives.</description>
-    </item>
-    
-    <item>
-      <title>A time to gather stones together</title>
-      <link>//localhost:1313/a-time-to-gather-stones-together/</link>
+      <title>A time to gather stones together?</title>
+      <link>/a-time-to-gather-stones-together/</link>
       <pubDate>Fri, 16 Oct 2009 23:48:03 +0000</pubDate>
       
-      <guid>//localhost:1313/a-time-to-gather-stones-together/</guid>
+      <guid>/a-time-to-gather-stones-together/</guid>
       <description>A short post written at a challenging time. Yet one of the many the beautiful things about hardship, when it strikes, is that spiritual comfort is always there when one needs it.</description>
-    </item>
-    
-    <item>
-      <title>Why I have finally decided to blog in my own name</title>
-      <link>//localhost:1313/why-i-have-finally-decided-to-blog-in-my-own-name/</link>
-      <pubDate>Fri, 13 Feb 2009 16:34:13 +0000</pubDate>
-      
-      <guid>//localhost:1313/why-i-have-finally-decided-to-blog-in-my-own-name/</guid>
-      <description>With the change in my lifestyle, interests and job that occurred last year, and also the decision to switch to English after three years of blogging in French, the time has come to draw the process to a logical conclusion and make donaldjenkins.com my only home on the web.</description>
-    </item>
-    
-    <item>
-      <title>Why I&#39;ve decided to keep a blog</title>
-      <link>//localhost:1313/why-ive-decided-to-keep-a-blog/</link>
-      <pubDate>Sun, 03 Jul 2005 10:19:28 +0000</pubDate>
-      
-      <guid>//localhost:1313/why-ive-decided-to-keep-a-blog/</guid>
-      <description>In this initial post, written at Saint Tropez, one explains why one has succumbed the trend for keeping a blog, all the while hoping I would not prove a passing fad. Time will tell.</description>
     </item>
     
   </channel>

@@ -180,7 +180,6 @@ picture {
 
 .meta a {
   text-decoration: none;
-  text-transform: lowercase;
 }
 
 ul.meta {
@@ -1227,14 +1226,8 @@ dt {
   margin-top: calc(8px + 1.5625vw);
 }
 
-dt a,
-dt em,
-dd a,
-dd em {
-  font-weight: inherit;
-}
-
 .footnotes hr {
+  border: hsl(0, 0%, 71%);
   height: 1px;
   background: hsl(0, 0%, 71%);
 }
@@ -1243,15 +1236,13 @@ dd em {
 .footnote-ref,
 .footnotes li::marker {
   font-size: 0.875rem;
-  font-weight: var(font-weight-medium);
 }
 
 .footnote-ref {
   color: hsl(0, 0%, 100%);
   background-color: hsl(0, 50%, 56%);
   margin-left: 1px;
-  padding: 0.033em 0.13em;
-  min-width: 1ch;
+  padding: 0.05em 0.15em;
   text-decoration: none;
   border-radius: 4px;
 }

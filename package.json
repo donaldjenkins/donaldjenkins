@@ -26,9 +26,7 @@
     "gulp-sass": "^5.1.0",
     "hugo-bin": "^0.102.0",
     "load-grunt-tasks": "^5.1.0",
-    "prettier": "2.8.8",
-    "sass": "^1.62.1",
-    "video.js": "^8.3.0"
+    "sass": "^1.62.1"
   },
   "dependencies": {
     "@fortawesome/fontawesome-pro": "^6.4.0",

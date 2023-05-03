@@ -2,36 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ballet on Donald Jenkins is a writer and photographer</title>
-    <link>//localhost:1313/tags/ballet/</link>
+    <link>/tags/ballet/</link>
     <description>Recent content in ballet on Donald Jenkins is a writer and photographer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Mar 2007 12:47:34 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/ballet/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Mar 2007 12:47:34 +0000</lastBuildDate><atom:link href="/tags/ballet/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An amazing mixture of Roland Petit, the Corps de Ballet and Proust</title>
-      <link>//localhost:1313/an-amazing-mixture-of-roland-petit-the-corps-de-ballet-and-proust/</link>
+      <link>/an-amazing-mixture-of-roland-petit-the-corps-de-ballet-and-proust/</link>
       <pubDate>Sat, 03 Mar 2007 12:47:34 +0000</pubDate>
       
-      <guid>//localhost:1313/an-amazing-mixture-of-roland-petit-the-corps-de-ballet-and-proust/</guid>
+      <guid>/an-amazing-mixture-of-roland-petit-the-corps-de-ballet-and-proust/</guid>
       <description>A review of RolandPetit&amp;rsquo;&amp;rsquo;s impressive ballet &lt;em&gt;Proust ou les intermittences du coeur&lt;/em&gt; : « Les enfers de Monsieur de Charlus ».</description>
-    </item>
-    
-    <item>
-      <title>Benjamin Millepied takes Paris by storm</title>
-      <link>//localhost:1313/benjamin-millepied-takes-paris-by-storm/</link>
-      <pubDate>Sun, 12 Nov 2006 16:51:07 +0000</pubDate>
-      
-      <guid>//localhost:1313/benjamin-millepied-takes-paris-by-storm/</guid>
-      <description>A review of Benjamin Millepied&amp;rsquo;&amp;rsquo;s ballet &lt;em&gt;Amoveo&lt;/em&gt;, which was attended by a huge concourse of people from Paris and New York.</description>
-    </item>
-    
-    <item>
-      <title>Chopin: such appropriate music for a ballet</title>
-      <link>//localhost:1313/chopin-such-appropriate-music-for-a-ballet/</link>
-      <pubDate>Mon, 02 Oct 2006 09:05:39 +0000</pubDate>
-      
-      <guid>//localhost:1313/chopin-such-appropriate-music-for-a-ballet/</guid>
-      <description>A review of &lt;em&gt;La Dame aux camellias&lt;/em&gt; directed by Neumaier, Americas most European choreographer. A truly splendid production with the world’s best ballet company, sublime music, Jürgen Rose’s breathtakingly beautiful costumes. The music was superb, but Chopin was a frequent source of inspiration for choreographers, so Neumeier is merely following established precedent here.</description>
     </item>
     
   </channel>

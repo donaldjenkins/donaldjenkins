@@ -15,7 +15,6 @@ author: "Donald Jenkins"
 showthedate: false
 tableOfContents: true
 noindex: false
-hasvideojs: true
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget nunc et velit suscipit porta sed nec libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie sodales risus ac ullamcorper. Proin rhoncus risus ut sem lacinia dignissim placerat eros consectetur. Curabitur viverra, neque nec porttitor semper, sapien massa euismod erat, eget rutrum eros [ligula](https://www.twitter.com/donaldjenkins) sed nibh. Etiam purus felis, congue sed porta id, elementum ac dui. Nunc mattis justo in _nisl consectetur_ a aliquam sem condimentum. Maecenas faucibus risus in augue egestas posuere. **Proin aliquam luctus justo vitae adipiscing.** Nunc porta blandit egestas. Integer scelerisque placerat urna, sed ultricies risus sollicitudin quis.
@@ -42,18 +41,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget nunc et velit s
 | [Dropbox](http://itunes.apple.com/us/app/droptext-a-text-editor-for/id371880635?mt=8) | Failed 19 of 20 tests | [see results](http://www.haystacksoftware.com/arq/dropbox-backup-bouncer-test.txt)            |
 | CrashPlan Central                                                                     | Failed 12 of 20 tests | [see results](http://www.haystacksoftware.com/blog/2010/06/crashplan-restore-analysis/)       |
 | Jungle Disk                                                                           | Passes all tests      | [see results](http://blog.jungledisk.com/2009/11/13/what-does-extended-metadata-backup-mean/) |
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget nunc et velit suscipit porta sed nec libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie sodales risus ac ullamcorper. Proin rhoncus risus ut sem lacinia dignissim placerat eros consectetur. Curabitur viverra, neque nec porttitor semper, sapien massa euismod erat, eget rutrum eros ligula sed nibh. Etiam purus felis, congue sed porta id, elementum ac dui. Nunc mattis justo in nisl consectetur a aliquam sem condimentum. Maecenas faucibus risus in augue egestas posuere. Proin aliquam luctus justo vitae adipiscing. Nunc porta blandit egestas. Integer scelerisque placerat urna, sed ultricies risus sollicitudin quis.
-
-<video id="my-video" playsinline class="video-js vjs-default-skin vjs-custom" preload="none" playsline autoplay="false" muted="false" data-setup='{ "fluid" : true }'>
-  <source src="https://customer-j00pa75eocpcmpyc.cloudflarestream.com/3fbed9c30107c2d9246ed72246cb3f9b/manifest/video.m3u8" type="application/x-mpegURL" />
-</video>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget nunc et velit suscipit porta sed nec libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie sodales risus ac ullamcorper. Proin rhoncus risus ut sem lacinia dignissim placerat eros consectetur. Curabitur viverra, neque nec porttitor semper, sapien massa euismod erat, eget rutrum eros ligula sed nibh. Etiam purus felis, congue sed porta id, elementum ac dui. Nunc mattis justo in nisl consectetur a aliquam sem condimentum. Maecenas faucibus risus in augue egestas posuere. Proin aliquam luctus justo vitae adipiscing. Nunc porta blandit egestas. Integer scelerisque placerat urna, sed ultricies risus sollicitudin quis.
-
-<video id="my_video_1" playsinline class="vjs-matrix video-js  vjs-16-9 vjs-default-skin" controls preload="none" data-setup='{}'>
-  <source src="https://customer-j00pa75eocpcmpyc.cloudflarestream.com/0d0bc921903e2c01d970b3598bfee83f/manifest/video.m3u8" type="application/x-mpegURL" />
-</video>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget nunc et velit suscipit porta sed nec libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie sodales risus ac ullamcorper. Proin rhoncus risus ut sem lacinia dignissim placerat eros consectetur. Curabitur viverra, neque nec porttitor semper, sapien massa euismod erat, eget rutrum eros ligula sed nibh. Etiam purus felis, congue sed porta id, elementum ac dui. Nunc mattis justo in nisl consectetur a aliquam sem condimentum. Maecenas faucibus risus in augue egestas posuere. Proin aliquam luctus justo vitae adipiscing. Nunc porta blandit egestas. Integer scelerisque placerat urna, sed ultricies risus sollicitudin quis.
 

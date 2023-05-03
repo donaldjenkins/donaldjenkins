@@ -1,7 +1,13 @@
-{{ if .IsHome }}
-<title>{{ .Site.Title }}</title>
-<meta name="description" content="{{ .Description }}">    
-{{ else }}
-<title>{{ if .Params.seoTitle }}{{ .Params.seoTitle }}{{ else }}{{ .Title }}{{ end }}</title>
-<meta name="description" content="{{ .Description }}">
-{{ end }}
+   {{/* SEO titles & descriptions */}}
+    {{ if .IsHome }} {{/* For the homepage, including its paginations */}}
+        <title>
+            {{ .Site.Title }}
+        </title>
+        <meta name="description" content="{{ .Description }}">
+    
+    {{ else }} {{/* For non-homepage pages */}}
+        <title>
+            {{ if .Params.seoTitle }}{{ .Params.seoTitle }}{{ else }}{{ .Title }}{{ end }} {{/* Generate SEO headline from `seoTitle` param in post YAML (fall back to `title` param if `seoTitle` param not filled out) */}}
+        </title>
+        <meta name="description" content="{{ .Description }}"> {{/* Generate meta description from `description` param in config */}}
+    {{ end }}

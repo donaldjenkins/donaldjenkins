@@ -75,8 +75,7 @@ a {
  */
 img:not(#logo img, #footer-logo img, .gallery img),
 table,
-.card,
-.video-js {
+.card {
    //box-shadow: 0px 0px 10px rgba(114, 114, 113, 0.5);
    box-shadow: 0px 0px 10px hsl(var(--shadow-color) / 0.5);
    /*box-shadow: 0px 0.1px 0.1px hsl(var(--shadow-color) / 0.37),
@@ -87,7 +86,7 @@ table,
    2.4px 6px 7.5px -1.9px hsl(var(--shadow-color) / 0.42),
    3.8px 9.4px 11.7px -2.3px hsl(var(--shadow-color) / 0.43);  */
 }
-
+// hsl(60, 0%, 45%) / 0.5
 
 /**
  * Basic styles for images and similar stuff
@@ -98,8 +97,7 @@ table,
  }
  
  img,
- picture,
- .video-js {
+ picture {
    border-radius: $very-rounded;
    width: 100%;
    padding: 0;
@@ -128,7 +126,6 @@ table,
 
 .meta a {  
   text-decoration: none;
-  text-transform: lowercase;
 }
 
 ul.meta {
