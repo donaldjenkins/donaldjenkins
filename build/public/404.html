@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<meta charset="utf-8">
+
+
+
+<link rel="preload" as="font" href="/fonts/assistant-v30-latin-ext-regular.woff2" data-wpacu-preload-font="1" crossorigin>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link href="https://www.silverejarrosson.com/css/styles.css" rel="stylesheet" type="text/css" />
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const logo = document.querySelector('.navbar img');
+        const navButton = document.querySelector('.navbar-burger');
+        const navbar = document.querySelector('.navbar');
+        const navLinks = document.querySelectorAll('.navbar-menu a');
+        const isHome = window.location.pathname === "/";
+        const siteLogo = document.querySelector(".navbar-item img");
+        
+        if (isHome) {
+            siteLogo.classList.add("logo-no-scroll");
+            navButton.classList.add("navbutton-no-scroll");
+            navLinks.forEach(element => element.classList.add('navmenu-text-no-scroll'));
+            window.addEventListener('scroll', () => {
+                
+                const trigger = window.scrollY;
+                
+                const navbarHeight = navbar.clientHeight;
+
+                if (trigger >= navbarHeight) {
+                    navbar.classList.add('navbar-scroll-active');
+                    logo.classList.remove('logo-no-scroll');
+                    navButton.classList.remove('navbutton-no-scroll');
+                    navLinks.forEach(element => element.classList.add('navmenu-text-scroll'));
+                    navLinks.forEach(element => element.classList.remove('navmenu-text-no-scroll'));
+                } else {
+                    navbar.classList.remove('navbar-scroll-active');
+                    navButton.classList.add('navbutton-no-scroll');
+                    logo.classList.add('logo-no-scroll');
+                    navLinks.forEach(element => element.classList.remove('navmenu-text-scroll'));
+                    navLinks.forEach(element => element.classList.add('navmenu-text-no-scroll'));
+                }
+            });
+        }
+    });
+</script>
+
+<title>Silvère Jarrosson: Erreur 404</title>
+
+<nav class="navbar is-fixed-top is-is-transparent" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand pl-4">
+    <a id="logo" class="navbar-item" href="https://www.silverejarrosson.com/" title="Revenir à la page d'accueil">
+      <img src="https://www.silverejarrosson.com/images/system/logo.svg" width="150" height="36" />
+    </a>
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div id="navbarBasicExample" class="navbar-menu has-text-weight-bold">
+    <div class="navbar-start"></div>
+    <div class="navbar-end pr-4">
+      <a class="navbar-item" href="https://www.silverejarrosson.com/" title="Revenir à la page d'accueil"> Accueil </a>
+      <a class="navbar-item" href="https://www.silverejarrosson.com/about" title="À propos de Silvère Jarrosson"> À propos </a>
+      <a class="navbar-item" href="https://www.silverejarrosson.com/#contact" title="Envoyer un message à Silvère Jarrosson"> Contact </a>
+    </div>
+  </div>
+</nav>
+
+<section id="hero" class="section pt-10 pb-5 is-relative">
+  <div class="is-vcentered columns is-multiline">
+    <div class="column is-6 is-5-desktop mb-5 mr-auto">
+      <h2 class="mb-6  mt-6 is-title is-size-1 is-size-3-mobile has-text-weight-bold">Nous sommes désolés.</h2>
+      <p class="has-text-weight-bold has-text-grey-dark mb-5">La page que vous cherchez n'est pas disponible, où ne l'est plus. Retrouvez notre contenu le plus récent sur la  <a href="https://www.silverejarrosson.com/">page d'accueil</a>.</p>
+      <h3 class="mb-1 is-size-5 has-text-weight-bold">Feedback</h3>
+      <p class="has-text-grey-dark mb-5">Si vous avez des observations à faire sur ce message d'erreur, vous pouvez nous envoyer un <a href="https://www.silverejarrosson.com/#contact">message</a> précisant la nature des difficultés rencontrées.</p>
+      <h3 class="mb-1 is-size-5 has-text-weight-bold">Statut du site</h3>
+      <p class="has-text-grey-dark mb-5">Dans le cas où vous rencontreriez des difficultés d'ordre technique, vous pouvez vous reporter à la page de <a href="https://status.silverejarrosson.com">statut du site</a>.</p>
+    </div>
+    <figure class="column is-6 is-5-desktop mb-5 mr-auto pb-5">
+      <img class="mx-auto image is-fullwidth" src="https://www.silverejarrosson.com/images/system/404.svg" width="528" height="528" alt="404">
+    </figure>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+    <div class="contact-box">
+        <div class="content-box">
+            <div class="contact-form">
+                <form action="#" method="POST">
+                    <textarea placeholder="Quelque chose à nous écrire ?" name="message" required="required"></textarea>
+                    <input placeholder="votre adresse mail" id="feedback-from" type="email"
+                        name="email" name="_replyto" required="required">
+                    <button class="button is-rounded" type="submit" id="send">Envoyer</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="content-box contact-form">
+            <div id="success-message" hidden>
+                <h2 class="is-size-2 has-text-centered has-text-white has-text-weight-bold">Nous avons bien reçu votre envoi</h2>
+                <p class="has-text-centered has-text-white">Merci pour votre message et pour votre intérêt.  Nous vous répondrons dès que possible.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer section mt-0">
+    <div class="container">
+        <div class="content has-text-centered">
+            <p><a id="footer-logo" href="https://www.silverejarrosson.com/" title="Revenir à la page d'accueil"><img src="https://www.silverejarrosson.com/images/system/logo.svg" width="100" height="27" class="filter-white"></a></p>
+            <p><strong>Copyright &#169; Silvère Jarrosson 0001</strong></p>
+            <p><a href="/legal" title="Lire les mentions légales">
+                    Mentions légales
+                </a></p>
+            <p>
+                <a class="mr-4 is-inline-block is-rounded has-text-link" href="https://www.facebook.com/silvere.jarrosson">
+                    <img src="https://www.silverejarrosson.com/images/icons/facebook.svg" width="32" height="32" alt="Facebook" title="Silvère Jarrosson sur Facebook" class="filter-white">
+                </a>
+                <a class="mr-4 is-inline-block is-rounded" href="https://www.twitter.com/SJarrosson">
+                    <img src="https://www.silverejarrosson.com/images/icons/twitter.svg" width="32" height="32" alt="Twitter" title="Silvère Jarrosson sur Twitter" class="filter-white">
+                </a>
+                <a class="mr-4 is-inline-block is-rounded" href="https://instagram.com/silvere.jarrosson/">
+                    <img src="https://www.silverejarrosson.com/images/icons/instagram.svg" width="32" height="32" alt="Instagram" title="Silvère Jarrosson sur Instagram" class="filter-white">
+                </a>
+                <a class="is-inline-block is-rounded has-text-primary" href="https://www.linkedin.com/in/silverejarrosson">
+                    <img src="https://www.silverejarrosson.com/images/icons/linkedin.svg" width="32" height="32" alt="LinkedIn" title="Silvère Jarrosson sur LinkedIn" class="filter-white">
+                </a>
+            </p>
+        </div>
+    </div>
+</footer>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const navbar = document.querySelector('.navbar');
+    window.addEventListener('scroll', () => {
+      
+      const trigger = window.scrollY;
+      
+      const navbarHeight = navbar.clientHeight;
+
+      if (trigger >= navbarHeight) {
+        navbar.setAttribute('style', 'background-color: hsl(0 100% 100% / 1)');
+      } else {
+        navbar.setAttribute('style', 'background-color: hsl(0 100% 100% / 0)');
+      }
+    });
+  });
+</script>
+
+<script>
+  $(document).foundation({
+    orbit: {
+      timer_speed: 99999, 
+      pause_on_hover: true,
+      animation_speed: 500,
+      navigation_arrows: false,
+      bullets: false,
+      next_on_click: false
+    }
+  });
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+
+    
+    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+    
+    $navbarBurgers.forEach(el => {
+      el.addEventListener('click', () => {
+
+        
+        const target = el.dataset.target;
+        const $target = document.getElementById(target);
+
+        
+        el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+
+      });
+    });
+
+  });
+</script>
+
+ 
+ 
+<script>
+  document.querySelector(".contact-form textarea").addEventListener("focus", function () {
+    document.querySelector(".contact-form").classList.add("focused");
+  });
+
+  
+  const form = document.querySelector('form');
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    
+    const formData = new FormData(form);
+    const email = formData.get('email');
+    const message = formData.get('message') || 'No message';
+
+    
+    if (!email.includes('@')) {
+      return;
+    }
+
+    console.log(email, message);
+
+    
+    const data = {
+      email, message
+    };
+
+    const response = await fetch('https://contact-submission-silverejarrosson.policymakr.workers.dev', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+    });
+
+    
+    form.style.display = 'none';
+
+    form.reset();
+
+    const successMessage = document.getElementById('success-message');
+    successMessage.style.display = 'block';
+  });
+</script>
+
+ 
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Person",
+    "name": "Silvère Jarrosson",
+    "url": "https://www.silverejarrosson.com/",
+    "birthDate": "1993",
+    "description": "The art of abstract painter Silvère Jarrosson is inspired by his dancing career at the Paris Opera",
+    "image": "https://cdn.silverejarrosson.com/silvere-jarrosson.jpg",
+    "sameAs": [
+      "https://www.facebook.com/silvere.jarrosson",
+      "https://www.twitter.com/SJarrosson",
+      "https://instagram.com/silvere.jarrosson",
+      "https://www.youtube.com/channel/UCkhpnquN6UG_gQ1M41t-BYw",
+      "https://www.linkedin.com/in/silverejarrosson",
+      "https://fr.wikipedia.org/wiki/Silvère_Jarrosson"
+    ],
+    "jobTitle": "Painter"
+  }
+</script>
+
+<script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script></body>
+
+</html>

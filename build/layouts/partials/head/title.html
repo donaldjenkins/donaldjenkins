@@ -1,0 +1,7 @@
+{{ if .IsHome }}
+<title>{{ .Site.Title }}</title>
+<meta name="description" content="{{ .Description }}">    
+{{ else }}
+<title>{{ if .Params.seoTitle }}{{ .Params.seoTitle }}{{ else }}{{ .Title }}{{ end }}</title>
+<meta name="description" content="{{ .Description }}">
+{{ end }}

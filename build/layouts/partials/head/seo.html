@@ -1,0 +1,30 @@
+{{ if .Params.noindex }}{{/* If the `noindex` parameter has been set to `true` ... */}}<meta name="robots" content="noindex">{{ else }}<meta name="robots" content="noarchive">{{ end }}
+<link rel="canonical" href="{{ .Permalink }}">
+{{ if (fileExists "static/opengraph.png") }}
+{{ if .IsHome }}
+<meta property="og:title" content="{{ site.Title }}">
+<meta property="og:description" content="{{ site.Params.description }}">
+<meta property="og:type" content="website">
+{{ else if .IsPage }}
+<meta property="og:title" content="{{ .Params.title }}">
+<meta property="og:description" content="{{ .Params.description }}">
+<meta property="og:type" content="article">
+{{ else }}
+<meta property="og:title" content="{{ .Params.title }}">
+<meta property="og:description" content="{{ .Params.description }}">
+<meta property="og:type" content="website">
+{{ end }}
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ .Site.BaseURL }}opengraph.png">
+<meta property="og:image:secure_url" content="{{ .Site.BaseURL }}opengraph.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Donald Jenkins">
+<meta property="og:locale" content="en_GB" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@donaldjenkins">
+{{ end }}
+{{/* RSS: People who use RSS readers to consume content will see when you publish new blog posts */}}
+<link rel="alternate" type="application/rss+xml" title="{{ site.Params.rssTitle }}" href="{{ .Site.BaseURL }}{{ site.Params.blogSection }}/index.xml">
