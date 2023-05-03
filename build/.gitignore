@@ -23,4 +23,9 @@ hugo_stats.jso
 ### nova ###
 .nova/*
 
+package.json
+gruntfile.js
+.eslintrc.js
+
+
 # End of https://www.toptal.com/developers/gitignore/api/hugo,codekit,nova
