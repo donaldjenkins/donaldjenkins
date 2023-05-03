@@ -1,11 +1,11 @@
 ---
 title: "Test article: we need to see what these articles look like on a screen"
-categories: ['Personal']
-tags: ['France', 'healthcare', 'Paris']
+categories: ["Personal"]
+tags: ["France", "healthcare", "Paris"]
 seoTitle: "Donald Jenkins: A better new decade?"
 date: 2016-06-19T11:50:32+00:00
 type: articles
-layout: 'single'
+layout: "single"
 slug: "test-article"
 draft: false
 description: "I wish all who read this a very Happy New Year: I am certain I am not the only one hoping that this new decade will mark a new beginning."
@@ -20,10 +20,9 @@ hasvideojs: true
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget nunc et velit suscipit porta sed nec libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie sodales risus ac ullamcorper. Proin rhoncus risus ut sem lacinia dignissim placerat eros consectetur. Curabitur viverra, neque nec porttitor semper, sapien massa euismod erat, eget rutrum eros [ligula](https://www.twitter.com/donaldjenkins) sed nibh. Etiam purus felis, congue sed porta id, elementum ac dui. Nunc mattis justo in _nisl consectetur_ a aliquam sem condimentum. Maecenas faucibus risus in augue egestas posuere. **Proin aliquam luctus justo vitae adipiscing.** Nunc porta blandit egestas. Integer scelerisque placerat urna, sed ultricies risus sollicitudin quis.
 
-
 {{< img src="d969a796-2fbc-451f-ba14-8f6e0276b000" caption="Donald Jenkins" >}}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget nunc et velit suscipit porta sed nec libero. *Lorem ipsum dolor sit amet, consectetur adipiscing elit.* Nulla molestie sodales risus ac ullamcorper. Proin rhoncus risus ut sem lacinia dignissim placerat eros consectetur:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget nunc et velit suscipit porta sed nec libero. _Lorem ipsum dolor sit amet, consectetur adipiscing elit._ Nulla molestie sodales risus ac ullamcorper. Proin rhoncus risus ut sem lacinia dignissim placerat eros consectetur:
 
 - Curabitur viverra, neque nec porttitor semper, sapien massa euismod erat, eget rutrum eros [ligula sed nibh](https://instagram.com/donaldjenkins_/). Etiam purus felis, congue sed porta id, elementum ac dui.
 - Nunc mattis justo in nisl consectetur a aliquam sem condimentum. Maecenas faucibus risus in augue egestas posuere. Proin aliquam luctus justo vitae adipiscing.
@@ -33,9 +32,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget nunc et velit s
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget nunc et velit suscipit porta sed nec libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie sodales risus ac ullamcorper. Proin rhoncus risus ut sem lacinia dignissim placerat eros consectetur. Curabitur viverra, neque nec porttitor semper, sapien massa euismod erat, eget rutrum eros ligula sed nibh. Etiam purus felis, congue sed porta id, elementum ac dui. Nunc mattis justo in nisl consectetur a aliquam sem condimentum. Maecenas faucibus risus in augue egestas posuere. Proin aliquam luctus justo vitae adipiscing. Nunc porta blandit egestas. Integer scelerisque placerat urna, sed ultricies risus sollicitudin quis.
 
-
-| Product                                                                               | Results               | Details          |
-|---------------------------------------------------------------------------------------|-----------------------|-----------------------------------------------------------------------------------------------|
+| Product                                                                               | Results               | Details                                                                                       |
+| ------------------------------------------------------------------------------------- | --------------------- | --------------------------------------------------------------------------------------------- |
 | [Mozy](http://mozy.com/)                                                              | Failed 16 of 20 tests | [see results](http://www.haystacksoftware.com/arq/mozy-backup-bouncer-test.txt)               |
 | [Backblaze](http://www.backblaze.com/)                                                | Failed 19 of 20 tests | [see results](http://www.haystacksoftware.com/arq/backblaze-backup-bouncer-test.txt)          |
 | [Carbonite](http://www.carbonite.com/)                                                | Failed 20 of 20 tests | [see results](http://www.haystacksoftware.com/arq/carbonite-backup-bouncer-test.txt)          |
@@ -56,4 +54,3 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget nunc et velit s
 </video>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget nunc et velit suscipit porta sed nec libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie sodales risus ac ullamcorper. Proin rhoncus risus ut sem lacinia dignissim placerat eros consectetur. Curabitur viverra, neque nec porttitor semper, sapien massa euismod erat, eget rutrum eros ligula sed nibh. Etiam purus felis, congue sed porta id, elementum ac dui. Nunc mattis justo in nisl consectetur a aliquam sem condimentum. Maecenas faucibus risus in augue egestas posuere. Proin aliquam luctus justo vitae adipiscing. Nunc porta blandit egestas. Integer scelerisque placerat urna, sed ultricies risus sollicitudin quis.
-

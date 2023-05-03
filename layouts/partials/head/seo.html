@@ -1,32 +1,51 @@
-{{/* SEO noindex: used to block the "page not found" and "thank you for signing up" pages from appearing on Google */}} {{ if .Params.noindex }} {{/* If the `noindex` parameter has been set to `true` ... */}}
-<meta name="robots" content="noindex"> {{/* ... block the page from appearing on Google */}} {{ else }} <meta name="robots" content="noarchive"> {{/* Otherwise, fall back to `noarchive`, which allows the content to be indexed, but not cached by Google and other search engines. This is useful if you don't want old versions of your site visible on Google. This will also stop your site from appearing in the Wayback Machine (archive.org), for better or for worse. */}} {{ end }} {{/* SEO canonicals: helps Google understand your site better when using marketing campaign tagging etc */}}
-<link rel="canonical" href="{{ .Permalink }}">
+{{/* SEO noindex: used to block the "page not found" and "thank you for signing
+up" pages from appearing on Google */}} {{ if .Params.noindex }} {{/* If the
+`noindex` parameter has been set to `true` ... */}}
+<meta name="robots" content="noindex" /> {{/* ... block the page from appearing
+on Google */}} {{ else }} <meta name="robots" content="noarchive" /> {{/*
+Otherwise, fall back to `noarchive`, which allows the content to be indexed, but
+not cached by Google and other search engines. This is useful if you don't want
+old versions of your site visible on Google. This will also stop your site from
+appearing in the Wayback Machine (archive.org), for better or for worse. */}} {{
+end }} {{/* SEO canonicals: helps Google understand your site better when using
+marketing campaign tagging etc */}}
+<link rel="canonical" href="{{ .Permalink }}" />
 
-{{/* Facebook Open Graph and Twitter Cards */}} {{ if (fileExists "static/opengraph.png") }} {{ if .IsHome }} {{/* For the homepage, including its paginations */}}
-<meta property="og:title" content="{{ site.Title }}">
-<meta property="og:description" content="{{ site.Params.description }}">
-<meta property="og:type" content="website">
+{{/* Facebook Open Graph and Twitter Cards */}} {{ if (fileExists
+"static/opengraph.png") }} {{ if .IsHome }} {{/* For the homepage, including its
+paginations */}}
+<meta property="og:title" content="{{ site.Title }}" />
+<meta property="og:description" content="{{ site.Params.description }}" />
+<meta property="og:type" content="website" />
 {{ else if .IsPage }} {{/* For posts and pages */}}
-<meta property="og:title" content="{{ .Params.title }}">
-<meta property="og:description" content="{{ .Params.description }}">
-<meta property="og:type" content="article">
+<meta property="og:title" content="{{ .Params.title }}" />
+<meta property="og:description" content="{{ .Params.description }}" />
+<meta property="og:type" content="article" />
 {{ else }} {{/* For non-homepage indexes such as /blog/ */}}
-<meta property="og:title" content="{{ .Params.title }}">
-<meta property="og:description" content="{{ .Params.description }}">
-<meta property="og:type" content="website">
+<meta property="og:title" content="{{ .Params.title }}" />
+<meta property="og:description" content="{{ .Params.description }}" />
+<meta property="og:type" content="website" />
 {{ end }}
-<meta property="og:site_name" content="{{ site.Title }}">
-<meta property="og:url" content="{{ .Permalink }}">
-<meta property="og:image" content="{{ .Site.BaseURL }}opengraph.png">
-<meta property="og:image:secure_url" content="{{ .Site.BaseURL }}opengraph.png">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="{{ site.Title }} logo">
+<meta property="og:site_name" content="{{ site.Title }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:image" content="{{ .Site.BaseURL }}opengraph.png" />
+<meta
+  property="og:image:secure_url"
+  content="{{ .Site.BaseURL }}opengraph.png"
+/>
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="{{ site.Title }} logo" />
 <meta property="og:locale" content="en_GB" />
-<meta name="twitter:card" content="summary_large_image"> {{/* All other Twitter markup is the same as, and therefore relies on, OpenGraph */}}
-<meta name="twitter:site" content="@donaldjenkins">
-{{ end }}
-
-{{/* RSS: People who use RSS readers to consume content will see when you publish new blog posts */}}
-<link rel="alternate" type="application/rss+xml" title="{{ site.Params.rssTitle }}" href="{{ .Site.BaseURL }}{{ site.Params.blogSection }}/index.xml">
+<meta name="twitter:card" content="summary_large_image" /> {{/* All other
+Twitter markup is the same as, and therefore relies on, OpenGraph */}}
+<meta name="twitter:site" content="@donaldjenkins" />
+{{ end }} {{/* RSS: People who use RSS readers to consume content will see when
+you publish new blog posts */}}
+<link
+  rel="alternate"
+  type="application/rss+xml"
+  title="{{ site.Params.rssTitle }}"
+  href="{{ .Site.BaseURL }}{{ site.Params.blogSection }}/index.xml"
+/>
