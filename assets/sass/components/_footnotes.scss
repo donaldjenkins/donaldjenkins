@@ -8,7 +8,6 @@
 }
 
 .footnotes hr {
-  border: $grey-light;
   height: 1px;
   background: $grey-light;
 }
@@ -16,14 +15,16 @@
 .footnotes p,
 .footnote-ref,
 .footnotes li::marker {
-  font-size: 0.875rem
+  font-size: 0.875rem;
+  font-weight: var(font-weight-medium);
 }
 
 .footnote-ref {
   color: $white;
   background-color: $tertiary;
   margin-left: 1px;
-  padding: 0.05em 0.15em;
+  padding: 0.033em 0.13em;
+  min-width: 1ch;
   text-decoration: none;
   border-radius: $slightly-rounded;
   

@@ -2,45 +2,90 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Personal on Donald Jenkins is a writer and photographer</title>
-    <link>/categories/personal/</link>
+    <link>//localhost:1313/categories/personal/</link>
     <description>Recent content in Personal on Donald Jenkins is a writer and photographer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 Jan 2019 10:53:38 +0000</lastBuildDate><atom:link href="/categories/personal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Jan 2019 10:53:38 +0000</lastBuildDate><atom:link href="//localhost:1313/categories/personal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introducing Policymakr</title>
-      <link>/introducing-policymakr/</link>
+      <link>//localhost:1313/introducing-policymakr/</link>
       <pubDate>Fri, 18 Jan 2019 10:53:38 +0000</pubDate>
       
-      <guid>/introducing-policymakr/</guid>
+      <guid>//localhost:1313/introducing-policymakr/</guid>
       <description>A quick introduction to Policymakr, the new start-up I&amp;rsquo;&amp;rsquo;ve been planning since the dramatic events of 2016, and which I&amp;rsquo;&amp;rsquo;ve finally decided to launch. And a little question-and-answer session, as an added bonus.</description>
     </item>
     
     <item>
       <title>Test article: we need to see what these articles look like on a screen</title>
-      <link>/test-article/</link>
+      <link>//localhost:1313/test-article/</link>
       <pubDate>Sun, 19 Jun 2016 11:50:32 +0000</pubDate>
       
-      <guid>/test-article/</guid>
+      <guid>//localhost:1313/test-article/</guid>
       <description>I wish all who read this a very Happy New Year: I am certain I am not the only one hoping that this new decade will mark a new beginning.</description>
+    </item>
+    
+    <item>
+      <title>Stuff I couldn&#39;t do without in 2011</title>
+      <link>//localhost:1313/stuff-i-couldnt-do-without-in-2011/</link>
+      <pubDate>Thu, 10 Mar 2011 14:08:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/stuff-i-couldnt-do-without-in-2011/</guid>
+      <description>My regular annual list of material possessions with which I cannot dispense.</description>
     </item>
     
     <item>
       <title>A better new decade?</title>
-      <link>/a-better-new-decade/</link>
+      <link>//localhost:1313/a-better-new-decade/</link>
       <pubDate>Fri, 07 Jan 2011 15:45:25 +0000</pubDate>
       
-      <guid>/a-better-new-decade/</guid>
+      <guid>//localhost:1313/a-better-new-decade/</guid>
       <description>I wish all who read this a very Happy New Year: I am certain I am not the only one hoping that this new decade will mark a new beginning.</description>
     </item>
     
     <item>
-      <title>A time to gather stones together?</title>
-      <link>/a-time-to-gather-stones-together/</link>
+      <title></title>
+      <link>//localhost:1313/stuff-i-couldnt-live-without-in-2010/</link>
+      <pubDate>Wed, 24 Mar 2010 16:50:17 +0000</pubDate>
+      
+      <guid>//localhost:1313/stuff-i-couldnt-live-without-in-2010/</guid>
+      <description>Taking inspiration from Michael Arrington and Kevin Rose (I didn’t think Kevin Rose would ever be a source of inspiration, but maybe I’m just feeling lazy), I’ve succumbed to the trend. Here’s the list of stuff I couldn’t possibly do without. It’s much shorter than theirs, and has all the right, cool stuff. If I’m still around, I’ll update it in 2011.</description>
+    </item>
+    
+    <item>
+      <title>Turn-of-the-decade tribulations</title>
+      <link>//localhost:1313/turn-of-the-decade-tribulations/</link>
+      <pubDate>Mon, 04 Jan 2010 00:57:51 +0000</pubDate>
+      
+      <guid>//localhost:1313/turn-of-the-decade-tribulations/</guid>
+      <description>My difficult start to a new decade, and the tribulations of the French healthcare system, which is still probably the world&amp;rsquo;&amp;rsquo;s best. Competent care is available round-the-clock in Paris, and rich and poor and treated exactly equally, which is how should be.</description>
+    </item>
+    
+    <item>
+      <title>A time to gather stones together</title>
+      <link>//localhost:1313/a-time-to-gather-stones-together/</link>
       <pubDate>Fri, 16 Oct 2009 23:48:03 +0000</pubDate>
       
-      <guid>/a-time-to-gather-stones-together/</guid>
+      <guid>//localhost:1313/a-time-to-gather-stones-together/</guid>
       <description>A short post written at a challenging time. Yet one of the many the beautiful things about hardship, when it strikes, is that spiritual comfort is always there when one needs it.</description>
+    </item>
+    
+    <item>
+      <title>Why I have finally decided to blog in my own name</title>
+      <link>//localhost:1313/why-i-have-finally-decided-to-blog-in-my-own-name/</link>
+      <pubDate>Fri, 13 Feb 2009 16:34:13 +0000</pubDate>
+      
+      <guid>//localhost:1313/why-i-have-finally-decided-to-blog-in-my-own-name/</guid>
+      <description>With the change in my lifestyle, interests and job that occurred last year, and also the decision to switch to English after three years of blogging in French, the time has come to draw the process to a logical conclusion and make donaldjenkins.com my only home on the web.</description>
+    </item>
+    
+    <item>
+      <title>Why I&#39;ve decided to keep a blog</title>
+      <link>//localhost:1313/why-ive-decided-to-keep-a-blog/</link>
+      <pubDate>Sun, 03 Jul 2005 10:19:28 +0000</pubDate>
+      
+      <guid>//localhost:1313/why-ive-decided-to-keep-a-blog/</guid>
+      <description>In this initial post, written at Saint Tropez, one explains why one has succumbed the trend for keeping a blog, all the while hoping I would not prove a passing fad. Time will tell.</description>
     </item>
     
   </channel>

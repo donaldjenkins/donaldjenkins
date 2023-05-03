@@ -9,3 +9,10 @@
   }
 </script>
 -->
+
+{{ with .Params.hasvideojs }}
+  {{ if . }}
+    <link href="../js/video-js.min.css" rel="stylesheet">
+    <script src="../js/video.min.js"></script>
+  {{ end }}
+{{ end }}

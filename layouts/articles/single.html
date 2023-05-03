@@ -1,20 +1,18 @@
 {{ define "main" }}
-
 <article class="post">
   <hgroup>
     <h1 class="title">{{ .Page.Title }}</h1>
     <small class="meta subtitle"><svg class="small-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-        <path d="M120 0c4.4 0 8 3.6 8 8V64H320V8c0-4.4 3.6-8 8-8s8 3.6 8 8V64h48c35.3 0 64 28.7 64 64v48 16V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V192 176 128C0 92.7 28.7 64 64 64h48V8c0-4.4 3.6-8 8-8zM432 192H16V448c0 26.5 21.5 48 48 48H384c26.5 0 48-21.5 48-48V192zM112 120V80H64c-26.5 0-48 21.5-48 48v48H432V128c0-26.5-21.5-48-48-48H336v40c0 4.4-3.6 8-8 8s-8-3.6-8-8V80H128v40c0 4.4-3.6 8-8 8s-8-3.6-8-8z" />
-      </svg>&ensp;{{ .Date.Format "2" | humanize }} {{ .Date.Format "January" }}, {{ .Date.Format "2006" }}</small>
+        <path d="M120 0c4.4 0 8 3.6 8 8V64H320V8c0-4.4 3.6-8 8-8s8 3.6 8 8V64h48c35.3 0 64 28.7 64 64v48 16V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V192 176 128C0 92.7 28.7 64 64 64h48V8c0-4.4 3.6-8 8-8zM432 192H16V448c0 26.5 21.5 48 48 48H384c26.5 0 48-21.5 48-48V192zM112 120V80H64c-26.5 0-48 21.5-48 48v48H432V128c0-26.5-21.5-48-48-48H336v40c0 4.4-3.6 8-8 8s-8-3.6-8-8V80H128v40c0 4.4-3.6 8-8 8s-8-3.6-8-8z" /></svg>&ensp;{{ .Date.Format "2" | humanize }} {{ .Date.Format "January" }}, {{ .Date.Format "2006" }}</small>
   </hgroup>
+
   {{ .Content }}
+
   <div class="meta">
     <small><svg class="small-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-        <path d="M64 464H448c26.5 0 48-21.5 48-48V160c0-26.5-21.5-48-48-48H301.3c-12.7 0-24.9-5.1-33.9-14.1L231.4 62.1c-9-9-21.2-14.1-33.9-14.1H64C37.5 48 16 69.5 16 96V416c0 26.5 21.5 48 48 48zm384 16H64c-35.3 0-64-28.7-64-64V96C0 60.7 28.7 32 64 32H197.5c17 0 33.3 6.7 45.3 18.7l35.9 35.9c6 6 14.1 9.4 22.6 9.4H448c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64z" />
-      </svg>&ensp;{{ partial "articles/categories.html" .}}</small><br>
+        <path d="M64 464H448c26.5 0 48-21.5 48-48V160c0-26.5-21.5-48-48-48H301.3c-12.7 0-24.9-5.1-33.9-14.1L231.4 62.1c-9-9-21.2-14.1-33.9-14.1H64C37.5 48 16 69.5 16 96V416c0 26.5 21.5 48 48 48zm384 16H64c-35.3 0-64-28.7-64-64V96C0 60.7 28.7 32 64 32H197.5c17 0 33.3 6.7 45.3 18.7l35.9 35.9c6 6 14.1 9.4 22.6 9.4H448c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64z" /></svg>&ensp;{{ partial "articles/categories.html" .}}</small><br>
     <small><svg class="small-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-        <path d="M16 229.5c0 12.7 5.1 24.9 14.1 33.9l176 176c18.7 18.7 49.1 18.7 67.9 0L407.4 305.9c18.7-18.7 18.7-49.1 0-67.9l-176-176c-9-9-21.2-14.1-33.9-14.1H48C30.3 48 16 62.3 16 80V229.5zm-16 0V80C0 53.5 21.5 32 48 32H197.5c17 0 33.3 6.7 45.3 18.7l176 176c25 25 25 65.5 0 90.5L285.3 450.7c-25 25-65.5 25-90.5 0l-176-176C6.7 262.7 0 246.5 0 229.5zM112 104a40 40 0 1 1 0 80 40 40 0 1 1 0-80zm24 40a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" />
-      </svg>&ensp;{{ partial "articles/tags.html" .}}</small>
+        <path d="M16 229.5c0 12.7 5.1 24.9 14.1 33.9l176 176c18.7 18.7 49.1 18.7 67.9 0L407.4 305.9c18.7-18.7 18.7-49.1 0-67.9l-176-176c-9-9-21.2-14.1-33.9-14.1H48C30.3 48 16 62.3 16 80V229.5zm-16 0V80C0 53.5 21.5 32 48 32H197.5c17 0 33.3 6.7 45.3 18.7l176 176c25 25 25 65.5 0 90.5L285.3 450.7c-25 25-65.5 25-90.5 0l-176-176C6.7 262.7 0 246.5 0 229.5zM112 104a40 40 0 1 1 0 80 40 40 0 1 1 0-80zm24 40a24 24 0 1 0 -48 0 24 24 0 1 0 48 0z" /></svg>&ensp;{{ partial "articles/tags.html" .}}</small>
+  </div>
 </article>
-
 {{ end}}

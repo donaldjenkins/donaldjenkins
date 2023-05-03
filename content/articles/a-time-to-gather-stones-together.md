@@ -1,22 +1,22 @@
-
 ---
-title: "A time to gather stones together?"
+title: "A time to gather stones together"
 categories: ['Personal']
 tags: [blogging, Catholicism, death]
-seoTitle: "Donald Jenkins: A time to gather stones together?"
+seoTitle: "Donald Jenkins: A time to gather stones together"
 date: 2009-10-16T23:48:03+00:00
 type: articles
-layout: 'articles'
-slug: "a-time-to-gather-stones-together"
+layout: 'single'
+slug: "a-time-to-gather-stones-together"  
 draft: false
 description: "A short post written at a challenging time. Yet one of the many the beautiful things about hardship, when it strikes, is that spiritual comfort is always there when one needs it."
 summary: "A short post written at a challenging time. Yet one of the many the beautiful things about hardship, when it strikes, is that spiritual comfort is always there when one needs it."
-featured_image: "969a796-2fbc-451f-ba14-8f6e0276b000"
+featured_image: "6c6bd85c-3fdb-4ae1-a445-d6e2b726b600"
 author: "Donald Jenkins"
 showthedate: false
 tableOfContents: true
 noindex: false
 ---
+
 > To every thing there is a season, and a time to every purpose under the heaven:
 > 
 > A time to be born, and a time to die; a time to plant, and a time to pluck up that which is planted;
@@ -32,5 +32,4 @@ noindex: false
 > A time to rend, and a time to sew; a time to keep silence, and a time to speak;
 > 
 > A time to love, and a time to hate; a time of war, and a time of peace.
-
-<figcaption class="quote-source"><cite>Ecclesiastes, 3:1-8</cite></figcaption></figure>
+<figcaption class="quote-source">Ecclesiastes, 3:1-8</figcaption>

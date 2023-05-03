@@ -2,27 +2,18 @@
 {{ if .IsHome }} {{/* For the homepage, including its paginations */}}
 <h1 class="visually-hidden">Donald Jenkins</h1>
 {{ end }}
-
-    <figure id="logo" class="vertically-centered">
-        {{ if .IsHome }} {{/* For the homepage, including its paginations */}}
-
-        <img src="/images/logo.svg" class="filter-white" alt="Donald Jenkins" title="Donald Jenkins" width="210" height="50" /></a>
-
-        {{ else }} {{/* For non-homepage pages */}}
-
-        <a href="/" title="Home">
-            <img src="/images/logo.svg" alt="Donald Jenkins" title="Donald Jenkins" width="210" height="50" /></a>
-
-        {{ end }}
-    </figure>
-    <input id="hamburger" aria-expanded="false" type="checkbox" role="button" aria-label="Display the menu" aria-controls="menu">
-    <nav id="menu">
-        <ul>
-            <li class="button secondary"><a href="/photos">
-                    Photos
-                </a></li>
-            <li class="button primary"><a href="/articles">
-                    Articles
-                </a></li>
-        </ul>
-    </nav>
+<figure id="logo" class="vertically-centered">
+{{ if .IsHome }} {{/* For the homepage, including its paginations */}}
+<img src="/images/logo.svg" class="filter-white" alt="Donald Jenkins" title="Donald Jenkins" width="210" height="50" /></a>
+{{ else }} {{/* For non-homepage pages */}}
+<a href="/" title="Home">
+<img src="/images/logo.svg" alt="Donald Jenkins" title="Donald Jenkins" width="210" height="50" /></a>
+{{ end }}
+</figure>
+<input id="hamburger" aria-expanded="false" type="checkbox" role="button" aria-label="Display the menu" aria-controls="menu">
+<nav id="menu">
+  <ul>
+    <li class="button secondary"><a href="/photos">Photos</a></li>
+    <li class="button primary"><a href="/articles">Articles</a></li>
+  </ul>
+</nav>

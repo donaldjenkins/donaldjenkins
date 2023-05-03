@@ -48,7 +48,11 @@ dt {
   margin-top: $padding;
 }
 
-dd {
+dt a,
+dt em,
+dd a,
+dd em {
+  font-weight: inherit;
 }
 
 

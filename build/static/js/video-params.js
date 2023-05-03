@@ -1,0 +1,1 @@
+const heroSection=document.querySelector("video"),video=videojs("my-video");video.ready((function(){this.on("ended",(()=>{video.poster("images/hero/hero.png"),video.hasStarted(!1)}))}));
