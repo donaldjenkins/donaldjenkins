@@ -36,10 +36,10 @@ articles = "/:slug"
 [build]
     writeStats = true
 
-[module]
-    [[module.mounts]]
-        source = "node_modules/video.js/dist"
-        target = "static/js/video.js"
+# [module]
+#    [[module.mounts]]
+#        source = "node_modules/video.js/dist"
+#        target = "static/js/video.js"
   
 color = "#9c9a75"
   # Sets theme colour& Safari mask icon colour
