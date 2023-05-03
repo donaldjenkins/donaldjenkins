@@ -1,7 +1,7 @@
-baseURL = '/'
+baseURL = 'https://donaldjenkins.pages.dev/'
 languageCode = 'en-us'
 timeZone = 'America/New_York'
-title = 'Donald Jenkins is a writer and photographer'
+title = 'Donald Jenkins writes about politics'
 
 [params]
   stylesheets = ["styles.css"]
