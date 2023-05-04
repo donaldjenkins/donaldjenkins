@@ -1,0 +1,12 @@
+.player {
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 1;
+  height: 320px;
+  width: 480px;
+}
+
+video {
+  border-radius: inherit;
+  display: block;
+}
