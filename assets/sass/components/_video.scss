@@ -4,7 +4,14 @@ video {
 }
 
 .video-js {
-  box-shadow: 0 0 10px hsl(var(--shadow-color)/.5);
+  box-shadow: 0.1px 0.1px 0.2px hsl(var(--shadow-color) / 0.34),
+  0.6px 0.7px 1px -0.4px hsl(var(--shadow-color) / 0.34),
+  1.1px 1.3px 1.9px -0.7px hsl(var(--shadow-color) / 0.34),
+  1.8px 2.1px 3.1px -1.1px hsl(var(--shadow-color) / 0.34),
+  2.9px 3.3px 4.9px -1.4px hsl(var(--shadow-color) / 0.34),
+  4.5px 5.1px 7.7px -1.8px hsl(var(--shadow-color) / 0.34),
+  6.9px 7.8px 11.7px -2.1px hsl(var(--shadow-color) / 0.34),
+  10.1px 11.5px 17.2px -2.5px hsl(var(--shadow-color) / 0.34);
   border-radius: $very-rounded;
   overflow: hidden;
 }

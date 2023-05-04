@@ -144,3 +144,13 @@ ul.meta {
     margin-right: 0;
   }
 }
+
+picture img,
+video {
+  @include media ("<smartphone") {
+     margin-inline: -6vw;
+     width: calc(100% + 12vw);
+     border-radius: unset;
+   }
+}
+
