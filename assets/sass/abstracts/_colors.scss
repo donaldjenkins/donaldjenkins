@@ -29,7 +29,7 @@ $portage: hsl(242, 79%, 77%);
 $ship-cove: hsl(224, 20%, 59%);
 $quartz: hsl(240, 100%, 94%);
 
-/// Dark theme colors: 
+/// Dark theme colors:
 $dark-primary-color: $portage;
 $dark-secondary-color: $ship-cove;
 $dark-text-color: $quartz;
@@ -51,9 +51,9 @@ $black-bis: hsl(0, 0%, 7%);
 
 /// Custom colors
 $primary: $gurkha;
-$primary-light:	hsl($primary-hue, 18%, 90%);
+$primary-light: hsl($primary-hue, 18%, 90%);
 $secondary: $horizon;
-$secondary-light:	hsl($secondary-hue, 18%, 90%);
+$secondary-light: hsl($secondary-hue, 18%, 90%);
 $tertiary: $fuzzy-wuzzy-brown;
 $primary-hover: color.adjust($primary, $lightness: 5%);
 $secondary-hover: color.adjust($secondary, $lightness: 5%);
@@ -66,18 +66,23 @@ $secondary-on-dark-hover: color.adjust($secondary-hover, $lightness: 5%);
 $brand-color: $primary; // Main brand color
 
 ///Background/shadow colors
-$light-background: $white;
-$dark-background: $davys-gray;
+$light-bg: $white;
+$dark-bg: $davys-gray;
+$normal-bg: $concrete;
 
 // Source: https://www.joshwcomeau.com/css/designing-shadows/
 $light-shadow: 60deg 0% 45%;
 $dark-shadow: 111deg 60% 50%;
 
 /// Text colors
-$brand-text: hsl(calc($primary-hue + 1), 13%, 35%); // brand-color darkened enough to pass contrast test
+$brand-text: hsl(
+  calc($primary-hue + 1),
+  13%,
+  35%
+); // brand-color darkened enough to pass contrast test
 $text-color: $davys-gray; // Main text color
 $title-color: color.adjust($text-color, $blackness: 27%);
-$caption-color: $grey;
+$caption-color: color.adjust($grey-light, $blackness: 20%);
 $caption-color-on-dark: $grey-lighter;
 
 /// Link colors
@@ -88,16 +93,12 @@ $link-on-dark: color.adjust($eton-blue, $lightness: 20%);
 $link-hover-on-dark: hsl($tertiary-hue, 51%, 83%);
 
 /// Alert colors
-$info: color.adjust($slate, $lightness: 20%); 
+$info: color.adjust($slate, $blackness: 20%);
 $success: $eton-blue;
 $warning: hsl(36, 100%, 40%); // $papaya-whip => 600
 $danger: $tomato;
 
-$info-light	: $secondary-light;
-$success-light: hsl($success-hue, 18%, 90%);
-$warning-light: $papaya-whip;
-$danger-light:	hsl($danger-hue, 96%, 90%);
-
-
-
-
+$info-bg: color.adjust($slate, $lightness: 20%);
+$success-bg: hsl($success-hue, 18%, 90%);
+$warning-bg: $papaya-whip;
+$danger-bg: hsl($danger-hue, 96%, 92%);

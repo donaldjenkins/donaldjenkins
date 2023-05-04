@@ -11,7 +11,7 @@
   --text-color: #{$text-color};
   --caption-color: #{$caption-color};
   --bg-color: #{$white};
-  --contrast-bg-color: #{$dark-background}
+  --contrast-bg-color: #{$dark-bg}
   --heading-color: #{$text-color};
   --link: #{$link};
   --link-hover: #{$link-hover};
@@ -25,6 +25,19 @@
   --link-visited: #{$link-visited};
   --link-on-dark: #{$link-on-dark};
   --link-hover-on-dark: #{$link-hover-on-dark};
+  
+  /// Alert colors:
+  --info-color: #{$info};
+  --success-color: #{$success};
+  --warning-color: #{$warning};
+  --danger-color: #{$danger};
+  --normal-color: #{$text-color};
+  
+  --info-bg: #{$info-bg};
+  --success-bg: #{$success-bg};
+  --warning-bg: #{$warning-bg};
+  --danger-bg: #{$danger-bg};
+  --normal-bg: #{$normal-bg};
   
  /// Box-shadow colors | Source: https://www.joshwcomeau.com/shadow-palette/
   --shadow-color: 0deg 0% 63%;
@@ -85,6 +98,7 @@
   --line-height-large: #{$line-height-large};
   --line-height-citation: #{$line-height-citation};
   --line-height-body: #{$line-height-body};
+  --line-height-smaller: #{$line-height-smaller};
 
   /* Set border-radius */
   --rounded: #{$rounded};
@@ -97,7 +111,7 @@
   --secondary-color: #{$dark-secondary-color};
   --text-color:  #{$dark-text-color};
   --caption-color: #{$caption-color-on-dark};
-  --bg-color: #{$dark-background};
+  --bg-color: #{$dark-bg};
   --contrast-bg-color: #{$concrete};
   //--heading-color: #818cab;
   --heading-color: #{$dark-text-color};

@@ -53,32 +53,17 @@
   /* added line to stop words getting smushed together (as they go onto seperate lines and some screen readers do not understand line feeds as a space */
 }
 
-/// Set width of article card
-
-$full-width: 100%;
-$normal-width: 24rem;
-
-@mixin article-card-width($article-card-full-width: true) {
-  @if $article-card-full-width {
-    width: $full-width;
-    }
-  
-  @else {
-    width: $normal-width;
-  }
-}
-
 /// Set background color of home page
 
 @mixin background-color($is-dark: true) {
   @if $is-dark {
     color: $dark-text-color;
-    background-color: $dark-background;
+    background-color: $dark-bg;
     }
   
   @else {
     color: $text-color;
-    background-color: $dark-background;
+    background-color: $dark-bg;
   }
 }
 

@@ -3,12 +3,12 @@
  */
 
 body,
- .content {
-   font-family: var(--sans-font);
-   font-size: var(--font-size-body);
-   font-stretch: 95%;
-   line-height: var(--line-height-body);
- }
+.content {
+  font-family: var(--sans-font);
+  font-size: var(--font-size-body);
+  font-stretch: 95%;
+  line-height: var(--line-height-body);
+}
 
 body,
 .content,
@@ -31,10 +31,10 @@ a {
 
 a {
   color: var(--link);
-  
+
   &:hover {
-  color: var(--link-hover);
-  }  
+    color: var(--link-hover);
+  }
 }
 
 .dark {
@@ -43,33 +43,26 @@ a {
 
 .dark a {
   color: var(--link-on-dark);
-  
+
   &:hover {
     color: var(--link-hover-on-dark);
   }
 }
 
 .primary {
- color: var(--text-on-dark);
-  
+  color: var(--text-on-dark);
+
   &:hover {
-   color: var(--text-on-dark);
+    color: var(--text-on-dark);
   }
-  
 }
 
 .secondary {
- color: var(--text-on-dark);
-  
-  &:hover {
-   color: var(--text-on-dark);
-  }
-  
-}
+  color: var(--text-on-dark);
 
-strong a,
-em a {
-  font-weight: inherit;
+  &:hover {
+    color: var(--text-on-dark);
+  }
 }
 
 h1 {
@@ -113,7 +106,7 @@ button {
 }
 
 button {
-  font-stretch: unquote(calc($font-stretch * 1.053) + '%');
+  font-stretch: unquote(calc($font-stretch * 1.053) + "%");
   letter-spacing: -0.0075em;
   line-height: calc($line-height * 0.75);
 }
@@ -132,7 +125,6 @@ li {
 }
 
 article li {
-
   &::marker {
     color: $slate;
   }
@@ -163,16 +155,16 @@ b {
 }
 
 .caption,
-.figcaption,
-.photo-credit,
-{
-font-size: var(--font-size-smallest);
-color: var(--caption-color);
+figcaption,
+.photo-credit {
+  color: var(--caption-color);
+  font-size: var(--font-size-smaller);
+  line-height: var(--line-height-smaller);
 }
 
 caption {
   text-align: center;
-  caption-side: top
+  caption-side: top;
 }
 
 button,
@@ -197,14 +189,14 @@ table {
     font-weight: var(--font-weight-normal);
   }
 
-  @include media ("<tablet") {
+  @include media("<tablet") {
     font-size: var(--font-size-smallest);
   }
 }
 
 .footnote-ref {
   color: var(--text-on-dark);
-  
+
   &:hover {
     color: var(--text-on-dark);
   }
@@ -216,7 +208,7 @@ table {
 }
 
 .icon:hover {
-    color: var(--link-hover);  
+  color: var(--link-hover);
 }
 
 .meta {
@@ -225,7 +217,7 @@ table {
 
 .meta a {
   color: var(--brand-text);
-  
+
   &:hover {
     color: var(--link-hover);
   }
@@ -248,4 +240,12 @@ input::placeholder,
 .contact-form input {
   font-size: var(--font-size-body);
   font-weight: var(--font-weight-thin);
+}
+
+.caption,
+figcaption em,
+.photo-credit,
+strong a,
+em a {
+  font-weight: inherit;
 }
