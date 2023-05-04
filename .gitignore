@@ -10,6 +10,7 @@ config.codekit3
 
 ### Hugo ###
 # Generated files by hugo
+/archetypes/
 /public/
 /resources/_gen/
 /assets/jsconfig.json
