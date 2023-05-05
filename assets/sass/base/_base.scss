@@ -99,6 +99,15 @@ picture {
   padding: 0;
 }
 
+picture img,
+video {
+  @include media ("<smartphone") {
+     margin-inline: -6vw;
+     width: calc(100% + 12vw);
+     border-radius: unset;
+   }
+}
+
 .icon,
 .small-icon {
   vertical-align: -0.125em;
@@ -145,19 +154,4 @@ ul.meta {
   }
 }
 
-picture img,
-video {
-  @include media ("<smartphone") {
-     margin-inline: -6vw;
-     width: calc(100% + 12vw);
-     border-radius: unset;
-   }
-}
-
-video {
-  @include media ("<smartphone") {
-     max-width: none;
-   }
-}
-     
 

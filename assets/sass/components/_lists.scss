@@ -5,6 +5,12 @@
 /**
  * Basic styles for lists
  */
+ 
+ article li {
+   &::marker {
+     color: $marker-color;
+   }
+ }
 
 article ol {
   margin-bottom: 1rem;

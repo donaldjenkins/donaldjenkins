@@ -124,11 +124,6 @@ li {
   font-weight: var(--font-weight-heading);
 }
 
-article li {
-  &::marker {
-    color: $slate;
-  }
-}
 
 small {
   font-size: var(--font-size-small);
