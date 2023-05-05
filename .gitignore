@@ -27,6 +27,7 @@ hugo_stats.jso
 package.json
 gruntfile.js
 .eslintrc.js
+.prettierignore
 
 
 # End of https://www.toptal.com/developers/gitignore/api/hugo,codekit,nova
