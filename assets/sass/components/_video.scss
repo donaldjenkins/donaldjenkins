@@ -15,12 +15,12 @@ video {
   overflow: hidden;
 }
 
-figure.player.video-js,
-figure.player.video-js.vjs-1-1,
-figure.player.video-js.vjs-16-9,
-figure.player.video-js.vjs-4-3,
-figure.player.video-js.vjs-9-16,
-figure.player.video-js.vjs-fluid {
+div.player.video-js,
+div.player.video-js.vjs-1-1,
+div.player.video-js.vjs-16-9,
+div.player.video-js.vjs-4-3,
+div.player.video-js.vjs-9-16,
+div.player.video-js.vjs-fluid {
   @include media("<smartphone") {
     margin-inline: -6vw;
     width: calc(100% + 12vw);
