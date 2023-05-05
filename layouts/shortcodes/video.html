@@ -1,6 +1,6 @@
 <figure class="player">
 <video id="video-{{ if .Get "id" }}{{ .Get "id" }}{{ else }}{{ .Get "src" }}{{ end }}" playsinline class="vjs-matrix video-js vjs-default-skin" controls preload="none" data-setup='{ "fluid" : true }'>
-  <source src="https://customer-j00pa75eocpcmpyc.cloudflarestream.com/{{ .Get "src" }}/manifest/video.m3u8" type="application/x-mpegURL" />
+  <source src="https://customer-j00pa75eocpcmpyc.cloudflarestream.com/{{ .Get "src" }}/manifest/video.m3u8" type="application/x-mpegURL">
 </video>
 {{ if .Get "caption" }}<figcaption>{{ .Get "caption" | markdownify }}</figcaption>{{ end }}
 </figure>
