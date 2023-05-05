@@ -1,7 +1,8 @@
 {{ define "main" }} {{ with .Site.Params }}
 <article id="statement">
+  <h2 class="visually-hidden">About Donald Jenkins</h2>
   <section id="slogan" class="hero is-full-height">
-    <h2 class="visually-hidden">Donald Jenkins: description</h2>
+    <h3 class="visually-hidden">Donald Jenkins: description</h3>
     <p class="title">{{ .description | markdownify }}</p>
     <p class="subtitle">
       <a href="#summary" title="Find out more">
@@ -19,7 +20,7 @@
     </p>
   </section>
   <section id="summary" class="sub-hero is-full-height">
-    <h2 class="visually-hidden">Donald Jenkins: brief CV</h2>
+    <h3 class="visually-hidden">Donald Jenkins: brief CV</h3>
     <p class="title">{{ .summary | markdownify }}</p>
     <p class="subtitle">
       <a
@@ -40,7 +41,7 @@
     </p>
   </section>
   <section id="articles" class="sub-hero is-full-height">
-    <h2 class="visually-hidden">What Donald Jenkins writes about</h2>
+    <h3 class="visually-hidden">What Donald Jenkins writes about</h3>
     <p class="title">
       {{ with site.GetPage "articles" }} {{ .Summary | markdownify }} {{ end }}
     </p>
