@@ -1,4 +1,4 @@
 {{ $type := .Get 0 }}
-{{ printf "<aside class=\"alert %s\" role=\"alert %s\">" $type | htmlUnescape | safeHTML }}
+{{ printf "<aside class=\"alert %s\">" $type | htmlUnescape | safeHTML }}
 {{ .Inner | safeHTML }}
 {{ printf "</aside>" | htmlUnescape | safeHTML }}
