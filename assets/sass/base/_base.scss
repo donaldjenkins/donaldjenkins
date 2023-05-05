@@ -154,3 +154,10 @@ video {
    }
 }
 
+video {
+  @include media ("<smartphone") {
+     max-width: none;
+   }
+}
+     
+

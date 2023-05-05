@@ -65,6 +65,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget nunc et velit s
 {{% /hint %}}
 
 {{% hint warning %}}
+### Warning
 Example text that *may* contain **markdown** `markup`.
 {{% /hint %}}
 
