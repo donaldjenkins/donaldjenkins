@@ -101,11 +101,11 @@ picture {
 
 picture img,
 video {
-  @include media ("<smartphone") {
-     margin-inline: -6vw;
-     width: calc(100% + 12vw);
-     border-radius: unset;
-   }
+  @include media("<smartphone") {
+    margin-inline: -6vw;
+    width: calc(100% + 12vw);
+    border-radius: unset;
+  }
 }
 
 .icon,
@@ -123,35 +123,14 @@ video {
   height: 1em;
 }
 
-.meta {
-  margin-bottom: 1.25em;
-  line-height: 1.25em;
+/**
+ * Keep title and subtitle together
+ */
+
+.title:has(+ .subtitle) {
+  margin-bottom: 0;
 }
 
-.meta a {
-  text-decoration: none;
-  text-transform: lowercase;
+.title + .subtitle {
+  margin-top: 0;
 }
-
-ul.meta {
-  display: flex;
-  padding-left: 0;
-  list-style: none;
-}
-
-.meta li {
-  padding-top: 0.5rem;
-
-  &::before {
-    content: "\00B7";
-    margin-right: 1ch;
-    margin-left: -1ch;
-  }
-
-  &:first-child:before {
-    content: "";
-    margin-right: 0;
-  }
-}
-
-

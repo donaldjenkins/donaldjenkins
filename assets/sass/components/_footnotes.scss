@@ -3,13 +3,18 @@
 // -----------------------------------------------------------------------------
 
 .footnotes {
-  //display: flex;
-  // align-items: left;
+  //display: inline-block;
+  //align-items: left;
 }
 
 .footnotes hr {
+  color: $grey-light;
   height: 1px;
-  background: $grey-light;
+  background: $grey-lighter;
+  max-width: 10vw;
+
+  // The default margin value for hr is margin: 0 auto; since hr is a block element. Reset that to margin: 0; | Source: https://stackoverflow.com/questions/68189681/css-align-hr-to-the-left
+  margin: 0 0 0 -1vw;
 }
 
 .footnotes p,
@@ -20,17 +25,24 @@
 }
 
 .footnote-ref {
-  color: $white;
-  background-color: $tertiary;
-  margin-left: 1px;
-  padding: 0.033em 0.13em;
-  min-width: 1ch;
+  color: $tertiary;
+  //margin-left: 1px;
+  //padding: 0.033em 0.13em;
+  //min-width: 1ch;
   text-decoration: none;
-  border-radius: $slightly-rounded;
+
+  &::before {
+    color: $tertiary;
+    content: "\202F[";
+  }
+
+  &::after {
+    color: $tertiary;
+    content: "]";
+  }
 
   &:hover {
-    background-color: $danger;
-    padding: 1px 2px 1px;
+    color: $danger;
   }
 }
 

@@ -6,10 +6,33 @@ hgroup {
   border-bottom: 1px solid $grey-lighter;
 }
 
-.title:has(+ .subtitle) {
-  margin-bottom: 0;
+.meta {
+  margin-bottom: 1.25em;
+  line-height: 1.25em;
 }
 
-.title+.subtitle {
-  margin-top: 0;
+.meta a {
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+ul.meta {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+.meta li {
+  padding-top: 0.5rem;
+
+  &::before {
+    content: "\00B7";
+    margin-right: 1ch;
+    margin-left: -1ch;
+  }
+
+  &:first-child:before {
+    content: "";
+    margin-right: 0;
+  }
 }
