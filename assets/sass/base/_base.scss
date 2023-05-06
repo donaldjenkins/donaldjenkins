@@ -36,7 +36,8 @@ h6,
 p,
 figure,
 table,
-.footnotes {
+.footnotes,
+.alert {
   margin: $padding 0 0;
 }
 
@@ -85,6 +86,7 @@ a {
 /**
  * Add box shadow for images and other stuff
  */
+
 img:not(#logo img, #footer-logo img, .gallery img),
 table,
 .card {
@@ -111,8 +113,7 @@ picture {
   padding: 0;
 }
 
-picture img,
-table {
+picture img {
   @include media("<smartphone") {
     margin-inline: -6vw;
     width: calc(100% + 12vw);

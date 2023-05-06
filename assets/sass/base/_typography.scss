@@ -124,7 +124,6 @@ li {
   font-weight: var(--font-weight-heading);
 }
 
-
 small {
   font-size: var(--font-size-small);
   font-weight: var(--font-weight-bold);
@@ -189,14 +188,6 @@ table {
   }
 }
 
-.footnote-ref {
-  color: var(--text-on-dark);
-
-  &:hover {
-    color: var(--text-on-dark);
-  }
-}
-
 .icon,
 .small-icon {
   color: var(--text-color);
@@ -207,11 +198,11 @@ table {
 }
 
 .meta {
-  color: var(--brand-text);
+  color: var(--meta-color);
 }
 
 .meta a {
-  color: var(--brand-text);
+  color: var(--meta-color);
 
   &:hover {
     color: var(--link-hover);

@@ -5,23 +5,23 @@
 /**
  * Basic styles for lists
  */
- 
- article li {
-   &::marker {
-     color: $marker-color;
-   }
- }
+
+article li {
+  &::marker {
+    color: var(--marker-color);
+  }
+}
 
 article ol {
   margin-bottom: 1rem;
 }
 
-article ul li, article ol li {
-
-//
-// Remove indentation from ul/ol list
-// Source: https://stackoverflow.com/questions/64235551/css-cant-remove-indentation-from-a-bulleted-list
-//
+article ul li,
+article ol li {
+  //
+  // Remove indentation from ul/ol list
+  // Source: https://stackoverflow.com/questions/64235551/css-cant-remove-indentation-from-a-bulleted-list
+  //
 
   margin-left: -20px;
 }
@@ -31,8 +31,8 @@ article ul li, article ol li {
 // Source: https://web.dev/css-marker-pseudo-element/
 //
 
- article li {
-  margin-bottom: 1rem;  
+article li {
+  margin-bottom: 1rem;
 }
 
 /**

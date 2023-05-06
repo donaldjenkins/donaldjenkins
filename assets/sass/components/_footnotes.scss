@@ -10,7 +10,6 @@
 .footnotes hr {
   color: $grey-light;
   height: 1px;
-  background: $grey-lighter;
   max-width: 10vw;
 
   // The default margin value for hr is margin: 0 auto; since hr is a block element. Reset that to margin: 0; | Source: https://stackoverflow.com/questions/68189681/css-align-hr-to-the-left
@@ -29,29 +28,28 @@
 }
 
 .footnote-ref {
-  color: $tertiary;
-  //margin-left: 1px;
-  //padding: 0.033em 0.13em;
-  //min-width: 1ch;
+  color: var(--reference-color);
   text-decoration: none;
 
   &::before {
-    color: $tertiary;
+    color: var(--reference-color);
     content: "\202F[";
   }
 
   &::after {
-    color: $tertiary;
+    color: var(--reference-color);
     content: "]";
   }
 
-  &:hover {
-    color: $danger;
+  &:hover,
+  &:hover::before,
+  &:hover::after {
+    color: var(--success-color);
   }
 }
 
 .footnotes li::marker {
-  color: $tertiary;
+  color: var(--reference-color);
 }
 
 .footnote-backref {
