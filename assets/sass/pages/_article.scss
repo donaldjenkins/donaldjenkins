@@ -6,6 +6,11 @@ hgroup {
   border-bottom: 1px solid $grey-lighter;
 }
 
+hgroup h1 {
+  line-height: calc((var(--line-height-1)) * 0.85);
+  padding-bottom: 0.3rem;
+}
+
 .meta {
   margin-bottom: 1.25em;
   line-height: 1.25em;

@@ -1,5 +1,5 @@
 ---
-title: "Test article: we need to see what these articles look like on a screen"
+title: "Curabitur viverra, neque nec porttitor semper, sapien massa euismod erat, eget rutrum eros ligula sed nibh."
 categories: ["Personal"]
 tags: ["France", "healthcare", "Paris"]
 seoTitle: "Donald Jenkins: A better new decade?"
