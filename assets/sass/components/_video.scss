@@ -15,16 +15,11 @@ video {
   overflow: hidden;
 }
 
-.player.video-js,
-.player.video-js.vjs-1-1,
-.player.video-js.vjs-16-9,
-.player.video-js.vjs-4-3,
-.player.video-js.vjs-9-16,
-.player.video-js.vjs-fluid {
+.video-js {
   @include media("<smartphone") {
     margin-inline: -6vw;
-    width: calc(100% + 12vw);
-    max-width: none;
+    width: calc(100% + 12vw) !important;
+    max-width: none !important;
     border-radius: unset;
   }
 }

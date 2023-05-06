@@ -2,7 +2,6 @@
 // This file contains all styles related to tables and definition lists
 // -----------------------------------------------------------------------------
 
-
 /*	
   Table Responsive
   ===================
@@ -12,28 +11,34 @@
 table {
   width: 100%;
   border-collapse: collapse;
-  border-radius: $very-rounded; 
-  overflow:hidden; 
+  border-radius: $very-rounded;
+  overflow: hidden;
+
+  @include media("<smartphone") {
+    margin-inline: -6vw;
+    width: calc(100% + 12vw);
+    border-radius: unset;
+  }
 }
 
 th {
-    text-align: left;
-    padding: 20px 20px 20px 20px;
-    color: $horizon;
-    background-color: $baja-white;
+  text-align: left;
+  padding: 20px 20px 20px 20px;
+  color: $horizon;
+  background-color: $baja-white;
 }
 
 table,
 td {
-    padding: 8px 8px 8px 20px;
+  padding: 8px 8px 8px 20px;
 }
 
 tr:nth-child(even) {
-    background-color: $concrete;
+  background-color: $concrete;
 }
 
 tr:hover {
-    background-color: rgba(114, 114, 113, 0.2);
+  background-color: rgba(114, 114, 113, 0.2);
 }
 
 // Definitions lists
@@ -50,6 +55,3 @@ dt {
 
 dd {
 }
-
-
-

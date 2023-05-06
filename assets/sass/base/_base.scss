@@ -112,7 +112,7 @@ picture {
 }
 
 picture img,
-video {
+table {
   @include media("<smartphone") {
     margin-inline: -6vw;
     width: calc(100% + 12vw);
