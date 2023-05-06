@@ -25,6 +25,60 @@
 }
 
 /**
+ * Set margins for headings | Source: Gramercy theme
+ */
+
+h2 {
+  //font-size: 2.441em;
+  //letter-spacing: -.001em;
+  //line-height: 1.1;
+  //margin: 0.75rem 0 0.5rem;
+  margin: $padding 0 $padding;
+}
+
+h3 {
+  //font-size: 1.953em;
+  //letter-spacing: -.025em;
+  //line-height: 1.05;
+  //margin: 0.5rem 0 0.25rem;
+  margin: $padding 0 $padding;
+}
+
+h4 {
+  //font-size: 1.563em;
+  //letter-spacing: -.019em;
+  //line-height: 1;
+  //margin: 0.25rem 0 0.125rem;
+  margin: $padding 0 $padding;
+}
+
+h5 {
+  //font-size: 1.25em;
+  //letter-spacing: -.0175em;
+  //line-height: 1.125;
+  //margin: 1.9rem 0 0.075rem;
+  margin: $padding 0 $padding;
+}
+
+h6 {
+  //font-size: 1.1em;
+  //margin: 0.25rem 0 0;
+  margin: $padding 0 $padding;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+table,
+.footnotes {
+  margin: $padding 0 0;
+}
+
+/**
  * Basic styles for links
  */
 
@@ -87,10 +141,6 @@ table,
 /**
  * Basic styles for images and similar stuff
  */
-
-figure {
-  margin: 0;
-}
 
 img,
 picture {
