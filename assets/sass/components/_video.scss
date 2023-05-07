@@ -1,8 +1,8 @@
-video {
+media-player {
   border-radius: inherit;
 }
 
-.video-js {
+media-player {
   box-shadow: 0.1px 0.1px 0.2px hsl(var(--shadow-color) / 0.34),
     0.6px 0.7px 1px -0.4px hsl(var(--shadow-color) / 0.34),
     1.1px 1.3px 1.9px -0.7px hsl(var(--shadow-color) / 0.34),
@@ -15,11 +15,11 @@ video {
   overflow: hidden;
 }
 
-.video-js {
+media-player {
   @include media("<smartphone") {
     margin-inline: -6vw;
-    width: calc(100% + 12vw) !important;
-    max-width: none !important;
+    width: calc(100% + 12vw);
+    max-width: none;
     border-radius: unset;
   }
 }

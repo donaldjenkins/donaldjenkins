@@ -36,6 +36,8 @@
     "@fortawesome/fontawesome-pro": "^6.4.0",
     "grunt-contrib-watch": "^1.1.0",
     "include-media": "^2.0.0",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "prettier": "^2.8.8",
+    "vidstack": "^0.4.5"
   }
 }
