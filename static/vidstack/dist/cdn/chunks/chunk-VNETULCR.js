@@ -1,5 +1,0 @@
-import { b, f, j, a, J, M, N, m, e, K, L, H, g, h } from './chunk-KZR5HH3N.js';
-
-function B(r,t={}){return b(p=>{t.scope&&t.scope.append(f());let o=null,S=!1,b="props"in r,c=b?T(r.props):{},y=j(!1),g$1={},C={},N$1=s=>void Object.assign(g$1,s),j$1=s=>void Object.assign(C,s);if(t.props&&b)for(let s of Object.keys(t.props))s in r.props&&c["$"+s].set(t.props[s]);let u={[J]:{$attrs:g$1,$styles:C,$connected:y},el:null,$el(){return y()?u.el:null},$connected:y,setAttributes:N$1,setStyles:j$1,setCSSVars:j$1},e$1={host:u,props:c,[a]:f(),[J]:c,[M]:[],[N]:[],accessors(){if(o)return o;let s={};for(let n of Object.keys(r.props))s[n]=c["$"+n];return o=m(s)},destroy(){S||(S=!0,u.el?.destroy(),e(),e$1[M].length=0,e$1[N].length=0,p(),e$1[a]=null,e$1[K]=null,e$1[L]=null,u.el=null);}};try{H(e$1),e$1[K]=r.setup(e$1);}finally{H(null);}let P=e$1[K]?.$render;return P&&(e$1[L]=function(){let n=null;return g(()=>{try{H(e$1),n=P();}finally{H(null);}},e$1[a]),n}),h(e$1.destroy),e$1})}function T(r){let t={};for(let p of Object.keys(r)){let o=r[p];t["$"+p]=j(o.initial,o);}return t}
-
-export { B as a };

@@ -25,19 +25,27 @@ enableInlineShortcodes = true
 enableGitInfo = true
 enableRobotsTXT = true
 
+[module]
+[[module.mounts]]
+  source = "static"
+  target = "static"
+[[module.mounts]]
+  source = "node_modules/vidstack"
+  target = "static/vidstack"
+
 [permalinks] 
 articles = "/:slug"
     
 [sitemap]
-    changefreq = 'monthly'
-    filename = 'sitemap.xml'
-    priority = 0.5
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
+  priority = 0.5
     
 [build]
-    writeStats = true
+  writeStats = true
   
 color = "#9c9a75"
   # Sets theme colour& Safari mask icon colour
   
 [markup.goldmark.renderer]
-      unsafe = true # Allow HTML in md files
+  unsafe = true # Allow HTML in md files
