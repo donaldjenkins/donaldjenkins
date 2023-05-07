@@ -1,7 +1,7 @@
 <!-- Adds js for video.js on pages where it's needed -->
 
 {{ with .Params.hasvideojs }} {{ if . }}
-<link rel="stylesheet" href="../js/vidstack/base.min.css" />
+<link rel="stylesheet" href="/vidstack/styles/base.css" />
 <!-- the following styles are optional - remove to go headless
 <link
   rel="stylesheet"
@@ -11,5 +11,5 @@
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/vidstack/styles/ui/sliders.min.css"
 />  -->
-<script type="module" src="../js/vidstack/prod.js"></script>
+<script type="module" src="/vidstack/dist/cdn/prod.js"></script>
 {{ end }} {{ end }}
