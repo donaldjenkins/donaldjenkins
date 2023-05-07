@@ -82,7 +82,7 @@ $brand-text: hsl(
 ); // brand-color darkened enough to pass contrast test
 $text-color: $davys-gray; // Main text color
 $title-color: color.adjust($text-color, $blackness: 27%);
-$caption-color: color.adjust($grey-light, $blackness: 20%);
+$caption-color: hsl(0, 0%, 48%);
 $caption-color-on-dark: $grey-lighter;
 $marker-color: $slate;
 $meta-color: $secondary;

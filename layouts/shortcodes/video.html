@@ -1,12 +1,11 @@
-<figure class="player">
+<figure id ="video-{{ .Get "src" }}" class="player">
 <media-player
   src="https://customer-j00pa75eocpcmpyc.cloudflarestream.com/{{ .Get "src" }}/manifest/video.m3u8"
-  poster="https://customer-j00pa75eocpcmpyc.cloudflarestream.com/{{ .Get "src" }}/thumbnails/thumbnail.jpg?time={{ if .Get "thumb-time" }}{{ .Get "thumb-time" }}{{ else }}1{{ end }}s"
+  poster="{{ if .Get "thumbnail" }}https://assets.via.dj/images/thumbnails/{{ .Get "src" }}.jpg{{ else }}https://customer-j00pa75eocpcmpyc.cloudflarestream.com/{{ .Get "src" }}/thumbnails/thumbnail.jpg?time={{ if .Get "thumb-time" }}{{ .Get "thumb-time" }}{{ else }}1{{ end }}s{{ end }}"
   controls
-  aspect-ratio="16/9"
+  aspect-ratio="{{ if .Get "aspect-ratio" }}{{ .Get "aspect-ratio" }}{{ else }}16/9{{ end }}"
 >
   <media-outlet></media-outlet>
 </media-player>
 {{ if .Get "caption" }}<figcaption>{{ .Get "caption" | markdownify }}</figcaption>{{ end }}
 </figure>
-
