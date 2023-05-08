@@ -48,8 +48,9 @@
     .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=450 2x, {{
     .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=675 3x"
     media="(min-width: 225px)"> <img src="{{ .Site.Params.cloudflare_images }}{{
-    .Get "src" }}/w=1920" alt="{{ if .Get "caption"}}{{ .Get "caption" |
-    truncate 42 }}{{ end }}"/>
+    .Get "src" }}/w=1920" max-width: 100% height: auto aspect-ratio: attr(width)
+    / attr(height) alt="{{ if .Get "caption"}}{{ .Get "caption" | truncate 42
+    }}{{ end }}"/>
   </picture>
 
   {{ if .Get "caption"}}
