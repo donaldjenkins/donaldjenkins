@@ -14,8 +14,8 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"],
 label[type="button"],
-.button {
- all: unset;
+.button figcaption {
+  all: unset;
 }
 
 h1,

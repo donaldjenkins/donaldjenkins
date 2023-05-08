@@ -88,36 +88,10 @@ blockquote cite {
   }
 }
 
-.attribution,
-.attribution p {
-  text-align: right;
-  color: $brand-text;
-}
-
-.caption,
-.photo-credit {
-  text-align: right;
-}
-
-.figcaption {
-  text-align: center;
-}
-
-.quote {
-  font-size: inherit;
-  font-style: italic;
-}
-
 blockquote {
   margin-bottom: 0;
   text-align: left;
   padding-bottom: 1%;
-}
-
-.source {
-  padding: 0 0 5%;
-  margin: 0;
-  text-align: right;
 }
 
 .source p::before {

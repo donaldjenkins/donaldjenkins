@@ -55,6 +55,23 @@ a {
 }
 
 /**
+ * Basic styles for captions
+ */
+
+// captions for quotations
+.source,
+
+// credits for photos
+.photo-credit {
+  text-align: right;
+}
+
+// captions for photos
+.caption {
+  text-align: center;
+}
+
+/**
  * Basic styles for colors
  */
 
