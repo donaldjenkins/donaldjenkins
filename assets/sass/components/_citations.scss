@@ -120,6 +120,14 @@ blockquote {
   text-align: right;
 }
 
+.source p::before {
+  content: "\2014\2009";
+}
+
+.source p::after {
+  content: ".";
+}
+
 :lang(en) > q {
   quotes: "\2018""\2019""\201C""\201D";
 }

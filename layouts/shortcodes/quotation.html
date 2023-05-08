@@ -1,11 +1,10 @@
 {{$split := split .Inner "<-source->"}}
 <figure class="quotation">
   <blockquote>
-  <p>
     {{ index $split 0 | safeHTML }}
-  </p>
   </blockquote>
   <figcaption class="source">
-    {{ index $split 1 | safeHTML }}{{ if .Get "main-title" }}. {{ if .Get "secondary-title" }}{{ printf "<q>" | htmlUnescape | safeHTML }}{{ .Get "secondary-title" | htmlUnescape | safeHTML  }}{{ printf ".</q> " | htmlUnescape | safeHTML }}{{ end }}{{ printf "<cite>" | htmlUnescape | safeHTML }}{{ if .Get "url" }}[{{ .Get "main-title" }}]({{ .Get "url" }}){{ else }}{{ .Get "main-title" }}{{ end }}{{ printf "</cite>" | htmlUnescape | safeHTML }}{{ end }}{{ if .Get "publisher" }}. {{ .Get "publisher" | htmlUnescape | safeHTML  }}{{ end }}{{ if .Get "date" }}, {{ .Get "date" | htmlUnescape | safeHTML }}{{ end }}{{ if .Get "pages" }} ({{ .Get "pages" | htmlUnescape | safeHTML }}){{ end }}.
+    {{ index $split 1 | safeHTML }}{{ if .Get "main-title" }}. {{ if .Get "secondary-title" }}{{ printf "<q>" | htmlUnescape | safeHTML }}{{ .Get "secondary-title" | htmlUnescape | safeHTML  }}{{ printf ".</q> " | htmlUnescape | safeHTML }}{{ end }}{{ printf "<cite>" | htmlUnescape | safeHTML }}{{ if .Get "url" }}[{{ .Get "main-title" }}]({{ .Get "url" }}){{ else }}{{ .Get "main-title" }}{{ end }}{{ printf "</cite>" | htmlUnescape | safeHTML }}{{ end }}{{ if .Get "publisher" }}. {{ .Get "publisher" | htmlUnescape | safeHTML  }}{{ end }}{{ if .Get "date" }}, {{ .Get "date" | htmlUnescape | safeHTML }}{{ end }}{{ if .Get "pages" }} ({{ .Get "pages" | htmlUnescape | safeHTML }}){{ end }}
   </figcaption>
 </figure>
+
