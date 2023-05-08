@@ -32,4 +32,4 @@ noindex: false
 > A time to rend, and a time to sew; a time to keep silence, and a time to speak;
 > 
 > A time to love, and a time to hate; a time of war, and a time of peace.
-<figcaption class="quote-source">Ecclesiastes, 3:1-8</figcaption>
+<figcaption class="source">Ecclesiastes, 3:1-8</figcaption>

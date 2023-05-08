@@ -61,9 +61,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget nunc et velit s
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget nunc et velit suscipit porta sed nec libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie sodales risus ac ullamcorper. Proin rhoncus risus ut sem lacinia dignissim placerat eros consectetur. Curabitur viverra, neque nec porttitor semper, sapien massa euismod erat, eget rutrum eros ligula sed nibh. Etiam purus felis, congue sed porta id, elementum ac dui. Nunc mattis justo in nisl consectetur a aliquam sem condimentum. Maecenas faucibus risus in augue egestas posuere. Proin aliquam luctus justo vitae adipiscing. Nunc porta blandit egestas. Integer scelerisque placerat urna, sed ultricies risus sollicitudin quis.
 
-{{% video src="0d0bc921903e2c01d970b3598bfee83f" caption="The poem by Labarde was originally titled _Le beau Dunois_ telling the story of the handsome crusader Dunois. Prior to his departure to **Syria** he prays to the Virgin Mary that he will love the most beautiful woman and that he himself may be the bravest. His prayers are answered. On his return the brave warrior wins the hand of Isabelle. Love and honour prevail.—Paula Bär-Giese, soprano and pianist." %}}
+{{% video src="0d0bc921903e2c01d970b3598bfee83f" caption="The poem by Labarde was originally titled _Le beau Dunois_ telling the story of the handsome crusader Dunois. Prior to his departure to **Syria** he prays to the Virgin Mary that he will love the most beautiful woman and that he himself may be the bravest. His prayers are answered. On his return the brave warrior wins the hand of Isabelle. Love and honour prevail.—[Paula Bär-Giese](https://www.instagram.com/bargiese/?hl=en), soprano and pianist." %}}
 
-Lorem ipsum dolor Lorem ipsum dolor sit amet, consectetur **{{% quote %}}Donald Jenkins{{% /quote %}}** elit. In eget nunc et velit suscipit porta sed nec libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie sodales risus ac ullamcorper. Proin rhoncus risus ut sem lacinia dignissim placerat eros consectetur. Curabitur viverra, neque nec porttitor semper, sapien massa euismod erat, eget rutrum eros ligula sed nibh. Etiam purus felis, congue sed porta id, elementum ac dui. Nunc mattis justo in nisl consectetur a aliquam sem condimentum. Maecenas faucibus risus in augue egestas posuere. Proin aliquam luctus justo vitae adipiscing. Nunc porta blandit egestas. Integer scelerisque placerat urna, sed ultricies risus sollicitudin quis.
+Lorem ipsum dolor Lorem ipsum dolor sit amet, consectetur {{% quote %}}Donald Jenkins{{% /quote %}} elit. In eget nunc et velit suscipit porta sed nec libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie sodales risus ac ullamcorper. Proin rhoncus risus ut sem lacinia dignissim placerat eros consectetur. Curabitur viverra, neque nec porttitor semper, sapien massa euismod erat, eget rutrum eros ligula sed nibh. Etiam purus felis, congue sed porta id, elementum ac dui. Nunc mattis justo in nisl consectetur a aliquam sem condimentum. Maecenas faucibus risus in augue egestas posuere. Proin aliquam luctus justo vitae adipiscing. Nunc porta blandit egestas. Integer scelerisque placerat urna, sed ultricies risus sollicitudin quis.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget nunc et velit suscipit porta sed nec libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie sodales risus ac ullamcorper. Proin rhoncus risus ut sem lacinia dignissim placerat eros consectetur. Curabitur viverra, neque nec porttitor semper, sapien massa euismod erat, eget rutrum eros ligula sed nibh. Etiam purus felis, congue sed porta id, elementum ac dui. Nunc mattis justo in nisl consectetur a aliquam sem condimentum. Maecenas faucibus risus in augue egestas posuere. Proin aliquam luctus justo vitae adipiscing. Nunc porta blandit egestas. Integer scelerisque placerat urna, sed ultricies risus sollicitudin quis.
+
+{{% quotation main-title="Moralia" url="https://en.wikipedia.org/wiki/Moralia" secondary-title="On Moral Virtue" date="c. 100 AD" publisher="Loeb" pages="71" %}}
+But for the sake of some little mouthful of flesh we deprive a soul of the sun and light, and of that proportion of life and time it had been born into the world to enjoy.
+<-source->
+Plutarch[^3]
+{{% /quotation %}}
 
 {{% alert danger %}}
 
@@ -92,11 +100,12 @@ Example text that _may_ contain **markdown** `markup`.
 {{% /alert %}}
 
 {{% alert %}}
-Example _with_ formatting **and** footnotes[^3].
+Example _with_ formatting **and** footnotes[^4].
 {{% /alert %}}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget nunc et velit suscipit porta sed nec libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie sodales risus ac ullamcorper. Proin rhoncus risus ut sem lacinia dignissim placerat eros consectetur. Curabitur viverra, neque nec porttitor semper, sapien massa euismod erat, eget rutrum eros ligula sed nibh. Etiam purus felis, congue sed porta id, elementum ac dui. Nunc mattis justo in nisl consectetur a aliquam sem condimentum. Maecenas faucibus risus in augue egestas posuere. Proin aliquam luctus justo vitae adipiscing. Nunc porta blandit egestas. Integer scelerisque placerat urna, sed ultricies risus sollicitudin quis.
 
 [^1]: Proin rhoncus risus ut sem lacinia dignissim placerat eros consectetur.
 [^2]: Curabitur viverra, neque nec [porttitor semper](https://www.silverejarrosson.com/), sapien massa euismod erat, eget _rutrum_ eros ligula sed nibh. Proin rhoncus risus ut sem lacinia dignissim placerat eros consectetur. Curabitur viverra, neque nec porttitor semper, sapien massa euismod erat, eget rutrum eros ligula sed nibh. Etiam purus felis, congue sed porta id, elementum ac dui. Nunc mattis justo in nisl consectetur a aliquam sem condimentum.
-[^3]: Nulla molestie sodales risus ac ullamcorper.
+[^3]: Cited in Franklin, Julian H., {{% cite %}}Animal rights and moral philosophy{{% /cite %}}. New York: Columbia University Press, 2005, p.&nbsp;6.
+[^4]: Nulla molestie sodales risus ac ullamcorper.

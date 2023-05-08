@@ -14,7 +14,7 @@ blockquote {
   position: relative;
   transition: 0.2s border ease-in-out;
   z-index: 0;
-  
+
   &:before {
     content: "";
     position: absolute;
@@ -25,13 +25,13 @@ blockquote {
     width: 5px;
     margin-top: -1em;
   }
-  
+
   &:after {
     content: "\201C";
     position: absolute;
     top: 50%;
     left: -0.5em;
-    color:  $brand-color;
+    color: $brand-color;
     width: 0.5rem;
     height: 0.33rem;
     font: 3em/0.54em $font-name, sans-serif;
@@ -41,11 +41,10 @@ blockquote {
     margin-top: -0.09em;
     transition: 0.2s all ease-in-out, 0.4s transform ease-in-out;
   }
-  
+
   &:active:after {
     transform: rotateY(360deg);
   }
-  
 }
 
 blockquote cite {
@@ -106,34 +105,25 @@ blockquote cite {
 
 .quote {
   font-size: inherit;
-  font-style: italic
+  font-style: italic;
 }
 
 blockquote {
   margin-bottom: 0;
   text-align: left;
-  padding-bottom: 1%
+  padding-bottom: 1%;
 }
 
-.quote-source {
-  padding: 1% 0 5%;
+.source {
+  padding: 0 0 5%;
+  margin: 0;
   text-align: right;
-  
-  &::before {
-    content: '\2014\2009';
-  }
-  
-  &::after {
-    content: '.'
-  }
-  
 }
 
-
-:lang(en)>q {
-  quotes: '\2018' '\2019' '\201C' '\201D'
+:lang(en) > q {
+  quotes: "\2018""\2019""\201C""\201D";
 }
 
-:lang(fr)>q {
-  quotes: '\00AB\202F' '\202F\00BB' '\201C' '\201D'
+:lang(fr) > q {
+  quotes: "\00AB\202F""\202F\00BB""\201C""\201D";
 }

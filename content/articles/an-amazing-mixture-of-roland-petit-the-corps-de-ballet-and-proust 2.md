@@ -30,7 +30,7 @@ But this time, I was impressed even further. Brigitte Lefèvre and her _Corps de
 > 
 > Je me suis concentré sur les histoires d’amour. Swann et Odette et la métaphore du catleya, Charlus qui se fait battre dans les bordels pour hommes, la « prisonnière » que son amant drogue et tient enfermée. Les scènes sont violentes, lyriques. D’une certaine manière, chez Proust tout est sexuel[^4].
 
-<figcaption class="quote-source">Interview by Ariane Bavelier, <em>Le Figaroscope</em>, February 28, 2007</figcaption>
+<figcaption class="source">Interview by Ariane Bavelier, <em>Le Figaroscope</em>, February 28, 2007</figcaption>
 
 Petit’s concentrate focuses quite a bit on the ambivalent Charlus, and he constructed this rendering of Proust (with the help of his friend Edmonde Charles-Roux) using the same techniques that he had successfully applied to Goethe (<em>Clavigo</em>), Mérimée (<em>Carmen</em>) and Hugo (<em>Notre-Dame de Paris</em>).
 
@@ -40,7 +40,7 @@ I was impressed well before the interval. But after Part II, an exploration of t
 
 > Il est possible que Morel, étant excessivement noir, fut nécessaire à Saint-Loup comme l’ombre l’est au rayon de soleil[^5].
 
-<figcaption class="quote-source">Marcel Proust, <em>À la recherche du temps perdu</em>, vol XIV, <em>Le temps retrouvé</em>, Chapter 1: Tansonville, 1927</figcaption>
+<figcaption class="source">Marcel Proust, <em>À la recherche du temps perdu</em>, vol XIV, <em>Le temps retrouvé</em>, Chapter 1: Tansonville, 1927</figcaption>
 
 At the traditional party at the _Rotonde du glacier_ where M Mortier always asks me, I had a long conversation with M Petit: he struck me, despite his advanced age, as outstandingly alive and lucid, resolutely contemporary in his outlook and filled with _joie de vivre_. Amazing, considering he entered the _Corps de ballet_ in 1940.
 

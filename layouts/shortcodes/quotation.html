@@ -1,0 +1,11 @@
+{{ printf "<figure class=\"quotation\">" | htmlUnescape | safeHTML }}
+{{- $split := split .Inner "<-source->" -}}
+{{ printf "<blockquote>" | htmlUnescape | safeHTML }}
+{{ printf "<p>" | htmlUnescape | safeHTML }}
+{{ index $split 0 | safeHTML }}
+{{ printf "</p>" | htmlUnescape | safeHTML }}
+{{ printf "</blockquote>" | htmlUnescape | safeHTML }}
+{{ printf "<figcaption class=\"source\">" | htmlUnescape | safeHTML }}
+  {{ index $split 1 | safeHTML }}{{ if .Get "main-title" }}. {{ if .Get "secondary-title" }}{{ printf "<q>" | htmlUnescape | safeHTML }}{{ .Get "secondary-title" | htmlUnescape | safeHTML  }}{{ printf ".</q> " | htmlUnescape | safeHTML }}{{ end }}{{ printf "<cite>" | htmlUnescape | safeHTML }}{{ if .Get "url" }}[{{ .Get "main-title" }}]({{ .Get "url" }}){{ else }}{{ .Get "main-title" }}{{ end }}{{ printf "</cite>" | htmlUnescape | safeHTML }}{{ end }}{{ if .Get "publisher" }}. {{ .Get "publisher" | htmlUnescape | safeHTML  }}{{ end }}{{ if .Get "date" }}, {{ .Get "date" | htmlUnescape | safeHTML }}{{ end }}{{ if .Get "pages" }} ({{ .Get "pages" | htmlUnescape | safeHTML }}){{ end }}.
+  {{ printf "</figcaption>" | htmlUnescape | safeHTML }}
+{{ printf "</figure>" | htmlUnescape | safeHTML }}

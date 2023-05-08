@@ -56,7 +56,7 @@ Just to make things worse, it turns out a number of commercial backup services c
 | CrashPlan Central                                                                     | Failed 12 of 20 tests | [see results](http://www.haystacksoftware.com/blog/2010/06/crashplan-restore-analysis/)       |
 | Jungle Disk                                                                           | Passes all tests      | [see results](http://blog.jungledisk.com/2009/11/13/what-does-extended-metadata-backup-mean/) |
 
-<cite class="quote-source">Source: <a href="http://www.haystacksoftware.com/arq/">Arq</a> 
+<cite class="source">Source: <a href="http://www.haystacksoftware.com/arq/">Arq</a> 
 website</cite>
 
 The Backup Bouncer data doesn’t, either, take account of the time it takes to carry out one’s initial backup. When I tried to back up a small MacBook with 150GB of data on Backblaze, it took three weeks of continuous use — and considerable CPU slowdown — for my initial upload of files to complete. Crashplan actually offers a service whereby you can [seed your initial backup](http://support.crashplan.com/doku.php/feature/seed_service), sending you a drive by post on which to transfer your data before sending it back to them, but they limit this to 1TB, and charge $124.99 for the service. I still think they are the best of the standard commercial backup services, if only because of this useful feature — but even they are hardly perfect.

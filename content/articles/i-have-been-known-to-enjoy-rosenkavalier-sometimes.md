@@ -27,7 +27,7 @@ The Introduction, which Strauss doesn’t even dare to call Overture, illustrate
 
 > The opera itself is such good <q>theatre</q> and so intensely human that it needs only reasonably good acting and expressive singing to enchant any audience, highbrow, lowbrow or no-brow.
 
-<figcaption class="quote-source"> Walter Legge, <em>Words and Music</em>, anthology edited by Alan Sanders, 1998, p. 34.  
+<figcaption class="source"> Walter Legge, <em>Words and Music</em>, anthology edited by Alan Sanders, 1998, p. 34.  
  </figcaption>
  
  The music, to me, is a similar mix of vulgarity and elegance: the dazzlingly complex score is rather disconcerting. At any rate it takes us rather far from eighteenth-century standards. The occasional hint of Mozart is not enough to rectify this. The orchestra, especially the winds, are quite overbearing from beginning to end. This is actually the opposite of a classical opera when the instruments subtly and discreetly accompany the voices. I simply cannot understand the widely-held view according to which Hofmannstahl accompanied Strauss on the road to neoclassicism.
