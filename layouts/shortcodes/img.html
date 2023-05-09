@@ -55,7 +55,7 @@
   </picture>
 
   {{ if .Get "caption"}}
-  {{ if le (len $caption) 70 }}<figcaption class="caption">{{ else }}
+  {{ if le (len $caption) 170 }}<figcaption class="caption">{{ else }}
   <figcaption class="long-caption">{{ end }}{{ .Get "caption" | markdownify }}</figcaption>
   {{ end }}
 </figure>

@@ -210,6 +210,10 @@ table {
   font-weight: var(--font-weight-bold);
 }
 
+.meta p {
+  line-height: var(--line-height-smaller);
+}
+
 .source {
   font-size: var(--font-size-smaller);
   font-weight: var(--font-weight-normal);
