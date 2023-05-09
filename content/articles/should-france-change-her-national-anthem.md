@@ -18,7 +18,7 @@ noindex: false
 hasvideojs: true
 ---
 
-{{% video src="0d0bc921903e2c01d970b3598bfee83f" id="dunois" caption="The poem by Labarde was originally titled _Le beau Dunois_ telling the story of the handsome crusader Dunois. Prior to his departure to Syria he prays to the Virgin Mary that he will love the most beautiful woman and that he himself may be the bravest. His prayers are answered. On his return the brave warrior wins the hand of Isabelle. Love and honour prevail.—Paula Bär-Giese, soprano and pianist." %}}
+{{% video src="0d0bc921903e2c01d970b3598bfee83f" caption="The poem by Labarde was originally titled _Le beau Dunois_ telling the story of the handsome crusader Dunois. Prior to his departure to Syria he prays to the Virgin Mary that he will love the most beautiful woman and that he himself may be the bravest. His prayers are answered. On his return the brave warrior wins the hand of Isabelle. Love and honour prevail.—Paula Bär-Giese, soprano and pianist." %}}
 
 Campaigns are periodically mounted by more or less _louche_ individuals to change the words of _La Marseillaise_, France’s national anthem. I personally see nothing wrong with the words of that anthem, which reflects the context at the time it was composed and, to a lesser extent, the rather tense moment when it became France’s official anthem [^1].
 

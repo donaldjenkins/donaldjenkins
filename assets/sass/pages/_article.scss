@@ -2,18 +2,17 @@
 // This file contains all styles related to the article template.
 // -----------------------------------------------------------------------------
 
-hgroup {
+#main-heading {
   border-bottom: 1px solid $grey-lighter;
 }
 
-hgroup h1 {
+article h1 {
   line-height: calc((var(--line-height-1)) * 0.85);
   padding-bottom: 0.3rem;
 }
 
-.meta {
-  margin-bottom: 1.25em;
-  line-height: 1.25em;
+#bottom-meta {
+  margin: $padding 0 0;
 }
 
 .meta a {

@@ -31,6 +31,7 @@
 */
 .footnote-ref {
   font-style: normal;
+  font-weight: var(--font-weight-semi-bold);
   color: var(--reference-color);
   text-decoration: none;
 
@@ -52,6 +53,7 @@
 }
 
 .footnotes li::marker {
+  font-weight: var(--font-weight-semi-bold);
   color: var(--reference-color);
 }
 
