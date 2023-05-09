@@ -1,3 +1,4 @@
+{{ $caption := .Get "caption" }}
 <figure class="picture">
   <picture>
     <source srcset="{{ .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=960
@@ -54,6 +55,7 @@
   </picture>
 
   {{ if .Get "caption"}}
-  <figcaption class="caption">{{ .Get "caption" | markdownify }}</figcaption>
+  {{ if le (len $caption) 70 }}<figcaption class="caption">{{ else }}
+  <figcaption class="long-caption">{{ end }}{{ .Get "caption" | markdownify }}</figcaption>
   {{ end }}
 </figure>
