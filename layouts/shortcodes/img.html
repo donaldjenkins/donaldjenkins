@@ -54,6 +54,6 @@
   </picture>
 
   {{ if .Get "caption"}}
-  <figcaption class="caption">{{ .Get "caption" }}</figcaption>
+  <figcaption class="caption">{{ .Get "caption" | markdownify }}</figcaption>
   {{ end }}
 </figure>

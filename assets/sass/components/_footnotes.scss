@@ -20,12 +20,15 @@
   margin-top: calc($padding * 0.3);
 }
 
+/*
 .footnotes p,
 .footnote-ref,
+.footnote-backref,
 .footnotes li::marker {
   font-size: 0.875rem;
   font-weight: var(font-weight-medium);
 }
+*/
 
 .footnote-ref {
   color: var(--reference-color);

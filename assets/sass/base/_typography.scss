@@ -230,3 +230,11 @@ strong a,
 em a {
   font-weight: inherit;
 }
+
+.footnotes p,
+.footnote-ref,
+.footnote-backref,
+.footnotes li::marker {
+  font-size: var(--font-size-smaller);
+  font-weight: var(font-weight-medium);
+}
