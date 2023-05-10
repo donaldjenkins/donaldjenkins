@@ -13,7 +13,7 @@ summary: "The time has come to consolidate all the posts I’ve written since 20
 featured_image: "e2ae3386-2309-4fca-f6a0-37ead5b01300"
 author: "Donald Jenkins"
 showthedate: false
-tableOfContents: true
+tableofcontents: false
 noindex: false
 ---
 

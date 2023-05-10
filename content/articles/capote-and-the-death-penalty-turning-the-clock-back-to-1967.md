@@ -13,7 +13,7 @@ summary: "A review of the film about Truman, Capote, in which one deliberately v
 featured_image: "dfc27170-19a1-496e-2f94-38d494457000"
 author: "Donald Jenkins"
 showthedate: false
-tableOfContents: true
+tableofcontents: false
 noindex: false
 ---
 

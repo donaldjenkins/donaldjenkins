@@ -23,9 +23,9 @@ summary: "In the first part, I cover the modern factory farm and present selecte
 featured_image: "/Volumes/Macintosh HD/Users/donaldjenkins/Sites/donaldjenkins/.gitignore"
 author: "Donald Jenkins"
 showthedate: false
-tableOfContents: true
+tableofcontents: true
 noindex: false
-hasvideojs: true
+hasvideo: true
 ---
 
 {{% quotation main-title="Moralia" url="https://en.wikipedia.org/wiki/Moralia" secondary-title="The Eating of Animal Flesh" date="c. 100 AD" %}}
@@ -34,9 +34,9 @@ But for the sake of some little mouthful of flesh we deprive a soul of the sun a
 Plutarch
 {{% /quotation %}}
 
-{{% video src="d450cab4fb7c2fa40760c8ab236284ed" thumb-time="49" caption="An undercover investigation into the Chino slaughterhouse near Los Angeles." %}}
-
+{{% video-new src="d450cab4fb7c2fa40760c8ab236284ed" thumb-time="59" %}}
 In 2008, tens of millions of Americans watched with horror and disbelief when they saw on their evening news an undercover video of cattle too sick to walk being kicked, shocked with electric prods, jabbed in the eye with a baton, and pushed around with a forklift, all so that they could be driven near enough to the {{% quote %}}kill box{{% /quote %}} to be slaughtered and processed into meat. The video was taken at the [Westland/Hallmark slaughterhouse](https://eu.usatoday.com/story/news/nation/2012/11/16/california-slaughterhouse-fraud-settlement-beef-recall/1710693/), in Chino, California — a large, supposedly state-of-the-art operation and a major supplier to the National School Lunch Program, located not in a rural backwater but just thirty miles from the heart of Los Angeles[^2].
+{{% /video-new %}}
 
 In this article — clearly a {{% quote %}}[long read](https://en.wikipedia.org/wiki/Long-form_journalism){{% /quote %}}, by the standards of this website — I will be considering the subject of our treatment of non-humans as a serious political and moral discussion, one in which many people are reluctant, or at best embarrassed, to engage. Perhaps this is because, when they witness video footage of farmers [bludgeoning cows with sledgehammers](https://investigations.peta.org/cambodian-slaughterhouse-cows/), [throwing live baby chicks into grinders](https://www.peta.org/blog/ban-grinding-chicks-alive/), or [chopping off the tails of screaming sheep](https://headlines.peta.org/wool-videos-prove-sheep-suffer/), they have only two options: agree that our relationship with non-human animals needs to be completely reset, and that this has moral, legal and practical consequences, or admit that they don’t care about these sentient beings. But they can never again claim ignorance, and bury their heads in the sand — as the food industry has been so successful in [making them do](https://www.bbc.com/future/article/20190206-what-the-meat-paradox-reveals-about-moral-decision-making) — about the ham sandwiches, roast beef, fried chicken, and all those other items in their diet that they prefer not to think of as cruelly-slaughtered dead animals. The ability of otherwise intelligent and educated people to avoid confronting this issue is astonishing: people normally attentive to showing kindness and fairness turn a systematic blind eye to overwhelming and growing evidence that the non-human animals who share our destiny as living creatures, and a common ancestry, also share much, if not all, of our ability to have feelings and to experience pain and suffering, despite having followed a different evolutionary path to ours.
 
@@ -57,11 +57,7 @@ The belated realisation that for my entire life, I had directly benefited from a
 I am an active member of [L214](https://www.l214.com) in France, and of [People for the Ethical Treatment of Animals](https://www.peta.org) in the United States. For what being vegan represents and and entails for me, see below.
 {{% /alert %}}
 
-## Table of contents
-
 There are two parts to this rather long article. In the [first part](#eternal-treblinka), after describing the modern [factory farm](#factory-farm) and presenting selected evidence of the [gross cruelty](#animals-cant-go-to-hell) meted out to billions of farm animals in order to provide us with ever-cheaper meat, I will describe the philosophical and legal framework which legitimises dominion and ownership by man over non-humans, with the [assertion](#mechanistic-framework) that they feel little or no pain. In the [second part](#our-categorical-imperative), I will turn to the [evidence](#ontological-evidence) — equally incontrovertible — that the farm animals we abuse share with us the ability to feel pain and pleasure and, more generally, to desire a better life. I will then suggest a [philosophical framework](#defining-a-moral-philosophy), based on giving animals rights similar to those enjoyed by humans in Kant’s [categorical imperative](#including-non-humans-in-categorical-imperative). Animals enjoy legal standing and a form of citizenship in the [public policy system](#public-policy-consequences) derived from the preceding philosophical discussion. I will conclude with some [practical steps](#practical-steps) we can take to actually improve animals’ lives.
-
-{{ .TableOfContents }}
 
 ## The Eternal Treblinka, otherwise known as the factory farm
 
@@ -189,7 +185,9 @@ One possible cause of these issues is the act of actually feeding rendered beef 
 
 Around the age of fourteen to sixteen months — a cow’s normal life expectancy is about twenty years — the cattle are herded from their cramped feedlots to the slaughterhouse.
 
-{{% video src="685d8bda2613cb9fdf5d5d790d1b1406" thumb-time="106" caption="At the French Sobeval slaughterhouse, seven hundred calves — ninety per hour — are slaughtered daily, without being previously stunned. In some cases they are strung up while still living and will endure a prolonged agony before they finally die. The meat from this slaughterhouse — which exports to the United States — receives France’s official {{% quote %}}organic{{% /quote %}} ({{% quote %}}bio{{% /quote %}}) label and the hides are sold to luxury firms such as Chanel. The French authorities [decided not to take action](/documents/french-authorities-refuse-to-close-slaughterhouse.pdf) after the video was published, and it is still in operation[^31]. This whistleblower video produced by [L214](https://www.l214.com) is in French: details are available on the [L214 website](https://www.l214.com/enquetes/2020/abattoir-veaux-sobeval/)." %}}
+{{% video-new src="685d8bda2613cb9fdf5d5d790d1b1406" thumb-time="106" %}}
+At the French Sobeval slaughterhouse, seven hundred calves — ninety per hour — are slaughtered daily, without being previously stunned. In some cases they are strung up while still living and will endure a prolonged agony before they finally die. The meat from this slaughterhouse — which exports to the United States — receives France’s official {{% quote %}}organic{{% /quote %}} ({{% quote %}}bio{{% /quote %}}) label and the hides are sold to luxury firms such as Chanel. The French authorities [decided not to take action](/documents/french-authorities-refuse-to-close-slaughterhouse.pdf) after the video was published, and it is still in operation[^31]. This whistleblower video produced by [L214](https://www.l214.com) is in French: details are available on the [L214 website](https://www.l214.com/enquetes/2020/abattoir-veaux-sobeval/)
+{{% /video-new  %}}
 
 ###### Dairy cows
 
@@ -475,7 +473,7 @@ Scruton’s argument based on indirect obligation, exemplified by love of pets, 
 
 The Benthamite view of animal rights, of course, sits somewhat uncomfortably with Bentham’s own famous rejection of {{% quote %}}natural rights{{% /quote %}} as {{% quote %}}nonsense{{% /quote %}} and {{% quote %}}natural and imprescriptable rights{{% /quote %}} as {{% quote %}}nonsense upon stilts[^118]{{% /quote %}}
 
-This is not to hold that care — in the sense of compassion — is of no use in furthering animal rights. The law is often hard, and with respect to animals notoriously so. But compassion can also be erratic and destructive unless it is guided by rational considerations. Autors such as Franklin, who reject utilitarianism and prefer a rights-based approach, believe the ultimate criterion for reform must therefore be the moral imperative[^119].
+This is not to hold that care — in the sense of compassion — is of no use in furthering animal rights. The law is often hard, and with respect to animals notoriously so. But compassion can also be erratic and destructive unless it is guided by rational considerations. Authors such as Franklin, who reject utilitarianism and prefer a rights-based approach, believe the ultimate criterion for reform must therefore be the moral imperative[^119].
 
 In the wider field of contemporary moral philosophy, the leading figures have been moving away from utilitarianism for some time: a fundamental presupposition of their moral theories is the requirement that everyone’s interests are given equal consideration[^120].
 

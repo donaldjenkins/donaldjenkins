@@ -1,0 +1,56 @@
+{{ $data := newScratch }}
+{{ $path := site.Params.video_url }}
+{{ $data.Set "url" $path }}
+{{ $src := .Get "src" }}
+{{ $data.Add "url" $src }}
+
+{{ $video_url := $data.Get "url" }}
+{{ $data.Set "video-url" $video_url }}
+{{ $video_suffix := site.Params.video_suffix }}
+{{ $data.Add "video-url" $video_suffix }}
+{{ $video_url = $data.Get "video-url" }}
+
+{{ $thumbnail_url := $data.Get "url" }}
+{{ $data.Set "thumbnail-url" $thumbnail_url }}
+{{ $thumbnail_suffix := site.Params.thumbnail_suffix }}
+{{ $data.Add "thumbnail-url" $thumbnail_suffix }}
+{{ $thumb_time := "1" }}
+
+{{ if .Get "thumb-time" }}
+{{ $thumb_time = .Get "thumb-time" }}
+{{ end }}
+
+{{ $data.Add "thumbnail-url" $thumb_time }}
+{{ $data.Add "thumbnail-url" "s" }}
+{{ $thumbnail_url := $data.Get "thumbnail-url" }}
+
+{{ if .Get "thumbnail" }}
+{{ $thumbnail_url = site.Params.asset_thumbnails }}
+{{ $data.Set "thumbnail-url" $thumbnail_url }}
+{{ $data.Add "thumbnail-url" $src }}
+{{ $data.Add "thumbnail-url" ".jpg" }}
+{{ $thumbnail_url = $data.Get "thumbnail-url" }}
+{{ end }}
+
+{{ $aspect_ratio := "16:9" }}
+{{ if .Get "aspect-ratio" }}
+{{ $aspect_ratio = .Get "aspect-ratio" }}
+{{ end }}
+
+{{ printf "<figure class=\"player\">" | htmlUnescape | safeHTML }}
+{{ printf "<media-player" | htmlUnescape | safeHTML }}
+  {{ printf "src=\" %s" $video_url | htmlUnescape | safeHTML }}"
+  {{ printf "poster=\" %s" $thumbnail_url | htmlUnescape | safeHTML }}"
+  {{ printf "controls" | htmlUnescape | safeHTML }}
+  {{ printf "aspect-ratio=\" %s" $aspect_ratio | htmlUnescape | safeHTML }}"
+  {{ printf "load=\"visible\"" | htmlUnescape | safeHTML }}
+  role="region"
+{{ printf ">" | htmlUnescape | safeHTML }}
+  {{ printf "<media-outlet>" | htmlUnescape | safeHTML }}{{ printf "</media-outlet>" | htmlUnescape | safeHTML }}
+{{ printf "</media-player>" | htmlUnescape | safeHTML }}
+{{ if .Inner }}
+{{ printf "<figcaption>" | htmlUnescape | safeHTML }}
+{{ .Inner | safeHTML }}
+{{ printf "</figcaption>" | htmlUnescape | safeHTML }}
+{{ end }}
+{{ printf "</figure>" | htmlUnescape | safeHTML }}

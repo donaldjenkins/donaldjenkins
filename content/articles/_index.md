@@ -11,7 +11,7 @@ summary: "I don’t just take pictures, I also write. The full list of topics is
 featured_image: "969a796-2fbc-451f-ba14-8f6e0276b000"
 author: "Donald Jenkins"
 showthedate: false
-tableOfContents: true
+tableofcontents: false
 noindex: false
 ---
 Donald started publishing articles in 2005. A selection of his older contributions, listed below, is still online and new ones will continue to be published when inspiration and circumstances so dictate. Most of his articles are here, but, obviously, you can look him up on   [Twitter](https://www.twitter.com/donaldjenkins) if you yearn for more frequent updates from him.</aside>

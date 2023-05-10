@@ -13,7 +13,7 @@ summary: "A review of Benjamin Millepied''s ballet *Amoveo*, which was attended 
 featured_image: "b538a8dc-ae39-4270-7c7e-95ffd5ff5400"
 author: "Donald Jenkins"
 showthedate: false
-tableOfContents: true
+tableofcontents: false
 noindex: false
 ---
 

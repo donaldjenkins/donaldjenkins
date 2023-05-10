@@ -13,7 +13,7 @@ summary: "Idomeneo is a major turning-point, not just in Mozart’s music, but i
 featured_image: "abfb62c7-8157-488a-7219-dcbdd2e46700"
 author: "Donald Jenkins"
 showthedate: false
-tableOfContents: true
+tableofcontents: false
 noindex: false
 ---
 

@@ -13,7 +13,7 @@ summary: "I'm in no doubt that America needs universal health care for the same 
 featured_image: "969a796-2fbc-451f-ba14-8f6e0276b000"
 author: "Donald Jenkins"
 showthedate: true
-tableOfContents: true
+tableofcontents: false
 noindex: false
 ---
 

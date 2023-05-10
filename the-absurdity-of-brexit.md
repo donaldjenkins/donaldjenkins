@@ -13,7 +13,7 @@ summary: "The Conservative case for Remain: from a British perspective, the case
 featured_image: "2c816860-d894-4286-02ad-3d6161ef1f00"
 author: "Donald Jenkins"
 showthedate: false
-tableOfContents: true
+tableofcontents: false
 noindex: false
 ---
 

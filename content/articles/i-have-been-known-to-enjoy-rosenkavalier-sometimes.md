@@ -13,7 +13,7 @@ summary: "I’m always uncomfortable with Strauss. I find him impossible to fath
 featured_image: "43af1067-aaa1-4270-fa9d-f3f7f8abb200"
 author: "Donald Jenkins"
 showthedate: false
-tableOfContents: true
+tableofcontents: false
 noindex: false
 ---
 

@@ -13,7 +13,7 @@ summary: "Britain and France have a long and distinguished history of military c
 featured_image: "132b1a58-b4c1-4b00-5546-bbb1408ee000"
 author: "Donald Jenkins"
 showthedate: false
-tableOfContents: true
+tableofcontents: false
 noindex: false
 ---
 

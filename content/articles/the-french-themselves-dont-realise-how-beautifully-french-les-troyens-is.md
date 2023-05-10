@@ -13,7 +13,7 @@ summary: "A quick review of *Les Troyens*, arguably France''s most beautiful ope
 featured_image: "c8494c68-77fa-43be-1ff8-0c7cebde1600"
 author: "Donald Jenkins"
 showthedate: false
-tableOfContents: true
+tableofcontents: false
 noindex: false
 ---
 

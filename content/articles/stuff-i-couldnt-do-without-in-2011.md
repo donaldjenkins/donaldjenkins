@@ -13,7 +13,7 @@ summary: "My regular annual list of material possessions with which I cannot dis
 featured_image: "d4b77ae1-28ca-47f3-0c73-6083d56fef00"
 author: "Donald Jenkins"
 showthedate: false
-tableOfContents: true
+tableofcontents: false
 noindex: false
 ---
 

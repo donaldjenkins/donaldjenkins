@@ -93,6 +93,16 @@
   }
 }
 
+@include media("<smartphone") {
+  .alert {
+    margin-inline: -6vw;
+    width: calc(100% + 12vw);
+    max-width: none;
+    border-radius: unset;
+    box-sizing: border-box;
+  }
+}
+
 /* Source: https://codepen.io/jepooley/pen/NWYryap */
 
 // Colors

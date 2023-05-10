@@ -13,7 +13,7 @@ summary: "Mac is among the most difficult systems to backup and restore correctl
 featured_image: "969a796-2fbc-451f-ba14-8f6e0276b000"
 author: "Donald Jenkins"
 showthedate: false
-tableOfContents: true
+tableofcontents: false
 noindex: false
 ---
 

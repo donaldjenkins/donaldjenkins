@@ -13,14 +13,16 @@ summary: "I wish all who read this a very Happy New Year: I am certain I am not 
 featured_image: "969a796-2fbc-451f-ba14-8f6e0276b000"
 author: "Donald Jenkins"
 showthedate: false
-tableOfContents: true
+tableofcontents: false
 noindex: false
-hasvideojs: true
+hasvideo: true
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget nunc et velit suscipit porta sed nec libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie sodales risus ac ullamcorper. Proin rhoncus risus ut sem lacinia dignissim placerat eros consectetur. Curabitur viverra, neque nec porttitor semper, sapien massa euismod erat, eget rutrum eros [ligula](https://www.twitter.com/donaldjenkins) sed nibh. Etiam purus felis, congue sed porta id, elementum ac dui. Nunc mattis justo in _nisl consectetur_ a aliquam sem condimentum. Maecenas faucibus risus in augue egestas posuere. **Proin aliquam luctus justo vitae adipiscing.** Nunc porta blandit egestas. Integer scelerisque placerat urna, sed ultricies risus sollicitudin quis.
 
-{{< img src="d969a796-2fbc-451f-ba14-8f6e0276b000" caption="Donald Jenkins writes, takes photographs and dabbles in web design. He’s also a co-founder of the political social network start-up Policymakr." >}}
+{{% img src="d969a796-2fbc-451f-ba14-8f6e0276b000" caption="Donald Jenkins writes, takes photographs and dabbles in web design. He’s also a co-founder of the political social network start-up [Policymakr](https://www.policymakr.com)." %}}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget nunc et velit suscipit porta sed nec libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie sodales risus ac ullamcorper. Proin rhoncus risus ut sem lacinia dignissim placerat eros consectetur. Curabitur viverra, neque nec porttitor semper, sapien massa euismod erat, eget rutrum eros ligula sed nibh. Etiam purus felis, congue sed porta id, elementum ac dui.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget nunc et velit suscipit porta sed nec libero. _Lorem ipsum dolor sit amet, consectetur adipiscing elit._ Nulla molestie sodales risus ac ullamcorper. Proin rhoncus risus ut sem lacinia dignissim placerat eros consectetur:
 
@@ -31,9 +33,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget nunc et velit s
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget nunc et velit suscipit porta sed nec libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie sodales risus ac ullamcorper. Proin rhoncus risus ut sem lacinia dignissim placerat eros consectetur. Curabitur viverra, neque nec porttitor semper, sapien massa euismod erat, eget rutrum eros ligula sed nibh. Etiam purus felis, congue sed porta id, elementum ac dui. Nunc mattis justo in nisl consectetur a aliquam sem condimentum. Maecenas faucibus risus in augue egestas posuere. Proin aliquam luctus justo vitae adipiscing. Nunc porta blandit egestas. Integer scelerisque placerat urna, sed ultricies risus sollicitudin quis.
 
 {{% quotation main-title="Moralia" url="https://en.wikipedia.org/wiki/Moralia" secondary-title="On Moral Virtue" date="c. 100 AD" publisher="Loeb" pages="71" %}}
-But for the sake of some little mouthful of flesh we deprive a soul of the sun and light, and of that proportion of life and time it had been born into the world to enjoy.
+But for the sake of some little mouthful of flesh we deprive a soul of the sun and light, and of that proportion of life[^1] and time it had been born into the world to enjoy.
 <-source->
-Plutarch[^1]
+Plutarch
 {{% /quotation %}}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget nunc et velit suscipit porta sed nec libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie sodales risus ac ullamcorper. Proin rhoncus risus ut sem lacinia dignissim placerat eros consectetur. Curabitur viverra, neque nec porttitor semper, sapien massa euismod erat, eget rutrum eros ligula sed nibh. Etiam purus felis, congue sed porta id, elementum ac dui. Nunc mattis justo in nisl consectetur a aliquam sem condimentum. Maecenas faucibus risus in augue egestas posuere. Proin aliquam luctus justo vitae adipiscing. Nunc porta blandit egestas. Integer scelerisque placerat urna, sed ultricies risus sollicitudin quis.
@@ -47,9 +49,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget nunc et velit s
 | CrashPlan Central                                                                     | Failed 12 of 20 tests | [see results](http://www.haystacksoftware.com/blog/2010/06/crashplan-restore-analysis/)       |
 | Jungle Disk                                                                           | Passes all tests      | [see results](http://blog.jungledisk.com/2009/11/13/what-does-extended-metadata-backup-mean/) |
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget nunc et velit suscipit porta sed nec libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie sodales[^2] risus ac ullamcorper. Proin rhoncus risus ut sem lacinia dignissim placerat eros consectetur. Curabitur viverra, neque nec porttitor semper, sapien massa euismod erat, eget rutrum eros ligula sed nibh. Etiam purus felis, congue sed porta id, elementum ac dui. Nunc mattis justo in nisl consectetur a aliquam sem condimentum. Maecenas faucibus[^3] risus in augue egestas posuere. Proin aliquam luctus justo vitae adipiscing. Nunc porta blandit egestas. Integer scelerisque placerat urna, sed ultricies risus sollicitudin quis.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget nunc et velit suscipit porta sed nec libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie sodales risus ac ullamcorper. Proin rhoncus risus ut sem lacinia dignissim placerat eros consectetur. Curabitur viverra, neque nec porttitor semper, sapien massa euismod erat, eget rutrum eros ligula sed nibh. Etiam purus felis, congue sed porta id, elementum ac dui. Nunc mattis justo in nisl consectetur a aliquam sem condimentum. Maecenas faucibus[^2] risus in augue egestas posuere. Proin aliquam luctus justo vitae adipiscing. Nunc porta blandit egestas. Integer scelerisque placerat urna, sed ultricies risus sollicitudin quis.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget nunc et velit suscipit porta sed nec libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie sodales risus ac ullamcorper. Proin rhoncus risus ut sem lacinia dignissim placerat eros consectetur. Curabitur viverra, neque nec porttitor semper, sapien massa euismod erat, eget rutrum eros ligula sed nibh. Etiam purus felis, congue sed porta id, elementum ac dui. Nunc mattis justo in nisl consectetur a aliquam sem condimentum. Maecenas faucibus risus in augue egestas posuere. Proin aliquam luctus justo vitae adipiscing. Nunc porta blandit egestas. Integer scelerisque placerat urna, sed ultricies risus sollicitudin quis.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit[^3]. In eget nunc et velit suscipit porta sed nec libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie sodales risus ac ullamcorper. Proin rhoncus risus ut sem lacinia dignissim placerat eros consectetur. Curabitur viverra, neque nec porttitor semper, sapien massa euismod erat, eget rutrum eros ligula sed nibh. Etiam purus felis, congue sed porta id, elementum ac dui. Nunc mattis justo in nisl consectetur a aliquam sem condimentum. Maecenas faucibus risus in augue egestas posuere. Proin aliquam luctus justo vitae adipiscing. Nunc porta blandit egestas. Integer scelerisque placerat urna, sed ultricies risus sollicitudin quis.
 
 ## Heading 2: Proin rhoncus risus ut sem lacinia dignissim placerat eros consectetur. Curabitur viverra, neque nec porttitor semper, sapien massa euismod erat, eget rutrum eros ligula sed nibh.
 
@@ -71,7 +73,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget nunc et velit s
 
 Lorem ipsum dolor Lorem ipsum dolor sit amet, consectetur {{% quote %}}Donald Jenkins{{% /quote %}} elit. In eget nunc et velit suscipit porta sed nec libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie sodales risus ac ullamcorper. Proin rhoncus risus ut sem lacinia dignissim placerat eros consectetur. Curabitur viverra, neque nec porttitor semper, sapien massa euismod erat, eget rutrum eros ligula sed nibh. Etiam purus felis, congue sed porta id, elementum ac dui. Nunc mattis justo in nisl consectetur a aliquam sem condimentum. Maecenas faucibus risus in augue egestas posuere. Proin aliquam luctus justo vitae adipiscing. Nunc porta blandit egestas. Integer scelerisque placerat urna, sed ultricies risus sollicitudin quis.
 
-{{% video src="d450cab4fb7c2fa40760c8ab236284ed" caption="In 2008, tens of millions of Americans watched with horror and disbelief when they saw on their evening news an undercover video of cattle too sick to walk being kicked, shocked with electric prods, jabbed in the eye with a baton, and pushed around with a forklift, all so that they could be driven near enough to the {{% quote %}}kill box{{% /quote %}} to be slaughtered and processed into meat. The video was taken at the [Westland/Hallmark slaughterhouse](https://eu.usatoday.com/story/news/nation/2012/11/16/california-slaughterhouse-fraud-settlement-beef-recall/1710693/), in Chino, California — a large, supposedly state-of-the-art operation and a major supplier to the National School Lunch Program, located not in a rural backwater but just thirty miles from the heart of Los Angeles. " %}}
+{{% video-new src="0d0bc921903e2c01d970b3598bfee83f" %}}
+The poem by Labarde was originally titled _Le beau Dunois_ telling the story of the handsome crusader Dunois. Prior to his departure to **Syria** he prays to the Virgin Mary that he will love the most beautiful woman and that he himself may be the bravest. His prayers are answered. On his return the brave warrior wins the hand of Isabelle. Love and honour prevail.—[Paula Bär-Giese](https://www.instagram.com/bargiese/?hl=en), soprano and pianist[^4].
+{{% /video-new %}}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget nunc et velit suscipit porta sed nec libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie sodales risus ac ullamcorper. Proin rhoncus risus ut sem lacinia dignissim placerat eros consectetur. Curabitur viverra, neque nec porttitor semper, sapien massa euismod erat, eget rutrum eros ligula sed nibh. Etiam purus felis, congue sed porta id, elementum ac dui. Nunc mattis justo in nisl consectetur a aliquam sem condimentum. Maecenas faucibus risus in augue egestas posuere. Proin aliquam luctus justo vitae adipiscing. Nunc porta blandit egestas. Integer scelerisque placerat urna, sed ultricies risus sollicitudin quis.
 
@@ -102,7 +106,7 @@ Example text that _may_ contain **markdown** `markup`.
 {{% /alert %}}
 
 {{% alert %}}
-Example _with_ formatting **and** footnotes[^4].
+Example _with_ formatting **and** footnotes[^5].
 {{% /alert %}}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget nunc et velit suscipit porta sed nec libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie sodales risus ac ullamcorper. Proin rhoncus risus ut sem lacinia dignissim placerat eros consectetur. Curabitur viverra, neque nec porttitor semper, sapien massa euismod erat, eget rutrum eros ligula sed nibh. Etiam purus felis, congue sed porta id, elementum ac dui. Nunc mattis justo in nisl consectetur a aliquam sem condimentum. Maecenas faucibus risus in augue egestas posuere. Proin aliquam luctus justo vitae adipiscing. Nunc porta blandit egestas. Integer scelerisque placerat urna, sed ultricies risus sollicitudin quis.
@@ -110,4 +114,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget nunc et velit s
 [^1]: Cited in Franklin, Julian H., {{% cite %}}Animal rights and moral philosophy{{% /cite %}}. New York: Columbia University Press, 2005, p.&nbsp;6.
 [^2]: Proin rhoncus risus ut sem lacinia dignissim placerat eros consectetur.
 [^3]: Curabitur viverra, neque nec [porttitor semper](https://www.silverejarrosson.com/), sapien massa euismod erat, eget _rutrum_ eros ligula sed nibh. Proin rhoncus risus ut sem lacinia dignissim placerat eros consectetur. Curabitur viverra, neque nec porttitor semper, sapien massa euismod erat, eget rutrum eros ligula sed nibh. Etiam purus felis, congue sed porta id, elementum ac dui. Nunc mattis justo in nisl consectetur a aliquam sem condimentum.
-[^4]: Nulla molestie sodales risus ac ullamcorper.
+[^4]: Donald Jenkins writes, takes photographs and dabbles in web design. He’s also a co-founder of the political social network start-up Policymakr.
+[^5]: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget nunc et velit suscipit porta sed nec libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie sodales risus ac ullamcorper. Proin rhoncus risus ut sem lacinia dignissim placerat eros consectetur. Curabitur viverra, neque nec porttitor semper, sapien massa euismod erat, eget rutrum eros ligula sed nibh. Etiam purus felis, congue sed porta id, elementum ac dui. Nunc mattis justo in nisl consectetur a aliquam sem condimentum. Maecenas faucibus risus in augue egestas posuere. Proin aliquam luctus justo vitae adipiscing. Nunc porta blandit egestas. Integer scelerisque placerat urna, sed ultricies risus sollicitudin quis.

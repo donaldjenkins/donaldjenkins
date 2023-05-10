@@ -14,7 +14,7 @@ summary: "Quite simply put, the most important words ever written: a recollectio
 featured_image: "4ce546a9-7c95-47e7-7458-c5e1a8ff0800"
 author: "Donald Jenkins"
 showthedate: false
-tableOfContents: true
+tableofcontents: false
 noindex: false
 ---
 

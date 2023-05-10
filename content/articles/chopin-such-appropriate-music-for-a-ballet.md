@@ -13,7 +13,7 @@ summary: "A review of *La Dame aux camellias* directed by Neumaier, Americas mos
 featured_image: "500f34b8-ba54-4d0e-e2d7-a04ec6e12600"
 author: "Donald Jenkins"
 showthedate: false
-tableOfContents: true
+tableofcontents: false
 noindex: false
 ---
 

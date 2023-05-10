@@ -13,7 +13,7 @@ summary: "While I have not changed my view that leaving is a mistake, I accept t
 featured_image: "ebf563c5-ab6a-4d35-18c7-6f41ade92200"
 author: "Donald Jenkins"
 showthedate: false
-tableOfContents: true
+tableofcontents: false
 noindex: false
 ---
 

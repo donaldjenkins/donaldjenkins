@@ -13,7 +13,7 @@ summary: "With the change in my lifestyle, interests and job that occurred last 
 featured_image: "6615d66d-06ac-4dc7-c285-b2e068edfb00"
 author: "Donald Jenkins"
 showthedate: false
-tableOfContents: true
+tableofcontents: false
 noindex: false
 ---
 

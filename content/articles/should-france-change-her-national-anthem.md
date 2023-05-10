@@ -13,9 +13,9 @@ summary: "A modest, and rather frivolous, contribution to the debate that someti
 featured_image: "36215c54-8eb9-453e-12f9-3b7044616a00"
 author: "Donald Jenkins"
 showthedate: false
-tableOfContents: true
+tableofcontents: false
 noindex: false
-hasvideojs: true
+hasvideo: true
 ---
 
 {{% video src="0d0bc921903e2c01d970b3598bfee83f" caption="The poem by Labarde was originally titled _Le beau Dunois_ telling the story of the handsome crusader Dunois. Prior to his departure to Syria he prays to the Virgin Mary that he will love the most beautiful woman and that he himself may be the bravest. His prayers are answered. On his return the brave warrior wins the hand of Isabelle. Love and honour prevail.—Paula Bär-Giese, soprano and pianist." %}}

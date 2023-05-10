@@ -13,7 +13,7 @@ summary: "A short post written at a challenging time. Yet one of the many the be
 featured_image: "6c6bd85c-3fdb-4ae1-a445-d6e2b726b600"
 author: "Donald Jenkins"
 showthedate: false
-tableOfContents: true
+tableofcontents: false
 noindex: false
 ---
 

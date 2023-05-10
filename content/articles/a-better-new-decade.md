@@ -13,7 +13,7 @@ summary: "I wish all who read this a very Happy New Year: I am certain I am not 
 featured_image: "969a796-2fbc-451f-ba14-8f6e0276b000"
 author: "Donald Jenkins"
 showthedate: false
-tableOfContents: true
+tableofcontents: false
 noindex: false
 ---
 Twenty-ten opened for me in the emergency ward of a French hospital. Things have picked up in 2011, I suppose, as I am writing this from the comfort of my bed, to which I was confined by influenza for most of the Twelve Days of Christmas, my fever and aching dropping just in time for the Feast of the Epiphany.

@@ -13,7 +13,7 @@ summary: "My first real blog post was about an abomination. I have not been able
 featured_image: "969a796-2fbc-451f-ba14-8f6e0276b000"
 author: "Donald Jenkins"
 showthedate: false
-tableOfContents: true
+tableofcontents: false
 noindex: false
 ---
 I have thought, and thought again, about whether I should write about this. Does civilisation still mean anything — when something so abominable can happen in the heart one of the world’s oldest and greatest civilisations?

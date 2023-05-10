@@ -19,6 +19,13 @@
       >
     </div>
   </div>
+  {{ if .Params.tableofcontents }}
+  <aside class="alert info">
+    <h2 class="title">Contents of this post</h2>
+    <p class="subtitle"><em>This is an unusually long post. To make for easier reading, a table of contents is included below.</em></p>
+    {{ .TableOfContents }}
+  </aside>
+  {{ end }}
   {{ .Content | htmlUnescape | safeHTML }}
   <!-- Source: https://discourse.gohugo.io/t/shortcode-markdown-vs-html-vs-table-of-content/18282/3 -->
   <div id="bottom-meta" class="meta">

@@ -13,7 +13,7 @@ summary: "A review of Neumeier''s *La Dame aux camellias*. I wonder why it took 
 featured_image: "266df7f1-6ed3-4fb0-6d27-a3b70104a300"
 author: "Donald Jenkins"
 showthedate: false
-tableOfContents: true
+tableofcontents: false
 noindex: false
 ---
 

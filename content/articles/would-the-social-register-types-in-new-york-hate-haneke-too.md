@@ -13,7 +13,7 @@ summary: "Don Giovanni is Mozart’s most avantgardist opera: it was a major ben
 featured_image: "5ef4a65a-e317-410d-3482-325906886b00"
 author: "Donald Jenkins"
 showthedate: false
-tableOfContents: true
+tableofcontents: false
 noindex: false
 ---
 

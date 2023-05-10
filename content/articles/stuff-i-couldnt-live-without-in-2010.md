@@ -13,7 +13,7 @@ summary: "Taking inspiration from Michael Arrington and Kevin Rose (I didn’t t
 featured_image: "33fbc3c9-80d8-4aeb-24db-a1cfb6e54b00"
 author: "Donald Jenkins"
 showthedate: false
-tableOfContents: true
+tableofcontents: false
 noindex: false
 ---
 

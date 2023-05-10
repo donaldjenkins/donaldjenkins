@@ -13,7 +13,7 @@ summary: "A quick introduction to Policymakr, the new start-up I''ve been planni
 featured-image: "119a9245-85d9-44ba-e2b6-ff72c7dcb400"
 author: "Donald Jenkins"
 showthedate: false
-tableOfContents: true
+tableofcontents: false
 noindex: false
 ---
 

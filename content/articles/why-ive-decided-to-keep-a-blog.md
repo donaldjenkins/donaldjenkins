@@ -13,7 +13,7 @@ summary: "In this initial post, written at Saint Tropez, one explains why one ha
 featured_image: "ea803d51-ec30-46a1-ba51-8f0d8b7c2200"
 author: "Donald Jenkins"
 showthedate: false
-tableOfContents: true
+tableofcontents: false
 noindex: false
 ---
 

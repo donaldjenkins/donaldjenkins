@@ -13,7 +13,7 @@ summary: "People are increasingly trying to find an alternative to Google Search
 featured_image: "969a796-2fbc-451f-ba14-8f6e0276b000"
 author: "Donald Jenkins"
 showthedate: false
-tableOfContents: true
+tableofcontents: false
 noindex: false
 ---
 In recent weeks, [like others](http://www.technologyreview.com/web/32254/page2/), I’ve been becoming increasingly frustrated with Google Search. Whenever I’m making anything other than the most basic of searches, I find my results are being increasingly polluted by totally irrelevant results and in some cases by complete gibberish. I feel slightly embarrassed admitting this, since I’m also, ironically, rather pleased with the way Google indexes this site: it shows up on the front page of many Google search results on subjects I’ve covered here, and a massive three quarters of my readers originally landed here as a result of a Google search—and practically none from the other search engines. And this site isn’t the only one. Google’s market share in search remains massive:

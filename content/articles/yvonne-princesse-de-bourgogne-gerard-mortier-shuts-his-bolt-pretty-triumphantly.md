@@ -13,7 +13,7 @@ summary: "Over the past four years, Gerard Mortier has presided over a quiet rev
 featured_image: "0417adbe-d106-4a44-0048-91808dcf7c00"
 author: "Donald Jenkins"
 showthedate: false
-tableOfContents: true
+tableofcontents: false
 noindex: false
 ---
 

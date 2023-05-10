@@ -13,7 +13,7 @@ summary: "A review of RolandPetit''s impressive ballet _Proust ou les intermitte
 featured_image: "969a796-2fbc-451f-ba14-8f6e0276b000"
 author: "Donald Jenkins"
 showthedate: false
-tableOfContents: true
+tableofcontents: false
 noindex: false
 ---
 > Je vous en supplie, grâce, grâce, pitié, détachez-moi, ne me frappez pas si fort, disait une voix… » Alors je m’aperçus qu’il y avait dans cette chambre un oeil-de-boeuf latéral dont on avait oublié de tirer le rideau. Cheminant à pas de loup dans l’ombre, je me glissai jusqu’à cet oeil-de-boeuf, et là, enchaîné sur un lit comme Prométhée sur son rocher… je vis, déjà tout en sang et couvert d’ecchymoses qui prouvaient que le supplice n’avait pas lieu pour la première fois, je vis devant moi Monsieur de Charlus.

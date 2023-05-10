@@ -13,7 +13,7 @@ summary: "One sometimes feels that a famous saying by the Duchess of Windsor oug
 featured_image: "119a9245-85d9-44ba-e2b6-ff72c7dcb400"
 author: "Donald Jenkins"
 showthedate: false
-tableOfContents: true
+tableofcontents: false
 noindex: false
 ---
 

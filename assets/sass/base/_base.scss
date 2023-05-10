@@ -75,6 +75,14 @@ a {
   text-align: left;
 }
 
+figcaption p {
+  margin: 0;
+}
+
+figcaption .footnote-ref {
+  font-size: var(--font-size-smallest);
+}
+
 /**
  * Basic styles for colors
  */

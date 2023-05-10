@@ -50,12 +50,12 @@
     .Site.Params.cloudflare_images }}{{ .Get "src" }}/w=675 3x"
     media="(min-width: 225px)"> <img src="{{ .Site.Params.cloudflare_images }}{{
     .Get "src" }}/w=1920" max-width: 100% height: auto aspect-ratio: attr(width)
-    / attr(height) alt="{{ if .Get "caption"}}{{ .Get "caption" | truncate 42
+    / attr(height) alt="{{ if .Get "caption"}}{{ $caption | truncate 42
     }}{{ end }}"/>
   </picture>
 
   {{ if .Get "caption"}}
-  {{ if le (len $caption) 170 }}<figcaption class="caption">{{ else }}
-  <figcaption class="long-caption">{{ end }}{{ .Get "caption" | markdownify }}</figcaption>
+  {{ if le (len $caption) 200 }}<figcaption class="caption">{{ else }}
+  <figcaption class="long-caption">{{ end }}{{ $caption | markdownify }}</figcaption>
   {{ end }}
 </figure>

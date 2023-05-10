@@ -13,7 +13,7 @@ summary: "My difficult start to a new decade, and the tribulations of the French
 featured_image: "2332d026-bded-42ef-58e5-e8186ab86600"
 author: "Donald Jenkins"
 showthedate: false
-tableOfContents: true
+tableofcontents: false
 noindex: false
 ---
 

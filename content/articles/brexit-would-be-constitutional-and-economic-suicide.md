@@ -13,7 +13,7 @@ summary: "There is a way out of the unprecedented crisis in which the UK has bee
 featured_image: "713cc026-7253-4c74-b67d-56e293eb4a00"
 author: "Donald Jenkins"
 showthedate: false
-tableOfContents: true
+tableofcontents: false
 noindex: false
 ---
 
