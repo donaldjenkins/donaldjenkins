@@ -25,7 +25,6 @@ author: "Donald Jenkins"
 showthedate: false
 tableofcontents: true
 noindex: false
-hasvideo: true
 ---
 
 {{% quotation main-title="Moralia" url="https://en.wikipedia.org/wiki/Moralia" secondary-title="The Eating of Animal Flesh" date="c. 100 AD" %}}
@@ -615,9 +614,7 @@ In 2008, a breakthrough of a more significant nature occurred, opening hopes tha
 
 Yet, while animal rights have slightly progressed in a few developed countries, formal animal welfare legislation remains largely absent in many others, including, paradoxically, some of the largest animal producing nations of the world (such as Brazil, India, and China)[^164]. Indeed, it is probably still true that there are more animals suffering at the hands of humans now than ever before. That is because there are more affluent people in the world than ever before, and satisfying their demand for meat has meant a vast expansion of factory farming, especially in China[^165].
 
-{{< img src="d0bbfb18-543c-401c-8bac-51523c327800" caption="Worldwide laws regarding the formal recognition of nonhuman animal sentience and suffering" >}}
-
-Source: Canuckguy, CC BY-SA 4.0 [, via Wikimedia Commons](https://creativecommons.org/licenses/by-sa/4.0)" >}}
+{{< img src="d0bbfb18-543c-401c-8bac-51523c327800" caption="Worldwide laws regarding the formal recognition of nonhuman animal sentience and suffering. Source: Canuckguy, CC BY-SA 4.0 [, via Wikimedia Commons](https://creativecommons.org/licenses/by-sa/4.0)" >}}
 
 Unfortunately, the historical achievements detailed above of the animals rights movement have been dwarfed by the onslaught of industrial farming, increased meat consumption, and intensified exploitation of animals — a trend that shows no sign of weakening. Thus they have so far done no more than more than chip away at the edges of the speciesist system. Moreoever, in the real world the notion that non-human animals have an inviolable claim to life and liberty has a foothold only in marginal academic and activist circles.
 

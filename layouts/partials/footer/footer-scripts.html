@@ -1,6 +1,6 @@
-<!-- Adds js for video.js on pages where it's needed -->
+<!-- Adds js for video on pages where it's needed -->
 
-{{ with .Params.hasvideo }} {{ if . }}
+{{ with .HasShortcode "video" }} {{ if . }}
 <link rel="stylesheet" href="/vidstack/styles/base.css" />
 <!-- the following styles are optional - remove to go headless
 <link

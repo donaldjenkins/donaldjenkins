@@ -36,6 +36,7 @@ h6,
 p,
 figure,
 blockquote,
+source,
 table,
 .footnotes,
 .alert {
@@ -75,7 +76,9 @@ a {
   text-align: left;
 }
 
-figcaption p {
+// keep image and video captions close to media
+.picture figcaption p,
+.player figcaption p {
   margin: 0;
 }
 

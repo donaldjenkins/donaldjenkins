@@ -1,27 +1,31 @@
 ---
 title: "A plea in support of Mr Obama's perfectible health-care bill"
-categories: ['Politics']
-tags: ['health care', Obama, 'Tea Party', US]
+categories: ["Politics"]
+tags: ["health care", Obama, "Tea Party", US]
 seoTitle: "Donald Jenkins: A plea in support of Mr Obama's perfectible health-care bill"
 date: 2010-03-21T08:29:08+00:00
 type: articles
-layout: 'single'
+layout: "single"
 slug: "a-plea-in-support-of-mr-obamas-perfectible-health-care-bill"
 draft: false
 description: "I'm in no doubt that America needs universal health care for the same reasons that Europe needed it in 1945."
 summary: "I'm in no doubt that America needs universal health care for the same reasons that Europe needed it in 1945: it''s morally unacceptable, in a rich society, that anyone should be denied it for financial reasons. The bill presently before Congress is clearly perfectible, but in reality, arguments against it are but thinly-veiled pretexts barely concealing the selfishness and economic ignorance underlying Mr Obama''s opponents on this issue.."
-featured_image: "969a796-2fbc-451f-ba14-8f6e0276b000"
+featured_image: "fdd7ff65-83d1-4632-2417-ea349184ae00"
 author: "Donald Jenkins"
 showthedate: true
 tableofcontents: false
 noindex: false
 ---
 
-{{< blockquote quote="A lot of us have been saying for a long time that much of this, much of this is not about health care at all. And I think a lot of those people today demonstrated that this is not about health care… it is about trying to extend a basic fundamental right to people who are less powerful." author="Rep. James Clyburn (D-S.C.), commenting after members of Congress were spat on and shouted at with racial slurs" source="Huffington Post" url="http://www.huffingtonpost.com/2010/03/20/tea-party-protests-nier-f_n_507116.html" >}}
+{{% quotation main-title="Huffington Post" url="https://www.huffpost.com/entry/tea-party-protests-nier-f_n_507116" secondary-title="Tea Party Protests: “Ni * * er,” “Faggot” Shouted At Members Of Congress" date="20 Mar. 2010" %}}
+A lot of us have been saying for a long time that much of this, much of this is not about health care at all. And I think a lot of those people today demonstrated that this is not about health care… it is about trying to extend a basic fundamental right to people who are less powerful.
+<-source->
+Rep. James Clyburn (D-S.C.), commenting after members of Congress were spat on and shouted at with racial slurs
+{{% /quotation %}}
 
 I’m sometimes unsure on which side of the Atlantic I’m most disconcerted by people’s entrenched prejudices.
 
-In France, where I lived, at considerable cost to my personal finances, for many years, the vast majority of my friends were deeply hostile to a courageous initiative by M Sarkozy, soon after he was elected President of the Republic in 2007, to [cap total (direct) tax](http://fr.wikipedia.org/wiki/Bouclier_fiscal "Article (in French) aboutthe French income-tax cap: Bouclier fiscal - Wikipédia") paid by any individual to the central government at 50 per cent of annual income. Clearly, the average Frenchman — and this includes rational, liberal people with decent jobs — regards it as an absolute right of the government to confiscate *any* amount of someone’s income above a certain level, and a sign of gross injustice if it doesn’t. The fact that owing to the existence of high social security contributions that are nothing more than thinly-disguised income tax, the real marginal tax rate in France must be easily the highest in the OECD changes nothing to that surreal posture whatsoever.
+In France, where I lived, at considerable cost to my personal finances, for many years, the vast majority of my friends were deeply hostile to a courageous initiative by M Sarkozy, soon after he was elected President of the Republic in 2007, to [cap total (direct) tax](http://fr.wikipedia.org/wiki/Bouclier_fiscal "Article (in French) aboutthe French income-tax cap: Bouclier fiscal - Wikipédia") paid by any individual to the central government at 50 per cent of annual income. Clearly, the average Frenchman — and this includes rational, liberal people with decent jobs — regards it as an absolute right of the government to confiscate _any_ amount of someone’s income above a certain level, and a sign of gross injustice if it doesn’t. The fact that owing to the existence of high social security contributions that are nothing more than thinly-disguised income tax, the real marginal tax rate in France must be easily the highest in the OECD changes nothing to that surreal posture whatsoever.
 
 Though disconcerted by the French addiction to tax-and-spend which is patently leading that once-wealthy country on the road to bankruptcy, I’m even more appalled by the so-called Tea-Party‘s (being English, I find that choice of name totally inappropriate, by the way) stunningly aggressive hostility to Mr Obama’s health care bill, threatening gun violence if it is passed. In scenes not seen since the 1960s, [members of Congress were spat on and insulted](http://www.msnbc.msn.com/id/35965961/ "Ugly build-up to House health-care vote: Demonstrators hurl N-word, spit at black members of Congress").
 
@@ -34,7 +38,6 @@ It is true that the cost of health care, as a proportion of national income, has
 - since people live so much longer and stay in good health so much longer, there is every reason why they should work longer (yet another obvious fact to which [the French seem to be blinded](http://www.nytimes.com/2009/06/26/business/global/26iht-franc.html) "French Minister Says Retirement Age Will Rise - NYTimes.com");
 
 - a reasonable balance between wealth-producing and non-wealth-producing generations can only be maintained if governments provide strong support for families with children so as to combat population decline.
-
 
 [I was certain, when Mr Obama was elected, that his presidency would rapidly become embattled](https://www.donaldjenkins.com/will-mr-obama-bring-the-united-states-any-closer-to-abolishing-the-death-penalty/ "My thoughts upon the election of Mr Obama") because I saw no way that the irrational enthusiasm that swept him to power could be sustained. But while I think France would benefit from a dose of Tea-Party libertarianism to shake it out of its absurd love affair with big government, and am certainly not impressed, on the whole, by Mr Obama’s first year in office, I am just as equally convinced that the America must embrace universal health care.
 

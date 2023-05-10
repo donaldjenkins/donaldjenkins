@@ -25,7 +25,7 @@
 {{ $thumbnail_url := $data.Get "thumbnail-url" }}
 
 {{ if .Get "thumbnail" }}
-{{ $thumbnail_url = site.Params.asset_thumbnails }}
+{{ $thumbnail_url = site.Params.assets_thumbnails }}
 {{ $data.Set "thumbnail-url" $thumbnail_url }}
 {{ $data.Add "thumbnail-url" $src }}
 {{ $data.Add "thumbnail-url" ".jpg" }}
