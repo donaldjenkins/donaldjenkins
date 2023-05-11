@@ -1,4 +1,4 @@
 {{ $lang := .Get 0 }}
 {{ printf "<span lang=\"%s\">" $lang | htmlUnescape | safeHTML }}
 {{ .Inner | safeHTML }}
-{{ printf "</aside>" | htmlUnescape | safeHTML }}
+{{ printf "</span>" | htmlUnescape | safeHTML }}
