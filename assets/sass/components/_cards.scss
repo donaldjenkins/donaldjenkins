@@ -1,5 +1,4 @@
-.alert,
-pre {
+.alert {
   padding: $padding;
   font-size: var(--font-size-small);
   border-radius: $very-rounded;
@@ -95,8 +94,7 @@ pre {
 }
 
 @include media("<smartphone") {
-  .alert,
-  pre {
+  .alert {
     margin-inline: -6vw;
     width: calc(100% + 12vw);
     max-width: none;

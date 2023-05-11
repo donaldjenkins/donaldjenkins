@@ -182,3 +182,19 @@ pre,
 code {
   background-color: var(--normal-bg);
 }
+
+pre {
+  padding: $padding;
+  font-size: var(--font-size-small);
+  border-radius: $very-rounded;
+}
+
+@include media("<smartphone") {
+  pre {
+    margin-inline: -6vw;
+    width: calc(100% + 12vw);
+    max-width: none;
+    border-radius: unset;
+    box-sizing: border-box;
+  }
+}
