@@ -25,7 +25,7 @@ tableofcontents: false
 noindex: false
 ---
 
-{{% quotation main-title="Caliste, Ou Suite Des Lettres Écrites De Lausanne" url="https://en.wikipedia.org/wiki/Moralia" date="1788" %}}
+{{% quotation main-title="Caliste, ou suite des lettres écrites de Lausanne" url="https://en.wikipedia.org/wiki/Moralia" date="1788" %}}
 Je ne vous ai pas rendu heureux, et je vous laisse malheureux, et moi je meurs; cependant je ne puis me résoudre à souhaiter de ne vous avoir pas connu.
 <-source->
 Charrière, Isabelle de
