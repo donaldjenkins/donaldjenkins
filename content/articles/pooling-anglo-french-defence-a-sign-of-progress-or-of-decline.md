@@ -17,9 +17,9 @@ tableofcontents: false
 noindex: false
 ---
 
-We have a long and, on the whole, distinguished history of acting in concert with the French in military matters ever since the end of the last of our many conflicts, the revolutionary and Napoleonic wars, in 1815. Whether at [Navarino](http://en.wikipedia.org/wiki/Battle_of_Navarino) in 1827, in the [Crimean War](http://en.wikipedia.org/wiki/Crimean_war) in the 1850s, the two World Wars and, of course, the [Suez Crisis](http://en.wikipedia.org/wiki/Suez_crisis), which was the last time that we acted together — and which, militarily, was a complete success — the record of Anglo-French cooperation has been superb.
+We have a long and, on the whole, distinguished history of acting in concert with the French in military matters ever since the end of the last of our many conflicts, the revolutionary and Napoleonic wars, in 1815. Whether at [Navarino](https://en.wikipedia.org/wiki/Battle_of_Navarino) in 1827, in the [Crimean War](https://en.wikipedia.org/wiki/Crimean_war) in the 1850s, the two World Wars and, of course, the [Suez Crisis](https://en.wikipedia.org/wiki/Suez_crisis), which was the last time that we acted together — and which, militarily, was a complete success — the record of Anglo-French cooperation has been superb.
 
-It perhaps reached its apogee in June 1940 when, faced with the gravest crisis in both of their histories, Britain and France briefly considered merging into an even closer [union](http://en.wikipedia.org/wiki/Anglo-French_Union):
+It perhaps reached its apogee in June 1940 when, faced with the gravest crisis in both of their histories, Britain and France briefly considered merging into an even closer [union](https://en.wikipedia.org/wiki/Anglo-French_Union):
 
 {{% quotation main-title="House of Commons Official Report: Eleventh Volume of Session 1939–40" url="https://en.wikipedia.org/wiki/Moralia" secondary-title="On Moral Virtue" date="1940" publisher="London, His Majesty’s Stationery Office" pages="columns 701–702" %}}
 At this most fateful moment in the history of the modern world the Governments of the United Kingdom and the French Republic make this declaration of indissoluble union and unyielding resolution in their common defence of justice and freedom, against subjection to a system which reduces mankind to a life of robots and slaves.

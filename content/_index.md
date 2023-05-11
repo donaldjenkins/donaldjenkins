@@ -9,17 +9,17 @@ type: page
 lastmod: 2023-04-11T00:00:00-01:00
 ---
 
-**Donald Jenkins [writes](https://donaldjenkins.pages.dev/articles/), takes [photographs](https://donaldjenkins.pages.dev/photos/) and dabbles in web design. He’s also a co-founder of the political social network start-up [Policymakr](http://policymakr.com/). He currently lives in New York City.**
+**Donald Jenkins [writes](https://donaldjenkins.pages.dev/articles/), takes [photographs](https://donaldjenkins.pages.dev/photos/) and dabbles in web design. He’s also a co-founder of the political social network start-up [Policymakr](https://policymakr.com/). He currently lives in New York City.**
 
 {{< img src="9032b61d-ee17-4d95-579d-0172258b9e00" >}}
 
-Donald read Philosophy, Politics and Economics at [Magdalen College, Oxford](http://www.magd.ox.ac.uk/), and government at [École nationale d’administration](https://en.wikipedia.org/wiki/%C3%89cole_nationale_d%27administration). He has worked in [merchant banking](https://en.wikipedia.org/wiki/Merchant_bank), the [media](http://www.rfi.fr/), [public administration](https://www.culture.gouv.fr/en) and [contemporary art](https://www.centrepompidou.fr/en). His main subjects of interest and concern are the [environment](http://nymag.com/intelligencer/2018/10/un-says-climate-genocide-coming-but-its-worse-than-that.html), [animal rights](/non-human-animal-rights-the-categorical-imperative-of-our-time/), [politics](/category/politics/) and [technology](/category/tech/). He rides a bicycle and is a [vegan](/non-human-animal-rights-the-categorical-imperative-of-our-time/).
+Donald read Philosophy, Politics and Economics at [Magdalen College, Oxford](https://www.magd.ox.ac.uk/), and government at [École nationale d’administration](https://en.wikipedia.org/wiki/%C3%89cole_nationale_d%27administration). He has worked in [merchant banking](https://en.wikipedia.org/wiki/Merchant_bank), the [media](https://www.rfi.fr/), [public administration](https://www.culture.gouv.fr/en) and [contemporary art](https://www.centrepompidou.fr/en). His main subjects of interest and concern are the [environment](https://nymag.com/intelligencer/2018/10/un-says-climate-genocide-coming-but-its-worse-than-that.html), [animal rights](/non-human-animal-rights-the-categorical-imperative-of-our-time/), [politics](/category/politics/) and [technology](/category/tech/). He rides a bicycle and is a [vegan](/non-human-animal-rights-the-categorical-imperative-of-our-time/).
 
 ## Articles
 
 I don’t just take pictures, I also write. The full list of topics is on the [Articles](/articles/) page, but I mainly write about [politics](/politics/), [tech](/tech/), and [culture](/culture/). In addition to subjects of a strictly [personal](/personal/) nature, I’ve also occasionally written about [literature](/literature/) and [religion](/religion/).
 
-Politics are hardly a side interest, as can be seen from the articles collected here. I first indulged my taste for [politics](/politics/) and current affairs at Oxford at the [Oxford Union Society](http://www.oxford-union.org/ "More on Oxford Union Society"), and then as a student in Paris, where I was President of [Conférence Olivaint](http://en.wikipedia.org/wiki/Conf%C3%A9rence_Olivaint "Conférence Olivaint is the oldest of the French student societies, established in 1875").
+Politics are hardly a side interest, as can be seen from the articles collected here. I first indulged my taste for [politics](/politics/) and current affairs at Oxford at the [Oxford Union Society](https://www.oxford-union.org/ "More on Oxford Union Society"), and then as a student in Paris, where I was President of [Conférence Olivaint](https://en.wikipedia.org/wiki/Conf%C3%A9rence_Olivaint "Conférence Olivaint is the oldest of the French student societies, established in 1875").
 
 Subjects I’m passionate about include [code](https://stackoverflow.com/users/265324/donald-jenkins "Donald's Stack Overflow profile"), good [web design](https://dribbble.com/donaldjenkins "Donald's Dribbble profile"), Net neutrality, and avoiding government interference in the Internet. I write a lot about Apple-related stuff, blogging techniques and trends in social networks.
 
@@ -30,5 +30,5 @@ Go to the [Articles](/articles/) page for a full list, and bear in mind I write 
 
 ## Photos
 
-For regular photos go to  [Instagram](https://www.instagram.com/donaldjenkins_). But for more serious photos going back to 2006, head to  [Flickr](http://flickr.com/photos/astorg). This site also has a dedicated [Photos](/photos/ "The Photos page for this site") page.
+For regular photos go to  [Instagram](https://www.instagram.com/donaldjenkins_). But for more serious photos going back to 2006, head to  [Flickr](https://flickr.com/photos/astorg). This site also has a dedicated [Photos](/photos/ "The Photos page for this site") page.
 

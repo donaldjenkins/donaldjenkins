@@ -88,7 +88,7 @@ My interests span contemporary art, which has surrounded me ever since my infanc
 #pt-cv-view-eb2feb3rvs { text-align: center; }</style> </div></article><article id="category-politics"><div class="category-description">Politics
 --------
 
-Politics are hardly a side interest, as can be seen from the articles collected here. I first indulged my taste for [politics](/politics/) and current affairs at Oxford at the [Oxford Union Society](http://www.oxford-union.org/), and then as a student in Paris, where I was President of [Conférence Olivaint](http://en.wikipedia.org/wiki/Conf%C3%A9rence_Olivaint).
+Politics are hardly a side interest, as can be seen from the articles collected here. I first indulged my taste for [politics](/politics/) and current affairs at Oxford at the [Oxford Union Society](https://www.oxford-union.org/), and then as a student in Paris, where I was President of [Conférence Olivaint](https://en.wikipedia.org/wiki/Conf%C3%A9rence_Olivaint).
 
 </div><div class="category-items"><div class="pt-cv-wrapper"><div class="pt-cv-view pt-cv-grid pt-cv-colsys pt-cv-same-height pt-cv-pginfinite pt-cv-center" id="pt-cv-view-3af57a1edn"><div class="pt-cv-page" data-cvc="5" data-cvcm="2" data-cvct="4" data-id="pt-cv-page-1"><div class="col-md-2 col-sm-3 col-xs-6 pt-cv-content-item pt-cv-1-col" data-pid="4480"><div class="pt-cv-ifield">[![Chinese farm workers drag a pig to slaughter](https://cdn.donaldjenkins.com/images/chinese-farm-workers-drag-pig-to-slaughter-320x147.jpg?lossy=1&ssl=1)](https://www.donaldjenkins.com/non-human-animal-rights-the-categorical-imperative-of-our-time/)### [Non-human animal rights: the categorical imperative of our time](https://www.donaldjenkins.com/non-human-animal-rights-the-categorical-imperative-of-our-time/)
 

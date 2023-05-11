@@ -13,3 +13,17 @@
 />  -->
 <script type="module" src="/vidstack/dist/cdn/prod.js"></script>
 {{ end }} {{ end }}
+
+{{ with .HasShortcode "video-new" }} {{ if . }}
+<link rel="stylesheet" href="/vidstack/styles/base.css" />
+<!-- the following styles are optional - remove to go headless
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/vidstack/styles/ui/buttons.min.css"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/vidstack/styles/ui/sliders.min.css"
+/>  -->
+<script type="module" src="/vidstack/dist/cdn/prod.js"></script>
+{{ end }} {{ end }}

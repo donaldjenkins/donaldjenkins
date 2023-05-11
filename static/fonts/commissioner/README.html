@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+
+<h1 id="commissioner">Commissioner</h1>
+
+<p>Commissioner is a variable and static sans typeface designed by Kostas Bartsokas.</p>
+
+<figure>
+<img src="sources/proofs/Commissioner_temporary.gif" alt="" />
+<figcaption></figcaption>
+</figure>
+
+<h2 id="basicinformation">Basic Information</h2>
+
+<p>Commissioner is a low-contrast humanist sans-serif with almost classical proportions, conceived as a variable family. The family consists of three “voices”. The default style is a grotesque with straight stems. As the flair axis grows the straight grotesque terminals develop a swelling and become almost glyphic serifs and the joints become more idiosyncratic. The volume axis transforms the glyphic serifs to wedge-like ones.</p>
+
+<p>Each voice of Commissioner comes in a range of styles from Thin to Black including italics. The diverse proportions of lowercase and capitals add warmth and appeal to texts across sizes, while the different voices can express a variation in the typographic texture that ranges from delicate in text sizes to exuberant in larger sizes.</p>
+
+<p>Commissioner supports the Google Latin Plus, Latin Pro, Cyrillic Plus, Cyrillic Plus .locl, Cyrillic Pro, and Greek Core character sets.</p>
+
+<p>This typeface project received financial support from Google, and in the future may be available in Google Fonts.</p>
+
+<p><strong>Variable Axes</strong></p>
+
+<p>Commisioner has the following axes:</p>
+
+<ul>
+<li><p>Weight (wght) - 100 to 900. (Default 100) Controls the darkness of the composed text. Thin, UltraLight, ExtraBold, and Black are ideally used for display sizes, while Light, Regular, Medium, Semibold, Bold can be used for both display and text sizes.</p></li>
+<li><p>Slant (slnt) - 0 to -12 degrees. (Default 0) Controls the slant of the letters. A stronger slant creates more emphasis and contrast to upright styles.</p></li>
+<li><p>Flair (FLAR) - 0 to 100. (Default 0) The values are arbitrary and the lenght of the axis could be narrower (i.e. 0 to 10). As the flair axis grows the straight grotesque terminals develop a swelling and joints become more idiosyncratic. The flair axis was originally called Flare, referring to the flaring of the stems, but at some point I decided to name it flair, as in stylisness and panache.</p></li>
+<li><p>Volume (VOLM) - 0 to 100. (Default 0) The values are arbitrary and the lenght of the axis could be narrower (i.e. 0 to 10). The volume axis works only in combination with the Flair axis. It transforms the glyphic serifs to wedge-like ones and add a little more edge to details.</p></li>
+</ul>
+
+<h2 id="buildingthefonts">Building the fonts</h2>
+
+<h3 id="step1:installrequirements">Step 1: Install Requirements</h3>
+
+<p>Set up a virtual environment in the root directory:</p>
+
+<pre><code>virtualenv -p python3 venv
+</code></pre>
+
+<p>Activate the virtual environment with:</p>
+
+<pre><code>source venv/bin/activate
+</code></pre>
+
+<p>Install requirements with:</p>
+
+<pre><code>pip install -U -r requirements.txt
+</code></pre>
+
+<h3 id="step2:buildthefonts">Step 2: Build the fonts</h3>
+
+<p><strong>Design vs Production source file</strong></p>
+
+<p>TTFautohint doesn&#8217;t like components which have been flipped. Commissioner.glyphs is the working design file with all components kept in place. If you are planning to make changes in the desing you should work on this one. The file features 2 (two) sets of 54 instances, with one set activated.</p>
+
+<p>For production it is suggested to copy the file and rename it accordingly to a file name that the Builds use. Rename to:</p>
+
+<ul>
+<li>Commissioner-production.glyphs . Keep the active instances. The file can be used to generate either the variable font, or the static ttf&#8217;s, or both. The instances are named so that they can produce the static ttf&#8217;s in 3 subfamilies. The variable font during the build will be patched automatically (vf_patch.ttx) to add the STAT table, and amend the name and fvar table.</li>
+<li>Commissioner-Variable-production.glyphs . Deactivate the active instances and activate the second set of instances. The file can be used to produce just the variable font. The second sets of instances are named in a variable friendly way so that there is no need to patch the fvar table during production. The variable font during the build process will be patched automatically (vf_Variablepatch.ttx) to add the STAT table and amend the name table.</li>
+</ul>
+
+<p>After you copy and rename the new file, add the script <code>sources/helpers/decompose-transformed-components.py</code> to your Glyphs scripts folder, reload scripts (opt+sft+cmd+Y), and run it on the new file before production. Affected glyphs show up in a new tab and you should check for any compatability issues.</p>
+
+<p><strong>Building the fonts</strong></p>
+
+<p>The scripts for building the fonts are in the <code>/sources/</code> folder.</p>
+
+<p>To build the variable font using Commissioner-Variable-production.glyphs run:</p>
+
+<pre><code>cd sources
+sh build_Variablevf.sh
+</code></pre>
+
+<p>To build the variable font using Commissioner-production.glyphs run:</p>
+
+<pre><code>cd sources
+sh build_vf.sh
+</code></pre>
+
+<p>To build the static ttfs using Commissioner-production.glyphs run:</p>
+
+<pre><code>cd sources
+sh build_statics.sh
+</code></pre>
+
+<p>To build the variable font and the static ttfs using Commissioner-production.glyphs run:</p>
+
+<pre><code>cd sources
+sh build_all.sh
+</code></pre>
+
+<p>If you want to build otf&#8217;s do so through Glyphs using the source Glyphs file with the default active instances.</p>
+
+<p><strong>Weight Class Fix</strong></p>
+
+<p>The usWeightClass for Thins and UltraLight are set to 100 and 200 consecutively. There is a debate on whether these values cause the fonts to get blurred on certain versions of Windows. (https://github.com/googlefonts/fontbakery/issues/2364)</p>
+
+<p>If you want to change them to 250 and 275 copy the script <code>sources/fix_usWeightClass.py</code> to your fonts directory and run it as follows.</p>
+
+<pre><code>cd fontfolder # make sure to change to the directory that includes the ttf's or otf's
+python fix_usWeightClass.py
+</code></pre>
+
+<h2 id="changelog">ChangeLog</h2>
+
+<p>This is version 1.000. No changes to report.</p>
+
+<h2 id="license">License</h2>
+
+<p>Commissioner is licensed under the SIL Open Font License v1.1 (<a href="https://scripts.sil.org/OFL">https://scripts.sil.org/OFL</a>).</p>
+
+<p>To view the copyright and specific terms and conditions please refer to <a href="https://github.com/kosbarts/Commissioner/blob/master/OFL.txt">OFL.txt</a></p>
+
+</body>
+</html>
+

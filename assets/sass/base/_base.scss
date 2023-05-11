@@ -174,3 +174,11 @@ picture img {
 .title + .subtitle {
   margin-top: 0;
 }
+
+/**
+ * Format code with card
+ */
+pre,
+code {
+  background-color: var(--normal-bg);
+}

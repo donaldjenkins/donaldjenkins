@@ -42,7 +42,7 @@ To give you an idea of my state of mind as I embark on this new project, let me 
 
 <p class="title"><strong>If money were not an issue, what would you be doing right now?</strong></p>
 
-<p class="subtitle">Saving the Planet from <a href="http://nymag.com/intelligencer/2018/10/un-says-climate-genocide-coming-but-its-worse-than-that.html">destruction</a>.</p>
+<p class="subtitle">Saving the Planet from <a href="https://nymag.com/intelligencer/2018/10/un-says-climate-genocide-coming-but-its-worse-than-that.html">destruction</a>.</p>
 
 <p class="title"><strong>What words of advice would you give your younger self?</strong></p>
 
@@ -62,7 +62,7 @@ To give you an idea of my state of mind as I embark on this new project, let me 
 
 <p class="title"><strong>What words of wisdom do you live by?</strong></p>
 
-<p class="subtitle">Compassion is the <a href="http://i.via.dj/ed3911567b5d">necessary radicalism</a> of our time.</p>
+<p class="subtitle">Compassion is the <a href="https://i.via.dj/ed3911567b5d">necessary radicalism</a> of our time.</p>
 
 <p class="title"><strong>What aspects of your work are you most passionate about?</strong></p>
 
