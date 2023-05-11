@@ -1,16 +1,16 @@
 ---
 title: "Why I have finally decided to blog in my own name"
-categories: ['Personal']
-tags: [blogging, privacy, 'social networks']
+categories: ["Personal"]
+tags: [blogging, privacy, "social networks"]
 seoTitle: "Donald Jenkins: Why I have finally decided to blog in my own name"
 date: 2009-02-13T16:34:13+00:00
 type: articles
-layout: 'single'
-slug: "why-i-have-finally-decided-to-blog-in-my-own-name"  
+layout: "single"
+slug: "why-i-have-finally-decided-to-blog-in-my-own-name"
 draft: false
 description: "The time has come to draw the process to a logical conclusion and make donaldjenkins.com my only home on the web."
 summary: "With the change in my lifestyle, interests and job that occurred last year, and also the decision to switch to English after three years of blogging in French, the time has come to draw the process to a logical conclusion and make donaldjenkins.com my only home on the web."
-featured_image: "6615d66d-06ac-4dc7-c285-b2e068edfb00"
+featured_image: "383b774e-eb01-41e2-ef2e-a4031e382700"
 author: "Donald Jenkins"
 showthedate: false
 tableofcontents: false

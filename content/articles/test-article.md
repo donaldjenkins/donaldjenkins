@@ -50,6 +50,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget nunc et velit s
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget nunc et velit suscipit porta sed nec libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie sodales risus ac ullamcorper. Proin rhoncus risus ut sem lacinia dignissim placerat eros consectetur. Curabitur viverra, neque nec porttitor semper, sapien massa euismod erat, eget rutrum eros ligula sed nibh. Etiam purus felis, congue sed porta id, elementum ac dui. Nunc mattis justo in nisl consectetur a aliquam sem condimentum. Maecenas faucibus[^2] risus in augue egestas posuere. Proin aliquam luctus justo vitae adipiscing. Nunc porta blandit egestas. Integer scelerisque placerat urna, sed ultricies risus sollicitudin quis.
 
+{{* alert info *}}
+
+## Update November 6, 2010
+
+This was an updated version of a post published on mey previous blog on November 6 2007, and now no longer online because I have switched all my blog posts to this domain. Because the post below is itself now partly out of date and no longer reflects the way in which I write blog posts, you may also want to read two more recent articles I posted on [ways in which I use MarsEdit, Amazon Cloudfront and Markdown with WordPress](https://www.donaldjenkins.com/improve-your-wordpress-blog-with-marsedit-amazon-cloudfront-and-markdown/), and the use of iOS apps, Dropbox and Automator to streamline and automate the blogging process.
+{{* /alert *}}
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit[^3]. In eget nunc et velit suscipit porta sed nec libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie sodales risus ac ullamcorper. Proin rhoncus risus ut sem lacinia dignissim placerat eros consectetur. Curabitur viverra, neque nec porttitor semper, sapien massa euismod erat, eget rutrum eros ligula sed nibh. Etiam purus felis, congue sed porta id, elementum ac dui. Nunc mattis justo in nisl consectetur a aliquam sem condimentum. Maecenas faucibus risus in augue egestas posuere. Proin aliquam luctus justo vitae adipiscing. Nunc porta blandit egestas. Integer scelerisque placerat urna, sed ultricies risus sollicitudin quis.
 
 ## Heading 2: Proin rhoncus risus ut sem lacinia dignissim placerat eros consectetur. Curabitur viverra, neque nec porttitor semper, sapien massa euismod erat, eget rutrum eros ligula sed nibh.
