@@ -1,16 +1,27 @@
 ---
 title: "Backing up a Mac to Amazon S3 with Arq: the easiest, safest and most accurate solution"
-categories: ['Tech']
-tags: ['Amazon S3', Apple, Arq, Backblaze, backup, ChrashPlan, 'Jungle Disk', Mac, Mozy]
+categories: ["Tech"]
+tags:
+  [
+    "Amazon S3",
+    Apple,
+    Arq,
+    Backblaze,
+    backup,
+    ChrashPlan,
+    "Jungle Disk",
+    Mac,
+    Mozy,
+  ]
 seoTitle: "Donald Jenkins: Backing up a Mac to Amazon S3 with Arq: the easiest, safest and most accurate solution"
 date: 2010-11-21T05:44:09+00:00
 type: articles
-layout: 'single'
+layout: "single"
 slug: "backing-up-a-mac-to-amazon-s3-with-arq-the-easiest-safest-and-most-accurate-solution"
 draft: false
 description: "Using Amazon S3, in combination with Arq, provides a much more reliable alternative to backup and restore from a Mac."
 summary: "Mac is among the most difficult systems to backup and restore correctly: Macs have peculiarities; resource forks and packages, for example, are unique to the Mac, and not every service handles them well. My experience of the more popular commercial backup services has not been good: they're unreliable, slow and raise privacy and data safety concerns. Using Amazon S3, in combination with a robust yet simple backup tool provided by small startup Arq, which I've just discovered, provides a much more reliable alternative."
-featured_image: "969a796-2fbc-451f-ba14-8f6e0276b000"
+featured_image: "3dab134c-059d-4842-34e0-093cd85a8d00"
 author: "Donald Jenkins"
 showthedate: false
 tableofcontents: false
@@ -25,8 +36,7 @@ The characteristic reaction to this, by many users, is simply to ignore the issu
 
 So what backup service to choose? To help one with this, there is a great tool called [Backup Bouncer](https://web.archive.org/web/20150414094852/https://www.n8gray.org/code/backup-bouncer/) that can be used to verify metadata backup and restore for Mac backup software.
 
-Using Time Machine or Apple’s Time Capsule exposes one to unacceptable risks
-----------------------------------------------------------------------------
+## Using Time Machine or Apple’s Time Capsule exposes one to unacceptable risks
 
 Of course you can always use Apple’s [Time Machine](https://www.apple.com/macosx/what-is-macosx/time-machine.html) to create a copy of your data. Time Machine was somewhat buggy and slow in Mac OS X Leopard 10.5. For example, it would say <q>preparing backup</q> forever. In Mac OS X 10.6 Snow Leopard, Time Machine is admittedly much faster and more reliable too. Nevertheless, a Time Machine backup drive must remain attached to the computer, or relatively near it. Therefore, it’s exposed to the same risks as the computer: theft, fire, flood. Not something I would want to trust.
 
@@ -42,49 +52,45 @@ Although strange, the problem seemed to be the power feeding the Time Capsule. A
 
 While external drives may often be the only choice for those with large photo libraries (in which case I’d recommend Apple’s [Mac Mini with Snow Leopard Server](https://www.apple.com/macmini/server/), the only realistic solution, to my mind, was off-site backups. The two drawback of these, of course, are (1) that it can take an awfully long time sending one’s initial backup to an offsite server, and (2) that it isn’t altogether reassuring to know that one’s data is stored, even in encrypted form, in the care of a third party.
 
-Unfortunately, most commercial off-site backup services are slow, and corrupt the data they store on your behalf
-----------------------------------------------------------------------------------------------------------------
+## Unfortunately, most commercial off-site backup services are slow, and corrupt the data they store on your behalf
 
 Just to make things worse, it turns out a number of commercial backup services corrupt data they store on your behalf. The Mac is among the most difficult systems to backup and restore correctly: on modern filesystems, there is a lot more than just file data on your filesystem. There is lots of metadata information that goes along with your files and can be important to backup and restore in many situations. One example is security information — most desktop users don’t really know about file ownership, security information, and ACLs, but on servers that type of information is important and if lost it could lead to a security leak or permission issues. Fortunately, [Backup Bouncer](https://web.archive.org/web/20150414094852/https://www.n8gray.org/code/backup-bouncer/), which I mentioned earlier, can be used to verify metadata backup and restore for Mac backup software. The results, for most of the commercial services available, are actually pretty disastrous:
 
-| Product                                                                               | Results               | Details          |
-|---------------------------------------------------------------------------------------|-----------------------|-----------------------------------------------------------------------------------------------|
+| Product                                                                                | Results               | Details                                                                                        |
+| -------------------------------------------------------------------------------------- | --------------------- | ---------------------------------------------------------------------------------------------- |
 | [Mozy](https://mozy.com/)                                                              | Failed 16 of 20 tests | [see results](https://www.haystacksoftware.com/arq/mozy-backup-bouncer-test.txt)               |
 | [Backblaze](https://www.backblaze.com/)                                                | Failed 19 of 20 tests | [see results](https://www.haystacksoftware.com/arq/backblaze-backup-bouncer-test.txt)          |
 | [Carbonite](https://www.carbonite.com/)                                                | Failed 20 of 20 tests | [see results](https://www.haystacksoftware.com/arq/carbonite-backup-bouncer-test.txt)          |
 | [Dropbox](https://itunes.apple.com/us/app/droptext-a-text-editor-for/id371880635?mt=8) | Failed 19 of 20 tests | [see results](https://www.haystacksoftware.com/arq/dropbox-backup-bouncer-test.txt)            |
-| CrashPlan Central                                                                     | Failed 12 of 20 tests | [see results](https://www.haystacksoftware.com/blog/2010/06/crashplan-restore-analysis/)       |
-| Jungle Disk                                                                           | Passes all tests      | [see results](https://blog.jungledisk.com/2009/11/13/what-does-extended-metadata-backup-mean/) |
+| CrashPlan Central                                                                      | Failed 12 of 20 tests | [see results](https://www.haystacksoftware.com/blog/2010/06/crashplan-restore-analysis/)       |
+| Jungle Disk                                                                            | Passes all tests      | [see results](https://blog.jungledisk.com/2009/11/13/what-does-extended-metadata-backup-mean/) |
 
-<cite class="source">Source: <a href="https://www.haystacksoftware.com/arq/">Arq</a> 
-website</cite>
+Source: [Arq](https://www.haystacksoftware.com/arq/) website.
 
 The Backup Bouncer data doesn’t, either, take account of the time it takes to carry out one’s initial backup. When I tried to back up a small MacBook with 150GB of data on Backblaze, it took three weeks of continuous use — and considerable CPU slowdown — for my initial upload of files to complete. Crashplan actually offers a service whereby you can [seed your initial backup](https://support.crashplan.com/doku.php/feature/seed_service), sending you a drive by post on which to transfer your data before sending it back to them, but they limit this to 1TB, and charge $124.99 for the service. I still think they are the best of the standard commercial backup services, if only because of this useful feature — but even they are hardly perfect.
 
-Amazon S3 is the cheapest, quickest, most reliable and secure backup medium available
--------------------------------------------------------------------------------------
+## Amazon S3 is the cheapest, quickest, most reliable and secure backup medium available
 
 Nonetheless, the best — and by far the cheapest — way of ensuring quick, secure, accurate and truly private backups remains a timeless favourite, [Amazon S3](https://aws.amazon.com/s3/). As Amazon themselves put it:
 
 > The Amazon S3 solution offers a highly durable, scalable, and secure solution for backing up and archiving your critical data. You can use Amazon S3’s Versioning capability to provide even further protection for your stored data. If you have data sets of significant size, you can use AWS Import/Export to move large amounts of data into and out of AWS with physical storage devices. This is ideal for moving large quantities of data for periodic backups, or quickly retrieving data for disaster recovery scenarios.
 
-It’s no coincidence that Jungle Disk is the only of the services surveyed above that passes all of Backup Bouncer’s tests: Amazon’s storage service is the *only* one that provides absolutely accurate copies of Mac OS X files. It also has the enormous advantage over commercial services that store data on their own or on third-party servers that it protects you from the risk of your backup company going under or suffering from some major unforeseen disaster [§](#bfn-footnotes-140).
+It’s no coincidence that Jungle Disk is the only of the services surveyed above that passes all of Backup Bouncer’s tests: Amazon’s storage service is the _only_ one that provides absolutely accurate copies of Mac OS X files. It also has the enormous advantage over commercial services that store data on their own or on third-party servers that it protects you from the risk of your backup company going under or suffering from some major unforeseen disaster [§](#bfn-footnotes-140).
 
 I have actually been conducting backups of my various Macs using Amazon S3 ever since [Paul Stamatiou](https://paulstamatiou.com/how-to-bulletproof-server-backups-with-amazon-s3) wrote about it in 2007. But in recent months I’ve become increasingly dissatisfied with Jungle Disk, the client I’ve been relying on to back my data to my server: it tends to occupy a very prominent place in my dock, with its extremely ugly icon, uses its own proprietary file format and causes occasional CPU bottlenecks. After giving up on Backblaze because of its atrocious slowness and poor customer service, I finally removed Jungle Disk, Backblaze and Crashplan and instead opted for the little-known, very lightweight [Arq](https://www.haystacksoftware.com/arq/) from Haystack Software. Its advantages can be briefly summarised as follows:
 
 - Arq stores your backup data in your own Amazon S3 account, encrypted with your own password — neither Amazon nor Haystack Software have access;
 - Arq encrypts your data before it leaves your computer using AES-256, a government and industry standard;
-- your backups are stored in an open, documented [format](https://www.haystacksoftware.com/arq/s3_data_format.txt); they’ve also delivered an open-source command-line utility called [arq\_restore](https://arqbackup.github.io/arq_restore/), which is [hosted at github](https://github.com/sreitshamer/arq_restore), so you can read your data anytime without depending on Haystack Software in the event they they suddenly do a vanishing act: *in other words, whatever happens, your data remains yours*.
+- your backups are stored in an open, documented [format](https://www.haystacksoftware.com/arq/s3_data_format.txt); they’ve also delivered an open-source command-line utility called [arq_restore](https://arqbackup.github.io/arq_restore/), which is [hosted at github](https://github.com/sreitshamer/arq_restore), so you can read your data anytime without depending on Haystack Software in the event they they suddenly do a vanishing act: _in other words, whatever happens, your data remains yours_.
 
 Arq’s accuracy is on a par with Jungle Disk’s, without the hassle: its Backup Bouncer [results](https://www.haystacksoftware.com/arq/arq-backup-bouncer-test.txt) show it passes all tests, and it resides in a small, inconspicuous menu icon, from which you can launch the main application if you need to change a setting. It also has the advantage, over Jungle Disk, of being designed from the ground as a backup solution for the Mac, whereas Jungle Disk’s backup capacity is just one of a number of services, including mirroring files between client and server, that it offers on both Mac and Windows platforms — with the Mac often giving the impression of being the poor relation.
 
 Enquiries to the developer behind Haystack Software, Stefan Reitsamer, yielded extremely prompt and relevant responses and the site has a lively [forum](https://www.haystacksoftware.com/support/arqforum/) and detailed, well thought-out documentation. Above all, my entire backup for the MacBook Air that currently serves as my only computer was complete in less than a day (and that was on a rather poor, French Internet connection).
 
-Used in combination with Dropbox, Google Apps and, optionally, MobileMe, Amazon S3 can get you back working exactly where you were if something unexpected happens to your Mac
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Used in combination with Dropbox, Google Apps and, optionally, MobileMe, Amazon S3 can get you back working exactly where you were if something unexpected happens to your Mac
 
 I continue to use [Dropbox](https://itunes.apple.com/us/app/droptext-a-text-editor-for/id371880635?mt=8) syncs for any data that I need to access simultaneously from several devices, whether computers, iPhones or iPads: this means that my Dropbox copies of this data (essentially my 1Password data, documents, photographs and music) can be regarded as [securely backed up](https://www.dropbox.com/). Better still, [Dropbox keeps a thirty-day history](https://www.dropbox.com/) of every change you make so that you can undo any mistakes and even undelete files if required.
 
-The combination of these two simple tools mean that if I lost access to my computer, its replacement could be rapidly running again with an effectively identical file system using a combination of the actual backups created *via* Arq and the files stored in [Dropbox](https://itunes.apple.com/us/app/droptext-a-text-editor-for/id371880635?mt=8), while emails and calendar items would be safe in Google Apps and Contacts in MobileMe.
+The combination of these two simple tools mean that if I lost access to my computer, its replacement could be rapidly running again with an effectively identical file system using a combination of the actual backups created _via_ Arq and the files stored in [Dropbox](https://itunes.apple.com/us/app/droptext-a-text-editor-for/id371880635?mt=8), while emails and calendar items would be safe in Google Apps and Contacts in MobileMe.
 
 An Arq licence for one computer costs $29, with a five-computer option available at $59. Amazon’s very reasonable monthly charge comes on top of that. You can cap it within Arq’s preferences to whatever suits you, and you’ll be kept within budget by deleting your oldest backups as the new ones come in.

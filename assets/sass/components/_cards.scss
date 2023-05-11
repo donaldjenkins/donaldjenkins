@@ -88,7 +88,11 @@
     margin: 0 calc($padding * 1.12) 0 0;
   }
 
-  & p {
+  & p:first-child,
+  h1:first-child,
+  h2:first-child,
+  h3:first-child {
+    margin-top: 0;
     margin-right: calc($padding * 1.12);
   }
 }

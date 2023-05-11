@@ -184,6 +184,7 @@ code {
 }
 
 pre {
+  white-space: pre-wrap;
   padding: $padding;
   font-size: var(--font-size-small);
   border-radius: $very-rounded;
