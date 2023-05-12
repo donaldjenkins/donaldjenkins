@@ -17,6 +17,13 @@ tableofcontents: false
 noindex: false
 ---
 
+{{% alert info %}}
+
+**Update 12th May, 2023**
+
+I have now moved my site from WordPress to Hugo and am no longer using the workflow presented in this post, since a static site doesn't require an economic model based on plugins and PHP.
+{{% /alert %}}
+
 While any serious photographer will use several cameras and lenses, the dramatic improvement in the quality of Apple’s iPhone cameras has led many people, me included, to take the majority of their photographs on their phones[^1]. A lot of these pictures may end up on an Instagram or Facebook profile—easily done directly from an iPhone—rather than a WordPress site. But if, like me, you wish to keep your photographs in some semblance of order and also display them on your site, the iPhone will have introduced additional complexity into your workflow.
 
 The complexity grows further if, like me, you want to display your photographs in your WordPress website without using a resource-draining plugin, and retain consistency between the images on your website and those in your Apple [Photos](https://www.apple.com/ios/photos/ "The official Apple Photos for iOS page") Library.

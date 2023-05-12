@@ -1,0 +1,46 @@
+/* Humans responsible & Colophon */
+
+	Site name: Donald Jenkins
+	Site: https://www.donaldjenkins.com/
+
+/* TEAM */
+	Web design: Donald Jenkins
+	Twitter: @donaldjenkins
+	Location: New York, NY
+	Tagline: Compassion is invincible
+
+/* SPECIAL THANKS */
+	Design consultant: Niels Ackermann
+	Site: https://www.nack.ch/
+	Twitter: @nielsack
+	Location: Geneva, Switzerland
+
+	Design consultant: Temami Atif
+	Site: https://dev.to/afif
+	Twitter: https://twitter.com/ChallengesCss
+	Github: https://github.com/Afif13
+
+	Technical consultant: Shane Bishop
+	Site: https://ewww.io/
+	Twitter: @ewwwio
+	Location: Glendive, MT
+
+	Design framework: normalize.css
+
+
+/* SITE */
+	Last update: 2023-05-12
+	CMS: Hugo
+	Theme: Kensington
+	Version: 1.0
+	Host: Cloudflare
+	Network environment: Jamstack
+	Platform
+	Language: English
+	Doctype: HTML5
+	Components used: HTML, css
+	Font: -system-ui
+	IDE: Nova by Panic, Figma, CodeKit, Affinity
+	Designer
+
+[Credit for this page: http://humanstxt.org/]
