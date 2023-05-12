@@ -29,7 +29,7 @@ From a British perspective, therefore, membership of the European Union is a sin
 
 Moreover, even in the historic core of the European Union where federalism had traditionally been strongest — the Benelux, Italy, Germany and France — a clear trend _against_ diluting national identity has now emerged. Euroscepticism has gained considerable ground in all these countries, which means any further deepening in integration is unlikely to happen.
 
-As [Sir Malcolm Rifkind](https://en.wikipedia.org/wiki/Malcolm_Rifkind?wprov=sfsi1) put it in a recent [blog post](https://blogs.spectator.co.uk/2016/06/remain-sir-malcolm-rifkinds-speech-spectators-brexit-debate/) in <cite>The Spectator</cite>:
+As [Sir Malcolm Rifkind](https://en.wikipedia.org/wiki/Malcolm_Rifkind?wprov=sfsi1) put it in a recent [blog post](https://blogs.spectator.co.uk/2016/06/remain-sir-malcolm-rifkinds-speech-spectators-brexit-debate/) in {{% cite %}}The Spectator{{% /cite %}} :
 
 > When I was Foreign Secretary, a French newspaper described me on one occasion as a “eurosceptic moderate” and of course those two words tell you what my position is. I strongly opposed the single currency and was part of many other people who were opposing that at that time. But I don’t believe that it is one-size-fits-all: already, we have two kinds of European Union – those who are in the eurozone and those who are not, there are 15 who are in and 13 who are not, some who don’t want to be, some who used to want to be then changed their minds and some who will never be.
 

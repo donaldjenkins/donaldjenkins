@@ -12,7 +12,7 @@ featured_image: ../uploads/internet-censorship.jpg
 Legal stuff
 ===========
 
-This page sums up the way this Website operates, the laws that apply to it, and the values underpinning our action. Your use of this Website, however, means you have also read and agreed to the full terms of our [Terms](/legal/terms/) and [Privacy Policy](/legal/privacy/) (<q>policies</q>) linked to in the table below. These documents are legally binding and may be subject to change.
+This page sums up the way this Website operates, the laws that apply to it, and the values underpinning our action. Your use of this Website, however, means you have also read and agreed to the full terms of our [Terms](/legal/terms/) and [Privacy Policy](/legal/privacy/) ({{% quote %}}policies{{% /quote %}} ) linked to in the table below. These documents are legally binding and may be subject to change.
 
 Any material change in our policies will be advertised on Donald Jenkins’s [Twitter account.](https://www.twitter.com/donaldjenkins)
 
@@ -21,7 +21,7 @@ Any material change in our policies will be advertised on Donald Jenkins’s [Tw
 Who we are · Our undertaking to you
 -----------------------------------
 
-The operator of this Website, donaldjenkins.com (<q>this Website</q>), an unincorporated, not-for-profit entity based in the state of New York, and owner of the associated domain name, is a private individual, [Donald Jenkins](https://www.twitter.com/donaldjenkins) (<q>we</q>). We have designed its Terms and Privacy Policy, which you can access at the top of this page, to be consistent with the following principles:
+The operator of this Website, donaldjenkins.com ({{% quote %}}this Website{{% /quote %}} ), an unincorporated, not-for-profit entity based in the state of New York, and owner of the associated domain name, is a private individual, [Donald Jenkins](https://www.twitter.com/donaldjenkins) ({{% quote %}}we{{% /quote %}} ). We have designed its Terms and Privacy Policy, which you can access at the top of this page, to be consistent with the following principles:
 
 - Because we believe that you shouldn’t have to provide personal information to visit a website, you may use this Website without registering an account. In fact, we don’t have accounts.
 - We give you advance notice, and keep a trace, of any changes in our [Terms](/legal/terms/changelog/) and [Privacy Policy](/legal/privacy/changelog/).

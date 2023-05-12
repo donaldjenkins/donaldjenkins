@@ -25,19 +25,34 @@ article h1 {
   display: flex;
   gap: 7.5vw;
   flex-direction: row;
+  align-items: center;
   margin-top: $padding;
+  line-height: 1;
+}
+
+@include media("<smartphone") {
+  #bottom-nav {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
 }
 
 #link-prev,
 #link-next {
   flex-grow: 1;
   flex-basis: calc(100% / 2);
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  align-self: center;
+  align-items: center;
+  display: block;
+  background-color: $secondary;
+  border: $secondary;
+  height: 9vh;
   text-overflow: ellipsis;
   overflow: hidden;
-  display: block;
-  background-color: $primary;
-  height: 8vh;
+  line-height: 1;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 #link-prev:hover,
@@ -45,10 +60,10 @@ article h1 {
   background-color: $secondary;
 }
 
-#link-prev a,
-#link-next a {
+#link-prev,
+#link-next {
+  margin: 0;
   font-size: var(--font-size-smallest);
-  line-height: 1.1;
   color: $white;
 }
 
