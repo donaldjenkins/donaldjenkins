@@ -13,11 +13,55 @@ article h1 {
 
 #bottom-meta {
   margin: $padding 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#taxonomy {
+  text-transform: lowercase;
+}
+
+#bottom-nav {
+  display: flex;
+  gap: 7.5vw;
+  flex-direction: row;
+  margin-top: $padding;
+}
+
+#link-prev,
+#link-next {
+  flex-grow: 1;
+  flex-basis: calc(100% / 2);
+  flex-wrap: wrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: block;
+  background-color: $primary;
+  height: 8vh;
+}
+
+#link-prev:hover,
+#link-next:hover {
+  background-color: $secondary;
+}
+
+#link-prev a,
+#link-next a {
+  font-size: var(--font-size-smallest);
+  line-height: 1.1;
+  color: $white;
+}
+
+#link-prev {
+  text-align: left;
+}
+
+#link-next {
+  text-align: right;
 }
 
 .meta a {
   text-decoration: none;
-  text-transform: lowercase;
 }
 
 ul.meta {

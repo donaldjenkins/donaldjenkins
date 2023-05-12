@@ -61,7 +61,7 @@ The trend, in any event, is clearly towards the end of multitasking. This machin
 
 Despite the device being powered by a 1.4GHz Intel Core 2 Duo processor, applications launch extremely fast: [Spotify](https://www.Spotify.com/), which used to take quite a while on my MacBook, launches instantly on the MacBook Air. The Nvidia GeForce 320M graphics processor is clearly one factor that helps with this, the SSD drive is the other. In fact, I also found myself running as many application as on my MacBook, without, ironically, the issues I had with the latter with its factory RAM of 2GB, meaning the MacBook Air uses RAM more efficiently.
 
-So it looks as if Mr Steve Jobs was serious when he recently [sent a customer the following email](https://www.macrumors.com/2010/04/13/steve-jobs-on-13-inch-macbook-pros-use-of-intel-core-2-duo-processors/):
+So it looks as if Steve Jobs was serious when he recently [sent a customer the following email](https://www.macrumors.com/2010/04/13/steve-jobs-on-13-inch-macbook-pros-use-of-intel-core-2-duo-processors/):
 
 > We chose killer graphics plus 10 hour battery life over a very small CPU speed increase. Users will see far more performance boost from the speedy graphics.
 

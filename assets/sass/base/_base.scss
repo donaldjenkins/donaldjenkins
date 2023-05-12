@@ -95,7 +95,8 @@ figcaption .footnote-ref {
 }
 
 .primary {
-  background-color: $primary;
+  background-color: var(--primary-color);
+  color: var(--text-on-dark);
 
   &:hover {
     background-color: $primary-hover;
@@ -103,7 +104,8 @@ figcaption .footnote-ref {
 }
 
 .secondary {
-  background-color: $secondary;
+  background-color: var(--secondary-color);
+  color: var(--text-on-dark);
 
   &:hover {
     background-color: $secondary-hover;
