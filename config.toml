@@ -5,6 +5,8 @@ title = 'Donald Jenkins writes about politics'
 
 [params]
   stylesheets = ["styles.css"]
+  color = "#9c9a75"
+  # Sets theme colour& Safari mask icon colour
   cloudflare_images = "https://www.silverejarrosson.com/cdn-cgi/imagedelivery/L0HrrfgxmX01pIlKW6n82w/"
   assets_url = "https://assets.via.dj/"
   video_url = "https://customer-j00pa75eocpcmpyc.cloudflarestream.com/"
@@ -48,9 +50,6 @@ articles = "/:slug"
     
 [build]
   writeStats = true
-  
-color = "#9c9a75"
-  # Sets theme colour& Safari mask icon colour
   
 [markup.goldmark.renderer]
   unsafe = true # Allow HTML in md files
