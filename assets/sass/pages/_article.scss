@@ -30,13 +30,6 @@ article h1 {
   line-height: 1;
 }
 
-@include media("<smartphone") {
-  #bottom-nav {
-    flex-direction: column;
-    gap: 1.5rem;
-  }
-}
-
 #link-prev,
 #link-next {
   flex-grow: 1;
@@ -73,6 +66,22 @@ article h1 {
 
 #link-next {
   text-align: right;
+}
+
+@include media("<smartphone") {
+  #bottom-nav {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  #link-prev,
+  #link-next {
+    width: 90%;
+  }
+  #link-prev:hover,
+  #link-next:hover {
+    width: 90%;
+    background-color: unset;
+  }
 }
 
 .meta a {

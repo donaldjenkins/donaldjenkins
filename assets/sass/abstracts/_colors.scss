@@ -55,6 +55,7 @@ $primary-light: hsl($primary-hue, 18%, 90%);
 $secondary: $horizon;
 $secondary-light: hsl($secondary-hue, 18%, 90%);
 $tertiary: $fuzzy-wuzzy-brown;
+$text: $davys-gray;
 $primary-hover: color.adjust($primary, $lightness: 5%);
 $secondary-hover: color.adjust($secondary, $lightness: 5%);
 $primary-on-dark: $primary-light;
@@ -80,7 +81,7 @@ $brand-text: hsl(
   13%,
   35%
 ); // brand-color darkened enough to pass contrast test
-$text-color: $davys-gray; // Main text color
+$text-color: $text; // Main text color
 $title-color: color.adjust($text-color, $blackness: 27%);
 
 // Lightest grey that passes Any Text WCAG AAA color contrast check

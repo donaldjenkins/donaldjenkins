@@ -27,3 +27,7 @@
 />  -->
 <script type="module" src="/vidstack/dist/cdn/prod.js"></script>
 {{ end }} {{ end }}
+
+{{ with .HasShortcode "contactform" }} {{ if . }}
+<link rel="stylesheet" href="/css/contact.css" />
+{{ end }} {{ end }}

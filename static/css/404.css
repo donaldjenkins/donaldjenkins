@@ -42,18 +42,26 @@
   color: hsl(0, 50%, 56%);
 }
 #oopss #error-text img {
-  margin: 85px auto 20px;
+  margin: 15vh auto 5vh;
   height: 342px;
+  align-self: center;
 }
+
+@media screen and (max-device-width: 480px) {
+  #oopss #error-text img {
+    margin: 30vh auto 5vh;
+  }
+}
+
 #oopss #error-text span {
   position: relative;
   font-size: 3.3em;
   font-weight: 900;
-  margin-bottom: 50px;
+  //margin-bottom: 25px;
 }
 #oopss #error-text p.p-a {
-  font-size: 19px;
-  margin: 30px 0 15px 0;
+  font-size: 1.65rem;
+  margin: 2em 0;
 }
 #oopss #error-text p.p-b {
   font-size: 15px;

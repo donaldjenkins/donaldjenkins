@@ -1,4 +1,4 @@
-.contact-form {
+.contact-thanks {
   position: fixed;
   top: 0;
   right: 0;
@@ -13,11 +13,11 @@
   pointer-events: none;
 }
 
-.contact-form:target {
+.contact-thanks:target {
   opacity: 1;
   pointer-events: auto;
 }
-.contact-form > div {
+.contact-thanks > div {
   width: 75%;
   position: relative;
   margin: 10% auto;
@@ -48,83 +48,4 @@
 }
 .close:hover {
   background: var(--danger-color);
-}
-
-.contact-text p {
-  color: var(--text-color);
-}
-
-/* @override 
-  https://cdn.donaldjenkins.com/wp-content/cache/min/1/wp-content/themes/gramercy/contact.css?* */
-
-.inside-article {
-  width: 65%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media (max-width: 420px) {
-  .inside-article {
-    width: 95% !important;
-  }
-}
-.page .entry-content {
-  margin-top: 10%;
-  margin-bottom: 5%;
-}
-
-.wpforms-container ::-webkit-input-placeholder {
-  color: #aaa;
-}
-
-.wpforms-container :-moz-placeholder {
-  color: #aaa;
-  opacity: 1;
-}
-
-.wpforms-container ::-moz-placeholder {
-  color: #aaa;
-  opacity: 1;
-}
-
-.wpforms-container :-ms-input-placeholder {
-  color: #aaa;
-}
-
-.wpforms-container ::-ms-input-placeholder {
-  color: #aaa;
-}
-
-div.wpforms-container-full .wpforms-form button[type="submit"] {
-  padding: 10px 50px !important;
-  margin-left: 0 !important;
-}
-
-button#wpforms-submit-2940.wpforms-submit {
-  margin-left: 0 !important;
-}
-
-textarea#wpforms-2940-field_2.wpforms-field-medium.wpforms-field-required,
-input#wpforms-2940-field_0.wpforms-field-name-first.wpforms-field-required,
-input#wpforms-2940-field_1.wpforms-field-medium.wpforms-field-required,
-input#wpforms-2940-field_4.wpforms-field-medium,
-input#wpforms-2940-field_0-last.wpforms-field-name-last.wpforms-field-required,
-input#wpforms-2940-field_6.wpforms-field-medium.wpforms-field-required.a {
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  outline: 0;
-  box-shadow: none;
-  border: none;
-  border-bottom: 1px solid #b8b8b8;
-  border-radius: 0;
-  box-sizing: content-box;
-  background-color: transparent;
-  overflow-y: hidden;
-  padding: 0;
-  resize: none;
-}
-
-.wpforms-form input:hover,
-.wpforms-form textarea:hover {
-  background-color: #fff7d1 !important;
 }
