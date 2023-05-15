@@ -1,3 +1,16 @@
+<a href="#thanks">Thank you</a>
+
+<div id="thanks" class="modalDialog">
+  <div>
+    <a href="#close" title="Close" class="close">X</a>
+
+    <h3 class="title">Thank you</h3>
+    <p class="subtitle">
+      Your message was successfully sent. I'll try to get back to you as soon as
+      possible.
+    </p>
+  </div>
+</div>
 <form
   id="contact-form"
   target="_self"
@@ -9,11 +22,10 @@
   <fieldset>
     <div class="form-field">
       <div class="form-group" id="First_name__div">
-        <label class="title" title="required" for="First_name"
+        <label title="required" for="First_name"
           >First name <span class="required-label">*</span></label
         >
         <input
-          class="subtitle"
           type="text"
           name="First name"
           id="First_name"
@@ -64,7 +76,7 @@
           name="Message"
           id="Message"
           required="required"
-          placeholder="Lorem ipsum"
+          placeholder="Your message here"
           class="form-control"
         ></textarea>
         <small class="form-text text-muted">Your message</small>

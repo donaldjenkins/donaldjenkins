@@ -3,7 +3,6 @@ fieldset {
   margin: 0 auto;
   padding: 0;
   min-width: 0;
-  max-width: 70%;
 }
 
 #contact-form {
@@ -11,7 +10,7 @@ fieldset {
   letter-spacing: normal;
   width: auto;
   border: 0;
-  margin: 5vh 0 0;
+  margin-top: calc(8px + 1.5625vw);
   padding: 0;
   margin-left: auto;
   margin-right: auto;
@@ -23,7 +22,8 @@ fieldset {
 #contact-form,
 fieldset,
 textarea,
-.form-control {
+.form-control,
+.form-group {
   width: 100%;
 }
 
@@ -43,12 +43,14 @@ input#First_name.subtitle {
   resize: none;
 }
 
-.form-field {
-  display: flex;
-}
-
-.form-group {
-  width: 100%;
+@media screen and (min-device-width: 580px) {
+  .form-field {
+    display: flex;
+    column-gap: 1em;
+  }
+  fieldset {
+    max-width: 70%;
+  }
 }
 
 textarea:hover,
@@ -90,4 +92,53 @@ label {
 input::placeholder,
 textarea::placeholder {
   font-size: 15px;
+}
+
+.modalDialog {
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 99999;
+  opacity: 0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+.modalDialog:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+.modalDialog > div {
+  width: 400px;
+  position: relative;
+  margin: 10% auto;
+  padding: 5px 20px 13px 20px;
+  border-radius: 10px;
+  background: hsl(135, 35%, 84%);
+}
+.close {
+  background: #606061;
+  color: #ffffff;
+  line-height: 25px;
+  position: absolute;
+  right: -12px;
+  text-align: center;
+  top: -10px;
+  width: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  box-shadow: 1px 1px 3px #000;
+}
+.close:hover {
+  background: hsl(135, 31%, 68%);
 }

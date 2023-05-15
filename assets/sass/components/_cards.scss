@@ -85,7 +85,7 @@
   h5 {
     font-size: var(--font-size-body);
     font-weight: var(--font-weight-bold);
-    margin: 0 calc($padding * 1.12) 0 0;
+    line-height: var(--line-height-smaller);
   }
 
   & p:first-child,
@@ -93,7 +93,7 @@
   h2:first-child,
   h3:first-child {
     margin-top: 0;
-    margin-right: calc($padding * 1.12);
+    margin: 0 calc($padding * 1.12) 0 0;
   }
 }
 

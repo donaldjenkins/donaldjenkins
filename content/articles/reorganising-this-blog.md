@@ -1,12 +1,12 @@
 ---
 title: "Reorganising this blog"
-categories: ['Tech']
+categories: ["Tech"]
 tags: [blogging, personal]
 seoTitle: "Donald Jenkins: Reorgansing this blog"
 date: 2010-03-15T01:03:21+00:00
 type: articles
-layout: 'single'
-slug: "stuff-i-couldnt-live-without-in-2010"  
+layout: "single"
+slug: "reorganising-this-blog"
 draft: false
 description: "The time has come to consolidate all the posts I’ve written since 2005 in a variety of guises, in one language and one site."
 summary: "The time has come to consolidate all the posts I’ve written since 2005 in a variety of guises, in one language and one site. The language, of course, had to be English and the site had to be donaldjenkins.com. I did toy for a while with the idea of running a bilingual blog. But the SEO implications of this were unclear and I thought it might be overkill. So I translated all the old blog posts, which hadn’t been available online for nearly two years, and uploaded them, for the first time, to this site. They have occasionally been made more concise, and comments (which were in French anyway) haven’t been preserved. You can browse through them by visiting the archives."
@@ -26,7 +26,6 @@ I’m struck by how much my writing style and the topics covered have changed. I
 I hope anyone who missed my old posts will be pleased to see them back online.
 
 [^1]: Except for a number of posts that I felt didn’t deserve being being put back online, for a variety of reasons.
-
 [^2]: Edit (2012): In a subsequent reorganization, I completely removed comments from this blog. As a consequence of this subsequent decision, old comments were taken offline and are no longer available.
 
 </div>

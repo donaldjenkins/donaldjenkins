@@ -1,5 +1,5 @@
 ---
-title: "Donald Jenkins: iTunes and Steve Jobs’s walled garden: a major strategic blunder for Apple"
+title: "iTunes and Steve Jobs’s walled garden: a major strategic blunder for Apple"
 categories: ["Tech"]
 tags:
   [

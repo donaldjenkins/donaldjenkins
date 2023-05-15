@@ -1,1 +1,4 @@
 {{ range .Site.Params.stylesheets }} <link href="/css/{{ . }}" rel="stylesheet" type="text/css">{{ end }}
+{{ with .HasShortcode "contactform" }} {{ if . }}
+<link rel="stylesheet" href="/css/contact.css" />
+{{ end }} {{ end }}
