@@ -23,7 +23,7 @@ article h1 {
 
 #bottom-nav {
   display: flex;
-  gap: 7.5vw;
+  gap: 8.5vw;
   flex-direction: row;
   align-items: center;
   margin-top: $padding;
@@ -41,7 +41,7 @@ article h1 {
   background-color: $secondary;
   border: $secondary;
   height: 9vh;
-  padding: 0;
+  padding: $padding/4;
   text-overflow: ellipsis;
   overflow: hidden;
   line-height: 1;

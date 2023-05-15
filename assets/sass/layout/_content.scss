@@ -7,6 +7,16 @@ html {
   background-color: var(--bg-color);
 }
 
+html,
+body {
+  height: 100%;
+}
+
+body > footer {
+  position: sticky;
+  top: 100vh;
+}
+
 main {
   margin-top: $padding;
   margin-bottom: $padding;
@@ -14,8 +24,8 @@ main {
 
 .post {
   width: calc(100% - 12vw);
-  
-// Sets container width to 70 characters  
+
+  // Sets container width to 70 characters
   max-width: 70ch;
   margin: 0 auto;
 }

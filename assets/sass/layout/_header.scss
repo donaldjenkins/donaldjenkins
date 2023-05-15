@@ -11,13 +11,14 @@
   position: relative;
   height: $header-height;
   display: flex;
+  flex-direction: row;
   margin: 0 auto;
   padding: 0 2vw;
 }
 
 #logo {
   width: 210px;
-  
+
   // To control horizontal centering. We will need to affect the top and down margins of our child element.
   margin-left: auto;
   margin-right: auto;
@@ -44,88 +45,85 @@
   border-radius: 100px;
   display: inline-block;
   position: absolute;
-  top: calc($padding *2.58);
+  top: calc($padding * 2.58);
   right: 4vw;
   transition: 0.5s;
-  box-shadow:
-    0 calc(2 * var(--s)) 0 var(--text-color),
+  box-shadow: 0 calc(2 * var(--s)) 0 var(--text-color),
     0 calc(-2 * var(--s)) 0 var(--text-color);
-  -webkit-appearance:none;
-  -moz-appearance:none;
-  appearance:none; 
-  
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
   &:before {
     content: "";
     position: absolute;
     inset: calc(-2 * var(--s)) 0;
     transition: 0.4s;
-    background:
-      radial-gradient(farthest-side, var(--text-color) 98%, #0000) 0 / var(--s) var(--s) repeat-x,
-      linear-gradient(var(--text-color) 0 0) 50% / calc(100% - var(--s)) var(--s) no-repeat;
+    background: radial-gradient(farthest-side, var(--text-color) 98%, #0000) 0 /
+        var(--s) var(--s) repeat-x,
+      linear-gradient(var(--text-color) 0 0) 50% / calc(100% - var(--s))
+        var(--s) no-repeat;
   }
-  
+
   &:after {
     content: "";
     position: absolute;
     inset: calc(-2 * var(--s)) 0;
     transition: 0.4s;
-    background:
-      radial-gradient(farthest-side, var(--text-color) 98%, #0000) 0 / var(--s) var(--s) repeat-x,
-      linear-gradient(var(--text-color) 0 0) 50% / calc(100% - var(--s)) var(--s) no-repeat;
+    background: radial-gradient(farthest-side, var(--text-color) 98%, #0000) 0 /
+        var(--s) var(--s) repeat-x,
+      linear-gradient(var(--text-color) 0 0) 50% / calc(100% - var(--s))
+        var(--s) no-repeat;
   }
-  
+
   &:focus-visible {
     outline: none;
   }
-  
+
   &:focus-visible::before {
     outline: 1px solid;
     outline-offset: 5px;
   }
-  
+
   &:hover {
-    box-shadow:
-      0 calc(1.6 * var(--s)) 0 var(--text-color),
+    box-shadow: 0 calc(1.6 * var(--s)) 0 var(--text-color),
       0 calc(-1.6 * var(--s)) 0 var(--text-color);
   }
-  
+
   &:checked {
-    box-shadow:
-      0 calc(6 * var(--s)) 0 #0000,
-      0 calc(-6 * var(--s)) 0 #0000;
+    box-shadow: 0 calc(6 * var(--s)) 0 #0000, 0 calc(-6 * var(--s)) 0 #0000;
   }
-  
+
   &:checked::before {
     transform: rotate(45deg);
     transition: 0.6s 0.1s;
   }
-  
+
   &:checked::after {
     transform: rotate(45deg);
     transition: 0.6s 0.1s;
   }
-  
+
   &:checked::after {
     transform: rotate(-45deg);
   }
 }
 
 @include media(">hamburger") {
-  
   #hamburger {
     @include visually-hidden-mixin;
   }
 
-  /// Position menu at right | Source: https://stackoverflow.com/questions/36182635/making-a-flex-item-float-right  
+  /// Position menu at right | Source: https://stackoverflow.com/questions/36182635/making-a-flex-item-float-right
   #menu {
     margin-left: auto;
     order: 2;
   }
-  
+
   #menu li {
     height: 1.75rem;
   }
-  
+
   #menu li a {
     color: $white;
     padding: 0 1em;
@@ -137,7 +135,7 @@
     //
     // Added to center text vertically (bug in simple.css)
     // Source: https://stackoverflow.com/questions/2883373/simple-css-text-wont-center-in-a-button
-    //  
+    //
     vertical-align: middle;
     margin: auto;
     //
@@ -146,7 +144,7 @@
     //
     line-height: 1.75rem;
     box-sizing: content-box;
-  
+
     &:hover {
       color: $link-hover-on-dark;
       text-decoration: none;
@@ -163,7 +161,6 @@
       background-color: $white;
       box-shadow: inset 0 -100px 0 0 var(--primary-color);
     }
-
   }
 
   #menu .button.secondary {
@@ -180,7 +177,6 @@
 }
 
 @include media("<hamburger") {
-  
   #menu ul {
     position: absolute;
     display: flex;
@@ -189,13 +185,13 @@
     align-items: center;
     justify-content: center;
     box-shadow: 0px 0.2px 0.3px hsl(var(--shadow-color) / 0.15),
-    -0.4px 2px 2.7px -0.2px hsl(var(--shadow-color) / 0.2),
-    -0.7px 3.7px 5px -0.3px hsl(var(--shadow-color) / 0.24),
-    -1.1px 5.6px 7.6px -0.5px hsl(var(--shadow-color) / 0.29),
-    -1.6px 8.2px 11.1px -0.7px hsl(var(--shadow-color) / 0.34),
-    -2.4px 12px 16.2px -0.8px hsl(var(--shadow-color) / 0.38),
-    -3.5px 17.3px 23.4px -1px hsl(var(--shadow-color) / 0.43),
-    -4.9px 24.6px 33.3px -1.2px hsl(var(--shadow-color) / 0.47);
+      -0.4px 2px 2.7px -0.2px hsl(var(--shadow-color) / 0.2),
+      -0.7px 3.7px 5px -0.3px hsl(var(--shadow-color) / 0.24),
+      -1.1px 5.6px 7.6px -0.5px hsl(var(--shadow-color) / 0.29),
+      -1.6px 8.2px 11.1px -0.7px hsl(var(--shadow-color) / 0.34),
+      -2.4px 12px 16.2px -0.8px hsl(var(--shadow-color) / 0.38),
+      -3.5px 17.3px 23.4px -1px hsl(var(--shadow-color) / 0.43),
+      -4.9px 24.6px 33.3px -1.2px hsl(var(--shadow-color) / 0.47);
     border: 1px solid rgba(255, 255, 255, 0.2); /* part of glass morphism effect */
     border-radius: 2rem 0 2rem 2rem;
     background: rgba(255, 255, 255, 1);
@@ -204,17 +200,17 @@
     padding: 0.3rem;
 
     opacity: 0;
-    transition: .3s;
-    z-index: -1;    
-    transform-origin: top right; transform: rotate(45deg);
-    
+    transition: 0.3s;
+    z-index: -1;
+    transform-origin: top right;
+    transform: rotate(45deg);
+
     @supports (backdrop-filter: blur(1em)) {
       background: rgba(255, 255, 255, 0.7);
-      backdrop-filter: blur(1em)
-      saturate(1000%);
+      backdrop-filter: blur(1em) saturate(1000%);
     }
   }
-  
+
   #menu ul li a {
     padding: none;
     color: $grey-dark;
@@ -225,19 +221,19 @@
       color: $link-hover;
     }
   }
-  
+
   #menu .button {
     background-color: transparent;
     border: none;
-    box-shadow: none;  
+    box-shadow: none;
   }
-  
+
   #hamburger {
     display: grid;
     z-index: 3;
   }
-  
-  #hamburger:checked+#menu ul {
+
+  #hamburger:checked + #menu ul {
     opacity: 1;
     backdrop-filter: blur(10px);
     z-index: 2;
