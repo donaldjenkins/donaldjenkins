@@ -17,6 +17,7 @@ tags:
 seoTitle: "Donald Jenkins: What’s ‘open’ anyway?  Walled gardens will never stifle innovation and shouldn’t be confused with Net neutrality"
 date: 2010-06-06T20:38:54+00:00
 type: articles
+notable: true
 layout: "single"
 slug: "whats-open-anyway-walled-gardens-will-never-stifle-innovation-and-shouldnt-be-confused-with-net-neutrality"
 draft: false

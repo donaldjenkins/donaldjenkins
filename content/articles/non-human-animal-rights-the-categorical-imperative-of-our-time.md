@@ -15,6 +15,7 @@ tags:
 seoTitle: "Donald Jenkins: Non-human animal rights: the categorical imperative of our time"
 date: 2020-12-29T22:53:40+00:00
 type: articles
+notable: true
 layout: "single"
 slug: "non-human-animal-rights-the-categorical-imperative-of-our-time"
 draft: false
@@ -68,11 +69,11 @@ Spending on food — in proportion to income — has [declined](https://www.npr.
 
 The cost of this adjustment was entirely borne by animals, in the form of suffering unprecedented in both scale[^4] and intensity. Things like beef, leather goods, cashmere, which were out of the reach of ordinary working-class wallets sixty years ago, are now regarded as staple consumer items.
 
+{{% video src="2ae097fc6001f01bf833a55cbd8dbe78" thumb-time="29" caption="This footage is quite long, but if you want to understand what the {{% quote %}}factory farm{{% /quote %}} I refer to in this article is, and why it poses such a huge moral problem, you should really watch it. Dominion uses drones, hidden and handheld cameras to expose the dark underbelly of modern animal agriculture, questioning the morality and validity of humankind’s dominion over the animal kingdom. While mainly focusing on animals used for food, it also explores other ways animals are exploited and abused by humans, including clothing, entertainment and research. Produced by the [Farm Transparency Project](https://vimeo.com/farmtransparency), and included here with permission." %}}
+
 {{% alert info %}}
 Find out more, get involved or donate to the work of the [Dominion Movement](https://www.dominionmovement.com).
 {{% /alert %}}
-
-{{% video src="2ae097fc6001f01bf833a55cbd8dbe78" thumb-time="29" caption="This footage is quite long, but if you want to understand what the {{% quote %}}factory farm{{% /quote %}} I refer to in this article is, and why it poses such a huge moral problem, you should really watch it. Dominion uses drones, hidden and handheld cameras to expose the dark underbelly of modern animal agriculture, questioning the morality and validity of humankind’s dominion over the animal kingdom. While mainly focusing on animals used for food, it also explores other ways animals are exploited and abused by humans, including clothing, entertainment and research. Produced by the [Farm Transparency Project](https://vimeo.com/farmtransparency), and included here with permission." %}}
 
 This did not happen magically. Pigs, cattle, and chickens have been domesticated for food for thousands of years. In the first half of the last century, animals were typically still raised with access to the outdoors. Most of the work on the farm was done by human or animal labour. Although conditions like these still exist, the industrialisation of agriculture radically transformed how the vast majority of food is produced in many parts of the world. Over the twentieth century, agriculture underwent greater change than it had since it was first adopted some thirteen thousand years ago. Agriculture, which used to be a part of human society, has steadily become a de-humanised, industrial process. The reason for this was the quest for profit, driven by the goal of achieving ever-lower food prices[^5].
 

@@ -14,6 +14,7 @@ tags:
 seoTitle: "Donald Jenkins: Feminists and homophobes have destroyed a unique four-hundred-and fifty-year-old English compromise"
 date: 2008-08-05T07:46:57+00:00
 type: articles
+notable: false
 layout: "single"
 slug: "feminists-and-homophobes-have-destroyed-a-unique-four-hundred-and-fifty-year-old-english-compromise"
 draft: false

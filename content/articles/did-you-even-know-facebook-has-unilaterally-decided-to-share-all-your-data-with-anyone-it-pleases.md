@@ -5,6 +5,7 @@ tags: [Facebook, Internet, privacy, "social networks"]
 seoTitle: "Donald Jenkins: Did you even know Facebook has unilaterally decided to share all your data with anyone it pleases?"
 date: 2010-04-25T10:57:44+00:00
 type: articles
+notable: false
 layout: "single"
 slug: "did-you-even-know-facebook-has-unilaterally-decided-to-share-all-your-data-with-anyone-it-pleases"
 draft: false

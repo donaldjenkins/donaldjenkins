@@ -1,11 +1,11 @@
 {{ define "main" }} {{ with .Site.Params }}
 <article id="statement">
   <h2 class="visually-hidden">About Donald Jenkins</h2>
-  <section id="slogan" class="hero is-full-height">
-    <h3 class="visually-hidden">Donald Jenkins: description</h3>
+  <section id="slogan" class="hero">
+    <h3 class="visually-hidden">Main description</h3>
     <p class="title">{{ .description | markdownify }}</p>
     <p class="subtitle">
-      <a href="#summary"title="Find out more">
+      <a href="#summary" title="Find out more">
         <svg
           class="small-icon filter-white hero-arrow"
           xmlns="https://www.w3.org/2000/svg"
@@ -19,11 +19,32 @@
       </a>
     </p>
   </section>
-  <section id="summary" class="sub-hero is-full-height">
-    <h3 class="visually-hidden">Donald Jenkins: brief CV</h3>
+  <main>
+    <div class="card">
+      <img
+        src="https://images.unsplash.com/photo-1656618020911-1c7a937175fd?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTc1MzQyNTE&ixlib=rb-1.2.1&q=80"
+        alt=""
+      />
+      <div class="card-content">
+        <h2>Card Heading</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+          exercitationem iste, voluptatum, quia explicabo laboriosam rem
+          adipisci voluptates cumque, veritatis atque nostrum corrupti ipsa
+          asperiores harum? Dicta odio aut hic.
+        </p>
+        <a href="#" class="button">
+          Find out more
+          <span class="material-symbols-outlined"> arrow_right_alt </span>
+        </a>
+      </div>
+    </div>
+  </main>
+  <section id="summary" class="sub-hero">
+    <h3 class="visually-hidden">Brief CV</h3>
     <p class="title">{{ .summary | markdownify }}</p>
     <p class="subtitle">
-      <a href="#articles"title="About Donald's articles">
+      <a href="#articles" title="About Donald's articles">
         <svg
           class="small-icon filter-white hero-arrow"
           xmlns="https://www.w3.org/2000/svg"
@@ -37,13 +58,13 @@
       </a>
     </p>
   </section>
-  <section id="articles" class="sub-hero is-full-height">
+  <section id="articles" class="sub-hero">
     <h3 class="visually-hidden">What Donald Jenkins writes about</h3>
     <p class="title">
       {{ with site.GetPage "articles" }} {{ .Summary | markdownify }} {{ end }}
     </p>
     <p class="subtitle">
-      <a href="/articles"title="About Donald's articles">
+      <a href="/articles" title="About Donald's articles">
         <svg
           class="small-icon filter-white hero-arrow"
           xmlns="https://www.w3.org/2000/svg"

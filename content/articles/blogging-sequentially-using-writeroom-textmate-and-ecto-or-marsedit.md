@@ -5,6 +5,7 @@ tags: [Apple, apps, blogging, software, TextMate, WordPress, WriteRoom]
 seoTitle: "Donald Jenkins: Blogging sequentially using Writeroom, TextMate and ecto or MarsEdit"
 date: 2009-01-20T09:14:33+00:00
 type: articles
+notable: false
 layout: "single"
 slug: "blogging-sequentially-using-writeroom-textmate-and-ecto-or-marsedit"
 draft: false

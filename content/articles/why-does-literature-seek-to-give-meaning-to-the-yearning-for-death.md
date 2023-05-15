@@ -13,6 +13,7 @@ tags:
 seoTitle: "Donald Jenkins: Why does literature seek to give meaning to the yearning for death?"
 date: 2009-03-07T18:03:10+00:00
 type: articles
+notable: false
 layout: "single"
 slug: "why-does-literature-seek-to-give-meaning-to-the-yearning-for-death"
 draft: false

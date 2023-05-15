@@ -31,3 +31,10 @@ main {
   max-width: 70ch;
   margin: 0 auto;
 }
+.list {
+  width: calc(100% - 6vw);
+
+  // Sets container width to 70 characters
+  max-width: 85ch;
+  margin: 0 auto;
+}

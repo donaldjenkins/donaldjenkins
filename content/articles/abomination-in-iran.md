@@ -5,7 +5,8 @@ tags: ["death penalty", gay, Iran]
 seoTitle: "Donald Jenkins: Abomination in Iran"
 date: 2005-08-12T21:34:14+00:00
 type: articles
-layout: "articles"
+notable: false
+layout: "single"
 slug: "abomination-in-iran"
 draft: false
 description: "My first real blog post was about an abomination. I have not been able to get the devastating news about the mollah regime in power in Iran''s hanging of two innocent teenagers, for the sole reason that they were in a relationship"

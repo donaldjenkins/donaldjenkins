@@ -5,7 +5,8 @@ tags: [Brexit, "European Union", UK]
 seoTitle: "Donald Jenkins:  Brexit: time to move on"
 date: 2019-12-13T22:39:31+00:00
 type: articles
-layout: "single"
+notable: true
+layout: "articles"
 slug: "brexit-time-to-move-on"
 draft: false
 description: "The time has come for us as a country to move on and plan our future in the new trading and political context for which the Government has received an unambiguous mandate, after four years of relentless, and all too often hysterical, debate over the merits and demerits of Brexit."

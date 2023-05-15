@@ -13,6 +13,7 @@ tags:
 seoTitle: "Donald Jenkins: Preparing this site for the 2020s"
 date: 2018-11-29T14:21:00+00:00
 type: articles
+notable: false
 layout: "single"
 slug: "preparing-this-site-for-the-2020s"
 draft: false

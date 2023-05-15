@@ -5,6 +5,7 @@ tags: [France, "La Marseillaise", "national anthem"]
 seoTitle: "Donald Jenkins: Should France change her national anthem?"
 date: 2007-02-05T03:05:41+00:00
 type: articles
+notable: true
 layout: "single"
 slug: "should-france-change-her-national-anthem"
 draft: false
@@ -29,10 +30,10 @@ My contribution to this debate is an alternative suggestion: rather than changin
 > Le jeune et beau Dunois  
 > Venant prier Marie  
 > De bénir ses exploits.  
-> {{% quote %}}Faites, reine immortelle,{{% /quote %}}   
+> {{% quote %}}Faites, reine immortelle,{{% /quote %}}  
 > Lui dit-il en partant.  
 > {{% quote %}}Que j’aime la plus belle  
-> Et sois le plus vaillant.{{% /quote %}} 
+> Et sois le plus vaillant.{{% /quote %}}
 >
 > Il trace sur la pierre  
 > Le serment de l’honneur,  
@@ -41,16 +42,16 @@ My contribution to this debate is an alternative suggestion: rather than changin
 > Au noble vœu fidèle,  
 > Il dit en combattant :  
 > {{% quote %}}Amour à la plus belle,  
-> Honneur au plus vaillant.{{% /quote %}} 
+> Honneur au plus vaillant.{{% /quote %}}
 >
 > {{% quote %}}On lui doit la victoire,  
-> Vraiment,{{% /quote %}}  dit le seigneur.  
+> Vraiment,{{% /quote %}} dit le seigneur.  
 > {{% quote %}}Puisque tu fais ma gloire,  
 > Je ferai ton bonheur.  
 > De ma fille Isabelle  
 > Sois l’époux a l’instant,  
 > Car elle est la plus belle  
-> Et toi le plus vaillant.{{% /quote %}} 
+> Et toi le plus vaillant.{{% /quote %}}
 >
 > A l’autel de Marie  
 > Ils contractent tous deux  
@@ -59,7 +60,7 @@ My contribution to this debate is an alternative suggestion: rather than changin
 > Chacun dans la chapelle  
 > Disait en les voyant :  
 > {{% quote %}}Amour à la plus belle,  
-> Honneur au plus vaillant.{{% /quote %}} 
+> Honneur au plus vaillant.{{% /quote %}}
 
 [^1]: The Third Republic made it the National Anthem in 1879 and an official version was adopted by the Ministry for War in 1887 after being examined by a commission.
 [^2]: [_Partant pour la Syrie_]({{ assets documents }}partant-pour-la-syrie.pdf), traditionally dated 1807, is a classic example of songs or romances evoking the spirit of the Middle Ages and its troubadours, a genre that flourished under the First Empire. The melody was originally attributed to [Hortense de Beauharnais](https://en.wikipedia.org/wiki/Hortense_de_Beauharnais), Napoleon's daughter-in-law. Then the musicologist Arthur Pougin designated, as being the real author of the melody, a certain [Louis-François-Philippe Drouet](https://en.wikipedia.org/wiki/Louis_Drouet) (1792-1855), flautist at the court of Louis King of Holland. The lyrics were written by Count [Alexandre de Laborde](https://en.wikipedia.org/wiki/Alexandre_de_Laborde) (1774-1842), archaeologist. Recent discoveries explain Pougin's reversal of the original attribution by his opposition to the Second Empire, and confirm Hortense as being the author of the music for _Partant pour la Syrie_, composed at Malmaison "while [his] mother was playing tric-trac". (_Mémoires_, vol. 3, p. 119).

@@ -5,6 +5,7 @@ tags: [England, literature, Mitford, UK]
 seoTitle: "Donald Jenkins: Is Nancy Mitford no longer understood?"
 date: 2009-02-02T18:39:04+00:00
 type: articles
+notable: true
 layout: "single"
 slug: "is-nancy-mitford-no-longer-understood"
 draft: false

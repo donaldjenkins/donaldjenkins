@@ -2,12 +2,13 @@
 <div class="container">
   <div class="section">
     <div class="content">
-      <h1 class="title">{{ .Title }}</h1>
-      {{ .Content }} {{ range .Pages }}
+      <h1>{{ .Title }}</h1>
+      {{ .Content }}
       <ul>
+        {{ range .Pages }}
         <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+        {{ end }}
       </ul>
-      {{ end }}
     </div>
   </div>
 </div>

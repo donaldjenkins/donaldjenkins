@@ -40,6 +40,10 @@ enableRobotsTXT = true
   source = "node_modules/vidstack"
   target = "static/vidstack"
 
+[taxonomies]  
+  category = "categories"
+  tag = "tags"
+
 [permalinks] 
 articles = "/:slug"
     

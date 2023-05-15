@@ -17,6 +17,7 @@ tags:
 seoTitle: "Donald Jenkins: Switching from a (dv) to a (ve) server on Media Temple"
 date: 2011-12-15T06:06:01+00:00
 type: articles
+notable: false
 layout: "single"
 slug: "switching-from-a-dv-to-a-ve-server-on-media-temple"
 draft: false

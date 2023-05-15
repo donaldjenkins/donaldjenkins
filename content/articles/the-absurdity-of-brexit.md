@@ -5,6 +5,7 @@ tags: [Brexit, "European Union", UK]
 seoTitle: "Donald Jenkins: The absurdity of Brexit"
 date: 2016-06-19T11:50:32+00:00
 type: articles
+notable: true
 layout: "single"
 slug: "the-absurdity-of-brexit"
 draft: false

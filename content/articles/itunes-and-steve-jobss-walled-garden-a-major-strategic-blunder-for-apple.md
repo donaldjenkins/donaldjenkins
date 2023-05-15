@@ -16,6 +16,7 @@ tags:
 seoTitle: "Donald Jenkins: iTunes and Steve Jobs’s walled garden: a major strategic blunder for Apple"
 date: 2010-10-05T00:06:41+00:00
 type: articles
+notable: false
 layout: "single"
 slug: "itunes-and-steve-jobss-walled-garden-a-major-strategic-blunder-for-apple"
 draft: false

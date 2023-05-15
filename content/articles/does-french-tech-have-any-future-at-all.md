@@ -5,6 +5,7 @@ tags: [Brexit, "European Union", UK]
 seoTitle: "Donald Jenkins: Does French tech have any future at all?"
 date: 2010-03-02T18:33:22+00:00
 type: articles
+notable: false
 layout: "single"
 slug: "does-french-tech-have-any-future-at-all"
 draft: false

@@ -5,6 +5,7 @@ tags: [France, Mozart, opera, Paris, "Michael Haneke"]
 seoTitle: "Donald Jenkins: Would the Social Register types in New York hate Haneke too?"
 date: 2006-01-30T20:15:31+00:00
 type: articles
+notable: false
 layout: "single"
 slug: "would-the-social-register-types-in-new-york-hate-haneke-too"
 draft: false

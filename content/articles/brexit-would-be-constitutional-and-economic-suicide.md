@@ -5,6 +5,7 @@ tags: [Brexit, "European Union", UK]
 seoTitle: "Donald Jenkins: Brexit would be constittutional and economic suicide"
 date: 2016-06-29T14:09:50+00:00
 type: articles
+notable: true
 layout: "single"
 slug: "brexit-would-be-constitutional-and-economic-suicide"
 draft: false

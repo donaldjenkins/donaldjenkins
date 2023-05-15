@@ -16,6 +16,7 @@ tags:
 seoTitle: "Donald Jenkins: Backing up a Mac to Amazon S3 with Arq: the easiest, safest and most accurate solution"
 date: 2010-11-21T05:44:09+00:00
 type: articles
+notable: false
 layout: "single"
 slug: "backing-up-a-mac-to-amazon-s3-with-arq-the-easiest-safest-and-most-accurate-solution"
 draft: false

@@ -5,6 +5,7 @@ tags: [blogging, privacy, "social networks"]
 seoTitle: "Donald Jenkins: Why I have finally decided to blog in my own name"
 date: 2009-02-13T16:34:13+00:00
 type: articles
+notable: false
 layout: "single"
 slug: "why-i-have-finally-decided-to-blog-in-my-own-name"
 draft: false

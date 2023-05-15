@@ -14,6 +14,7 @@ tags:
 seoTitle: "Donald Jenkins: Can the Fifth Republic survive M Sarkozy?"
 date: 2010-09-23T10:49:26+00:00
 type: articles
+notable: false
 layout: "single"
 slug: "can-the-fifth-republic-survive-m-sarkozy"
 draft: false

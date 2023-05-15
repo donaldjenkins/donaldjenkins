@@ -5,6 +5,7 @@ tags: [blogging, personal]
 seoTitle: "Donald Jenkins: Reorgansing this blog"
 date: 2010-03-15T01:03:21+00:00
 type: articles
+notable: false
 layout: "single"
 slug: "reorganising-this-blog"
 draft: false

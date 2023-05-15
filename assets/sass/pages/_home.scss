@@ -1,23 +1,10 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the home page template.
 // -----------------------------------------------------------------------------
-
 #statement {
   padding: 0 $padding;
   width: clamp((9.5 * $font-size-hero), 75%, 95vw);
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  //align-items: center;
-}
-
-#slogan,
-#summary {
-  align-self: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center
 }
 
 .hero p,

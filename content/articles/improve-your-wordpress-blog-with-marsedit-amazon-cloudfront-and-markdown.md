@@ -5,6 +5,7 @@ tags: [apps, blogging, Cloudfront, ecto, Markdown, MarsEdit, WordPress]
 seoTitle: "Donald Jenkins: Improve your WordPress blog with MarsEdit, Amazon Cloudfront and Markdown"
 date: 2010-03-20T15:37:02+00:00
 type: articles
+notable: false
 layout: "single"
 slug: "improve-your-wordpress-blog-with-marsedit-amazon-cloudfront-and-markdown"
 draft: false

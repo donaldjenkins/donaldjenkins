@@ -1,10 +1,54 @@
 {{ define "main" }}
-<div class="container">
-  <div class="section">
-    <div class="content">
-      <h1>{{ .Title }}</h1>
-      {{ .Content }}
+<article class="list">
+  <div id="main-heading">
+    <h1 class="title">{{ .Page.Title }}</h1>
+    {{ .Content }}
+    <h2 class="title">Notable posts</h2>
+    {{ range first 10 (where (where .Site.RegularPages "Type" "in" site.Params.mainSections) ".Params.notable" "=" true) }}
+     {{ partial "widgets/post-card.html" . }}
+    {{ end }}
+    <div class="columns is-multiline">
+      <h2 class="title">Personal</h2>
+      {{ range .Site.Taxonomies.categories.personal }}
+      {{ partial "widgets/post-card.html" . }}
+      {{ end }}
+    </div>
+    <div class="columns is-multiline">
+      <h2 class="title">Politics</h2>
+      {{ range .Site.Taxonomies.categories.politics }}
+        {{ partial "widgets/post-card.html" . }}
+      {{ end }}
+    </div>
+    <div class="columns is-multiline">
+      <h2 class="title">Tech</h2>
+      {{ range .Site.Taxonomies.categories.tech }}
+        {{ partial "widgets/post-card.html" . }}
+      {{ end }}
+    </div>
+    <div class="columns is-multiline">
+      <h2 class="title">Culture</h2>
+      {{ range .Site.Taxonomies.categories.culture }}
+        {{ partial "widgets/post-card.html" . }}
+      {{ end }}
+    </div>
+    <div class="columns is-multiline">
+      <h2 class="title">Literature</h2>
+      {{ range .Site.Taxonomies.categories.literature }}
+        {{ partial "widgets/post-card.html" . }}
+      {{ end }}
+    </div>
+    <div class="columns is-multiline">
+      <h2 class="title">Religion</h2>
+      {{ range .Site.Taxonomies.categories.religion }}
+        {{ partial "widgets/post-card.html" . }}
+      {{ end }}
+    </div>
+    <div class="columns is-multiline">
+      <h2 class="title">Sundry</h2>
+      {{ range .Site.Taxonomies.categories.sundry }}
+        {{ partial "widgets/post-card.html" . }}
+      {{ end }}
     </div>
   </div>
-</div>
+</article>
 {{ end }}

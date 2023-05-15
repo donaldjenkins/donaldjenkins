@@ -5,6 +5,7 @@ tags: [Apple, apps, "Google Reader", Mac, OSX, Reeder, RSS]
 seoTitle: "Donald Jenkins: Reeder for Mac: a stunning implementation of minimalism, elegant design and practicality in one RSS client"
 date: 2010-12-01T11:19:52+00:00
 type: articles
+notable: false
 layout: "single"
 slug: "reeder-for-mac-a-stunning-implementation-of-minimalism-elegant-design-and-practicality-in-one-rss-client"
 draft: false

@@ -5,6 +5,7 @@ tags: [Apple, apps, fashion, hardware, indispensable, software, trends, web]
 seoTitle: "Donald Jenkins: Stuff I couldn't live without in 2010"
 date: 2010-03-24T16:50:17+00:00
 type: articles
+notable: false
 layout: "single"
 slug: "stuff-i-couldnt-live-without-in-2010"
 draft: false

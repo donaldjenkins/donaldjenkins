@@ -87,14 +87,13 @@
     font-weight: var(--font-weight-bold);
     line-height: var(--line-height-smaller);
   }
+}
 
-  & p:first-child,
-  h1:first-child,
-  h2:first-child,
-  h3:first-child {
-    margin-top: 0;
-    margin: 0 calc($padding * 1.12) 0 0;
-  }
+.alert h1 + p,
+.alert h2 + p,
+.alert h3 + p {
+  margin-top: 0;
+  margin: 0 calc($padding * 1.12) 0 0;
 }
 
 @include media("<smartphone") {
@@ -107,16 +106,39 @@
   }
 }
 
-/* Source: https://codepen.io/jepooley/pen/NWYryap */
+.categories {
+  display: flex;
+  justify-content: space-between;
+}
 
-// Colors
-
-.card-container {
+.categoryCard {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  width: auto;
+  max-width: 200px;
+  min-height: 200px;
+  margin-right: 5px;
+  height: auto;
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+
+.categoryHead {
+  text-align: center;
+  background-color: #f07979;
+  color: #fff;
+  font-weight: bold;
+}
+
+.category__details {
+  padding: 0 10px;
+}
+
+.categoryCard p {
+  font-size: 14px;
+}
+
+/* Source: https://codepen.io/jepooley/pen/NWYryap */
 
 .card {
   //  width: 24rem;

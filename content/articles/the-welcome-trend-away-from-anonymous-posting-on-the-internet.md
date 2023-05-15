@@ -5,6 +5,7 @@ tags: [anonymous, blogging, Facebook, Internet, privacy]
 seoTitle: "Donald Jenkins: The welcome trend away from anonymous posting on the Internet"
 date: 2010-04-10T19:16:07+00:00
 type: articles
+notable: false
 layout: "single"
 slug: "the-welcome-trend-away-from-anonymous-posting-on-the-internet"
 draft: false

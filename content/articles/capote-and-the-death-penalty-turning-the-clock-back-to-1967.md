@@ -5,6 +5,7 @@ tags: [Capote, "death penalty", Hollywood, US]
 seoTitle: "Donald Jenkins: Capote and the death penalty: turning the clock back to 1967"
 date: 2006-03-26T22:39:31+00:00
 type: articles
+notable: false
 layout: "single"
 slug: "capote-and-the-death-penalty-turning-the-clock-back-to-1967"
 draft: false

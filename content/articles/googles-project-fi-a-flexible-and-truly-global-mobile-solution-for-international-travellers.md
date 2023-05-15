@@ -5,6 +5,7 @@ tags: [Android, Google, "Google Fi", iPhone, mobile]
 seoTitle: "Donald Jenkins: Google's Google Fi revolution"
 date: 2016-07-13T23:45:20+00:00
 type: articles
+notable: false
 layout: "single"
 slug: "googles-project-fi-a-flexible-and-truly-global-mobile-solution-for-international-travellers"
 draft: false
