@@ -1,13 +1,3 @@
-html,
-body {
-  height: 100%;
-}
-
-body > footer {
-  position: sticky;
-  top: 100vh;
-}
-
 #contact-form {
   height: auto;
   letter-spacing: normal;
