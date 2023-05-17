@@ -93,11 +93,8 @@
   }
 }
 
-.alert h1 + p,
-.alert h2 + p,
-.alert h3 + p {
+.alert *:first-child {
   margin-top: 0;
-  margin: 0 calc($padding * 1.12) 0 0;
 }
 
 @include media("<smartphone") {
