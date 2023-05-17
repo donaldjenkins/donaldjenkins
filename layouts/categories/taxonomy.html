@@ -5,7 +5,7 @@
     <h1>Category: {{ .Title }}</h1>
     {{ .Content }}
   </div>
-  <div class="columns is-multiline">
+  <div class="grid cards">
     {{ range .Paginator.Pages }}
     <div class="column is-half">{{ partial "widgets/post-card.html" . }}</div>
     {{ end }}
