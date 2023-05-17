@@ -9,7 +9,7 @@ notable: false
 layout: "single"
 slug: "improve-your-wordpress-blog-with-marsedit-amazon-cloudfront-and-markdown"
 draft: false
-description: "How I use MarsEdit for editing posts on my desktop, in combination with WriteRoom and TextMate. I explain how I''ve started using Amazon Cloudfront to store my images"
+description: "How I use MarsEdit for editing posts on my desktop, in combination with WriteRoom and TextMate. I explain how I've started using Amazon Cloudfront to store my images"
 summary: "In an update to a post I wrote in 2007 about the tools I use to compose blog posts, I cover using MarsEdit for editing posts on my desktop, in combination with WriteRoom and TextMate. I explain how I've started using Amazon Cloudfront to store my images. I also cover new trends in caching and ways of using Markdown to produce cleaner code including, optionally, using it as the storage format for individual blog posts, using Michel Fortin's PHP Markdown plugin."
 featured_image: "609d0038-ccd3-4664-5b2c-e66ff20c5f00"
 author: "Donald Jenkins"

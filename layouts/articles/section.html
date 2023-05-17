@@ -6,7 +6,7 @@
     <div class="columns is-multiline">
       <h2 class="title">Personal</h2>
       <p class="subtitle">{{ .Params.personal | markdownify }}</p>
-      <div class="grid">
+      <div class="grid cards">
       {{ range .Site.Taxonomies.categories.personal }}
         {{ partial "widgets/post-card.html" . }}
       {{ end }}
@@ -15,7 +15,7 @@
     <div class="columns is-multiline">
       <h2 class="title">Politics</h2>
       <p class="subtitle">{{ .Params.politics | markdownify }}</p>
-      <div class="grid">
+      <div class="grid cards">
       {{ range .Site.Taxonomies.categories.politics }}
         {{ partial "widgets/post-card.html" . }}
       {{ end }}

@@ -9,7 +9,7 @@ notable: false
 layout: "single"
 slug: "idomeneo-a-lyrical-turning-point"
 draft: false
-description: "A short review of Mozart''s Idomeneo, truly a revolutionary musical piece at the time it was composed, directed by Luc Bondy at the Palais Garnier in Paris."
+description: "A short review of Mozart's Idomeneo, truly a revolutionary musical piece at the time it was composed, directed by Luc Bondy at the Palais Garnier in Paris."
 summary: "Idomeneo is a major turning-point, not just in Mozart’s music, but in the history of opera. Albert Einstein said of Idomeneo that it was one of those works that even a genius of the highest rank like Mozart could only write once in his life. And it’s unquestionably radically different from anything Mozart composed before or afterwards."
 featured_image: "abfb62c7-8157-488a-7219-dcbdd2e46700"
 author: "Donald Jenkins"

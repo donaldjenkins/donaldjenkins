@@ -9,7 +9,7 @@ notable: true
 layout: "single"
 slug: "i-have-been-known-to-enjoy-rosenkavalier-sometimes"
 draft: false
-description: "A review of Gerard Mortier''s lovely production of Strauss''s Rosenkavalier at the Paris Bastille Opera."
+description: "A review of Gerard Mortier's lovely production of Strauss's Rosenkavalier at the Paris Bastille Opera."
 summary: "I’m always uncomfortable with Strauss. I find him impossible to fathom, which makes me deeply unpopular in certain circles. Salome, which I went to see a few months ago, was a terribly difficult experience. Many of my friends found it wonderful. So I wasn’t feeling my best when I set off with a friend to the Opera Bastille to see Rosenkavalier, whose first performance I had missed in December"
 featured_image: "43af1067-aaa1-4270-fa9d-f3f7f8abb200"
 author: "Donald Jenkins"

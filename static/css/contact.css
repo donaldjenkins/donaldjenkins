@@ -60,6 +60,7 @@ input#First_name.subtitle:hover {
 }
 textarea {
   height: 15vh;
+  overflow: auto;
 }
 
 .required-label {

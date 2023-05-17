@@ -8,8 +8,8 @@ type: articles
 layout: 'articles'
 slug: "alternatives-to-google-search-using-glims-with-blekko-duck-duck-go-or-wolfram-alpha-in-safari"
 draft: true
-description: "People are increasingly trying to find an alternative to Google Search owing to the latter''s growing difficulty in supplying relevant search results."
-summary: "People are increasingly trying to find an alternative to Google Search owing to the latter''s growing difficulty in supplying relevant search results. Several new, much smaller competitors now provide genuinely interesting alternatives: Duck Duck Go, Blekko and Wolfram Alpha, each of which does things in a slightly different way, are my current favourites. To have all of them—as well as other sites frequently used for certain searches, such as Twitter—literally at your fingertips on Safari, the best solution is installing the free Glims add-on which puts them all in an easy-to-access menu in the browser search box."
+description: "People are increasingly trying to find an alternative to Google Search owing to the latter's growing difficulty in supplying relevant search results."
+summary: "People are increasingly trying to find an alternative to Google Search owing to the latter's growing difficulty in supplying relevant search results. Several new, much smaller competitors now provide genuinely interesting alternatives: Duck Duck Go, Blekko and Wolfram Alpha, each of which does things in a slightly different way, are my current favourites. To have all of them—as well as other sites frequently used for certain searches, such as Twitter—literally at your fingertips on Safari, the best solution is installing the free Glims add-on which puts them all in an easy-to-access menu in the browser search box."
 featured_image: "969a796-2fbc-451f-ba14-8f6e0276b000"
 author: "Donald Jenkins"
 showthedate: false

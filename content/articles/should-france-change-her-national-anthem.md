@@ -9,8 +9,8 @@ notable: true
 layout: "single"
 slug: "should-france-change-her-national-anthem"
 draft: false
-description: "A modest, and rather frivolous, contribution to the debate that sometimes recurs about the words of France''s national anthem."
-summary: "A modest, and rather frivolous, contribution to the debate that sometimes recurs about the words of France''s national anthem."
+description: "A modest, and rather frivolous, contribution to the debate that sometimes recurs about the words of France's national anthem."
+summary: "A modest, and rather frivolous, contribution to the debate that sometimes recurs about the words of France's national anthem."
 featured_image: "36215c54-8eb9-453e-12f9-3b7044616a00"
 author: "Donald Jenkins"
 showthedate: false

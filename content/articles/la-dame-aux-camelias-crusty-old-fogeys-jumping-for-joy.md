@@ -8,8 +8,8 @@ type: articles
 layout: 'single'
 slug: "la-dame-aux-camelias-crusty-old-fogeys-jumping-for-joy"  
 draft: false
-description: "A review of Neumeier''s *La Dame aux camellias*. I wonder why it took so long for this wonderful ballet piece, created in 1978, to be included in the Opera’s *répertoire*."
-summary: "A review of Neumeier''s *La Dame aux camellias*. I wonder why it took so long for this wonderful ballet piece, created in 1978, to be included in the Opera’s *répertoire*."
+description: "A review of Neumeier's *La Dame aux camellias*. I wonder why it took so long for this wonderful ballet piece, created in 1978, to be included in the Opera’s *répertoire*."
+summary: "A review of Neumeier's *La Dame aux camellias*. I wonder why it took so long for this wonderful ballet piece, created in 1978, to be included in the Opera’s *répertoire*."
 featured_image: "266df7f1-6ed3-4fb0-6d27-a3b70104a300"
 author: "Donald Jenkins"
 showthedate: false

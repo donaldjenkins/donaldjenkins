@@ -9,7 +9,7 @@ notable: false
 layout: "single"
 slug: "would-the-social-register-types-in-new-york-hate-haneke-too"
 draft: false
-description: "A review of Heneke''s *Don Giovanni* at the Palais Garnier, which received an absolutely awful welcome from the pretentious Parisian public."
+description: "A review of Heneke's *Don Giovanni* at the Palais Garnier, which received an absolutely awful welcome from the pretentious Parisian public."
 summary: "Don Giovanni is Mozart’s most avantgardist opera: it was a major benchmark for nineteenth-century composers. Yet Haneke who directed this production, was booed copiously at Friday’s first performance."
 featured_image: "5ef4a65a-e317-410d-3482-325906886b00"
 author: "Donald Jenkins"

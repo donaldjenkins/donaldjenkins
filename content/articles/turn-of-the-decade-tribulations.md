@@ -9,8 +9,8 @@ notable: false
 layout: "single"
 slug: "turn-of-the-decade-tribulations"
 draft: false
-description: "My difficult start to a new decade, and the tribulations of the French healthcare system, which is still probably the world''s best"
-summary: "My difficult start to a new decade, and the tribulations of the French healthcare system, which is still probably the world''s best. Competent care is available round-the-clock in Paris, and rich and poor and treated exactly equally, which is how should be."
+description: "My difficult start to a new decade, and the tribulations of the French healthcare system, which is still probably the world's best"
+summary: "My difficult start to a new decade, and the tribulations of the French healthcare system, which is still probably the world's best. Competent care is available round-the-clock in Paris, and rich and poor and treated exactly equally, which is how should be."
 featured_image: "2332d026-bded-42ef-58e5-e8186ab86600"
 author: "Donald Jenkins"
 showthedate: false

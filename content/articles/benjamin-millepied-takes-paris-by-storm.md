@@ -8,8 +8,8 @@ type: articles
 layout: 'single'
 slug: "benjamin-millepied-takes-paris-by-storm"  
 draft: false
-description: "A review of Benjamin Millepied''s ballet *Amoveo*, which was attended by a huge concourse of people from Paris and New York."
-summary: "A review of Benjamin Millepied''s ballet *Amoveo*, which was attended by a huge concourse of people from Paris and New York."
+description: "A review of Benjamin Millepied's ballet *Amoveo*, which was attended by a huge concourse of people from Paris and New York."
+summary: "A review of Benjamin Millepied's ballet *Amoveo*, which was attended by a huge concourse of people from Paris and New York."
 featured_image: "b538a8dc-ae39-4270-7c7e-95ffd5ff5400"
 author: "Donald Jenkins"
 showthedate: false

@@ -20,7 +20,7 @@
     </p>
   </section>
   <section>
-    <div class="grid">
+    <div class="grid cards">
     {{ range first 6 (where (where site.RegularPages "Type" "in" site.Params.mainSections) ".Params.notable" "=" true) }}
     {{ partial "widgets/post-card.html" . }}
     {{ end }}

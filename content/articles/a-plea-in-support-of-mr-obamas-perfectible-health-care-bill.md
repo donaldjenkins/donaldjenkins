@@ -10,7 +10,7 @@ layout: "single"
 slug: "a-plea-in-support-of-mr-obamas-perfectible-health-care-bill"
 draft: false
 description: "I'm in no doubt that America needs universal health care for the same reasons that Europe needed it in 1945."
-summary: "I'm in no doubt that America needs universal health care for the same reasons that Europe needed it in 1945: it''s morally unacceptable, in a rich society, that anyone should be denied it for financial reasons. The bill presently before Congress is clearly perfectible, but in reality, arguments against it are but thinly-veiled pretexts barely concealing the selfishness and economic ignorance underlying Mr Obama''s opponents on this issue.."
+summary: "I'm in no doubt that America needs universal health care for the same reasons that Europe needed it in 1945: it's morally unacceptable, in a rich society, that anyone should be denied it for financial reasons. The bill presently before Congress is clearly perfectible, but in reality, arguments against it are but thinly-veiled pretexts barely concealing the selfishness and economic ignorance underlying Mr Obama's opponents on this issue.."
 featured_image: "6a288814-d8e2-416d-74bd-822cb9377200"
 author: "Donald Jenkins"
 showthedate: true
