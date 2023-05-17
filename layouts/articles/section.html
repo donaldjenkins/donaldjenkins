@@ -24,7 +24,7 @@
     <div class="columns is-multiline">
       <h2 class="title">Tech</h2>
       <p class="subtitle">{{ .Params.tech | markdownify }}</p>
-      <div class="grid">
+      <div class="grid cards">
       {{ range .Site.Taxonomies.categories.tech }}
         {{ partial "widgets/post-card.html" . }}
       {{ end }}
@@ -33,7 +33,7 @@
     <div class="columns is-multiline">
       <h2 class="title">Culture</h2>
       <p class="subtitle">{{ .Params.culture | markdownify }}</p>
-      <div class="grid">
+      <div class="grid cards">
       {{ range .Site.Taxonomies.categories.culture }}
         {{ partial "widgets/post-card.html" . }}
       {{ end }}
@@ -51,7 +51,7 @@
     <div class="columns is-multiline">
       <h2 class="title">Religion</h2>
       <p class="subtitle">{{ .Params.religion | markdownify }}</p>
-      <div class="grid">
+      <div class="grid cards">
       {{ range .Site.Taxonomies.categories.religion }}
         {{ partial "widgets/post-card.html" . }}
       {{ end }}
@@ -60,7 +60,7 @@
     <div class="columns is-multiline">
       <h2 class="title">Sundry</h2>
       <p class="subtitle">{{ .Params.sundry | markdownify }}</p>
-      <div class="grid">
+      <div class="grid cards">
       {{ range .Site.Taxonomies.categories.sundry }}
         {{ partial "widgets/post-card.html" . }}
       {{ end }}
