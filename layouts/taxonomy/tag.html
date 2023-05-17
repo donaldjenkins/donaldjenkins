@@ -1,8 +1,16 @@
-<!-- Source: https://www.jakewiesler.com/blog/hugo-taxonomies -->
-<ul>
-  {{ range .Data.Pages }}
-  <li>
-    <a href="{{.RelPermalink}}">{{ .Title }}</a>
-  </li>
-  {{ end }}
-</ul>
+{{ define "main" }}
+<article class="archive">
+  <div class="content">
+    <h1>Tag: {{ .Title }}</h1>
+    <p>The following articles contain the tag {{ .Title }}:</p>
+  </div>
+  <!-- Source: https://www.jakewiesler.com/blog/hugo-taxonomies -->
+  <ul>
+    {{ range .Data.Pages }}
+    <li>
+      <a href="{{.RelPermalink}}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
+</article>
+{{ end }}

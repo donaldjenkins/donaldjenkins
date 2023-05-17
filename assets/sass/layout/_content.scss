@@ -28,13 +28,14 @@ main {
   width: calc(100% - 12vw);
 
   // Sets container width to 70 characters
-  max-width: 70ch;
+  max-width: $container;
   margin: 0 auto;
 }
-.list {
+.archive {
   width: calc(100% - 6vw);
-
-  // Sets container width to 70 characters
-  max-width: 85ch;
   margin: 0 auto;
+
+  & #main-heading p {
+    max-width: $container;
+  }
 }

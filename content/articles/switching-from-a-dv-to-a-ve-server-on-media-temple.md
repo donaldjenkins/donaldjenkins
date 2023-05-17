@@ -21,8 +21,8 @@ notable: false
 layout: "single"
 slug: "switching-from-a-dv-to-a-ve-server-on-media-temple"
 draft: false
-description: "After completing the switch to html5, switching from .net to .com, accompanied by a new design, I wanted to update my server configuration, which hadn’t changed for three years. I set up my new (ve) server, combining it with one of Media Temple’s ProCDN accounts so that the (ve) server is optimized to fetch content from the database and build the dynamic content displayed on my WordPress blog, while the CDN will host all static content and serve it from the closest possible location to the user."
-summary: "After completing the switch to html5, switching from .net to .com, accompanied by a new design, I wanted to update my server configuration, which hadn’t changed for three years."
+description: "After completing the switch to html5, switching from .net to .com, accompanied by a new design, I wanted to update my server configuration, which hadn’t changed for three years."
+summary: "After completing the switch to html5, switching from .net to .com, accompanied by a new design, I wanted to update my server configuration, which hadn’t changed for three years. I set up my new (ve) server, combining it with one of Media Temple’s ProCDN accounts so that the (ve) server is optimized to fetch content from the database and build the dynamic content displayed on my WordPress blog, while the CDN will host all static content and serve it from the closest possible location to the user."
 featured_image: "456a6728-7050-48ff-0791-bc94fa7f7400"
 author: "Donald Jenkins"
 showthedate: false

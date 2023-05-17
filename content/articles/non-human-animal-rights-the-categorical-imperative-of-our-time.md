@@ -19,9 +19,9 @@ notable: true
 layout: "single"
 slug: "non-human-animal-rights-the-categorical-imperative-of-our-time"
 draft: false
-description: "I describe the cruelty of the modern factory farm and the philosophical and legal framework which legitimises dominion and ownership by man over non-humans. I then present the evidence that animals share with us the ability to feel pain and pleasure and suggest a philosophical framework to make anilmals citizens."
+description: "I describe the cruelty of the modern factory farm and the framework which legitimises dominion by man over non-humans, then  the evidence that animals share with us the ability to feel pain and pleasure, and suggest a philosophical framework to make them citizens."
 summary: "In the first part, I cover the modern factory farm and present selected evidence of the gross cruelty meted out to billions of farm animals. I then  describe the philosophical and legal framework, which legitimises dominion and ownership by man over non-humans. In the second part, we see that farm animals end with a philosophical framework, based on giving animals rights similar to those enjoyed by humans in Kant’s categorical imperative."
-featured_image: "/Volumes/Macintosh HD/Users/donaldjenkins/Sites/donaldjenkins/.gitignore"
+featured_image: "f29ad28e-2378-4147-cb9e-2ee5acc8d400"
 author: "Donald Jenkins"
 showthedate: false
 tableofcontents: true

@@ -1,21 +1,22 @@
 ---
 title: "A better new decade?"
-categories: ['Personal']
-tags: ['France', 'healthcare', 'Paris']
+categories: ["Personal"]
+tags: ["France", "healthcare", "Paris"]
 seoTitle: "Donald Jenkins: A better new decade?"
 date: 2011-01-07T15:45:25+00:00
 type: articles
-layout: 'articles'
+layout: "articles"
 slug: "a-better-new-decade"
 draft: false
 description: "I wish all who read this a very Happy New Year: I am certain I am not the only one hoping that this new decade will mark a new beginning."
 summary: "I wish all who read this a very Happy New Year: I am certain I am not the only one hoping that this new decade will mark a new beginning."
-featured_image: "969a796-2fbc-451f-ba14-8f6e0276b000"
+featured_image: "6a89582f-dbaa-4741-7d75-83e9721d2b00"
 author: "Donald Jenkins"
 showthedate: false
 tableofcontents: false
 noindex: false
 ---
+
 Twenty-ten opened for me in the emergency ward of a French hospital. Things have picked up in 2011, I suppose, as I am writing this from the comfort of my bed, to which I was confined by influenza for most of the Twelve Days of Christmas, my fever and aching dropping just in time for the Feast of the Epiphany.
 
 While on a personal front I have no comment to offer as yet about the past year, I would like to highlight how, to me, it has been an exceptionally uplifting one at home, seen from my Continental exile. It has been a while since the Coalition government unexpectedly came into being, following Her Majesty The Queen’s decision to appoint Mr David Cameron as her First Minister. It has, so far, conducted the country’s affairs with moderation, common sense and a remarkable dose of courage. The [idea](https://www.telegraph.co.uk/news/newstopics/politics/8163394/John-Major-The-Limits-of-Power.html), voiced by Mr John Major (I should add, just for the record, that I am not particularly admirative of Mr Major’s record in office and would take most of the claims he makes in his Churchill College speech with more than a grain of salt), that the arrangement should be made permanent has, predictably, raised eyebrows on the Right of the Tory Party and on the Left of the Liberal Democrat Party: yet it is one that I find appealing: the Coalition’s policies involve a principled and determined effort to rein back the frontiers of the state, disastrously expanded at ruinous expense by thirteen years of the most dogmatic Socialist administration the country has ever endured; it will take time to bear fruit.

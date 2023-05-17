@@ -179,11 +179,32 @@ picture img {
 }
 
 /**
+ * Make entire element clickable |Source: https://stackoverflow.com/questions/70068954/make-entire-card-clickable-by-targeting-a-inside-of-it
+ */
+
+.item {
+  position: relative;
+}
+
+.item a::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+/**
  * Format code with card
  */
 pre,
 code {
   background-color: var(--normal-bg);
+}
+
+code {
+  padding: 0.2em;
 }
 
 pre {

@@ -10,7 +10,7 @@ slug: "an-amazing-mixture-of-roland-petit-the-corps-de-ballet-and-proust"
 draft: false
 description: "A review of RolandPetit''s impressive ballet Proust ou les intermittences du coeur_ : « Les enfers de Monsieur de Charlus »."
 summary: "A review of RolandPetit''s impressive ballet _Proust ou les intermittences du coeur_ : « Les enfers de Monsieur de Charlus »."
-featured_image: "969a796-2fbc-451f-ba14-8f6e0276b000"
+featured_image: "e74a9ede-4031-444b-63b8-c1f3e9ad3e00"
 author: "Donald Jenkins"
 showthedate: false
 tableofcontents: false

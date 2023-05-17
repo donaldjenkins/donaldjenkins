@@ -15,32 +15,4 @@ tableofcontents: false
 noindex: false
 ---
 
-Donald started publishing articles in 2005. A selection of his older contributions, listed below, is still online and new ones will continue to be published when inspiration and circumstances so dictate. Most of his articles are here, but, obviously, you can look him up on [Twitter](https://www.twitter.com/donaldjenkins) if you yearn for more frequent updates from him.</aside>
-
-## Personal
-
-This includes a wide range of miscellaneous topics—inevitably inducing an impression of boundless eclecticism.
-
-## Culture
-
-My interests span contemporary art, which has surrounded me ever since my infancy, [heraldry](https://cdn.donaldjenkins.com/documents/jenkins-arms-large.jpg?lossy=1&w=2560&ssl=1), music, especially from Mozart up to the mid-Romantic period, as well as well-sung English choral music from the sixteenth, seventeenth and nineteenth centuries. I have worked in the field of culture and media in various capacities.
-
-## Politics
-
-Politics are hardly a side interest, as can be seen from the articles collected here. I first indulged my taste for [politics](/politics/) and current affairs at Oxford at the [Oxford Union Society](https://www.oxford-union.org/), and then as a student in Paris, where I was President of [Conférence Olivaint](https://en.wikipedia.org/wiki/Conf%C3%A9rence_Olivaint).
-
-## Tech
-
-Subjects I’m passionate about include [code](https://stackoverflow.com/users/265324/donald-jenkins), good [web design](https://dribbble.com/donaldjenkins), Net neutrality, and avoiding government interference in the Internet. I write a lot about  Apple-related stuff, blogging techniques and trends in social networks.
-
-## Literature
-
-My favourite authors are those who wrote after the turn of the nineteenth century, but before the death of Camus, which still leaves quite a wide range. This happens to coincide with the so-called période grammaticale, a period during which form was deemed to matter more than substance, not because substance did not matter, but because form was the surest way of gauging the true value of the substance behind it—a view with which I heartily agree.
-
-## Religion
-
-Like the first Queen Elizabeth, I firmly believe in not putting windows into men’s souls (Collinson, Patrick (2004). _Elizabeth I. Oxford Dictionary of National Biography_). Yet like the second Queen of the same name, I take my religion (relatively) seriously and have occasionally shared thoughts about the subject here.
-
-## Sundry
-
-These articles don’t fit neatly into this site’s topics. Their presence here probably bears witness the incorrigible eclecticity of my range of interests.
+Donald started publishing articles in 2005. A selection of his older contributions, listed below, is still online and new ones will continue to be published when inspiration and circumstances so dictate. Most of his articles are here, but, obviously, you can look him up on [Twitter](https://www.twitter.com/donaldjenkins) if you yearn for more frequent updates from him.

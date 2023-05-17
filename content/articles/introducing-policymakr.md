@@ -1,16 +1,16 @@
 ---
 title: "Introducing Policymakr"
-categories: ['Personal']
-tags: [Facebook, Internet, 'social networks', startup]
+categories: [Personal]
+tags: [Facebook, Internet, "social networks", startup]
 seoTitle: "Donald Jenkins: Introducing Policymakr"
 date: 2019-01-18T10:53:38+00:00
 type: articles
-layout: 'single'
-slug: "introducing-policymakr"  
+layout: "single"
+slug: "introducing-policymakr"
 draft: false
-description: "A quick introduction to Policymakr, the new start-up I''ve been planning since the dramatic events of 2016, and which I''ve finally decided to launch. And a little question-and-answer session, as an added bonus."
+description: "A quick introduction to Policymakr, the new start-up I''ve been planning since the dramatic events of 2016"
 summary: "A quick introduction to Policymakr, the new start-up I''ve been planning since the dramatic events of 2016, and which I''ve finally decided to launch. And a little question-and-answer session, as an added bonus."
-featured-image: "119a9245-85d9-44ba-e2b6-ff72c7dcb400"
+featured-image: "88317754-8a1b-4073-5a96-644af5237200"
 author: "Donald Jenkins"
 showthedate: false
 tableofcontents: false

@@ -22,7 +22,7 @@ slug: "itunes-and-steve-jobss-walled-garden-a-major-strategic-blunder-for-apple"
 draft: false
 description: "iTunes and Steve Jobs’s walled garden: a major strategic blunder for Apple: If Apple persists in its strategy of pretending the cloud doesn’t exist, it could end on the path as Microsoft when it turned its back on the Internet in the 1990s"
 summary: "It is inexplicable that Apple, which sells 70 per cent of upmarket laptops, doesn’t take advantage of this to offer new buyers of its hardware the option of creating a free, open cloud-based account which could host their music and applications, and that could easily connect with other social networks. If Apple persists in its strategy of pretending the cloud doesn’t exist, it could end on the path as Microsoft when it turned its back on the Internet in the 1990s."
-featured_image: "3a2394ad-3e12-4fac-c945-064e7be29800"
+featured_image: "7ad54862-64cc-45ec-e796-b5d21718dd00"
 author: "Donald Jenkins"
 showthedate: false
 tableofcontents: false
