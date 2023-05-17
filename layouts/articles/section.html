@@ -3,72 +3,68 @@
   <div id="main-heading">
     <h1 class="title">{{ .Page.Title }}</h1>
     {{ .Content }}
-    <h2 class="title">Notable posts</h2>
-    {{ range first 10 (where (where .Site.RegularPages "Type" "in" site.Params.mainSections) ".Params.notable" "=" true) }}
-     {{ partial "widgets/post-card.html" . }}
-    {{ end }}
     <div class="columns is-multiline">
       <h2 class="title">Personal</h2>
-      {{ with site.GetPage "categories/personal" }}
-      {{ .Description }}
-      {{ end }}
+      <p class="subtitle">{{ .Params.personal | markdownify }}</p>
+      <div class="grid">
       {{ range .Site.Taxonomies.categories.personal }}
         {{ partial "widgets/post-card.html" . }}
       {{ end }}
+      </div>
     </div>
     <div class="columns is-multiline">
       <h2 class="title">Politics</h2>
-      {{ with site.GetPage "categories/politics" }}
-      {{ .Description }}
-      {{ end }}
+      <p class="subtitle">{{ .Params.politics | markdownify }}</p>
+      <div class="grid">
       {{ range .Site.Taxonomies.categories.politics }}
         {{ partial "widgets/post-card.html" . }}
       {{ end }}
+      </div>
     </div>
     <div class="columns is-multiline">
       <h2 class="title">Tech</h2>
-      {{ with site.GetPage "categories/tech" }}
-      {{ .Description }}
-      {{ end }}
+      <p class="subtitle">{{ .Params.tech | markdownify }}</p>
+      <div class="grid">
       {{ range .Site.Taxonomies.categories.tech }}
         {{ partial "widgets/post-card.html" . }}
       {{ end }}
+      </div>
     </div>
     <div class="columns is-multiline">
       <h2 class="title">Culture</h2>
-      {{ with site.GetPage "categories/culture" }}
-      {{ .Description }}
-      {{ end }}
+      <p class="subtitle">{{ .Params.culture | markdownify }}</p>
+      <div class="grid">
       {{ range .Site.Taxonomies.categories.culture }}
         {{ partial "widgets/post-card.html" . }}
       {{ end }}
+      </div>
     </div>
     <div class="columns is-multiline">
       <h2 class="title">Literature</h2>
-      {{ with site.GetPage "categories/literature" }}
-      {{ .Description }}
-      {{ end }}
+      <p class="subtitle">{{ .Params.literature | markdownify }}</p>
+      <div class="grid">
       {{ range .Site.Taxonomies.categories.literature }}
         {{ partial "widgets/post-card.html" . }}
       {{ end }}
+      </div>
     </div>
     <div class="columns is-multiline">
       <h2 class="title">Religion</h2>
-      {{ with site.GetPage "categories/religion" }}
-      {{ .Description }}
-      {{ end }}
+      <p class="subtitle">{{ .Params.religion | markdownify }}</p>
+      <div class="grid">
       {{ range .Site.Taxonomies.categories.religion }}
         {{ partial "widgets/post-card.html" . }}
       {{ end }}
+      </div>
     </div>
     <div class="columns is-multiline">
       <h2 class="title">Sundry</h2>
-      {{ with site.GetPage "categories/sundry" }}
-      {{ .Description }}
-      {{ end }}
+      <p class="subtitle">{{ .Params.sundry | markdownify }}</p>
+      <div class="grid">
       {{ range .Site.Taxonomies.categories.sundry }}
         {{ partial "widgets/post-card.html" . }}
       {{ end }}
+      </div>
     </div>
   </div>
 </article>

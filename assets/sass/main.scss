@@ -19,9 +19,9 @@
 @import "layout/header", "layout/content", "layout/footer";
 
 // 5. Components
-@import "components/buttons", "components/cards", "components/citations",
-  "components/video", "components/lists", "components/tables",
-  "components/footnotes";
+@import "components/buttons", "components/alerts", "components/cards",
+  "components/citations", "components/video", "components/lists",
+  "components/tables", "components/footnotes";
 
 // 6. Page-specific styles
 @import "pages/home", "pages/article";

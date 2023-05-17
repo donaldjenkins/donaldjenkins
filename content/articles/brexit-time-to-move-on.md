@@ -9,7 +9,7 @@ notable: true
 layout: "articles"
 slug: "brexit-time-to-move-on"
 draft: false
-description: "The time has come for us as a country to move on and plan our future in the new trading and political context for which the Government has received an unambiguous mandate, after four years of relentless, and all too often hysterical, debate over the merits and demerits of Brexit."
+description: "The time has come for us as a country to plan our future in the new trading and political context for which the Government has received an unambiguous mandate, after four years of relentless and hysterical debate over the merits and demerits of Brexit."
 summary: "While I have not changed my view that leaving is a mistake, I accept that the time has come for us as a country to move on and plan our future in the new trading and political context for which the Government has received an unambiguous mandate, after four years of relentless, and all too often hysterical, debate over the merits and demerits of Brexit. And I am confident we will not turn our backs on that tradition. Britain will remain a force for good, for peace and for prosperity in a world."
 featured_image: "ebf563c5-ab6a-4d35-18c7-6f41ade92200"
 author: "Donald Jenkins"

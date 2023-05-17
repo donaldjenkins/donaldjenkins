@@ -5,6 +5,12 @@
 /// 1. Responsive Column Layout (Grid)
 /* You Probably Don't Need Media Queries Anymore | Source: https://dev.to/kathryngrayson/you-probably-dont-need-media-queries-anymore-a4j */
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
 /**
 * <div class="grid">
 *  <div></div>
@@ -49,11 +55,13 @@ In viewports below 250px, as there will be a horizontal scrollbar. To solve this
 */
 
 //The second solution is to use CSS comparison functions. This solution is modern, and you need to check for browser support before using it.
+/**
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr));
   grid-gap: 1rem;
 }
+**/
 
 /// 2. Responsive 3 Column Layout (Flexbox)
 /* This three-column layout has stacked columns on mobile, and uses flexbox to align columns side-by-side on tablet and larger devices. | Source: https://matthewjamestaylor.com/3-column-layouts*/
@@ -67,23 +75,30 @@ In viewports below 250px, as there will be a horizontal scrollbar. To solve this
 **/
 
 /* container */
+
+/**
 .responsive-three-columns {
-    display:flex;
-    flex-wrap:wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
+**/
 
 /* columns */
+/**
 .responsive-three-columns > * {
-    width:100%;
-    padding:1rem;
+  width: 100%;
+  padding: 1rem;
 }
+**/
 
 /* tablet breakpoint */
-@include media (">tablet") {
-    .responsive-three-columns > * {
-        width:calc(100% / 3);
-    }
+/**
+@include media(">tablet") {
+  .responsive-three-columns > * {
+    width: calc(100% / 3);
+  }
 }
+**/
 
 /// 3. Flexbox — Equal-Height Columns
 
@@ -98,11 +113,10 @@ In viewports below 250px, as there will be a horizontal scrollbar. To solve this
 **/
 
 .is-equal-height {
-display: flex;
-
+  display: flex;
 }
 .is-equal-height > div {
-    width: calc(100%/3); /* Setting the width of columns at one third each */
+  width: calc(100% / 3); /* Setting the width of columns at one third each */
 }
 /* The following CSS is for background colors only 
 .is-equal-height > div:nth-child(1) {

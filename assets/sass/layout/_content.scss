@@ -36,6 +36,6 @@ main {
   margin: 0 auto;
 
   & #main-heading p {
-    max-width: $container;
+    max-width: calc($container + 35ch);
   }
 }

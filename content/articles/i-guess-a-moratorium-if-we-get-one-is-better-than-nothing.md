@@ -9,7 +9,7 @@ notable: false
 layout: "single"
 slug: "i-guess-a-moratorium-if-we-get-one-is-better-than-nothing"
 draft: false
-description: "There is growing realisation that, n execution by lethal injection, a condemned prisoner’s suffering is real in many cases, but concealed by the protocol used. The Supreme Court, unfortunately, has yet to acknowledge this."
+description: "There is growing realisation that, in execution by lethal injection, a condemned prisoner’s suffering is real in many cases, but concealed by the protocol used. The Supreme Court, unfortunately, has yet to acknowledge this."
 summary: "There is growing realisation that, n execution by lethal injection, a condemned prisoner’s suffering is real in many cases, but concealed by the protocol used. The Supreme Court, unfortunately, has yet to acknowledge this."
 featured_image: "b86dc463-918b-43e7-db86-c42061449a00"
 author: "Donald Jenkins"
