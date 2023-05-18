@@ -28,4 +28,4 @@ We were told at the last minute that Ramon Vargas, who was due to sing the leadi
 
 The set, however, was horrible. Poor Mireille Delunsch nearly fell over several times as she tried to sing her part in the middle of the sandy and rocky stage. The costumes looked as if they had been bought in a sale at Gap. And the curtain got stuck at the end, just as the old crusties in the audience started booing the director. This was rather funny and probably well-deserved (although I never boo myself). Anyway, sets don’t matter that much with Mozart operas, which can be judged principally on their strictly musical merits. In this case, full marks were deserved.
 
-[^1]: {{% quote %}}Souffrant{{% /quote %}} .
+[^1]: {{% quote %}}Souffrant{{% /quote %}}.

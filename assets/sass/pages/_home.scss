@@ -3,7 +3,7 @@
 // -----------------------------------------------------------------------------
 #statement,
 #notable-posts,
-#cv {
+#about {
   padding: 0 $padding $padding;
   width: clamp((9.5 * $font-size-hero), 75%, 98vw);
   margin: 0 auto;
@@ -15,7 +15,7 @@
   line-height: var(--line-height-hero);
 }
 
-.sub-hero p,
+.sub-hero p:not(.cards p),
 .sub-hero p a {
   font-size: calc($font-size-hero * 0.7);
   line-height: calc(var(--line-height-hero) * 0.8);
@@ -28,7 +28,6 @@
   font-weight: var(--font-weight-heading);
 }
 
-.hero-arrow {
-  display: flex;
-  margin: auto;
+#notable-posts .cards p {
+  font-weight: inherit;
 }

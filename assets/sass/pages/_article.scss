@@ -51,7 +51,7 @@ article h1 {
 
 #link-prev:hover,
 #link-next:hover {
-  background-color: $secondary;
+  background-color: var(--meta-color);
 }
 
 #link-prev,

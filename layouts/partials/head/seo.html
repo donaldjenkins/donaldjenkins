@@ -9,6 +9,9 @@ old versions of your site visible on Google. This will also stop your site from
 appearing in the Wayback Machine (archive.org), for better or for worse. */}} {{
 end }} {{/* SEO canonicals: helps Google understand your site better when using
 marketing campaign tagging etc */}}
+{{/* Setting Noindex for  Taxonomy Pages | Source: https://www.datascienceblog.net/post/other/hugo_noindex_taxonomies/ */}}{{ if .Data.Singular }}
+<meta name="robots" content="noindex">
+{{ end }}
 <link rel="canonical" href="{{ .Permalink }}">
 
 {{/* Facebook Open Graph and Twitter Cards */}} {{ if (fileExists

@@ -18,7 +18,7 @@ notable: false
 layout: "single"
 slug: "feminists-and-homophobes-have-destroyed-a-unique-four-hundred-and-fifty-year-old-english-compromise"
 draft: false
-description: "Virulent feminism and assertive homophobic prejudice are now certain to have destroyed that unique, quintessentially English compromise: Anglicanism. Yet recent media coverage has completely overlooked that the issues that have caused the most rancour are actually trivial and non-doctrinal."
+description: "Virulent feminism and assertive homophobic prejudice have destroyed a quintessentially English compromise: Anglicanism. Yet the issues that have caused the most rancour are actually trivial and non-doctrinal."
 summary: "Virulent feminism and assertive homophobic prejudice are now certain to have destroyed that unique, quintessentially English compromise: Anglicanism. Yet recent media coverage has completely overlooked that the issues that have caused the most rancour are actually trivial and non-doctrinal."
 featured_image: "84d6bb1b-2f74-4a0f-bbf9-516e1815af00"
 author: "Donald Jenkins"

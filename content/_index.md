@@ -1,10 +1,7 @@
----
 title: "Donald Jenkins"
-date: "2019-05-02T17:34:00+00:00"
+date: "2023-05-17T17:34:00+00:00"
 permalink: ""
-author: donaldjenkins
+author: "Donald Jenkins"
 description: "Donald Jenkins writes, takes photographs and dabbles in web design. He’s also a co-founder of the political social network start-up Policymakr. He currently lives in New York City."
-summary: "Donald read Philosophy, Politics and Economics at Magdalen College, Oxford, and government at École nationale d’administration. He has worked in merchant banking, the media, public administration and contemporary art. His main subjects of interest and concern are the environment, animal rights, politics and technology. He rides a bicycle and is a vegan."
-type: page
-lastmod: 2023-04-11T00:00:00-01:00
----
+summary: "As evidenced by the selection of articles and by the tag list above, I write about a wide range of interests. In recent years these have mainly focused on British and French politics, and on my [geeky path](https://github.com/donaldjenkins) as a code writer."
+bio: "Donald read Philosophy, Politics and Economics at Magdalen College, Oxford, and government at École nationale d’administration. He has worked in merchant banking, the media, public administration and contemporary art. His main subjects of interest and concern are the environment, animal rights, politics and technology. He rides a bicycle and is a vegan."

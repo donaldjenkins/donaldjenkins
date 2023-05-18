@@ -17,7 +17,7 @@ notable: false
 layout: "single"
 slug: "why-does-literature-seek-to-give-meaning-to-the-yearning-for-death"
 draft: false
-description: "From Rousseau’s Nouvelle Héloïse to Malraux’s Conquérants, French letters since the eighteenth century are strongly coloured by death and, more particularly, by death wishes. In this post I look at a subject that most will regard as unnecessarily stern in an age where happiness has been erected into a moral imperative."
+description: "French letters since the eighteenth century are strongly coloured by death and, more particularly, by death wishes. In this post I look at a subject that most will regard as unnecessarily stern in an age where happiness has been erected into a moral imperative."
 summary: "From Rousseau’s Nouvelle Héloïse to Malraux’s Conquérants, French letters since the eighteenth century are strongly coloured by death and, more particularly, by death wishes. In this post I look at a subject that most will regard as unnecessarily stern in an age where happiness has been erected into a moral imperative."
 featured_image: "fe456eaa-fdf6-4c5f-aa4e-bce8cf328500"
 author: "Donald Jenkins"

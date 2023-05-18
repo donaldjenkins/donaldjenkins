@@ -1,6 +1,6 @@
 .tag {
   align-items: center;
-  background-color: var(--secondary-color);
+  background-color: var(--meta-color);
   border-radius: $rounded;
   color: $white;
   display: inline-flex;
@@ -11,7 +11,18 @@
   padding-left: 0.75em;
   padding-right: 0.75em;
   white-space: nowrap;
+
   & a {
     text-decoration: none;
+    color: $white;
+  }
+
+  &:hover {
+    color: var(--link-on-dark);
+    background-color: var(--primary-color);
+  }
+
+  &:active {
+    transform: scale(0.9);
   }
 }
