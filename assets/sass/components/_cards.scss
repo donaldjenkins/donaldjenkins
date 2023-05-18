@@ -6,13 +6,13 @@
 
 .card {
   //width: 33%;
-  height: 24rem;
+  height: 18.75rem;
   border-radius: $very-rounded;
   overflow: hidden;
   cursor: pointer;
   position: relative;
   padding: 0 $padding;
-  //  box-shadow: 0 10px 1.875rem 5px rgba(0, 0, 0, 0.2); // Use common box-shadow
+  //  box-shadow: 0 10px 1.4rem 5px rgba(0, 0, 0, 0.2); // Use common box-shadow
 
   img {
     position: absolute;
@@ -28,10 +28,10 @@
   h2 {
     font-size: var(--font-size-body);
     font-weight: var(--font-weight-semi-bold);
-    line-height: var(--line-height-smaller);
+    line-height: calc((var(--line-height-smaller)) * 1.2);
     position: absolute;
-    inset: auto auto 1.875rem 1.875rem;
-    margin: 0;
+    inset: auto auto 1.4rem 1.4rem;
+    margin: 0 0.5rem 0 0;
     transition: inset 0.3s 0.3s ease-out;
   }
 
@@ -44,13 +44,13 @@
   }
 
   p {
-    font-size: var(--font-size-smaller);
+    font-size: var(--font-size-smallest);
     line-height: var(--line-height-smaller);
-    inset: auto auto 7.5rem 1.875rem;
+    inset: auto auto 5.6rem 1.4rem;
   }
 
   a {
-    inset: auto auto 2.5rem 1.875rem;
+    inset: auto auto 2.5rem 1.4rem;
     color: inherit;
     text-decoration: none;
   }
@@ -61,7 +61,7 @@
   }
 
   &:hover h2 {
-    inset: auto auto 16rem 1.875rem;
+    inset: auto auto 14rem 1.4rem;
     transition: inset 0.3s ease-out;
   }
 
@@ -82,6 +82,8 @@
   opacity: 0;
   background-color: transparent;
   border: 2px solid $white;
+  margin: 0;
+  padding: 0.3rem;
   &:hover {
     background-color: transparent;
     box-shadow: inset 0 -100px 0 0 transparent;

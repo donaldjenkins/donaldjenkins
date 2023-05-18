@@ -11,7 +11,7 @@ slug: "capote-and-the-death-penalty-turning-the-clock-back-to-1967"
 draft: false
 description: "A review of the film about Truman, Capote, in which one deliberately veers somewhat off-topic, focusing more on the curious way in which he approached the death penalty on the occasion of his trip to Kansas."
 summary: "A review of the film about Truman, Capote, in which one deliberately veers somewhat off-topic, focusing more on the curious way in which he approached the death penalty on the occasion of his trip to Kansas."
-featured_image: "dfc27170-19a1-496e-2f94-38d494457000"
+featured_image: "7318a267-1cab-45a6-4cd5-f34b7914c500"
 author: "Donald Jenkins"
 showthedate: false
 tableofcontents: false

@@ -118,11 +118,13 @@ figcaption .footnote-ref {
  * Add box shadow for images and other stuff
  */
 
+/* Source for calc: https://ishadeed.com/article/css-min-max-clamp/ */
+
 img:not(#logo img, #footer-logo img, .gallery img, #error-text img),
 table,
 .card {
   //box-shadow: 0px 0px 10px rgba(114, 114, 113, 0.5);
-  box-shadow: 0px 0px 10px hsl(var(--shadow-color) / 0.5);
+  box-shadow: 0px 0px clamp(5px, 4vw, 50px) hsl(var(--shadow-color) / 0.5);
   /*box-shadow: 0px 0.1px 0.1px hsl(var(--shadow-color) / 0.37),
    0.3px 0.7px 0.9px -0.4px hsl(var(--shadow-color) / 0.38),
    0.5px 1.3px 1.6px -0.8px hsl(var(--shadow-color) / 0.39),

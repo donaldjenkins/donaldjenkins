@@ -42,7 +42,7 @@
     <div class="columns is-multiline">
       <h2 class="title">Literature</h2>
       <p class="subtitle">{{ .Params.literature | markdownify }}</p>
-      <div class="grid">
+      <div class="grid cards">
       {{ range .Site.Taxonomies.categories.literature }}
         {{ partial "widgets/post-card.html" . }}
       {{ end }}

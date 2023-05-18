@@ -25,15 +25,16 @@ main {
 }
 
 .post {
-  width: calc(100% - 12vw);
-
-  // Sets container width to 70 characters
-  max-width: $container;
-  margin: 0 auto;
+  width: min($container, 100% - 2rem);
+  margin-right: auto;
+  margin-left: auto;
+  // Sets container width to 70 characters | Source: https://moderncss.dev/practical-uses-of-css-math-functions-calc-clamp-min-max/
 }
+
 .archive {
-  width: calc(100% - 6vw);
-  margin: 0 auto;
+  width: calc(100% - 2rem);
+  margin-right: auto;
+  margin-left: auto;
 
   & #main-heading p {
     max-width: calc($container + 35ch);
