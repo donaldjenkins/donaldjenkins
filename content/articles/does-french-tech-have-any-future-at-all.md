@@ -1,7 +1,15 @@
 ---
 title: "Does French tech have any future at all?"
 categories: ["Politics"]
-tags: [Brexit, "European Union", UK]
+tags:
+  [
+    Dailymotion,
+    education,
+    France,
+    innovation,
+    "Nathalie Kosciusko-Morizet",
+    technology,
+  ]
 seoTitle: "Donald Jenkins: Does French tech have any future at all?"
 date: 2010-03-02T18:33:22+00:00
 type: articles

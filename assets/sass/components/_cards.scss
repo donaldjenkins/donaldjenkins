@@ -43,7 +43,7 @@
   }
 
   p {
-    font-size: var(--font-size-smallest);
+    font-size: var(--font-size-smaller);
     line-height: var(--line-height-smaller);
     inset: auto auto 4.5rem 1.4rem;
   }
@@ -97,6 +97,16 @@
 .card p:hover,
 .card-content .button:hover {
   color: $white;
+}
+
+@include media("<smartphone") {
+  .card {
+    margin-inline: -6vw;
+    width: calc(100% + 12vw);
+    max-width: none;
+    border-radius: unset;
+    box-sizing: border-box;
+  }
 }
 
 /* Source: https://uiverse.io/alexmaracinaru/purple-zebra-61 
