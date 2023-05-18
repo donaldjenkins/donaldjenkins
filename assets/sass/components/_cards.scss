@@ -99,16 +99,6 @@
   color: $white;
 }
 
-@include media("<smartphone") {
-  .card {
-    margin-inline: -6vw;
-    width: calc(100% + 12vw);
-    max-width: none;
-    border-radius: unset;
-    box-sizing: border-box;
-  }
-}
-
 /* Source: https://uiverse.io/alexmaracinaru/purple-zebra-61 
 .card {
   width: 190px;

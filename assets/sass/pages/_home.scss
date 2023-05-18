@@ -1,7 +1,8 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the home page template.
 // -----------------------------------------------------------------------------
-#statement {
+#statement,
+#notable-posts {
   padding: 0 $padding $padding;
   width: clamp((9.5 * $font-size-hero), 75%, 98vw);
   margin: 0 auto;

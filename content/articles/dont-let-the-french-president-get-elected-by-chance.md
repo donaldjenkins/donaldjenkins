@@ -9,7 +9,7 @@ notable: false
 layout: "single"
 slug: "dont-let-the-french-president-get-elected-by-chance"
 draft: false
-description: "A quick look at the curious situation that has arisen out of the French 2002: the two-ballot winner-takes-all system can potentially result in a reputation of the result then, with one of the two mainstream candidates not king it to the second ballot. Yet nobody seems to care."
+description: "A quick look at the result of the French 2002 presidential election: the two-ballot winner-takes-all system could potentially again result in one of the two mainstream candidates not making it to the second ballot. Yet nobody seems to care."
 summary: "A quick look at the curious situation that has arisen out of the French 2002: the two-ballot winner-takes-all system can potentially result in a reputation of the result then, with one of the two mainstream candidates not king it to the second ballot. Yet nobody seems to care."
 featured_image: "f2c958e8-7b99-4b7a-645a-51603a18c500"
 author: "Donald Jenkins"

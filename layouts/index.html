@@ -5,7 +5,8 @@
     <h3 class="visually-hidden">Main description</h3>
     <p>{{ .description | markdownify }}</p>
   </section>
-  <section>
+  <section id="notable-posts">
+    <h2 class="visually-hidden">Notable posts</h2>
     <div class="grid cards">
     {{ range first 6 (where (where site.RegularPages "Type" "in" site.Params.mainSections) ".Params.notable" "=" true) }}
     {{ partial "widgets/post-card.html" . }}
