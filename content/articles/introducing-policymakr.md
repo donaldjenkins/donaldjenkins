@@ -8,7 +8,7 @@ type: articles
 layout: "single"
 slug: "introducing-policymakr"
 draft: false
-description: "A quick introduction to Policymakr, the new start-up Ive been planning since the dramatic events of 2016"
+description: "A quick introduction to Policymakr, the new start-up I've been planning since the dramatic events of 2016"
 summary: "A quick introduction to Policymakr, the new start-up I've been planning since the dramatic events of 2016, and which I've finally decided to launch. And a little question-and-answer session, as an added bonus."
 featured_image: "eadd9a97-0c5d-4b7b-65c4-af9173d7df00"
 author: "Donald Jenkins"
