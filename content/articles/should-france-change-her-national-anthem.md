@@ -24,7 +24,7 @@ Campaigns are periodically mounted by more or less _louche_ individuals to chang
 
 I’m less happy with _La Marseillaise_’s music. It’s a bit too fast to be dignified in non-military ceremonies. M Giscard d’Estaing tried to mitigate this issue by ordering it to be played at a slower _tempo_. The result, unfortunately, was a tune that had lost its martial _entrain_ without having become in any way majestic. M Mitterrand was probably right to revert to the original version—although this may seem paradoxical, since his wife, Madame Danielle Mitterrand, was a prominent campaigner for a change in its words.
 
-My contribution to this debate is an alternative suggestion: rather than changing the words of _La Marseillaise_, why not bring back _Partant pour la Syrie_[^2], which was France’s National Anthem during the Second Empire? The music is magnificent, the words are quite dignified and beautiful:
+My contribution to this debate is an alternative suggestion: rather than changing the words of _La Marseillaise_, why not bring back _[Partant pour la Syrie](https://en.wikipedia.org/wiki/Partant_pour_la_Syrie)_[^2], which was France’s National Anthem during the Second Empire? The music is magnificent, the words are quite dignified and beautiful:
 
 > Partant pour la Syrie  
 > Le jeune et beau Dunois  

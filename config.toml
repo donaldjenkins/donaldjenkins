@@ -54,6 +54,7 @@ enableRobotsTXT = true
 
 [permalinks] 
 articles = "/:slug"
+categories= "/:slug/"
     
 [sitemap]
   changefreq = 'monthly'

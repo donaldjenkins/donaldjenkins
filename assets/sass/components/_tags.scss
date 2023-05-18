@@ -1,14 +1,17 @@
 .tag {
   align-items: center;
-  background-color: var(--secondary-colorqw);
+  background-color: var(--secondary-color);
   border-radius: $rounded;
   color: $white;
   display: inline-flex;
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-smaller);
   height: 2em;
   justify-content: center;
   line-height: 1.5;
   padding-left: 0.75em;
   padding-right: 0.75em;
   white-space: nowrap;
+  & a {
+    text-decoration: none;
+  }
 }

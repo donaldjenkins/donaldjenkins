@@ -1,4 +1,3 @@
 {{ range $i, $e := .Params.tags -}}
-    {{- if $i -}} &nbsp;&#183; {{ end -}}
-    <a href='{{ "/tags/" | relLangURL }}{{ . | urlize }}'>{{ $e | humanize }}</a>
+<a href='{{ "/tags/" | relLangURL }}{{ . | urlize }}' class="tag">{{ $e | humanize }}</a>
 {{- end -}}

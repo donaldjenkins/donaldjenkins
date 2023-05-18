@@ -12,8 +12,7 @@
   "abstracts/mixins";
 
 // 3. Base stuff
-@import "base/base", "base/typography", "base/tags", "base/grids",
-  "base/helpers";
+@import "base/base", "base/typography", "base/grids", "base/helpers";
 
 // 4. Layout-related sections
 @import "layout/header", "layout/content", "layout/footer";

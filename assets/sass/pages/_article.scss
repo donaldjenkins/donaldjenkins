@@ -85,7 +85,19 @@ article h1 {
   }
 }
 
-.meta a {
+a.tag {
+  text-decoration: none;
+}
+
+#taxonomy span a.tag {
+  margin: 0 0.3rem 0 0;
+}
+
+.subtitle.tags {
+  margin-top: 0.5rem;
+}
+
+/*.meta a {
   text-decoration: none;
 }
 
@@ -94,6 +106,8 @@ ul.meta {
   padding-left: 0;
   list-style: none;
 }
+
+
 
 .meta li {
   padding-top: 0.5rem;
@@ -108,4 +122,4 @@ ul.meta {
     content: "";
     margin-right: 0;
   }
-}
+}*/
