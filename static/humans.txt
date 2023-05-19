@@ -15,7 +15,7 @@
   Twitter: @nielsack
   Location: Geneva, Switzerland
 
-  Design consultant: Temami Atif
+  Design consultant: Temani Afif
   Site: https://dev.to/afif
   Twitter: @ChallengesCss
   Github: https://github.com/Afif13
@@ -43,4 +43,4 @@
   IDE: Nova by Panic, Figma, CodeKit,
   Affinity Designer
 
-[Credit for this page: http://humanstxt.org/]
+[Credit for this page: https://humanstxt.org/]
