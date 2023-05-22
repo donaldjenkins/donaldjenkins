@@ -22,4 +22,4 @@ tableofcontents: false
 noindex: false
 ---
 
-Donald started publishing articles in 2005. A selection of his older contributions, listed below, is still online and new ones will continue to be published when inspiration and circumstances so dictate. Most of his articles are here, but, obviously, you can look him up on [Twitter](https://www.twitter.com/donaldjenkins) if you yearn for more frequent updates from him.
+I started publishing articles in 2005, initially more as a rather frivolous diary than a set of thought-out articles, of which I have left only a part online. As my interest in, and relative grasp of, [code](https://github.com/donaldjenkins) and web development grew, I also began posting about my experience in that area. I now write mostly about British and French politics and my ongoing journey as a coder. Everything of any length I have written is here, but, obviously, you can look me up on [Twitter](https://www.twitter.com/donaldjenkins) if you yearn for more frequent updates.
