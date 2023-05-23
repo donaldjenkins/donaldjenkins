@@ -1,4 +1,14 @@
+---
+title: "Privacy Policy"
+date: "2018-11-14T03:20:07+00:00"
+slug: privacy
+layout: single
+---
+
+{{% alert info %}}
+
 This Privacy Policy was last revised on 14th January, 2021: see the [changelog](https://www.donaldjenkins.com/legal/privacy/changelog).
+{{% /alert %}}
 
 ## Definitions · Agreement to applicable policies
 

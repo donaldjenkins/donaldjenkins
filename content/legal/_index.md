@@ -1,19 +1,17 @@
 ---
 title: "Legal stuff"
 date: "2018-11-14T03:20:07+00:00"
-status: publish
 slug: legal
-author: donaldjenkins
-excerpt: ""
-type: page
-featured_image: ../uploads/internet-censorship.jpg
+layout: single
 ---
 
 This page sums up the way this Website operates, the laws that apply to it, and the values underpinning our action. Your use of this Website, however, means you have also read and agreed to the full terms of our [Terms](/legal/terms/) and [Privacy Policy](/legal/privacy/) ({{% quote %}}policies{{% /quote %}} ) linked to in the table below. These documents are legally binding and may be subject to change.
 
-Any material change in our policies will be advertised on Donald Jenkins’s [Twitter account.](https://www.twitter.com/donaldjenkins)
+| Terms                                                                                                                              | Privacy Policy                                                                                                                         |
+| ---------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| The [Terms](/legal/terms/) are the conditions under which we welcome you to this Website \[[changelog](/legal/terms/changelog/)\]. | The [Privacy Policy](/legal/privacy/) explains how we collect and process your information \[[changelog](/legal/privacy/changelog/)\]. |
 
-<table id="“legal-policies"" summary="This Website’s policies"><thead><tr><th scope="col">Terms</th><th scope="col">Privacy Policy</th></tr></thead><tbody><tr><td>The *[](/legal/terms/)*Terms are the conditions under which we welcome you to this Website \[[changelog](/legal/terms/changelog/)\].</td><td>The *[](/legal/privacy/)*Privacy Policy explains how we collect and process your information \[[changelog](/legal/privacy/changelog/)\].</td></tr></tbody></table>
+Any material change in our policies will be advertised on Donald Jenkins’s [Twitter account.](https://www.twitter.com/donaldjenkins)
 
 ## Who we are · Our undertaking to you
 
