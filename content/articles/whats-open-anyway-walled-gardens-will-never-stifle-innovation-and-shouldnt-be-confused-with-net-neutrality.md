@@ -21,7 +21,7 @@ notable: true
 layout: "single"
 slug: "whats-open-anyway-walled-gardens-will-never-stifle-innovation-and-shouldnt-be-confused-with-net-neutrality"
 draft: false
-description: "Walled gardens will never stifle innovation and shouldn’t be confused with Net neutrality: few IT companies have shown  growth without resorting to economic models perceived as ‘closed’, when it suited their strategy or users' needs"
+description: "Walled gardens will never stifle innovation and shouldn’t be confused with Net neutrality: few IT companies have shown  growth without resorting to economic models perceived as ‘closed’"
 summary: "The accusation of being ‘closed’ rather than ‘open’ has been freely brandished by various major actors in the tech sector in recent weeks. Yet little thought has been given to what these labels actually mean. In reality, few IT companies have shown significant growth without resorting to economic models that have been perceived as ‘closed’, when it suited their strategy or their users' needs. Yet history teaches us that whenever they have abused this instrument, they have fallen out of favour and users have moved on to the next ‘cool’ company. With the exception of Facebook, whose abuse of privacy impinges on the borderline area of personal web identity, there isn't actually any threat to the freedom of users of the Internet—at least in those jurisdictions that don't attempt to tamper with access to the global network itself. Providing Net neutrality is not compromised, innovation won't be stifled by the existence of ever-recurring walled gardens."
 featured_image: "62d31f2a-726a-4216-60ae-64b043637400"
 author: "Donald Jenkins"
