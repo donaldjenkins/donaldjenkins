@@ -1,0 +1,16 @@
+{{ define "main" }}
+<article class="archive">
+  <div id="content">
+    {{ .Summary }}
+    <div class="columns is-multiline">
+      <h2 id="black-and-white" class="title">Black and white</h2>
+      <p class="subtitle">{{ index .Site.Data.photos.black_and_white "description" | markdownify }}</p>
+      <div class="photos">
+      {{ range $.Site.Data.photos.black_and_white }}
+        {{ partial "widgets/gallery-image.html" . }}
+      {{ end }}
+      </div>
+    </div>
+  </div>
+</article>
+{{ end }}
