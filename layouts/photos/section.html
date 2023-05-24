@@ -2,12 +2,57 @@
 <article class="archive">
   <div id="content">
     {{ .Summary }}
-    <div class="columns is-multiline">
-      <h2 id="black-and-white" class="title">Black and white</h2>
+    <div>
+      <h2 id="black-and-white" class="title">{{ index .Site.Data.photos.black_and_white "title" | markdownify }}</h2>
       <p class="subtitle">{{ index .Site.Data.photos.black_and_white "description" | markdownify }}</p>
       <div class="photos">
       {{ range $.Site.Data.photos.black_and_white }}
-        {{ partial "widgets/gallery-image.html" . }}
+
+      {{ end }}
+      </div>
+    </div>
+    <div>
+      <h2 id="black-and-white" class="title">{{ index .Site.Data.photos.colour "title" | markdownify }}</h2>
+      <p class="subtitle">{{ index .Site.Data.photos.colour "description" | markdownify }}</p>
+      <div class="photos">
+      {{ range $.Site.Data.photos.colour }}
+    
+      {{ end }}
+      </div>
+    </div>
+    <div>
+      <h2 id="black-and-white" class="title">{{ index .Site.Data.photos.israel "title" | markdownify }}</h2>
+      <p class="subtitle">{{ index .Site.Data.photos.israel "description" | markdownify }}</p>
+      <div class="photos">
+      {{ range $.Site.Data.photos.israel }}
+    
+      {{ end }}
+      </div>
+    </div>
+    <div>
+      <h2 id="black-and-white" class="title">{{ index .Site.Data.photos.paris "title" | markdownify }}</h2>
+      <p class="subtitle">{{ index .Site.Data.photos.paris "description" | markdownify }}</p>
+      <div class="photos">
+      {{ range $.Site.Data.photos.paris }}
+    
+      {{ end }}
+      </div>
+    </div>
+    <div>
+      <h2 id="black-and-white" class="title">{{ index .Site.Data.photos.archie_and_peggy "title" | markdownify }}</h2>
+      <p class="subtitle">{{ index .Site.Data.photos.archie_and_peggy "description" | markdownify }}</p>
+      <div class="photos">
+      {{ range $.Site.Data.photos.archie_and_peggy }}
+    
+      {{ end }}
+      </div>
+    </div>
+    <div>
+      <h2 id="black-and-white" class="title">{{ index .Site.Data.photos.me "title" | markdownify }}</h2>
+      <p class="subtitle">{{ index .Site.Data.photos.me "description" | markdownify }}</p>
+      <div class="photos">
+      {{ range $.Site.Data.photos.me }}
+    
       {{ end }}
       </div>
     </div>
