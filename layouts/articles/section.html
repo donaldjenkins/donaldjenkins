@@ -2,7 +2,7 @@
 <article id="content" class="archive">
   <h1 class="title">{{ .Page.Title }}</h1>
   {{ .Content }}
-  <div class="tags">
+  <aside class="tags">
     <span class="tag"><a href="#politics">Politics</a></span>
     <span class="tag"><a href="#tech">Tech</a></span>
     <span class="tag"><a href="#culture">Culture</a></span>
@@ -10,69 +10,69 @@
     <span class="tag"><a href="#religion">Religion</a></span>
     <span class="tag"><a href="#sundry">Sundry</a></span>
     <span class="tag"><a href="#personal">Personal</a></span>
-  </div>
-  <div class="columns is-multiline">
-    <h2 id="politics" class="title">Politics</h2>
+  </aside>
+  <section id="politics" class="category">
+    <h2 class="title">Politics</h2>
     <p class="subtitle">{{ .Params.politics | markdownify }}</p>
     <div class="grid cards">
       {{ range .Site.Taxonomies.categories.politics }}
       {{ partial "widgets/post-card.html" . }}
       {{ end }}
     </div>
-  </div>
-  <div class="columns is-multiline">
-    <h2 id="tech" class="title">Tech</h2>
+  </section>
+  <section id="tech" class="category">
+    <h2 class="title">Tech</h2>
     <p class="subtitle">{{ .Params.tech | markdownify }}</p>
     <div class="grid cards">
       {{ range .Site.Taxonomies.categories.tech }}
       {{ partial "widgets/post-card.html" . }}
       {{ end }}
     </div>
-  </div>
-  <div class="columns is-multiline">
-    <h2 id="culture" class="title">Culture</h2>
+  </section>
+  <section id="culture" class="category">
+    <h2 class="title">Culture</h2>
     <p class="subtitle">{{ .Params.culture | markdownify }}</p>
     <div class="grid cards">
       {{ range .Site.Taxonomies.categories.culture }}
       {{ partial "widgets/post-card.html" . }}
       {{ end }}
     </div>
-  </div>
-  <div class="columns is-multiline">
-    <h2 id="literature" class="title">Literature</h2>
+  </section>
+  <section id="literature" class="category">
+    <h2 class="title">Literature</h2>
     <p class="subtitle">{{ .Params.literature | markdownify }}</p>
     <div class="grid cards">
       {{ range .Site.Taxonomies.categories.literature }}
       {{ partial "widgets/post-card.html" . }}
       {{ end }}
     </div>
-  </div>
-  <div class="columns is-multiline">
-    <h2 id="religion" class="title">Religion</h2>
+  </section>
+  <section id="religion" class="category">
+    <h2 class="title">Religion</h2>
     <p class="subtitle">{{ .Params.religion | markdownify }}</p>
     <div class="grid cards">
       {{ range .Site.Taxonomies.categories.religion }}
       {{ partial "widgets/post-card.html" . }}
       {{ end }}
     </div>
-  </div>
-  <div class="columns is-multiline">
-    <h2 id="sundry" class="title">Sundry</h2>
+  </section>
+  <section id="sundry" class="category">
+    <h2 class="title">Sundry</h2>
     <p class="subtitle">{{ .Params.sundry | markdownify }}</p>
     <div class="grid cards">
       {{ range .Site.Taxonomies.categories.sundry }}
       {{ partial "widgets/post-card.html" . }}
       {{ end }}
     </div>
-  </div>
-  <div class="columns is-multiline">
-    <h2 id="personal" class="title">Personal</h2>
+  </section>
+  <section  id="personal" class="category">
+    <h2 class="title">Personal</h2>
     <p class="subtitle">{{ .Params.personal | markdownify }}</p>
     <div class="grid cards">
       {{ range .Site.Taxonomies.categories.personal }}
       {{ partial "widgets/post-card.html" . }}
       {{ end }}
     </div>
-  </div>
+  </section>
 </article>
 {{ end }}

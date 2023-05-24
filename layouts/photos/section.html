@@ -2,7 +2,7 @@
 <article id="content" class="archive">
   <h1 class="title">{{ .Page.Title }}</h1>
   <p>{{ .Content }}</p>
-  <div class="tags">
+  <aside class="tags">
     <span class="tag"><a href="#black-and-white">Black and white</a></span>
     <span class="tag"><a href="#colour">Colour</a></span>
     <span class="tag"><a href="#israel">Israel</a></span>
@@ -11,8 +11,8 @@
     <span class="tag"><a href="#me">Me</a></span>
     <span class="tag"><a href="https://www.flickr.com/photos/astorg">Flickr</a></span>
     <span class="tag"><a href="https://instagram.com/donaldjenkins_/">Instagram</a></span>
-  </div>
-  <div id="black-and-white" class="gallery">
+  </aside>
+  <section id="black-and-white" class="gallery">
     <h2 class="title">{{ index .Site.Data.photos.index.black_and_white "title" | markdownify }}</h2>
     <p class="subtitle">{{ index .Site.Data.photos.index.black_and_white "description" | markdownify }}</p>
     <div class="photos">
@@ -20,8 +20,8 @@
       {{ partial "widgets/gallery-image.html" . }}
       {{ end }}
     </div>
-  </div>
-  <div id="colour" class="gallery">
+  </section>
+  <section id="colour" class="gallery">
     <h2 class="title">{{ index .Site.Data.photos.index.colour "title" | markdownify }}</h2>
     <p class="subtitle">{{ index .Site.Data.photos.index.colour "description" | markdownify }}</p>
     <div class="photos">
@@ -29,8 +29,8 @@
       {{ partial "widgets/gallery-image.html" . }}
       {{ end }}
     </div>
-  </div>
-  <div id="israel" class="gallery">
+  </section>
+  <section id="israel" class="gallery">
     <h2 class="title">{{ index .Site.Data.photos.index.israel "title" | markdownify }}</h2>
     <p class="subtitle">{{ index .Site.Data.photos.index.israel "description" | markdownify }}</p>
     <div class="photos">
@@ -38,8 +38,8 @@
       {{ partial "widgets/gallery-image.html" . }}
       {{ end }}
     </div>
-  </div>
-  <div id="paris" class="gallery">
+  </section>
+  <section id="paris" class="gallery">
     <h2 class="title">{{ index .Site.Data.photos.index.paris "title" | markdownify }}</h2>
     <p class="subtitle">{{ index .Site.Data.photos.index.paris "description" | markdownify }}</p>
     <div class="photos">
@@ -47,8 +47,8 @@
       {{ partial "widgets/gallery-image.html" . }}
       {{ end }}
     </div>
-  </div>
-  <div id="archie-and-peggy" class="gallery">
+  </section>
+  <section id="archie-and-peggy" class="gallery">
     <h2 class="title">{{ index .Site.Data.photos.index.archie_and_peggy "title" | markdownify }}</h2>
     <p class="subtitle">{{ index .Site.Data.photos.index.archie_and_peggy "description" | markdownify }}</p>
     <div class="photos">
@@ -56,8 +56,8 @@
       {{ partial "widgets/gallery-image.html" . }}
       {{ end }}
     </div>
-  </div>
-  <div id="me" class="gallery">
+  </section>
+  <section id="me" class="gallery">
     <h2 class="title">{{ index .Site.Data.photos.index.me "title" | markdownify }}</h2>
     <p class="subtitle">{{ index .Site.Data.photos.index.me "description" | markdownify }}</p>
     <div class="photos">
@@ -65,5 +65,6 @@
       {{ partial "widgets/gallery-image.html" . }}
       {{ end }}
     </div>
+  </section>
 </article>
 {{ end }}

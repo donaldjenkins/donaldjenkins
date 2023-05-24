@@ -1,5 +1,5 @@
 {{ $permalink := .Permalink }}
-<div class="card item">
+<article class="card item">
   {{ if isset .Params "featured_image" }}
   {{ $featured_image := .Params.featured_image }}
   {{ $image_url := printf "%s%s" .Site.Params.cloudflare_images $featured_image }}
@@ -16,4 +16,4 @@
       Read the article
     </a>
   </div>
-</div>
+</article>
