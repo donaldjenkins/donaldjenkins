@@ -34,7 +34,7 @@ paginations */}}
 {{ if isset .Params "featured_image" }}
 {{ $featured_image := .Params.featured_image }}
 {{ $image_url := printf "%s%s" .Site.Params.cloudflare_images $featured_image }}
-<meta property="og:image" content="{{ $image_url }}/w=1300,height=630,fit=cover,quality=60">
+<meta property="og:image" content="{{ $image_url }}/w=1200,height=630,fit=cover,quality=60">
 <meta
   property="og:image:secure_url"
   content="{{ $image_url }}/w=1200,height=630,fit=cover,quality=60"
