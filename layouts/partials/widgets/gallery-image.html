@@ -1,7 +1,4 @@
 {{ $id := .id }}
 {{ $alt := .alt }}
 {{ $image_url := printf "%s%s" site.Params.cloudflare_images $id }}
-  <img
-  src="{{ $image_url }}/w=420,fit=cover,quality=60"
-  alt="{{ $alt }}"
-/>
+<img src="{{ $image_url }}/w=420,fit=cover,quality=60" alt="{{ $alt }}" />

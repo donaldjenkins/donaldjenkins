@@ -9,7 +9,7 @@ notable: false
 layout: "single"
 slug: "will-mr-obama-bring-the-united-states-any-closer-to-abolishing-the-death-penalty"
 draft: false
-description: "I hope the debate on the issue will continue to result in “standards of decency”, which have already shifted sufficiently to provoke debate on the constitutionality of lethal injection and put an end to the practice of executing minors, evolving further in the direction of complete abolition."
+description: "Standards of decency, which have already shifted sufficiently to provoke debate on the constitutionality of lethal injection and put an end to the execution of minors, are now evolving towards complete abolition."
 summary: "Mr Obama's position on capital punishment has shifted, from opposition in 1996 to support in limited circumstances. Yet he will, I believe, push for criminal justice reform. He can also indirectly influence death penalty decisions through his nominations to the Supreme Court, where Justices Stevens—a liberal on the death penalty despite being a Republican appointee—and Ginsburg may well need to be replaced. I can only hope that the debate on the issue will continue to result in “standards of decency”, which have already shifted sufficiently to provoke debate on the constitutionality of lethal injection and put an end to the practice of executing minors, evolving further in the direction of complete abolition."
 featured_image: "0cb6203f-69f7-43df-1bfd-ba52bdc87d00"
 author: "Donald Jenkins"

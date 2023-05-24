@@ -2,13 +2,14 @@
 
 .photos {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax($card-width, 1fr));
+  gap: $card-gap;
   align-items: stretch;
-}
-.photos img {
-  object-fit: cover;
-  height: $card-size;
-  border-radius: $very-rounded;
-  cursor: pointer;
+
+  img {
+    object-fit: cover;
+    height: $card-size;
+    border-radius: $very-rounded;
+    cursor: pointer;
+  }
 }

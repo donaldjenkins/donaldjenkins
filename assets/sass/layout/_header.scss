@@ -13,15 +13,16 @@
   display: flex;
   flex-direction: row;
   margin: 0 auto;
-  padding: 0 2vw;
+  width: calc(100% - 2rem);
 }
 
 #logo {
   width: 210px;
+  margin-left: -0.5rem;
 
   // To control horizontal centering. We will need to affect the top and down margins of our child element.
-  margin-left: auto;
-  margin-right: auto;
+  //  margin-left: auto;
+  //  margin-right: auto;
 }
 
 #menu ul {

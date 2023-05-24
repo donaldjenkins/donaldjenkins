@@ -7,8 +7,8 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(min(100%, 250px), 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, $card-width), 1fr));
+  gap: $card-gap;
 }
 
 /**
