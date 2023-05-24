@@ -39,6 +39,7 @@ paginations */}}
   property="og:image:secure_url"
   content="{{ $image_url }}/w=1200,height=630,fit=cover,quality=60"
 />
+<meta property="og:image:alt" content="{{ .Params.title | truncate 50 }}">
 {{ else }}
 <meta property="og:image" content="{{ .Site.BaseURL }}opengraph.png">
 <meta
@@ -46,7 +47,7 @@ paginations */}}
   content="{{ .Site.BaseURL }}opengraph.png"
 />
 <meta property="og:image:type" content="image/png">
-<meta property="og:image:alt" content="{{ site.Title }} logo">
+<meta property="og:image:alt" content="{{ site.Title }}">
 {{ end }}
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
