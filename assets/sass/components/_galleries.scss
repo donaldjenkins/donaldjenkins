@@ -11,5 +11,11 @@
     height: $card-size;
     border-radius: $very-rounded;
     cursor: pointer;
+
+    @include media("<smartphone") {
+      margin-inline: -6vw;
+      width: calc(100% + 12vw);
+      border-radius: unset;
+    }
   }
 }
