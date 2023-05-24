@@ -6,7 +6,7 @@
 
 .card {
   //width: 33%;
-  height: 18.75rem;
+  height: $card-size;
   border-radius: $very-rounded;
   overflow: hidden;
   cursor: pointer;

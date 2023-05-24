@@ -1,8 +1,7 @@
-  {{ range .id }}
-  {{ $id := .id }}
-  {{ $image_url := printf "%s%s" .Site.Params.cloudflare_images $id }}
+{{ $id := .id }}
+{{ $alt := .alt }}
+{{ $image_url := printf "%s%s" site.Params.cloudflare_images $id }}
   <img
-    src="{{ $image_url }}/w=420,gamma=0.36,quality=45"
-    alt=""
-  />
-  {{ end }}
+  src="{{ $image_url }}/w=420,fit=cover,quality=60"
+  alt="{{ $alt }}"
+/>

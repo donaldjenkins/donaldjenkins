@@ -1,59 +1,68 @@
 {{ define "main" }}
 <article class="archive">
   <div id="content">
-    {{ .Summary }}
-    <div>
-      <h2 id="black-and-white" class="title">{{ index .Site.Data.photos.black_and_white "title" | markdownify }}</h2>
-      <p class="subtitle">{{ index .Site.Data.photos.black_and_white "description" | markdownify }}</p>
+    <p>{{ .Summary }}</p>
+    <div class="tags">
+      <span class="tag"><a href="#black-and-white">Black and white</a></span>
+      <span class="tag"><a href="#colour">Colour</a></span>
+      <span class="tag"><a href="#israel">Israel</a></span>
+      <span class="tag"><a href="#paris">Paris</a></span>
+      <span class="tag"><a href="#archie-and-peggy">Archie and Peggy</a></span>
+      <span class="tag"><a href="#me">Me</a></span>
+      <span class="tag"><a href="https://www.flickr.com/photos/astorg">Flickr</a></span>
+    </div>
+    <div id="black-and-white">
+      <h2 class="title">{{ index .Site.Data.photos.index.black_and_white "title" | markdownify }}</h2>
+      <p class="subtitle">{{ index .Site.Data.photos.index.black_and_white "description" | markdownify }}</p>
       <div class="photos">
-      {{ range $.Site.Data.photos.black_and_white }}
-
-      {{ end }}
+        {{ range $.Site.Data.photos.black_and_white }}
+        {{ partial "widgets/gallery-image.html" . }}
+        {{ end }}
       </div>
     </div>
-    <div>
-      <h2 id="black-and-white" class="title">{{ index .Site.Data.photos.colour "title" | markdownify }}</h2>
-      <p class="subtitle">{{ index .Site.Data.photos.colour "description" | markdownify }}</p>
+    <div id="colour">
+      <h2 class="title">{{ index .Site.Data.photos.index.colour "title" | markdownify }}</h2>
+      <p class="subtitle">{{ index .Site.Data.photos.index.colour "description" | markdownify }}</p>
       <div class="photos">
-      {{ range $.Site.Data.photos.colour }}
-    
-      {{ end }}
+        {{ range $.Site.Data.photos.colour }}
+        {{ partial "widgets/gallery-image.html" . }}
+        {{ end }}
       </div>
     </div>
-    <div>
-      <h2 id="black-and-white" class="title">{{ index .Site.Data.photos.israel "title" | markdownify }}</h2>
-      <p class="subtitle">{{ index .Site.Data.photos.israel "description" | markdownify }}</p>
+    <div id="israel">
+      <h2 class="title">{{ index .Site.Data.photos.index.israel "title" | markdownify }}</h2>
+      <p class="subtitle">{{ index .Site.Data.photos.index.israel "description" | markdownify }}</p>
       <div class="photos">
-      {{ range $.Site.Data.photos.israel }}
-    
-      {{ end }}
+        {{ range $.Site.Data.photos.israel }}
+        {{ partial "widgets/gallery-image.html" . }}
+        {{ end }}
       </div>
     </div>
-    <div>
-      <h2 id="black-and-white" class="title">{{ index .Site.Data.photos.paris "title" | markdownify }}</h2>
-      <p class="subtitle">{{ index .Site.Data.photos.paris "description" | markdownify }}</p>
+    <div id="paris">
+      <h2 class="title">{{ index .Site.Data.photos.index.paris "title" | markdownify }}</h2>
+      <p class="subtitle">{{ index .Site.Data.photos.index.paris "description" | markdownify }}</p>
       <div class="photos">
-      {{ range $.Site.Data.photos.paris }}
-    
-      {{ end }}
+        {{ range $.Site.Data.photos.paris }}
+        {{ partial "widgets/gallery-image.html" . }}
+        {{ end }}
       </div>
     </div>
-    <div>
-      <h2 id="black-and-white" class="title">{{ index .Site.Data.photos.archie_and_peggy "title" | markdownify }}</h2>
-      <p class="subtitle">{{ index .Site.Data.photos.archie_and_peggy "description" | markdownify }}</p>
+    <div id="archie-and-peggy">
+      <h2 class="title">{{ index .Site.Data.photos.index.archie_and_peggy "title" | markdownify }}</h2>
+      <p class="subtitle">{{ index .Site.Data.photos.index.archie_and_peggy "description" | markdownify }}</p>
       <div class="photos">
-      {{ range $.Site.Data.photos.archie_and_peggy }}
-    
-      {{ end }}
+        {{ range $.Site.Data.photos.archie_and_peggy }}
+        {{ partial "widgets/gallery-image.html" . }}
+        {{ end }}
       </div>
     </div>
-    <div>
-      <h2 id="black-and-white" class="title">{{ index .Site.Data.photos.me "title" | markdownify }}</h2>
-      <p class="subtitle">{{ index .Site.Data.photos.me "description" | markdownify }}</p>
+    <div id="me">
+      <h2 class="title">{{ index .Site.Data.photos.index.me "title" | markdownify }}</h2>
+      <p class="subtitle">{{ index .Site.Data.photos.index.me "description" | markdownify }}</p>
       <div class="photos">
-      {{ range $.Site.Data.photos.me }}
-    
-      {{ end }}
+        {{ range $.Site.Data.photos.me }}
+        {{ partial "widgets/gallery-image.html" . }}
+        {{ end }}
       </div>
     </div>
   </div>

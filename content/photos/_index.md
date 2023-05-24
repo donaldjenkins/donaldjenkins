@@ -4,7 +4,7 @@ seoTitle: "Donald Jenkins: Photos"
 date: 2019-05-05T15:26:38+00:00
 slug: "photos"
 description: "Photographs by Donald Jenkins"
-summary: "As Apple started producing increasingly seriously good cameras in their phones, I started using my [phone](https://www.flickr.com/photos/astorg/albums/72157621916056260) for the vast majority of my pictures. Many of the pictures on this page were taken with one. For serious pictures, have a look at  [Flickr](https://www.flickr.com/photos/astorg), for more frequent updates, go to  [Instagram](https://instagram.com/donaldjenkins_/). I tend to prefer working in black and white, but that isn’t by any means a systematic rule."
+summary: "As Apple started producing increasingly seriously good cameras in their phones, I started using my [phone](https://www.flickr.com/photos/astorg/albums/72157621916056260) for the vast majority of my pictures. Many of the photographs on this page were taken with one. For serious pictures, have a look at  [Flickr](https://www.flickr.com/photos/astorg); for more frequent updates, go to  [Instagram](https://instagram.com/donaldjenkins_/). I tend to prefer working in black and white, but that isn’t by any means a systematic rule."
 author: "Donald Jenkins"
 noindex: false
 ---
@@ -213,7 +213,7 @@ One of the most charming hotels in the Tel-Aviv-Jaffa conurbation
 [Burmese](https://en.wikipedia.org/wiki/Burmese_cat "Find out about the Burmese breed") cats Archie, whom I adopted in December 2015, and Peggy, who joined us in July 2016, have changed my life completely for the better. They are supremely intelligent and capable of greater loyalty, and of giving more affection, than any human I have encountered, with few exceptions. They have provided the inspiration needed on the way to becoming a vegan.
 
 [Archie at three weeks](https://cdn.donaldjenkins.com/images/archie-at-three-weeks-1024x680.jpg?lossy=1&ssl=1)
-This is the picture on whose basis I dedcided to go and visit Archie's breeder
+This is the picture on whose basis I decided to go and visit Archie's breeder
 
 [Playing ball](https://cdn.donaldjenkins.com/images/playing-ball-1024x1024.jpg?lossy=1&ssl=1)
 Cats are passionate hunters, and rubber balls provide an excellent substitute for the prey they are unlikely to meet in a central city flat.
@@ -249,7 +249,7 @@ Cats love high places, especially when they can watch birds through a window
 Cats spend about sixteen hours a day sleeping
 
 [Morning affection](https://cdn.donaldjenkins.com/images/morning-affection-1024x768.jpg?lossy=1&ssl=1)
-The loyalty and afection shown by pets beats that of any human.
+The loyalty and affection shown by pets beats that of any human.
 
 [Archie at home](https://cdn.donaldjenkins.com/images/archie-at-home-768x1024.jpg?lossy=1&ssl=1)
 Distinguished cats need elegant furniture
