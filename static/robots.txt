@@ -1,4 +1,4 @@
-Sitemap: https://www.donaldjenkins.com/pro-sitemaps-4114288.php
+Sitemap: https://a177862.sitemaphosting.com/4114288/sitemap.xml
 
 User-agent: *
 # disallow all files in these directories
