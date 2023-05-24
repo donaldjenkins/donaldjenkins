@@ -20,22 +20,24 @@
   Twitter: @ChallengesCss
   Github: https://github.com/Afif13
 
-  Technical consultant: Shane Bishop
-  Site: https://ewww.io/
-  Twitter: @ewwwio
-  Location: Glendive, MT
+  Technical consultant: Ron Erdos
+  Site: https://moonbooth.com
+  Twitter: @RonErdos
+  Location: Sydney, Australia
 
   Design framework: normalize.css
 
-
+  Website builder: Hugo
+  Site: https://gohugo.io/
+  
+  Host: CloudFlare
+  Site: https://www.cloudflare.com/
+  
 /* SITE */
-  Last update: 2023-05-12
-  CMS: Hugo
+  Last update: 2023-05-25
   Theme: Kensington
   Version: 1.0
-  Host: Cloudflare
-  Network environment: Jamstack
-  Platform
+  Architecture: Jamstack
   Language: English
   Doctype: HTML5
   Components used: HTML, css
