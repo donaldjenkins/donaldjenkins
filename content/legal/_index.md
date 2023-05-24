@@ -15,13 +15,17 @@ Any material change in our policies will be advertised on Donald Jenkins’s [Tw
 
 ## Who we are · Our undertaking to you
 
-The operator of this Website, donaldjenkins.com ({{% quote %}}this Website{{% /quote %}} ), an unincorporated, not-for-profit entity based in the state of New York, and owner of the associated domain name, is a private individual, [Donald Jenkins](https://www.twitter.com/donaldjenkins) ({{% quote %}}we{{% /quote %}} ). We have designed its Terms and Privacy Policy, which you can access at the top of this page, to be consistent with the following principles:
+{{% alert info %}}
+**The operator of this Website, donaldjenkins.com ({{% quote %}}this Website{{% /quote %}} ), an unincorporated, not-for-profit entity based in the state of New York, and owner of the associated domain name, is a private individual, [Donald Jenkins](https://www.twitter.com/donaldjenkins) ({{% quote %}}we{{% /quote %}} ).**
+
+We have designed its Terms and Privacy Policy, which you can access at the top of this page, to be consistent with the following principles:
 
 - Because we believe that you shouldn’t have to provide personal information to visit a website, you may use this Website without registering an account. In fact, we don’t have accounts.
 - We give you advance notice, and keep a trace, of any changes in our [Terms](/legal/terms/changelog/) and [Privacy Policy](/legal/privacy/changelog/).
 - We provide a complaint mechanism for the handling of personal data.
 - We do not sell your personal data.
 - Our content is published under a [Creative Commons license](https://creativecommons.org/licenses/).
+  {{% /alert %}}
 
 We are committed to:
 
@@ -32,12 +36,14 @@ We are committed to:
 
 ## Information we collect, summarized
 
-Basically, we do not track you in any way
+{{% alert info %}}
+**Basically, we do not track you in any way.**
 
 There are no third-party cookies set on this Website, and it does not thus track visitors or collect any personal information, except in the following two cases:
 
 1. Information you send to us voluntarily when you send us emails using the Contact Form.
 2. When you visit this Website, we look up your location using your IP address. We do not track anything more granular than the city level and the IP address of the visitor is discarded. We never store IP addresses in our database or logs (see below).
+   {{% /alert %}}
 
 The content of this Website complies fully with the following:
 
