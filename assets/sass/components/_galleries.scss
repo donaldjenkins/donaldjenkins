@@ -20,3 +20,73 @@
     }
   }
 }
+
+.photos a {
+  cursor: zoom-in;
+  transition: filter 0.2s ease-in-out;
+}
+
+.photos a:hover {
+  filter: brightness(90%);
+}
+
+.lightbox {
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+  position: fixed;
+  z-index: 1000;
+}
+
+@include media(">tablet") {
+  .lightbox:target {
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+
+  .lightbox img {
+    border-radius: $rounded;
+    //display: block;
+    margin: auto;
+    height: 85vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lightbox .close {
+    text-decoration: none;
+    color: #fff;
+    font-size: var(--font-size-large);
+    font-weight: bold;
+    height: 1em;
+    position: fixed;
+    right: 0.5em;
+    top: 0.5em;
+    width: 1em;
+    z-index: 1001;
+  }
+
+  .lightbox figcaption {
+    color: $white;
+    font-size: var(--font-size-smallest);
+    align-self: center;
+    text-align: center;
+    max-width: 69ch;
+    padding-bottom: $padding;
+
+    & a {
+      color: $white;
+    }
+
+    & a:hover {
+      color: var(--link-hover-on-dark);
+    }
+  }
+}

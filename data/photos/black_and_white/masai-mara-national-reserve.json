@@ -1,11 +1,11 @@
 {
-  "alt": "Masai Mara National Reserve",
-  "caption": "Masai Mara National Reserve is a large game reserve in Narok County, Kenya. It is globally famous for its exceptional population of lions, leopards and cheetahs, and the annual migration of zebra, Thomson’s gazelle, and wildebeest to and from the Serengeti every year from July to October, known as the Great Migration.",
-  "id": "d9d1a2aa-8daf-4998-e9da-e082aeda5e00",
-  "camera": "Panasonic DMC-GF2 LUMIX G 20/F1.7",
   "flickr": "6031888295",
+  "id": "d9d1a2aa-8daf-4998-e9da-e082aeda5e00",
+  "alt": "Masai Mara National Reserve",
+  "caption": "this large [game reserve](https://en.wikipedia.org/wiki/Maasai_Mara) in Kenya is globally famous for its exceptional population of lions, leopards and cheetahs, and the annual migration of zebra, Thomson’s gazelle, and wildebeest to and from the [Serengeti](https://en.wikipedia.org/wiki/Serengeti#Great_Toms) every year from July to October, known as the Great Migration.",
+  "camera": "Panasonic DMC-GF2 LUMIX G 20/F1.7",
   "geolocation": {
-    "latitude": "-1.416666",
-    "longitude": "34.916666"
+    "longitude": "34.916666",
+    "latitude": "-1.416666"
   }
 }

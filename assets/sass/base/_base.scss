@@ -28,7 +28,7 @@
  * Hide horizontal scrollbar on mobile | Source: https://stackoverflow.com/questions/72724764/disable-horizontal-scrolling-while-overflow-x-is-unset
  */
 body {
-  @include media("<smartphone") {
+  @include media("<desktop") {
     overflow-x: clip;
   }
 }

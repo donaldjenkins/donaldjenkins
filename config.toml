@@ -14,6 +14,8 @@ title = 'Donald Jenkins writes about politics'
   video_suffix = "/manifest/video.m3u8"
   thumbnail_suffix = "/thumbnails/thumbnail.jpg?time="
   assets_thumbnails = "https://assets.donaldjenkins.com/images/thumbnails/"
+  flickr_images = "https://flickr.com/photos/astorg/"
+  flickr_suffix = "/in/dateposted-public/"
   description = "Donald Jenkins [writes](/articles/), among other matters, about [politics](/politics/). He co-founded [Policymakr](https://policymakr.com/), an online think-tank.  He lives in New York and also takes [photographs](/photos/)."
   seo_description = "Donald Jenkins writes, among other matters, about politics. He co-founded Policymakr, an online think-tank. He lives in New York."
   about = "I read Philosophy, Politics and Economics at [Magdalen College, Oxford](https://www.magd.ox.ac.uk/), and government at [École nationale d’administration](https://en.wikipedia.org/wiki/%C3%89cole_nationale_d%27administration). I have worked in [merchant banking](https://en.wikipedia.org/wiki/Merchant_bank), the [media](https://www.rfi.fr/), [public administration](https://www.culture.gouv.fr/) and [contemporary art](https://www.centrepompidou.fr/en). My main subjects of interest and concern are the [environment](https://nymag.com/intelligencer/2018/10/un-says-climate-genocide-coming-but-its-worse-than-that.html), [animal rights](/non-human-animal-rights-the-categorical-imperative-of-our-time/), [politics](/category/politics/) and [technology](/category/tech/). I ride a bicycle and am a [vegan.](/non-human-animal-rights-the-categorical-imperative-of-our-time/)"

@@ -1,4 +1,12 @@
 {{ $id := .id }}
 {{ $alt := .alt }}
+{{ $caption := .caption }}
 {{ $image_url := printf "%s%s" site.Params.cloudflare_images $id }}
-<img src="{{ $image_url }}/w=380,height=300,fit=cover,quality=60" alt="{{ $alt }}" />
+<a href="#{{ $id }}">
+  <img src="{{ $image_url }}/w=380,height=300,fit=cover,quality=60" alt="{{ $alt }}" />
+</a>
+<div class="lightbox" id="{{ $id }}">
+  <a href="#_" class="close">&times;</a>
+    <img class="title" src="{{ $image_url }}/fit=contain" alt="{{ $alt }}" />
+    <figcaption class="subtitle">{{ $alt }}: {{ $caption | markdownify }}</figcaption>
+</div>
