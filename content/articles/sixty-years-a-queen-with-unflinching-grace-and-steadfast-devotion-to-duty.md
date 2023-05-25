@@ -34,7 +34,7 @@ The beautiful young woman who succeeded him inherited every bit of her father’
 {{% quote %}}I declare before you all that my whole life whether it be long or short shall be devoted to your service and the service of our great imperial family to which we all belong.{{% /quote %}} On her twenty-first birthday, 21st April, 1947, Princess Elizabeth was with her parents and younger sister on a tour of South Africa. In a speech broadcast on the radio from Cape Town, the Princess dedicated her life to the service of the Commonwealth.
 {{% /video-new %}}
 
-I am certain all will wish to join me in paying tribute to our beloved Sovereign in the prayer composed, with Her Majesty’s participation, and [published](https://www.donaldjenkins.com/documents/diamond-jubilee-liturgical-resources.pdf) by the Church of England on the occasion of the sixtieth anniversary of her accession:
+I am certain all will wish to join me in paying tribute to our beloved Sovereign in the prayer composed, with Her Majesty’s participation, and [published]({{% assets documents %}}diamond-jubilee-liturgical-resources.pdf) by the Church of England on the occasion of the sixtieth anniversary of her accession:
 
 > God of time and eternity,  
 >  whose Son reigns as servant, not master;  

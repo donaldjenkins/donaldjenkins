@@ -98,7 +98,7 @@ Facebook is actually in danger of making that very mistake we identified — giv
 - the social web is fast approaching the importance of online search in terms of Web traffic; Facebook and Google have already started competing in search, but Facebook is in danger straying so far from its original area of business that it may end up overreaching itself.
 - more seriously, Facebook, in its recent attempt to force users into sharing information about themselves that they had previously intended to share only with their friends, has compromised their privacy in order to increase its profitability[^1] or at best, in the name of a [naive and utopian](https://gigaom.com/2010/06/01/facebooks-views-on-privacy-are-naive-and-utopian-prof-says/) view of privacy.
 
-As Ryan Tate, [writing](https://www.donaldjenkins.com/documents/can-anonymous-commenters-be-outed-if-they-do-something-newsworthy.pdf) in _Vallewag_, put it:
+As Ryan Tate, [writing]({{% assets documents %}}can-anonymous-commenters-be-outed-if-they-do-something-newsworthy.pdf) in _Vallewag_, put it:
 
 > Facebook is a business. An incorporated, well-organized business, in Silicon Valley with heavy funding from venture capitalists. Facebook’s board members brag about how much money the startup takes in. Facebook employees are so hungry to cash out their stock options that the company turned to a Russian investment firm and its scary oligarch backer in order to get enough cash to buy them out.
 >
