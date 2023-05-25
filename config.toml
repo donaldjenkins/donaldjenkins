@@ -5,6 +5,7 @@ title = 'Donald Jenkins writes about politics'
 
 [params]
   stylesheets = ["styles.css"]
+  taxonomiesExcludedFromSitemap = ["tags", "categories"]
   color = "#9c9a75"
   # Sets theme colour& Safari mask icon colour
   cloudflare_images = "https://www.donaldjenkins.com/cdn-cgi/imagedelivery/L0HrrfgxmX01pIlKW6n82w/"

@@ -9,6 +9,7 @@ notable: false
 layout: "single"
 slug: "test-article"
 draft: true
+sitemap_exclude: true
 description: "I wish all who read this a very Happy New Year: I am certain I am not the only one hoping that this new decade will mark a new beginning."
 summary: "I wish all who read this a very Happy New Year: I am certain I am not the only one hoping that this new decade will mark a new beginning."
 featured_image: "969a796-2fbc-451f-ba14-8f6e0276b000"

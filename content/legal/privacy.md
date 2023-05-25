@@ -3,6 +3,7 @@ title: "Privacy Policy"
 date: "2018-11-14T03:20:07+00:00"
 slug: privacy
 layout: single
+sitemap_exclude: true
 ---
 
 {{% alert info %}}
