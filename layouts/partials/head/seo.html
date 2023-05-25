@@ -1,4 +1,3 @@
-<meta name="description" content="{{ site.Params.seo_description }}">
 {{/* SEO noindex: used to block the "page not found" and "thank you for signing
 up" pages from appearing on Google */}} {{ if .Params.noindex }} {{/* If the
 `noindex` parameter has been set to `true` ... */}}
@@ -14,7 +13,7 @@ marketing campaign tagging etc */}}
 <meta name="robots" content="noindex">
 {{ end }}
 <link rel="canonical" href="{{ .Permalink }}">
-
+<meta name="description" content="{{ site.Params.seo_description }}">
 {{/* Facebook Open Graph and Twitter Cards */}} {{ if (fileExists
 "static/opengraph.png") }} {{ if .IsHome }} {{/* For the homepage, including its
 paginations */}}
