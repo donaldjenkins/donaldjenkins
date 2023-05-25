@@ -1,9 +1,11 @@
 ---
 title: "Legal stuff"
+description: "This page sums up the way this Website operates, the laws that apply to it, and the values underpinning our action."
 date: "2018-11-14T03:20:07+00:00"
 slug: legal
 layout: single
 sitemap_exclude: true
+noindex: true
 ---
 
 This page sums up the way this Website operates, the laws that apply to it, and the values underpinning our action. Your use of this Website, however, means you have also read and agreed to the full terms of our [Terms](/legal/terms/) and [Privacy Policy](/legal/privacy/) ({{% quote %}}policies{{% /quote %}} ) linked to in the table below. These documents are legally binding and may be subject to change.

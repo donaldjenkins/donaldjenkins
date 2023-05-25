@@ -1,9 +1,11 @@
 ---
 title: "Privacy Policy"
+description: "Privacy Policy is meant to help you understand what information we collect, why we collect it, and how you can update, manage, export, and delete your information."
 date: "2018-11-14T03:20:07+00:00"
 slug: privacy
 layout: single
 sitemap_exclude: true
+noindex: true
 ---
 
 {{% alert info %}}

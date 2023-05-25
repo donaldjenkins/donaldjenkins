@@ -58,7 +58,7 @@ articles = "/:slug"
 categories= "/:slug/"
     
 [sitemap]
-  changefreq = 'weekly'
+  changefreq = 'always'
   filename = 'sitemap.xml'
   priority = 0.5
     

@@ -1,9 +1,11 @@
 ---
 title: "Terms"
+description: "The Terms for this Website establish a framework for what you can expect from us, as well as for what we can expect from you."
 date: "2018-11-14T03:20:07+00:00"
 slug: terms
 layout: single
 sitemap_exclude: true
+noindex: true
 ---
 
 {{% alert info %}}
