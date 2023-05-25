@@ -43,7 +43,6 @@ paginations */}}
 />
 <meta property="og:image:alt" content="{{ .Params.title | truncate 50 }}">
 {{ else }}
-<meta name="description" content="{{ site.Params.seo_description }}">
 <meta property="og:image" content="{{ .Site.BaseURL }}opengraph.png">
 <meta
   property="og:image:secure_url"
@@ -58,6 +57,7 @@ paginations */}}
 <meta name="twitter:card" content="summary_large_image"> {{/* All other
 Twitter markup is the same as, and therefore relies on, OpenGraph */}}
 <meta name="twitter:site" content="@donaldjenkins">
+<meta name="twitter:creator" content="@donaldjenkins" />
 {{ end }} {{/* RSS: People who use RSS readers to consume content will see when
 you publish new blog posts */}}
 <link
