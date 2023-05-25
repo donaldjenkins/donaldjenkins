@@ -17,7 +17,7 @@ tableofcontents: false
 noindex: false
 ---
 
-In a concession to both modern grammatical usage (call me old-fashioned, but I’m not a fan of ending my sentence with prepositions[^1]) and current trends, I published a post a year ago, listing [stuff I couldn’t live without in 2010](https://www.donaldjenkins.com/stuff-i-couldnt-live-without-in-2010/), promising that I’d update it if I were still around in 2011.
+In a concession to both modern grammatical usage (call me old-fashioned, but I’m not a fan of ending my sentence with prepositions[^1]) and current trends, I published a post a year ago, listing [stuff I couldn’t live without in 2010](/stuff-i-couldnt-live-without-in-2010/), promising that I’d update it if I were still around in 2011.
 
 As a year has gone by, it seems appropriate to share my latest thoughts on the matter. One is immediately struck, of course, on reading this list, by the dichotomy between my real-world environment and my online one: lasting values make up the former, with nothing changed since 2010, trends and frivolity the latter. So let’s look at them in reverse order.
 
@@ -28,13 +28,13 @@ Hardware
 : This has obviously now taken the place of the venerable iPhone 3GS. I’m using it with [all the coolest apps](https://cl.ly/580V). Seriously, I’d die if I had to use any other phone.
 
 [MacBook Air](https://www.apple.com/macbookair)  
-: This was probably [the acquisition](https://www.donaldjenkins.com/the-new-macbook-air-with-its-first-rate-gpu-and-ssd-its-real-life-performance-belies-the-paper-specs/) that most changed my life in 2010. I hardly use my iPad for anything now, as this fits in even the smallest briefcase and weighs nothing at all.
+: This was probably [the acquisition](/the-new-macbook-air-with-its-first-rate-gpu-and-ssd-its-real-life-performance-belies-the-paper-specs/) that most changed my life in 2010. I hardly use my iPad for anything now, as this fits in even the smallest briefcase and weighs nothing at all.
 
 Software
 --------
 
 [Sparrow Mail](https://www.sparrowmailapp.com/) ~~[Apple Mail](https://www.apple.com/macosx/what-is-macosx/mail-ical-address-book.html)~~
-: This is [in my view](https://www.donaldjenkins.com/sparrow-mail-the-most-elegant-powerful-and-minimalist-mac-email-client/) the best Mac application ever designed. I never thought anything could tempt me away from Apple Mail, but this tiny little Gmail client has changed my life.
+: This is [in my view](/sparrow-mail-the-most-elegant-powerful-and-minimalist-mac-email-client/) the best Mac application ever designed. I never thought anything could tempt me away from Apple Mail, but this tiny little Gmail client has changed my life.
 
 [DuckDuckGo](https://ff.duckduckgo.com/)
 : A much better search engine than Google. Beautiful minimal design. Anonymous browsing. More relevant search results.
@@ -46,7 +46,7 @@ Google Apps Premier and ~~MobileMe~~
 : I have a 100GB account with them on which I keep all my files including over 60GB of music. I can access all this data from anywhere.
 
 [Reeder](https://reederapp.com/) ~~Fever~~
-: I stopped using Shaun Inman’s Fever which wasn’t being updated and now use Silvio Rizzi’s [Reeder](https://www.donaldjenkins.com/reeder-for-mac-a-stunning-implementation-of-minimalism-elegant-design-and-practicality-in-one-rss-client/) to read all my RSS feeds on [Mac](https://ff.duckduckgo.com/?q=reeder?or%203ac), [iPad](https://itunes.apple.com/us/app/reeder-for-ipad/id375661689?mt=8) and [iPhone](https://itunes.apple.com/us/app/reeder/id325502379?mt=8). Pretty much the only thing I use the iPad for.
+: I stopped using Shaun Inman’s Fever which wasn’t being updated and now use Silvio Rizzi’s [Reeder](/reeder-for-mac-a-stunning-implementation-of-minimalism-elegant-design-and-practicality-in-one-rss-client/) to read all my RSS feeds on [Mac](https://ff.duckduckgo.com/?q=reeder?or%203ac), [iPad](https://itunes.apple.com/us/app/reeder-for-ipad/id375661689?mt=8) and [iPhone](https://itunes.apple.com/us/app/reeder/id325502379?mt=8). Pretty much the only thing I use the iPad for.
 
 [WriteRoom](https://www.hogbaysoftware.com/products/writeroom)
 : Still the best text editor by far and stunningly minimalist. I still wish they added proper support for Markdown, but I’ve found a workaround for that.

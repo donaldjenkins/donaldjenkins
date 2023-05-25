@@ -6,12 +6,12 @@ layout: single
 ---
 
 {{% alert info %}}
-These Terms were last revised on 14th January, 2021: see the [changelog](https://www.donaldjenkins.com/legal/terms/changelog).
+These Terms were last revised on 14th January, 2021: see the [changelog](/legal/terms/changelog).
 {{% /alert %}}
 
 ## Definitions · Agreement to Terms
 
-These Terms and Conditions of Use (the Terms), as well as the separately available [Privacy Policy](https://www.donaldjenkins.com/legal/privacy/), which is incorporated by reference into these Terms, apply to your access and use of this Website (www.donaldjenkins.com), and by extension to any subdomains or related websites operated by Donald Jenkins. They establish a framework for what you can expect from us, as well as for what we can expect from you.
+These Terms and Conditions of Use (the Terms), as well as the separately available [Privacy Policy](/legal/privacy/), which is incorporated by reference into these Terms, apply to your access and use of this Website (www.donaldjenkins.com), and by extension to any subdomains or related websites operated by Donald Jenkins. They establish a framework for what you can expect from us, as well as for what we can expect from you.
 
 Understanding these Terms is important, because, to use this Website, you must accept these terms. If you do not agree, [do not use this Website](https://tosdr.org/).
 
@@ -31,10 +31,10 @@ Because everyone (not just lawyers) should be able to easily understand the natu
 All content and software on this Website is the property of Donald Jenkins, or his content suppliers, and is protected by United States and international copyright laws. This Website contains a mix of software and other material. This software and material consequently falls under one of the following three categories:
 
 1. copyright for Donald Jenkins’s logos, trademarks and the source code of the Gramercy Theme is reserved;
-2. the underlying source code used to format and display that content is licensed under the [WordPress GNU license](https://www.donaldjenkins.com/license.txt);
+2. the underlying source code used to format and display that content is licensed under the [WordPress GNU license](/license.txt);
 3. the content of this Website itself, other than logos, trademarks and the source code of the Gramercy Theme, is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-You are granted, consequently, (i) a [General License](https://www.donaldjenkins.com/license.txt) pertaining to the underlying WordPress source code, to access and view this Website for personal use, and (ii) an [Additional Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License](https://creativecommons.org/licenses/by-nc-sa/4.0/) pertaining to certain types of content on this website, as outlined [below](https://www.donaldjenkins.com/legal/terms/#creative-commons).
+You are granted, consequently, (i) a [General License](/license.txt) pertaining to the underlying WordPress source code, to access and view this Website for personal use, and (ii) an [Additional Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License](https://creativecommons.org/licenses/by-nc-sa/4.0/) pertaining to certain types of content on this website, as outlined [below](/legal/terms/#creative-commons).
 
 ### Logos and Trademarks · Gramercy Theme source code
 
@@ -42,7 +42,7 @@ donaldjenkins.com logos are the property of Donald Jenkins in the United States 
 
 ### General License and Site Access
 
-You are granted a limited license, under the provisions of a WordPress [GNU General Public License](https://www.donaldjenkins.com/license.txt) whose terms you hereby represent that you have read them and consent thereto, to access and view This Website for personal use, but not to download (other than page caching) or modify it, or any portion of it, except with the express written consent of Donald Jenkins. With the exception of the additional rights granted to you the terms of the Additional Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License detailed hereinunder, this license does not include any other rights, including but not limited to the right to any resale or commercial use of this Website or its contents; any derivative use of this Website or its contents; any downloading or copying of information not explicitly authorised by Donald Jenkins; or any use of data mining, robots, or similar data gathering and extraction tools.
+You are granted a limited license, under the provisions of a WordPress [GNU General Public License](/license.txt) whose terms you hereby represent that you have read them and consent thereto, to access and view This Website for personal use, but not to download (other than page caching) or modify it, or any portion of it, except with the express written consent of Donald Jenkins. With the exception of the additional rights granted to you the terms of the Additional Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License detailed hereinunder, this license does not include any other rights, including but not limited to the right to any resale or commercial use of this Website or its contents; any derivative use of this Website or its contents; any downloading or copying of information not explicitly authorised by Donald Jenkins; or any use of data mining, robots, or similar data gathering and extraction tools.
 
 You also hereby expressly agree to the following additional conditions governing your use of this Website:
 
@@ -84,7 +84,7 @@ No warranties are given. The license may not give you all of the permissions nec
 
 ### Third-party copyright
 
-Any content on this Website which is not the property of Donald Jenkins is marked as such. Permission for its use has either been expressly granted or is assumed pursuant to [Fair Use.](https://www.copyright.gov/fair-use/more-info.html) In all other cases, the content concerned is in the [public domain]({{% assets documents %}}duration-of-copyright.pdf) (and where possible is designated as such on this Website), including, but not limited to, works dating back to [1923 or earlier]({{% assets documents %}}copyright-term-and-the-public-domain-in-the-united-states.pdf). If you believe any content on this Website does not meet these requirements, you may inform us accordingly as provided at the [Digital Millennium Copyright Act Notice Policy](https://www.donaldjenkins.com/legal/terms/#dmca) section below.
+Any content on this Website which is not the property of Donald Jenkins is marked as such. Permission for its use has either been expressly granted or is assumed pursuant to [Fair Use.](https://www.copyright.gov/fair-use/more-info.html) In all other cases, the content concerned is in the [public domain]({{% assets documents %}}duration-of-copyright.pdf) (and where possible is designated as such on this Website), including, but not limited to, works dating back to [1923 or earlier]({{% assets documents %}}copyright-term-and-the-public-domain-in-the-united-states.pdf). If you believe any content on this Website does not meet these requirements, you may inform us accordingly as provided at the [Digital Millennium Copyright Act Notice Policy](/legal/terms/#dmca) section below.
 
 ## Disclaimer of Warranties and Limitation of Liability
 
@@ -130,7 +130,7 @@ Infringement Notices should be sent using the contact channels specified below.
 
 ### Email
 
-[Contact Form](https://www.donaldjenkins.com/contact) on this website.
+[Contact Form](/contact) on this website.
 
 ## Applicable Law
 
@@ -148,4 +148,4 @@ We ask that you please review the most up-to-date version of our Terms. Your con
 
 ## Questions
 
-If you have questions or concerns regarding these Terms please [contact](https://www.donaldjenkins.com/contact) us.
+If you have questions or concerns regarding these Terms please [contact](/contact) us.

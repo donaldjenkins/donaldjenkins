@@ -7,7 +7,7 @@ layout: single
 
 {{% alert info %}}
 
-This Privacy Policy was last revised on 26th May, 2023: see the [changelog](https://www.donaldjenkins.com/legal/privacy/changelog).
+This Privacy Policy was last revised on 26th May, 2023: see the [changelog](/legal/privacy/changelog).
 {{% /alert %}}
 
 **This Privacy Policy is meant to help you understand what information we collect, why we collect it, and how you can update, manage, export, and delete your information. We promise we never sell your data: never have, never will.**
@@ -16,7 +16,7 @@ This Privacy Policy was last revised on 26th May, 2023: see the [changelog](http
 
 Donald Jenkins is committed to protecting the privacy of visitors to this Website. We have established this Privacy Policy to explain what information we collect on this Website and how it is used, as well as the protections we afford your Personal Information.
 
-This Privacy Policy is incorporated into the [Terms](https://www.donaldjenkins.com/legal/terms/) for this Website. Your use of this Website means that you agree to the terms of both these documents.
+This Privacy Policy is incorporated into the [Terms](/legal/terms/) for this Website. Your use of this Website means that you agree to the terms of both these documents.
 
 Except as explained below, this Privacy Policy applies to our collection and handling of information about you that we receive as a result of your use of this Website This Policy also applies to information that we receive from our partners or other third parties.
 
@@ -70,14 +70,14 @@ We will also retain and use the above information as required for the purposes s
 
 ## Access to your data
 
-You have the right to access and edit your information at any time. On written request and subject to proof of identity, you can access any data pertaining to you that we hold at any time, using the [contact form](https://www.donaldjenkins.com/contact). You may all ask for any necessary corrections be made, where applicable, as authorized or required by law. And if you so request, all your data will be permanently and immediately deleted
+You have the right to access and edit your information at any time. On written request and subject to proof of identity, you can access any data pertaining to you that we hold at any time, using the [contact form](/contact). You may all ask for any necessary corrections be made, where applicable, as authorized or required by law. And if you so request, all your data will be permanently and immediately deleted
 
-California Civil Code Section §1798.83 permits users of the Site and/or Services who are California residents to request certain information regarding our disclosure of personal information to third parties for their direct marketing purposes. To make such a request, please send a [message](https://www.donaldjenkins.com/contact) to us with ‘Request for California Privacy Information’ in the subject line or in the body of your message. We will provide the requested information to you in your email address in response.
+California Civil Code Section §1798.83 permits users of the Site and/or Services who are California residents to request certain information regarding our disclosure of personal information to third parties for their direct marketing purposes. To make such a request, please send a [message](/contact) to us with ‘Request for California Privacy Information’ in the subject line or in the body of your message. We will provide the requested information to you in your email address in response.
 
-If you wish to exercise any additional access rights provided to you under the GDPR, you may send a [message](https://www.donaldjenkins.com/contact) to us or visit the European Commission’s [page](http://ec.europa.eu/justice/data-protection/index_en.htm) on Data Protection.
+If you wish to exercise any additional access rights provided to you under the GDPR, you may send a [message](/contact) to us or visit the European Commission’s [page](https://commission.europa.eu/law/law-topic/data-protection_en) on Data Protection.
 
 ## Changes and questions
 
 We may update this policy as needed to comply with relevant regulations and reflect any new practices. Whenever we make a significant change to our policies, we will also announce them on Donald Jenkins's [Twitter](https://www.twitter.com/donaldjenkins) account.
 
-I, [Donald Jenkins](https://www.twitter.com/donaldjenkins), the owner of donaldjenkins.com, personally drafted this privacy policy. If you have any questions, suggestions, or concerns regarding this Privacy Policy, please [submit feedback](https://www.donaldjenkins.com/contact/).
+I, [Donald Jenkins](https://www.twitter.com/donaldjenkins), the owner of donaldjenkins.com, personally drafted this privacy policy. If you have any questions, suggestions, or concerns regarding this Privacy Policy, please [submit feedback](/contact/).

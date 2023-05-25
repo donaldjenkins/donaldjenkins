@@ -21,7 +21,7 @@ In the weeks since I last wrote on this site, I’ve been incredibly busy workin
 
 In the summer and autumn of 2016, which I spent in the US and in Israel, I became increasingly preoccupied with the disappearance of civility from online, and also from real-life politics.
 
-The aftermath of the Brexit referendum, which left me in a state of complete [shock](https://www.donaldjenkins.com/brexit-would-be-constitutional-and-economic-suicide/), and directly witnessing, away from the sanitized East Coast where I spend most of my time, the acrimony and hard words that marred the US primaries, and then the presidential election itself, left me reeling in disbelief.
+The aftermath of the Brexit referendum, which left me in a state of complete [shock](/brexit-would-be-constitutional-and-economic-suicide/), and directly witnessing, away from the sanitized East Coast where I spend most of my time, the acrimony and hard words that marred the US primaries, and then the presidential election itself, left me reeling in disbelief.
 
 In the last few years, there has been a growing realization that the model for the formulation, enactment and implementation of public policy had become broken. It took me two years after that initial, violent confrontation with the tangible reality of that phenomenon, and with its consequences, that I decided to push ahead with turning the solution I believed existed into reality.
 

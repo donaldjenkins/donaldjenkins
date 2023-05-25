@@ -22,7 +22,7 @@ When I started blogging, in 2005 on a Saint-Tropez beach, I decided not to use m
 
 Keeping one’s web presence to a reasonable number of sites is essential to avoid dispersion. [Flickr](https://www.flickr.com/photos/astorg/ "Flickr: Galerie de astorg") for photos, [Twitter](https://twitter.com/donaldjenkins "Twitter / donaldjenkins") for ramblings, and [Facebook](https://www.facebook.com/profile.php?id=706186626 "Facebook") for friends (please don’t add me unless I actually know you in real life) are the only ones you need to keep your friends in touch.
 
-The one useful addition you might want to consider of top of those three basics is [Google Reader](https://www.google.com/reader/shared/08163851508448927619 "Google Reader - astorg's shared items"): it’s an amazingly easy medium for those who like keeping tabs on web posts I have found interesting enough to bookmark. Anything else will basically be relegated to a link on the [About](https://www.donaldjenkins.com/about/) page.
+The one useful addition you might want to consider of top of those three basics is [Google Reader](https://www.google.com/reader/shared/08163851508448927619 "Google Reader - astorg's shared items"): it’s an amazingly easy medium for those who like keeping tabs on web posts I have found interesting enough to bookmark. Anything else will basically be relegated to a link on the [About](/about/) page.
 
 The [RSS feed link](https://feeds2.feedburner.com/ectomorphicvicissitudes?format=xml "Donald Jenkins") remains unchanged and all the other links should redirect smoothly I hope. And I’ll be inaugurating the new site, from Oxford where I’ll be departing tomorrow, with a nice blog post about the fiftieth anniversary — or rather lack of it — of the French Culture Ministry.
 
