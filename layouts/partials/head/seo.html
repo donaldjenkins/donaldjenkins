@@ -13,20 +13,22 @@ marketing campaign tagging etc */}}
 <meta name="robots" content="noindex">
 {{ end }}
 <link rel="canonical" href="{{ .Permalink }}">
-<meta name="description" content="{{ site.Params.seo_description }}">
 {{/* Facebook Open Graph and Twitter Cards */}} {{ if (fileExists
 "static/opengraph.png") }} {{ if .IsHome }} {{/* For the homepage, including its
 paginations */}}
+<meta name="description" content="{{ site.Params.seo_description }}">
 <meta property="og:title" content="{{ site.Title }}">
 <meta property="og:description" content="{{ site.Params.seo_description }}">
 <meta property="og:type" content="website">
 {{ else if .IsPage }} {{/* For posts and pages */}}
+<meta name="description" content="{{ .Params.description }}">
 <meta property="og:title" content="{{ .Params.title }}">
-<meta property="og:description" content="{{ .Params.seo_description }}">
+<meta property="og:description" content="{{ .Params.description }}">
 <meta property="og:type" content="article">
 {{ else }} {{/* For non-homepage indexes such as /blog/ */}}
+<meta name="description" content="{{ site.Params.seo_description }}">
 <meta property="og:title" content="{{ .Params.title }}">
-<meta property="og:description" content="{{ .Params.seo_description }}">
+<meta property="og:description" content="{{ site.Params.seo_description }}">
 <meta property="og:type" content="website">
 {{ end }}
 <meta property="og:site_name" content="{{ site.Title }}">
@@ -41,6 +43,7 @@ paginations */}}
 />
 <meta property="og:image:alt" content="{{ .Params.title | truncate 50 }}">
 {{ else }}
+<meta name="description" content="{{ site.Params.seo_description }}">
 <meta property="og:image" content="{{ .Site.BaseURL }}opengraph.png">
 <meta
   property="og:image:secure_url"

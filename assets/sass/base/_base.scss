@@ -25,7 +25,7 @@
 }
 
 /**
- * Hide horizontal scrollbar on mobile | Source: https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp
+ * Hide horizontal scrollbar on mobile | Source: https://stackoverflow.com/questions/72724764/disable-horizontal-scrolling-while-overflow-x-is-unset
  */
 body {
   @include media("<smartphone") {
