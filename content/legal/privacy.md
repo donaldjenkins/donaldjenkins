@@ -59,7 +59,7 @@ We only share information with them that is required for the services offered an
 
 ### Web host and data retention
 
-This Website is hosted by [Cloudflare](https://www.cloudflare.com/about-overview/), a company that provides [content delivery network](https://en.wikipedia.org/wiki/Content_delivery_network) services, cloud cybersecurity, and [DDoS mitigation](https://en.wikipedia.org/wiki/DDoS_mitigation). All of the data that we collect is kept fully secured, encrypted and hosted on 100% renewable energy powered server in San Francisco, CA, and other locations owned by Cloudflare. See the Cloudflare [privacy policy ](https://www.cloudflare.com/privacypolicy/)for full details.
+This Website is hosted by [Cloudflare](https://www.cloudflare.com/about-overview/), a company that provides [content delivery network](https://en.wikipedia.org/wiki/Content_delivery_network) services, cloud cybersecurity, and [DDoS mitigation](https://en.wikipedia.org/wiki/DDoS_mitigation). All of the data that we collect is kept fully secured, encrypted and hosted on 100% renewable energy powered servers in San Francisco, CA, and other locations owned by Cloudflare. See the Cloudflare [privacy policy ](https://www.cloudflare.com/privacypolicy/)for full details.
 
 ### Emails
 
