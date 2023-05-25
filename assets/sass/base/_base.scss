@@ -27,8 +27,8 @@
 /**
  * Hide horizontal scrollbar on mobile | Source: https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp
  */
-@include media("<smartphone") {
-  body {
+body {
+  @include media("<smartphone") {
     overflow-x: hidden;
   }
 }
@@ -237,8 +237,8 @@ pre {
   border-radius: $very-rounded;
 }
 
-@include media("<smartphone") {
-  pre {
+pre {
+  @include media("<smartphone") {
     margin-inline: -6vw;
     width: calc(100% + 12vw);
     max-width: none;
