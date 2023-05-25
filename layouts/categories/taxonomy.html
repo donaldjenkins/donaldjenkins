@@ -7,13 +7,9 @@
   </div>
   <div class="grid cards">
     {{ range .Paginator.Pages }}
-    <div class="column is-half">{{ partial "widgets/post-card.html" . }}</div>
+    <div class="column is-half">
+      {{ partial "widgets/post-card.html" . }}</div>
     {{ end }}
-  </div>
-  <div class="columns is-centered">
-    <div class="column is-narrow">
-      {{ partial "widgets/pagination.html" . }}
-    </div>
   </div>
 </article>
 {{ end }}
