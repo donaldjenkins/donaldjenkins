@@ -4,5 +4,8 @@
   "alt": "At Yad Vashem: the Promised land",
   "caption": "At the end of the tunnel-shaped museum at [Yad Vashem](https://en.wikipedia.org/wiki/Yad_Vashem), a view of the Promised Land",
   "camera": "iPhone 6s back camera 4.15mm f/2.2",
-  "geolocation": { "longitude": "35.164024", "latitude": "31.795308" }
+  "geolocation": {
+    "longitude": "35.164024",
+    "latitude": "31.795308"
+  }
 }
