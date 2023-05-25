@@ -23,7 +23,8 @@ I replied to this friend that the Pope hadn’t abolished Limbo. If nothing else
 
 More recently, however, the Pope did authorize publication of a report that expresses, in line with the 1992 Cathechism[^2], the _hope_ that children aged under seven who die unbaptized—and thus marked by original sin, yet are too young to have committed mortal sin, might not merely remain in a state of happiness compatible with their lack of _personal_ guilt, though confined at the very edge of Paradise, full access to the latter being reserved for those who acquired a state of grace through baptism and subsequently maintained or recovered that status:
 
-{{% quotation main-title="Cathechism of the Catholic Church" url="https://www.vatican.va/archive/ccc_css/archive/catechism/p2s2c1a1.htm#VI" secondary-title="II-1 VI. The Necessity of Baptism, 1261" %}}
+{{% quotation main-title="Cathechism of the Catholic Church" url="https://www.vatican.va/archive/ENG0015/__P3M.HTM#VI" secondary-title="II-1 VI. The Necessity of Baptism, 1261" %}}
+
 As regards children who have died without baptism, the Church can only entrust them to the mercy of God, as she does in her funeral rites for them. Indeed, the great mercy of God, who desires that all men should be saved, and Jesus’s tenderness toward children, which caused him to say, {{% quote %}}Let the children come to me, do not hinder them{{% /quote %}} ([Mark 10:14](https://www.biblegateway.com/passage/?search=Mark+10%3A14&version=AKJV), _cf._ [1 Tim. 2:4](https://www.biblegateway.com/passage/?search=1+Timothy+2%3A4&version=AKJV)), allow us to hope that there is a way of salvation for children who have died without baptism. All the more urgent is the Church’s call not to prevent little children coming to Christ through the gift of holy baptism.
 <-source->
 Publications of the Holy See
