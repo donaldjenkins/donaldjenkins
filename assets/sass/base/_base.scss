@@ -25,6 +25,15 @@
 }
 
 /**
+ * Hide horizontal scrollbar on mobile | Source: https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp
+ */
+@include media("<smartphone") {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+/**
  * Set margins for relevant block elements | always use top | Source: https://matthewjamestaylor.com/css-margin-top-vs-bottom
  */
 
