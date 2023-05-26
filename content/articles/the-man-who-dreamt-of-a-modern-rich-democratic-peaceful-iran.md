@@ -37,4 +37,4 @@ I for one have not lost hope that, one day, Iran will be liberated from the horr
 [^1]: A rather similar position, I guess to our James I’s No Bishop, no King.
 [^2]: In the 1960s, 70% of Iran’s population lived in rural areas.
 [^3]: V. Muhammad Reza Pahlavi, Réponse à l’Histoire, Albin Michel (1980), p. 107.
-[^4]: Ibid., p. 160.
+[^4]: _Ibid._, p. 160.

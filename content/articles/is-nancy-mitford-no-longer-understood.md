@@ -47,14 +47,12 @@ Nancy Mitford’s writing, in that sense, is hardly just frivolous. It implicitl
 English too is her approach to love-making. While important, it is not something to get carried away with:
 
 {{% quotation pages="129" %}}
-{{% quote %}}I’ve loved him ever since I can remember. Oh, Fanny—isn’t being happy wonderful?{{% /quote %}}
-
-I felt just the same myself and was able to agree with all my heart. But her happiness had a curiously staif quality, and her love seemed less like the usual enchanted rapture of old establishment, love which does not need to assert itself by continually meeting, corresponding with and talking about its object, but which takes itself, as well as his response, for granted
-
-But to the Radletts, they were exactly the same, except that to them dogs on the whole had more reality than people..
+I’ve loved him ever since I can remember. Oh, Fanny—isn’t being happy wonderful?
 <-source->
 _Ibid._
 {{% /quotation %}}
+
+I felt just the same myself and was able to agree with all my heart. But her happiness had a curiously staid quality, and her love seemed less like the usual enchanted rapture of old establishment, love which does not need to assert itself by continually meeting, corresponding with and talking about its object, but which takes itself, as well as his response, for granted.
 
 Two opposing characters in {{% cite %}}Love in a Cold Climate{{% /cite %}}, illustrate this observant, wittily detached, modern yet ultimately sympathetic approach: Uncle Matthew, the archetypal, old-fashioned, prejudiced and red-faced English country squire, whose life seems to revolve principally around his pet hates — anything foreign, cissies, intellectuals and Socialists — and Cedric, a very modern, exotic figure, probably inspired by Hamish St Clair-Erskine, a Scottish _folle_ whom Nancy Mitford had rather hopelessly {{% quote %}}dated{{% /quote %}} in the early 1930s.
 

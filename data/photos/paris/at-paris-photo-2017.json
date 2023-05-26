@@ -1,11 +1,11 @@
 {
-  "alt": "At Paris Photo 2017",
-  "caption": "The Galerie Maubert show at Paris photo, the world’s largest international art fair dedicated to photography, held in November at the Grand Palais near the Champs-Élysées",
-  "id": "b7034825-cb50-4222-f084-063be59d8200",
-  "camera": "iPhone 8 Plus back dual camera 3.99mm f/1.8",
   "flickr": "52917931090",
+  "id": "b7034825-cb50-4222-f084-063be59d8200",
+  "alt": "At Paris photo 2017",
+  "caption": "The [Galerie Maubert](https://www.galeriemaubert.com/) show at [Paris photo](https://www.parisphoto.com/en-gb.html), the world’s largest international art fair dedicated to photography, held in November at the Grand Palais near the Champs-Élysées",
+  "camera": "iPhone 8 Plus back dual camera 3.99mm f/1.8",
   "geolocation": {
-    "latitude": "48.865825",
-    "longitude": "2.312438"
+    "longitude": "2.312438",
+    "latitude": "48.865825"
   }
 }
