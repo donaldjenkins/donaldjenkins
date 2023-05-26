@@ -1,0 +1,13 @@
+{{ define "main" }}
+<article class="archive">
+  <div class="content">
+    <h1>Tagged with {{ .Title }}</h1>
+    {{ .Params.description | markdownify }}
+  </div>
+  <div class="grid cards">
+    {{ range .Paginator.Pages }}
+    <div class="column is-half">{{ partial "widgets/post-card.html" . }}</div>
+    {{ end }}
+  </div>
+</article>
+{{ end }}
