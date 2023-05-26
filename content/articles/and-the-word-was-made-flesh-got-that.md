@@ -1,7 +1,7 @@
 ---
 title: "And the Word was made flesh. Got that?"
 categories: ["Religion"]
-tags: [Catholicism, Europe, religion]
+tags: [Catholicism, Europe]
 seoTitle: "Donald Jenkins: And the Word was made flesh. Got that?"
 date: 2006-12-28T11:50:32+00:00
 type: articles
