@@ -40,9 +40,9 @@
   Architecture: Jamstack
   Language: English
   Doctype: HTML5
-  Components used: HTML, css
+  Components used: HTML, SASS
   Font: -system-ui
   IDE: Nova by Panic, Figma, CodeKit,
-  Affinity Designer
+  Affinity Designer, Espresso
 
 [Credit for this page: https://humanstxt.org/]
