@@ -22,7 +22,9 @@
       <span class="tag"><a href="/sundry">Sundry</a></span>
       <span class="tag"><a href="/personal">Personal</a></span>
     </div>
-    <p>{{ .summary | markdownify }}</p>
+    <p>{{ with site.GetPage "articles" }}
+      {{ .Params.description | markdownify }}
+      {{ end }}</p>
   </section>
   <section id="about" class="sub-hero">
     <h3 class="visually-hidden">Brief CV</h3>
