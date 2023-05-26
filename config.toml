@@ -16,6 +16,13 @@ enableInlineShortcodes = true
 enableGitInfo = true
 enableRobotsTXT = true
 
+# Source: https://mertbakir.gitlab.io/hugo/last-modified-date-in-hugo/
+[frontmatter]
+date = ["date", "publishDate", "lastmod"]
+lastmod = ["lastmod", ":git", "date", "publishDate"]
+publishDate = ["publishDate", "date"]
+expiryDate = ["expiryDate"]
+
 [params]
   stylesheets = ["styles.css"]
   taxonomiesExcludedFromSitemap = ["tags", "categories"]

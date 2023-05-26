@@ -4,6 +4,7 @@
   <section id="statement" class="hero">
     <h3 class="visually-hidden">Main description</h3>
     <p>{{ .description | markdownify }}</p>
+    {{ partial "widgets/social-accounts.html" . }}
   </section>
   <section id="notable-posts" class="sub-hero">
     <h3 class="visually-hidden">Notable posts</h3>
