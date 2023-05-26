@@ -9,8 +9,8 @@
     <span class="tag"><a href="#paris">Paris</a></span>
     <span class="tag"><a href="#archie-and-peggy">Archie and Peggy</a></span>
     <span class="tag"><a href="#me">About me</a></span>
-    <span class="tag"><a href="https://www.flickr.com/photos/astorg">Flickr</a></span>
-    <span class="tag"><a href="https://instagram.com/donaldjenkins_/">Instagram</a></span>
+    <span class="tag"><a href="https://www.flickr.com/photos/astorg">{{ partial "icons/instagram.html" . }}&thinsp;Flickr</a></span>
+    <span class="tag"><a href="https://instagram.com/donaldjenkins_/">{{ partial "icons/instagram.html" . }}&thinsp;Instagram</a></span>
   </aside>
   <section id="black-and-white" class="gallery">
     <h2 class="title">{{ index .Site.Data.photos.index.black_and_white "title" | markdownify }}</h2>
