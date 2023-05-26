@@ -37,7 +37,7 @@
   z-index: 1000;
 }
 
-@include media(">tablet") {
+@include media(">tablet", "landscape") {
   .lightbox:target {
     align-items: center;
     bottom: 0;
