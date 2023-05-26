@@ -13,7 +13,9 @@
   </aside>
   <section id="politics" class="category">
     <h2 class="title">Politics</h2>
-    <p class="subtitle">{{ .Params.politics | markdownify }}</p>
+    <p class="subtitle">{{ with site.GetPage "categories/politics" }}
+    {{ .Params.description | markdownify }}
+    {{ end }}</p>
     <div class="grid cards">
       {{ range .Site.Taxonomies.categories.politics }}
       {{ partial "widgets/post-card.html" . }}
@@ -22,7 +24,9 @@
   </section>
   <section id="tech" class="category">
     <h2 class="title">Tech</h2>
-    <p class="subtitle">{{ .Params.tech | markdownify }}</p>
+    <p class="subtitle">{{ with site.GetPage "categories/tech" }}
+    {{ .Params.description | markdownify }}
+    {{ end }}</p>
     <div class="grid cards">
       {{ range .Site.Taxonomies.categories.tech }}
       {{ partial "widgets/post-card.html" . }}
@@ -31,7 +35,9 @@
   </section>
   <section id="culture" class="category">
     <h2 class="title">Culture</h2>
-    <p class="subtitle">{{ .Params.culture | markdownify }}</p>
+    <p class="subtitle">{{ with site.GetPage "categories/culture" }}
+    {{ .Params.description | markdownify }}
+    {{ end }}</p>
     <div class="grid cards">
       {{ range .Site.Taxonomies.categories.culture }}
       {{ partial "widgets/post-card.html" . }}
@@ -40,7 +46,9 @@
   </section>
   <section id="literature" class="category">
     <h2 class="title">Literature</h2>
-    <p class="subtitle">{{ .Params.literature | markdownify }}</p>
+    <p class="subtitle">{{ with site.GetPage "categories/literature" }}
+      {{ .Params.description | markdownify }}
+      {{ end }}</p>
     <div class="grid cards">
       {{ range .Site.Taxonomies.categories.literature }}
       {{ partial "widgets/post-card.html" . }}
@@ -49,7 +57,9 @@
   </section>
   <section id="religion" class="category">
     <h2 class="title">Religion</h2>
-    <p class="subtitle">{{ .Params.religion | markdownify }}</p>
+    <p class="subtitle">{{ with site.GetPage "categories/religion" }}
+    {{ .Params.description | markdownify }}
+    {{ end }}</p>
     <div class="grid cards">
       {{ range .Site.Taxonomies.categories.religion }}
       {{ partial "widgets/post-card.html" . }}
@@ -58,7 +68,9 @@
   </section>
   <section id="sundry" class="category">
     <h2 class="title">Sundry</h2>
-    <p class="subtitle">{{ .Params.sundry | markdownify }}</p>
+    <p class="subtitle">{{ with site.GetPage "categories/sundry" }}
+    {{ .Params.description | markdownify }}
+    {{ end }}</p>
     <div class="grid cards">
       {{ range .Site.Taxonomies.categories.sundry }}
       {{ partial "widgets/post-card.html" . }}
@@ -67,7 +79,9 @@
   </section>
   <section  id="personal" class="category">
     <h2 class="title">Personal</h2>
-    <p class="subtitle">{{ .Params.personal | markdownify }}</p>
+    <p class="subtitle">{{ with site.GetPage "categories/personal" }}
+    {{ .Params.description | markdownify }}
+    {{ end }}</p>
     <div class="grid cards">
       {{ range .Site.Taxonomies.categories.personal }}
       {{ partial "widgets/post-card.html" . }}

@@ -1,15 +1,12 @@
 {{ define "main" }}
 <article class="archive">
-  <a class="button" href="/articles/">Back to Articles</a>
-  <div class="content">
-    <h1>Category: {{ .Title }}</h1>
-    {{ .Content }}
-  </div>
-  <div class="grid cards">
-    {{ range .Paginator.Pages }}
-    <div class="column is-half">
-      {{ partial "widgets/post-card.html" . }}</div>
-    {{ end }}
-  </div>
+<div class="content">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  <p>This is the param "anything" in the taxonomy page front matter: {{ .Params.anything }}</p>
+  {{ range .Pages }}
+    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+  {{ end }}
+</div>
 </article>
 {{ end }}
