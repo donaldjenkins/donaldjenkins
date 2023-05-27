@@ -50,10 +50,10 @@ There are no third-party cookies set on this Website, and it does not thus track
 
 The content of this Website complies fully with the following:
 
-- General Data Protection Regulation;
-- Privacy and Electronic Communications Regulations;
-- California Privacy Rights Act;
-- Virginia Consumer Data Protection Act.
+- [Privacy and Electronic Communications Regulations](https://www.legislation.gov.uk/uksi/2003/2426/contents/made);
+- [General Data Protection Regulation](https://gdpr.eu/);
+- [California Privacy Rights Act](https://oag.ca.gov/privacy/ccpa);
+- [Virginia Consumer Data Protection Act](https://www.oag.state.va.us/consumer-protection/files/tips-and-info/Virginia-Consumer-Data-Protection-Act-Summary-2-2-23.pdf).
 
 This Website does not use Google Analytics, relying instead on [Plausible](https://developers.cloudflare.com/analytics/web-analytics/), which does not track, collect nor store any of your personal data or personally identifiable information. This means that this Website does not use cookies or generate any persistent identifiers, and that we don’t collect or store any personal or identifiable data. All of the data collected is aggregated data only and it includes no personal information. You can explore all the data points we do collect in the Plausible [data policy](https://plausible.io/data-policy).
 
