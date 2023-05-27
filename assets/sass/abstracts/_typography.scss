@@ -22,12 +22,14 @@
 } */
 
 /// Font stacks
-$humanist-font-stack: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+$humanist-font-stack: Seravek, "Gill Sans Nova", Ubuntu, Calibri, "DejaVu Sans",
+  source-sans-pro, sans-serif;
 
-$system-ui-font-stack: system-ui, "Segoe UI", "Roboto", "Ubuntu", "Cantarell", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+$system-ui-font-stack: system-ui, "Segoe UI", "Roboto", "Ubuntu", "Cantarell",
+  "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 
-$geometric-humanist-font-stack: Avenir, 'Avenir Next LT Pro', Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
-
+$geometric-humanist-font-stack: Avenir, "Avenir Next LT Pro", Montserrat, Corbel,
+  "URW Gothic", source-sans-pro, sans-serif;
 
 /// Regular font family
 /// @type List
@@ -35,7 +37,8 @@ $text-font-stack: $system-ui-font-stack;
 
 /// Code (monospace) font family
 /// @type List
-$code-font-stack: "Menlo", "Consolas", "Monaco", "Liberation Mono", "Lucida Console", monospace;
+$code-font-stack: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo,
+  Consolas, "DejaVu Sans Mono", monospace;
 $monospace-font-stack: $code-font-stack;
 
 $regular-font-stack: $text-font-stack;
