@@ -15,12 +15,22 @@
     >
   </p>
   <nav id="footer-menu">
-    <a href="/legal" title="Read the Terms and Privacy policy for this site"
-      >Legal Stuff</a
+    <span class="tag"
+      ><a href="/legal" title="Read the Terms and Privacy policy for this site"
+        >{{ partial "icons/policy.html" . }}&thinsp;Legal stuff</a
+      ></span
     >
-    <a href="/contact" title="Contact Donald">Contact</a>
-    <a href="/humans.txt" title="The humans responsible for this site"
-      >humans.txt</a
+    <span class="tag"
+      ><a href="/contact" title="Send a message"
+        >{{ partial "icons/contact.html" . }}&thinsp;Contact</a
+      ></span
+    >
+    <span class="tag"
+      ><a
+        href="/humans.txt"
+        title="Find out about the humans who made this site"
+        >{{ partial "icons/humans.html" . }}&thinsp;humans.txt</a
+      ></span
     >
   </nav>
 </aside>

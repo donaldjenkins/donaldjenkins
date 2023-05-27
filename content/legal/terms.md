@@ -31,31 +31,39 @@ Because everyone (not just lawyers) should be able to easily understand the natu
 
 ## Copyright · Licensing
 
-All content and software on this Website is the property of Donald Jenkins, or his content suppliers, and is protected by United States and international copyright laws. This Website contains a mix of software and other material. This software and material consequently falls under one of the following three categories:
+All content and software on this Website is the property of Donald Jenkins, or his content suppliers, and is protected by United States and international copyright laws. This Website contains a mix of software and other material. This software and material consequently falls under one of the following four categories:
 
-1. copyright for Donald Jenkins’s logos, trademarks and the source code of the [Kensington Theme](https://github.com/donaldjenkins/donaldjenkins) is reserved;
+1. copyright for Donald Jenkins’s logos and trademarks is reserved;
+
 2. the underlying source code used to format and display that content is licensed under the [Hugo Apache License](https://github.com/gohugoio/hugo/blob/master/LICENSE);
-3. the content of this Website itself, other than logos, trademarks and the source code of the Gramercy Theme, is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-You are granted, consequently, (i) a [General License](/license.txt) pertaining to the underlying WordPress source code, to access and view this Website for personal use, and (ii) an [Additional Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License](https://creativecommons.org/licenses/by-nc-sa/4.0/) pertaining to certain types of content on this website, as outlined [below](/legal/terms/#creative-commons).
+3. The [Kensington Theme](https://github.com/donaldjenkins/donaldjenkins) is licensed under the terms of an [MIT License](https://github.com/donaldjenkins/donaldjenkins/blob/main/LICENSE);
 
-### Logos and Trademarks · Gramercy Theme source code
+4. the content of this Website itself, other than logos, trademarks and the source code of the Kensington Theme, is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-donaldjenkins.com logos are the property of Donald Jenkins in the United States and other countries. donaldjenkins.com’s trade dress, as well as the source code of the Gramercy Theme, may not be used, in connection with any product or service that is not Donald Jenkins’s or otherwise, in any manner that is likely to cause confusion or deception among visitors, or in any manner that disparages or discredits Donald Jenkins or donaldjenkins.com. All other logos and trademarks not owned by Donald Jenkins or his affiliates and subsidiaries that appear on this Website are the property of their respective owners, who may or may not be affiliated with, connected to, or sponsored by Donald Jenkins or by donaldjenkins.com.
+Any use of this Website falling outside the terms of the four categories listed hereinabove terminates any permissions or licenses granted to you by Donald Jenkins and, potentially, by third parties.
 
-### General License and Site Access
+### Logos, Name and Trademarks
 
-You are granted a limited license, under the provisions of a WordPress [GNU General Public License](/license.txt) whose terms you hereby represent that you have read them and consent thereto, to access and view This Website for personal use, but not to download (other than page caching) or modify it, or any portion of it, except with the express written consent of Donald Jenkins. With the exception of the additional rights granted to you the terms of the Additional Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License detailed hereinunder, this license does not include any other rights, including but not limited to the right to any resale or commercial use of this Website or its contents; any derivative use of this Website or its contents; any downloading or copying of information not explicitly authorised by Donald Jenkins; or any use of data mining, robots, or similar data gathering and extraction tools.
+donaldjenkins.com logos are the property of Donald Jenkins in the United States and other countries. donaldjenkins.com’s trade dress may not be used, in connection with any product or service that is not Donald Jenkins’s or otherwise, in any manner that is likely to cause confusion or deception among visitors, or in any manner that disparages or discredits Donald Jenkins or donaldjenkins.com. All other logos and trademarks not owned by Donald Jenkins or his affiliates and subsidiaries that appear on this Website are the property of their respective owners, who may or may not be affiliated with, connected to, or sponsored by Donald Jenkins or by donaldjenkins.com.
 
 You also hereby expressly agree to the following additional conditions governing your use of this Website:
 
-- This Website or any portion of this Website other than the content licensed under the terms of the Additional Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License detailed hereinunder, including, but not limited to, Donald Jenkins’s logos, trademarks, site access and the source code of the Gramercy Theme, may not be reproduced, duplicated, copied, sold, resold, visited, or otherwise exploited for any commercial purpose without the express written consent of Donald Jenkins.
-- You may not frame or utilize framing techniques to enclose any trademark, logo, or other proprietary information (including images, text, page layout, or form) of this Website without the express written consent of Donald Jenkins.
-- You may not use any meta tags or any other hidden text utilizing donaldjenkins.com’s name or trademarks without the express written consent of Donald Jenkins.
+- you may not frame or utilize framing techniques to enclose any trademark, logo, or the name of Donald Jenkins as appearing in this Website without the express written consent of Donald Jenkins;
 
-Any unauthorized use of this Website terminates the permission or license granted to you by Donald Jenkins.
+- you may not use any meta tags or any other hidden text utilizing donaldjenkins.com’s name or trademarks without the express written consent of Donald Jenkins.
 
-You are granted a limited, revocable, and nonexclusive right to create a hyperlink to the home page of donaldjenkins.com so long as the link does not portray donaldjenkins.com, Donald Jenkins, or his affiliates, or their products or services in a false, misleading, derogatory, or otherwise offensive matter. You may not use any donaldjenkins.com logo or other proprietary graphic or trademark as part of the link without the express written permission of Donald Jenkins.
+You are granted a limited, revocable, and nonexclusive right to create a hyperlink to the home page of donaldjenkins.com so long as the link does not portray donaldjenkins.com, Donald Jenkins, or his affiliates, or their products or services in a false, misleading, derogatory, or otherwise offensive matter. You may not, however, use any donaldjenkins.com logo or other proprietary graphic or trademark as part of the link without the express written permission of Donald Jenkins.
+
+### Hugo Site generator &#183; Apache License
+
+You are granted a limited license, under the provisions of a Hugo [GNU General Public License](https://github.com/gohugoio/hugo/blob/master/LICENSE) whose terms you hereby represent that you have read them and consent thereto, to access and view This Website for personal use.
+
+This is a permissive license whose main conditions require preservation of copyright and license notices. Contributors provide an express grant of patent rights. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+
+### Kensington Theme source code
+
+The Kensington Theme [source code](https://github.com/donaldjenkins/donaldjenkins) is subject to the terms of a [MIT License](https://github.com/donaldjenkins/donaldjenkins/blob/main/LICENSE). This is a short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
 
 ### Additional Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License
 
