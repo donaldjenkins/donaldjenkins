@@ -27,10 +27,10 @@
 
   Design framework: normalize.css
 
-  Website builder: Hugo
+  Site generating framework: Hugo
   Site: https://gohugo.io/
   
-  Host: CloudFlare
+  Host: CloudFlare Pages
   Site: https://www.cloudflare.com/
   
   Source code: Github

@@ -27,3 +27,11 @@
     transform: scale(0.9);
   }
 }
+
+.dark .tag {
+  background-color: var(--dark-secondary-color);
+}
+
+.dark .tag:hover {
+  background-color: var(--dark-primary-color);
+}
