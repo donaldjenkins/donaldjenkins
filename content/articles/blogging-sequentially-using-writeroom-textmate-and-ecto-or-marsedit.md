@@ -1,7 +1,7 @@
 ---
 title: "Blogging sequentially using Writeroom, TextMate and ecto or MarsEdit"
 categories: ["Tech"]
-tags: [Apple, apps, blogging, software, TextMate, WordPress, WriteRoom]
+tags: [Apple, apps, blogging, software, TextMate, Wordpress, WriteRoom]
 seoTitle: "Donald Jenkins: Blogging sequentially using Writeroom, TextMate and ecto or MarsEdit"
 date: 2009-01-20T09:14:33+00:00
 type: articles
@@ -19,7 +19,9 @@ noindex: false
 ---
 
 {{% alert info %}}
+
 ## Update 6th November, 2010
+
 This was an updated version of a post published on my previous blog on November 6 2007, and now no longer online because I have switched all my blog posts to this domain. Because the post below is itself now partly out of date and no longer reflects the way in which I write blog posts, you may also want to read two more recent articles I posted on [ways in which I use MarsEdit, Amazon Cloudfront and Markdown with WordPress](/improve-your-wordpress-blog-with-marsedit-amazon-cloudfront-and-markdown/), and the use of iOS apps, Dropbox and Automator to streamline and automate the blogging process.
 {{% /alert %}}
 
