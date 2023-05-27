@@ -33,8 +33,8 @@ Because everyone (not just lawyers) should be able to easily understand the natu
 
 All content and software on this Website is the property of Donald Jenkins, or his content suppliers, and is protected by United States and international copyright laws. This Website contains a mix of software and other material. This software and material consequently falls under one of the following three categories:
 
-1. copyright for Donald Jenkins’s logos, trademarks and the source code of the Gramercy Theme is reserved;
-2. the underlying source code used to format and display that content is licensed under the [WordPress GNU license](/license.txt);
+1. copyright for Donald Jenkins’s logos, trademarks and the source code of the [Kensington Theme](https://github.com/donaldjenkins/donaldjenkins) is reserved;
+2. the underlying source code used to format and display that content is licensed under the [Hugo Apache License](https://github.com/gohugoio/hugo/blob/master/LICENSE);
 3. the content of this Website itself, other than logos, trademarks and the source code of the Gramercy Theme, is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 You are granted, consequently, (i) a [General License](/license.txt) pertaining to the underlying WordPress source code, to access and view this Website for personal use, and (ii) an [Additional Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License](https://creativecommons.org/licenses/by-nc-sa/4.0/) pertaining to certain types of content on this website, as outlined [below](/legal/terms/#creative-commons).
