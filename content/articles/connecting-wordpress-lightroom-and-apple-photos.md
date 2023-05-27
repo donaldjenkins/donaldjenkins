@@ -134,7 +134,7 @@ While the open standards scrupulously adhered to by WP/LR Sync’s developer (he
 
 {{% img src="6582beea-06a7-43f1-0ea4-40cf502a6c00" caption="The Meow Lightbox plugin, designed by photographers for photographers, integrates tightly with the rest of the Meow ecosystem. In this example, it displays the metadata from the photograph’s original Lightroom file (if WP/LR Sync is set not to remove the). Optionally, if location data is preserved on sync, the toggle at the top of the window will open a customizable Google Map displaying the photo location." %}}
 
-There is almost no limit to the combinations that you can display using this powerful system: your can either use the standard WordPress gallery [shortcodes](https://codex.wordpress.org/Gallery_Shortcode "Gallery Shortcode in the WordPress.org Codex") or, for adepts of Gutenberg blocks, Meow galleries can be inserted easily within Gutenberg as a block, as the following example demonstrates:
+There is almost no limit to the combinations that you can display using this powerful system: you can either use the standard WordPress gallery [shortcodes](https://codex.wordpress.org/Gallery_Shortcode "Gallery Shortcode in the WordPress.org Codex") or, for adepts of Gutenberg blocks, Meow galleries can be inserted easily within Gutenberg as a block, as the following example demonstrates:
 
 {{% img src="514ded27-901b-41da-13fd-918579e9ab00" caption="Meow WordPress gallery example" %}}
 
