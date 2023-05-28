@@ -1,19 +1,31 @@
 ---
 title: "Legal stuff"
-description: "This page sums up the way this Website operates, the laws that apply to it, and the values underpinning our action."
+description: "This page sums up the way this Website operates, the laws that apply to it, who we are, and the values underpinning our action."
 slug: legal
 layout: single
 sitemap_exclude: true
 noindex: true
 ---
 
-This page sums up the way this Website operates, the laws that apply to it, and the values underpinning our action. Your use of this Website, however, means you have also read and agreed to the full terms of our [Terms](/legal/terms/) and [Privacy Policy](/legal/privacy/) ({{% quote %}}policies{{% /quote %}} ) linked to in the table below. These documents are legally binding and may be subject to change.
+This page sums up the way this Website operates, the laws that apply to it, who we are, and the values underpinning our action. Your use of this Website, however, means you have also read and agreed to the full terms of our [Terms](/legal/terms/) and [Privacy Policy](/legal/privacy/) ({{% quote %}}policies{{% /quote %}} ) linked to in the table below. These documents are legally binding and may be subject to change.
 
 | Terms                                                                                                                              | Privacy Policy                                                                                                                         |
 | ---------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | The [Terms](/legal/terms/) are the conditions under which we welcome you to this Website \[[changelog](/legal/terms/changelog/)\]. | The [Privacy Policy](/legal/privacy/) explains how we collect and process your information \[[changelog](/legal/privacy/changelog/)\]. |
 
-Any material change in our policies will be advertised on Donald Jenkins’s [Twitter account.](https://www.twitter.com/donaldjenkins)
+Any material change in our policies will be advertised on Donald Jenkins’s [Twitter account](https://www.twitter.com/donaldjenkins).
+
+We aim in a modest way to help fix the {{% quote %}}[biggest lie on the web](https://tosdr.org/en/about){{% /quote %}}: almost no one really reads the terms of service one agrees to all the time. So here's a short summary of what this Website tangibly does to protect user data and privacy
+
+{{% alert success %}}
+**Summary**
+
+- This service does not track you.
+- The cookies used by this service do not contain information that would personally identify you.
+- No need to register.
+- This service doesn't have accounts.
+- This service provides archives of their terms of service so that changes can be viewed over time.
+  {{% /alert %}}
 
 ## Who we are · Our undertaking to you
 
@@ -54,6 +66,6 @@ The content of this Website complies fully with the following:
 - [California Privacy Rights Act](https://oag.ca.gov/privacy/ccpa);
 - [Virginia Consumer Data Protection Act](https://www.oag.state.va.us/consumer-protection/files/tips-and-info/Virginia-Consumer-Data-Protection-Act-Summary-2-2-23.pdf).
 
-This Website does not use Google Analytics, relying instead on [Plausible](https://developers.cloudflare.com/analytics/web-analytics/), which does not track, collect nor store any of your personal data or personally identifiable information. This means that this Website does not use cookies or generate any persistent identifiers, and that we don’t collect or store any personal or identifiable data. All of the data collected is aggregated data only and it includes no personal information. You can explore all the data points we do collect in the Plausible [data policy](https://plausible.io/data-policy).
+This Website does not use Google Analytics, relying instead on [Plausible](https://developers.cloudflare.com/analytics/web-analytics/), which does not track, collect or store any of your personal data or personally identifiable information. This means that this Website does not use cookies or generate any persistent identifiers, and that we don’t collect or store any personal or identifiable data. All of the data collected is aggregated data only and it includes no personal information. You can explore all the data points we do collect in the Plausible [data policy](https://plausible.io/data-policy).
 
 You may contact the owner and [Data Controller](https://iapp.org/resources/article/data-controller/) by snail mail at the following address: Donald Jenkins, 99 Wall Street, Suite 1047, New York NY 10005, or by email using the [Contact Form](/contact) on this website.

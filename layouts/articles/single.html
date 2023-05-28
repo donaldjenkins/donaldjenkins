@@ -4,8 +4,7 @@
     <h1 class="title">{{ .Page.Title }}</h1>
     <div id="top-meta" class="meta subtitle">
       {{ partial "icons/date.html" . }}
-      <span>&thinsp;{{ .Date.Format "2" | humanize }} {{ .Date.Format "January" }},
-        {{ .Date.Format "2006" }}</span>
+      {{ partial "widgets/date.html" . }}
     </div>
   </div>
   {{ if .Params.tableofcontents }}

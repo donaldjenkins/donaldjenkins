@@ -19,7 +19,7 @@ enableRobotsTXT = true
 # Source: https://mertbakir.gitlab.io/hugo/last-modified-date-in-hugo/
 [frontmatter]
 date = ["date", "publishDate", "lastmod"]
-lastmod = ["lastmod", "date", "publishDate"]
+lastmod = ['lastmod', ':fileModTime', ':default']
 publishDate = ["publishDate", "date"]
 expiryDate = ["expiryDate"]
 

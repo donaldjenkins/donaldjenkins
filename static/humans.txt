@@ -27,7 +27,7 @@
 
   Design framework: normalize.css
 
-  Site generating framework: Hugo
+  Website framework: Hugo
   Site: https://gohugo.io/
   
   Host: CloudFlare Pages
@@ -40,7 +40,7 @@
   Last update: 2023-05-25
   Theme: Kensington
   Version: 1.0
-  Architecture: Jamstack
+  Architecture: SSG
   Language: English
   Doctype: HTML5
   Components used: HTML, SASS

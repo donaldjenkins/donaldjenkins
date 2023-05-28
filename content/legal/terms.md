@@ -8,10 +8,6 @@ sitemap_exclude: true
 noindex: true
 ---
 
-{{% alert info %}}
-These Terms were last revised on 14th January, 2021: see the [changelog](/legal/terms/changelog).
-{{% /alert %}}
-
 ## Definitions · Agreement to Terms
 
 These Terms and Conditions of Use (the Terms), as well as the separately available [Privacy Policy](/legal/privacy/), which is incorporated by reference into these Terms, apply to your access and use of this Website (www.donaldjenkins.com), and by extension to any subdomains or related websites operated by Donald Jenkins. They establish a framework for what you can expect from us, as well as for what we can expect from you.
