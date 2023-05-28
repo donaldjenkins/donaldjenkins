@@ -35,3 +35,12 @@ footer p {
   margin: 0.5em;
   text-align: center;
 }
+
+footer .tag {
+  font-size: inherit;
+  font-weight: inherit;
+
+  & a:hover {
+    color: $white;
+  }
+}
