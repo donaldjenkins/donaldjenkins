@@ -29,6 +29,5 @@ gruntfile.js
 .eslintrc.json
 .prettierignore
 .DS_Store
-.npmrc
 
 # End of https://www.toptal.com/developers/gitignore/api/hugo,codekit,nova
