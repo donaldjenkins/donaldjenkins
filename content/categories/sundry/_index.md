@@ -6,5 +6,5 @@ sitemap_exclude: true
 showthedate: false
 tableofcontents: false
 noindex: true
-description: "These articles don’t fit neatly into this site’s topics. Their presence here probably bears witness the incorrigible eclecticity of my range of interests."
+description: "These articles don’t fit neatly into this site’s topics. Their presence here probably bears witness the incorrigible eclecticism of my range of interests."
 ---
