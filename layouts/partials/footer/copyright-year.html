@@ -6,6 +6,8 @@
   2005-{{ now.Year }}
 {{ else if eq .Params.slug "photos" }}
   1965-{{ .Date.Format "2006" }}
+{{ else if eq .Page.Parent "legal" }}
+  {{ .Lastmod.Format "2006" }}
 {{ else }}
   2005-{{ .Date.Format "2006" }}
 {{- end -}}
