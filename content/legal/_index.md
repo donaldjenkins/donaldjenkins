@@ -15,7 +15,7 @@ This page sums up the way this Website operates, the laws that apply to it, who 
 
 Any material change in our policies will be advertised on Donald Jenkins’s [Twitter account](https://www.twitter.com/donaldjenkins).
 
-We aim in a modest way to help fix the {{% quote %}}[biggest lie on the web](https://tosdr.org/en/about){{% /quote %}}: almost no one really reads the terms of service one agrees to all the time. So here's a short summary of what this Website tangibly does to protect user data and privacy
+We aim in a modest way to help fix the {{% quote %}}[biggest lie on the web](https://tosdr.org/en/about){{% /quote %}}: almost no one really reads the terms of service one agrees to all the time. So here's a short summary of what this Website tangibly does to protect user data and privacy:
 
 {{% alert success %}}
 **Summary**
