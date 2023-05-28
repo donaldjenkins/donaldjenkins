@@ -9,14 +9,17 @@
     /></a>
   </p>
   <p>
-    <strong
-      >Copyright &#169; Donald Jenkins {{ partial "footer/copyright-year.html" .
-      }}</strong
-    >
+    <strong>
+      {{ if or (eq .Section "policies") (eq .Params.slug "contact") }}
+      {{ partial "icons/unlicense.html" . }}&thinsp;This content is <a href="https://github.com/donaldjenkins/Policies/blob/main/LICENSE">unlicensed</a>
+      {{ else }}
+      Copyright &#169; Donald Jenkins {{ partial "footer/copyright-year.html" . }}
+      {{ end }}
+    </strong>
   </p>
   <nav id="footer-menu">
     <span class="tag"
-      ><a href="/legal" title="Read the Terms and Privacy policy for this site"
+      ><a href="/policies" title="Read the Terms and Privacy policy for this site"
         >{{ partial "icons/policy.html" . }}&thinsp;Legal stuff</a
       ></span
     >

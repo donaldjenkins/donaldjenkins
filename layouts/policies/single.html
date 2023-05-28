@@ -1,0 +1,21 @@
+{{ define "main" }}
+<section>
+  <article class="post">
+    <h1>{{ .Page.Title }}</h1>
+    {{ if ne .Params.slug "legal" }}
+    <aside class="alert info">
+      <p>
+    {{ end }}
+        {{ if eq .Params.slug "terms" }}
+        These Terms were last revised on {{ partial "widgets/lastmod.html" . }}: see the <a href="https://policies.donaldjenkins.com/archives/terms/changelog.html">changelog</a>.
+        {{ else if eq .Params.slug "privacy" }}
+        This Privacy Policy was last revised on {{ partial "widgets/lastmod.html" . }}: see the <a href="https://policies.donaldjenkins.com/archives/privacy/changelog.html">changelog</a>.
+        {{ end }}
+    {{ if ne .Params.slug "legal" }}
+    </p>
+    </aside>
+    {{ end }}
+    {{ .Content }}
+  </article>
+</section>
+{{ end}}

@@ -55,8 +55,11 @@ expiryDate = ["expiryDate"]
   path = "github.com/donaldjenkins/policies"
   
     [[module.imports.mounts]]
-    source = "github.com/donaldjenkins/policies"
-    target = "content/policies"
+    source = "terms.md"
+    target = "content/policies/terms.md"
+    [[module.imports.mounts]]
+    source = "privacy.md"
+    target = "content/policies/privacy.md"
 
 [taxonomies]  
   category = "categories"
