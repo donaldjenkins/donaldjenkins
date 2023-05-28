@@ -1,0 +1,9 @@
+{{ $data := newScratch }}
+{{ $path := site.Params.policies_release_url }}
+{{ $data.Set "url" $path }}
+{{ $policies_release_url := $data.Get "url" }}
+{{ $data.Set "policies_release_url" $policies_release_url }}
+{{ $policies_release_suffix := site.Params.policies_release_suffix }}
+{{ $data.Add "policies_release_url" $policies_release_suffix }}
+{{ $policies_release_url = $data.Get "policies_release_url" }}
+<a href="{{ $policies_release_url }}">release notes</a>

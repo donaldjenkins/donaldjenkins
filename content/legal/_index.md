@@ -13,7 +13,7 @@ This page sums up the way this Website operates, the laws that apply to it, who 
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | The [Terms](/legal/terms/) are the conditions under which we welcome you to this Website \[[changelog](https://policies.donaldjenkins.com/archives/terms/changelog.html)\]. | The [Privacy Policy](/legal/privacy/) explains how we collect and process your information \[[changelog](https://policies.donaldjenkins.com/archives/privacy/changelog.html)\]. |
 
-Any material change in our policies will be advertised on Donald Jenkins’s [Twitter account](https://www.twitter.com/donaldjenkins).
+Any material change in our policies will be advertised on Donald Jenkins’s [Twitter account](https://www.twitter.com/donaldjenkins). You may wish to read the latest {{< policies-release >}} notes.
 
 We aim in a modest way to help fix the {{% quote %}}[biggest lie on the web](https://tosdr.org/en/about){{% /quote %}}: almost no one really reads the terms of service one agrees to all the time. So here's a short summary of what this Website tangibly does to protect user data and privacy:
 
