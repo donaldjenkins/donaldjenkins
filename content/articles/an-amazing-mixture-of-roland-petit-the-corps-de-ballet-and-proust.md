@@ -25,7 +25,7 @@ Marcel Proust, quoted by Roland Petit to illustrate the eighth tableau in Proust
 
 Roland Petit is unquestionably, with Lifar and Béjart, one of the three great French-speaking choreographers of the postwar period. He has completely absorbed the traditions and sense of excellence that imbue the _Corps de ballet_ and its _Ecole de danse_, which he entered at the age of nine in 1923. He has an innate sense of beauty, too, that has enabled him to build on that tradition and guided his bold but always successful innovations. I vividly remember seeing {{% cite %}}Le jeune homme et la mort{{% /cite %}} at the Palais Garnier in 2005 and being thoroughly subjugated by the Petit-Cocteau combination.
 
-But this time, I was impressed even further. Brigitte Lefèvre and her _Corps de ballet_ have come pretty close to perfection with this series of thirteen _tableaux_ directly inspired by Proust’s {{% cite %}}À la recherche du temps perdu{{% /cite %}}. A recent interview of M Petit in {{% cite %}}Le Figaro\_{{% /cite %}}sheds some light on the artists intentions:
+But this time, I was impressed even further. Brigitte Lefèvre and her _Corps de ballet_ have come pretty close to perfection with this series of thirteen _tableaux_ directly inspired by Proust’s {{% cite %}}À la recherche du temps perdu{{% /cite %}}. A recent interview of M Petit in {{% cite %}}Le Figaro{{% /cite %}}sheds some light on the artists intentions:
 
 {{% quotation main-title="Le Figaroscope" date="28 Feb. 2007" %}}
 **Vous avez une prédilection pour les romans que l’on adapte au ballet. Mais de là à vous attaquer à {{% quote %}}La Recherche{{% /quote %}}, il fallait une certaine audace[^1] !**
