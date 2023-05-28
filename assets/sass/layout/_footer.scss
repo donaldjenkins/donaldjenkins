@@ -22,8 +22,6 @@ footer {
 }
 
 #footer-menu a {
-  //padding-left: 20px;
-  //padding-right: 20px;
   text-decoration: none;
   &:not(:last-child)::after {
     content: "\00b7";

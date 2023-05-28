@@ -135,7 +135,7 @@ small {
   font-weight: var(--font-weight-bold);
 }
 
-#legal * {
+#legal *:not(.tag a) {
   font-size: var(--font-size-smallest);
   font-weight: var(--font-weight-thin);
 }

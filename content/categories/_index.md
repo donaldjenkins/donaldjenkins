@@ -1,6 +1,5 @@
 ---
 title: "Categories"
-date: 2023-05-25T14:48:03-07:00
 draft: false
 sitemap_exclude: true
 showthedate: false

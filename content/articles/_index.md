@@ -1,7 +1,6 @@
 ---
 title: "Articles"
 seoTitle: "Articles by Donald Jenkins"
-date: 2018-11-14T13:02:27+00:00
 type: page
 layout: "articles"
 slug: "articles"

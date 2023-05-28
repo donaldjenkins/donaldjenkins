@@ -1,5 +1,12 @@
 {{- if .IsHome -}}
   2005-{{ .Site.LastChange.Format "2006" }}
-{{- else -}}
+{{ else if .IsPage }}
   {{ .Date.Format "2006" }}
+{{ else if .Data.Singular }}
+  2005-{{ now.Year }}
+{{ else if eq .Params.slug "photos" }}
+  1933-{{ .Date.Format "2006" }}
+{{ else }}
+  2005-{{ .Date.Format "2006" }}
 {{- end -}}
+

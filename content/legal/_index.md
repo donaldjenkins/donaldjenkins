@@ -1,7 +1,6 @@
 ---
 title: "Legal stuff"
 description: "This page sums up the way this Website operates, the laws that apply to it, and the values underpinning our action."
-date: "2018-11-14T03:20:07+00:00"
 slug: legal
 layout: single
 sitemap_exclude: true

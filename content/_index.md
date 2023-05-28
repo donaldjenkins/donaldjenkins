@@ -1,6 +1,5 @@
 ---
 title: "Donald Jenkins"
-date: 2023-05-17T17:34:00+00:00
 author: "Donald Jenkins"
 description: "Donald Jenkins writes, takes photographs and dabbles in web design. He’s also a co-founder of the political social network start-up Policymakr. He currently lives in New York City."
 ---
