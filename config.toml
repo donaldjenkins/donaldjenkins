@@ -47,6 +47,13 @@ expiryDate = ["expiryDate"]
 [[module.mounts]]
   source = "node_modules/vidstack"
   target = "static/vidstack"
+  
+[[module.imports]]
+  path = "github.com/donaldjenkins/policies"
+  
+    [[module.imports.mounts]]
+    source = "github.com/donaldjenkins/policies"
+    target = "content/policies"
 
 [taxonomies]  
   category = "categories"
