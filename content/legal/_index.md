@@ -9,9 +9,9 @@ noindex: true
 
 This page sums up the way this Website operates, the laws that apply to it, who we are, and the values underpinning our action. Your use of this Website, however, means you have also read and agreed to the full terms of our [Terms](/legal/terms/) and [Privacy Policy](/legal/privacy/) ({{% quote %}}policies{{% /quote %}} ) linked to in the table below. These documents are legally binding and may be subject to change.
 
-| Terms                                                                                                                              | Privacy Policy                                                                                                                         |
-| ---------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| The [Terms](/legal/terms/) are the conditions under which we welcome you to this Website \[[changelog](/legal/terms/changelog/)\]. | The [Privacy Policy](/legal/privacy/) explains how we collect and process your information \[[changelog](/legal/privacy/changelog/)\]. |
+| Terms                                                                                                                                                                       | Privacy Policy                                                                                                                                                                  |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| The [Terms](/legal/terms/) are the conditions under which we welcome you to this Website \[[changelog](https://policies.donaldjenkins.com/archives/terms/changelog.html)\]. | The [Privacy Policy](/legal/privacy/) explains how we collect and process your information \[[changelog](https://policies.donaldjenkins.com/archives/privacy/changelog.html)\]. |
 
 Any material change in our policies will be advertised on Donald Jenkins’s [Twitter account](https://www.twitter.com/donaldjenkins).
 
@@ -35,7 +35,7 @@ We aim in a modest way to help fix the {{% quote %}}[biggest lie on the web](htt
 We have designed its Terms and Privacy Policy, which you can access at the top of this page, to be consistent with the following principles:
 
 - Because we believe that you shouldn’t have to provide personal information to visit a website, you may use this Website without registering an account. In fact, we don’t have accounts.
-- We give you advance notice, and keep a trace, of any changes in our [Terms](/legal/terms/changelog/) and [Privacy Policy](/legal/privacy/changelog/).
+- We give you advance notice, and keep a trace, of any changes in our [Terms](https://policies.donaldjenkins.com/archives/terms/changelog.html) and [Privacy Policy](https://policies.donaldjenkins.com/archives/privacy/changelog.html).
 - We provide a complaint mechanism for the handling of personal data.
 - We do not sell your personal data.
 - Our content is published under a [Creative Commons license](https://creativecommons.org/licenses/).
