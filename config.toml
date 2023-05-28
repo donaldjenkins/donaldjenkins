@@ -15,6 +15,7 @@ contentDir = 'content'
 enableInlineShortcodes = true
 enableGitInfo = true
 enableRobotsTXT = true
+paginate = 50
 
 # Source: https://mertbakir.gitlab.io/hugo/last-modified-date-in-hugo/
 [frontmatter]

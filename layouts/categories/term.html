@@ -5,7 +5,7 @@
     {{ .Params.description | markdownify }}
   </div>
   <div class="grid cards">
-    {{ range .Paginator.Pages }}
+    {{ range (.Paginate ( first 50 .Pages.ByTitle )).Pages }}
     <div class="column is-half">{{ partial "widgets/post-card.html" . }}</div>
     {{ end }}
   </div>
