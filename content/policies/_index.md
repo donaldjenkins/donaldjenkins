@@ -21,7 +21,7 @@ We aim, in a modest way, to help fix the {{% quote %}}[biggest lie on the web](h
 **Summary**
 
 - This service does not track you.
-- The cookies used by this service do not contain information that would personally identify you.
+- No third-party cookies are set on this site.
 - No need to register.
 - This service doesn't have accounts.
 - This service provides archives of their terms of service so that changes can be viewed over time.
