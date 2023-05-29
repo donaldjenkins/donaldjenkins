@@ -23,6 +23,7 @@
   Technical consultant: Joe Mooring
   Site: https://www.veriphor.com/
   Twitter: @mooring
+  Github: https://github.com/jmooring
   Location: Seattle, Washington
 
   Technical consultant: Ron Erdos
