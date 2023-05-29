@@ -153,8 +153,15 @@ input.button {
   margin: 0;
 }
 
+.lineup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 label.checkbox,
 label.checkbox a {
   font-size: 0.75rem;
   font-weight: bold;
+  text-align: start;
 }
