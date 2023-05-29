@@ -4,7 +4,7 @@
   {{ $featured_image := .Params.featured_image }}
   {{ $image_url := printf "%s%s" .Site.Params.cloudflare_images $featured_image }}
   <img
-    src="{{ $image_url }}/w=420,gamma=0.36,quality=45"
+    src="{{ $image_url }}/w=380,height=300,gamma=0.36,quality=45"
     alt=""
     class="card-image"
   />
