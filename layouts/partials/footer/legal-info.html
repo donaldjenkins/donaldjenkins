@@ -19,6 +19,17 @@
       "footer/copyright-year.html" . }} {{ end }}
     </strong>
   </p>
+  {{ if (eq .Section "articles") }}
+  <p>
+    <strong>
+      {{ partial "icons/cc.html" . }}&thinsp;Share this content via a
+      <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+        >CC BY-NC-SA 4.0</a
+      >
+      license
+    </strong>
+  </p>
+  {{ end }}
   <nav id="footer-menu">
     <span class="tag"
       ><a
