@@ -19,6 +19,11 @@
   Site: https://dev.to/afif
   Twitter: @ChallengesCss
   Github: https://github.com/Afif13
+  
+  Technical consultant: Joe Mooring
+  Site: https://www.veriphor.com/
+  Twitter: @mooring
+  Location: Seattle, Washington
 
   Technical consultant: Ron Erdos
   Site: https://moonbooth.com
