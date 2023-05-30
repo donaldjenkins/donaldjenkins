@@ -16,7 +16,6 @@ config.codekit3
 /assets/jsconfig.json
 hugo_stats.json
 hugo.log
-hugo_stats.jso
 
 # Temporary lock file while building
 /.hugo_build.lock
