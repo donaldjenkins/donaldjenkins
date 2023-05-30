@@ -9,12 +9,14 @@
     </p>
   </div>
 </div>
-<form id="contact-form" target="_self" enctype="multipart/form-data" action="https://donaldjenkins-contactform.policymakr.workers.dev" accept-charset="UTF-8" method="post">
+<form id="contact-form" target="_self" enctype="multipart/form-data"
+  action="https://donaldjenkins-contactform.policymakr.workers.dev" accept-charset="UTF-8" method="post">
   <fieldset>
     <div class="form-field">
       <div class="form-group" id="First_name__div">
         <label title="required" for="First_name">First name <span class="required-label">*</span></label>
-        <input type="text" name="First name" id="First_name" required="required" placeholder="John" autofocus="autofocus" class="form-control" />
+        <input type="text" name="First name" id="First_name" required="required" placeholder="John"
+          autofocus="autofocus" class="form-control" />
         <small class="form-text text-muted">Your Christian name</small>
       </div>
       <div class="form-group" id="Last_name__div">
@@ -26,21 +28,30 @@
     <div class="form-field">
       <div class="form-group" id="Email__div">
         <label title="required" for="Email">Email <span class="required-label">*</span></label>
-        <input type="email" name="Email" id="Email" required="required" placeholder="you@domain.com" class="form-control" />
+        <input type="email" name="Email" id="Email" required="required" placeholder="you@domain.com"
+          class="form-control" />
         <small class="form-text text-muted">Your email address</small>
       </div>
     </div>
     <div class="row">
       <div class="form-group" id="Message__div">
         <label title="required" for="Message">Message <span class="required-label">*</span></label>
-        <textarea name="Message" id="Message" required="required" placeholder="Your message here" class="form-control"></textarea>
+        <textarea name="Message" id="Message" required="required" placeholder="Your message here"
+          class="form-control"></textarea>
         <small class="form-text text-muted">Your message</small>
+      </div>
+    </div>
+    <div class="form-field">
+      <div class="form-group" id="Captcha__div">
+        <label title="required" for="Captcha">6 + 12 = ?<span class="required-label">*</span></label>
+        <input type="captcha" name="Captcha" id="Captcha" required="required" class="form-control" />
       </div>
     </div>
     <div class="form-group" id="Consent__div">
       <label class="checkbox">
         <input type="checkbox" name="Consent" id="Consent" required="required">
-        By sending this message, you agree to the site <a href="/policies/privacy/#emails">Privacy Policy</a>. <span class="required-label">*</span>
+        By sending this message, you agree to the site <a href="/policies/privacy/#emails">Privacy Policy</a>. <span
+          class="required-label">*</span>
       </label>
     </div>
     <br />
@@ -53,7 +64,9 @@
         width: 0;
       ">
       <label for="redirect_url"></label>
-      <input name="Redirect URL" value="{{ .Page.Permalink }}#thanks" type="text" id="redirect_url" placeholder="Redirect URL" />
+      <input name="Redirect URL" value="{{ .Page.Permalink }}#thanks" type="text" id="redirect_url" />
+      <input name="Failed redirect URL" value="{{ .Page.Permalink }}#error" type="text" id="failed_redirect_url" />
+      <input type="text" name="Captcha question" id="Captcha-question" required="required" value="6 + 12">
     </div>
     <div class="row">
       <div>
