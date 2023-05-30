@@ -9,9 +9,9 @@ noindex: true
 
 This page sums up the way this Website operates, the laws that apply to it, who we are, and the values underpinning our action. Your use of this Website, however, means you have also read and agreed to the full terms of our [Terms](/policies/terms/) and [Privacy Policy](/policies/privacy/) ({{% quote %}}policies{{% /quote %}} ) linked to in the table below. These documents are legally binding and may be subject to change.
 
-| Terms                                                                                                                                                            | Privacy Policy                                                                                                                                                       |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| The [Terms](/policies/terms/) are the conditions under which we welcome you to this Website \[[https://documentation.donaldjenkins.com/docs/changelog/terms/)\]. | The [Privacy Policy](/policies/privacy/) explains how we collect and process your information \[[https://documentation.donaldjenkins.com/docs/changelog/privacy/)\]. |
+| Terms                                                                                                                                                                               | Privacy Policy                                                                                                                                                                          |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| The [Terms](/policies/terms/) are the conditions under which we welcome you to this Website &#183; _v._ [changelog](https://documentation.donaldjenkins.com/docs/changelog/terms/). | The [Privacy Policy](/policies/privacy/) explains how we collect and process your information &#183; _v._ [changelog](https://documentation.donaldjenkins.com/docs/changelog/privacy/). |
 
 Any material change in our policies will be advertised on Donald Jenkins’s [Twitter account](https://www.twitter.com/donaldjenkins). You may also wish to read the latest {{< policies-release >}} .
 
@@ -23,8 +23,8 @@ We aim, in a modest way, to help fix the {{% quote %}}[biggest lie on the web](h
 - This service does not track you.
 - No third-party cookies are set on this site.
 - No need to register.
-- This service doesn't have accounts.
-- This service provides archives of their terms of service so that changes can be viewed over time.
+- This website doesn't have accounts.
+- This website provides [archives](https://documentation.donaldjenkins.com/) of previous policies so that changes can be viewed over time.
   {{% /alert %}}
 
 ## Who we are · Our undertaking to you
