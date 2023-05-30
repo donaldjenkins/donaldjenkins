@@ -8,7 +8,7 @@ rssTitle = "Donald Jenkins"
 seoTitle = "Donald Jenkins writes about politics"
 # Sets homepage <title> (for SEO)
 
-# disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["robotsTXT"]
 disableHugoGeneratorInject = 'true'
 # relativeURLs = 'true'
 contentDir = 'content'
