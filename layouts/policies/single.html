@@ -7,9 +7,9 @@
       <p>
     {{ end }}
         {{ if eq .Params.slug "terms" }}
-        These Terms were last revised on {{ partial "widgets/lastmod.html" . }}: see the <a href="https://policies.donaldjenkins.com/archives/terms/changelog.html">changelog</a>.
+        These Terms were last revised on {{ partial "widgets/lastmod.html" . }}: see the <a href="https://documentation.donaldjenkins.com/docs/changelog/terms/">changelog</a>.
         {{ else if eq .Params.slug "privacy" }}
-        This Privacy Policy was last revised on {{ partial "widgets/lastmod.html" . }}: see the <a href="https://policies.donaldjenkins.com/archives/privacy/changelog.html">changelog</a>.
+        This Privacy Policy was last revised on {{ partial "widgets/lastmod.html" . }}: see the <a href="https://documentation.donaldjenkins.com/docs/changelog/privacy/">changelog</a>.
         {{ end }}
     {{ if ne .Params.slug "legal" }}
     </p>
