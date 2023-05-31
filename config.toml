@@ -19,10 +19,10 @@ paginate = 50
 
 # Source: https://mertbakir.gitlab.io/hugo/last-modified-date-in-hugo/
 [frontmatter]
-date = ["date", "publishDate", "lastmod"]
-lastmod = ['lastmod', ':fileModTime', ':default']
-publishDate = ["publishDate", "date"]
-expiryDate = ["expiryDate"]
+  date = ["date", "publishDate", "lastmod"]
+  lastmod = ['lastmod', ':fileModTime', ':default']
+  publishDate = ["publishDate", "date"]
+  expiryDate = ["expiryDate"]
 
 [params]
   stylesheets = ["styles.css"]
