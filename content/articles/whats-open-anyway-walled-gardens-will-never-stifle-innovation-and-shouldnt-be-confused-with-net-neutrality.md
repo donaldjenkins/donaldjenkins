@@ -40,7 +40,7 @@ Hefferman, Virginia
 
 The Internet has been extremely bad news for control freaks of any kind, ever since it started being used by enough people to become a mass phenomenon. Of course, in the modern world, the worst control freaks have tended to be governments. Yet a Big Brother, well or badly-intentioned, lurks in every one of us, and there can hardly be any user of the Internet who has not at some point been annoyed by something that has been posted there, available for the world to read, watch or listen.
 
-The editor of _[The Master Switch: The Rise and Fall of Information Empires](https://www.amazon.com/Master-Switch-Information-Empires-ebook/dp/B003F3PKTK)_, a book recently published by Tim Wu, [summarizes](https://www.randomhouse.ca/catalog/display.pperl?isbn=9780307594655) his thesis as follows:
+The editor of _[The Master Switch: The Rise and Fall of Information Empires](https://www.amazon.com/Master-Switch-Information-Empires-ebook/dp/B003F3PKTK)_, a book recently published by Tim Wu, [summarizes](https://web.archive.org/web/20100526163837/https://www.randomhouse.ca/catalog/display.pperl?isbn=9780307594655) his thesis as follows:
 
 > Most consider the Internet Age to be a moment of unprecedented freedom in communications and culture. But as Tim Wu shows, each major new medium, from telephone to cable, arrived on a similar wave of idealistic optimism only to become, eventually, the object of industrial consolidation profoundly affecting how Americans communicate. Every once free and open technology was in time centralized and closed, a huge corporate power taking control of the {{% quote %}}master switch.{{% /quote %}}
 
