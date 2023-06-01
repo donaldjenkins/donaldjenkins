@@ -73,5 +73,5 @@ Eventually, I decided to stick with HTML for my posted blog posts. There was a g
 All this may change further when [WordPress 3.0](https://wordpress.org/about/roadmap/ "WordPress roadmap") is released: but a combination of Cloudfront, MarsEdit and Markdown had considerably improved the way in which I post to my website.
 
 [^1]: This can be done in wp-admin: check Disable the visual editor when writing, under Users. The setting can be customised for each author of the blog.
-[^2]: The developer, who had very conscientiously maintained the application and provided top-notch support prior to selling it, seems very unhappy about this, if his posts on the [user forum](http://illuminex.com/forum/viewforum.php?f=11&sid=108ee8390c7fa9e62530d7106f0b5404) are anything to go by.
+[^2]: The developer, who had very conscientiously maintained the application and provided top-notch support prior to selling it, seems very unhappy about this, if his posts on the [user forum](https://web.archive.org/web/20100102133422/https://illuminex.com/forum/viewforum.php?f=11&sid=108ee8390c7fa9e62530d7106f0b5404) are anything to go by.
 [^3]: The best way to optimize all these settings is through your .htaccess file, and a good guide to doing it can be found on [Storecrowd](https://via.dj/34xHerY).

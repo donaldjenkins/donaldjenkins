@@ -253,7 +253,7 @@ define('WP_SITEURL','https://YOUR_NEW_IP_ADDRESS');
 
 ### Improving database performance to take advantage of the (ve) server’s power
 
-Media Temple knowledge base article: [Using MySQLTuner](https://kb.mediatemple.net/questions/70/Using+MySQLTuner#gs)
+Media Temple knowledge base article: [Using MySQLTuner](https://web.archive.org/web/20110423204539/https://kb.mediatemple.net/questions/70/Using+MySQLTuner#gs)
 
 Now’s the time, if you want to to, to tweak your database settings to take advantage of your customized (ve) server’s power. I used mysqltuner.pl, a script written in Perl that allows you to review a MySQL installation quickly and make adjustments to increase performance and stability. Media Temple has a [knowledge base article](https://kb.mediatemple.net/questions/70/Using+MySQLTuner#gs) about it, which can be used, appropriately adapted, to your (ve) database. Based on the information it provided, I tuned `/etc/mysql/my.cnf` to raise several of my MySQL limits to utilize available resources on the server (again, _make backups_ of all files you edit beforehand—and bear in mind your requirements will probably differ from mine as your WordPress database is unlikely to be identical):
 

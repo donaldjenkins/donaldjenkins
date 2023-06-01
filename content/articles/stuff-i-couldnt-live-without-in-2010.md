@@ -18,7 +18,7 @@ tableofcontents: false
 noindex: false
 ---
 
-Taking inspiration from [Michael Arrington](https://techcrunch.com/2009/01/04/2009-products-i-cant-live-without/ "Michael Arrington 2009 list of supposedly indispensable stuff") and [Kevin Rose](https://kevinrose.com/post/466122892 "Kevin Rose list of supposedly indispensable stuff") (I didn’t think Kevin Rose would ever be a source of inspiration, but maybe I’m just feeling lazy), I’ve succumbed to the trend. Here’s the list of stuff I couldn’t possibly do without. It’s much shorter than theirs, and has all the right, cool stuff. If I’m still around, I’ll update it in 2011.
+Taking inspiration from [Michael Arrington](https://techcrunch.com/2009/01/04/2009-products-i-cant-live-without/ "Michael Arrington 2009 list of supposedly indispensable stuff") and [Kevin Rose](https://web.archive.org/web/20100324220508/http://kevinrose.com/post/466122892/2010-products-i-cant-live-without "Kevin Rose list of supposedly indispensable stuff") (I didn’t think Kevin Rose would ever be a source of inspiration, but maybe I’m just feeling lazy), I’ve succumbed to the trend. Here’s the list of stuff I couldn’t possibly do without. It’s much shorter than theirs, and has all the right, cool stuff. If I’m still around, I’ll update it in 2011.
 
 ## Hardware
 
@@ -37,7 +37,7 @@ Taking inspiration from [Michael Arrington](https://techcrunch.com/2009/01/04/20
 - [1Password](https://1password.com "Keeping my passwords safe")
 - [Evernote](https://www.evernote.com/ "My second brain")
 - [WordPress](https://wordpress.org/ "The world's best blogging software")
-- [Mint](https://haveamint.com "Mint")
+- [Mint](https://web.archive.org/web/20100227093306/https://haveamint.com/ "Mint")
 
 ## Websites
 
