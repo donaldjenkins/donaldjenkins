@@ -1,4 +1,9 @@
-{{ range .Site.Params.stylesheets }} <link href="/css/{{ . }}" rel="stylesheet" type="text/css">{{ end }}
+{{ $reset := resources.Get "css/normalize.css" }}
+{{ $main := resources.Get "css/main.css" }}
+{{ $css := slice $reset $main | resources.Concat "css/styles.css" }}
+
+{{ $styles := resources.Get "css/styles.css" | fingerprint }}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" />
 {{ with .HasShortcode "contactform" }} {{ if . }}
 <link rel="stylesheet" href="/css/contact.css" />
 {{ end }} {{ end }}
