@@ -1,12 +1,12 @@
 ---
 title: "Stuff I couldn't do without in 2011"
-categories: ['Personal']
+categories: ["Personal"]
 tags: [Apple, apps, Mac]
 seoTitle: "Donald Jenkins: Stuff I couldn't do without in 2011"
 date: 2011-03-10T14:08:00+00:00
 type: articles
-layout: 'single'
-slug: "stuff-i-couldnt-do-without-in-2011"  
+layout: "single"
+slug: "stuff-i-couldnt-do-without-in-2011"
 draft: false
 description: "My regular annual list of material possessions with which I cannot dispense."
 summary: "My regular annual list of material possessions with which I cannot dispense."
@@ -21,8 +21,7 @@ In a concession to both modern grammatical usage (call me old-fashioned, but I�
 
 As a year has gone by, it seems appropriate to share my latest thoughts on the matter. One is immediately struck, of course, on reading this list, by the dichotomy between my real-world environment and my online one: lasting values make up the former, with nothing changed since 2010, trends and frivolity the latter. So let’s look at them in reverse order.
 
-Hardware
---------
+## Hardware
 
 [iPhone 4](https://www.apple.com/iphone/)
 : This has obviously now taken the place of the venerable iPhone 3GS. I’m using it with [all the coolest apps](https://cl.ly/580V). Seriously, I’d die if I had to use any other phone.
@@ -30,8 +29,7 @@ Hardware
 [MacBook Air](https://www.apple.com/macbookair)  
 : This was probably [the acquisition](/the-new-macbook-air-with-its-first-rate-gpu-and-ssd-its-real-life-performance-belies-the-paper-specs/) that most changed my life in 2010. I hardly use my iPad for anything now, as this fits in even the smallest briefcase and weighs nothing at all.
 
-Software
---------
+## Software
 
 [Sparrow Mail](https://www.sparrowmailapp.com/) ~~[Apple Mail](https://www.apple.com/macosx/what-is-macosx/mail-ical-address-book.html)~~
 : This is [in my view](/sparrow-mail-the-most-elegant-powerful-and-minimalist-mac-email-client/) the best Mac application ever designed. I never thought anything could tempt me away from Apple Mail, but this tiny little Gmail client has changed my life.
@@ -53,7 +51,7 @@ Google Apps Premier and ~~MobileMe~~
 
 [Coda](https://www.panic.com/coda/) ~~[TextMate](https://www.macromates.com/)~~
 : Let’s get over it: TextMate is effectively [abandonware](https://en.wikipedia.org/wiki/Abandonware), so I now use Coda, combined with CSSEdit, for all my coding requirements.
-  
+
 [MarsEdit](https://www.red-sweater.com/marsedit/)
 : I just wish they had iPad and iPhone editions. The best way to write and manage blog posts, period.
 
@@ -69,8 +67,7 @@ Google Apps Premier and ~~MobileMe~~
 [Amazon Cloudfront](https://aws.amazon.com/cloudfront/)
 : This powerful and amazingly cheap CDN serves all my non-gzippable[^4] files to readers of my website from its ever-expanding range of locations worldwide.
 
-Websites
---------
+## Websites
 
 [Facebook](https://www.facebook.com/donaldjenkins.com)
 : I’m [still there](https://www.facebook.com/donaldjenkins.com). Just. I hate the privacy intrusions, but it’s a good way of keeping in touch with my friends. I’m increasingly using my [Facebook page](https://www.facebook.com/donaldjenkins.blog), too.
@@ -85,13 +82,12 @@ Websites
 : I sometimes need this when I’m hesitating between two subtle French grammatical rules.
 
 [Instapaper](https://www.instapaper.com/u)
-: Boring, but useful. Still, I sometimes wish it offered more than just links, and also that it had less downtime. Made *much* better by Brett Terpstra’s [Instapaper Beyond](https://brettterpstra.com/instapaperbeyond/) extension for Safari.
+: Boring, but useful. Still, I sometimes wish it offered more than just links, and also that it had less downtime. Made _much_ better by Brett Terpstra’s [Instapaper Beyond](https://brettterpstra.com/instapaperbeyond/) extension for Safari.
 
 [Omnifocus](https://www.omnigroup.com/applications/omnifocus/) ~~[Remember The Milk](https://rememberthemilk.com/)~~
 : For [Getting Things Done](https://en.wikipedia.org/wiki/Getting_Things_Done), I’ve replaced Remember The Milk, which has been going nowhere and has neither a Mac desktop nor an iPad client, with the expensive, rather ugly but powerful suite of Omnifocus clients for Mac, iPad and iPhone.
 
-Real-world stuff
-----------------
+## Real-world stuff
 
 Not much change here. I like keeping stuff for as long as possible, and I don’t switch my custom lightly. In the real world, one year is the equivalent of one hundred on the Internet.
 
@@ -113,10 +109,7 @@ Not much change here. I like keeping stuff for as long as possible, and I don’
 [Porthault](https://www.dporthault.fr/ "Porthault linen")
 : French workmanship at its most understated best.
 
-[^1]: Unlike Churchill: the story that he rejected the rule against ending a sentence with a preposition originated, [according to the alt.usage.english.FAQ](https://www.faqs.org/faqs/alt-usage-english-faq/) with an anecdote in Sir Ernest Gowers’ _Plain Words_ (1948). Supposedly an editor had clumsily rearranged one of Churchill’s sentences to avoid ending it in a preposition, and the Prime Minister, very proud of his style, scribbled this note in reply: “This is the sort of English up with which I will not put.” The *American Heritage Book of English Usage* agrees.
-
+[^1]: Unlike Churchill: the story that he rejected the rule against ending a sentence with a preposition originated, [according to the alt.usage.english.FAQ](https://web.archive.org/web/20110222114624/https://www.faqs.org/faqs/alt-usage-english-faq/) with an anecdote in Sir Ernest Gowers’ _Plain Words_ (1948). Supposedly an editor had clumsily rearranged one of Churchill’s sentences to avoid ending it in a preposition, and the Prime Minister, very proud of his style, scribbled this note in reply: “This is the sort of English up with which I will not put.” The _American Heritage Book of English Usage_ agrees.
 [^2]: See the reasons why Google Contacts sucks: basically, Google thinks Christian name, middle name and surname fields can all be bunched together, which just doesn’t work. It’s stupid, but they’re a stubborn bunch, are pointedly ignoring the complaints and are unlikely to fix it anytime soon.
-
 [^3]: Unless they eventually provide a proper cloud experience, but I’m tiring of waiting for them to realise the importance of this.
-
 [^4]: Cloudfront currently doesn’t offer support for gzip, meaning as things stand at present, it doesn’t make sense to serve html, css or javascript files from it, since the performance gain from gzipping far outweighs that of a CDN.
