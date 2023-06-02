@@ -33,7 +33,7 @@ While there is a very wide consensus that the Information Age and, in particular
 
 The best thing you can possibly do to find out more about Policymakr, I suppose, is to read [about it](https://www.policymakr.com/about) directly. People say the website, which I designed and coded myself, as I always do, is quite informative.
 
-To give you an idea of my state of mind as I embark on this new project, let me reproduce here the answers to the short questionnaire I filled in for my Angel.co [profile](https://angel.co/u/donaldjenkins).
+To give you an idea of my state of mind as I embark on this new project, let me reproduce here the answers to the short questionnaire I filled in for my Angel.co [profile](https://wellfound.com/u/donaldjenkins).
 
 <blockquote>
 <p class="title"><strong>What’s your favorite non-business book?</strong></p>
