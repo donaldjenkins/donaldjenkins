@@ -18,7 +18,7 @@ tableofcontents: false
 noindex: false
 ---
 
-[Sparrow Mail](https://www.sparrowmailapp.com/), which I am certain will soon establish itself as the best email client for the Mac, launches today on the Mac App Store.
+[Sparrow Mail](https://web.archive.org/web/20101123064354/https://www.sparrowmailapp.com/), which I am certain will soon establish itself as the best email client for the Mac, launches today on the Mac App Store.
 
 Creating an email client from scratch is very difficult: this explains more than anything else why so few genuinely _new_ email clients are available for the Mac, outside of Apple Mail which comes bundled in with OS X. So the launch of Sparrow Mail[^1] is actually a major event, since only a few competitors to Apple Mail are available. The main ones are [Mailplane](https://mailplaneapp.com/) and [Postbox](https://www.postbox-inc.com/), both of which I’ve tried but not found any compelling reason to prefer to Apple Mail.
 
@@ -50,7 +50,7 @@ A system-wide hotkey (I use F1) can in addition be set to trigger a new email, a
 
 You can set fonts, or choose to stick to plain text if you prefer. At my suggestion, the Sparrow Mail developers have included the ⌘K shortcut to apply a link, similarly to Apple Mail, which is a great time saver.
 
-The company has [stated](https://getsatisfaction.com/sparrow/topics/imap_support-12nnkh) that Sparrow 1.1 will provide you with a general IMAP support (MobileMe, Yahoo, AOL and custom IMAP mail servers). It should be available at the end of March 2011. I personally have no use for this at present, as I can’t see the point of using anything other than Gmail — classic or Google Apps — but of course, for people who are stuck with other email systems, perhaps for professional reasons, that they can only access using IMAP, this may perhaps be a welcome improvement.
+The company has [stated](https://web.archive.org/web/20101016001134/https://getsatisfaction.com/sparrow/topics/imap_support-12nnkh) that Sparrow 1.1 will provide you with a general IMAP support (MobileMe, Yahoo, AOL and custom IMAP mail servers). It should be available at the end of March 2011. I personally have no use for this at present, as I can’t see the point of using anything other than Gmail — classic or Google Apps — but of course, for people who are stuck with other email systems, perhaps for professional reasons, that they can only access using IMAP, this may perhaps be a welcome improvement.
 
 [^1]: Sparrow is based on the [EtPan](http://www.etpan.org/libetpan/index.html) open-source project created and managed by Hoa Dinh Viet, one of Sparrow’s founders, who was also an actor in John Gruber’s subsequently abandoned [Letters](http://arstechnica.com/apple/news/2010/01/rage-against-the-mail-machine-the-genesis-of-letters.ars) project to replace Mail app in 2010.
 [^2]: It’s theoretically possible to set up email on a your own server, of course, but this really provides no added value over third-party hosting, at least for private individuals.

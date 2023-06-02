@@ -850,7 +850,7 @@ We cannot escape the fact that we are all interested parties in this moral strug
     [^144]: Franklin, op. cit., p. 53, and v. also Francione, G. (2007). Reflections on Animals, Property, and the Law and Rain without Thunder. Law And Contemporary Problems, 70(1). Retrieved 26 December 2020, from https://www.jstor.org/stable/27592164?seq=1.
     [^145]: Francione, op. cit., p. 11. In that sense, the status of non-humans as property is as flawed as that of human slaves before abolition, irrespective of whether this status is compatible with humane treatment.
     [^146]: Cassuto, David N. Legal Standing for Animals and Advocates 13 (n.d.): 27.
-    [^147]: Cassuto, David N. Bred Meat: The Cultural Foundation of the Factory Farm. Derecho Animal. Forum of Animal Law Studies 1, no. 2 (1 May 2010): 1. https://doi.org/10.5565/rev/da.210.
+    [^147]: Cassuto, David N. Bred Meat: The Cultural Foundation of the Factory Farm. Derecho Animal. Forum of Animal Law Studies 1, no. 2 (1 May 2010): 1. [https://doi.org/10.5565/rev/da.210](https://assets.donaldjenkins.com/documents/bred-meat-the-cultural-foundation-of-the-factory-farm.pdf).
     [^148]: Choplin, Lauren. The Latest in Happy’s Elephant Rights Case. Nonhuman Rights, 28 Sept. 2020, https://www.nonhumanrights.org/blog/latest-in-happys-elephant-rights-case/.
     [^149]: Donaldson, Sue, and Kymlicka, Will. Zoopolis, op. cit..
     [^150]: Svärd. Animal National Liberation? Journal of Animal Ethics 3, no. 2 (2013): 188. https://doi.org/10.5406/janimalethics.3.2.0188.
