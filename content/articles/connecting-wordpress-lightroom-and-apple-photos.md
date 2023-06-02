@@ -107,7 +107,7 @@ The tool I will be using for this second stage of the workflow, to get the photo
 
 The two plugins will communicate and keep everything synchronized, as soon as you hit the Publish button in the WP/LR Sync section of your Lightroom Classic CC library. The settings for the sync allow you to customize the way in which the content of your Lightroom photo library is connected with that of your WordPress Media Library in an almost infinite way. If you decide to change anything in Lightroom subsequently (whether it be metadata, or edits to the image itself), you will be offered the option to republish the modified photo to the WordPress Media Library so that everything stays in sync.
 
-Meow has a very good [tutorial](https://meowapps.com/wplr-sync-tutorial/ "WP/LR Sync: Tutorial") detailing all the options available.
+Meow has a very good [tutorial](https://web.archive.org/web/20201130040421/https://meowapps.com/wplr-sync-tutorial/ "WP/LR Sync: Tutorial") detailing all the options available.
 
 I use a set of Lightroom smart collections to determine which photographs I want to display in WordPress:
 
