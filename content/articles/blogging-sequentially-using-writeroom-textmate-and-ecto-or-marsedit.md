@@ -75,7 +75,7 @@ I could write a bundle to automate this within TextMate, but it hardly seems wor
 
 A very similar tool is available on MarsEdit.
 
-In addition, the Flickr system works nicely with [LittleSnapper](https://www.realmacsoftware.com/littlesnapper/ "LittleSnapper"), a screen and web-snap application for the Mac which can be configured to upload images to Flickr at a click of a mouse and which I used to illustrate this blog post.
+In addition, the Flickr system works nicely with [LittleSnapper]https://web.archive.org/web/20090308004503/https://www.realmacsoftware.com/littlesnapper/ "LittleSnapper"), a screen and web-snap application for the Mac which can be configured to upload images to Flickr at a click of a mouse and which I used to illustrate this blog post.
 
 For video content, I rely on whatever online video website the content is available on (my preferred one personally being [Vimeo](https://vimeo.com "Vimeo")) because you would be crazy to host them yourself unless you really have a lot of bandwidth to spare. I simply rewrote the embed codes so that they didn’t break my page validation.
 

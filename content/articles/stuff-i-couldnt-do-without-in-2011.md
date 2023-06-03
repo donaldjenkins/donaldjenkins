@@ -31,7 +31,7 @@ As a year has gone by, it seems appropriate to share my latest thoughts on the m
 
 ## Software
 
-[Sparrow Mail](https://www.sparrowmailapp.com/) ~~[Apple Mail](https://www.apple.com/macosx/what-is-macosx/mail-ical-address-book.html)~~
+[Sparrow Mail](https://web.archive.org/web/20101030221041/https://www.sparrowmailapp.com/) ~~[Apple Mail](https://www.apple.com/macosx/what-is-macosx/mail-ical-address-book.html)~~
 : This is [in my view](/sparrow-mail-the-most-elegant-powerful-and-minimalist-mac-email-client/) the best Mac application ever designed. I never thought anything could tempt me away from Apple Mail, but this tiny little Gmail client has changed my life.
 
 [DuckDuckGo](https://ff.duckduckgo.com/)

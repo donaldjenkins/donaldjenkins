@@ -27,7 +27,7 @@ tableofcontents: false
 noindex: false
 ---
 
-{{% quotation main-title="Discours de Bayeux" url="https://web.archive.org/web/20170520102540/https://www.charles-de-gaulle.org:80/pages/espace-pedagogique/le-point-sur/les-textes-a-connaitre/discours-de-bayeux-16-juin-1946.php"  date="16. Jun 1946" %}}
+{{% quotation main-title="Discours de Bayeux" url="https://assets.donaldjenkins.com/documents/discours-de-bayeux-16-june-1946.pdf"  date="16. Jun 1946" %}}
 L’unité, la cohésion, la discipline intérieure du gouvernement de la France doivent être des choses sacrées, sous peine de voir rapidement la direction même du pays impuissante et disqualifiée[^1].
 <-source->
 de Gaulle, Charles
