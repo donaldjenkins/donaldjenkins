@@ -1,8 +1,7 @@
 ---
 title: "Literature"
 date: 2023-05-25T14:48:17-07:00
-draft: false
-sitemap_exclude: true
+draft: false: true
 showthedate: false
 tableofcontents: false
 noindex: true
