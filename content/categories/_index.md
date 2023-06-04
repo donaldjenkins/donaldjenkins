@@ -1,6 +1,7 @@
 ---
 title: "Categories"
-draft: false: true
+draft: false
+sitemap_exclude: true
 showthedate: false
 tableofcontents: false
 noindex: true
