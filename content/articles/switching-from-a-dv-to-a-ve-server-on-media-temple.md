@@ -30,16 +30,20 @@ tableofcontents: false
 noindex: false
 ---
 
+{{% alert info %}}
+**Update 2nd June, 2023**: I migrated from Media Temple to [Kinsta](https://kinsta.com/) in November, 2018. Then in a further development I migrated to Hugo and Cloudfront Pages in May, 2023. Media Temple [was acquired](https://mediatemple.net/community/products/all/8884159911437/) by Godaddy in January, 2023 and the company with which I began doing business fifteen years earlier no longer exists in anything resembling what it was then. Kinsta remains an excellent choice of host if you still use WordPress. Nonetheless, the workflow described in this article is thus no longer current in any way.
+{{% /alert %}}
+
 After completing the switch to html5, switching from `.net` to `.com`, accompanied by a new design, I wanted to update my server configuration, which hadn’t changed for three years.
 
-In this post, I’ll recount how I set up my new (ve) server, combining it with one of Media Temple’s [ProCDN](https://mediatemple.net/webhosting/procdn/) accounts so that tasks are clearly apportioned between the two:
+In this post, I’ll recount how I set up my new (ve) server, combining it with one of Media Temple’s [ProCDN](https://web.archive.org/web/20101231063301/https://mediatemple.net/webhosting/procdn/) accounts so that tasks are clearly apportioned between the two:
 
 - the (ve) server will be optimized to do what it’s best at, i.e. fetching content from the database and building the dynamic content displayed on my WordPress blog;
 - The CDN will host all static content and serve it extremely efficiently from the closest possible location to the user, which in turn is what it’s best at.
 
-I’ve been very happily hosted by [Media Temple](https://mediatemple.net/) since 2006 and, since 2008, I’ve been using one of their [(dv) servers](https://mediatemple.net/webhosting/dv/). I almost invariably get 100 per cent uptime from it, it’s fast and, of course, when needed Media Temple provide live, 24-hour support 365 days a year: I’ve always found their experts reliable, very smart and often happy to provide support—on the rare occasions when I’ve needed it—well beyond the bounds of what is required.
+I’ve been very happily hosted by [Media Temple](https://www.godaddy.com/mediatemple) since 2006 and, since 2008, I’ve been using one of their [(dv) servers](https://web.archive.org/web/20101229115935/https://mediatemple.net/webhosting/dv/). I almost invariably get 100 per cent uptime from it, it’s fast and, of course, when needed Media Temple provide live, 24-hour support 365 days a year: I’ve always found their experts reliable, very smart and often happy to provide support—on the rare occasions when I’ve needed it—well beyond the bounds of what is required.
 
-Media Temple recently started offering a service called [SiteMovers](https://mediatemple.net/sitemover/)—a team comprising the company’s sharpest support experts, dedicated to carrying out WordPress site migrations. I knew I probably didn’t need help with the migration, but curiosity got the better of me and I contacted the SiteMovers team to ask if they were interested in helping with migrating my _very_ heavily customized WordPress-powered blog. After just a few minutes the team called back to say they’d be delighted to do so—and although I ended up doing most of the migration myself, they provided me with very useful suggestions throughout: the MySQL optimization I set up was entirely the result of their suggestions, and I’d highly recommend using them for anyone who feels uncomfortable about the process described in this post [^1].
+Media Temple recently started offering a service called [SiteMovers](https://web.archive.org/web/20120126020925/https://mediatemple.net/sitemover/#about)—a team comprising the company’s sharpest support experts, dedicated to carrying out WordPress site migrations. I knew I probably didn’t need help with the migration, but curiosity got the better of me and I contacted the SiteMovers team to ask if they were interested in helping with migrating my _very_ heavily customized WordPress-powered blog. After just a few minutes the team called back to say they’d be delighted to do so—and although I ended up doing most of the migration myself, they provided me with very useful suggestions throughout: the MySQL optimization I set up was entirely the result of their suggestions, and I’d highly recommend using them for anyone who feels uncomfortable about the process described in this post [^1].
 
 Whatever you do, back up all your files before editing, deleting or moving anything. I cannot be responsible for anything that happens to your setup as this is only an account of what worked for me. It may not necessarily work for you.
 
@@ -134,7 +138,7 @@ Then restart Apache:
 
 Secondly, I found that, when I tried to download any plugins, I was unable to update FTP details in the WordPress administration panel, in order to download plugins [^4]: instead I’d get a [error message](https://i.via.dj/CVeD) requesting that I update details—and the corresponding fields would be frozen and not accept updates.
 
-The reason for this—which I discovered thanks to [this blog post](https://envyandroid.com/archives/434/make-wordpress-work-linux)—is that in current versions of WordPress, it checks if the userid it is running under, is the same as the owner of the file or folder it tries to edit: the issue arises at line 876 in the method get*filesystem*method in `wordpress/wp-admin/includes/file.php`:
+The reason for this—which I discovered thanks to [this blog post](https://web.archive.org/web/20120312074046/https://envyandroid.com/archives/434/make-wordpress-work-linux)—is that in current versions of WordPress, it checks if the userid it is running under, is the same as the owner of the file or folder it tries to edit: the issue arises at line 876 in the method get*filesystem*method in `wordpress/wp-admin/includes/file.php`:
 
 ```
 if ( getmyuid() == @fileowner($temp_file_name) )

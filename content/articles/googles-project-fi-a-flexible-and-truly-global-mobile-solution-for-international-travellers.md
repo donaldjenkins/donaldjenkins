@@ -62,7 +62,7 @@ If you need support you are given a choice of phone, email or (on the website) c
 
 Possibly the most powerful and innovative feature of project Fi, however, is that it’s completely device agnostic. Google archived this by building Fi to work, out of the box, in deep integration with its [Google Hangouts](https://via.dj/29Iaz6A) communications platform.
 
-Because unlike Apple’s iMessage, Hangouts is platform agnostic, official clients exist for it on all for all the main devices: iOS, the Mac, Windows and Android[^3]. This means you can actually use your device on [all your devices](https://via.dj/29IaNdY) seamlessly.
+Because unlike Apple’s iMessage, Hangouts is platform agnostic, official clients exist for it on all for all the main devices: iOS, the Mac, Windows and Android[^3]. This means you can actually use your device on all your devices seamlessly.
 
 On Android, unlike iOS, you are free to choose any third-party client for most functionality. Thus for SMS, you can choose to use Hangouts as your SMS provider and, with a Project Fi phone, once you have [activated that change](https://via.dj/29Iayj5), your text messages and voicemail (though not, unfortunately, your call history) will sync across Hangouts everywhere, including: Gmail chat, Google+ Page or profile, Chrome desktop app, Android or iOS device, Inbox by Gmail, or the Chrome extension. You can also make and receive calls on any device that has the Hangouts client installed.
 
