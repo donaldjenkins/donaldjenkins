@@ -1,6 +1,6 @@
 ---
 title: "Categories"
-draft: false
+draft: false: true
 showthedate: false
 tableofcontents: false
 noindex: true

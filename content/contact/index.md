@@ -8,7 +8,7 @@ date: 2023-05-14T15:45:25+00:00
 type: 'contact'
 layout: 'contact'
 slug: "contact"
-draft: false
+draft: false: true
 description: "Contact form for Donald Jenkins"
 author: "Donald Jenkins"
 showthedate: false
