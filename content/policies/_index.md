@@ -3,7 +3,6 @@ title: "Legal stuff"
 description: "This page sums up the way this Website operates, the laws that apply to it, who we are, and the values underpinning our action."
 slug: legal
 layout: single
-sitemap_exclude: true
 noindex: true
 ---
 

@@ -9,7 +9,6 @@ type: 'contact'
 layout: 'contact'
 slug: "contact"
 draft: false
-sitemap_exclude: true
 description: "Contact form for Donald Jenkins"
 author: "Donald Jenkins"
 showthedate: false
