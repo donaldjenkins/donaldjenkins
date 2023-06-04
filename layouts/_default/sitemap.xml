@@ -1,7 +1,7 @@
 {{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   {{ $exclude := slice "tags" "categories" }}
-  {{ range where .Pages "Params.sitemap_exclude" "ne" true }}
+  {{ range where .Pages "Params.noindex" "ne" true }}
   {{- if .Permalink -}}
   {{ if not (in $exclude .Data.Plural) }}
   <url>

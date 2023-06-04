@@ -25,7 +25,7 @@ paginate = 50
   expiryDate = ["expiryDate"]
 
 [params]
-  stylesheets = ["styles.css"]
+  blogSection = ["articles"]
   taxonomiesExcludedFromSitemap = ["tags", "categories"]
   color = "#9c9a75"
   # Sets theme colour& Safari mask icon colour

@@ -2,14 +2,6 @@ Sitemap: https://a177862.sitemaphosting.com/4114288/sitemap.xml
 
 User-agent: *
 # disallow all files in these directories
-Disallow: /tag/
-Disallow: /vidstack/
-Disallow: /404.html
-Disallow: /license.txt
-Disallow: /readme.html
-Allow: /humans.txt
-Allow: *.js
-Allow: *.css
 
 User-agent: Mediapartners-Google*
 Allow: /
