@@ -1,19 +1,7 @@
 {{ $reset := resources.Get "css/normalize.css" }}
-{{ $sass := resources.Get "sass/main.scss" }}
-{{ $opts := dict "transpiler" "dartsass" "targetPath" "css/main.css" }}
-{{ $main := $sass | toCSS $opts }}
-{{ $css := resources.Get "css/main.css" }}
-{{ $styles := slice $reset $css | resources.Concat "css/styles.css" }}
-{{ if hugo.IsProduction }}
-{{ $styles = $styles | postCSS | minify | fingerprint }}
-{{ end }}
-<link
-  rel="stylesheet"
-  href="{{ $styles.RelPermalink }}"
-  {{ if hugo.IsProduction -}}
-    integrity="{{ $styles.Data.Integrity }}"
-  {{- end }}
-/>
+{{ $main := resources.Get "css/main.css" }}
+{{ $styles := slice $reset $main | resources.Concat "css/styles.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" />
 {{ with .HasShortcode "contactform" }} {{ if . }}
 <link rel="stylesheet" href="/css/contact.css" />
 {{ end }} {{ end }}
