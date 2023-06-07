@@ -40,6 +40,7 @@
     "normalize.css": "^8.0.1",
     "postcss": "^8.4.24",
     "postcss-cli": "^10.1.0",
+    "postcss-csso": "^6.0.1",
     "prettier": "^2.8.8",
     "vidstack": "^0.4.5"
   }
