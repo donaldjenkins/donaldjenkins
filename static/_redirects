@@ -1,4 +1,4 @@
-/documents/archives/terms-2020-04-27.pdf https://documentation.donaldjenkins.com/2019-04-27/
+/documents/archives/terms-2020-04-27.pdf https://github.com/donaldjenkins/policies/blob/main/archives/terms/terms-2020-04-27.md
 /.well-known/host-meta* https://jenkins.social/.well-known/host-meta:splat 301
 /.well-known/webfinger* https://jenkins.social/.well-known/webfinger:splat 301
 /.well-known/nodeinfo* https://jenkins.social/.well-known/nodeinfo:splat 301
