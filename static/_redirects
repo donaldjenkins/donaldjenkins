@@ -1,11 +1,9 @@
 /legal/license/ /policies/ 301
-/license.txt /policies/ 301
 /2016/06/leavers-have-no-political-mandate-to-inflict-constitutional-and-economic-suicide-on-the-uk-a-general-election-is-sufficient-to-return-us-to-sanity/ https://www.donaldjenkins.com/brexit-would-be-constitutional-and-economic-suicide/ 301
 /tag/* https://www.donaldjenkins.com/tags/:splat 301
 /documents/* https://assets.donaldjenkins.com/documents/:splat 301
 /legal/* /policies/:splat 301
 /:year/:month/* https://www.donaldjenkins.com/:splat 301
-/:slug/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+ectomorphicvicissitudes+(Donald+Jenkins) /:slug 301
 /.well-known/host-meta* https://jenkins.social/.well-known/host-meta:splat 301
 /.well-known/webfinger* https://jenkins.social/.well-known/webfinger:splat 301
 /.well-known/nodeinfo* https://jenkins.social/.well-known/nodeinfo:splat 301
