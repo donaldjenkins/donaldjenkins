@@ -1,3 +1,3 @@
 {{ range $i, $e := .Params.categories -}}
-    <a href='{{ "/" | relLangURL }}{{ . | urlize }}' class="tag">{{ $e | humanize }}</a>
+    <a href='{{ "/" | relLangURL }}{{ . | urlize }}' class="tag">{{ partial "icons/category.html" . }}&thinsp;{{ $e | humanize }}</a>
 {{- end -}}
