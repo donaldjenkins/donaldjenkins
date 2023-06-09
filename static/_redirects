@@ -1,5 +1,6 @@
 /documents/archives/terms-2020-04-27.pdf https://documentation.donaldjenkins.com/docs/archives/terms/2019-04-27/ 301
 https://www.donaldjenkins.com/documents/archives/terms-2021-01-12.pdf https://documentation.donaldjenkins.com/docs/archives/privacy/2021-01-12/ 301
+/documents/mcc-arrete-du-15-mai-2007.pdf https://assets.donaldjenkins.com/documents/mcc-arrete-du-15-mai-2007.pdf 301
 /legal/* /policies/:splat
 /.well-known/host-meta* https://jenkins.social/.well-known/host-meta:splat 301
 /.well-known/webfinger* https://jenkins.social/.well-known/webfinger:splat 301
