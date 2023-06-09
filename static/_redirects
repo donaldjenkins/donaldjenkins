@@ -1,6 +1,7 @@
 /tag/* https://www.donaldjenkins.com/tags/:splat
 /documents/* https://assets.donaldjenkins.com/documents/:splat 301
 /legal/* /policies/:splat
+/:year/:month/* https://www.donaldjenkins.com/:splat 301
 /.well-known/host-meta* https://jenkins.social/.well-known/host-meta:splat 301
 /.well-known/webfinger* https://jenkins.social/.well-known/webfinger:splat 301
 /.well-known/nodeinfo* https://jenkins.social/.well-known/nodeinfo:splat 301
