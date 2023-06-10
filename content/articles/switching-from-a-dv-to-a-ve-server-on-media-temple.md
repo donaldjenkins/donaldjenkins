@@ -73,7 +73,7 @@ The process is actually simpler than it sounds. It involved four stages: (1) bas
 
 ## Basic Linux server configuration
 
-Media Temple knowledge base article: [Getting started with Ubuntu](https://mediatemple.net/community/products/developer/204644440/install-node.js-on-ubuntu)
+Media Temple knowledge base article: [Getting started with Ubuntu](https://web.archive.org/web/20150920074616/https://mediatemple.net/community/products/developer/204644440/install-node.js-on-ubuntu)
 
 This was perhaps where the advantage of (ve) over (dv) is most apparent. You can create just one user and give him control over all the essential administration of your server, by giving him the desired permissions and including him in the appropriate group(s). This takes a few seconds using the command line, with the command `root@ve: adduser jsmith` and adding `jsmith ALL=(ALL) ALL` at the appropriate place in the `/etc/sudoers` file (this is detailed in the knowledge base article). This basically turns the user you’ve just created into a [superuser](https://wiki.linuxquestions.org/wiki/Superuser), able to carry out most routine administrative tasks.
 

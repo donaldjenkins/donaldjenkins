@@ -19,12 +19,14 @@ We aim, in a modest way, to help fix the {{% quote %}}[biggest lie on the web](h
 {{% alert success %}}
 **Summary**
 
-- This service does not track you.
+- This website does not track you.
 - No cookies are set on this site: [check](https://www.cookieserve.com/scan-summary/?url=https%3A%2F%2Fwww.donaldjenkins.com%2F).
 - No need to register.
 - This website doesn't have accounts.
 - IP addresses of visitors are not tracked.
-- We will resist legal requests for user information where reasonably possible.
+- Only aggregate data is given to third parties.
+- The [terms](/policies/terms/) for this service are easy to read.
+- This website will resist legal requests for user information where reasonably possible.
 - This website provides [archives](https://documentation.donaldjenkins.com/) of previous policies so that changes can be viewed over time.
   {{% /alert %}}
 
@@ -59,7 +61,7 @@ This Website does not use Google Analytics, relying instead on [Plausible](https
 - We give you advance notice, and keep a trace, of any changes in our [Terms](https://documentation.donaldjenkins.com/docs/changelog/terms/) and [Privacy Policy](https://documentation.donaldjenkins.com/docs/changelog/privacy/).
 - We use reasonable [measures](/policies/privacy#web-host-and-data-retention) to keep your information secure.
 - We do not sell your personal data.
-- We will share your information in limited circumstances, such as with our [external service providers](/policies/privacy#other-external-service-providers) if required to make this Website operate, or, only as a last resort, if we are compelled to [comply](/policies/privacy#compliance-with-other-legal-obligations) with the law, or to protect you and others.
+- We will share your information in limited circumstances, such as with our [external service providers](/policies/privacy#other-external-service-providers) if required to make this Website operate, or, only as a last resort, if we are compelled to [comply](/policies/privacy/#compliance-with-other-legal-obligations) with the law, or to protect you and others.
 - We provide an [access](/policies/privacy#access-to-your-data) mechanism for the handling of personal data.
 - Our content is published under a [Creative Commons license](https://creativecommons.org/licenses/).
 
