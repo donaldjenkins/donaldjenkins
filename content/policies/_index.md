@@ -50,7 +50,7 @@ This Website does not use Google Analytics, relying instead on [Plausible](https
 
 ## Our undertaking to you
 {.title}
-**Compliance with all applicable data protection and privacy laws**
+**Control over your data and privacy beyond all applicable laws and regulations**
 {.subtitle}
 
 - Because we believe that you shouldn’t have to provide personal information to visit a website, you may use this Website without registering an account. In fact, we don’t have accounts.
