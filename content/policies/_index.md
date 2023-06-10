@@ -20,7 +20,7 @@ We aim, in a modest way, to help fix the {{% quote %}}[biggest lie on the web](h
 **Summary**
 
 - This service does not track you.
-- No third-party cookies are set on this site.
+- No cookies are set on this site: [check](https://www.cookieserve.com/scan-summary/?url=https%3A%2F%2Fwww.donaldjenkins.com%2F).
 - No need to register.
 - This website doesn't have accounts.
 - This website provides [archives](https://documentation.donaldjenkins.com/) of previous policies so that changes can be viewed over time.
@@ -40,7 +40,7 @@ The operator of this Website, donaldjenkins.com ({{% quote %}}this Website{{% /q
 
 {{% alert info %}}
 
-There are no third-party cookies set on this Website, and it does not thus track visitors or collect any personal information, except in the following two cases:
+There are [no cookies](https://www.cookieserve.com/scan-summary/?url=https%3A%2F%2Fwww.donaldjenkins.com%2F) set on this Website, and it does not thus track visitors or collect any personal information, except in the following two cases:
 
 1. Information you send to us voluntarily when you send us emails using the Contact Form.
 2. When you visit this Website, we look up your location using your IP address. We do not track anything more granular than the city level and the IP address of the visitor is discarded. We never store IP addresses in our database or logs (see below).
