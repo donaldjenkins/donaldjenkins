@@ -27,13 +27,18 @@ We aim, in a modest way, to help fix the {{% quote %}}[biggest lie on the web](h
   {{% /alert %}}
 
 ## Who we are
+{.title}
+**A private individual**
+{.subtitle}
 
 The operator of this Website, donaldjenkins.com ({{% quote %}}this Website{{% /quote %}} ), an unincorporated, not-for-profit entity based in the state of New York, and owner of the associated domain name, is a private individual, [Donald Jenkins](https://www.twitter.com/donaldjenkins) ({{% quote %}}we{{% /quote %}} ).
 
 ## Information we collect, summarized
+{.title}
+**Basically, we do not track you in any way**
+{.subtitle}
 
 {{% alert info %}}
-**Basically, we do not track you in any way.**
 
 There are no third-party cookies set on this Website, and it does not thus track visitors or collect any personal information, except in the following two cases:
 
@@ -44,6 +49,9 @@ There are no third-party cookies set on this Website, and it does not thus track
 This Website does not use Google Analytics, relying instead on [Plausible](https://plausible.io/), which does not track, collect or store any of your personal data or personally identifiable information. This also means that this Website does not use cookies or generate any persistent identifiers. The only data collected is aggregated data; it includes no personal information. You can explore all the data points we do collect in the Plausible [data policy](https://plausible.io/data-policy).
 
 ## Our undertaking to you
+{.title}
+**Compliance with all applicable data protection and privacy laws**
+{.subtitle}
 
 - Because we believe that you shouldn’t have to provide personal information to visit a website, you may use this Website without registering an account. In fact, we don’t have accounts.
 - We give you advance notice, and keep a trace, of any changes in our [Terms](https://documentation.donaldjenkins.com/docs/changelog/terms/) and [Privacy Policy](https://documentation.donaldjenkins.com/docs/changelog/privacy/).
