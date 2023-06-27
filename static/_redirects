@@ -5,7 +5,6 @@
 /legal/privacy/changelog* https://documentation.donaldjenkins.com/docs/changelog/privacy/ 301
 /tag/* https://www.donaldjenkins.com/tags/:splat 301
 /documents/* https://assets.donaldjenkins.com/documents/:splat 301
-/images/* https://assets.donaldjenkins.com/images/:splat 301
 /legal/* /policies/:splat 301
 /2005/:month/* https://www.donaldjenkins.com/:splat 301
 /2006/:month/* https://www.donaldjenkins.com/:splat 301
