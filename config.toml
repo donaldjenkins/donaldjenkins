@@ -91,5 +91,5 @@ categories= "/:slug/"
 # Source: https://www.brycewray.com/posts/2023/05/organizing-hugo-configuration/
 
 [markup.goldmark.parser.attribute]
-block = true # default is false
+block = true # default is always false
 # Source: https://discourse.gohugo.io/t/markdown-attributes/41783
