@@ -91,7 +91,7 @@ TextMate’s strength, as it happens, is automating coding. I use it mainly for 
 - insert my images, which is laughingly simple since if you’re using the blogging bundle, all you need to do is drag the picture to wherever you want it to appear in the post; TextMate will then insert the appropriate link and send the image to the folder you specified in whichever blog you choose from those listed in your Blogging bundle editing pane;
 - tidy up the post code and layout: as this involves much manipulation that was completely repetitive, I automated by recording a macro, which is childishly simple in TextMate, to do the following, among others: convert code from Markdown to HTML (skip this if you prefer posting in Markdown), adding any missing tags, curly quotes, checking links and image tags for consistency and automatically adding any missing parameters… whatever.
 
-For repetitive code snippets, I use [TextExpander](https://www.smileonmymac.com/TextExpander/ "TextExpander: Mac Typing Shortcut Utility Saves You Time!"), a Preferences Pane add-on that allows you to set customized abbreviations for your frequently-used text strings and images.
+For repetitive code snippets, I use [TextExpander](https://textexpander.com/ "TextExpander: Mac Typing Shortcut Utility Saves You Time!"), a Preferences Pane add-on that allows you to set customized abbreviations for your frequently-used text strings and images.
 
 At this point, my post will already be looking pretty perfect. All I will need to do now is check it in the TextMate preview just in case there is something I overlooked. Since the pictures have already been uploaded, they will display.
 
