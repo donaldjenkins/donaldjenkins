@@ -17,7 +17,7 @@ tableofcontents: false
 noindex: false
 ---
 
-In a concession to both modern grammatical usage (call me old-fashioned, but I’m not a fan of ending my sentence with prepositions[^1]) and current trends, I published a post a year ago, listing [stuff I couldn’t live without in 2010](/stuff-i-couldnt-live-without-in-2010/), promising that I’d update it if I were still around in 2011.
+In a concession to both modern grammatical usage (call me old-fashioned, but I’m not a fan of ending my sentence with prepositions&thinsp;[^1]) and current trends, I published a post a year ago, listing [stuff I couldn’t live without in 2010](/stuff-i-couldnt-live-without-in-2010/), promising that I’d update it if I were still around in 2011.
 
 As a year has gone by, it seems appropriate to share my latest thoughts on the matter. One is immediately struck, of course, on reading this list, by the dichotomy between my real-world environment and my online one: lasting values make up the former, with nothing changed since 2010, trends and frivolity the latter. So let’s look at them in reverse order.
 
@@ -38,7 +38,7 @@ As a year has gone by, it seems appropriate to share my latest thoughts on the m
 : A much better search engine than Google. Beautiful minimal design. Anonymous browsing. More relevant search results.
 
 Google Apps Premier and ~~MobileMe~~
-: Nothing new here. I’m using Google Apps as my email server and switched to also using it as my calendar. I’m waiting for Google to get their act together[^2] before I switch my contacts too and ditch Apple’s overpriced and underwhelming[^3] MobileMe for ever.
+: Nothing new here. I’m using Google Apps as my email server and switched to also using it as my calendar. I’m waiting for Google to get their act together&thinsp;[^2] before I switch my contacts too and ditch Apple’s overpriced and underwhelming&thinsp;[^3] MobileMe for ever.
 
 [Dropbox](https://www.dropbox.com/)
 : I have a 100GB account with them on which I keep all my files including over 60GB of music. I can access all this data from anywhere.
@@ -65,7 +65,7 @@ Google Apps Premier and ~~MobileMe~~
 : Version 3 is so good it just doesn’t make sense to use anything else for hosting a regularly-updated website.
 
 [Amazon Cloudfront](https://aws.amazon.com/cloudfront/)
-: This powerful and amazingly cheap CDN serves all my non-gzippable[^4] files to readers of my website from its ever-expanding range of locations worldwide.
+: This powerful and amazingly cheap CDN serves all my non-gzippable&thinsp;[^4] files to readers of my website from its ever-expanding range of locations worldwide.
 
 ## Websites
 

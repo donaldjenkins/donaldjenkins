@@ -19,7 +19,7 @@ noindex: false
 ---
 
 {{% quotation main-title="Usages du Monde, règles du savoir-vivre dans la société moderne" url="https://gallica.bnf.fr/ark:/12148/bpt6k27975f/f4.image.texteImage" date="1891" publisher="Victor Havard" %}}
-A la fin d’une première entrevue, on ne donne pas non plus sa main, si des relations mondaines ultérieures ne doivent pas s’établir entre les deux interlocuteurs. Toutefois il arrive qu’à première vue naisse une sympathie aussi vive que soudaine entre deux personnes. Alors on peut avancer sa main ; c’est la manifestation extérieure de ce sentiment. Mais on mettra dans ce geste spontané une nuance de réserve, de timidité, comme si l’on disait : {{% quote %}}Je risque de me faire trouver bien familier{{% /quote %}}. Et, en effet, cette manière rapide de procéder pourrait fournir matière à critiques[^1].
+A la fin d’une première entrevue, on ne donne pas non plus sa main, si des relations mondaines ultérieures ne doivent pas s’établir entre les deux interlocuteurs. Toutefois il arrive qu’à première vue naisse une sympathie aussi vive que soudaine entre deux personnes. Alors on peut avancer sa main ; c’est la manifestation extérieure de ce sentiment. Mais on mettra dans ce geste spontané une nuance de réserve, de timidité, comme si l’on disait : {{% quote %}}Je risque de me faire trouver bien familier{{% /quote %}}. Et, en effet, cette manière rapide de procéder pourrait fournir matière à critiques&thinsp;[^1].
 <-source->
 Baroness Staffe
 {{% /quotation %}}

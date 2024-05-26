@@ -86,7 +86,7 @@ I have actually been conducting backups of my various Macs using Amazon S3 ever 
 
 Arq’s accuracy is on a par with Jungle Disk’s, without the hassle: its Backup Bouncer [results](https://web.archive.org/web/20100303071816/https://www.haystacksoftware.com/arq/arq-backup-bouncer-test.txt) show it passes all tests, and it resides in a small, inconspicuous menu icon, from which you can launch the main application if you need to change a setting. It also has the advantage, over Jungle Disk, of being designed from the ground as a backup solution for the Mac, whereas Jungle Disk’s backup capacity is just one of a number of services, including mirroring files between client and server, that it offers on both Mac and Windows platforms — with the Mac often giving the impression of being the poor relation.
 
-Enquiries to the developer behind Haystack Software, Stefan Reitsamer, yielded extremely prompt and relevant responses and the site has a lively forum[^1] and detailed, well thought-out documentation. Above all, my entire backup for the MacBook Air that currently serves as my only computer was complete in less than a day (and that was on a rather poor, French Internet connection).
+Enquiries to the developer behind Haystack Software, Stefan Reitsamer, yielded extremely prompt and relevant responses and the site has a lively forum&thinsp;[^1] and detailed, well thought-out documentation. Above all, my entire backup for the MacBook Air that currently serves as my only computer was complete in less than a day (and that was on a rather poor, French Internet connection).
 
 ## Used in combination with Dropbox, Google Apps and, optionally, MobileMe, Amazon S3 can get you back working exactly where you were if something unexpected happens to your Mac
 

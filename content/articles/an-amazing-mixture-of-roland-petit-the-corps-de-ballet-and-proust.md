@@ -28,13 +28,13 @@ Roland Petit is unquestionably, with Lifar and Béjart, one of the three great F
 But this time, I was impressed even further. Brigitte Lefèvre and her _Corps de ballet_ have come pretty close to perfection with this series of thirteen _tableaux_ directly inspired by Proust’s {{% cite %}}À la recherche du temps perdu{{% /cite %}}. A recent interview of M Petit in {{% cite %}}Le Figaro{{% /cite %}} sheds some light on the artists intentions:
 
 {{% quotation main-title="Le Figaroscope" date="28 Feb. 2007" %}}
-**Vous avez une prédilection pour les romans que l’on adapte au ballet. Mais de là à vous attaquer à {{% quote %}}La Recherche{{% /quote %}}, il fallait une certaine audace[^1] !**
+**Vous avez une prédilection pour les romans que l’on adapte au ballet. Mais de là à vous attaquer à {{% quote %}}La Recherche{{% /quote %}}, il fallait une certaine audace&thinsp;[^1] !**
 
-Si je n’avais pas été chorégraphe, j’aurais réalisé des films. J’ai le sens du découpage cinématographique et c’est ce qui me dicte le sens de l’adaptation des romans que je porte à la scène. Pour La Recherche, j’étais tout de même un peu intimidé et j’avais demandé à Françoise Sagan, qui chérissait Proust, de faire l’adaptation. Ce qu’elle m’a donné ne convenait pas au ballet, je m’y suis donc mis moi-même[^2].
+Si je n’avais pas été chorégraphe, j’aurais réalisé des films. J’ai le sens du découpage cinématographique et c’est ce qui me dicte le sens de l’adaptation des romans que je porte à la scène. Pour La Recherche, j’étais tout de même un peu intimidé et j’avais demandé à Françoise Sagan, qui chérissait Proust, de faire l’adaptation. Ce qu’elle m’a donné ne convenait pas au ballet, je m’y suis donc mis moi-même&thinsp;[^2].
 
-La Recherche, c’est un peu comme la Bible. On peut tout y trouver[^3].
+La Recherche, c’est un peu comme la Bible. On peut tout y trouver&thinsp;[^3].
 
-Je me suis concentré sur les histoires d’amour. Swann et Odette et la métaphore du catleya, Charlus qui se fait battre dans les bordels pour hommes, la {{% quote %}}prisonnière{{% /quote %}} que son amant drogue et tient enfermée. Les scènes sont violentes, lyriques. D’une certaine manière, chez Proust tout est sexuel[^4].
+Je me suis concentré sur les histoires d’amour. Swann et Odette et la métaphore du catleya, Charlus qui se fait battre dans les bordels pour hommes, la {{% quote %}}prisonnière{{% /quote %}} que son amant drogue et tient enfermée. Les scènes sont violentes, lyriques. D’une certaine manière, chez Proust tout est sexuel&thinsp;[^4].
 <-source->
 Interview by Ariane Bavelier
 {{% /quotation %}}
@@ -46,7 +46,7 @@ The music, chosen for its heroic overtones, provides a magnificent sound frame f
 I was impressed well before the interval. But after Part II, an exploration of the {{% quote %}}Proustian inferno{{% /quote %}} , had begun, the work rose to yet more dizzy heights, technically, aesthetically and analytically. Eleonora Abbagnato (Albertine), Hervé Moreau (the young Proust), Stéphane Bullion (Morel), Manuel Legris (Charlus) and Mathieu Gagnio (Saint-Loup) had individually rehearsed with M Petit, who had then adapted his work to what he had gleaned from their separates styles and personalities. The scene where Morel and Saint-Loup, as angels, engage in a fight in the twelfth _tableau_, was, if you can judge from the applause it received, the evening’s pinnacle. It is said by M Petit to have been inspired by this phrase of Proust in {{% cite %}}Le temps retrouvé{{% /cite %}}:
 
 {{% quotation main-title="À la recherche du temps perdu" secondary-title="Le temps retrouvé, Chapter 1: Tansonville" date="1927" publisher="Gallimard" %}}
-Il est possible que Morel, étant excessivement noir, fut nécessaire à Saint-Loup comme l’ombre l’est au rayon de soleil[^5].
+Il est possible que Morel, étant excessivement noir, fut nécessaire à Saint-Loup comme l’ombre l’est au rayon de soleil&thinsp;[^5].
 <-source->
 Proust, Marcel
 {{% /quotation %}}

@@ -39,7 +39,7 @@ What such people overlook, of course, is that happiness is sometimes impossible 
 Rousseau’s sentimentalism, by its excessive emphasis on nature, I have always found unrealistic and hypocritical; ultimately, the very emphasis on sincerity backfires. There is no such thing as a natural, spontaneous state of happiness. Does this mean, then, that a quest for a sincere framework for a death wish is impossible? Not necessarily, and we hardly have to look far to see why. Werther, undoubtedly European literature’s most famous example of a death wish model, dies in an authentically untheatrical way. Yet, as Goethe himself points out to his secretary in 1821:
 
 {{% quotation main-title="Gespräche mit Goethe in den letzten Jahren seines Lebens" url="https://en.wikipedia.org/wiki/Moralia" date="1848" publisher="Bd. 3., Leipzig" pages="40" %}}
-Es müsste schlimm sein, wenn nicht jeder einmal in seinem Leben eine Epoche haben sollte, wo ihm der Werther käme, als wäre er bloß für ihn geschrieben[^1].
+Es müsste schlimm sein, wenn nicht jeder einmal in seinem Leben eine Epoche haben sollte, wo ihm der Werther käme, als wäre er bloß für ihn geschrieben&thinsp;[^1].
 <-source->
 Eckermann, Johann Peter
 {{% /quotation %}}

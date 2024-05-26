@@ -53,13 +53,13 @@ Regardless of which blogging software you choose, the procedure I suggest using 
 
 ## Drafting the post in Markdown: WriteRoom allows you to concentrate on writing
 
-When I want to draft a new post, the first thing I do is open ecto (or MarsEdit), choose the blog I want to post to from the list, fill in the title and then switch to WriteRoom: if using ecto, you are reduced to using copy/paste; in MarsEdit, you can actually designate an {{% quote %}}external editor{{% /quote %}}, although I have found that feature somewhat unreliable in Leopard [^1].
+When I want to draft a new post, the first thing I do is open ecto (or MarsEdit), choose the blog I want to post to from the list, fill in the title and then switch to WriteRoom: if using ecto, you are reduced to using copy/paste; in MarsEdit, you can actually designate an {{% quote %}}external editor{{% /quote %}}, although I have found that feature somewhat unreliable in Leopard &thinsp;[^1].
 
 The reason I insist on drafting in WriteRoom is that it allows me to concentrate on writing the post, without distractions: WriteRoom’s soothing, plain full-screen editor obscures everything other than my draft post, allowing me to do just that. It can be customized to look exactly as I want. All my spelling checking tools (which at this stage are all I need apart from keyboard and screen, since all the formatting I’m applying is in [Markdown](https://en.wikipedia.org/wiki/Markdown "Wikipedia Entry: Markdown")) are available in the application. Hitting <span class="shortcuts">ESC</span> allows me to toggle between WriteRoom and the rest of my Mac if I need to do so, for any reason. Of course, if you feel more comfortable drafting in TextMate (and a lot of people, when they get addicted to an application, tend to use it for absolutely everything) then by all means skip this step. I, however, find that WriteRoom allows me to concentrate on the writing part, and that TextMate’s strong point is for coding, which comes later.
 
 Writing my post in WriteRoom does marvels for my productivity and is in no way a luxury compared with writing directly in TextMate. Because it fills the screen and yet is such a powerful writing application, I can concentrate on the quality and structure of my content without being tempted to add a link, change the code or search the web for a picture. Doing things sequentially is really the key.
 
-At this point, I will be writing in [Markdown](https://en.wikipedia.org/wiki/Markdown "Wikipedia Entry: Markdown"), because that saves a lot of time, even though I will be converting the post to HTML well before it gets posted to my blog so that I don’t have to worry about text format at the later stages [^2].
+At this point, I will be writing in [Markdown](https://en.wikipedia.org/wiki/Markdown "Wikipedia Entry: Markdown"), because that saves a lot of time, even though I will be converting the post to HTML well before it gets posted to my blog so that I don’t have to worry about text format at the later stages &thinsp;[^2].
 
 ## Preparing images and media files: Use Photoshop, Amadeus and Switch as required
 
@@ -67,11 +67,11 @@ This is actually easy. Pictures may need to be reformatted in Photoshop to make 
 
 Don’t upload anything yet though, as we’ll be automating that process.
 
-On rare occasions when I need to include an audio file, I will usually work in [Amadeus Pro](https://www.hairersoft.com/AmadeusPro/ "Amadeus Pro") to get it the exact length and quality [^3].
+On rare occasions when I need to include an audio file, I will usually work in [Amadeus Pro](https://www.hairersoft.com/AmadeusPro/ "Amadeus Pro") to get it the exact length and quality &thinsp;[^3].
 
 I then upload media files using [Transmit](https://www.panic.com/transmit/ "Panic - Transmit 3 - The next-generation Mac OS X FTP client!"), definitely the best FTP desktop client for the Mac in my view.
 
-I could write a bundle to automate this within TextMate, but it hardly seems worth it as I very seldom include media files in my posts nowadays. In any case, taking advantage of the much improved image insertion features in both MarsEdit and ecto, I have recently switched to using [Flickr](https://flickr.com "Flickr") for storing my blog image files and this may be an alternative you will want to look at [^4]. The advantage of storing your blog illustration files on Flickr are that you don’t need to change URLs if you ever change domain names (as happened to me with this blog). Inserting images from a Flickr account on ecto is easy:
+I could write a bundle to automate this within TextMate, but it hardly seems worth it as I very seldom include media files in my posts nowadays. In any case, taking advantage of the much improved image insertion features in both MarsEdit and ecto, I have recently switched to using [Flickr](https://flickr.com "Flickr") for storing my blog image files and this may be an alternative you will want to look at &thinsp;[^4]. The advantage of storing your blog illustration files on Flickr are that you don’t need to change URLs if you ever change domain names (as happened to me with this blog). Inserting images from a Flickr account on ecto is easy:
 
 A very similar tool is available on MarsEdit.
 
