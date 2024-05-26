@@ -18,7 +18,7 @@ tableofcontents: false
 noindex: false
 ---
 
-{{% blockquote quote="The question is, shall we perish in the dark, slain by our own hand, or in the light, killed by our enemies." author="[Lord Selborne](https://en.wikipedia.org/wiki/William_Palmer,_2nd_Earl_of_Selborne), in the House of Lords, 10th August, 1911&hairsp;[^1]" %}}
+{{% blockquote quote="The question is, shall we perish in the dark, slain by our own hand, or in the light, killed by our enemies." author="[Lord Selborne](https://en.wikipedia.org/wiki/William_Palmer,_2nd_Earl_of_Selborne), in the House of Lords, 10th August, 1911&hairsp;[^1]." %}}
 
 In a perceptive Spectator [article](https://via.dj/3VfvHHt)&hairsp;[^2], Ed West well summarised the context in which Rishi Sunak decided to call an election in six weeks' time: in his view, the Tories' post-Brexit immigration policy was their biggest mistake. It meant the worst of both worlds for the country and for Tory coalition building, alienating both a large section of voters for leaving the EU, and the many cultural conservatives they picked up in 2019 who saw the referendum as a vote on immigration.
 
