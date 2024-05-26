@@ -69,7 +69,7 @@ The violence that the Left has unleashed in the main countries of the West, in o
 Only thus will the peoples of the West retain their traditional awareness, rooted in its Judeo-Christian spiritual roots, of the risks entailed by man's natural tendency to err, recognition of which is evidently the most defining characteristic of conservatism: this must surely be key to preventing the West's enemies, both without and within, from ruining the civilisation our ancestors sacrificed so much to build, and which we yearn to pass on, intact and if possible improved, to our children.
 
 [^1]: Dangerfield, G. _The Strange Death of Liberal England_. 1935. Second Edition, Capricorn Books, 1961, babel.hathitrust.org/cgi/pt?id=mdp.39015031589149&seq=15.
-[^2]: West, Ed. <q>How Bad Will a Labour Government Be?</q> The Spectator, 24 May 2024, www.spectator.co.uk/article/how-bad-will-a-labour-government-be.
-[^3]: _The Economist_. <q>David Cameron Is Not Too Posh.</q> The Economist, 4 Apr. 2012, www.economist.com/britain/2012/04/07/david-cameron-is-not-too-posh.
+[^2]: West, Ed. <q>How Bad Will a Labour Government Be?</q> _The Spectator_, 24 May 2024, www.spectator.co.uk/article/how-bad-will-a-labour-government-be.
+[^3]: _The Economist_. <q>David Cameron Is Not Too Posh.</q> _The Economist_, 4 Apr. 2012, www.economist.com/britain/2012/04/07/david-cameron-is-not-too-posh.
 [^4]: Orwell, George. _Collected Essays, Journalism and Letters: My Country, Right or Left, 1940-1943_. Edited by Sonia Orwell and Ian Angus, vol. 2, Penguin, 1970, www.fadedpage.com/books/20180531/html.php.
 [^5]: On this subject, _v._&nbsp;an interesting article, arguing that Orwell's 1941 _The Lion and the Unicorn_ is <q>a brilliant, deeply flawed essay [that] has lessons for modern times</q>: Smith, Noah. <q>Orwell’s <q>the Lion and the Unicorn.</q></q> _Noahpinion_, 27 July 2021, www.noahpinion.blog/p/orwells-the-lion-and-the-unicorn.
