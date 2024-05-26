@@ -10,7 +10,7 @@ layout: "single"
 slug: "the-strange-death-of-tory-england"
 draft: false
 description: "The Tory Party should use its likely long period in opposition to re-embrace traditional values"
-summary: "Likely defeat in July's general election will be a watershed moment for the Uk, but also for the Tories: with nothing to show after thirteen years in office, they can regain the trust of voters who like their country and reject the extreme prescriptions of the radical left."
+summary: "Likely defeat in July's general election will be a watershed moment for the UK, but also for the Tories: with nothing to show after thirteen years in office, they need to regain the trust of voters who like their country and reject the extreme prescriptions of the radical left."
 featured_image: "16cd1cc1-fafa-4a00-3b89-a5a454203b00"
 author: "Donald Jenkins"
 showthedate: false
@@ -32,7 +32,7 @@ The roots of this phenomenon are more ancient than most observers would think. G
 
 > England is perhaps the only great country whose intellectuals are ashamed of their own nationality. In left-wing circles it is always felt that there is something slightly disgraceful in being an Englishman and that it is a duty to snigger at every English institution, from horse racing to suet puddings. It is a strange fact, but it is unquestionably true that almost any English intellectual would feel more ashamed of standing to attention during 'God save the King' than of stealing from a poor box&thinsp;[^4].
 
-What _The Economist_, David Cameron and the self-proclaimed modernisers did not grasp was that, as Orwell pointed out, People like their country—not just in Britain, but the world over. Attempts to dilute Tory values, which are deeply interwined with the traditional British values Orwell describes, were bound to baffle the vast majority of voters, who like Britain and British values and, by the time of the Brexit referendum, had already become tired of being told that they were worthless .
+What _The Economist_, David Cameron and the self-proclaimed modernisers did not grasp was that, as Orwell pointed out, _people like their country_—not just in Britain, but the world over. Attempts to dilute Tory values, which are deeply interwined with the traditional British values Orwell describes, were bound to baffle the vast majority of voters, who like Britain and British values and, by the time of the Brexit referendum, had already become tired of being told that they were worthless .
 
 Yet by winning an eighty-seat majority for the Tories on a clear manifesto commitment to <q>get Brexit done,</q> Boris Johnson put that trend into reverse. He implicitly received a mandate from electors, foremost among them the white working-class [Red Wall](<https://en.wikipedia.org/wiki/Red_wall_(British_politics)>) voters, not just to get Brexit done, but to defend traditional British values.
 
