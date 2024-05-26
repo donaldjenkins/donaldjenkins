@@ -43,7 +43,7 @@ In this post, I’ll recount how I set up my new (ve) server, combining it with 
 
 I’ve been very happily hosted by [Media Temple](https://www.godaddy.com/mediatemple) since 2006 and, since 2008, I’ve been using one of their [(dv) servers](https://web.archive.org/web/20101229115935/https://mediatemple.net/webhosting/dv/). I almost invariably get 100 per cent uptime from it, it’s fast and, of course, when needed Media Temple provide live, 24-hour support 365 days a year: I’ve always found their experts reliable, very smart and often happy to provide support—on the rare occasions when I’ve needed it—well beyond the bounds of what is required.
 
-Media Temple recently started offering a service called [SiteMovers](https://web.archive.org/web/20120126020925/https://mediatemple.net/sitemover/#about)—a team comprising the company’s sharpest support experts, dedicated to carrying out WordPress site migrations. I knew I probably didn’t need help with the migration, but curiosity got the better of me and I contacted the SiteMovers team to ask if they were interested in helping with migrating my _very_ heavily customized WordPress-powered blog. After just a few minutes the team called back to say they’d be delighted to do so—and although I ended up doing most of the migration myself, they provided me with very useful suggestions throughout: the MySQL optimization I set up was entirely the result of their suggestions, and I’d highly recommend using them for anyone who feels uncomfortable about the process described in this post &thinsp;[^1].
+Media Temple recently started offering a service called [SiteMovers](https://web.archive.org/web/20120126020925/https://mediatemple.net/sitemover/#about)—a team comprising the company’s sharpest support experts, dedicated to carrying out WordPress site migrations. I knew I probably didn’t need help with the migration, but curiosity got the better of me and I contacted the SiteMovers team to ask if they were interested in helping with migrating my _very_ heavily customized WordPress-powered blog. After just a few minutes the team called back to say they’d be delighted to do so—and although I ended up doing most of the migration myself, they provided me with very useful suggestions throughout: the MySQL optimization I set up was entirely the result of their suggestions, and I’d highly recommend using them for anyone who feels uncomfortable about the process described in this post &hairsp;[^1].
 
 Whatever you do, back up all your files before editing, deleting or moving anything. I cannot be responsible for anything that happens to your setup as this is only an account of what worked for me. It may not necessarily work for you.
 
@@ -79,7 +79,7 @@ This was perhaps where the advantage of (ve) over (dv) is most apparent. You can
 
 I found, however, that in addition to this, it’s useful to decide how you want to organize your permissions, for both groups and individual users: it can make sense to have a single user and group (such as the existing www-data group which is created on setup) to own all resources in `/var/www`, which is where all the data relating to websites you host on your server will be stored, while leaving the ownership of all other directories unchanged. You may want to invest a little time in understanding [Linux directory structure](https://via.dj/t1LebC) _before_ you take any decisions on this, as it’s not always ideal having to change your system later on.
 
-It is also well worth following the Media Temple suggestions to secure your server, though these are optional: changing your ssh port, disabling root access and using ip-tables. I found I needed to add to the [default](https://i.via.dj/CdrZ) suggested by Media Temple, however, because of my fondness for using desktop, third-party client for everything: I need to access MySQL remotely from my Mac (my client of choice being the excellent [Sequel Pro](https://www.sequelpro.com/)), as well as ssh from [Coda](https://www.panic.com/coda/), which I use for all my coding and file transfers (and which you can also use to safely edit text files &thinsp;[^2] ). If you install [webmin](https://www.webmin.com/)—and Media Temple provide a knowledge base article for this too—, you’ll also need to add `-A INPUT -p tcp -m state –state NEW -m tcp –dport 10000 -j ACCEPT` to your `/etc/iptables.rules` file in order to access the webmin interface.
+It is also well worth following the Media Temple suggestions to secure your server, though these are optional: changing your ssh port, disabling root access and using ip-tables. I found I needed to add to the [default](https://i.via.dj/CdrZ) suggested by Media Temple, however, because of my fondness for using desktop, third-party client for everything: I need to access MySQL remotely from my Mac (my client of choice being the excellent [Sequel Pro](https://www.sequelpro.com/)), as well as ssh from [Coda](https://www.panic.com/coda/), which I use for all my coding and file transfers (and which you can also use to safely edit text files &hairsp;[^2] ). If you install [webmin](https://www.webmin.com/)—and Media Temple provide a knowledge base article for this too—, you’ll also need to add `-A INPUT -p tcp -m state –state NEW -m tcp –dport 10000 -j ACCEPT` to your `/etc/iptables.rules` file in order to access the webmin interface.
 
 At this point in the migration I found I could gain substantial time by creating [TextExpander](https://textexpander.com/) shortcuts for my ssh logins, for the webmin URL (`https://YOUR&lt;em&gt;DOMAIN&lt;/em&gt;IP:10000`) and for restarting Apache (`sudo /etc/init.d/apache2 restart`): considering the number of times one needs to type them in, the combination of the command-line and TextExpander shortcuts is a huge time saver (make sure your Mac is secured by a really secure password and [Filevault](https://en.wikipedia.org/wiki/FileVault), if you do this, obviously).
 
@@ -122,7 +122,7 @@ This, not surprisingly, is at once the most enjoyable and the most frustrating s
 
 ### Make sure `mod_rewrite` is enabled
 
-Firstly, I found Rewrite is not enabled by default on my server. As a result, any `.htaccess` files in my existing WordPress configuration were being ignored and the custom URLs set in my WordPresss were not working &thinsp;[^3]. All you need to do to solve this is to ensure that `mod_rewrite` is enabled, as follows:
+Firstly, I found Rewrite is not enabled by default on my server. As a result, any `.htaccess` files in my existing WordPress configuration were being ignored and the custom URLs set in my WordPresss were not working &hairsp;[^3]. All you need to do to solve this is to ensure that `mod_rewrite` is enabled, as follows:
 
 ```
 # sudo a2enmod rewrite
@@ -136,7 +136,7 @@ Then restart Apache:
 
 ### Configure the server so WordPress can access your FTP credentials
 
-Secondly, I found that, when I tried to download any plugins, I was unable to update FTP details in the WordPress administration panel, in order to download plugins &thinsp;[^4]: instead I’d get a [error message](https://i.via.dj/CVeD) requesting that I update details—and the corresponding fields would be frozen and not accept updates.
+Secondly, I found that, when I tried to download any plugins, I was unable to update FTP details in the WordPress administration panel, in order to download plugins &hairsp;[^4]: instead I’d get a [error message](https://i.via.dj/CVeD) requesting that I update details—and the corresponding fields would be frozen and not accept updates.
 
 The reason for this—which I discovered thanks to [this blog post](https://web.archive.org/web/20120312074046/https://envyandroid.com/archives/434/make-wordpress-work-linux)—is that in current versions of WordPress, it checks if the userid it is running under, is the same as the owner of the file or folder it tries to edit: the issue arises at line 876 in the method get*filesystem*method in `wordpress/wp-admin/includes/file.php`:
 
@@ -163,7 +163,7 @@ Servers send email in a variety of ways that you can configure more or less as y
 
 [SendMail](https://en.wikipedia.org/wiki/Sendmail), a a general purpose Internet mail routing facility that supports many kinds of mail-transfer and -delivery methods, is installed by default on a (dv) server—and is what PHP’s Mail hooks into to send emails from your contact forms, for instance, unless you’ve set another MTA in your server. I found that SendMail hadn’t been installed, and that as a result my [contact form](/contact/) was not working. Since I only needed to send emails, and was using my Google Apps address as the outgoing mail address, I was actually looking for a lightweight alternative that would only handle sending, but would enable my emails to be routed and authentified via gmail’s SMTP server, ensuring that they would not get flagged as spam.
 
-I did it in the following way. First, I installed [sSMTP](https://github.com/ajwans/sSMTP)&thinsp;[^5] :
+I did it in the following way. First, I installed [sSMTP](https://github.com/ajwans/sSMTP)&hairsp;[^5] :
 
 ```
 # sudo apt-get install ssmtp
@@ -241,7 +241,7 @@ To do this, move or replace the sendmail and then create a symbolic link for sSM
 
 This side of things is extremely simple. You just need to download your theme files and save a copy of your database, and update any paths in them to reflect the (ve) directory structure, which is difference from that in the (dv): the (dv) places your WordPress files in `/var/www/vhosts/YOUR&lt;em&gt;DOMAIN&lt;/em&gt;NAME/httpdocs`, whereas the (ve) stores them in `/var/www:YOUR&lt;em&gt;DOMAIN&lt;/em&gt;NAME/html`.
 
-There are several ways of doing this: use that which suits you best. Whichever way you choose, of course, make full backups of everything before you change anything &thinsp;[^6] You should also compact and repair your database to keep it lean, and remove any tables that are no longer needed (such as those created by old plugins you’ve uninstalled).
+There are several ways of doing this: use that which suits you best. Whichever way you choose, of course, make full backups of everything before you change anything &hairsp;[^6] You should also compact and repair your database to keep it lean, and remove any tables that are no longer needed (such as those created by old plugins you’ve uninstalled).
 
 I ran a search-and-replace on the saved version of my database in [TextWrangler](https://itunes.apple.com/us/app/textwrangler/id404010395?mt=12), a robust code editor for the Mac that can carry out regex operations on even the most gigantic of files. Then I ran the same operation in [Coda](https://www.panic.com/coda/) for the theme files.
 

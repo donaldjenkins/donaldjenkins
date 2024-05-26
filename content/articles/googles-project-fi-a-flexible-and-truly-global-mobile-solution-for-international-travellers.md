@@ -36,11 +36,11 @@ In all situations, whether you’re using Wi-Fi or cellular data, you can always
 
 Applying online is a breeze. You have to apply using a Gmail account (see why below). Google checks you live in an area in which you have coverage by checking your zip code.
 
-You’re then given a choice between [porting your own number](https://support.google.com/fi/answer/6150327?hl=en) or getting a new number allotted to you by Google. I chose the latter because I didn’t want to add an extra layer of complication before committing to Project Fi and was secure in the knowledge that I could port my number to Fi later&thinsp;[^1]. Before you do this, it might be worth understanding [how number porting actually works](https://www.npac.com/canadian-number-portability/how-lnp-works), as in some cases texts will take longer to start coming through than calls. I had to ask Project Fi support to escalate a support case regarding the time lag for texts to come through to my new phone on my old number after it had been ported to Project Fi.
+You’re then given a choice between [porting your own number](https://support.google.com/fi/answer/6150327?hl=en) or getting a new number allotted to you by Google. I chose the latter because I didn’t want to add an extra layer of complication before committing to Project Fi and was secure in the knowledge that I could port my number to Fi later&hairsp;[^1]. Before you do this, it might be worth understanding [how number porting actually works](https://www.npac.com/canadian-number-portability/how-lnp-works), as in some cases texts will take longer to start coming through than calls. I had to ask Project Fi support to escalate a support case regarding the time lag for texts to come through to my new phone on my old number after it had been ported to Project Fi.
 
 One other issue to consider when porting your number is how you want to handle [Caller ID](https://en.wikipedia.org/wiki/Caller_ID).
 
-Caller ID in the US is handled by a database called CNAM. It is worth bearing in mind that Caller ID is made up of two separate pieces of information: the calling number and the billing (or subscriber) name where available. When a call is made from a given name, this name can be passed on through a number of different methods. For example, the caller’s name may be datafilled in the originating switch, in which case it is sent along with the number&thinsp;[^2].
+Caller ID in the US is handled by a database called CNAM. It is worth bearing in mind that Caller ID is made up of two separate pieces of information: the calling number and the billing (or subscriber) name where available. When a call is made from a given name, this name can be passed on through a number of different methods. For example, the caller’s name may be datafilled in the originating switch, in which case it is sent along with the number&hairsp;[^2].
 
 Confusingly, Google offers its own Caller ID service, [Caller ID by Google](https://support.google.com/phoneapp/answer/3459196?hl=en&visit_id=638193920746398743-1324230935&rd=1), which is an entirely separate system to the CNAM-sourced Caller ID and allows you to see inbound and outbound phone numbers for people not saved as contacts. When enabled, this uses any information you and the parties with whom you interact have made publicly available on Google to display when making a phone call. It works in both directions: your information (typically, any information you’ve made publicly available on your Google+ account) will be shown to any compatible Android device to which you make a phone call. Conversely you will see the publicly-available information associated with the number for any phone call you receive or make, even if they aren’t already in your contacts.
 
@@ -62,7 +62,7 @@ If you need support you are given a choice of phone, email or (on the website) c
 
 Possibly the most powerful and innovative feature of project Fi, however, is that it’s completely device agnostic. Google archived this by building Fi to work, out of the box, in deep integration with its [Google Hangouts](https://via.dj/29Iaz6A) communications platform.
 
-Because unlike Apple’s iMessage, Hangouts is platform agnostic, official clients exist for it on all for all the main devices: iOS, the Mac, Windows and Android&thinsp;[^3]. This means you can actually use your device on all your devices seamlessly.
+Because unlike Apple’s iMessage, Hangouts is platform agnostic, official clients exist for it on all for all the main devices: iOS, the Mac, Windows and Android&hairsp;[^3]. This means you can actually use your device on all your devices seamlessly.
 
 On Android, unlike iOS, you are free to choose any third-party client for most functionality. Thus for SMS, you can choose to use Hangouts as your SMS provider and, with a Project Fi phone, once you have [activated that change](https://via.dj/29Iayj5), your text messages and voicemail (though not, unfortunately, your call history) will sync across Hangouts everywhere, including: Gmail chat, Google+ Page or profile, Chrome desktop app, Android or iOS device, Inbox by Gmail, or the Chrome extension. You can also make and receive calls on any device that has the Hangouts client installed.
 
@@ -91,15 +91,15 @@ As Google points out, if you set up a data-only SIM with a phone, you will have 
 
 For anyone who, like me, moves between two or more countries and has mobile phone contracts in each location (in my case the US and France), Project Fi provides the ideal setup:
 
-- when in the US, I can either use my Project Fi Nexus 5X and optionally receive my French texts on my iPad using Apple’s Apple’s [Continuity](https://support.apple.com/en-us/HT204681) feature&thinsp;[^4] or carry both phones, with my French iPhone using my Project Fi phone as a hotspot;
+- when in the US, I can either use my Project Fi Nexus 5X and optionally receive my French texts on my iPad using Apple’s Apple’s [Continuity](https://support.apple.com/en-us/HT204681) feature&hairsp;[^4] or carry both phones, with my French iPhone using my Project Fi phone as a hotspot;
 - when in France, my French iPhone with the Hangouts iOS client installed means I can receive and make calls and SMS from and two both my US and French numbers;
 - when in any other country, such as the UK or Israel, I can use my Android Project Fi phone and iPad with the Project Fi data-only SIM card installed exactly as if I were in the US.
 
 Project Fi’s drawbacks — principally that it isn’t offered with Google Apps accounts and that you have to use it on a Nexus phone — are worth bearing with.
 
-I’ve been using [Google Apps for Work](https://en.wikipedia.org/wiki/Google_Workspace) for my email ever since it was first launched as Google Apps for Your Domain in 2006, because it means I retain control of my email address while using the unrivalled power of Gmail’s servers. Yet I’ve had to keep a separate Gmail account open for the specific purpose of using features that Google hasn’t made available for Google Apps&thinsp;[^5].
+I’ve been using [Google Apps for Work](https://en.wikipedia.org/wiki/Google_Workspace) for my email ever since it was first launched as Google Apps for Your Domain in 2006, because it means I retain control of my email address while using the unrivalled power of Gmail’s servers. Yet I’ve had to keep a separate Gmail account open for the specific purpose of using features that Google hasn’t made available for Google Apps&hairsp;[^5].
 
-When Project Fi launched last year, Google stated a Gmail account was required to use the service, and it [doesn’t seem to be in any hurry](https://support.google.com/fi/community?hl=en&gpf=#!topic/project-fi/H6CnhXueX7U&visit_id=638193920747642858-4252092672&rd=1) to open it to Google Apps customers&thinsp;[^6].
+When Project Fi launched last year, Google stated a Gmail account was required to use the service, and it [doesn’t seem to be in any hurry](https://support.google.com/fi/community?hl=en&gpf=#!topic/project-fi/H6CnhXueX7U&visit_id=638193920747642858-4252092672&rd=1) to open it to Google Apps customers&hairsp;[^6].
 
 In practice, however, the restriction can be effectively circumvented, owing to Google’s option to [sign in to multiple accounts at once](https://support.google.com/accounts/answer/1721977?hl=en). On my phone and iPad, I keep my Gmail account active on Hangouts and my Google Apps account active on everything else (Gmail, Contacts, Calendar and Search). This effectively neutralises the inconvenience.
 
@@ -107,7 +107,7 @@ The annoyance of having to use an Android phone for Project Fi is less trivial. 
 
 If anyone calls you while you only have access to Hangouts, your Hangouts client will ring and you can answer the call normally. The same goes for SMS.
 
-This effectively allows you to use two different phone numbers - indeed, phone numbers from two different countries - on a single phone, something I’d been wanting to do for a long time and cannot be done in such a simple way or so cheaply with any other carrier&thinsp;[^7].
+This effectively allows you to use two different phone numbers - indeed, phone numbers from two different countries - on a single phone, something I’d been wanting to do for a long time and cannot be done in such a simple way or so cheaply with any other carrier&hairsp;[^7].
 
 One final thought: Google are renowned for eventually pulling up the drawbridge on products they’ve set up, amid shows of great enthusiasm, and invested in heavily, often without providing users with much notice or anywhere to go once service is terminated. Google Buzz, Google Apps Free edition, Google Reader, Google Talk and Picasa spring to mind. It can’t be ruled out Google will lose interest in Project Fi, possibly to the point where it would make sense in future to port one’s number again to another provider. That’s a risk I’m quite happy to factor in: at this point, project Fi suits my admittedly atypical highly international mobile phone requirements perfectly.
 

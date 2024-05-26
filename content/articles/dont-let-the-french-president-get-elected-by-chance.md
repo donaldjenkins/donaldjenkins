@@ -29,7 +29,7 @@ Si plus de deux candidats ont dépassé ce seuil, rien ne change et les deux qui
 
 Si ce système avait existé dans le passé, il aurait joué deux fois. En 1988, le tour intermédiaire aurait redonné une chance à Raymond Barre, peut-être plus apte que Jacques Chirac à l’emporter sur François Mitterrand. Jean-Marie Le Pen eût également été présent, mais seulement à ce tour intermédiaire, à la différence de 2002, où Lionel Jospin et François Bayrou auraient disputé au moins un tour de plus.
 
-L’on peut juger tout cela, a priori, bien compliqué. Toutefois, premièrement, c’est assez aisément explicable et compréhensible, et pourrait provoquer un consensus entre droite et gauche, contre lequel même les extrêmes auraient du mal à s’élever. Deuxièmement, de deux choses l’une : ou le dispositif ne sert jamais, et rien n’aura changé, ou il devra être activé et l’on sera alors bien heureux qu’il existe&thinsp;[^1].
+L’on peut juger tout cela, a priori, bien compliqué. Toutefois, premièrement, c’est assez aisément explicable et compréhensible, et pourrait provoquer un consensus entre droite et gauche, contre lequel même les extrêmes auraient du mal à s’élever. Deuxièmement, de deux choses l’une : ou le dispositif ne sert jamais, et rien n’aura changé, ou il devra être activé et l’on sera alors bien heureux qu’il existe&hairsp;[^1].
 <-source->
 Carcassonne, Guy and Duhamel, Olivier
 {{% /quotation %}}

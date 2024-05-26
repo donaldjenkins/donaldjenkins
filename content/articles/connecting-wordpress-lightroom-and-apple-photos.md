@@ -22,7 +22,7 @@ noindex: false
 **Update 12th May, 2023**: I have now moved my site from WordPress to Hugo and am no longer using the workflow presented in this post, since a static site doesn't require an economic model based on plugins and PHP.
 {{% /alert %}}
 
-While any serious photographer will use several cameras and lenses, the dramatic improvement in the quality of Apple’s iPhone cameras has led many people, me included, to take the majority of their photographs on their phones&thinsp;[^1]. A lot of these pictures may end up on an Instagram or Facebook profile—easily done directly from an iPhone—rather than a WordPress site. But if, like me, you wish to keep your photographs in some semblance of order and also display them on your site, the iPhone will have introduced additional complexity into your workflow.
+While any serious photographer will use several cameras and lenses, the dramatic improvement in the quality of Apple’s iPhone cameras has led many people, me included, to take the majority of their photographs on their phones&hairsp;[^1]. A lot of these pictures may end up on an Instagram or Facebook profile—easily done directly from an iPhone—rather than a WordPress site. But if, like me, you wish to keep your photographs in some semblance of order and also display them on your site, the iPhone will have introduced additional complexity into your workflow.
 
 The complexity grows further if, like me, you want to display your photographs in your WordPress website without using a resource-draining plugin, and retain consistency between the images on your website and those in your Apple [Photos](https://www.apple.com/ios/photos/ "The official Apple Photos for iOS page") Library.
 
@@ -52,9 +52,9 @@ I assigned a location and title to all the scanned photographs, which you can do
 The second reason that prompted me to switch to the Apple Photos ecosystem was that a great deal of the photo editing work that I used to carry out in Lightroom can now be done directly in Apple Photos. This can be done in two ways:
 
 - first, you can use the editing tool built-in to Apple Photos, which allows you to edit a photo directly using any client app that offers built-in support for this feature;
-- alternatively, you can edit the photo separately in any third-party app (I personally prefer [Snapseed](https://itunes.apple.com/app/id439438619 "Snapseed"))&thinsp;[^2].
+- alternatively, you can edit the photo separately in any third-party app (I personally prefer [Snapseed](https://itunes.apple.com/app/id439438619 "Snapseed"))&hairsp;[^2].
 
-The Apple Photos ecosystem, however, is a relatively closed one, which results in a large number of constraints when you want to display or move your photographs outside of it. Your shots are not individually identifiable, as files, in the way they are in Lightroom, within Apple’s Photos Library&thinsp;[^3]. You can share photos from Apple Photos, but [there is no easy way](https://www.organizepictures.com/2016/01/move-away-from-photos "6 steps to move away from Photos on your Mac") of exporting your photos, individually or collectively, let alone synchronizing them with anything else. From this point of view, the switch to Photos from Lightroom was a step backwards.
+The Apple Photos ecosystem, however, is a relatively closed one, which results in a large number of constraints when you want to display or move your photographs outside of it. Your shots are not individually identifiable, as files, in the way they are in Lightroom, within Apple’s Photos Library&hairsp;[^3]. You can share photos from Apple Photos, but [there is no easy way](https://www.organizepictures.com/2016/01/move-away-from-photos "6 steps to move away from Photos on your Mac") of exporting your photos, individually or collectively, let alone synchronizing them with anything else. From this point of view, the switch to Photos from Lightroom was a step backwards.
 
 For some time I’d been looking for a workflow that gave me the best of both worlds: the ability to store and edit all my photographs on my iPhone, but also for them to be available in the Classic desktop iteration of Lightroom, should I need the more powerful features that system offers, chief among them (as we shall see) the ability to sync with photos published on my WordPress site. New features that became available in the Adobe ecosystem convinced me to partly switch back to using Lightroom to manage my photos, including those I display on my WordPress site.
 
@@ -68,7 +68,7 @@ Adobe reacted to Apple’s new Photos ecosystem, in 2017, by splitting its own L
 Confusingly, the photo libraries used by Lightroom Classic CC and Lightroom CC are not identical:
 
 - the Lightroom Classic CC library continues to be stored on your desktop hard drive, in `*.lrcat` format;
-- in Lightroom CC, all your photos are stored online by Adobe. You can choose to store them locally too: in this case, however, Lightroom CC stores your entire library in one place&thinsp;[^4].
+- in Lightroom CC, all your photos are stored online by Adobe. You can choose to store them locally too: in this case, however, Lightroom CC stores your entire library in one place&hairsp;[^4].
 
 The way in which you organize your work is also different:
 
@@ -80,11 +80,11 @@ The key difference, however, is plugins: Lightroom Classic CC supports plug-ins 
 There is one last crucial difference between Lightroom Classic CC and Lightroom CC:
 
 - Lightroom Classic CC is a closed ecosystem: you can import photos into it, and in fact the range of options available to you in that respect is quite broad, since you can choose to reference photos located anywhere, without moving them, or import them and move them to a new location—but you can’t make it sync with anything;
-- Lightroom CC, on the other hand, can be made to _automatically_ import&thinsp;[^5] photos from your camera roll.
+- Lightroom CC, on the other hand, can be made to _automatically_ import&hairsp;[^5] photos from your camera roll.
 
 {{% img src="f98336bf-e16e-49b5-8f7e-ea9084df2700" caption="Lightroom CC can be set to automatically import everything from your iOS device. This effectively injects all your new photos into the Adobe Cloud ecosystem." %}}
 
-The last point to understand, for our purposes, is that the two versions of Lightroom can be made to work together, allowing us to combine the respective advantages we have just described for each of them. This is because Lightroom Classic CC can sync with Lightroom CC; and since the latter can automatically import images from Apple Photos, we have a way of pushing photos we take with our iPhone all the way to Adobe Lightroom Classic CC on our Mac desktop&thinsp;[^6].
+The last point to understand, for our purposes, is that the two versions of Lightroom can be made to work together, allowing us to combine the respective advantages we have just described for each of them. This is because Lightroom Classic CC can sync with Lightroom CC; and since the latter can automatically import images from Apple Photos, we have a way of pushing photos we take with our iPhone all the way to Adobe Lightroom Classic CC on our Mac desktop&hairsp;[^6].
 
 Photos shot on cameras other than my iPhone can easily be incorporated into this workflow. There are several ways if doing this but I find the easiest and most logical to be importing them into Apple Photos by using a [Lightning to SD Card Camera Reader](https://www.apple.com/shop/product/MJYT2AM/A/lightning-to-sd-card-camera-reader "Lightning to SD Card Camera Reader"). This ensures all my photographs, regardless of what device they were taken on, will be available on both the Apple Photos ecosystem and, once imported via Lightroom CC, on Adobe Cloud and, eventually, on Lightroom Classic CC.
 
@@ -128,7 +128,7 @@ There is a {{% quote %}}Collections &amp; Keywords{{% /quote %}} screen in WP/LR
 
 {{% img src="d30308ad-30f6-456d-e5b8-b57e35947900" caption="The settings panel for the WP/LR Sync plugin for WordPress displays a list of galleries that match the smart collections created in Lightroom Classic CC. Unlike other gallery plugins, WP/LR Sync doesn’t create proprietary galleries: instead, it allows you to use attributes (collections=’…’, keywords=’…’) in the standard WP Gallery shortcode to link your galleries to your collections and keywords in Lightoom dynamically." %}}
 
-As you can see from the illustrations in this article, I chose to create additional Lightroom collections to store content that went beyond photographs authored by me: I set up smart collections for featured images, post illustrations, and system images. The advantage of this is that you can set a large number of metadata (such as those relating to copyright and Creative Commons licenses&thinsp;[^7]. The only limitation on the latter point is due not to WP/LR Sync, but to Lightroom’s policy of converting all PNG files to JPG on export, meaning any PNG or SVG files must be uploaded to your WordPress Media Library separately.
+As you can see from the illustrations in this article, I chose to create additional Lightroom collections to store content that went beyond photographs authored by me: I set up smart collections for featured images, post illustrations, and system images. The advantage of this is that you can set a large number of metadata (such as those relating to copyright and Creative Commons licenses&hairsp;[^7]. The only limitation on the latter point is due not to WP/LR Sync, but to Lightroom’s policy of converting all PNG files to JPG on export, meaning any PNG or SVG files must be uploaded to your WordPress Media Library separately.
 
 While the open standards scrupulously adhered to by WP/LR Sync’s developer (he rightly stresses that every image in your WordPress must be in the Media Library) mean you are not in any way constrained within his extensive plugin ecosystem when it comes to displaying your photos in WordPress once they have made it there, it actually makes a lot sense to use his [Gallery](https://meowapps.com/plugin/meow-gallery/ "Meow Gallery plugin for WordPress") and [Lightbox](https://meowapps.com/plugin/meow-lightbox/ "Meow Lightbox plugin for WordPress") plugins: they are relatively lightweight (though an option to disable any unused javascript would be welcome in a future version), elegantly designed with photographers in mind, and obviously tightly integrated with WP/LR Sync.
 
@@ -141,7 +141,7 @@ There is almost no limit to the combinations that you can display using this pow
 The Meow plugin ecosystem provides several useful (but obviously completely optional) additions that can be usefully integrated into this setup:
 
 [Gallery Custom Links](https://meowapps.com/plugin/gallery-custom-links/ "Gallery Custom Links for WordPress"), allows you to link images from galleries to a specified URL; you can use it, for instance, to point your gallery images towards the equivalent entry in Flickr or Instagram;
-[WP Retina 2x](https://meowapps.com/plugin/wp-retina-2x/ "WP Retina 2x for WordPress"), as its name indicates, automatically generates the image files required by Retina (or any high-DPI) devices and displays them to site visitors&thinsp;[^8];
+[WP Retina 2x](https://meowapps.com/plugin/wp-retina-2x/ "WP Retina 2x for WordPress"), as its name indicates, automatically generates the image files required by Retina (or any high-DPI) devices and displays them to site visitors&hairsp;[^8];
 [Media File Renamer](https://meowapps.com/plugin/media-file-renamer/ "Media Fie Renamer for WordPress") renames media files, either automatically or manually; I inevitably end up with a relatively untidy jumble of file names in Lightroom, which the latter makes it difficult to tidy up—this makes it possible to have a clean file-name structure in WordPress, where this actually helps with SEO.
 
 {{% img src="76f0054b-59f5-4f0c-12a6-2e13ec7e4900" caption="If you install the Pro version of Meow’s Retina 2x plugin, it will automatically generate Retina images for each of the images in your WordPress Media Library, providing the size of the image you originally uploaded allows it. With WordPress supporting the srcset attribute, this ensures the right-sized images will be displayed even to users with Retina screens" %}}

@@ -20,7 +20,7 @@ noindex: false
 
 As I write this from New York, The Queen has yet to call for someone to ask him to take over from Mr Brown’s outgoing Socialist administration following last week’s General Election and the resulting hung Parliament.
 
-Much has already been written about this, so I’m not going to analyse the result yet again. The best Tory view on what we should hope for was perhaps expressed by Toby Young&thinsp;[^1] in the {{% cite %}}Daily Telegraph{{% /cite %}} on Friday. My main interest lies in trying to define exactly what vision of tomorrow’s Britain a Tory Government could stand for: amid the endless debate about the likely outcome, this has surprisingly been totally overlooked.
+Much has already been written about this, so I’m not going to analyse the result yet again. The best Tory view on what we should hope for was perhaps expressed by Toby Young&hairsp;[^1] in the {{% cite %}}Daily Telegraph{{% /cite %}} on Friday. My main interest lies in trying to define exactly what vision of tomorrow’s Britain a Tory Government could stand for: amid the endless debate about the likely outcome, this has surprisingly been totally overlooked.
 
 Understanding this issue requires placing it in an historical perspective, something that Mr Blair and his Labour Party, who have shown open contempt for the Nation’s history in their desire to mould a New Britain in their New Labour’s image, have made us forget about: if the Tories themselves had done this properly, they would have been less open to accusations of arrogance, vacuity and gimmickness.
 

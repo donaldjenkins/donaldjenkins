@@ -19,14 +19,14 @@ noindex: false
 ---
 
 {{% quotation main-title="Réflexions sur la guillotine" url="https://en.wikipedia.org/wiki/Reflections_on_the_Guillotine" date="1957" publisher="Calmann-Lévy, Paris" %}}
-Lorsque nos juristes officiels parlent de faire mourir sans faire souffrir, ils ne savent pas ce dont ils parlent et, surtout, ils manquent d’imagination&thinsp;[^1].
+Lorsque nos juristes officiels parlent de faire mourir sans faire souffrir, ils ne savent pas ce dont ils parlent et, surtout, ils manquent d’imagination&hairsp;[^1].
 <-source->
 Camus, Albert
 {{% /quotation %}}
 
 I’ve been closely following the Supreme Court’s recent decision agreeing to hear a lethal injection challenge arising from Kentucky, [Baze v. Rees](https://en.wikipedia.org/wiki/Baze_v._Rees), on the grounds that it contravened the Eighth Amendment.
 
-There is growing realisation that a condemned prisoner’s suffering is real in many cases, but concealed by the protocol used&thinsp;[^2].
+There is growing realisation that a condemned prisoner’s suffering is real in many cases, but concealed by the protocol used&hairsp;[^2].
 
 I oppose the death penalty, so I welcome anything that contributes to its abolition. But I still have mixed feelings about this. The very fact that the Supreme Court agrees that the question can be raised is progress, of course. This implicitly means that many other methods until recently regarded as constitutional are unlikely to withstand that test if they are subjected to it again.
 

@@ -32,7 +32,7 @@ The tech sector isn’t lacking in imagination, and quite a large number of new 
 
 ## What CSS preprocessors can do
 
-Reading about the latter, in particular, set me thinking about ways of making my CSS leaner and more future proof. Essentially this meant making the static content in my stylesheets dynamic, so that the process of drafting, storing and updating them could be made automatic and consistent: and the solution was to switch to using a [CSS preprocessor](https://net.tutsplus.com/tutorials/html-css-techniques/sass-vs-less-vs-stylus-a-preprocessor-shootout/)&thinsp;[^1] with this exact purpose. My objective was pretty well summed up by Aaron Ackerman on his blog NittygrittyJS:
+Reading about the latter, in particular, set me thinking about ways of making my CSS leaner and more future proof. Essentially this meant making the static content in my stylesheets dynamic, so that the process of drafting, storing and updating them could be made automatic and consistent: and the solution was to switch to using a [CSS preprocessor](https://net.tutsplus.com/tutorials/html-css-techniques/sass-vs-less-vs-stylus-a-preprocessor-shootout/)&hairsp;[^1] with this exact purpose. My objective was pretty well summed up by Aaron Ackerman on his blog NittygrittyJS:
 
 > CSS preprocessors are starting to become more apparent to a lot of developers. The point of them is to write less source code that maps to greater source code, but is hopefully more readable, understandable and programmatic. For example grid layout are very easy when a preprocessor can divide a full content width into a number of columns. Using variables can help keep colors consistent by always referencing a number of preset variables. Using mixins can prevent us from having to rewrite code and letting the preprocessor do it for us. Preprocessor are simply reaching for what CSS should already do. There have been proposals for this to happen in CSS but the indecision for the CSSWG has slowed this down considerably. But why not use some form of it now? We can use a preprocessor syntax can compile to CSS that works today.
 
@@ -46,7 +46,7 @@ When Alexis Sellier’s [LESS](https://lesscss.org/), was launched I had taken a
 
 ## The reasons for using Compass
 
-I chose to apply SASS using [Compass](https://web.archive.org/web/20181130213134/http://compass-style.org/), an open-source CSS authoring framework: it comes with a number of built-in modules that you can choose to include in your build, or you can [build your own](https://web.archive.org/web/20211201083557/https://compass-style.org/help/tutorials/extensions/) if preferred. I decided to install Compass.app, a powerful yet unobtrusive menubar utility meticulously developed and maintained by [Handlino](https://web.archive.org/web/20080730115411/http://handlino.com/) for Sass and Compass that helps designers compile stylesheets easily without resorting to command line interface. Compass.app brings support for two additional design frameworks, 960 Grid and html5boilerplate, in addition to Compass’s built-in extensions, Blueprint and Compass&thinsp;[^2]
+I chose to apply SASS using [Compass](https://web.archive.org/web/20181130213134/http://compass-style.org/), an open-source CSS authoring framework: it comes with a number of built-in modules that you can choose to include in your build, or you can [build your own](https://web.archive.org/web/20211201083557/https://compass-style.org/help/tutorials/extensions/) if preferred. I decided to install Compass.app, a powerful yet unobtrusive menubar utility meticulously developed and maintained by [Handlino](https://web.archive.org/web/20080730115411/http://handlino.com/) for Sass and Compass that helps designers compile stylesheets easily without resorting to command line interface. Compass.app brings support for two additional design frameworks, 960 Grid and html5boilerplate, in addition to Compass’s built-in extensions, Blueprint and Compass&hairsp;[^2]
 
 Compass will set up a directory structure corresponding to the type of project you’re building (960 Grid, html5boilerplate, etc.) and you can then work from those files — in which you’ll be able to use the powerful [SASS markup](https://web.archive.org/web/20110716005830/https://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html) — to achieve the desired stylesheet while keeping control of it.
 
@@ -70,7 +70,7 @@ To make the most of Compass, I found it best to divide up my stylesheet into {{%
 - `_sidebar.scss`
 - `_single.scss`
 - `_sitewide-styles.scss`
-- `_style.scss`&thinsp;[^3]
+- `_style.scss`&hairsp;[^3]
 
 The Compass client will continually {{% quote %}}watch{{% /quote %}} the folder in which you’re working for any changes to any of your `.scss` files. Whenever you save them, it will update your actual `.css` files, which are stored in a separate folder:
 

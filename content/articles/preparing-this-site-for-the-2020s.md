@@ -26,7 +26,7 @@ tableofcontents: false
 noindex: false
 ---
 
-The new design for [this website](/)&thinsp;[^1], the successor to the Belgravia theme I had been using since 2012, which I’m calling Gramercy, and which I hope you will like, goes live this week. But behind the hood quite a lot has changed beyond the design.
+The new design for [this website](/)&hairsp;[^1], the successor to the Belgravia theme I had been using since 2012, which I’m calling Gramercy, and which I hope you will like, goes live this week. But behind the hood quite a lot has changed beyond the design.
 
 In the thirteen years since I started publishing content on this site, I think I’ve measured up to the challenge I identified in my [first online article](/why-ive-decided-to-keep-a-blog/):
 
@@ -38,10 +38,10 @@ I certainly jumped into the technicity of the Internet with the alacrity of a no
 
 But the Internet is a very fast-moving place — which is precisely what I like about it, with the challenge posed by wanting to use all the shortcuts and tools in modern web development. As the end of the decade approaches, the complexity of designing a website from scratch has increased vastly: in practice, developing a site in this way, certainly for someone like me, is no longer an option. Most developers — and certainly pretty much _all_ designers now use [frameworks](https://en.wikipedia.org/wiki/Web_framework). So the new design that went into production on this website this week is a completely different kettle of fish from the previous one:
 
-- rather than being written from scratch, it was developed using the [Genesis framework](https://my.studiopress.com/themes/genesis/), which I believe to be currently the best — with [Divi](https://www.elegantthemes.com/documentation/developers/divi-development-environment/) certainly coming a close runner-up — environment&thinsp;[^2] for WordPress;
-- I designed the theme deployed on this website using WordPress’s [child theme](https://codex.wordpress.org/Child_Themes) functionality, and the Genesis framework, in just a few days using [Espresso](https://espressoapp.com), [Sketch](https://www.sketchapp.com) and [Affinity Designer](https://affinity.serif.com/en-us/designer/)&thinsp;[^3];
-- after twelve years of continuously hosting all my online content with [Media Temple](https://www.godaddy.com/mediatemple)&thinsp;[^4], I decided to move the hosting of this website to [Kinsta](https://kinsta.com/plans/?kaid=ZGEANXECLFOU), a small but fast-growing host specialising in hosting only WordPress sites, which I believe to currently be the best host available for the developer-minded&thinsp;[^5];
-- the [environment](https://kinsta.com/advanced-features/) used by Kinsta (Nginx, PHP 7, HTTP/2, LXD software containers, MariaDB, and full page caching at the server-level, all deployed using Google [Cloud Platform](https://cloud.google.com))&thinsp;[^6], results in lightning-fast speeds that simply weren’t technically possible using my previous private server at Media Temple.
+- rather than being written from scratch, it was developed using the [Genesis framework](https://my.studiopress.com/themes/genesis/), which I believe to be currently the best — with [Divi](https://www.elegantthemes.com/documentation/developers/divi-development-environment/) certainly coming a close runner-up — environment&hairsp;[^2] for WordPress;
+- I designed the theme deployed on this website using WordPress’s [child theme](https://codex.wordpress.org/Child_Themes) functionality, and the Genesis framework, in just a few days using [Espresso](https://espressoapp.com), [Sketch](https://www.sketchapp.com) and [Affinity Designer](https://affinity.serif.com/en-us/designer/)&hairsp;[^3];
+- after twelve years of continuously hosting all my online content with [Media Temple](https://www.godaddy.com/mediatemple)&hairsp;[^4], I decided to move the hosting of this website to [Kinsta](https://kinsta.com/plans/?kaid=ZGEANXECLFOU), a small but fast-growing host specialising in hosting only WordPress sites, which I believe to currently be the best host available for the developer-minded&hairsp;[^5];
+- the [environment](https://kinsta.com/advanced-features/) used by Kinsta (Nginx, PHP 7, HTTP/2, LXD software containers, MariaDB, and full page caching at the server-level, all deployed using Google [Cloud Platform](https://cloud.google.com))&hairsp;[^6], results in lightning-fast speeds that simply weren’t technically possible using my previous private server at Media Temple.
 
 {{% alert info %}}
 
