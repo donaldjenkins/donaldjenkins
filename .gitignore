@@ -22,6 +22,9 @@ hugo.log
 ### nova ###
 .nova/*
 
+### Obsidian ###
+/content/articles/.obsidian
+
 package.json
 gruntfile.js
 .eslintrc.json
