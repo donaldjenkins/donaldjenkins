@@ -3,5 +3,8 @@
   "textFontFamily": "Gill Sans",
   "cssTheme": "Minimal",
   "monospaceFontFamily": "MonoLisa",
-  "baseFontSize": 20
+  "baseFontSize": 20,
+  "enabledCssSnippets": [
+    "quotes"
+  ]
 }
