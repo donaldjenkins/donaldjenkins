@@ -1,4 +1,4 @@
-{{ $reset := resources.Get "css/normalize.css" }}
+{{ $reset := resources.Get "css/modern-normalize.css" }}
 {{ $sass := resources.Get "sass/main.scss" }}
 {{ $opts := dict "transpiler" "dartsass" "targetPath" "css/main.css" }}
 {{ $main := resources.Get "sass/main.scss" | toCSS $opts }}

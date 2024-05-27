@@ -19,7 +19,7 @@
   Site: https://dev.to/afif
   Twitter: @ChallengesCss
   Github: https://github.com/Afif13
-  
+
   Technical consultant: Joe Mooring
   Site: https://www.veriphor.com/
   Twitter: @mooring
@@ -31,17 +31,17 @@
   Twitter: @RonErdos
   Location: Sydney, Australia
 
-  Design framework: normalize.css
+  Design framework: modern-normalize.css
 
   Website framework: Hugo
   Site: https://gohugo.io/
-  
+
   Host: CloudFlare Pages
   Site: https://www.cloudflare.com/
-  
+
   Source code: Github
   https://github.com/donaldjenkins
-  
+
 /* SITE */
   Last update: 2023-05-25
   Theme: Kensington

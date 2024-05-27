@@ -54,8 +54,8 @@ paginate = 50
     source = "assets"
     target = "assets"
   [[module.mounts]]
-    source = "node_modules/normalize.css/normalize.css"
-    target = "assets/css/normalize.css"
+    source = "node_modules/modern-normalize/modern-normalize.css"
+    target = "assets/css/modern-normalize.css"
 
 [[module.imports]]
   path = "github.com/donaldjenkins/policies"
