@@ -20,6 +20,20 @@
             }
           }
         ]
+      },
+      {
+        "id": "0833029556a5995e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "da28378e56a48e2e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +99,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-strange-death-of-tory-england.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "the-strange-death-of-tory-england.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "the-strange-death-of-tory-england.md"
+                "file": "Untitled.md"
               }
             }
           }
@@ -146,6 +158,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "708251df7c6f9066",
-  "lastOpenFiles": []
+  "active": "76ce2a1e6c61be1c",
+  "lastOpenFiles": [
+    "snippet.css.md",
+    "the-strange-death-of-tory-england.md",
+    "Untitled 1.md",
+    "Untitled.md"
+  ]
 }
