@@ -24,6 +24,7 @@ hugo.log
 
 ### Obsidian ###
 /content/articles/.obsidian
+/content/articles/Templates
 
 package.json
 gruntfile.js
