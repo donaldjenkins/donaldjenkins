@@ -675,9 +675,13 @@ Not one of your acts of kindness, whether big or small, will ever be wasted. I�
 
 {{< img src="298627a0-37db-422f-06f3-1a0d867f3300" caption="Apopo mine-sweeping rat: they are used to detonate landmines, but are too light to set off the landmines and not a single rat has ever died in a minefield. Source: [Apopo](https://www.apopo.org/) · Reproduced with permission." >}}
 
-##### [Poulehouse](https://www.poulehouse.fr)
+##### Poulehouse
 
-Eggs laid by free-ranging hens that are well cared-for after they retire. in 2021, they will switch to a new [procedure](https://www.seleggt.com/seleggt-procedure-male-hatching-eggs/), developed by German company Seleggt, which allows the male-chicks’ eggs to be removed long before they hatch, meaning they no longer need to be killed
+Eggs laid by free-ranging hens that are well cared-for after they retire. In 2021, they will switch to a new [procedure](https://en.wikipedia.org/wiki/In-ovo_sexing), developed by German company Seleggt, which allows the male-chicks’ eggs to be removed long before they hatch, meaning they no longer need to be killed.
+
+{{% alert info %}}
+**Update**: Sadly, in January 2022, Poulehouse [ceased operations](https://www.bfmtv.com/economie/c-est-fini-pour-poulehouse-et-ses-oeufs-qui-ne-tuent-pas-la-poule_AV-202201310331.html) after a dispute with one of its suppliers.
+{{% /alert %}}
 
 ##### [Save the Duck](https://savetheduckusa.com)
 
