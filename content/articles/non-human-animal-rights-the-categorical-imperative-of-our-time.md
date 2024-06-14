@@ -90,9 +90,7 @@ Because animals exploited for food represent, quantitatively, and also in the de
 Humans are easily outnumbered by our farm animals. The combined total of chickens (nineteen billion), cows (1.5 billion), sheep (one billion) and pigs (one billion) living at any one time is three times higher than the number of people, according to the {{% cite %}}[Economist](https://stage.economist.com/graphic-detail/2011/07/27/counting-chickens){{% /cite %}}. Those figures, however, are dwarfed by the number of animals we eat. An estimated seventy-five billion chickens are slaughtered for food every year — a figure that excludes male chicks and unproductive hens killed in egg production. The number of larger livestock, particularly pigs (1.5 billion _per annum_), slaughtered is also growing, as the charts below bear witness.
 
 {{% alert info %}}
-**The Toll of Human Activity on Wildlife**
-
-The World Animal Foundation compiles regularly-updated [figures](https://worldanimalfoundation.org/advocate/how-many-animals-killed-each-year/) for the number of farmed animals killed for meat.
+**The Toll of Human Activity on Wildlife**: The World Animal Foundation compiles regularly-updated [figures](https://worldanimalfoundation.org/advocate/how-many-animals-killed-each-year/) for the number of farmed animals killed for meat.
 {{% /alert %}}
 
 The vast majority of animals abused by humans are farm animals. Whereas the number of animals used in research in the United States is, at about twenty-five million, roughly equal to the population of Texas, the number of birds and mammals killed for food each year — again, in the United States, alone — is around ten billion, or one and a half times the population of the world.
