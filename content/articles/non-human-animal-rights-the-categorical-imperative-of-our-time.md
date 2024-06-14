@@ -91,6 +91,7 @@ Humans are easily outnumbered by our farm animals. The combined total of chicken
 
 {{% alert info %}}
 **The Toll of Human Activity on Wildlife**
+
 The World Animal Foundation compiles regularly-updated [figures](https://worldanimalfoundation.org/advocate/how-many-animals-killed-each-year/) for the number of farmed animals killed for meat.
 {{% /alert %}}
 
