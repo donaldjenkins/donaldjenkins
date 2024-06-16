@@ -24,7 +24,7 @@ noindex: false
 
 While any serious photographer will use several cameras and lenses, the dramatic improvement in the quality of Apple’s iPhone cameras has led many people, me included, to take the majority of their photographs on their phones&hairsp;[^1]. A lot of these pictures may end up on an Instagram or Facebook profile—easily done directly from an iPhone—rather than a WordPress site. But if, like me, you wish to keep your photographs in some semblance of order and also display them on your site, the iPhone will have introduced additional complexity into your workflow.
 
-The complexity grows further if, like me, you want to display your photographs in your WordPress website without using a resource-draining plugin, and retain consistency between the images on your website and those in your Apple [Photos](https://www.apple.com/ios/photos/ "The official Apple Photos for iOS page") Library.
+The complexity grows further if, like me, you want to display your photographs in your WordPress website without using a resource-draining plugin, and retain consistency between the images on your website and those in your Apple [Photos](https://www.icloud.com/photos "The official Apple Photos for iOS page") Library.
 
 The workflow I’m going to describe in this article involves two successive stages:
 
