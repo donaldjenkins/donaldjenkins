@@ -21,8 +21,6 @@ noindex: false
 
 <!-- Generated from 10 Draft &hairsp;—&hairsp; do not edit directly; edit the source files and rebuild. -->
 
-# Necessity, Not Schism: The Case for Écône
-
 {{% alert info %}}
 A concise executive summary of this article’s central argument (PDF, five-minute read) is available for download [here](https://assets.via.dj/documents/executive-summary-necessity-not-schism.pdf).
 {{% /alert %}}
