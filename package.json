@@ -11,6 +11,11 @@
   ],
   "author": "Donald Jenkins",
   "license": "MIT",
+  "browserslist": [
+    "defaults",
+    "Safari >= 15",
+    "iOS >= 15"
+  ],
   "devDependencies": {
     "eslint": "^8.40.0",
     "eslint-config-standard": "^17.0.0",
