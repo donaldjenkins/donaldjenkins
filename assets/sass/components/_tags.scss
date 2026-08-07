@@ -1,3 +1,5 @@
+@use "../abstracts/index" as *;
+
 .tag {
   align-items: center;
   background-color: var(--meta-color);

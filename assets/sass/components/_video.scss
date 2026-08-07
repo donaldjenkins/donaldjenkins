@@ -1,3 +1,5 @@
+@use "../abstracts/index" as *;
+
 media-player {
   /* Set aspect ratio here as well to avoid any initial layout shift. | Source: https://www.vidstack.io/docs/player/core-concepts/loading */
   --media-aspect-ratio: 16 / 9;

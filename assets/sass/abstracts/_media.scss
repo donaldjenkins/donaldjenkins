@@ -1,0 +1,20 @@
+// -----------------------------------------------------------------------------
+// Configured include-media entrypoint.
+//
+// Under the legacy @import system, include-media read $breakpoints and
+// $media-expressions lazily at call-time from the global namespace — even though
+// vendors/_vendors.scss imported the library *before* definitions.scss defined
+// those maps. With @use, configuration must be passed explicitly via `with`.
+//
+// Do not edit node_modules/include-media; configure it here only.
+// -----------------------------------------------------------------------------
+
+@use "definitions";
+
+// Forward only the mixin consumers need. Hiding include-media's own
+// $breakpoints / $media-expressions avoids clashing with definitions when
+// both are @forward'd from abstracts/_index.scss.
+@forward "include-media/dist/include-media" show media with (
+  $breakpoints: definitions.$breakpoints,
+  $media-expressions: definitions.$media-expressions
+);

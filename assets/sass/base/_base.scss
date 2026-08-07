@@ -1,7 +1,10 @@
+@use "../abstracts/index" as *;
+
 // -----------------------------------------------------------------------------
 // This file contains very basic styles.
 // -----------------------------------------------------------------------------
 
+/* Source: https://sass-guidelin.es/#responsive-web-design-and-breakpoints */
 /**
  * Set up a decent box model on the root element
  */

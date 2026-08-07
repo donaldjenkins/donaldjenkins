@@ -1,0 +1,21 @@
+// -----------------------------------------------------------------------------
+// Abstracts public API.
+//
+// Partials elsewhere do: `@use "../abstracts/index" as *;`
+// (explicit `/index` — Hugo's Dart Sass bridge cannot resolve a bare
+// `@use "../abstracts"` directory index through `..`).
+//
+// `$black` lives only in colors (#000). The old definitions `$black: 900`
+// (font-weight) was overwritten by colors under @import and is gone.
+// -----------------------------------------------------------------------------
+
+@forward "fluid";
+@forward "definitions";
+@forward "colors";
+@forward "typography";
+@forward "functions";
+@forward "mixins";
+@forward "media";
+
+// Emit :root / [data-theme] custom properties once when abstracts is loaded.
+@use "root";

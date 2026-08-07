@@ -1,28 +1,38 @@
 //@charset "UTF-8";
 
-// 1. Vendors
-@import //  'vendors/overrides',
-  "vendors/vendors";
+// Entry barrel. Each partial @use's abstracts (tokens + configured media())
+// and emits its own CSS. @use loads each module once; order here is the
+// cascade order of the emitted CSS, matching the former @import order.
 
-// 2. Configuration and helpers
-@import "abstracts/fluid", "abstracts/definitions", "abstracts/colors",
-  "abstracts/typography", "abstracts/root", "abstracts/functions",
-  "abstracts/mixins";
+// 1. Abstracts (:root tokens; configured include-media — no vendor CSS)
+@use "abstracts/index";
 
-// 3. Base stuff
-@import "base/base", "base/typography", "base/grids", "base/helpers";
+// 2. Base
+@use "base/base";
+@use "base/typography";
+@use "base/grids";
+@use "base/helpers";
 
-// 4. Layout-related sections
-@import "layout/header", "layout/content", "layout/footer";
+// 3. Layout
+@use "layout/header";
+@use "layout/content";
+@use "layout/footer";
 
-// 5. Components
-@import "components/buttons", "components/alerts", "components/cards",
-  "components/galleries", "components/tags", "components/citations",
-  "components/video", "components/lists", "components/tables",
-  "components/footnotes";
+// 4. Components
+@use "components/buttons";
+@use "components/alerts";
+@use "components/cards";
+@use "components/galleries";
+@use "components/tags";
+@use "components/citations";
+@use "components/video";
+@use "components/lists";
+@use "components/tables";
+@use "components/footnotes";
 
-// 6. Page-specific styles
-@import "pages/home", "pages/article";
+// 5. Page-specific styles
+@use "pages/home";
+@use "pages/article";
 
-// 7. Themes
-@import "themes/default";
+// 6. Themes
+@use "themes/default";

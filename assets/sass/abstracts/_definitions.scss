@@ -2,6 +2,8 @@
 // This file contains the site's main definitions.
 // -----------------------------------------------------------------------------
 
+@use "fluid" as *;
+
 /// Rounded corners
 $rounded: 5px; // images
 $slightly-rounded: 4px; // buttons
@@ -47,7 +49,8 @@ $medium: 500;
 $semi-bold: 600;
 $bold: 700;
 $extra-bold: 800;
-$black: 900;
+// `$black: 900` removed — collided with colors.$black (#000), which won under
+// the old @import order. Use `$black-font` for the heavy weight token.
 $extra-black: 950;
 
 // Other font variables

@@ -1,6 +1,8 @@
 // -----------------------------------------------------------------------------
-// This file contains all the external vendor files.
+// Vendor libraries.
+//
+// include-media used to be @import'd here (before definitions), relying on
+// @import's lazy global lookup for $breakpoints / $media-expressions.
+// It is now configured explicitly in abstracts/_media.scss via
+// `@forward "...include-media" with (...)`.
 // -----------------------------------------------------------------------------
-
-@import 'include-media/dist/include-media';
-
