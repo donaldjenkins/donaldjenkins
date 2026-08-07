@@ -66,6 +66,12 @@ $secondary-on-dark-hover: color.adjust($secondary-hover, $lightness: 5%);
 /// Brand color
 $brand-color: $primary; // Main brand color
 
+/// Header CTA fills — sized for white label text (≥ WCAG AA 4.5:1).
+/// Kept separate from --primary-color / --secondary-color so dark-theme
+/// accent swaps (portage / ship-cove) do not lighten solid button fills.
+$button-primary-bg: hsl($primary-hue, 16%, 40%);
+$button-secondary-bg: hsl($secondary-hue, 15%, 38%);
+
 ///Background/shadow colors
 $light-bg: $white;
 $dark-bg: $davys-gray;
