@@ -18,5 +18,5 @@ noindex: true
 
 Feel free to reach out to Donald. He’s always open to discussing new projects, interesting ideas, or opportunities to be part of an event.
 
-Alternatively, [Twitter](https://www.twitter.com/donaldjenkins), or even [Linkedin](https://www.linkedin.com/in/donaldjenkins/), may be quicker ways to interact if the need arises.
+Alternatively, [X](https://x.com/donaldjenkins) (formerly Twitter), or even [Linkedin](https://www.linkedin.com/in/donaldjenkins/), may be quicker ways to interact if the need arises.
 {{< contactform >}}

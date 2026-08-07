@@ -18,6 +18,3 @@
 /2014/:month/* https://www.donaldjenkins.com/:splat 301
 /2015/:month/* https://www.donaldjenkins.com/:splat 301
 /2016/:month/* https://www.donaldjenkins.com/:splat 301
-/.well-known/host-meta* https://jenkins.social/.well-known/host-meta:splat 301
-/.well-known/webfinger* https://jenkins.social/.well-known/webfinger:splat 301
-/.well-known/nodeinfo* https://jenkins.social/.well-known/nodeinfo:splat 301

@@ -12,7 +12,7 @@ This page sums up the way this Website operates, the laws that apply to it, who 
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | The [Terms](/policies/terms/) are the conditions under which we welcome you to this Website &#183; _v._ [changelog](https://documentation.donaldjenkins.com/docs/changelog/terms/). | The [Privacy Policy](/policies/privacy/) explains how we collect and process your information &#183; _v._ [changelog](https://documentation.donaldjenkins.com/docs/changelog/privacy/). |
 
-Any material change in our policies will be advertised on Donald Jenkins’s [Twitter account](https://www.twitter.com/donaldjenkins). You may also wish to read the latest {{< policies-release >}} .
+Any material change in our policies will be advertised on Donald Jenkins’s [X (formerly Twitter) account](https://x.com/donaldjenkins). You may also wish to read the latest {{< policies-release >}} .
 
 We aim, in a modest way, to help fix the {{% quote %}}[biggest lie on the web](https://tosdr.org/en/about){{% /quote %}}: hardly anyone ever reads terms of service, and yet one agrees to them all the time. In recognition of this, we try our utmost to protect our visitors' data and privacy:
 
@@ -35,7 +35,7 @@ We aim, in a modest way, to help fix the {{% quote %}}[biggest lie on the web](h
 **A private individual**
 {.subtitle}
 
-The operator of this Website, donaldjenkins.com ({{% quote %}}this Website{{% /quote %}} ), an unincorporated, not-for-profit entity based in the state of New York, and owner of the associated domain name, is a private individual, [Donald Jenkins](https://www.twitter.com/donaldjenkins) ({{% quote %}}we{{% /quote %}} ).
+The operator of this Website, donaldjenkins.com ({{% quote %}}this Website{{% /quote %}} ), an unincorporated, not-for-profit entity based in the state of New York, and owner of the associated domain name, is a private individual, [Donald Jenkins](https://x.com/donaldjenkins) ({{% quote %}}we{{% /quote %}} ).
 
 ## Information we collect, summarized
 {.title}
