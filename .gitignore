@@ -10,6 +10,7 @@ config.codekit3
 
 ### Hugo ###
 # Generated files by hugo
+/archetypes/
 /public/
 /resources/_gen/
 /assets/jsconfig.json
@@ -24,6 +25,10 @@ hugo.log
 ### Obsidian ###
 /content/articles/.obsidian
 
+package.json
+gruntfile.js
+.eslintrc.json
+.prettierignore
 .DS_Store
 
 # End of https://www.toptal.com/developers/gitignore/api/hugo,codekit,nova

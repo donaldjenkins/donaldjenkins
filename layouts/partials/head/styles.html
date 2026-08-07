@@ -1,11 +1,9 @@
-{{/* Compile SCSS live via Dart Sass (toCSS is version-safe: works on the
-     Cloudflare HUGO_VERSION 0.112.5 build as well as newer local Hugo). The
-     old code compiled $main and then discarded it, shipping a stale committed
-     css/main.css instead; this uses the freshly-compiled result. */}}
 {{ $reset := resources.Get "css/modern-normalize.css" }}
-{{ $opts := dict "transpiler" "dartsass" "targetPath" "css/main.css" "includePaths" (slice "node_modules") }}
+{{ $sass := resources.Get "sass/main.scss" }}
+{{ $opts := dict "transpiler" "dartsass" "targetPath" "css/main.css" }}
 {{ $main := resources.Get "sass/main.scss" | toCSS $opts }}
-{{ $styles := slice $reset $main | resources.Concat "css/styles.css" }}
+{{ $css := resources.Get "css/main.css" }}
+{{ $styles := slice $reset $css | resources.Concat "css/styles.css" }}
 {{ if hugo.IsProduction }}
 {{ $styles = $styles | postCSS | minify | fingerprint }}
 {{ end }}

@@ -1,4 +1,3 @@
-const autoprefixer = require('autoprefixer');
 const csso = require('postcss-csso')({
   restructure: true
 });
@@ -17,6 +16,6 @@ const purgecss = require('@fullhuman/postcss-purgecss')({
 
 module.exports = {
   plugins: [
-    ...(process.env.HUGO_ENVIRONMENT === 'production' ? [autoprefixer, csso, purgecss] : [])
+    ...(process.env.HUGO_ENVIRONMENT === 'production' ? [csso, purgecss] : [])
   ]
 };
