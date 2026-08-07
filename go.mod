@@ -2,4 +2,4 @@ module github.com/donaldjenkins/donaldjenkins
 
 go 1.20
 
-require github.com/donaldjenkins/policies v0.0.0-20230528093848-0aaa24906146 // indirect
+require github.com/donaldjenkins/policies v4.0.1-0.20260807082651-977a6ff74d4f+incompatible // indirect
