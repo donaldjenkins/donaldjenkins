@@ -1,2 +1,4 @@
 github.com/donaldjenkins/documentation v4.0.1-0.20260808152245-0c507028484c+incompatible h1:aAj0wPtwySM9KpKEOpiDY8Oa37R4pY7jn5pi7Sy/GKQ=
 github.com/donaldjenkins/documentation v4.0.1-0.20260808152245-0c507028484c+incompatible/go.mod h1:KJP99bNmiRYSCUkV2nwY3OObD8vyxRZjb1jlNl6fWM8=
+github.com/donaldjenkins/documentation v4.0.1-0.20260808183003-c2dcb8c3f63e+incompatible h1:ZZDfLvIa8w1hnePegDvVqemc/BJGwX8oEEZ9cqShxy8=
+github.com/donaldjenkins/documentation v4.0.1-0.20260808183003-c2dcb8c3f63e+incompatible/go.mod h1:KJP99bNmiRYSCUkV2nwY3OObD8vyxRZjb1jlNl6fWM8=
