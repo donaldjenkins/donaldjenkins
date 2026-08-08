@@ -58,13 +58,17 @@ paginate = 50
     target = "assets/css/modern-normalize.css"
 
 [[module.imports]]
-  path = "github.com/donaldjenkins/policies"
+  path = "github.com/donaldjenkins/documentation"
+  # documentation is a full themed Hugo site; ignore its config/theme so we
+  # only pull the two mounted policy files, not its hugo-book dependency.
+  ignoreConfig = true
+  ignoreImports = true
 
     [[module.imports.mounts]]
-    source = "terms.md"
+    source = "content/policies/terms.md"
     target = "content/policies/terms.md"
     [[module.imports.mounts]]
-    source = "privacy.md"
+    source = "content/policies/privacy.md"
     target = "content/policies/privacy.md"
 
 [taxonomies]

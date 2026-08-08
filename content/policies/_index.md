@@ -10,7 +10,7 @@ This page sums up the way this Website operates, the laws that apply to it, who 
 
 | Terms                                                                                                                                                                               | Privacy Policy                                                                                                                                                                          |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| The [Terms](/policies/terms/) are the conditions under which we welcome you to this Website &#183; _v._ [changelog](https://documentation.donaldjenkins.com/docs/changelog/terms/). | The [Privacy Policy](/policies/privacy/) explains how we collect and process your information &#183; _v._ [changelog](https://documentation.donaldjenkins.com/docs/changelog/privacy/). |
+| The [Terms](/policies/terms/) are the conditions under which we welcome you to this Website &#183; _v._ [changelog](https://documentation.donaldjenkins.com/changelog/terms/). | The [Privacy Policy](/policies/privacy/) explains how we collect and process your information &#183; _v._ [changelog](https://documentation.donaldjenkins.com/changelog/privacy/). |
 
 Any material change in our policies will be advertised on Donald Jenkins’s [X (formerly Twitter) account](https://x.com/donaldjenkins). You may also wish to read the latest {{< policies-release >}} .
 
@@ -27,7 +27,7 @@ We aim, in a modest way, to help fix the {{% quote %}}[biggest lie on the web](h
 - Only aggregate data is given to third parties.
 - The [terms](/policies/terms/) for this service are easy to read.
 - This website will resist legal requests for user information where reasonably possible.
-- This website provides [archives](https://documentation.donaldjenkins.com/) of previous policies so that changes can be viewed over time.
+- This website provides [archives](https://documentation.donaldjenkins.com/archives/) of previous policies so that changes can be viewed over time.
   {{% /alert %}}
 
 ## Who we are
@@ -58,7 +58,7 @@ This Website does not use Google Analytics, relying instead on [Plausible](https
 {.subtitle}
 
 - Because we believe that you shouldn’t have to provide personal information to visit a website, you may use this Website without registering an account. In fact, we don’t have accounts.
-- We give you advance notice, and keep a trace, of any changes in our [Terms](https://documentation.donaldjenkins.com/docs/changelog/terms/) and [Privacy Policy](https://documentation.donaldjenkins.com/docs/changelog/privacy/).
+- We give you advance notice, and keep a trace, of any changes in our [Terms](https://documentation.donaldjenkins.com/changelog/terms/) and [Privacy Policy](https://documentation.donaldjenkins.com/changelog/privacy/).
 - We use reasonable [measures](/policies/privacy#web-host-and-data-retention) to keep your information secure.
 - We do not sell your personal data.
 - We will share your information in limited circumstances, such as with our [external service providers](/policies/privacy#other-external-service-providers) if required to make this Website operate, or, only as a last resort, if we are compelled to [comply](/policies/privacy/#compliance-with-other-legal-obligations) with the law, or to protect you and others.
