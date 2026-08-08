@@ -5,30 +5,30 @@
 
 /* TEAM */
   Web design: Donald Jenkins
-  Twitter: @donaldjenkins
+  X (formerly) Twitter: @donaldjenkins
   Location: New York, NY
   Tagline: Compassion is invincible
 
 /* SPECIAL THANKS */
   Design consultant: Niels Ackermann
   Site: https://www.nack.ch/
-  Twitter: @nielsack
+  X: @nielsack
   Location: Geneva, Switzerland
 
   Design consultant: Temani Afif
   Site: https://dev.to/afif
-  Twitter: @ChallengesCss
+  X: @ChallengesCss
   Github: https://github.com/Afif13
 
   Technical consultant: Joe Mooring
   Site: https://www.veriphor.com/
-  Twitter: @mooring
+  X: @mooring
   Github: https://github.com/jmooring
   Location: Seattle, Washington
 
   Technical consultant: Ron Erdos
   Site: https://moonbooth.com
-  Twitter: @RonErdos
+  X: @RonErdos
   Location: Sydney, Australia
 
   Design framework: modern-normalize.css
