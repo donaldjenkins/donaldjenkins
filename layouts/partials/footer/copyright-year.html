@@ -1,5 +1,5 @@
 {{- if .IsHome -}}
-  2005-{{ .Site.LastChange.Format "2006" }}
+  2005-{{ .Site.Lastmod.Format "2006" }}
 {{ else if .IsPage }}
   {{ .Date.Format "2006" }}
 {{ else if .Data.Singular }}
