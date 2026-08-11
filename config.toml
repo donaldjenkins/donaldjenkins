@@ -2,8 +2,6 @@ baseURL = 'https://www.donaldjenkins.com/'
 languageCode = 'en-gb'
 timeZone = 'America/New_York'
 title = 'Donald Jenkins writes about politics'
-rssTitle = "Donald Jenkins"
-# Sets RSS feed title (for RSS readers)
 
 seoTitle = "Donald Jenkins writes about politics"
 # Sets homepage <title> (for SEO)
@@ -25,7 +23,11 @@ paginate = 50
   expiryDate = ["expiryDate"]
 
 [params]
-  blogSection = ["articles"]
+  rssTitle = "Donald Jenkins"
+  # RSS feed title shown in feed readers (read as site.Params.rssTitle)
+  blogSection = "articles"
+  # Section whose pages populate the RSS feed. Must be a plain string, not an
+  # array: rss.xml and seo.html both use it as a scalar (where "Section" …).
   taxonomiesExcludedFromSitemap = ["tags", "categories"]
   color = "#9c9a75"
   # Sets theme colour& Safari mask icon colour
