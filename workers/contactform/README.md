@@ -18,6 +18,7 @@ Settings → Variables and Secrets):
 - `AWS_ACCESS_KEY_ID`
 - `AWS_SECRET_ACCESS_KEY`
 - `AWS_REGION` — optional, defaults to `us-east-1`
+- `TURNSTILE_SECRET_KEY` — Cloudflare Turnstile secret for the contact-form widget
 
 The AWS key belongs to IAM user `wp-donaldjenkins-postmaster` (policy: SES send).
 
@@ -34,13 +35,14 @@ your OAuth login instead. **Existing Worker secrets are preserved across deploys
 deploy does not wipe them). Live URL:
 `https://donaldjenkins-contactform.policymakr.workers.dev`
 
-## Notes / TODO
-- **Spam protection is a weak arithmetic CAPTCHA.** Planned: replace with **Cloudflare
-  Turnstile** — needs a matching change to the form shortcode
-  `layouts/shortcodes/contactform.html` (add the widget + `cf-turnstile-response`) and a
-  Turnstile widget already exists (site key `0x4AAAAAAE06XqGQ57giC8S2`). This is the fix
-  for the SES bounce/reputation problem (bots beating the sum-CAPTCHA get an
-  acknowledgement emailed to fake addresses → hard bounces).
+## Notes
+- **Spam protection: Cloudflare Turnstile** (added 2026-08-13). Widget `donaldjenkins-contact`,
+  **site key `0x4AAAAAAEO6XqGQ57giC8S2`** (note the letter **O**, not a zero), hostnames
+  `donaldjenkins.com` **and** `www.donaldjenkins.com` (Turnstile does not auto-cover the
+  subdomain — both must be listed). The form (`layouts/shortcodes/contactform.html`) embeds
+  the widget + `api.js`; the Worker verifies the `cf-turnstile-response` token via siteverify
+  (secret in `TURNSTILE_SECRET_KEY`). This replaced the static sum-CAPTCHA that bots were
+  beating (→ acknowledgements emailed to fake addresses → SES hard bounces).
 - **History:** rebuilt 2026-08-13 — the previous Worker had **hardcoded AWS keys**
   (since rotated + deleted) and shipped the full AWS SDK as an ~8,000-line bundle. This
   version moves credentials to encrypted env vars and is clean, readable source.

@@ -112,6 +112,23 @@ async function sendSesEmail(env, { to, from, replyTo, subject, html, text }) {
 }
 
 // ---------------------------------------------------------------------------
+// Cloudflare Turnstile verification
+// ---------------------------------------------------------------------------
+async function verifyTurnstile(env, token, ip) {
+  if (!token) return false;
+  const form = new URLSearchParams();
+  form.append("secret", env.TURNSTILE_SECRET_KEY);
+  form.append("response", token);
+  if (ip) form.append("remoteip", ip);
+  const r = await fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify", {
+    method: "POST",
+    body: form,
+  });
+  const data = await r.json().catch(() => ({}));
+  return data.success === true;
+}
+
+// ---------------------------------------------------------------------------
 // Arithmetic CAPTCHA (unchanged from the previous Worker)
 // ---------------------------------------------------------------------------
 function calculateCaptchaValue(expression) {
@@ -227,15 +244,14 @@ export default {
     const redirectUrl = formData.get("Redirect URL");
     const failedRedirectUrl = formData.get("Failed redirect URL");
     const consentCheck = formData.get("Consent");
-    const captchaQuestion = formData.get("Captcha question");
-    const captchaValue = formData.get("Captcha");
+    const turnstileToken = formData.get("cf-turnstile-response");
+    const clientIp = request.headers.get("CF-Connecting-IP");
 
-    // CAPTCHA (unchanged)
-    const calculated = calculateCaptchaValue(captchaQuestion);
-    if (!calculated || calculated !== Number(captchaValue)) {
+    // Bot check: Cloudflare Turnstile (server-side siteverify)
+    if (!(await verifyTurnstile(env, turnstileToken, clientIp))) {
       const headers = new Headers();
       headers.set("Location", failedRedirectUrl);
-      return new Response("Invalid captcha", { status: 302, headers });
+      return new Response("Verification failed", { status: 302, headers });
     }
 
     if (!firstName || !lastName || !email || !message || !redirectUrl || !consentCheck) {
