@@ -127,6 +127,9 @@ textarea:focus::placeholder {
   border-radius: 10px;
   background: hsl(135, 35%, 84%);
 }
+#error > div {
+  background: var(--danger-bg);
+}
 .close {
   background: #606061;
   color: #ffffff;

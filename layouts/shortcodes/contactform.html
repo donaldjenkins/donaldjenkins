@@ -9,6 +9,18 @@
     </p>
   </div>
 </div>
+<div id="error" class="modalDialog">
+  <div>
+    <a href="#close" title="Close" class="close">X</a>
+
+    <h3 class="title">Something went wrong</h3>
+    <p class="subtitle">
+      Your message couldn't be sent. Please check that your email address is
+      entered correctly and try again. If it still won't go through, you can reach
+      me via the links at the top of the page.
+    </p>
+  </div>
+</div>
 <form id="contact-form" target="_self" enctype="multipart/form-data"
   action="https://donaldjenkins-contactform.policymakr.workers.dev" accept-charset="UTF-8" method="post">
   <fieldset>
@@ -41,11 +53,6 @@
         <small class="form-text text-muted">Your message</small>
       </div>
     </div>
-    <div class="form-field">
-      <div class="form-group" id="Turnstile__div">
-        <div class="cf-turnstile" data-sitekey="0x4AAAAAAEO6XqGQ57giC8S2"></div>
-      </div>
-    </div>
     <div class="form-group lineup" id="Consent__div">
       <label class="checkbox">
         <input type="checkbox" name="Consent" id="Consent" required="required">
@@ -65,6 +72,7 @@
       <label for="redirect_url"></label>
       <input name="Redirect URL" value="{{ .Page.Permalink }}#thanks" type="text" id="redirect_url" />
       <input name="Failed redirect URL" value="{{ .Page.Permalink }}#error" type="text" id="failed_redirect_url" />
+      <input type="text" name="url" id="url" tabindex="-1" autocomplete="off" aria-hidden="true" value="" />
     </div>
     <div class="row">
       <div>
@@ -73,4 +81,3 @@
     </div>
   </fieldset>
 </form>
-<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
