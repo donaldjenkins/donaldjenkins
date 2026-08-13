@@ -1,0 +1,4 @@
+name = "donaldjenkins-contactform"
+main = "index.js"
+compatibility_date = "2024-11-01"
+account_id = "96eec27309a1f09a3cb3b62746a80851"
