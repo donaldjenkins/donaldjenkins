@@ -1,13 +1,11 @@
 @font-face {
   font-family: Figtree;
-  src: url("/fonts/figtree.woff2") format("woff2"),
-    url("/fonts/figtree.ttf") format("truetype");
+  src: url("/fonts/figtree.woff2") format("woff2");
   font-weight: bold;
 }
 @font-face {
   font-family: Figtree;
-  src: url("/fonts/figtree.woff2") format("woff2"),
-    url("/fonts/figtree.ttf") format("truetype");
+  src: url("/fonts/figtree.woff2") format("woff2");
   font-weight: normal;
 }
 
