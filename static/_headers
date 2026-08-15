@@ -1,11 +1,23 @@
 # Cloudflare Pages _headers
 #
-# Content Security Policy — REPORT-ONLY as of 2026-08-15.
-# Nothing is blocked while this header is *-Report-Only; violations appear in
-# the browser console only (there is no collector endpoint yet). Once a week or
-# so of real browsing — including a /contact submission and a video page — has
-# produced no unexpected violations, rename the header to
-# `Content-Security-Policy` to start enforcing.
+# Content Security Policy — ENFORCING as of 2026-08-15.
+#
+# Verified before enforcing: the static resource graph (headless Chrome against
+# a local build, policy applied as a real header) and the HLS/video path (real
+# browser, real playback — this is what caught the jsdelivr dependency below).
+#
+# ⚠️ KNOWN, ACCEPTED CONFLICT — Cloudflare JS Detections.
+# Super Bot Fight Mode's "JS Detections" (enabled 2026-08-14) makes Cloudflare
+# inject a per-request inline bootstrap for
+# /cdn-cgi/challenge-platform/scripts/jsd/main.js. Its content differs on every
+# request, so it cannot be allowed by hash, and a static _headers file cannot
+# issue a nonce. A strict script-src therefore BLOCKS it, and this policy is
+# strict by explicit decision (Donald, 2026-08-15) — accepting that JS
+# Detections stops functioning.
+# ⚠️ Consequence to watch: the contact form's bot protection leaned on visitors
+# passing JS detection. If legitimate submissions start being blocked, the fix
+# is a WAF skip rule on the form path — or turn JS Detections off in Cloudflare
+# so visitors are not judged against a signal that can never succeed.
 #
 # Derived from an audit of every subresource the site actually loads
 # (see the vault: Sites/donaldjenkins.com/CSP audit and proposal.md).
@@ -31,4 +43,4 @@
 #               allowance be dropped and keep script-src at 'self'.
 
 /*
-  Content-Security-Policy-Report-Only: default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; img-src 'self' data: https://assets.via.dj https://*.cloudflarestream.com; font-src 'self'; connect-src 'self' https://*.cloudflarestream.com; media-src 'self' blob: https://*.cloudflarestream.com; worker-src 'self' blob:; form-action 'self' https://donaldjenkins-contactform.policymakr.workers.dev; frame-src 'none'; object-src 'none'; base-uri 'self'; frame-ancestors 'self'
+  Content-Security-Policy: default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; img-src 'self' data: https://assets.via.dj https://*.cloudflarestream.com; font-src 'self'; connect-src 'self' https://*.cloudflarestream.com; media-src 'self' blob: https://*.cloudflarestream.com; worker-src 'self' blob:; form-action 'self' https://donaldjenkins-contactform.policymakr.workers.dev; frame-src 'none'; object-src 'none'; base-uri 'self'; frame-ancestors 'self'
