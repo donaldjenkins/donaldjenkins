@@ -1,6 +1,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-{{ with .HasShortcode "contactform" }} {{ if . }}
-<link rel="preload" as="style" onload="this.rel='stylesheet'" href="/css/contact.css">
-{{ end }} {{ end }}
+{{/* contact.css is linked as a plain stylesheet in head/styles.html. It used to
+     be preloaded here as well, with an onload handler that swapped rel to
+     "stylesheet" — redundant (the plain link already loads it) and the only
+     inline JS left in the head. Removed 2026-08-15. */}}
 

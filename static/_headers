@@ -1,0 +1,27 @@
+# Cloudflare Pages _headers
+#
+# Content Security Policy — REPORT-ONLY as of 2026-08-15.
+# Nothing is blocked while this header is *-Report-Only; violations appear in
+# the browser console only (there is no collector endpoint yet). Once a week or
+# so of real browsing — including a /contact submission and a video page — has
+# produced no unexpected violations, rename the header to
+# `Content-Security-Policy` to start enforcing.
+#
+# Derived from an audit of every subresource the site actually loads
+# (see the vault: Sites/donaldjenkins.com/CSP audit and proposal.md).
+# Notes on the non-obvious directives:
+#   style-src   'unsafe-inline' is required by the inline style="" attribute in
+#               shortcodes/contactform.html and by Vidstack's runtime styling.
+#               cdnjs is the normalize.min.css that only layouts/404.html loads.
+#   img-src     data: is used by background SVGs in the compiled CSS.
+#               assets.via.dj serves the 404 illustration and video thumbnails.
+#   media-src   blob: is required for HLS playback via Media Source Extensions.
+#   worker-src  blob: is required by hls.js, which demuxes in a Web Worker.
+#   form-action MUST include the contact-form Worker — the form posts directly
+#               to it, so a bare 'self' here silently breaks /contact.
+#   script-src  'self' covers the Plausible script, which is proxied through
+#               this origin at /guests/hurrah/. Inline JSON-LD is a data block,
+#               not an executed script, so it needs no allowance.
+
+/*
+  Content-Security-Policy-Report-Only: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; img-src 'self' data: https://assets.via.dj https://*.cloudflarestream.com; font-src 'self'; connect-src 'self' https://*.cloudflarestream.com; media-src 'self' blob: https://*.cloudflarestream.com; worker-src 'self' blob:; form-action 'self' https://donaldjenkins-contactform.policymakr.workers.dev; frame-src 'none'; object-src 'none'; base-uri 'self'; frame-ancestors 'self'
