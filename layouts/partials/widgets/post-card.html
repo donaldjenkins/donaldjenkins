@@ -3,10 +3,12 @@
   {{ if isset .Params "featured_image" }}
   {{ $featured_image := .Params.featured_image }}
   {{ $image_url := printf "%s%s" .Site.Params.cloudflare_images $featured_image }}
+  {{/* Styled by the descendant selector `.card img` in sass/components/_cards.scss.
+       The old class="card-image" was a leftover from a card design that was
+       evaluated and not adopted; nothing has ever matched it. Removed 2026-08-15. */}}
   <img
     src="{{ $image_url }}/w=380,height=300,gamma=0.36,quality=45"
     alt=""
-    class="card-image"
   />
   {{end}}
   <div class="card-content">
