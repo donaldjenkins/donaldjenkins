@@ -1,0 +1,30 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
+{{ partial "styles.html" . }}
+<meta name="theme-color" content="{{ site.Params.color }}">
+<link rel="icon" href="{{ "favicon.ico" | relURL }}" sizes="any">
+<link rel="icon" href="{{ "icon.svg" | relURL }}" type="image/svg+xml">
+<link rel="manifest" href="{{ "manifest.webmanifest" | relURL }}">
+<meta name="robots" content="{{ if .Params.noindex }}noindex{{ else }}noarchive{{ end }}">
+<link rel="canonical" href="{{ .Permalink }}">
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.seo_description }}{{ end }}">
+<meta property="og:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.seo_description }}{{ end }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta property="og:locale" content="en_GB">
+{{ $og := "" }}
+{{ if isset .Params "featured_image" }}
+  {{ $og = printf "%s%s/w=1200,height=630,fit=cover,quality=70" site.Params.cloudflare_images .Params.featured_image }}
+{{ else if isset .Params "hero_image" }}
+  {{ $og = printf "%s%s/w=1200,height=630,fit=cover,quality=70" site.Params.cloudflare_images .Params.hero_image }}
+{{ else }}
+  {{ $og = printf "%s%s/w=1200,height=630,fit=cover,quality=70" site.Params.cloudflare_images site.Params.hero_image }}
+{{ end }}
+<meta property="og:image" content="{{ $og }}">
+<meta name="twitter:card" content="summary_large_image">
+{{ with site.Params.plausible_domain }}
+<script defer data-domain="{{ . }}" src="https://plausible.io/js/script.js"></script>
+{{ end }}

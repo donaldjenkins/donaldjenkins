@@ -27,3 +27,10 @@ hugo.log
 .DS_Store
 
 # End of https://www.toptal.com/developers/gitignore/api/hugo,codekit,nova
+
+# Wilhelmina gallery rebuild (standalone Hugo site)
+/wilhelmina/node_modules/
+/wilhelmina/public/
+/wilhelmina/resources/_gen/
+/wilhelmina/.hugo_build.lock
+/wilhelmina/hugo_stats.json

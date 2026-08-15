@@ -1,0 +1,28 @@
+{{ define "main" }}
+{{ with .Params.hero_image }}
+<figure class="page-hero">
+  {{ $id := . }}
+  {{ $alt := $.Params.hero_alt | default $.Title }}
+  {{ $base := printf "%s%s" site.Params.cloudflare_images $id }}
+  <img
+    src="{{ $base }}/w=1600"
+    srcset="{{ $base }}/w=640 640w, {{ $base }}/w=960 960w, {{ $base }}/w=1280 1280w, {{ $base }}/w=1920 1920w"
+    sizes="100vw"
+    alt="{{ $alt }}"
+    width="1600"
+    height="700"
+  >
+  {{ with $.Params.hero_caption }}
+  <figcaption>{{ . }}</figcaption>
+  {{ end }}
+</figure>
+{{ end }}
+<section class="section">
+  <div class="container is-max-desktop">
+    {{ partial "about-tabs.html" . }}
+    <article class="content">
+      {{ .Content }}
+    </article>
+  </div>
+</section>
+{{ end }}

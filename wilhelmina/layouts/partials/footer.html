@@ -1,0 +1,20 @@
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-variable is-6 is-vcentered">
+      <div class="column is-5 has-text-centered-touch">
+        <img class="footer-mark" src="{{ "images/system/logo-colour.svg" | relURL }}" width="420" height="120" alt="{{ site.Title }}">
+      </div>
+      <div class="column">
+        {{ partial "contact-form.html" . }}
+        <ul class="svg-list">
+          <li class="location">{{ site.Params.address }}</li>
+          <li class="instagram"><a href="{{ site.Params.instagram }}" rel="me noopener" target="_blank">Instagram</a></li>
+          <li class="facebook"><a href="{{ site.Params.facebook }}" rel="me noopener" target="_blank">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-legal has-text-centered">
+      <a class="tag is-link" href="{{ "/legal/" | relURL }}">Legal stuff</a>
+    </p>
+  </div>
+</footer>

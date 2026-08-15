@@ -1,0 +1,42 @@
+{{ $page := . }}
+<header>
+  <nav class="navbar" role="navigation" aria-label="Main">
+    <input id="nav-toggle" class="navbar-toggle" type="checkbox">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="{{ "/" | relURL }}"{{ if $page.IsHome }} aria-current="page"{{ end }}>
+        <img id="logo" src="{{ "images/system/small-logo.svg" | relURL }}" width="200" height="44" alt="{{ site.Title }}">
+      </a>
+      <label for="nav-toggle" class="navbar-burger" aria-label="Open menu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </label>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-start">
+        {{ range slice
+          (dict "label" "Home" "url" "/")
+          (dict "label" "About" "url" "/about/")
+          (dict "label" "Exhibitions" "url" "/exhibitions/")
+          (dict "label" "Artists" "url" "/artists/")
+          (dict "label" "Courses" "url" "/courses/")
+        }}
+        {{ $active := or (eq $page.RelPermalink .url) (and (ne .url "/") (hasPrefix $page.RelPermalink .url)) }}
+        {{ if and (eq .url "/about/") (or (eq $page.RelPermalink "/wilhelmina/") (eq $page.RelPermalink "/about/")) }}
+          {{ $active = true }}
+        {{ end }}
+        {{ if and (eq .url "/exhibitions/") (or (eq $page.RelPermalink "/2023/") (eq $page.RelPermalink "/2024/")) }}
+          {{ $active = true }}
+        {{ end }}
+        <a class="navbar-item{{ if $active }} is-active{{ end }}" href="{{ .url | relURL }}"{{ if $active }} aria-current="page"{{ end }}>{{ .label }}</a>
+        {{ end }}
+      </div>
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <a class="button is-primary" href="{{ "/#contact" | relURL }}"><strong>Contact</strong></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>

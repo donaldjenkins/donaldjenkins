@@ -1,0 +1,43 @@
+{{ define "main" }}
+<section class="section">
+  <div class="container">
+    <h1 class="title">{{ .Title }}</h1>
+    {{ with .Content }}
+    <p class="subtitle artist-bio">{{ . | plainify }}</p>
+    {{ end }}
+    {{ with .Params.works }}
+    <div class="artwork-list">
+      {{ range . }}
+      {{ $id := .id }}
+      {{ $title := .title }}
+      {{ $details := .details }}
+      {{ $alt := .alt | default $title }}
+      {{ $base := printf "%s%s" site.Params.cloudflare_images $id }}
+      <figure class="artwork">
+        <a href="#{{ $id }}" class="artwork-thumb">
+          <img
+            src="{{ $base }}/w=960"
+            srcset="{{ $base }}/w=480 480w, {{ $base }}/w=960 960w, {{ $base }}/w=1440 1440w, {{ $base }}/w=1920 1920w"
+            sizes="(min-width: 960px) 960px, 100vw"
+            alt="{{ $alt }}"
+            loading="lazy"
+            decoding="async"
+          >
+        </a>
+        <figcaption>
+          {{ with $title }}<em>{{ . }}</em>{{ end }}{{ with $details }}{{ if $title }}, {{ end }}{{ . }}{{ end }}
+        </figcaption>
+      </figure>
+      <div class="lightbox" id="{{ $id }}">
+        <a class="lightbox-close" href="#_" aria-label="Close">×</a>
+        <img src="{{ $base }}/fit=contain,quality=85" alt="{{ $alt }}">
+        <p class="lightbox-caption">
+          {{ with $title }}<em>{{ . }}</em>{{ end }}{{ with $details }}{{ if $title }}, {{ end }}{{ . }}{{ end }}
+        </p>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

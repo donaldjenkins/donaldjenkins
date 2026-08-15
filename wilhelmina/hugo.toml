@@ -1,0 +1,37 @@
+baseURL = "https://www.wilhelmina.gallery/"
+languageCode = "en-gb"
+title = "Wilhelmina’s"
+disableHugoGeneratorInject = true
+enableRobotsTXT = true
+enableGitInfo = true
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  color = "#fce70d"
+  cloudflare_images = "https://imagedelivery.net/pUQ8MV0SyIpam560ZqHrQA/"
+  description = "Wilhelmina’s exhibits contemporary works by international artists on Hydra between June and October, in a historic building on Mandraki Beach."
+  seo_description = "Wilhelmina’s is a contemporary art gallery on Mandraki Beach, Hydra, showing international artists between June and October."
+  form_action = "https://gallery-site-form.policymakr.workers.dev"
+  instagram = "https://instagram.com/wilhelminas_art_gallery/"
+  facebook = "https://www.facebook.com/profile.php?id=100092925767688"
+  address = "Mandraki Bay, Hydra, Greece, 18040"
+  plausible_domain = "wilhelmina.gallery"
+  hero_title = "The Memory Palace"
+  hero_dates = "22nd June – 17th August 2025"
+  hero_image = "b3841852-0698-4467-9c60-0cccf5462e00"
+  hero_sponsor = "d866c276-2836-4171-bbe1-c928326e4f00"
+  hero_text = "Wilhelmina’s is pleased to present The Memory Palace, a group exhibition where eight international artists explore the ways in which art accesses human and spiritual knowledge be it stored in nature, the psyche or mythological structures. Each artist’s body of work corresponds to a chamber in the Memory Palace housed by Wilhelmina’s on the island of Hydra between the 22nd June – 17th August 2025. Participating Artists: Han Jiaquan (Shanghai), Aliki Paliou (Greece), Helmut Grill (Austria), Zélie Nguyen (France), Yoab Vera (Mexico), Sophie Whettnall (Belgium), Shahla Friberg (Canada), Val Smets (Luxembourg)."
+
+[build]
+  writeStats = true
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.goldmark.parser]
+  wrapStandAloneImageWithinParagraph = false
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5

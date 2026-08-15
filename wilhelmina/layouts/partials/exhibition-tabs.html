@@ -1,0 +1,14 @@
+{{ $here := .RelPermalink }}
+<div class="tabs is-toggle is-toggle-rounded">
+  <ul>
+    <li{{ if or (eq $here "/exhibitions/") (eq $here "/exhibitions") }} class="is-active"{{ end }}>
+      <a href="{{ "/exhibitions/" | relURL }}">Upcoming</a>
+    </li>
+    <li{{ if hasPrefix $here "/2024" }} class="is-active"{{ end }}>
+      <a href="{{ "/2024/" | relURL }}">2024</a>
+    </li>
+    <li{{ if hasPrefix $here "/2023" }} class="is-active"{{ end }}>
+      <a href="{{ "/2023/" | relURL }}">2023</a>
+    </li>
+  </ul>
+</div>

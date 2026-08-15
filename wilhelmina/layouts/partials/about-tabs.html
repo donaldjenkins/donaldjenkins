@@ -1,0 +1,11 @@
+{{ $tab := .Params.about_tab | default "gallery" }}
+<div class="tabs is-toggle is-toggle-rounded">
+  <ul>
+    <li{{ if eq $tab "gallery" }} class="is-active"{{ end }}>
+      <a href="{{ "/about/" | relURL }}"{{ if eq $tab "gallery" }} aria-current="page"{{ end }}>The Gallery</a>
+    </li>
+    <li{{ if eq $tab "wilhelmina" }} class="is-active"{{ end }}>
+      <a href="{{ "/wilhelmina/" | relURL }}"{{ if eq $tab "wilhelmina" }} aria-current="page"{{ end }}>Wilhelmina von Blumenthal</a>
+    </li>
+  </ul>
+</div>
