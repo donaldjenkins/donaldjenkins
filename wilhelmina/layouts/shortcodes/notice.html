@@ -1,0 +1,6 @@
+{{ $kind := .Get 0 | default "info" }}
+{{ $title := .Get 1 }}
+<aside class="notification is-{{ $kind }} is-light">
+  {{ with $title }}<p class="has-text-weight-semibold">{{ . }}</p>{{ end }}
+  {{ .Inner | markdownify }}
+</aside>

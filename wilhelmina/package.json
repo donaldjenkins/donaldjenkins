@@ -1,0 +1,20 @@
+{
+  "name": "wilhelmina-gallery",
+  "private": true,
+  "description": "Hugo + Bulma 1 rebuild of wilhelmina.gallery",
+  "scripts": {
+    "build": "hugo --gc --minify"
+  },
+  "browserslist": [
+    "defaults",
+    "Safari >= 15",
+    "iOS >= 15"
+  ],
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^6.0.0",
+    "autoprefixer": "^10.4.21",
+    "bulma": "^1.0.4",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.1"
+  }
+}

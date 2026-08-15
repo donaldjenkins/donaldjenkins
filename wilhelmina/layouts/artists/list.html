@@ -1,0 +1,23 @@
+{{ define "main" }}
+<section class="section">
+  <div class="container">
+    <h1 class="title">{{ .Title }}</h1>
+    <div class="grid is-col-min-8 is-gap-4 artist-grid">
+      {{ range .Pages.ByTitle }}
+      {{ $artist := . }}
+      <div class="cell">
+        <a class="artist-card" href="{{ $artist.RelPermalink }}">
+          {{ with $artist.Params.featured_image }}
+          {{ $base := printf "%s%s" site.Params.cloudflare_images . }}
+          <figure class="image is-4by3">
+            <img src="{{ $base }}/height=380,fit=cover,quality=60" alt="{{ $artist.Title }}" loading="lazy">
+          </figure>
+          {{ end }}
+          <p class="artist-card-name">{{ $artist.Title }}</p>
+        </a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

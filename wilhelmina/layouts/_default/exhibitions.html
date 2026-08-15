@@ -1,0 +1,19 @@
+{{ define "main" }}
+<section class="section">
+  <div class="container">
+    {{ partial "exhibition-tabs.html" . }}
+    {{ with .Params.poster }}
+    <div class="has-text-centered mb-6">
+      <img class="exhibition-poster" src="{{ printf "%s%s/public" site.Params.cloudflare_images . }}" alt="{{ $.Title }}">
+      {{ with $.Params.partner_logo }}
+      <p class="is-size-7 has-text-grey mt-4 mb-2">In collaboration with:</p>
+      <img class="partner-logo" src="{{ printf "%s%s/logo" site.Params.cloudflare_images . }}" alt="{{ $.Params.partner_alt | default "Partner" }}">
+      {{ end }}
+    </div>
+    {{ end }}
+    <article class="content exhibition-copy">
+      {{ .Content }}
+    </article>
+  </div>
+</section>
+{{ end }}

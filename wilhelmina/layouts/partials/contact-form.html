@@ -1,0 +1,54 @@
+<aside class="contact" id="contact">
+  <div id="thanks" class="modalDialog">
+    <div>
+      <a href="#close" title="Close" class="close">×</a>
+      <h2 class="title is-4">Thank you</h2>
+      <p>Your message was successfully sent. We’ll try to get back to you as soon as possible.</p>
+    </div>
+  </div>
+  <div id="failed" class="modalDialog error">
+    <div>
+      <a href="#close" title="Close" class="close">×</a>
+      <h2 class="title is-4">Something went wrong</h2>
+      <p>Your message couldn’t be sent. Please check that your email address is entered correctly and try again.</p>
+    </div>
+  </div>
+  <form method="post" action="{{ site.Params.form_action }}" class="box">
+    <label class="label" for="full-name">Your name</label>
+    <div class="field">
+      <div class="control">
+        <input id="full-name" class="input" name="Full name" type="text" autocomplete="name" placeholder="Joe Bloggs">
+      </div>
+    </div>
+    <label class="label" for="email">Email address</label>
+    <div class="field">
+      <div class="control">
+        <input id="email" class="input" required name="Email" type="email" autocomplete="email" placeholder="joe.bloggs@example.com">
+      </div>
+    </div>
+    <label class="label" for="message">Message</label>
+    <div class="field">
+      <div class="control">
+        <textarea id="message" name="Message" class="textarea" rows="4" placeholder="Tell us what you’re thinking about…"></textarea>
+      </div>
+    </div>
+    <label class="label" for="captcha">5 + 8 = ?</label>
+    <div class="field">
+      <div class="control">
+        <input id="captcha" class="input" required name="Captcha" type="text" inputmode="numeric" autocomplete="off" placeholder="Enter the total">
+      </div>
+    </div>
+    <div class="honeypot" aria-hidden="true">
+      <label for="url">Website</label>
+      <input type="text" name="url" id="url" tabindex="-1" autocomplete="off" value="">
+    </div>
+    <div class="field">
+      <div class="control">
+        <button type="submit" class="button is-link">Contact us</button>
+      </div>
+    </div>
+    <input type="hidden" name="Redirect URL" value="{{ .Permalink }}#thanks">
+    <input type="hidden" name="Failed redirect URL" value="{{ .Permalink }}#failed">
+    <input type="hidden" name="Captcha question" value="5 + 8">
+  </form>
+</aside>

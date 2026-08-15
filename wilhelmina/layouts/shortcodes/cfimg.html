@@ -1,0 +1,22 @@
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" | default "" }}
+{{ $caption := .Get "caption" }}
+{{ $variant := .Get "variant" | default "" }}
+{{ $base := printf "%s%s" site.Params.cloudflare_images $src }}
+<figure class="cfimg">
+  {{ if eq $variant "logo" }}
+  <img src="{{ $base }}/logo" alt="{{ $alt }}">
+  {{ else if eq $variant "public" }}
+  <img src="{{ $base }}/public" alt="{{ $alt }}">
+  {{ else }}
+  <img
+    src="{{ $base }}/w=1280"
+    srcset="{{ $base }}/w=480 480w, {{ $base }}/w=960 960w, {{ $base }}/w=1280 1280w, {{ $base }}/w=1920 1920w"
+    sizes="(min-width: 960px) 960px, 100vw"
+    alt="{{ $alt }}"
+    loading="lazy"
+    decoding="async"
+  >
+  {{ end }}
+  {{ with $caption }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
+</figure>

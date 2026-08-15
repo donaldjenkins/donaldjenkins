@@ -1,0 +1,15 @@
+{{ define "main" }}
+{{ $img := printf "%s%s/fit=cover,quality=50" site.Params.cloudflare_images site.Params.hero_image }}
+<section class="hero is-fullheight-with-navbar has-bg-img" style="--hero-image: url('{{ $img }}')">
+  <div class="hero-body">
+    <div class="container">
+      <p class="title is-1 has-text-white">{{ site.Params.hero_title }}</p>
+      <p class="subtitle is-4 has-text-white">{{ site.Params.hero_dates }}</p>
+      <p class="hero-copy has-text-white">{{ site.Params.hero_text }}</p>
+      {{ with site.Params.hero_sponsor }}
+      <img class="hero-sponsor" src="{{ printf "%s%s/logo" site.Params.cloudflare_images . }}" alt="Kultur | lx">
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

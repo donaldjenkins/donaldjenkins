@@ -1,0 +1,48 @@
+{{ define "main" }}
+<section class="section">
+  <div class="container">
+    {{ partial "exhibition-tabs.html" . }}
+    <div class="columns is-variable is-6">
+      <div class="column is-5">
+        <div class="has-text-centered mb-5">
+          {{ with .Params.poster }}
+          <img class="exhibition-poster" src="{{ printf "%s%s/logo" site.Params.cloudflare_images . }}" alt="{{ $.Title }}">
+          {{ end }}
+          {{ with .Params.partner_logo }}
+          <p class="is-size-7 has-text-grey mt-4 mb-2">In collaboration with:</p>
+          <img class="partner-logo" src="{{ printf "%s%s/logo" site.Params.cloudflare_images . }}" alt="{{ $.Params.partner_alt | default "Partner" }}">
+          {{ end }}
+        </div>
+        {{ with .Params.lead_image }}
+        {{ $base := printf "%s%s" site.Params.cloudflare_images . }}
+        <figure class="mb-5">
+          <img src="{{ $base }}/w=960" srcset="{{ $base }}/w=480 480w, {{ $base }}/w=960 960w, {{ $base }}/w=1440 1440w" sizes="(min-width: 769px) 40vw, 100vw" alt="{{ $.Title }}">
+        </figure>
+        {{ end }}
+        <article class="content">
+          {{ .Content }}
+        </article>
+      </div>
+      <div class="column">
+        {{ with .Params.gallery }}
+        <div class="grid is-col-min-8 is-gap-2">
+          {{ range . }}
+          {{ $id := . }}
+          {{ $base := printf "%s%s" site.Params.cloudflare_images $id }}
+          <div class="cell">
+            <a class="image-card" href="#{{ $id }}">
+              <img src="{{ $base }}/w=480,fit=cover,quality=60" alt="Life is a Dream, exhibition view" loading="lazy">
+            </a>
+            <div class="lightbox" id="{{ $id }}">
+              <a class="lightbox-close" href="#_" aria-label="Close">×</a>
+              <img src="{{ $base }}/fit=contain,quality=80" alt="Life is a Dream, exhibition view">
+            </div>
+          </div>
+          {{ end }}
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
