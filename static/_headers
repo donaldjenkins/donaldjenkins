@@ -44,3 +44,39 @@
 
 /*
   Content-Security-Policy: default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; img-src 'self' data: https://assets.via.dj https://*.cloudflarestream.com; font-src 'self'; connect-src 'self' https://*.cloudflarestream.com; media-src 'self' blob: https://*.cloudflarestream.com; worker-src 'self' blob:; form-action 'self' https://donaldjenkins-contactform.policymakr.workers.dev; frame-src 'none'; object-src 'none'; base-uri 'self'; frame-ancestors 'self'
+
+# ---------------------------------------------------------------------------
+# Cache lifetimes (added 2026-08-15)
+#
+# Cloudflare Pages' default for static assets is
+# `public, max-age=14400, must-revalidate` — 4 hours, then a conditional
+# request answered 304. The rules below replace that on the paths where a
+# longer life is safe. Rules are additive: the /* block above contributes the
+# CSP, these contribute Cache-Control, and both apply.
+#
+# ⚠️ The dividing line is FINGERPRINTING, and it is the only thing that makes
+# `immutable` safe. Hugo's `fingerprint` puts a content hash in the filename
+# (styles.min.<hash>.css), so changing the file changes its URL and no cache
+# can serve a stale copy. Assets WITHOUT a hash in the name keep a stable URL
+# forever, so a long max-age means an edit stays invisible for that long.
+# Never add `immutable` to an unfingerprinted path.
+#
+# HTML is deliberately untouched: it keeps Pages' `max-age=0, must-revalidate`
+# so a deploy is visible immediately. That is what makes the rest safe — the
+# freshly-fetched HTML always names the current hashed CSS.
+
+# Content-hashed by Hugo. Safe to cache for a year and never revalidate.
+/css/styles.min.*
+  Cache-Control: public, max-age=31536000, immutable
+
+# NOT fingerprinted — stable filenames, so no `immutable` and no year.
+# 30 days trades a small staleness window for dropping the 4-hourly
+# revalidation round-trip. logo.svg is the only one of these on every page.
+# ⚠️ To force an update inside the window, RENAME the file (and its
+# references); re-uploading under the same name will not reach warm caches.
+/images/*
+  Cache-Control: public, max-age=2592000
+
+# Only figtree.woff2, and only the 404 page loads it.
+/fonts/*
+  Cache-Control: public, max-age=2592000
