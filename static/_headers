@@ -22,6 +22,13 @@
 #   script-src  'self' covers the Plausible script, which is proxied through
 #               this origin at /guests/hurrah/. Inline JSON-LD is a data block,
 #               not an executed script, so it needs no allowance.
+#               cdn.jsdelivr.net is NOT optional: vidstack's dist hardcodes
+#               `cdn.jsdelivr.net/npm/hls.js@^1.0.0/dist/hls.min.js` and fetches
+#               it at runtime on any page with a {{< video >}} shortcode. No
+#               template references it, so this is invisible to source analysis
+#               — it was caught only by loading a video page (2026-08-15).
+#               TODO: self-hosting hls.js alongside /vidstack/ would let this
+#               allowance be dropped and keep script-src at 'self'.
 
 /*
-  Content-Security-Policy-Report-Only: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; img-src 'self' data: https://assets.via.dj https://*.cloudflarestream.com; font-src 'self'; connect-src 'self' https://*.cloudflarestream.com; media-src 'self' blob: https://*.cloudflarestream.com; worker-src 'self' blob:; form-action 'self' https://donaldjenkins-contactform.policymakr.workers.dev; frame-src 'none'; object-src 'none'; base-uri 'self'; frame-ancestors 'self'
+  Content-Security-Policy-Report-Only: default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; img-src 'self' data: https://assets.via.dj https://*.cloudflarestream.com; font-src 'self'; connect-src 'self' https://*.cloudflarestream.com; media-src 'self' blob: https://*.cloudflarestream.com; worker-src 'self' blob:; form-action 'self' https://donaldjenkins-contactform.policymakr.workers.dev; frame-src 'none'; object-src 'none'; base-uri 'self'; frame-ancestors 'self'
