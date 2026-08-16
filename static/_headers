@@ -42,7 +42,18 @@
 #               TODO: self-hosting hls.js alongside /vidstack/ would let this
 #               allowance be dropped and keep script-src at 'self'.
 
+# Permissions-Policy — added 2026-08-15 (flagged as missing by securityheaders.com).
+# Denies browser features the site has no use for. The three (self) entries are
+# deliberate, NOT oversights: the video player is Vidstack (custom element
+# <media-player>, playing HLS hosted on Cloudflare Stream), and denying
+# fullscreen or picture-in-picture outright would break its controls on the 18
+# articles that carry a video shortcode. Features not listed keep the browser
+# default. encrypted-media is intentionally omitted — the Cloudflare Stream
+# videos are not DRM-protected, but the default is permissive enough if that
+# ever changes.
+
 /*
+  Permissions-Policy: accelerometer=(), camera=(), display-capture=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=(), xr-spatial-tracking=(), autoplay=(self), fullscreen=(self), picture-in-picture=(self)
   Content-Security-Policy: default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; img-src 'self' data: https://assets.via.dj https://*.cloudflarestream.com; font-src 'self'; connect-src 'self' https://*.cloudflarestream.com; media-src 'self' blob: https://*.cloudflarestream.com; worker-src 'self' blob:; form-action 'self' https://donaldjenkins-contactform.policymakr.workers.dev; frame-src 'none'; object-src 'none'; base-uri 'self'; frame-ancestors 'self'
 
 # ---------------------------------------------------------------------------
