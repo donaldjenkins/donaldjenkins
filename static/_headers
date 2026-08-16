@@ -42,7 +42,7 @@
 #               TODO: self-hosting hls.js alongside /vidstack/ would let this
 #               allowance be dropped and keep script-src at 'self'.
 
-# Permissions-Policy — added 2026-08-15 (flagged as missing by securityheaders.com).
+# Permissions-Policy — added 2026-08-16 (flagged as missing by securityheaders.com).
 # Denies browser features the site has no use for. The three (self) entries are
 # deliberate, NOT oversights: the video player is Vidstack (custom element
 # <media-player>, playing HLS hosted on Cloudflare Stream), and denying
