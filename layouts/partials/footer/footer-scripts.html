@@ -11,6 +11,8 @@
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/vidstack/styles/ui/sliders.min.css"
 />  -->
+<!-- Must precede prod.js: points the HLS provider at self-hosted hls.js. -->
+<script src="/js/vidstack-hls.js"></script>
 <script type="module" src="/vidstack/dist/cdn/prod.js"></script>
 {{ end }} {{ end }}
 
@@ -26,5 +28,7 @@
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/vidstack/styles/ui/sliders.min.css"
 />  -->
+<!-- Must precede prod.js: points the HLS provider at self-hosted hls.js. -->
+<script src="/js/vidstack-hls.js"></script>
 <script type="module" src="/vidstack/dist/cdn/prod.js"></script>
 {{ end }} {{ end }}

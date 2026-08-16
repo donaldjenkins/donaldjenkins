@@ -52,6 +52,13 @@ paginate = 50
 [[module.mounts]]
   source = "node_modules/vidstack"
   target = "static/vidstack"
+# Self-hosted hls.js, so Vidstack does not fetch it from jsDelivr at runtime
+# (see static/js/vidstack-hls.js). Only the single minified file is mounted —
+# hls.js builds its transmuxing worker from a blob URL, so no separate worker
+# file is needed, and mounting the whole dist/ would ship ~10 unused variants.
+[[module.mounts]]
+  source = "node_modules/hls.js/dist/hls.min.js"
+  target = "static/hls/hls.min.js"
 [[module.mounts]]
     source = "assets"
     target = "assets"

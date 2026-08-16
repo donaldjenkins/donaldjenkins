@@ -34,13 +34,16 @@
 #   script-src  'self' covers the Plausible script, which is proxied through
 #               this origin at /guests/hurrah/. Inline JSON-LD is a data block,
 #               not an executed script, so it needs no allowance.
-#               cdn.jsdelivr.net is NOT optional: vidstack's dist hardcodes
-#               `cdn.jsdelivr.net/npm/hls.js@^1.0.0/dist/hls.min.js` and fetches
-#               it at runtime on any page with a {{< video >}} shortcode. No
-#               template references it, so this is invisible to source analysis
-#               — it was caught only by loading a video page (2026-08-15).
-#               TODO: self-hosting hls.js alongside /vidstack/ would let this
-#               allowance be dropped and keep script-src at 'self'.
+#               cdn.jsdelivr.net WAS required here until 2026-08-16: vidstack's
+#               dist hardcodes `cdn.jsdelivr.net/npm/hls.js@^1.0.0/dist/
+#               hls.min.js` and fetched it at runtime on any page with a video.
+#               No template referenced it, so it was invisible to source
+#               analysis and was caught only by loading a video page.
+#               hls.js is now SELF-HOSTED — mounted from node_modules in
+#               config.toml and pointed at by static/js/vidstack-hls.js — so
+#               script-src is back to a bare 'self'. ⚠️ If video ever breaks
+#               with a blocked cdn.jsdelivr.net script, that shim has stopped
+#               working; fix the shim rather than re-adding the allowance.
 
 # Permissions-Policy — added 2026-08-16 (flagged as missing by securityheaders.com).
 # Denies browser features the site has no use for. The three (self) entries are
@@ -54,7 +57,7 @@
 
 /*
   Permissions-Policy: accelerometer=(), camera=(), display-capture=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=(), xr-spatial-tracking=(), autoplay=(self), fullscreen=(self), picture-in-picture=(self)
-  Content-Security-Policy: default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; img-src 'self' data: https://assets.via.dj https://*.cloudflarestream.com; font-src 'self'; connect-src 'self' https://*.cloudflarestream.com; media-src 'self' blob: https://*.cloudflarestream.com; worker-src 'self' blob:; form-action 'self' https://donaldjenkins-contactform.policymakr.workers.dev; frame-src 'none'; object-src 'none'; base-uri 'self'; frame-ancestors 'self'
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; img-src 'self' data: https://assets.via.dj https://*.cloudflarestream.com; font-src 'self'; connect-src 'self' https://*.cloudflarestream.com; media-src 'self' blob: https://*.cloudflarestream.com; worker-src 'self' blob:; form-action 'self' https://donaldjenkins-contactform.policymakr.workers.dev; frame-src 'none'; object-src 'none'; base-uri 'self'; frame-ancestors 'self'
 
 # ---------------------------------------------------------------------------
 # Cache lifetimes (added 2026-08-15)
