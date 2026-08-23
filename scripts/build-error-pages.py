@@ -182,6 +182,13 @@ a:hover, a:focus-visible { color: var(--accent); }
 }
 .cf-box:empty { display: none; }
 .cf-box > * { max-width: 100%; }
+/* Cloudflare's 1xxx box lists a Requested URL and a full User-Agent string.
+   Neither contains spaces, so `max-width` alone cannot contain them -- they
+   overflow the box and then the page. A real Safari/Chrome UA is ~120
+   characters, so this is production behaviour, not just a preview artefact
+   (the preview inflates the URL further with a JWT). Break them anywhere. */
+.cf-box { overflow-wrap: anywhere; }
+.cf-box li { margin: 0.2em 0; }
 .cf-box h1, .cf-box h2, .cf-box h3 {
   font-size: 1.15rem;
   font-weight: 700;
