@@ -170,9 +170,15 @@ a:hover, a:focus-visible { color: var(--accent); }
    readable home without assuming its internal markup. */
 .cf-box {
   margin-top: clamp(1.25rem, 4vh, 2.5rem);
-  width: min(100%, 46rem);
+  width: min(100%, 38rem);
   font-size: 1rem;
-  text-align: left;
+  /* Centred, NOT left-aligned. Everything above this box is centred, so a
+     ragged-left block starting at an arbitrary x reads as misaligned -- which
+     is exactly how the first 5xx dashboard preview looked. The list below is
+     the exception: its items stay left-aligned, but the list as a whole is
+     centred as a group, which is the only way to keep bullets readable
+     without breaking the page's centre line. */
+  text-align: center;
 }
 .cf-box:empty { display: none; }
 .cf-box > * { max-width: 100%; }
@@ -183,7 +189,17 @@ a:hover, a:focus-visible { color: var(--accent); }
   color: var(--ink-strong);
 }
 .cf-box p { margin: 0.6em 0; }
-.cf-box table { width: 100%; border-collapse: collapse; }
+.cf-box ul, .cf-box ol {
+  display: inline-block;
+  text-align: left;
+  margin: 0.6em 0;
+  padding-left: 1.25em;
+}
+.cf-box table {
+  display: inline-table;
+  text-align: left;
+  border-collapse: collapse;
+}
 .cf-box td, .cf-box th { padding: 0.35em 0.6em; vertical-align: top; }
 .cf-box code, .cf-box pre {
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
@@ -403,6 +419,9 @@ PAGES = [
     },
     {
         "file": "500-errors.html",
+        # Cloudflare's error box prints its own Ray ID (confirmed on the 5xx
+        # dashboard preview, 23 Aug), so the page must not print a second.
+        "ray_id": False,
         "cf_type": "500 class errors",
         "api_id": "500_errors",
         "status": "5xx",
@@ -415,6 +434,9 @@ PAGES = [
     },
     {
         "file": "1000-errors.html",
+        # Cloudflare's error box prints its own Ray ID (confirmed on the 5xx
+        # dashboard preview, 23 Aug), so the page must not print a second.
+        "ray_id": False,
         "cf_type": "1000 class errors",
         "api_id": "1000_errors",
         "status": "1xxx",
