@@ -182,11 +182,25 @@ a:hover, a:focus-visible { color: var(--accent); }
   border-collapse: collapse;
 }
 .cf-box td, .cf-box th { padding: 0.35em 0.6em; vertical-align: top; }
-/* Cloudflare's box ends with two adjacent links -- "Cloudflare" and
-   "Privacy" -- separated by nothing. Its own cf.errors.css would space them,
-   but that stylesheet is not loaded on a custom page, so they render as
-   "CloudflarePrivacy". Confirmed in the dashboard preview, 23 Aug 2026. */
-.cf-box a + a { margin-left: 0.6em; }
+/* Cloudflare's box ends "Performance and Security by Cloudflare | Privacy".
+   Without its own cf.errors.css that reads as "CloudflarePrivacy".
+   ⚠️ The two links are NOT adjacent siblings -- an `a + a` rule does nothing.
+   The real structure, read off a live dashboard preview on 23 Aug 2026, is:
+       div.footer-link-wrapper
+         span.footer-text     -> "Cloudflare"
+         span.footer-divider  -> empty; cf.errors.css gives it its rule
+         a.footer-text        -> "Privacy"
+   So Cloudflare already provides the separator element; it is simply unstyled
+   here. Style THAT rather than inventing spacing of our own. */
+.cf-box .footer-divider {
+  display: inline-block;
+  width: 1px;
+  height: 0.85em;
+  margin: 0 0.6em;
+  background: currentColor;
+  opacity: 0.4;
+  vertical-align: -0.08em;
+}
 
 .cf-box code, .cf-box pre {
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
