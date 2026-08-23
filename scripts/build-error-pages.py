@@ -190,8 +190,20 @@ a:hover, a:focus-visible { color: var(--accent); }
   font-size: 0.9em;
 }
 
-/* Challenge widgets are interactive -- centre them and let them size naturally. */
-.cf-box--challenge { display: flex; justify-content: center; text-align: center; }
+/* Challenge widgets are interactive. ⚠️ This MUST stack, not row: Cloudflare
+   injects several sibling elements into ::CAPTCHA_BOX:: (the widget, an
+   explanatory paragraph, a Ray ID block, its own attribution), and a plain
+   `display:flex` laid them out as side-by-side columns -- which is exactly
+   what the first dashboard preview showed. Column, centred, with breathing
+   room between the pieces. */
+.cf-box--challenge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+.cf-box--challenge > * { margin: 0; }
 
 /* Attribution under the challenge widget. The default Cloudflare challenge
    page is self-identifying; this one carries Donald's logo instead, so the
@@ -362,6 +374,7 @@ PAGES = [
         "cf_type": "IP/Country challenge",
         "api_id": "country_challenge",
         "attribution": ATTRIBUTION,
+        "ray_id": False,  # Cloudflare's injected box carries its own
         "status": "403",
         "title": "Just checking",
         "mark": "face-quizzical",
@@ -376,6 +389,7 @@ PAGES = [
         "cf_type": "Managed challenge / I’m Under Attack Mode",
         "api_id": "managed_challenge",
         "attribution": ATTRIBUTION,
+        "ray_id": False,  # Cloudflare's injected box carries its own
         "status": "403",
         "title": "One moment",
         "mark": "shield-check",
@@ -448,7 +462,7 @@ TEMPLATE = """<!DOCTYPE html>
       <p class="lede">{lede}</p>
 {extra}
     </main>
-    <footer>Ray ID <code>::RAY_ID::</code></footer>
+{footer}
   </body>
 </html>
 """
@@ -470,7 +484,16 @@ def build() -> int:
             href, label = page["button"]
             extra.append(f'      <a class="back" href="{href}">{label}</a>')
 
+        # Pages whose Cloudflare box already prints a Ray ID must not print a
+        # second one -- see the challenge pages.
+        footer = (
+            "    <footer>Ray ID <code>::RAY_ID::</code></footer>"
+            if page.get("ray_id", True)
+            else ""
+        )
+
         html = TEMPLATE.format(
+            footer=footer,
             cf_type=page["cf_type"],
             api_id=page["api_id"],
             status=page["status"],
