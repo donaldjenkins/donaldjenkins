@@ -167,6 +167,19 @@ a:hover, a:focus-visible { color: var(--accent); }
 /* Challenge widgets are interactive -- centre them and let them size naturally. */
 .cf-box--challenge { display: flex; justify-content: center; text-align: center; }
 
+/* Attribution under the challenge widget. The default Cloudflare challenge
+   page is self-identifying; this one carries Donald's logo instead, so the
+   third party running the check is named explicitly rather than being hidden
+   by the branding. Deliberately quiet -- it informs, it does not compete with
+   the widget. */
+.attribution {
+  margin: clamp(0.75rem, 2.5vh, 1.5rem) 0 0;
+  font-size: 0.8125rem;
+  color: var(--muted);
+}
+.attribution a { color: var(--muted); }
+.attribution a:hover, .attribution a:focus-visible { color: var(--accent); }
+
 footer {
   padding: 0 clamp(1rem, 5vw, 3rem) clamp(1rem, 3vh, 2rem);
   text-align: center;
@@ -190,6 +203,7 @@ footer code {
       <h1>One moment.</h1>
       <p class="lede">Making sure you’re a person and not a script. This usually takes a second or two.</p>
       <div class="cf-box cf-box--challenge">::CAPTCHA_BOX::</div>
+      <p class="attribution">Security check by <a href="https://www.cloudflare.com/privacypolicy/" rel="noopener">Cloudflare</a></p>
     </main>
     <footer>Ray ID <code>::RAY_ID::</code></footer>
   </body>

@@ -193,6 +193,19 @@ a:hover, a:focus-visible { color: var(--accent); }
 /* Challenge widgets are interactive -- centre them and let them size naturally. */
 .cf-box--challenge { display: flex; justify-content: center; text-align: center; }
 
+/* Attribution under the challenge widget. The default Cloudflare challenge
+   page is self-identifying; this one carries Donald's logo instead, so the
+   third party running the check is named explicitly rather than being hidden
+   by the branding. Deliberately quiet -- it informs, it does not compete with
+   the widget. */
+.attribution {
+  margin: clamp(0.75rem, 2.5vh, 1.5rem) 0 0;
+  font-size: 0.8125rem;
+  color: var(--muted);
+}
+.attribution a { color: var(--muted); }
+.attribution a:hover, .attribution a:focus-visible { color: var(--accent); }
+
 footer {
   padding: 0 clamp(1rem, 5vw, 3rem) clamp(1rem, 3vh, 2rem);
   text-align: center;
@@ -314,6 +327,11 @@ CONTACT = (
     '<a href="https://www.donaldjenkins.com/contact">let me know</a>'
 )
 
+ATTRIBUTION = (
+    'Security check by <a href="https://www.cloudflare.com/privacypolicy/" '
+    'rel="noopener">Cloudflare</a>'
+)
+
 PAGES = [
     {
         "file": "waf-block.html",
@@ -343,6 +361,7 @@ PAGES = [
         "file": "country-challenge.html",
         "cf_type": "IP/Country challenge",
         "api_id": "country_challenge",
+        "attribution": ATTRIBUTION,
         "status": "403",
         "title": "Just checking",
         "mark": "face-quizzical",
@@ -356,6 +375,7 @@ PAGES = [
         "file": "managed-challenge.html",
         "cf_type": "Managed challenge / I’m Under Attack Mode",
         "api_id": "managed_challenge",
+        "attribution": ATTRIBUTION,
         "status": "403",
         "title": "One moment",
         "mark": "shield-check",
@@ -444,6 +464,8 @@ def build() -> int:
         if page["token"]:
             cls = page.get("token_class", "cf-box")
             extra.append(f'      <div class="{cls}">{page["token"]}</div>')
+        if page.get("attribution"):
+            extra.append(f'      <p class="attribution">{page["attribution"]}</p>')
         if page["button"]:
             href, label = page["button"]
             extra.append(f'      <a class="back" href="{href}">{label}</a>')
