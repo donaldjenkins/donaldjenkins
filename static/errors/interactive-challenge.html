@@ -182,6 +182,12 @@ a:hover, a:focus-visible { color: var(--accent); }
   border-collapse: collapse;
 }
 .cf-box td, .cf-box th { padding: 0.35em 0.6em; vertical-align: top; }
+/* Cloudflare's box ends with two adjacent links -- "Cloudflare" and
+   "Privacy" -- separated by nothing. Its own cf.errors.css would space them,
+   but that stylesheet is not loaded on a custom page, so they render as
+   "CloudflarePrivacy". Confirmed in the dashboard preview, 23 Aug 2026. */
+.cf-box a + a { margin-left: 0.6em; }
+
 .cf-box code, .cf-box pre {
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: 0.9em;
