@@ -6,18 +6,29 @@
 # a local build, policy applied as a real header) and the HLS/video path (real
 # browser, real playback — this is what caught the jsdelivr dependency below).
 #
-# ⚠️ KNOWN, ACCEPTED CONFLICT — Cloudflare JS Detections.
-# Super Bot Fight Mode's "JS Detections" (enabled 2026-08-14) makes Cloudflare
-# inject a per-request inline bootstrap for
-# /cdn-cgi/challenge-platform/scripts/jsd/main.js. Its content differs on every
-# request, so it cannot be allowed by hash, and a static _headers file cannot
-# issue a nonce. A strict script-src therefore BLOCKS it, and this policy is
-# strict by explicit decision (Donald, 2026-08-15) — accepting that JS
-# Detections stops functioning.
-# ⚠️ Consequence to watch: the contact form's bot protection leaned on visitors
-# passing JS detection. If legitimate submissions start being blocked, the fix
-# is a WAF skip rule on the form path — or turn JS Detections off in Cloudflare
-# so visitors are not judged against a signal that can never succeed.
+# 📝 RESOLVED — Cloudflare JS Detections vs. this policy (14–15 Aug 2026).
+# Kept because the reasoning still applies if JS Detections is ever re-enabled.
+#
+# Super Bot Fight Mode's "JS Detections" makes Cloudflare inject a per-request
+# inline bootstrap for /cdn-cgi/challenge-platform/scripts/jsd/main.js. Its
+# content differs on every request, so it cannot be allowed by hash; a static
+# _headers file cannot issue a per-request nonce; and 'unsafe-inline' would
+# defeat the policy. A strict script-src and JS Detections are therefore
+# mutually exclusive — there is no configuration of this file that satisfies
+# both.
+#
+# Enabled 2026-08-14, which left JS Detections non-functional once the policy
+# began enforcing. Rather than loosen script-src, JS Detections was switched
+# OFF on 2026-08-15 (Cloudflare dashboard → Security → Settings — NOT
+# Security → Bots). Confirmed still off 2026-08-23. Nothing is outstanding,
+# and the contact form was tested working both before and after: its
+# first-line defence is the Worker's honeypot + email validation, not this.
+#
+# ⚠️ If JS Detections is ever switched back on, the conflict returns in full
+# and cannot be fixed from this file. The remedies are a WAF skip rule on the
+# affected path, or leaving it off. The rest of Super Bot Fight Mode
+# (Definitely automated → Block, Verified bots → Allow) is unaffected either
+# way; the Likely automated tier does not exist on this Pro zone.
 #
 # Derived from an audit of every subresource the site actually loads
 # (see the vault: Sites/donaldjenkins.com/CSP audit and proposal.md).
