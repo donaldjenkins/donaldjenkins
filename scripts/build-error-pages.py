@@ -206,12 +206,17 @@ a:hover, a:focus-visible { color: var(--accent); }
   font-size: 0.9em;
 }
 
-/* Challenge widgets are interactive. ⚠️ This MUST stack, not row: Cloudflare
-   injects several sibling elements into ::CAPTCHA_BOX:: (the widget, an
+/* Challenge widgets are interactive. This MUST stack, not row: Cloudflare
+   injects several sibling elements into the challenge box (the widget, an
    explanatory paragraph, a Ray ID block, its own attribution), and a plain
    `display:flex` laid them out as side-by-side columns -- which is exactly
    what the first dashboard preview showed. Column, centred, with breathing
-   room between the pieces. */
+   room between the pieces.
+   NB: token names are written WITHOUT their colon delimiters anywhere in this
+   stylesheet. Cloudflare substitutes tokens by string replacement over the
+   whole document, so a literal one in a comment would be replaced too -- and
+   injected markup containing an end-comment sequence would break out of the
+   comment and take the stylesheet with it. */
 .cf-box--challenge {
   display: flex;
   flex-direction: column;
@@ -521,6 +526,26 @@ def build() -> int:
         assert 'name="referrer"' not in html, page["file"]
         if page["token"]:
             assert page["token"] in html, f'{page["file"]} lost its mandatory token'
+        # ⚠️ No page may carry a token that is not its own. Cloudflare replaces
+        # tokens by string matching across the entire document -- including
+        # inside comments -- so a stray one injects foreign markup into a page
+        # that has no business rendering it. This guard exists because a
+        # comment explaining the challenge layout once reintroduced a literal
+        # CAPTCHA token onto all seven pages.
+        expected = set()
+        if page["token"]:
+            expected.add(page["token"])
+        if page.get("ray_id", True):
+            expected.add("::RAY_ID::")
+        found = set(re.findall(r"::[A-Z_0-9]+::", html))
+        if found != expected:
+            print(
+                f"FAIL {page['file']}: tokens {sorted(found)} "
+                f"but expected {sorted(expected)}",
+                file=sys.stderr,
+            )
+            return 1
+
         size = len(html.encode("utf-8"))
         if size > SIZE_LIMIT:
             print(f"FAIL {page['file']}: {size} bytes exceeds {SIZE_LIMIT}", file=sys.stderr)

@@ -180,12 +180,17 @@ a:hover, a:focus-visible { color: var(--accent); }
   font-size: 0.9em;
 }
 
-/* Challenge widgets are interactive. ⚠️ This MUST stack, not row: Cloudflare
-   injects several sibling elements into ::CAPTCHA_BOX:: (the widget, an
+/* Challenge widgets are interactive. This MUST stack, not row: Cloudflare
+   injects several sibling elements into the challenge box (the widget, an
    explanatory paragraph, a Ray ID block, its own attribution), and a plain
    `display:flex` laid them out as side-by-side columns -- which is exactly
    what the first dashboard preview showed. Column, centred, with breathing
-   room between the pieces. */
+   room between the pieces.
+   NB: token names are written WITHOUT their colon delimiters anywhere in this
+   stylesheet. Cloudflare substitutes tokens by string replacement over the
+   whole document, so a literal one in a comment would be replaced too -- and
+   injected markup containing an end-comment sequence would break out of the
+   comment and take the stylesheet with it. */
 .cf-box--challenge {
   display: flex;
   flex-direction: column;
