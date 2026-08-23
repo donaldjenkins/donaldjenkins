@@ -335,6 +335,24 @@ MARKS = {
         '<path d="M39 68q10-10 20 0" stroke-width="5"/>',
         "A cloud with a stricken face",
     ),
+    # Interactive challenge -- the visitor does something. Cloudflare's own
+    # interactive challenge is literally a checkbox, so this mirrors it. The
+    # tick is coral, not sage, to keep it distinct from the managed-challenge
+    # shield.
+    "checkbox-tick": mark(
+        '<rect x="14" y="14" width="72" height="72" rx="14" fill="#fff"/>'
+        f'<path d="M31 51 44 64 70 33" stroke="{CORAL}" stroke-width="9"/>',
+        "A ticked checkbox",
+    ),
+    # Non-interactive challenge -- the BROWSER does the work and the visitor
+    # waits. An hourglass, not the rate-limiting stopwatch: waiting, not haste.
+    "hourglass": mark(
+        '<path d="M32 14v8c0 12 18 20 18 28 0 8-18 16-18 28v8h36v-8'
+        'c0-12-18-20-18-28 0-8 18-16 18-28v-8Z" fill="#fff"/>'
+        f'<path d="M50 62 37 82h26Z" fill="{CORAL}" stroke="none"/>'
+        '<path d="M26 14h48M26 86h48" stroke-width="6"/>',
+        "An hourglass",
+    ),
     # 1000 class -- Cloudflare cannot reach the origin: the link is broken.
     "broken-link": mark(
         # The two halves stop well short of centre: round caps add 4 units
@@ -416,6 +434,41 @@ PAGES = [
         "button": None,
         "token": "::CAPTCHA_BOX::",
         "token_class": "cf-box cf-box--challenge",
+    },
+    {
+        "file": "interactive-challenge.html",
+        "cf_type": "Interactive challenge",
+        "api_id": "interactive_challenge",
+        "status": "403",
+        "title": "Your turn",
+        "mark": "checkbox-tick",
+        "heading": "Your turn.",
+        "lede": "One quick check, and then you’re through.",
+        "button": None,
+        "token": "::CAPTCHA_BOX::",
+        "token_class": "cf-box cf-box--challenge",
+        # Cloudflare's challenge box supplies its own Ray ID.
+        "ray_id": False,
+    },
+    {
+        "file": "noninteractive-challenge.html",
+        "cf_type": "Non-interactive challenge",
+        "api_id": "noninteractive_challenge",
+        "status": "403",
+        "title": "Hold on",
+        "mark": "hourglass",
+        "heading": "Hold on.",
+        "lede": "Your browser is doing the checking. Nothing for you to do.",
+        "button": None,
+        # ⚠️ This type takes IM_UNDER_ATTACK_BOX, NOT the CAPTCHA one -- they
+        # are separate dashboard page types, so nothing needs swapping between
+        # them.
+        "token": "::IM_UNDER_ATTACK_BOX::",
+        "token_class": "cf-box cf-box--challenge",
+        # Assumed to carry its own Ray ID like the other challenge boxes.
+        # ⚠️ UNVERIFIED -- confirm on the dashboard preview; if no Ray ID
+        # appears, set this back to True.
+        "ray_id": False,
     },
     {
         "file": "ratelimit-block.html",
