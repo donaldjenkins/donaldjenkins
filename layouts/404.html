@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <title>404 Not Found</title>
+    <!-- Genuine 404 responses are excluded from search by their status code
+         alone. This tag is for /404 itself, which is a real URL and answers
+         200, so nothing else would keep it out of the index. -->
+    <meta name="robots" content="noindex" />
     <style>
       /* The six normalize.css 5.0.0 rules this page actually uses, inlined so
          the page makes no third-party request. figure{margin:1em 40px} is what
