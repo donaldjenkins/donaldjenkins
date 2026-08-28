@@ -3,10 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <title>404 Not Found</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
-    />
+    <style>
+      /* The six normalize.css 5.0.0 rules this page actually uses, inlined so
+         the page makes no third-party request. figure{margin:1em 40px} is what
+         positions the logo — do not drop it. */
+      html {
+        font-family: sans-serif;
+        line-height: 1.15;
+        -webkit-text-size-adjust: 100%;
+      }
+      body {
+        margin: 0;
+      }
+      figure {
+        display: block;
+        margin: 1em 40px;
+      }
+      a {
+        background-color: transparent;
+      }
+      img {
+        border-style: none;
+      }
+    </style>
     <link rel="stylesheet" href="/css/404.css" />
   </head>
   <body>
