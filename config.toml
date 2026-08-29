@@ -1,5 +1,5 @@
 baseURL = 'https://www.donaldjenkins.com/'
-languageCode = 'en-gb'
+locale = 'en-gb'
 timeZone = 'America/New_York'
 title = 'Donald Jenkins writes about politics'
 

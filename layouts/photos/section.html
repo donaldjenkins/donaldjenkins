@@ -13,55 +13,55 @@
     <span class="tag"><a href="https://instagram.com/donaldjenkins_/">{{ partial "icons/instagram.html" . }}&thinsp;Instagram</a></span>
   </aside>
   <section id="black-and-white" class="gallery">
-    <h2 class="title">{{ index .Site.Data.photos.index.black_and_white "title" | markdownify }}</h2>
-    <p class="subtitle">{{ index .Site.Data.photos.index.black_and_white "description" | markdownify }}</p>
+    <h2 class="title">{{ index hugo.Data.photos.index.black_and_white "title" | markdownify }}</h2>
+    <p class="subtitle">{{ index hugo.Data.photos.index.black_and_white "description" | markdownify }}</p>
     <div class="photos">
-      {{ range $.Site.Data.photos.black_and_white }}
+      {{ range hugo.Data.photos.black_and_white }}
       {{ partial "widgets/gallery-image.html" . }}
       {{ end }}
     </div>
   </section>
   <section id="colour" class="gallery">
-    <h2 class="title">{{ index .Site.Data.photos.index.colour "title" | markdownify }}</h2>
-    <p class="subtitle">{{ index .Site.Data.photos.index.colour "description" | markdownify }}</p>
+    <h2 class="title">{{ index hugo.Data.photos.index.colour "title" | markdownify }}</h2>
+    <p class="subtitle">{{ index hugo.Data.photos.index.colour "description" | markdownify }}</p>
     <div class="photos">
-      {{ range $.Site.Data.photos.colour }}
+      {{ range hugo.Data.photos.colour }}
       {{ partial "widgets/gallery-image.html" . }}
       {{ end }}
     </div>
   </section>
   <section id="israel" class="gallery">
-    <h2 class="title">{{ index .Site.Data.photos.index.israel "title" | markdownify }}</h2>
-    <p class="subtitle">{{ index .Site.Data.photos.index.israel "description" | markdownify }}</p>
+    <h2 class="title">{{ index hugo.Data.photos.index.israel "title" | markdownify }}</h2>
+    <p class="subtitle">{{ index hugo.Data.photos.index.israel "description" | markdownify }}</p>
     <div class="photos">
-      {{ range $.Site.Data.photos.israel }}
+      {{ range hugo.Data.photos.israel }}
       {{ partial "widgets/gallery-image.html" . }}
       {{ end }}
     </div>
   </section>
   <section id="paris" class="gallery">
-    <h2 class="title">{{ index .Site.Data.photos.index.paris "title" | markdownify }}</h2>
-    <p class="subtitle">{{ index .Site.Data.photos.index.paris "description" | markdownify }}</p>
+    <h2 class="title">{{ index hugo.Data.photos.index.paris "title" | markdownify }}</h2>
+    <p class="subtitle">{{ index hugo.Data.photos.index.paris "description" | markdownify }}</p>
     <div class="photos">
-      {{ range $.Site.Data.photos.paris }}
+      {{ range hugo.Data.photos.paris }}
       {{ partial "widgets/gallery-image.html" . }}
       {{ end }}
     </div>
   </section>
   <section id="archie-and-peggy" class="gallery">
-    <h2 class="title">{{ index .Site.Data.photos.index.archie_and_peggy "title" | markdownify }}</h2>
-    <p class="subtitle">{{ index .Site.Data.photos.index.archie_and_peggy "description" | markdownify }}</p>
+    <h2 class="title">{{ index hugo.Data.photos.index.archie_and_peggy "title" | markdownify }}</h2>
+    <p class="subtitle">{{ index hugo.Data.photos.index.archie_and_peggy "description" | markdownify }}</p>
     <div class="photos">
-      {{ range $.Site.Data.photos.archie_and_peggy }}
+      {{ range hugo.Data.photos.archie_and_peggy }}
       {{ partial "widgets/gallery-image.html" . }}
       {{ end }}
     </div>
   </section>
   <section id="me" class="gallery">
-    <h2 class="title">{{ index .Site.Data.photos.index.me "title" | markdownify }}</h2>
-    <p class="subtitle">{{ index .Site.Data.photos.index.me "description" | markdownify }}</p>
+    <h2 class="title">{{ index hugo.Data.photos.index.me "title" | markdownify }}</h2>
+    <p class="subtitle">{{ index hugo.Data.photos.index.me "description" | markdownify }}</p>
     <div class="photos">
-      {{ range $.Site.Data.photos.me }}
+      {{ range hugo.Data.photos.me }}
       {{ partial "widgets/gallery-image.html" . }}
       {{ end }}
     </div>
