@@ -43,7 +43,7 @@ article h1 {
   background-color: $secondary;
   border: $secondary;
   height: 9vh;
-  padding: $padding/4;
+  padding: calc($padding / 4);
   text-overflow: ellipsis;
   overflow: hidden;
   line-height: 1;

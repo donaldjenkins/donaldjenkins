@@ -114,7 +114,7 @@ button {
 }
 
 button {
-  font-stretch: unquote(calc($font-stretch * 1.053) + "%");
+  font-stretch: $font-stretch * 1.053 * 1%;
   letter-spacing: -0.0075em;
   line-height: calc($line-height * 0.75);
 }

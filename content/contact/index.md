@@ -1,9 +1,5 @@
 ---
 title: "Contact"
-date: '2019-05-02T17:34:00+00:00'
-slug: "contact"
-type: page
-title: "Contact"
 date: 2023-05-14T15:45:25+00:00
 type: 'contact'
 layout: 'contact'
