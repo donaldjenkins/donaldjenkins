@@ -6,14 +6,6 @@ title = 'Donald Jenkins writes about politics'
 seoTitle = "Donald Jenkins writes about politics"
 # Sets homepage <title> (for SEO)
 
-# Remove files in public/ that the current build did not produce. Without this
-# Hugo only ADDS, so every content-hashed asset ever built lingers — public/css/
-# was carrying orphaned styles.min.<hash>.css files with superseded brand
-# colours, which is actively misleading when checking whether a change shipped.
-# Only orphans go: static files and everything the build emits are kept, so this
-# does not trigger a full re-copy of the mounted static tree. Added 30 Aug 2026.
-cleanDestinationDir = true
-
 disableKinds = ["robotsTXT"]
 disableHugoGeneratorInject = 'true'
 # relativeURLs = 'true'
