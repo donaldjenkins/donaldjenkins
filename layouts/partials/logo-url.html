@@ -1,0 +1,21 @@
+{{- /* Returns the fingerprinted URL of an identity SVG.
+
+    {{ partial "logo-url.html" "logo" }}       -> /images/logo.<hash>.svg
+    {{ partial "logo-url.html" "logo-dark" }}
+
+  Fingerprinting is the fix for a real bug: on 30 August 2026 the new logo
+  appeared on the home page only. The home page had been pointed at a NEW
+  filename (logo-dark.svg) so it fetched fresh, while every other page still
+  requested /images/logo.svg - the same URL as the old artwork - and browsers
+  and Cloudflare served the cached previous version.
+
+  The SOURCE filename stays simple and representative (assets/images/logo.svg);
+  only the SERVED url carries a content hash, exactly as styles.min.<hash>.css
+  already does. Change the file, and the URL changes with it, so a stale logo
+  becomes impossible. */ -}}
+{{- $p := printf "images/%s.svg" . -}}
+{{- with resources.Get $p -}}
+{{- (. | fingerprint "md5").RelPermalink -}}
+{{- else -}}
+{{- errorf "logo-url.html: assets/%s not found" $p -}}
+{{- end -}}

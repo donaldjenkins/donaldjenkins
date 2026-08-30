@@ -7,7 +7,7 @@ including its paginations */}}
   {{ if .IsHome }} {{/* For the homepage, including its paginations */}}
 
   <img
-    src="/images/logo-dark.svg"
+    src="{{ partial "logo-url.html" "logo-dark" }}"
     alt="Donald Jenkins"
     title="Donald Jenkins"
     width="210"
@@ -18,7 +18,7 @@ including its paginations */}}
 
   <a href="/" title="Home">
     <img
-      src="/images/logo.svg"
+      src="{{ partial "logo-url.html" "logo" }}"
       alt="Donald Jenkins"
       title="Donald Jenkins"
       width="210"
