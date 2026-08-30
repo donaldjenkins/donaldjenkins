@@ -1,12 +1,16 @@
+/* figtree.woff2 is a VARIABLE font: wght axis 300-900. Declaring two faces at
+   single values (bold and normal) quantised the whole axis onto just those
+   two: every weight from 300-500 rendered as 400, and 700-900 as 700. This
+   page asks for font-weight: 900 twice, so its headline was rendering Bold
+   700 rather than Black 900. Declaring the range instead lets the browser
+   instance the axis properly. Fixed 30 August 2026.
+   See System/40 Identity/Font policy.md 1b. */
 @font-face {
   font-family: Figtree;
   src: url("/fonts/figtree.woff2") format("woff2");
-  font-weight: bold;
-}
-@font-face {
-  font-family: Figtree;
-  src: url("/fonts/figtree.woff2") format("woff2");
-  font-weight: normal;
+  font-weight: 300 900;
+  font-style: normal;
+  font-display: swap;
 }
 
 #oopss {

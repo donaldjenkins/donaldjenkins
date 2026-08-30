@@ -13,8 +13,8 @@ $danger-hue: 8;
 /// Brand colors | https://convertingcolors.com/color-bucket/view/9C9A77585A79575757C75757F0F0F094C7A1FB5E46.html
 
 // light theme
-$gurkha: hsl($primary-hue, 16%, 54%);
-$horizon: hsl($secondary-hue, 15%, 41%);
+$gurkha: #9C9B77;   // Gurkha - exact palette hex; was hsl(56,16%,54%) = #9C9A77
+$horizon: #596C79;  // Shuttle Gray - exact; was hsl(204,15%,41%) = #596C78
 $davys-gray: hsl(111, 0%, 34%);
 $concrete: hsl(117, 0%, 94%);
 $fuzzy-wuzzy-brown: hsl($tertiary-hue, 50%, 56%);
@@ -22,7 +22,7 @@ $baja-white: hsl(49, 100%, 91%);
 $eton-blue: hsl($success-hue, 31%, 68%);
 $tomato: hsl($danger-hue, 96%, 63%);
 $papaya-whip: hsl($warning-hue, 100%, 92%);
-$slate: hsl(217, 29%, 72%);
+$slate: #A2B2CB;    // Rock Blue - exact; was hsl(217,29%,72%) = #A3B3CC
 
 // dark theme
 $portage: hsl(242, 79%, 77%);
