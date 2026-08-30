@@ -10,7 +10,9 @@ $success-hue: 135;
 $warning-hue: 37;
 $danger-hue: 8;
 
-/// Brand colors | https://convertingcolors.com/color-bucket/view/9C9A77585A79575757C75757F0F0F094C7A1FB5E46.html
+/// Brand colors | https://convertingcolors.com/color-bucket/view/9C9B77596C79575757C75757F0F0F094C7A1FB5E46
+/// (bucket corrected 30 Aug 2026: it encoded 9C9A77 and 585A79, neither of
+///  which is a palette colour — Gurkha is 9C9B77, Shuttle Gray is 596C79).html
 
 // light theme
 $gurkha: #9C9B77;   // Gurkha - exact palette hex; was hsl(56,16%,54%) = #9C9A77
