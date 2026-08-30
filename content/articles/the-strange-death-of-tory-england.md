@@ -70,6 +70,6 @@ Only thus will the peoples of the West retain their traditional awareness, roote
 
 [^1]: Dangerfield, G. _The Strange Death of Liberal England_. 1935. Second Edition, Capricorn Books, 1961, babel.hathitrust.org/cgi/pt?id=mdp.39015031589149&seq=15.
 [^2]: West, Ed. <q>How Bad Will a Labour Government Be?</q> _The Spectator_, 24 May 2024, www.spectator.co.uk/article/how-bad-will-a-labour-government-be.
-[^3]: _The Economist_. <q>David Cameron Is Not Too Posh.</q> _The Economist_, 4 Apr. 2012, assets.via.dj/documents/david-cameron-is-not-too-posh-economist.pdf.
+[^3]: _The Economist_. <q>David Cameron Is Not Too Posh.</q> _The Economist_, 4 Apr. 2012, [assets.via.dj/documents/david-cameron-is-not-too-posh-economist.pdf](https://assets.via.dj/documents/david-cameron-is-not-too-posh-economist.pdf).
 [^4]: Orwell, George. _Collected Essays, Journalism and Letters: My Country, Right or Left, 1940-1943_. Edited by Sonia Orwell and Ian Angus, vol. 2, Penguin, 1970, www.fadedpage.com/books/20180531/html.php.
 [^5]: On this subject, _v._&nbsp;an interesting article, arguing that Orwell's 1941 _The Lion and the Unicorn_ is <q>a brilliant, deeply flawed essay [that] has lessons for modern times</q>: Smith, Noah. <q>Orwell’s <q>the Lion and the Unicorn.</q></q> _Noahpinion_, 27 July 2021, www.noahpinion.blog/p/orwells-the-lion-and-the-unicorn.
