@@ -6,13 +6,6 @@ title = 'Donald Jenkins writes about politics'
 seoTitle = "Donald Jenkins writes about politics"
 # Sets homepage <title> (for SEO)
 
-# Remove files in public/ that the current build did not produce. Safe now that
-# public/ is a symlink to public.nosync, outside iCloud sync: the earlier attempt
-# failed with "unlinkat public/tags: directory not empty" because iCloud kept
-# creating conflict copies (" 2", " 3") inside the build output faster than Hugo
-# could clear it. Re-enabled 30 Aug 2026 alongside that move.
-cleanDestinationDir = true
-
 disableKinds = ["robotsTXT"]
 disableHugoGeneratorInject = 'true'
 # relativeURLs = 'true'

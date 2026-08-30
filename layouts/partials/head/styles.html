@@ -4,15 +4,7 @@
      discarded it, shipping a stale committed css/main.css instead; this uses
      the freshly-compiled result. */}}
 {{ $reset := resources.Get "css/modern-normalize.css" }}
-{{/* quietDeps silences Dart Sass warnings originating in files pulled in via
-     includePaths - i.e. node_modules. include-media emits three if-function
-     deprecations on every build; they are a dependency's business, not ours,
-     and drowned out real output. quietDeps alone does NOT catch them - the
-     library is imported by relative path, so Dart Sass does not treat it as a
-     dependency - hence silenceDeprecations naming the specific id as well.
-     Both are scoped: warnings from our own SCSS, and any OTHER deprecation,
-     still show. Added 30 Aug 2026; Pages runs the same Hugo 0.165.0. */}}
-{{ $opts := dict "transpiler" "dartsass" "targetPath" "css/main.css" "includePaths" (slice "node_modules") "quietDeps" true "silenceDeprecations" (slice "if-function") }}
+{{ $opts := dict "transpiler" "dartsass" "targetPath" "css/main.css" "includePaths" (slice "node_modules") }}
 {{ $main := resources.Get "sass/main.scss" | toCSS $opts }}
 {{ $styles := slice $reset $main | resources.Concat "css/styles.css" }}
 {{ if hugo.IsProduction }}
