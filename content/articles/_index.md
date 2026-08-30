@@ -1,7 +1,6 @@
 ---
 title: "Articles"
 seoTitle: "Articles by Donald Jenkins"
-type: page
 layout: "articles"
 slug: "articles"
 draft: false
