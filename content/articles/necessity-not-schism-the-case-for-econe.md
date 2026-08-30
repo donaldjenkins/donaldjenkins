@@ -65,7 +65,11 @@ If the threshold justifying disobedience is not met, whether for possibility or 
 
 The objection is not a modern invention resting on a single text. Its 2026 statement comes from Fr. Hilaire Vernier; it leans chiefly on Pius XII’s *Ad Apostolorum Principis*, though the case restates a substantial pre-conciliar tradition of manualist theologians, several of whom wrote long before the present crisis.&hairsp;[^16]
 
-{{% blockquote quote="The sacred canons decree clearly and explicitly that it belongs to the Apostolic See alone to judge the aptitude of an ecclesiastic to receive the episcopal dignity and mission, and that it belongs to the Roman Pontiff to name bishops freely." author="Pius XII, *Ad Apostolorum Principis*, §38" %}}
+{{% quotation %}}
+The sacred canons decree clearly and explicitly that it belongs to the Apostolic See alone to judge the aptitude of an ecclesiastic to receive the episcopal dignity and mission, and that it belongs to the Roman Pontiff to name bishops freely.
+<-source->
+Pius XII, *Ad Apostolorum Principis*, §38
+{{% /quotation %}}
 
 Fr. Vernier’s doctrine, since taken up by the Fraternity of Saint Peter, develops four arguments.
 
@@ -79,7 +83,11 @@ No authority predating the most recent council denies any of the three preceding
 
 There is a fourth, scriptural argument: the election of Matthias in *Acts* 1, held to show that apostolic succession must proceed under Peter’s authority and God’s own regard, and *Acts* 20:28, where St. Paul tells the elders of Ephesus that the Holy Ghost had placed them bishops to rule the church of God &hairsp;—&hairsp; read as showing that consecration itself confers, at minimum, an aptitude to govern, prior to and independent of any further grant of jurisdiction:&hairsp;[^22]
 
-{{% blockquote quote="Take heed to yourselves, and to the whole flock, wherein the Holy Ghost hath placed you bishops, to rule the church of God, which he hath purchased with his own blood." author="*Acts* 20:28" %}}
+{{% quotation %}}
+Take heed to yourselves, and to the whole flock, wherein the Holy Ghost hath placed you bishops, to rule the church of God, which he hath purchased with his own blood.
+<-source->
+*Acts* 20:28
+{{% /quotation %}}
 
 A more searching version of the objection points not to outside theologians but to the Society’s own history. In 1983, Archbishop Lefebvre commissioned Fr. Josef Bisig &hairsp;—&hairsp; who later left the Society after the 1988 consecrations and became the first Superior General of the Fraternity of Saint Peter &hairsp;—&hairsp; to study the question privately; the study concluded that such consecrations would constitute <q>a break in apostolicity</q> (<q>une rupture dans l’apostolicité</q> in the original French) &hairsp;—&hairsp; the same apostolicity argument set out above, which the Fraternity of Saint Peter has championed since 1988.
 
@@ -125,7 +133,11 @@ The objection, however, is not confined to a single line of argument. Its propon
 
 The classical treatises of fundamental theology state the doctrine in terms stronger than the definition given above allows for on its own. Our Lord’s promise that <q>the gates of hell shall not prevail against</q> His Church, *viz.*:
 
-{{% blockquote quote="And I say to thee: That thou art Peter; and upon this rock I will build my church, and the gates of hell shall not prevail against it." author="*Mt.* 16:18" %}}
+{{% quotation %}}
+And I say to thee: That thou art Peter; and upon this rock I will build my church, and the gates of hell shall not prevail against it.
+<-source->
+*Mt.* 16:18
+{{% /quotation %}}
 
 is read, by many upholding the indefectibility argument described above, as guaranteeing not merely that the Church as an institution will endure, but that she will never at any time lack the ordinary and legitimate apostolic mission and succession which is one of her essential elements.&hairsp;[^45] From this it is argued that no state of necessity can ever arise which would require Catholics to act outside of, or contrary to, the Church’s ordinary mission and jurisdiction, since to claim such a necessity is already to claim that the Church’s ordinary structures have failed &hairsp;—&hairsp; which her indefectibility forecloses in principle. An episcopal consecration performed without papal mandate, on this reading, sets up what amounts to an extraordinary mission alongside the Church’s one, ordinary mission; Brunsmann &hairsp;—&hairsp; a Catholic priest of the Society of the Divine Word, writing in a standard seminary manual published 1928–1932, decades before either Vatican II or the present crisis, and whose own view on the SSPX’s specific circumstances cannot therefore be assumed &hairsp;—&hairsp; rejects any such extraordinary mission as flatly incompatible with the Church’s nature and constitution, since she can never be without the apostolic succession that flows from her ordinary mission, and her teaching cannot possibly become so corrupted that its purification would require one.&hairsp;[^46]
 
@@ -201,7 +213,11 @@ On this reading, the Society cannot claim a final say over which papal commands 
 
 Rome’s case on the submission branch rests on one move: that grave, repeated defiance of a specific papal command is the same thing, legally, as a standing refusal of submission. Cardinal Cajetan said otherwise, directly, and both sides invoke him &hairsp;—&hairsp; Rome’s own defenders as much as the Society’s.
 
-{{% blockquote quote="Disobeying, even obstinately, the Sovereign Pontiff does not constitute a schism. What constitutes a schism is refusing to submit to him as head of the whole Church." author="Cardinal Cajetan&hairsp;[^68]" %}}
+{{% quotation %}}
+Disobeying, even obstinately, the Sovereign Pontiff does not constitute a schism. What constitutes a schism is refusing to submit to him as head of the whole Church.
+<-source->
+Cardinal Cajetan&hairsp;[^68]
+{{% /quotation %}}
 
 Cajetan explains the difference with a three-part test:
 
@@ -239,11 +255,19 @@ The 2026 decree does not rely on canon 751 alone. It operationalises <q>formal a
 
 For anyone other than the six named bishops, that text sets two conditions, and both must be met together:
 
-{{% blockquote quote="a) one of an internal nature, consisting in freely and consciously sharing the substance of the schism, that is, in opting in such a way for the followers of Lefebvre that this option is placed above obedience to the Pope (at the root of this attitude there will usually be positions contrary to the Magisterium of the Church); b) another of an external nature, consisting in the externalisation of that option, the most evident sign of which will be exclusive participation in the Lefebvrian <q>ecclesial</q> acts, without taking part in the acts of the Catholic Church (this is, however, a non-univocal sign, since it is possible that some faithful take part in the liturgical functions of the followers of Lefebvre without thereby sharing their schismatic spirit)." author="the 1996 Pontifical Council for Legislative Texts note&hairsp;[^80]" %}}
+{{% quotation %}}
+a) one of an internal nature, consisting in freely and consciously sharing the substance of the schism, that is, in opting in such a way for the followers of Lefebvre that this option is placed above obedience to the Pope (at the root of this attitude there will usually be positions contrary to the Magisterium of the Church); b) another of an external nature, consisting in the externalisation of that option, the most evident sign of which will be exclusive participation in the Lefebvrian <q>ecclesial</q> acts, without taking part in the acts of the Catholic Church (this is, however, a non-univocal sign, since it is possible that some faithful take part in the liturgical functions of the followers of Lefebvre without thereby sharing their schismatic spirit).
+<-source->
+the 1996 Pontifical Council for Legislative Texts note&hairsp;[^80]
+{{% /quotation %}}
 
 The Note does not introduce even these two conditions with much confidence. Its own words are tentative:
 
-{{% blockquote quote="Although the question of the exact scope of the notion of <q>formal adherence to schism</q> ought properly to be put to the competent Congregation for the Doctrine of the Faith, it seems to this Pontifical Council that such adherence must involve two complementary elements." author="the 1996 Pontifical Council for Legislative Texts note&hairsp;[^81]" %}}
+{{% quotation %}}
+Although the question of the exact scope of the notion of <q>formal adherence to schism</q> ought properly to be put to the competent Congregation for the Doctrine of the Faith, it seems to this Pontifical Council that such adherence must involve two complementary elements.
+<-source->
+the 1996 Pontifical Council for Legislative Texts note&hairsp;[^81]
+{{% /quotation %}}
 
 The Council is telling its own reader two things at once: that the question properly belongs to a different dicastery, and that what follows is only how the matter seems to this one. Both conditions it then sets out are offered as the Council’s own impression of what such adherence would require, not as a settled test binding on anyone &hairsp;—&hairsp; a caveat the internal condition’s own parenthesis repeats, and the external condition states outright by calling its own sign <q>non univoco.</q> The 2026 decree treats this impression as though it were law.
 
@@ -255,11 +279,19 @@ This reading has to explain two things it does not address. The 1951 decree the 
 
 The Note does not stop at declaring the movement schismatic. It addresses the necessity argument directly too, in the same peremptory register:
 
-{{% blockquote quote="As to the state of necessity Archbishop Lefebvre believed himself to be in, it must be borne in mind that such a state must be verified objectively, and that there is never a necessity to ordain bishops against the will of the Roman Pontiff, Head of the College of Bishops." author="the 1996 Pontifical Council for Legislative Texts note&hairsp;[^85]" %}}
+{{% quotation %}}
+As to the state of necessity Archbishop Lefebvre believed himself to be in, it must be borne in mind that such a state must be verified objectively, and that there is never a necessity to ordain bishops against the will of the Roman Pontiff, Head of the College of Bishops.
+<-source->
+the 1996 Pontifical Council for Legislative Texts note&hairsp;[^85]
+{{% /quotation %}}
 
 Two things are worth weighing against this. The Note’s own normative standing is modest, and its cover letter is more pointed on this than a summary can convey. Archbishop Herranz, then President of the Council, told the Congregation for Bishops directly that the underlying query never even cleared the threshold the Note exists to answer:
 
-{{% blockquote quote="On this point, I am pleased to inform you that the problem raised by the Ordinary of Sion does not appear to require an authentic interpretation of the Motu Proprio <q>Ecclesia Dei</q> of 2nd July, 1988, of the Decree of that Congregation for Bishops of 1st July, 1988, or of the relevant canons of the Code: 1364 §1 and 1382." author="Archbishop Julián Herranz, cover letter to the 1996 note&hairsp;[^86]" %}}
+{{% quotation %}}
+On this point, I am pleased to inform you that the problem raised by the Ordinary of Sion does not appear to require an authentic interpretation of the Motu Proprio <q>Ecclesia Dei</q> of 2nd July, 1988, of the Decree of that Congregation for Bishops of 1st July, 1988, or of the relevant canons of the Code: 1364 §1 and 1382.
+<-source->
+Archbishop Julián Herranz, cover letter to the 1996 note&hairsp;[^86]
+{{% /quotation %}}
 
 The Council’s own president is saying, in as many words, that no authentic interpretation was even called for. In his own introduction to the Note, his opinion was that <q>no genuine legal doubt had been shown to exist.</q>&hairsp;[^87] What follows in the Note itself is offered only as pastoral suggestion, on a question the Council did not consider itself asked to settle. The 2026 decree treats it as settled anyway. Its central claim here is asserted, not derived from the law it purports to interpret. The Note simply declares that necessity <q>must be verified objectively.</q> It does not show this from the Code’s own text.
 

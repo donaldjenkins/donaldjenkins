@@ -69,8 +69,6 @@
     "classes": [
       "alert",
       "archive",
-      "before:absolute",
-      "before:inset-0",
       "button",
       "caption",
       "card",

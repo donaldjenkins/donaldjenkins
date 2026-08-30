@@ -17,37 +17,64 @@ blockquote {
   transition: 0.2s border ease-in-out;
   z-index: 0;
 
-  // The gap in the rule, and the quote glyph below, were pinned to top: 50% of
-  // the WHOLE blockquote - so they moved whenever the block's height changed.
-  // A <cite> changes it: measured drift was +21px without a cite and -7px with
-  // one, which is why a quote reads as centred when attributed and low when not.
-  // Anchoring to the TOP instead makes the position independent of the block's
-  // height, of how many lines the quote runs to, and of whether a cite is
-  // present. It is also where a quotation mark conventionally belongs.
+  // WHERE THE ORNAMENT BELONGS, AND WHY IT IS A CALC.
+  //
+  // It marks the START of the quotation, so it must sit on the FIRST LINE of
+  // the quote - not at the block's midpoint, which moves with the block's
+  // height (that was the earlier fault: +21px adrift without an attribution,
+  // -7px with one). Anchoring to top: 1em fixed that, but introduced two new
+  // errors, because 1em is not the same length in the two pseudo-elements:
+  //
+  //   ::before inherits the blockquote's font-size, so 1em = 19.9px;
+  //   ::after sets font-size: 3em, so ITS 1em = 59.8px - three times as far.
+  //
+  // Measured result: the gap in the rule landed 24px ABOVE the first line and
+  // the glyph 24px BELOW it, 49px apart from each other. Both were "1em".
+  //
+  // So compute the first line's centre from the three lengths that actually
+  // determine it, none of them font-size-relative, so the value means the same
+  // thing in both pseudo-elements - and stays true at every viewport, since
+  // $padding and the line-height are themselves fluid:
+  //
+  //   the blockquote's own padding-top (1em, i.e. --font-size-large)
+  // + the <p>'s top margin ($padding, from base/_base.scss)
+  // + half a line of quote text
+  $first-line-centre: calc(
+    var(--font-size-large) + #{$padding} + var(--line-height-citation) / 2
+  );
+
+  // the gap knocked in the left rule, centred on that line
   &:before {
     content: "";
     position: absolute;
-    top: 1em;
+    top: calc(#{$first-line-centre} - 1em);
     left: -4px;
     height: 2em;
     background-color: $white;
     width: 5px;
   }
 
+  // the “ glyph. Giving it the TEXT's line-height makes its line box exactly
+  // one line of quote deep, so it centres itself on that line; without this,
+  // line-height: 0.54em left it free to drift on its own font-size.
   &:after {
     content: "\201C";
     position: absolute;
-    // Aligned with the first line of the quote, not the block's midpoint.
-    top: 1em;
+    top: calc(#{$first-line-centre} - var(--line-height-citation) / 2);
     left: -0.5em;
     color: $brand-color;
-    width: 0.5rem;
-    height: 0.33rem;
-    font: 3em/0.54em $font-name, sans-serif;
+    font-family: $font-name, sans-serif;
+    font-size: 3em;
+    line-height: var(--line-height-citation);
+    // Centring the glyph's LINE BOX on the line still leaves its INK 12.4px
+    // high, because a “ is drawn in the cap-height band, well above its
+    // baseline. That offset is a metric of the typeface, not of the layout, so
+    // it is expressed in the glyph's own em and scales with the type: measured
+    // 12.4px against a 59.76px glyph = 0.207em.
+    margin-top: 0.207em;
     text-align: center;
     text-indent: -2px;
     width: 1em;
-    margin-top: 0.42em;
     transition: 0.2s all ease-in-out, 0.4s transform ease-in-out;
   }
 

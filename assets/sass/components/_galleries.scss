@@ -35,6 +35,10 @@
 .lightbox {
   background: rgba(0, 0, 0, 0.8);
   display: none;
+  // It is a <figure>, so that its <figcaption> has the parent the HTML spec
+  // requires. A figure carries a default 1em/40px UA margin, which on a fixed
+  // element with all four insets set would inset the overlay - hence margin: 0.
+  margin: 0;
   position: fixed;
   z-index: 1000;
 }
