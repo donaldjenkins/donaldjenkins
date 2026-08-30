@@ -41,14 +41,23 @@
   border: none;
   background: none;
   padding: 0;
-  margin: calc(2 * var(--s)) 0;
+  // No vertical margin: the element is absolutely positioned and centred with
+  // translateY(-50%), so a margin-top just shifts it off centre by that amount
+  // (it was pushing the bars 6.4px below the logo). Horizontal margin unused.
+  margin: 0;
   cursor: pointer;
   height: var(--s);
   aspect-ratio: 5/1;
   border-radius: 100px;
   display: inline-block;
   position: absolute;
-  top: calc($padding * 3.1);
+  // Centre on the navbar, exactly as #logo does via .vertically-centered.
+  // Was top: calc($padding * 3.1) - and $padding is calc(8px + 1.5625vw), so
+  // that offset GREW WITH THE VIEWPORT while the navbar stayed a fixed 105px.
+  // The hamburger therefore drifted from ~8px too high at 375px to ~23px too
+  // low at 1024px, happening to line up only around 500px wide. Fixed 30 Aug 2026.
+  top: 50%;
+  transform: translateY(-50%);
   right: 4vw;
   transition: 0.5s;
   box-shadow: 0 calc(2 * var(--s)) 0 var(--text-color),
