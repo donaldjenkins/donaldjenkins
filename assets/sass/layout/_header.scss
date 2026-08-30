@@ -22,6 +22,16 @@
   width: 210px;
   margin-left: -0.5rem;
 
+  // The <img> defaults to display:inline, which leaves ~6.8px of baseline
+  // descender space BELOW it inside the figure - so the figure measured 45.8px
+  // against a 39px image, and .vertically-centered centred the FIGURE, putting
+  // the visible logo 3.4px above the figure's middle. The hamburger, centred on
+  // the same middle, therefore sat 3.4px low. Making the image block removes the
+  // phantom gap so figure height == image height and both centre together.
+  img {
+    display: block;
+  }
+
   // To control horizontal centering. We will need to affect the top and down margins of our child element.
   //  margin-left: auto;
   //  margin-right: auto;
