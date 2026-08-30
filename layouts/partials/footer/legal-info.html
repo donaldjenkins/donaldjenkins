@@ -1,11 +1,15 @@
 <aside id="legal">
   <p>
+    {{/* The footer sits on a dark ground, so it takes the DARK VARIANT, not the
+         light logo inverted by class="filter-white". Inversion swaps light and
+         dark, so on the outlined mark one of the two discs disappeared - the
+         footer was showing a single dot. Exactly the fault already fixed in the
+         homepage header; this instance was missed. */}}
     <a
       id="footer-logo"
-      class="filter-white"
       href="{{ .Site.BaseURL }}"
       title="Go to Home page"
-      ><img src="{{ partial "logo-url.html" "logo" }}" alt="Donald Jenkins" width="100" height="19"
+      ><img src="{{ partial "logo-url.html" "logo-dark" }}" alt="Donald Jenkins" width="100" height="19"
     /></a>
   </p>
   <p>

@@ -17,21 +17,28 @@ blockquote {
   transition: 0.2s border ease-in-out;
   z-index: 0;
 
+  // The gap in the rule, and the quote glyph below, were pinned to top: 50% of
+  // the WHOLE blockquote - so they moved whenever the block's height changed.
+  // A <cite> changes it: measured drift was +21px without a cite and -7px with
+  // one, which is why a quote reads as centred when attributed and low when not.
+  // Anchoring to the TOP instead makes the position independent of the block's
+  // height, of how many lines the quote runs to, and of whether a cite is
+  // present. It is also where a quotation mark conventionally belongs.
   &:before {
     content: "";
     position: absolute;
-    top: 50%;
+    top: 1em;
     left: -4px;
     height: 2em;
     background-color: $white;
     width: 5px;
-    margin-top: -1em;
   }
 
   &:after {
     content: "\201C";
     position: absolute;
-    top: 50%;
+    // Aligned with the first line of the quote, not the block's midpoint.
+    top: 1em;
     left: -0.5em;
     color: $brand-color;
     width: 0.5rem;
@@ -40,7 +47,7 @@ blockquote {
     text-align: center;
     text-indent: -2px;
     width: 1em;
-    margin-top: -0.09em;
+    margin-top: 0.42em;
     transition: 0.2s all ease-in-out, 0.4s transform ease-in-out;
   }
 
