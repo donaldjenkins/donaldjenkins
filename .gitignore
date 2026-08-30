@@ -11,6 +11,9 @@ config.codekit3
 ### Hugo ###
 # Generated files by hugo
 /public/
+/public
+/public.nosync/
+# 'public' is now a symlink to the non-synced build dir; ignore both forms.
 /resources/_gen/
 /assets/jsconfig.json
 hugo.log

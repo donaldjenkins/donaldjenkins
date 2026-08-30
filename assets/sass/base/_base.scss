@@ -169,6 +169,15 @@ picture {
   padding: 0;
 }
 
+/* The blanket width:100% above stretches the footer logo to its container.
+   #logo escapes it because the header figure is itself width-constrained, but
+   #footer-logo's parent spans the content column, so the mark rendered ~466px
+   wide against the 100px its markup asks for. Pre-existing; fixed 30 Aug 2026. */
+#footer-logo img {
+  width: 100px;
+  height: auto;
+}
+
 picture img {
   @include media("<smartphone") {
     margin-inline: -6vw;
