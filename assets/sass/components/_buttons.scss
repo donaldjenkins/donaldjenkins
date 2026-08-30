@@ -18,29 +18,31 @@ input[type="reset"],
 input[type="button"],
 label[type="button"],
 .button {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4em;
   border-radius: $slightly-rounded;
-  background-color: $primary;
-  //border: none;
   text-align: center;
   color: $primary;
   font-size: var(--font-size-body);
-  padding: 1rem;
+  // Height comes from padding + line-height, and BORDER-BOX so the declared
+  // size is the rendered size. It was content-box, which is why a 28px nav
+  // item rendered 64px tall: 28 + 16*2 padding + 2*2 border.
+  box-sizing: border-box;
+  padding: 0.55em 1.1em;
+  line-height: 1.3;
   cursor: pointer;
   margin: 0.3rem;
-  background: transparent;
-  transition: ease-out 0.5s;
+  background-color: transparent;
   border: 2px solid $primary;
-  box-shadow: inset 0 0 0 0 $primary;
-  //
-  // Source: https://stackoverflow.com/questions/2883373/simple-css-text-wont-center-in-a-button
-  //
-  box-sizing: content-box;
+  text-decoration: none;
 
-  &:hover {
+  @include fill-up-hover($primary);
+
+  &:hover,
+  &:focus-visible {
     color: $white;
-    background-color: $white;
-    box-shadow: inset 0 -100px 0 0 $primary;
   }
 
   &:active {
@@ -50,34 +52,4 @@ label[type="button"],
 
 a.button {
   text-decoration: none;
-}
-
-/* Source: https://uiverse.io/adamgiebl/rude-bear-14 */
-/**
-.flip-button {
-  position: relative;
-  display: inline-block;
-  margin: 15px;
-  padding: 15px 30px;
-  text-align: center;
-  font-size: 18px;
-  letter-spacing: 1px;
-  text-decoration: none;
-  color: #725ac1;
-  background: transparent;
-  cursor: pointer;
-  transition: ease-out 0.5s;
-  border: 2px solid #725ac1;
-  border-radius: 10px;
-  box-shadow: inset 0 0 0 0 #725ac1;
-}
-
-.flip-button:hover {
-  color: white;
-  box-shadow: inset 0 -100px 0 0 #725ac1;
-}
-**/
-
-.flip-button:active {
-  transform: scale(0.9);
 }

@@ -36,8 +36,7 @@
     transition: inset 0.3s 0.3s ease-out;
   }
 
-  p,
-  a {
+  p {
     position: absolute;
     opacity: 0;
     max-width: 80%;
@@ -68,8 +67,8 @@
     transition: inset 0.3s ease-out;
   }
 
-  &:hover p,
-  &:hover a {
+  // The summary still fades in on hover - that behaviour is kept deliberately.
+  &:hover p {
     opacity: 1;
     transition: opacity 0.5s 0.1s ease-in;
   }
@@ -80,16 +79,23 @@
   }
 }
 
-.card-content .button {
-  font-size: var(--font-size-smaller);
-  opacity: 0;
-  background-color: transparent;
-  border: 2px solid $white;
-  margin: 0;
-  padding: 0.3rem;
-  &:hover {
-    background-color: transparent;
-    box-shadow: inset 0 -100px 0 0 transparent;
+// The card is one big link. .card already has position: relative and
+// cursor: pointer, so stretching the anchor's ::after over it makes the whole
+// card clickable while keeping exactly ONE real <a> for accessibility and SEO.
+.card .card-link {
+  position: static;
+  opacity: 1;
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+  }
+
+  &:focus-visible::after {
+    outline: 2px solid var(--link-on-dark);
+    outline-offset: -4px;
   }
 }
 

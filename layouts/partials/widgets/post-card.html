@@ -14,8 +14,12 @@
   <div class="card-content">
     <h2>{{ .Title }}</h2>
     <p>{{ .Description }}</p>
-    <a href="{{ .Permalink }}" class="button before:absolute before:inset-0">
-      Read the article
-    </a>
+    {{/* The whole card is the link. Its ::after is stretched over the card by
+         .card a::after in components/_cards.scss, so a click anywhere opens the
+         article. This previously carried class="button before:absolute
+         before:inset-0" - Tailwind utilities left behind when Tailwind was
+         removed from this project. Nothing defined them, so the stretch never
+         worked and the visible button was the only way in. */}}
+    <a href="{{ .Permalink }}" class="card-link"><span class="visually-hidden">{{ .Title }}</span></a>
   </div>
 </article>

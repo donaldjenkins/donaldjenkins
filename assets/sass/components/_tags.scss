@@ -3,7 +3,7 @@
 .tag {
   align-items: center;
   background-color: var(--meta-color);
-  border-radius: $rounded;
+  border-radius: $slightly-rounded; // same token as .button - one shape language
   color: $white;
   display: inline-flex;
   margin: 0.4rem 0.2rem 0 0;
@@ -20,7 +20,13 @@
     color: $white;
   }
 
-  &:hover {
+  // Tags are the quiet end of the scale: a plain colour change, no fill
+  // animation. The fill is reserved for nav and prev/next, which carry more
+  // weight.
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+
+  &:hover,
+  &:focus-visible {
     color: var(--link-on-dark);
     background-color: var(--primary-color);
   }

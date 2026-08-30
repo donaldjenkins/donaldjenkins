@@ -69,12 +69,11 @@
     "classes": [
       "alert",
       "archive",
-      "before:absolute",
-      "before:inset-0",
       "button",
       "caption",
       "card",
       "card-content",
+      "card-link",
       "cards",
       "category",
       "checkbox",
