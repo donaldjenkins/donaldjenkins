@@ -44,15 +44,15 @@
   https://github.com/donaldjenkins
 
 /* SITE */
-  Last update: 2023-05-25
+  Last update: 2026-08-31
   Theme: Kensington
-  Version: 1.0
+  Version: 1.1
   Architecture: SSG
   Language: English
   Doctype: HTML5
   Components used: HTML, SASS
   Font: -system-ui
-  IDE: Nova by Panic, Figma, CodeKit,
-  Affinity Designer, Espresso
+  Software: Nova by Panic, Cursor, Claude Code
+  Design: Figma, Affinity Designer
 
 [Credit for this page: https://humanstxt.org/]
