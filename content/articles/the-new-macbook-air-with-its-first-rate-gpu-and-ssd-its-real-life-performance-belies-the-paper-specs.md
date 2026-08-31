@@ -9,8 +9,8 @@ notable: false
 layout: "single"
 slug: "the-new-macbook-air-with-its-first-rate-gpu-and-ssd-its-real-life-performance-belies-the-paper-specs"
 draft: false
-description: "The new MacBook Air's superior GPU and SSD drive give it snappier performance than other machines in the range with better stats"
-summary: "I've been test-driving the new MacBook Air for just over a day and I'm thrilled with it. It's a fully working computer weighing just a couple of pounds, its superior GPU and SSD drive give it snappier performance than other machines in the range with better stats on paper and, above all, it's incredibly cute and sexy."
+description: "The new MacBook Air’s superior GPU and SSD drive give it snappier performance than other machines in the range with better stats"
+summary: "I’ve been test-driving the new MacBook Air for just over a day and I’m thrilled with it. It’s a fully working computer weighing just a couple of pounds, its superior GPU and SSD drive give it snappier performance than other machines in the range with better stats on paper and, above all, it’s incredibly cute and sexy."
 featured_image: "add066ac-b184-4d6a-ab7c-c05ebdc74200"
 author: "Donald Jenkins"
 showthedate: false

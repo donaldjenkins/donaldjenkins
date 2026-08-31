@@ -10,7 +10,7 @@ layout: "single"
 slug: "what-should-a-tory-government-stand-for-in-2010"
 draft: false
 description: "Following the General Election the important question will be what a Tory government will actually stand for. There would a lot to be said for it refocusing on its traditional values"
-summary: "Following last week's inconclusive General Election result, I'm struck by how people have focused on the short-term issue of how a functioning administration can be cobbled together, to the detriment of what a Tory government, which must still be the most likely eventual outcome, will actually stand for. There would a lot to be said for it refocusing on its traditional values: pride in tradition, an end to constitutional vandalism, inclusiveness in the conservative sense, and a clear commitment to protecting the environment."
+summary: "Following last week’s inconclusive General Election result, I’m struck by how people have focused on the short-term issue of how a functioning administration can be cobbled together, to the detriment of what a Tory government, which must still be the most likely eventual outcome, will actually stand for. There would a lot to be said for it refocusing on its traditional values: pride in tradition, an end to constitutional vandalism, inclusiveness in the conservative sense, and a clear commitment to protecting the environment."
 featured_image: "fdd7ff65-83d1-4632-2417-ea349184ae00"
 author: "Donald Jenkins"
 showthedate: false

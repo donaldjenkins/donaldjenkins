@@ -9,8 +9,8 @@ notable: true
 layout: "single"
 slug: "sixty-years-a-queen-with-unflinching-grace-and-steadfast-devotion-to-duty"
 draft: false
-description: "HM The Queen's Diamond Jubilee offers us an opportunity to reflect on a life devoted entirely to the service of her peoples both in the United Kingdom and in the Commonwealth."
-summary: "HM The Queen's Diamond Jubilee offers us an opportunity to reflect on a life devoted entirely to the service of her peoples both in the United Kingdom and in the Commonwealth.  It is surely it appropriate today to reflect on what we owe Her Majesty as a nation, as does the vibrant community of countries whose unity she has symbolised for all these years."
+description: "HM The Queen’s Diamond Jubilee offers us an opportunity to reflect on a life devoted entirely to the service of her peoples both in the United Kingdom and in the Commonwealth."
+summary: "HM The Queen’s Diamond Jubilee offers us an opportunity to reflect on a life devoted entirely to the service of her peoples both in the United Kingdom and in the Commonwealth.  It is surely it appropriate today to reflect on what we owe Her Majesty as a nation, as does the vibrant community of countries whose unity she has symbolised for all these years."
 featured_image: "4dca6186-bc55-4254-028f-11e8d090ca00"
 author: "Donald Jenkins"
 showthedate: false

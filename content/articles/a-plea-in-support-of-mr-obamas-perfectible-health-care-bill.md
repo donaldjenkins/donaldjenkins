@@ -1,16 +1,16 @@
 ---
-title: "A plea in support of Mr Obama's perfectible health-care bill"
+title: "A plea in support of Mr Obama’s perfectible health-care bill"
 categories: ["Politics"]
 tags: ["health care", Obama, "Tea Party", US]
-seoTitle: "Donald Jenkins: A plea in support of Mr Obama's perfectible health-care bill"
+seoTitle: "Donald Jenkins: A plea in support of Mr Obama’s perfectible health-care bill"
 date: 2010-03-21T08:29:08+00:00
 type: articles
 notable: false
 layout: "single"
 slug: "a-plea-in-support-of-mr-obamas-perfectible-health-care-bill"
 draft: false
-description: "I'm in no doubt that America needs universal health care for the same reasons that Europe needed it in 1945."
-summary: "I'm in no doubt that America needs universal health care for the same reasons that Europe needed it in 1945: it's morally unacceptable, in a rich society, that anyone should be denied it for financial reasons. The bill presently before Congress is clearly perfectible, but in reality, arguments against it are but thinly-veiled pretexts barely concealing the selfishness and economic ignorance underlying Mr Obama's opponents on this issue.."
+description: "I’m in no doubt that America needs universal health care for the same reasons that Europe needed it in 1945."
+summary: "I’m in no doubt that America needs universal health care for the same reasons that Europe needed it in 1945: it’s morally unacceptable, in a rich society, that anyone should be denied it for financial reasons. The bill presently before Congress is clearly perfectible, but in reality, arguments against it are but thinly-veiled pretexts barely concealing the selfishness and economic ignorance underlying Mr Obama’s opponents on this issue.."
 featured_image: "6a288814-d8e2-416d-74bd-822cb9377200"
 author: "Donald Jenkins"
 showthedate: true
@@ -36,7 +36,7 @@ I feel very strongly that it is a scandal that in a society as rich as the Unite
 
 It is true that the cost of health care, as a proportion of national income, has risen astronomically since 1945. This is hardly surprising, since life expectancy has also increased considerably. As a result, people today live longer, and considerably more agreeably, than previous generations, which would not have happened if both those developments had not occurred. The admittedly not negligible cost of universal health care in OECD countries, which is the price to pay for this, can and should be met in two really obvious ways, without which the standard of living to which our parents have grown accustomed cannot over time be maintained:
 
-- since people live so much longer and stay in good health so much longer, there is every reason why they should work longer (yet another obvious fact to which [the French seem to be blinded](https://www.nytimes.com/2009/06/26/business/global/26iht-franc.html) "French Minister Says Retirement Age Will Rise - NYTimes.com");
+- since people live so much longer and stay in good health so much longer, there is every reason why they should work longer (yet another obvious fact to which [the French seem to be blinded](https://www.nytimes.com/2009/06/26/business/global/26iht-franc.html "French Minister Says Retirement Age Will Rise - NYTimes.com");
 
 - a reasonable balance between wealth-producing and non-wealth-producing generations can only be maintained if governments provide strong support for families with children so as to combat population decline.
 

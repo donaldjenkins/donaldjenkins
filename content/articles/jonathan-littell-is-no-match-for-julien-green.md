@@ -8,8 +8,8 @@ type: articles
 layout: "single"
 slug: "jonathan-littell-is-no-match-for-julien-green"
 draft: false
-description: "A review of American-born Jonathan Littel's rather heavy-handed novel, *Les Bienveillantes*. One inevitably comes to the conclusion that he is not is the same league as the other, more famous American writer who wrote in French, Julien Green."
-summary: "A review of American-born Jonathan Littel's rather heavy-handed novel, *Les Bienveillantes*. One inevitably comes the conclusion that he is not is the same league as the other, more famousAmerican writer who wrote in French, Julien Green. And I found that I found that not one of the French reviews I read even discusses the quality of his French form, beyond wondering whether the author managed to get rid of any anglicisms himself. This total lack of perspective, this inability to analyse or even to offer basic criticism of any kind is totally disconcerting in someone who purports to be a literary critic."
+description: "A review of American-born Jonathan Littel’s rather heavy-handed novel, *Les Bienveillantes*. One inevitably comes to the conclusion that he is not is the same league as the other, more famous American writer who wrote in French, Julien Green."
+summary: "A review of American-born Jonathan Littel’s rather heavy-handed novel, *Les Bienveillantes*. One inevitably comes the conclusion that he is not is the same league as the other, more famousAmerican writer who wrote in French, Julien Green. And I found that I found that not one of the French reviews I read even discusses the quality of his French form, beyond wondering whether the author managed to get rid of any anglicisms himself. This total lack of perspective, this inability to analyse or even to offer basic criticism of any kind is totally disconcerting in someone who purports to be a literary critic."
 featured_image: "91ed4422-615a-45d9-64ec-535894cea000"
 author: "Donald Jenkins"
 showthedate: false

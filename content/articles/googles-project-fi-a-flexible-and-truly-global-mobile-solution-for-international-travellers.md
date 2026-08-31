@@ -1,16 +1,16 @@
 ---
-title: "Google's Google Fi revolution"
+title: "Google’s Google Fi revolution"
 categories: ["Tech"]
 tags: [Android, Google, "Google Fi", iPhone, mobile]
-seoTitle: "Donald Jenkins: Google's Google Fi revolution"
+seoTitle: "Donald Jenkins: Google’s Google Fi revolution"
 date: 2016-07-13T23:45:20+00:00
 type: articles
 notable: false
 layout: "single"
 slug: "googles-project-fi-a-flexible-and-truly-global-mobile-solution-for-international-travellers"
 draft: false
-description: "Google's Project Fi is an economical and powerful mobile phone plan for anyone who travels internationally"
-summary: "Google's Project Fi is an economical and powerful mobile phone plan for anyone who travels internationally. Its main drawback at present are that it's in principle tied to a tiny range of rather lackluster phone models, and that it requires a Gmail account."
+description: "Google’s Project Fi is an economical and powerful mobile phone plan for anyone who travels internationally"
+summary: "Google’s Project Fi is an economical and powerful mobile phone plan for anyone who travels internationally. Its main drawback at present are that it’s in principle tied to a tiny range of rather lackluster phone models, and that it requires a Gmail account."
 featured_image: "746edf7b-5c73-47c9-ef08-aa2484f0e900"
 author: "Donald Jenkins"
 showthedate: false

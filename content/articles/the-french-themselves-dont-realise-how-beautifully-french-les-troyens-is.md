@@ -1,16 +1,16 @@
 ---
-title: "The French themselves don't realise how beautifully French Les Troyens is"
+title: "The French themselves don’t realise how beautifully French Les Troyens is"
 categories: ["Culture"]
 tags: [Berlioz, France, "Gerard Mortier", opera, Paris]
-seoTitle: "Donald Jenkins: The French themselves don't realise how beautifully French Les Troyens is"
+seoTitle: "Donald Jenkins: The French themselves don’t realise how beautifully French Les Troyens is"
 date: 2006-10-12T17:55:21+00:00
 type: articles
 notable: false
 layout: "single"
 slug: "the-french-themselves-dont-realise-how-beautifully-french-les-troyens-is"
 draft: false
-description: "A quick review of *Les Troyens*, arguably France's most beautiful opera, and rather inexplicably quite misunderstood. Gerard Mortier, director of the Paris Opera, has rightly gone against this trend by making it the highlight of the year's season."
-summary: "A quick review of *Les Troyens*, arguably France's most beautiful opera, and rather inexplicably quite misunderstood. Gerard Mortier, director of the Paris Opera, has rightly gone against this trend by making it the highlight of the year's season."
+description: "A quick review of *Les Troyens*, arguably France’s most beautiful opera, and rather inexplicably quite misunderstood. Gerard Mortier, director of the Paris Opera, has rightly gone against this trend by making it the highlight of the year’s season."
+summary: "A quick review of *Les Troyens*, arguably France’s most beautiful opera, and rather inexplicably quite misunderstood. Gerard Mortier, director of the Paris Opera, has rightly gone against this trend by making it the highlight of the year’s season."
 featured_image: "c8494c68-77fa-43be-1ff8-0c7cebde1600"
 author: "Donald Jenkins"
 showthedate: false

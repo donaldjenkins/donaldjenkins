@@ -1,7 +1,7 @@
 ---
 title: "Connecting WordPress, Lightroom and Apple Photos"
 categories: ["Tech"]
-tags: [Adobe, Apple, ipad, iphone, Lightroom, photos, Retina, Wordpress]
+tags: [Adobe, Apple, ipad, iphone, Lightroom, photos, Retina, WordPress]
 seoTitle: "Donald Jenkins: Connecting WordPress, Lightroom and Apple Photos"
 date: 2019-05-27T20:28:52+00:00
 type: articles
@@ -9,8 +9,8 @@ notable: true
 layout: "single"
 slug: "connecting-wordpress-lightroom-and-apple-photos"
 draft: false
-description: "How I integrate Apple Photos, Lightroom and WordPress by building on Lightroom's by sychronising the cloud-based Lightroom CC and the desktop-oriented Lightroom Classic CC and Meow Apps's WP/LR Sync plugin for WordPress."
-summary: "When most of your photos are taken using an iPhone, an effective image workflow tightly integrating Apple Photos, the Lightroom ecosystem and WordPress's Media Library requires careful planning. It can be done, building on Lightroom's limited connection to iOS photos, the synchronization between the cloud-based Lightroom CC and the desktop-oriented Lightroom Classic CC, and finally Meow Apps's WP/LR Sync plugin for WordPress."
+description: "How I integrate Apple Photos, Lightroom and WordPress by building on Lightroom’s by sychronising the cloud-based Lightroom CC and the desktop-oriented Lightroom Classic CC and Meow Apps’s WP/LR Sync plugin for WordPress."
+summary: "When most of your photos are taken using an iPhone, an effective image workflow tightly integrating Apple Photos, the Lightroom ecosystem and WordPress’s Media Library requires careful planning. It can be done, building on Lightroom’s limited connection to iOS photos, the synchronization between the cloud-based Lightroom CC and the desktop-oriented Lightroom Classic CC, and finally Meow Apps’s WP/LR Sync plugin for WordPress."
 featured_image: "79ab5d51-53cf-46e2-a22e-882872cda000"
 author: "Donald Jenkins"
 showthedate: false
@@ -19,7 +19,7 @@ noindex: false
 ---
 
 {{% alert info %}}
-**Update 12th May, 2023**: I have now moved my site from WordPress to Hugo and am no longer using the workflow presented in this post, since a static site doesn't require an economic model based on plugins and PHP.
+**Update 12th May, 2023**: I have now moved my site from WordPress to Hugo and am no longer using the workflow presented in this post, since a static site doesn’t require an economic model based on plugins and PHP.
 {{% /alert %}}
 
 While any serious photographer will use several cameras and lenses, the dramatic improvement in the quality of Apple’s iPhone cameras has led many people, me included, to take the majority of their photographs on their phones&hairsp;[^1]. A lot of these pictures may end up on an Instagram or Facebook profile—easily done directly from an iPhone—rather than a WordPress site. But if, like me, you wish to keep your photographs in some semblance of order and also display them on your site, the iPhone will have introduced additional complexity into your workflow.

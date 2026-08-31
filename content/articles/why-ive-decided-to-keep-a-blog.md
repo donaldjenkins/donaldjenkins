@@ -1,8 +1,8 @@
 ---
-title: "Why I've decided to keep a blog"
+title: "Why I’ve decided to keep a blog"
 categories: ['Personal']
 tags: [blogging]
-seoTitle: "Donald Jenkins: Why I've decided to keep a blog"
+seoTitle: "Donald Jenkins: Why I’ve decided to keep a blog"
 date: 2005-07-03T10:19:28+00:00
 type: articles
 layout: 'single'

@@ -14,7 +14,7 @@ This page sums up the way this Website operates, the laws that apply to it, who 
 
 Any material change in our policies will be advertised on Donald Jenkins’s [X (formerly Twitter) account](https://x.com/donaldjenkins). You may also wish to read the latest {{< policies-release >}} .
 
-We aim, in a modest way, to help fix the {{% quote %}}[biggest lie on the web](https://tosdr.org/en/about){{% /quote %}}: hardly anyone ever reads terms of service, and yet one agrees to them all the time. In recognition of this, we try our utmost to protect our visitors' data and privacy:
+We aim, in a modest way, to help fix the {{% quote %}}[biggest lie on the web](https://tosdr.org/en/about){{% /quote %}}: hardly anyone ever reads terms of service, and yet one agrees to them all the time. In recognition of this, we try our utmost to protect our visitors’ data and privacy:
 
 {{% alert success %}}
 **Summary**
@@ -22,7 +22,7 @@ We aim, in a modest way, to help fix the {{% quote %}}[biggest lie on the web](h
 - This website does not track you.
 - No cookies are set on this site: [check](https://www.cookieserve.com/scan-summary/?url=https%3A%2F%2Fwww.donaldjenkins.com%2F).
 - No need to register.
-- This website doesn't have accounts.
+- This website doesn’t have accounts.
 - IP addresses of visitors are not tracked.
 - Only aggregate data is given to third parties.
 - The [terms](/policies/terms/) for this service are easy to read.

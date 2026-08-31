@@ -10,7 +10,7 @@ layout: "single"
 slug: "sparrow-mail-the-most-elegant-powerful-and-minimalist-mac-email-client"
 draft: false
 description: "Sparrow Mail, a new email client launches today on the Mac App Store. Designed with incredible attention to detail, it offers an uncluttered yet fantastically powerful and flexible interface"
-summary: "I've been quite blown over by Sparrow Mail, the new email client that launches today on the Mac App Store. Designed with incredible attention to detail, it offers an uncluttered yet fantastically powerful and flexible interface, Tweetie-style, while remaining totally compatible with the original spirit and functionality of Gmail. I especially like the powerful keyboard shortcuts. It's currently usable with Gmail—classic or Google Apps—but a generic IMAP upgraded is promised for March."
+summary: "I’ve been quite blown over by Sparrow Mail, the new email client that launches today on the Mac App Store. Designed with incredible attention to detail, it offers an uncluttered yet fantastically powerful and flexible interface, Tweetie-style, while remaining totally compatible with the original spirit and functionality of Gmail. I especially like the powerful keyboard shortcuts. It’s currently usable with Gmail—classic or Google Apps—but a generic IMAP upgraded is promised for March."
 featured_image: "d49b94cc-7df1-4562-74f5-272649891400"
 author: "Donald Jenkins"
 showthedate: false

@@ -10,7 +10,7 @@ layout: "single"
 slug: "is-nancy-mitford-no-longer-understood"
 draft: false
 description: "It is pretty standard, nowadays, to denigrate Nancy Mitford as frivolous and out of touch, but I’ve always had a sneaking liking for someone who was easily the loveliest of the Mitford sisters"
-summary: "It is pretty standard, nowadays, to denigrate Nancy Mitford as frivolous and out of touch, but I’ve always had a sneaking liking for someone who was easily the loveliest of the Mitford sisters Conventional modern Britain has obviously lost sight of a lot of the values that underly her books and are no longer valued in a country where Mr. Blair and the late Princess of Wales are held up as role-models. She understood her epoch's social structures perfectly, was aware of their absurdities, yet probably believed they were best left untouched"
+summary: "It is pretty standard, nowadays, to denigrate Nancy Mitford as frivolous and out of touch, but I’ve always had a sneaking liking for someone who was easily the loveliest of the Mitford sisters Conventional modern Britain has obviously lost sight of a lot of the values that underly her books and are no longer valued in a country where Mr. Blair and the late Princess of Wales are held up as role-models. She understood her epoch’s social structures perfectly, was aware of their absurdities, yet probably believed they were best left untouched"
 featured_image: "4f796c36-5aa9-4f67-b7ef-50661d874100"
 author: "Donald Jenkins"
 showthedate: false

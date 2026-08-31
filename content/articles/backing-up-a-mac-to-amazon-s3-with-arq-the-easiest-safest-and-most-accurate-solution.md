@@ -21,7 +21,7 @@ layout: "single"
 slug: "backing-up-a-mac-to-amazon-s3-with-arq-the-easiest-safest-and-most-accurate-solution"
 draft: false
 description: "Using Amazon S3, in combination with Arq, provides a much more reliable alternative to backup and restore from a Mac."
-summary: "Mac is among the most difficult systems to backup and restore correctly: Macs have peculiarities; resource forks and packages, for example, are unique to the Mac, and not every service handles them well. My experience of the more popular commercial backup services has not been good: they're unreliable, slow and raise privacy and data safety concerns. Using Amazon S3, in combination with a robust yet simple backup tool provided by small startup Arq, which I've just discovered, provides a much more reliable alternative."
+summary: "Mac is among the most difficult systems to backup and restore correctly: Macs have peculiarities; resource forks and packages, for example, are unique to the Mac, and not every service handles them well. My experience of the more popular commercial backup services has not been good: they’re unreliable, slow and raise privacy and data safety concerns. Using Amazon S3, in combination with a robust yet simple backup tool provided by small startup Arq, which I’ve just discovered, provides a much more reliable alternative."
 featured_image: "3dab134c-059d-4842-34e0-093cd85a8d00"
 author: "Donald Jenkins"
 showthedate: false

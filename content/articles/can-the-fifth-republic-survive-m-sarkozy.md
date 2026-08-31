@@ -18,8 +18,8 @@ notable: false
 layout: "single"
 slug: "can-the-fifth-republic-survive-m-sarkozy"
 draft: false
-description: "The dangerous path on which France's once admirable institutions have been taken over the past few years has just reached a new low with even the existence of Cabinet solidarity apparently forgotten by the current administration."
-summary: "The dangerous path on which France's once admirable institutions have been taken over the past few years has just reached a new low with even the existence of Cabinet solidarity apparently forgotten by the current administration."
+description: "The dangerous path on which France’s once admirable institutions have been taken over the past few years has just reached a new low with even the existence of Cabinet solidarity apparently forgotten by the current administration."
+summary: "The dangerous path on which France’s once admirable institutions have been taken over the past few years has just reached a new low with even the existence of Cabinet solidarity apparently forgotten by the current administration."
 featured_image: "81a8e95a-595d-40fe-f91f-4f1998fe7b00"
 author: "Donald Jenkins"
 showthedate: false

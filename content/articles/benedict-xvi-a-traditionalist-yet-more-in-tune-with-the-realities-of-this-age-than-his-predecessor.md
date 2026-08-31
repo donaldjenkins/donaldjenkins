@@ -8,8 +8,8 @@ type: articles
 layout: "single"
 slug: "benedict-xvi-a-traditionalist-yet-more-in-tune-with-the-realities-of-this-age-than-his-predecessor"
 draft: false
-description: "The Pope's recent comments on the justification of using contraception are nothing more than the reaffirmation of traditional Christian doctrine"
-summary: "The Pope's recent comments on the justification of using contraception whenever not doing so may result in taking a life—something his predecessor should have done, but never did— are nothing more than the reaffirmation of traditional Christian doctrine, just as was his restoration of the traditional mass. Its implications are huge."
+description: "The Pope’s recent comments on the justification of using contraception are nothing more than the reaffirmation of traditional Christian doctrine"
+summary: "The Pope’s recent comments on the justification of using contraception whenever not doing so may result in taking a life—something his predecessor should have done, but never did— are nothing more than the reaffirmation of traditional Christian doctrine, just as was his restoration of the traditional mass. Its implications are huge."
 featured_image: "42fd8bb8-488b-4289-accf-263e74780000"
 author: "Donald Jenkins"
 showthedate: false

@@ -9,8 +9,8 @@ notable: false
 layout: "single"
 slug: "did-you-even-know-facebook-has-unilaterally-decided-to-share-all-your-data-with-anyone-it-pleases"
 draft: false
-description: "A change in policy announced last week allows Facebook to share all your date with anyone they pleases, though it's still possible to opt out of this"
-summary: "Facebook has kept remarkably quiet about its latest move in a recent series designed to stealthily remove what it had previously scrupulously stood for: respect for data its users have chosen to share on it with friends they know in real life, confident that this information would not be shared with the world at large. A change in policy announced last week allows Facebook to share all your date with anyone they please. It's still possible to opt out of this if you know where to go to do it. But it's unlikely that Facebook will stop here in its attempt to sell its users data in a bid to increase its valuation even further on the back of its users privacy."
+description: "A change in policy announced last week allows Facebook to share all your date with anyone they pleases, though it’s still possible to opt out of this"
+summary: "Facebook has kept remarkably quiet about its latest move in a recent series designed to stealthily remove what it had previously scrupulously stood for: respect for data its users have chosen to share on it with friends they know in real life, confident that this information would not be shared with the world at large. A change in policy announced last week allows Facebook to share all your date with anyone they please. It’s still possible to opt out of this if you know where to go to do it. But it’s unlikely that Facebook will stop here in its attempt to sell its users data in a bid to increase its valuation even further on the back of its users privacy."
 featured_image: "8a3e7838-ee82-4f70-2d8a-d5a6c7e70d00"
 author: "Donald Jenkins"
 showthedate: false

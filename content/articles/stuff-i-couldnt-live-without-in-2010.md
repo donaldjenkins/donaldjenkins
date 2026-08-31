@@ -1,8 +1,8 @@
 ---
-title: "Stuff I couldn't live without in 2010"
+title: "Stuff I couldn’t live without in 2010"
 categories: ["Personal"]
 tags: [Apple, apps, fashion, hardware, indispensable, software, trends, web]
-seoTitle: "Donald Jenkins: Stuff I couldn't live without in 2010"
+seoTitle: "Donald Jenkins: Stuff I couldn’t live without in 2010"
 date: 2010-03-24T16:50:17+00:00
 type: articles
 notable: false

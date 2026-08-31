@@ -10,7 +10,7 @@ layout: "single"
 slug: "social-networking-going-towards-an-oligopolistic-closed-shop-system"
 draft: false
 description: "Social networking has matured. Three years ago, a vast number of start-ups were competing in the field, and few people other than geeks actually bothered to use them. Today the sector is much more concentrated"
-summary: "Social networking has matured. Three years ago, a vast number of start-ups were competing in the field, and few people other than geeks actually bothered to use them. Today the sector is much more concentrated: I mainly rely on Facebook, Twitter and Flickr for my web presence. Now that the the consolidation of the social networking sector is finally upon us, one hopes it won't be wrecked by misunderstanding of privacy issues and a step back into an oligopolistic closed-shop system"
+summary: "Social networking has matured. Three years ago, a vast number of start-ups were competing in the field, and few people other than geeks actually bothered to use them. Today the sector is much more concentrated: I mainly rely on Facebook, Twitter and Flickr for my web presence. Now that the the consolidation of the social networking sector is finally upon us, one hopes it won’t be wrecked by misunderstanding of privacy issues and a step back into an oligopolistic closed-shop system"
 featured_image: "e6ae12dd-f4f5-4e8c-07fe-07fc2d64ac00"
 author: "Donald Jenkins"
 showthedate: false
