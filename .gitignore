@@ -14,6 +14,12 @@ config.codekit3
 /public
 /public.nosync/
 # 'public' is now a symlink to the non-synced build dir; ignore both forms.
+# iCloud names a conflict copy "<name> 2", "<name> 3"... Those matched NEITHER
+# rule above, so a conflict copy carrying files would have shown as untracked
+# and could have been swept into a commit by `git add -A`. Empty ones are
+# invisible to git, which is why this went unnoticed. Added 31 August 2026.
+/public [0-9]*/
+/public.nosync [0-9]*/
 /resources/_gen/
 /assets/jsconfig.json
 hugo.log
