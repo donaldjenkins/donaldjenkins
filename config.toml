@@ -69,9 +69,6 @@ paginate = 50
 [[module.mounts]]
     source = "assets"
     target = "assets"
-  [[module.mounts]]
-    source = "node_modules/modern-normalize/modern-normalize.css"
-    target = "assets/css/modern-normalize.css"
 
 [[module.imports]]
   path = "github.com/donaldjenkins/documentation"

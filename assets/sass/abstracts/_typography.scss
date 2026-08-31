@@ -29,8 +29,15 @@ $text-font-stack: $system-ui-font-stack;
 
 /// Code (monospace) font family
 /// @type List
-$code-font-stack: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo,
-  Consolas, "DejaVu Sans Mono", monospace;
+// JetBrains Mono leads, per System/40 Identity/Font policy.md. NO @font-face
+// and no webfont: consistent with this file's standing rule that the site
+// renders in installed fonts only. Anyone who has JetBrains Mono installed
+// gets it; everyone else falls through to ui-monospace, exactly as before.
+// Until 31 Aug 2026 this stack was defined, exposed as --mono-font, and
+// never applied — code and pre rendered in modern-normalize's stack instead.
+// base/_reset.scss now applies it.
+$code-font-stack: "JetBrains Mono", ui-monospace, "Cascadia Code",
+  "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace;
 $monospace-font-stack: $code-font-stack;
 
 $regular-font-stack: $text-font-stack;

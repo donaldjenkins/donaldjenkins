@@ -3,7 +3,10 @@
      in the Pages dashboard env vars). The old code compiled $main and then
      discarded it, shipping a stale committed css/main.css instead; this uses
      the freshly-compiled result. */}}
-{{ $reset := resources.Get "css/modern-normalize.css" }}
+{{/* The reset is no longer a separate resource. modern-normalize was removed
+     on 31 Aug 2026 and replaced by assets/sass/base/_reset.scss, which
+     main.scss loads first — so the reset now compiles WITH the rest of the
+     SCSS and there is nothing left to concatenate. */}}
 {{/* quietDeps silences Dart Sass warnings originating in files pulled in via
      includePaths - i.e. node_modules. include-media emits three if-function
      deprecations on every build; they are a dependency's business, not ours,
@@ -12,9 +15,16 @@
      dependency - hence silenceDeprecations naming the specific id as well.
      Both are scoped: warnings from our own SCSS, and any OTHER deprecation,
      still show. Added 30 Aug 2026; Pages runs the same Hugo 0.165.0. */}}
-{{ $opts := dict "transpiler" "dartsass" "targetPath" "css/main.css" "includePaths" (slice "node_modules") "quietDeps" true "silenceDeprecations" (slice "if-function") }}
+{{ $opts := dict "transpiler" "dartsass" "targetPath" "css/styles.css" "includePaths" (slice "node_modules") "quietDeps" true "silenceDeprecations" (slice "if-function") }}
 {{ $main := resources.Get "sass/main.scss" | toCSS $opts }}
-{{ $styles := slice $reset $main | resources.Concat "css/styles.css" }}
+{{/* targetPath is css/styles.css, NOT css/main.css: static/_headers keys its
+     immutable-cache rule on /css/styles.min.* and the 404 page and CSP notes
+     refer to it by that name. With the concat gone the target path is what
+     names the file, so it has to carry the name the concat used to give it.
+     Right-trimmed (dash before the closing delimiter): a template comment
+     emits nothing itself, but its trailing newline does, and untrimmed it
+     added one byte to all 436 pages. */ -}}
+{{ $styles := $main }}
 {{ if hugo.IsProduction }}
 {{ $styles = $styles | postCSS | minify | fingerprint }}
 {{ end }}

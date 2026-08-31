@@ -26,10 +26,13 @@ label[type="button"],
   text-align: center;
   color: $primary;
   font-size: var(--font-size-body);
-  // Height comes from padding + line-height, and BORDER-BOX so the declared
-  // size is the rendered size. It was content-box, which is why a 28px nav
-  // item rendered 64px tall: 28 + 16*2 padding + 2*2 border.
-  box-sizing: border-box;
+  // Height comes from padding + line-height, and border-box so the declared
+  // size is the rendered size. A 28px nav item once rendered 64px tall
+  // (28 + 16*2 padding + 2*2 border) and this declaration was the local
+  // workaround. The cause was found on 31 Aug 2026 — base/_base.scss had
+  // `html { box-sizing: border-box }` commented out, so `* { inherit }`
+  // resolved to content-box everywhere. Fixed at the root; the local
+  // declaration is no longer needed here.
   padding: 0.55em 1.1em;
   line-height: 1.3;
   cursor: pointer;

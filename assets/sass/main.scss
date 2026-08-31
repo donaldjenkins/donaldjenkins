@@ -7,7 +7,9 @@
 // 1. Abstracts (:root tokens; configured include-media — no vendor CSS)
 @use "abstracts/index";
 
-// 2. Base
+// 2. Base — the reset FIRST: it is the lowest cascade layer, and replaced
+//    the modern-normalize dependency on 31 Aug 2026.
+@use "base/reset";
 @use "base/base";
 @use "base/typography";
 @use "base/grids";

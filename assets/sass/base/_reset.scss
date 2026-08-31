@@ -1,0 +1,163 @@
+@use "../abstracts/index" as *;
+
+// -----------------------------------------------------------------------------
+// The reset.
+//
+// Replaces the modern-normalize dependency, removed 31 August 2026. Every rule
+// below was kept because it demonstrably does something on THIS site; the ones
+// that did not are listed at the bottom with the reason, so the decision can be
+// re-examined rather than re-derived.
+//
+// ⚠️ This file must stay FIRST in main.scss. It is the lowest layer of the
+// cascade and every rule here is meant to be overridable by anything after it.
+//
+// 📝 Upkeep: `Sites/00 Meta/assets/check_reset_currency.py` fetches the current
+// modern-normalize each week and reports any rule that upstream has added,
+// changed or dropped relative to this file, so vendoring does not mean drifting.
+// -----------------------------------------------------------------------------
+
+// NOTE ON box-sizing. modern-normalize set `box-sizing: border-box` on the
+// universal selector. We deliberately do NOT repeat that here, because
+// base/_base.scss already runs the css-tricks inheritance pattern —
+// `html { border-box }` plus `*, *::before, *::after { inherit }` — which is
+// strictly more flexible: a subtree can opt out by setting box-sizing once on
+// its root. Note that having BOTH is what caused the 2023–2026 defect: the
+// universal `inherit` outran the universal `border-box`, and with the `html`
+// rule commented out it resolved to content-box everywhere.
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ * 3. Use a more readable tab size (opinionated).
+ *
+ * The font-family modern-normalize set here is omitted: base/_typography.scss
+ * sets `body, .content { font-family: var(--sans-font) }`, which is the same
+ * system-ui stack, and form controls pick it up via `font-family: inherit`
+ * below.
+ */
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  tab-size: 4; /* 3 */
+}
+
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Add the correct font weight in Chrome and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. The site's own monospace stack. modern-normalize supplied one and the
+ *    site's `--mono-font` was defined but never applied to anything, so every
+ *    `code` and `pre` rendered in the DEPENDENCY's stack rather than the
+ *    site's own. Wiring it up here is what makes --mono-font mean something.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp,
+pre {
+  font-family: var(--mono-font); /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in all
+ * browsers. Load-bearing: the footnote references on every article are `sup`,
+ * 430 of them across the site.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/**
+ * Correct table border color inheritance in Chrome and Safari.
+ * Currently inert — no table on the site draws a border — but it is one
+ * declaration, and it is the rule that starts mattering the day one does.
+ */
+table {
+  border-color: currentcolor;
+}
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ * The contact form's submit is an `input[type=submit]`.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Add the correct display in all browsers. Nothing uses `details`/`summary`
+ * yet; kept because it is one declaration and the failure mode without it is
+ * a disclosure widget with no marker.
+ */
+summary {
+  display: list-item;
+}
+
+// -----------------------------------------------------------------------------
+// DELIBERATELY OMITTED from modern-normalize 3.0.1
+//
+// Each was measured against all 436 rendered pages on 31 August 2026 and
+// matched NOTHING. All target form widgets the site does not use. If any of
+// these elements is ever introduced, restore the rule from upstream.
+//
+//   legend { padding: 0 }
+//   progress { vertical-align: baseline }
+//   ::-webkit-inner-spin-button, ::-webkit-outer-spin-button { height: auto }
+//   [type='search'] { -webkit-appearance: textfield; outline-offset: -2px }
+//   ::-webkit-search-decoration { -webkit-appearance: none }
+//   ::-webkit-file-upload-button { -webkit-appearance: button; font: inherit }
+//
+// The site has no <legend>, <progress>, <fieldset> legend, number/date input,
+// search input or file input anywhere. Its only form is /contact/, whose
+// controls are text, email, checkbox, textarea and one submit.
+// -----------------------------------------------------------------------------
