@@ -68,7 +68,7 @@ The objection is not a modern invention resting on a single text. Its 2026 state
 {{% quotation %}}
 The sacred canons decree clearly and explicitly that it belongs to the Apostolic See alone to judge the aptitude of an ecclesiastic to receive the episcopal dignity and mission, and that it belongs to the Roman Pontiff to name bishops freely.
 <-source->
-Pius XII, *Ad Apostolorum Principis*, §38
+Pius XII, {{% cite %}}Ad Apostolorum Principis{{% /cite %}}, §38
 {{% /quotation %}}
 
 Fr. Vernier’s doctrine, since taken up by the Fraternity of Saint Peter, develops four arguments.
@@ -86,7 +86,7 @@ There is a fourth, scriptural argument: the election of Matthias in *Acts* 1, he
 {{% quotation %}}
 Take heed to yourselves, and to the whole flock, wherein the Holy Ghost hath placed you bishops, to rule the church of God, which he hath purchased with his own blood.
 <-source->
-*Acts* 20:28
+{{% cite %}}Acts{{% /cite %}} 20:28
 {{% /quotation %}}
 
 A more searching version of the objection points not to outside theologians but to the Society’s own history. In 1983, Archbishop Lefebvre commissioned Fr. Josef Bisig &hairsp;—&hairsp; who later left the Society after the 1988 consecrations and became the first Superior General of the Fraternity of Saint Peter &hairsp;—&hairsp; to study the question privately; the study concluded that such consecrations would constitute <q>a break in apostolicity</q> (<q>une rupture dans l’apostolicité</q> in the original French) &hairsp;—&hairsp; the same apostolicity argument set out above, which the Fraternity of Saint Peter has championed since 1988.
@@ -136,7 +136,7 @@ The classical treatises of fundamental theology state the doctrine in terms stro
 {{% quotation %}}
 And I say to thee: That thou art Peter; and upon this rock I will build my church, and the gates of hell shall not prevail against it.
 <-source->
-*Mt.* 16:18
+{{% cite %}}Mt.{{% /cite %}} 16:18
 {{% /quotation %}}
 
 is read, by many upholding the indefectibility argument described above, as guaranteeing not merely that the Church as an institution will endure, but that she will never at any time lack the ordinary and legitimate apostolic mission and succession which is one of her essential elements.&hairsp;[^45] From this it is argued that no state of necessity can ever arise which would require Catholics to act outside of, or contrary to, the Church’s ordinary mission and jurisdiction, since to claim such a necessity is already to claim that the Church’s ordinary structures have failed &hairsp;—&hairsp; which her indefectibility forecloses in principle. An episcopal consecration performed without papal mandate, on this reading, sets up what amounts to an extraordinary mission alongside the Church’s one, ordinary mission; Brunsmann &hairsp;—&hairsp; a Catholic priest of the Society of the Divine Word, writing in a standard seminary manual published 1928–1932, decades before either Vatican II or the present crisis, and whose own view on the SSPX’s specific circumstances cannot therefore be assumed &hairsp;—&hairsp; rejects any such extraordinary mission as flatly incompatible with the Church’s nature and constitution, since she can never be without the apostolic succession that flows from her ordinary mission, and her teaching cannot possibly become so corrupted that its purification would require one.&hairsp;[^46]
