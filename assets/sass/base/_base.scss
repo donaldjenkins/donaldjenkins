@@ -9,11 +9,21 @@
  * Set up a decent box model on the root element
  */
 
-/** | Already done by modern-normalize.css | April 27, 2023 & May 27, 2024
-* html {
-*   box-sizing: border-box;
-* }
-*/
+/**
+ * The root box-sizing. This was commented out from April 2023 to August 2026
+ * on the belief that modern-normalize supplied it — it does not. Its rule is
+ * `*, ::before, ::after { box-sizing: border-box }`, on the universal
+ * selector, NOT on `html`. Our `* { box-sizing: inherit }` below has the same
+ * specificity and comes later in the concatenated stylesheet, so it won
+ * outright: `inherit` at the root resolves to the initial value, and 1382 of
+ * 1401 elements on an article page computed to `content-box`. The nineteen
+ * exceptions were the components that had each set `border-box` by hand to
+ * work around it. Restored 31 August 2026 — this line is what `inherit`
+ * inherits FROM, and without it the pattern below is inert.
+ */
+html {
+  box-sizing: border-box;
+}
 
 /**
  * Make all elements from the DOM inherit from the parent box-sizing
