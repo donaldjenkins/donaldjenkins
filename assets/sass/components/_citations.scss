@@ -14,6 +14,15 @@ blockquote {
   margin: 1.5em;
   padding: 1em 2em;
   position: relative;
+
+  // base/_base.scss gives every <p> a top margin of $padding ("always use
+  // top"). Inside a blockquote that lands on the FIRST paragraph, where it is
+  // not wanted: it put 46.7px above the quote against 7.8px below, so the text
+  // hung low in its own rule. Only the first child is reset - later paragraphs
+  // in a multi-paragraph quote still need their spacing.
+  > *:first-child {
+    margin-top: 0;
+  }
   transition: 0.2s border ease-in-out;
   z-index: 0;
 
@@ -37,10 +46,11 @@ blockquote {
   // $padding and the line-height are themselves fluid:
   //
   //   the blockquote's own padding-top (1em, i.e. --font-size-large)
-  // + the <p>'s top margin ($padding, from base/_base.scss)
   // + half a line of quote text
+  //
+  // The <p>'s top margin used to be a third term here; it is now zeroed above.
   $first-line-centre: calc(
-    var(--font-size-large) + #{$padding} + var(--line-height-citation) / 2
+    var(--font-size-large) + var(--line-height-citation) / 2
   );
 
   // the gap knocked in the left rule, centred on that line
@@ -127,7 +137,10 @@ blockquote cite {
 blockquote {
   margin-bottom: 0;
   text-align: left;
-  padding-bottom: 1%;
+  // WAS 1%, which resolves against the blockquote's WIDTH - so the space under
+  // a quote grew and shrank with the viewport while having nothing to do with
+  // the quote. 1em matches padding-top, so the block is symmetrical.
+  padding-bottom: 1em;
 }
 
 .source p::before {
