@@ -20,7 +20,11 @@ contentDir = 'content'
 enableInlineShortcodes = true
 enableGitInfo = true
 enableRobotsTXT = true
-paginate = 50
+# Hugo removed the top-level `paginate` key in 0.128; on 0.165 it is SILENTLY
+# ignored (no error, no deprecation warning), so pagination had fallen back to
+# the default of 10 between the 29 Aug 2026 pin bump and 2 Sep 2026.
+[pagination]
+  pagerSize = 50
 
 # Source: https://mertbakir.gitlab.io/hugo/last-modified-date-in-hugo/
 [frontmatter]
