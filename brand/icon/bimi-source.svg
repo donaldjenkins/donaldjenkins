@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.2"
+   viewBox="0 0 3084 3084"
+   id="svg3"
+   sodipodi:docname="donaldjenkins-bimi.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs3" />
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.076523995"
+     inkscape:cx="1535.4661"
+     inkscape:cy="1542"
+     inkscape:window-width="1296"
+     inkscape:window-height="449"
+     inkscape:window-x="221"
+     inkscape:window-y="33"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3" />
+  <title
+     id="title1">Donald Jenkins</title>
+  <rect
+     width="3084"
+     height="3084"
+     fill="#ffffff"
+     id="rect1" />
+  <path
+     fill="#96c8a2"
+     fill-rule="evenodd"
+     stroke="none"
+     d="M 1453.647949 1542 C 1453.647949 1249.041748 1216.158325 1011.552002 923.200012 1011.552002 C 630.241638 1011.552002 392.752014 1249.041748 392.752014 1542 C 392.752014 1834.958374 630.241638 2072.447998 923.200012 2072.447998 C 1216.158325 2072.447998 1453.647949 1834.958374 1453.647949 1542 Z"
+     id="path1" />
+  <path
+     fill="#575757"
+     fill-rule="evenodd"
+     stroke="none"
+     d="M 2690.332031 1542 C 2690.332031 1249.041748 2452.842285 1011.552002 2159.884033 1011.552002 C 1866.925659 1011.552002 1629.436035 1249.041748 1629.436035 1542 C 1629.436035 1834.958374 1866.925659 2072.447998 2159.884033 2072.447998 C 2452.842285 2072.447998 2690.332031 1834.958374 2690.332031 1542 Z"
+     id="path2" />
+  <path
+     fill="none"
+     stroke="#a8a67a"
+     stroke-width="200"
+     d="M 192 2662 C 192 2768.038574 277.961334 2854 384 2854 L 2700 2854 C 2806.038574 2854 2892 2768.038574 2892 2662 L 2892 423 C 2892 316.961426 2806.038574 231 2700 231 L 384 231 C 277.961334 231 192 316.961426 192 423 Z"
+     id="path3" />
+  <metadata
+     id="metadata3">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Donald Jenkins</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
