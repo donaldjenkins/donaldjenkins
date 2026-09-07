@@ -2,9 +2,7 @@
   <title>Donald Jenkins</title>
   <style>
     @media (prefers-color-scheme: dark) {
-    .a { fill: #f0f0f0 }
-    .b { fill: #fff7d1 }
-    .c { stroke: #94C7A1 }
+    .a { fill: #CCCCCC }
     }
   </style>
   <g id="mark" transform="scale(0.324254)">

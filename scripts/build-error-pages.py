@@ -269,7 +269,7 @@ footer code {
 # Logo -- read from static/images/logo.svg at build time and inlined.
 # --------------------------------------------------------------------------
 def logo_svg() -> str:
-    raw = (ROOT / "static" / "images" / "logo.svg").read_text().strip()
+    raw = (ROOT / "assets" / "images" / "logo.svg").read_text().strip()
     raw = re.sub(r"^<svg ", '<svg role="img" aria-label="Donald Jenkins" ', raw)
     return raw
 
