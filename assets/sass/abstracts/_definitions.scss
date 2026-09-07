@@ -41,6 +41,8 @@ $heading-font: calc($normal-font * 0.4);
 $thin-font: calc($normal-font * 0.6);
 
 // Font naming conventions | Source: https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight
+// Reference ladder only — the live weights are the $*-font scale above,
+// which uses variable-font axis positions rather than these keywords.
 $thin: 100;
 $extra-light: 200;
 $light: 300;
@@ -49,8 +51,7 @@ $medium: 500;
 $semi-bold: 600;
 $bold: 700;
 $extra-bold: 800;
-// `$black: 900` removed — collided with colors.$black (#000), which won under
-// the old @import order. Use `$black-font` for the heavy weight token.
+$weight-black: 900;   // not $black — that name is the colour #000
 $extra-black: 950;
 
 // Other font variables
