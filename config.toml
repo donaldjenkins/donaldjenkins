@@ -40,7 +40,7 @@ enableRobotsTXT = true
   # Section whose pages populate the RSS feed. Must be a plain string, not an
   # array: rss.xml and seo.html both use it as a scalar (where "Section" …).
   taxonomiesExcludedFromSitemap = ["tags", "categories"]
-  color = "#9c9a75"
+  color = "#9C9B77"
   # Sets theme colour& Safari mask icon colour
   cloudflare_images = "https://www.donaldjenkins.com/cdn-cgi/imagedelivery/L0HrrfgxmX01pIlKW6n82w/"
   assets_url = "https://assets.donaldjenkins.com/"
