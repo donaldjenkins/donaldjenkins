@@ -10,7 +10,7 @@ Set up 6th September, 2026, on the model of `~/Sites/raffish.design/brand/icon/`
 
 | File | Use |
 | --- | --- |
-| `icon.svg` | **The master.** Byte-identical to the vault canonical favicon and to `static/icon.svg`. Transparent, and carries a `prefers-color-scheme: dark` block that lifts the discs to `#f0f0f0` / `#fff7d1` and the frame to `#94C7A1`, so the mark survives dark browser chrome. |
+| `icon.svg` | **The master.** Byte-identical to the vault canonical favicon and to `static/icon.svg`. Transparent, and carries a `prefers-color-scheme: dark` block that lifts **only the grey disc** to `#CCCCCC`, matching `donaldjenkins-lockup-dark.svg`. ⭐ The signature colours stay themselves in dark mode: Gurkha frame, Summer Green disc. |
 | `favicon.ico` | 16, 32 and 48px rasters, PNG-compressed inside the ICO container. |
 | `apple-touch-icon.png` | 180 × 180, transparent. iOS rounds the corners itself. |
 | `icon-192.png`, `icon-512.png` | Web-app manifest icons. |
@@ -38,13 +38,13 @@ In `layouts/partials/head/favicons.html`:
 
 ```html
 <meta name="theme-color" content="{{ site.Params.color }}" /><!-- #9C9B77 -->
-<link rel="icon" href="{{ .Site.BaseURL }}favicon.ico?v=3" sizes="any" />
-<link rel="icon" href="{{ .Site.BaseURL }}icon.svg?v=3" type="image/svg+xml" />
-<link rel="apple-touch-icon" href="{{ .Site.BaseURL }}apple-touch-icon.png?v=3" />
+<link rel="icon" href="{{ .Site.BaseURL }}favicon.ico?v=4" sizes="any" />
+<link rel="icon" href="{{ .Site.BaseURL }}icon.svg?v=4" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="{{ .Site.BaseURL }}apple-touch-icon.png?v=4" />
 <link rel="manifest" href="{{ .Site.BaseURL }}manifest.webmanifest" />
 ```
 
-📝 **The `?v=` is the only cache-buster there is**, and it is load-bearing — browsers keep favicons in a store that a hard reload does not clear. It went to `?v=3` on 7th September 2026 with the colour fix. Any future change to the served rasters must bump it again in the same commit, or returning visitors keep the old mark indefinitely.
+📝 **The `?v=` is the only cache-buster there is**, and it is load-bearing — browsers keep favicons in a store that a hard reload does not clear. It went to `?v=3` on 7th September 2026 with the colour fix, and to `?v=4` the same day when the canonical master's dark-mode `<style>` was rewritten. **Any change to a served icon must bump it in the same commit** — ⚠️ **the SVG counts, not only the rasters.** `static/icon.svg` is what a desktop browser actually shows in the tab, and a change confined to its `<style>` block still changes what the viewer sees.
 
 📝 **`site.Params.color` was `#9c9a75` until 7th September 2026** — a fourth value of the signature colour, missed when the other three were reconciled on 30th August. It is now `#9C9B77`.
 
@@ -64,7 +64,7 @@ python3 scripts/build-icons.py brand/icon/icon.svg brand/icon
 
 ⛔ **Do not edit the rasters by hand, and do not edit `icon.svg` here at all** — it is a copy of the vault canonical file. Change a number in the script — the size list, the render resolution — and rerun.
 
-📝 **The dark-mode `<style>` block is stripped before rasterising**, so the PNGs and the `.ico` are the light rendering. The presentation attributes on the paths carry the same colours, so nothing else about the artwork changes.
+📝 **The dark-mode `<style>` block is stripped before rasterising**, so the PNGs and the `.ico` are the light rendering. The presentation attributes on the paths carry the same colours, so nothing else about the artwork changes. ✅ **Proved on 7th September 2026:** the master's `<style>` was rewritten and all five rasters rebuilt **byte-identically**.
 
 📝 **It has no third-party dependencies, by necessity.** None of `cairosvg`, `Pillow`, `rsvg-convert`, ImageMagick or Inkscape is installed on this machine; rasterising is macOS `sips`, and the ICO container is packed by the script itself. It renders once at 2048px and downsamples, which gives visibly cleaner antialiasing at 16 and 32px than rasterising the vector at those sizes directly. ✅ Verified byte-reproducible — a rerun into a scratch directory returns all five outputs identical.
 
