@@ -74,12 +74,12 @@ python3 scripts/build-icons.py brand/icon/icon.svg brand/icon
 | --- | --- |
 | `www.donaldjenkins.com/favicon.ico` | ⏳ Corrected in this branch (`6eb52213…`, 5,330 bytes); live once the PR merges and Cloudflare Pages builds. |
 | `www.donaldjenkins.com/icon.svg` | ✅ Canonical throughout (`a58475e4…`) — this one was never wrong. |
-| `shared.via.dj/favicon.ico` | ⚠️ **Carries the drifted colours.** Replaced 6th September with `brand/icon/favicon.ico` as it then was, which was built from the drifted master. It needs re-uploading from the corrected build — command below — and the edge cache purging. Bucket `donaldjenkins` in the Policymakr account. |
+| `shared.via.dj/favicon.ico` | ✅ **Corrected 7th September, 2026** — `6eb52213…`, 5,330 bytes, `ETag 4d4233ce…`, verified `MISS` then `HIT` on the new bytes after the purge. The object replaced on 6th September had been built from the drifted master. Bucket `donaldjenkins` in the Policymakr account. 📝 That superseded object is not kept in `_superseded/` because it is already in git, at `22ebdaa:brand/icon/favicon.ico`; the 2023 one is kept there only because it never was. |
 | `assets.via.dj/favicon.ico` | 404 — no object. Harmless while nothing but images is served from it. |
 
 ⚠️ **A PDF cannot carry a favicon.** It has no `<head>`, so the browser falls back to `/favicon.ico` at the origin — which is why the icon on `shared.via.dj/*.pdf` is a bucket-level object and not anything the site controls.
 
-To re-upload the R2 object:
+To re-upload the R2 object (done 7th September 2026; kept because every future asset change on an R2 custom domain needs it):
 
 ```bash
 cd ~/Sites/donaldjenkins && \
