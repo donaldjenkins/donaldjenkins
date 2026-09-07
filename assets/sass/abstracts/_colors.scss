@@ -1,30 +1,54 @@
+/* -----------------------------------------------------------------------------
+ * ⛔ NEVER WRITE A PALETTE COLOUR AS HEX IN THIS FILE.
+ *
+ * Every brand colour is declared in HSL, so that a colour and its derived tints
+ * stay pinned to one hue variable and cannot drift apart. Hex breaks that.
+ *
+ * ⛔ AND NEVER PASTE ColorSlurp's HSL/SCSS EXPORT. It rounds to whole numbers
+ * and is lossy — three of the nine colours in the palette do not survive it:
+ *     Horizon   #596C79 -> #596B78      Slate #A2B2CB -> #A3B3CC
+ *     Eton Blue #96C8A2 -> #97C8A3
+ * That rounding is what made $gurkha compile to #9C9A77 for years.
+ *
+ * ✅ THE ONLY CORRECT SOURCE IS THE HEX, converted to exact fractional HSL:
+ *     python3 "System/40 Identity/assets/hex_to_exact_hsl.py" '#9C9B77'
+ *     ... --verify   compiles each value and proves it returns the same hex
+ *
+ * ⚠️ If a drift checker reports a mismatch, ADD DECIMAL PLACES. Do not convert
+ * to hex. On 30 Aug 2026 three colours were switched to hex on the false
+ * premise that HSL "does not round-trip"; it does, exactly. See
+ * System/40 Identity/Design charter.md §3.
+ *
+ * 📝 $black: #000 is a deliberate, long-standing exception by Donald — a
+ * colour with no hue to round and no dependants. Leave it.
+ * -------------------------------------------------------------------------- */
+
 /* Source: https://sass-lang.com/documentation/modules/color */
 @use "sass:color";
 
 /// Hues
-$primary-hue: 56;
-$secondary-hue: 204;
-$tertiary-hue: 0;
+$primary-hue: 58.3784;   // Gurkha's true hue; was 56, which is why it drifted
+$secondary-hue: 204.3750; // Horizon
+$tertiary-hue: 0;        // Fuzzy Wuzzy Brown
 
-$success-hue: 135;
-$warning-hue: 37;
-$danger-hue: 8;
+$success-hue: 134.4000;  // Eton Blue
+$warning-hue: 36.5854;   // Papaya Whip
+$danger-hue: 7.9558;     // Tomato
 
 /// Brand colors | https://convertingcolors.com/color-bucket/view/9C9B77596C79575757C75757F0F0F094C7A1FB5E46
 /// (bucket corrected 30 Aug 2026: it encoded 9C9A77 and 585A79, neither of
 ///  which is a palette colour — Gurkha is 9C9B77, Shuttle Gray is 596C79).html
 
 // light theme
-$gurkha: #9C9B77;   // Gurkha - exact palette hex; was hsl(56,16%,54%) = #9C9A77
-$horizon: #596C79;  // Shuttle Gray - exact; was hsl(204,15%,41%) = #596C78
-$davys-gray: hsl(111, 0%, 34%);
-$concrete: hsl(117, 0%, 94%);
-$fuzzy-wuzzy-brown: hsl($tertiary-hue, 50%, 56%);
-$baja-white: hsl(49, 100%, 91%);
-$eton-blue: hsl($success-hue, 31%, 68%);
-$tomato: hsl($danger-hue, 96%, 63%);
-$papaya-whip: hsl($warning-hue, 100%, 92%);
-$slate: #A2B2CB;    // Rock Blue - exact; was hsl(217,29%,72%) = #A3B3CC
+$gurkha: hsl($primary-hue, 15.7447%, 53.9216%);   // #9C9B77
+$horizon: hsl($secondary-hue, 15.2381%, 41.1765%); // #596C79
+$davys-gray: hsl(0, 0%, 34.1176%);                // #575757
+$concrete: hsl(0, 0%, 94.1176%);                  // #F0F0F0
+$fuzzy-wuzzy-brown: hsl($tertiary-hue, 50%, 56.0784%); // #C75757
+$eton-blue: hsl($success-hue, 31.2500%, 68.6275%); // #96C8A2
+$tomato: hsl($danger-hue, 95.7672%, 62.9412%);    // #FB5E46
+$papaya-whip: hsl($warning-hue, 100%, 91.9608%);  // #FFEFD6
+$slate: hsl(216.5854, 28.2759%, 71.5686%);        // #A2B2CB
 
 // dark theme
 $portage: hsl(242, 79%, 77%);
