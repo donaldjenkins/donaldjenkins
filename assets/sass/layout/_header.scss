@@ -193,8 +193,15 @@
     //
     line-height: 1.25;
 
+    // `inherit`, not a colour of its own. The <li> IS the button and already
+    // declares what its label becomes on hover - its own fill colour, once the
+    // white fill has risen behind it. This anchor used to set
+    // $link-hover-on-dark over the top and win, because the anchor is what
+    // actually paints the text: a pale pink (#EABEBE) on the white fill, 1.67:1,
+    // all but invisible. That colour is the hover tint for a DARK background,
+    // and it was correct until the fill turned the button white underneath it.
     &:hover {
-      color: $link-hover-on-dark;
+      color: inherit;
       text-decoration: none;
     }
   }
