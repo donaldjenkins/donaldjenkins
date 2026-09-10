@@ -58,9 +58,20 @@ article h1 {
   -webkit-box-orient: vertical;
 }
 
+// Hover: the same system as the header's solid buttons (#menu .button.primary /
+// .secondary) - a white fill rises from the bottom and the label flips to the
+// button's own colour. The fill was var(--meta-color), which is the very colour
+// these buttons already are, so hovering them animated one shade of Horizon over
+// an identical shade of Horizon: nothing was visible. The tags immediately above
+// them stay on their quieter plain-colour swap, as intended.
 #link-prev,
 #link-next {
-  @include fill-up-hover(var(--meta-color));
+  @include fill-up-hover($white);
+
+  &:hover,
+  &:focus-visible {
+    color: $secondary;
+  }
 }
 
 // The arrow sat above the title because the markup carries a <br>. With a flex
@@ -70,11 +81,17 @@ article h1 {
   display: none;
 }
 
+// The arrow takes the label's colour, so it flips with it. It used to be painted
+// white by the `filter-white` invert filter, which is blind to the hover state
+// and would have left a white arrow on the white fill. `color: inherit` overrides
+// `.icon`'s own colour, and `fill` is inherited by the <path>.
 #link-prev .icon,
 #link-next .icon {
   flex: 0 0 auto;
   width: 1em;
   height: 1em;
+  color: inherit;
+  fill: currentColor;
 }
 
 #link-next {
@@ -104,11 +121,6 @@ article h1 {
   #link-prev,
   #link-next {
     width: 90%;
-  }
-  #link-prev:hover,
-  #link-next:hover {
-    width: 90%;
-    background-color: unset;
   }
 }
 
