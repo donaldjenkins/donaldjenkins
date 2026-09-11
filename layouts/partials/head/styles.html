@@ -14,7 +14,8 @@
      library is imported by relative path, so Dart Sass does not treat it as a
      dependency - hence silenceDeprecations naming the specific id as well.
      Both are scoped: warnings from our own SCSS, and any OTHER deprecation,
-     still show. Added 30 Aug 2026; Pages runs the same Hugo 0.165.0. */}}
+     still show. Added 30 Aug 2026; Pages runs the same Hugo as local (the
+     pin is recorded in AGENTS.md §2, not repeated here to go stale). */}}
 {{ $opts := dict "transpiler" "dartsass" "targetPath" "css/styles.css" "includePaths" (slice "node_modules") "quietDeps" true "silenceDeprecations" (slice "if-function") }}
 {{ $main := resources.Get "sass/main.scss" | toCSS $opts }}
 {{/* targetPath is css/styles.css, NOT css/main.css: static/_headers keys its
