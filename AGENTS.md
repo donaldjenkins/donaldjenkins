@@ -82,7 +82,7 @@ the file must still be present in the repo. Keep it.
 
 | Tool | Version | Where pinned |
 |---|---|---|
-| Hugo Extended | **0.165.0** | Cloudflare Pages dashboard env (`HUGO_VERSION`) |
+| Hugo Extended | **0.166.0** | Cloudflare Pages dashboard env (`HUGO_VERSION`) — Production **and** Preview, which do not share variables |
 | Node | **22.23.2** (floor **≥ 22.15**, see below) | Cloudflare env (`NODE_VERSION`); `.nvmrc` pins `22.23.2` to match |
 | Cloudflare build system | v2 | dashboard |
 | Dart Sass | 1.76.0 | the build command above |
