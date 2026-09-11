@@ -1,7 +1,7 @@
 ---
 title: "Don’t let the French president get elected by chance"
 categories: ["Politics"]
-tags: [Constitution, France, politics]
+tags: [constitution, france, politics]
 seoTitle: "Donald Jenkins: Don’t let the French president get elected by chance"
 date: 2006-03-07T23:18:40+00:00
 type: articles

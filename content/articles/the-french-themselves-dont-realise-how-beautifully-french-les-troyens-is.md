@@ -1,7 +1,7 @@
 ---
 title: "The French themselves don’t realise how beautifully French Les Troyens is"
 categories: ["Culture"]
-tags: [Berlioz, France, "Gerard Mortier", opera, Paris]
+tags: [berlioz, france, "gerard mortier", opera, paris]
 seoTitle: "Donald Jenkins: The French themselves don’t realise how beautifully French Les Troyens is"
 date: 2006-10-12T17:55:21+00:00
 type: articles

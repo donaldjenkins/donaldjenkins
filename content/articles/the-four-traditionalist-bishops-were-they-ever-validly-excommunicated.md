@@ -1,7 +1,7 @@
 ---
 title: "The four traditionalist bishops: were they ever validly excommunicated?"
 categories: ["Religion"]
-tags: [Catholicism, SSPX, theology]
+tags: [catholicism, sspx, theology]
 seoTitle: "Donald Jenkins: The four traditionalist bishops: were they ever validly excommunicated?"
 date: 2009-01-25T14:38:26+00:00
 type: articles

@@ -1,7 +1,7 @@
 ---
 title: "La Dame aux Camélias: crusty old fogeys, jumping for joy"
 categories: ["Culture"]
-tags: [Berlioz, France, "Gerard Mortier", opera, Paris]
+tags: [berlioz, france, "gerard mortier", opera, paris]
 seoTitle: "Donald Jenkins: La Dame aux Camélias: crusty old fogeys, jumping for joy"
 date: 2006-06-23T00:28:32+00:00
 type: articles

@@ -1,7 +1,7 @@
 ---
 title: "Yvonne, princesse de Bourgogne: Gerard Mortier shuts his bolt pretty triumphantly"
 categories: ['Culture']
-tags: [France, 'Gerard Mortier', opera, Paris]
+tags: [france, 'gerard mortier', opera, paris]
 seoTitle: "Donald Jenkins: Yvonne, princesse de Bourgogne: Gerard Mortier shuts his bolt pretty triumphantly"
 date: 2009-01-24T22:56:19+00:00
 type: articles

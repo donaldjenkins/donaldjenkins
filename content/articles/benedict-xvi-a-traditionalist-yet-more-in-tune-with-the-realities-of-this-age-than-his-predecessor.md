@@ -1,7 +1,7 @@
 ---
 title: "Benedict XVI: a traditionalist, yet more in tune with the realities of this age than his predecessor"
 categories: ["Religion"]
-tags: [Catholicism, morals, theology]
+tags: [catholicism, morals, theology]
 seoTitle: "Donald Jenkins: Benedict XVI: a traditionalist, yet more in tune with the realities of this age than his predecessor"
 date: 2010-11-23T15:25:00+00:00
 type: articles

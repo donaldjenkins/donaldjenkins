@@ -1,7 +1,7 @@
 ---
 title: "Google’s Google Fi revolution"
 categories: ["Tech"]
-tags: [Android, Google, "Google Fi", iPhone, mobile]
+tags: [android, google, "google fi", iphone, mobile]
 seoTitle: "Donald Jenkins: Google’s Google Fi revolution"
 date: 2016-07-13T23:45:20+00:00
 type: articles

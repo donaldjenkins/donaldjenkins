@@ -1,7 +1,7 @@
 ---
 title: "When in France, don’t ever wear brown shoes after 6 pm"
 categories: ["Sundry"]
-tags: [France, manners, footwear, shoes]
+tags: [france, manners, footwear, shoes]
 seoTitle: "Donald Jenkins: When in France, don’t ever wear brown shoes after 6 pm"
 date: 2006-11-26T09:46:16+00:00
 type: articles
