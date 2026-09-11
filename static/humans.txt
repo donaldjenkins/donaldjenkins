@@ -31,7 +31,7 @@
   X: @RonErdos
   Location: Sydney, Australia
 
-  Design framework: modern-normalize.css
+  CSS reset: bespoke, adapted from modern-normalize
   Github: https://via.dj/3RhBpal
 
   Website framework: Hugo
@@ -44,7 +44,7 @@
   https://github.com/donaldjenkins
 
 /* SITE */
-  Last update: 2026-08-31
+  Last update: 2026-09-11
   Theme: Kensington
   Version: 1.1
   Architecture: SSG
