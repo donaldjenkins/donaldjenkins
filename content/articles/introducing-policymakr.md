@@ -1,7 +1,7 @@
 ---
 title: "Introducing Policymakr"
 categories: [Personal]
-tags: [Facebook, Internet, "social networks", startup]
+tags: [facebook, internet, "social networks", startup]
 seoTitle: "Donald Jenkins: Introducing Policymakr"
 date: 2019-01-18T10:53:38+00:00
 type: articles

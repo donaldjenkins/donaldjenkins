@@ -1,7 +1,7 @@
 ---
 title: "Necessity, Not Schism: The Case for Écône"
 categories: ["Religion"]
-tags: ["SSPX", "Canon Law", "Vatican II"]
+tags: ["sspx", "canon law", "vatican ii"]
 seoTitle: "Donald Jenkins: Necessity, Not Schism: The Case for Écône"
 date: 2026-08-05T21:00:00+02:00
 type: articles

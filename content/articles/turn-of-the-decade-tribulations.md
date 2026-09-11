@@ -1,7 +1,7 @@
 ---
 title: "Turn-of-the-decade tribulations"
 categories: ["Personal"]
-tags: [France, literature, Paris]
+tags: [france, literature, paris]
 seoTitle: "Donald Jenkins: Turn-of-the-decade tribulations"
 date: 2010-01-04T00:57:51+00:00
 type: articles

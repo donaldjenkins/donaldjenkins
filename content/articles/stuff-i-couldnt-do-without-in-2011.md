@@ -1,7 +1,7 @@
 ---
 title: "Stuff I couldn’t do without in 2011"
 categories: ["Personal"]
-tags: [Apple, apps, Mac]
+tags: [apple, apps, mac]
 seoTitle: "Donald Jenkins: Stuff I couldn’t do without in 2011"
 date: 2011-03-10T14:08:00+00:00
 type: articles

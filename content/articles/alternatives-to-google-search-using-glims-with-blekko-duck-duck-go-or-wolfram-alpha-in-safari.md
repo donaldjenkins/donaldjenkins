@@ -1,7 +1,7 @@
 ---
 title: "Alternatives to Google Search: using Glims with Blekko, Duck Duck Go or Wolfram Alpha in Safari"
 categories: ["Tech"]
-tags: [Blekko, "Duck Duck Go", Glims, Google, Safari, search]
+tags: [blekko, "duck duck go", glims, google, safari, search]
 seoTitle: "Donald Jenkins: Alternatives to Google Search: using Glims with Blekko, Duck Duck Go or Wolfram Alpha in Safari"
 date: 2011-02-20T13:51:56+00:00
 type: articles

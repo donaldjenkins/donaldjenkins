@@ -1,7 +1,7 @@
 ---
 title: "Brexit: time to move on"
 categories: ["Politics"]
-tags: [Brexit, "European Union", UK]
+tags: [brexit, "european union", uk]
 seoTitle: "Donald Jenkins:  Brexit: time to move on"
 date: 2019-12-13T22:39:31+00:00
 type: articles

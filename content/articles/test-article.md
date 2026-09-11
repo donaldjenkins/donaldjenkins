@@ -1,7 +1,7 @@
 ---
 title: "Curabitur viverra, neque nec porttitor semper, sapien massa euismod erat, eget rutrum eros ligula sed nibh."
 categories: ["Personal"]
-tags: ["France", "healthcare", "Paris"]
+tags: ["france", "healthcare", "paris"]
 seoTitle: "Donald Jenkins: A better new decade?"
 date: 2016-06-19T11:50:32+00:00
 type: articles

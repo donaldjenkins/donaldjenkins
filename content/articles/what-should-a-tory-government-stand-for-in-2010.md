@@ -1,7 +1,7 @@
 ---
 title: "What should a Tory government stand for in 2010?"
 categories: ["Politics"]
-tags: [Brexit, "European Union", UK]
+tags: [brexit, "european union", uk]
 seoTitle: "Donald Jenkins: What should a Tory government stand for in 2010?"
 date: 2010-05-11T13:58:10+00:00
 type: articles

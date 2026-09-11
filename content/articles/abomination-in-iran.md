@@ -1,7 +1,7 @@
 ---
 title: "Abomination in Iran"
 categories: ["Politics"]
-tags: ["death penalty", gay, Iran]
+tags: ["death penalty", gay, iran]
 seoTitle: "Donald Jenkins: Abomination in Iran"
 date: 2005-08-12T21:34:14+00:00
 type: articles

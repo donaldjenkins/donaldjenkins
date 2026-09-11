@@ -1,7 +1,7 @@
 ---
 title: "Does being for the Liberty of England still mean being for the Protestant religion?"
 categories: ["Religion"]
-tags: ["Act of Settlement", Anglicanism, Catholicism, England, UK]
+tags: ["act of settlement", anglicanism, catholicism, england, uk]
 seoTitle: "Donald Jenkins: Does being for the Liberty of England still mean being for the Protestant religion?"
 date: 2010-03-15T17:49:55+00:00
 type: articles

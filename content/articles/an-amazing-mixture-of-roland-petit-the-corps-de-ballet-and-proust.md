@@ -1,7 +1,7 @@
 ---
 title: "An amazing mixture of Roland Petit, the Corps de Ballet and Proust"
 categories: ["Culture"]
-tags: [ballet, literature, Proust, "Roland Petit"]
+tags: [ballet, literature, proust, "roland petit"]
 seoTitle: "Donald Jenkins: An amazing mixture of Roland Petit, the Corps de Ballet and Proust"
 date: 2007-03-03T12:47:34+00:00
 type: articles

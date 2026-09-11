@@ -1,7 +1,7 @@
 ---
 title: "Sparrow Mail: the most elegant, powerful and minimalist Mac email client"
 categories: ["Tech"]
-tags: [email, Gmail, Google, "Google Apps", IMAP, review, Sparrow]
+tags: [email, gmail, google, "google apps", imap, review, sparrow]
 seoTitle: "Donald Jenkins: Sparrow Mail: the most elegant, powerful and minimalist Mac email client"
 date: 2011-02-09T11:02:39+00:00
 type: articles

@@ -1,7 +1,7 @@
 ---
 title: "Chopin: such appropriate music for a ballet"
 categories: ['Culture']
-tags: [ballet, Chopin, music, Paris]
+tags: [ballet, chopin, music, paris]
 seoTitle: "Donald Jenkins: Chopin: such appropriate music for a ballet"
 date: 2006-10-02T09:05:39+00:00
 type: articles

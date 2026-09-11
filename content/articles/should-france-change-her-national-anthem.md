@@ -1,7 +1,7 @@
 ---
 title: "Should France change her national anthem?"
 categories: ["Sundry"]
-tags: [France, "La Marseillaise", "national anthem"]
+tags: [france, "la marseillaise", "national anthem"]
 seoTitle: "Donald Jenkins: Should France change her national anthem?"
 date: 2007-02-05T03:05:41+00:00
 type: articles

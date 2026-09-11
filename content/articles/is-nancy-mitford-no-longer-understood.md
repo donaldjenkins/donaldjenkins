@@ -1,7 +1,7 @@
 ---
 title: "Is Nancy Mitford no longer understood?"
 categories: ["Literature"]
-tags: [England, Mitford, UK]
+tags: [england, mitford, uk]
 seoTitle: "Donald Jenkins: Is Nancy Mitford no longer understood?"
 date: 2009-02-02T18:39:04+00:00
 type: articles

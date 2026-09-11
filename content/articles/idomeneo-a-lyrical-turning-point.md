@@ -1,7 +1,7 @@
 ---
 title: "Idomeneo: a lyrical turning point"
 categories: ["Culture"]
-tags: [Idomeneo, opera, Mozart]
+tags: [idomeneo, opera, mozart]
 seoTitle: "Donald Jenkins: Idomeneo: a lyrical turning point"
 date: 2006-12-02T18:33:22+00:00
 type: articles

@@ -1,7 +1,7 @@
 ---
 title: "A better new decade?"
 categories: ["Personal"]
-tags: ["France", "healthcare", "Paris"]
+tags: ["france", "healthcare", "paris"]
 seoTitle: "Donald Jenkins: A better new decade?"
 date: 2011-01-07T15:45:25+00:00
 type: articles
