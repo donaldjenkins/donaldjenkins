@@ -35,9 +35,10 @@ $success-hue: 134.4000;  // Eton Blue
 $warning-hue: 36.5854;   // Papaya Whip
 $danger-hue: 7.9558;     // Tomato
 
-/// Brand colors | https://convertingcolors.com/color-bucket/view/9C9B77596C79575757C75757F0F0F094C7A1FB5E46
+/// Brand colors | https://convertingcolors.com/color-bucket/view/9C9B77596C79575757C75757F0F0F096C8A2FB5E46
 /// (bucket corrected 30 Aug 2026: it encoded 9C9A77 and 585A79, neither of
-///  which is a palette colour — Gurkha is 9C9B77, Shuttle Gray is 596C79).html
+///  which is a palette colour — Gurkha is 9C9B77, Shuttle Gray is 596C79;
+///  and 11 Sep 2026: 94C7A1 was Summer Green, now Eton Blue 96C8A2).html
 
 // light theme
 $gurkha: hsl($primary-hue, 15.7447%, 53.9216%);   // #9C9B77

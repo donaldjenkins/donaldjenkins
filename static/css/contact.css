@@ -125,7 +125,7 @@ textarea:focus::placeholder {
   margin: 10% auto;
   padding: 5px 20px 13px 20px;
   border-radius: 10px;
-  background: hsl(135, 35%, 84%);
+  background: hsl(134.4, 35%, 84%); /* a tint on $success-hue, Eton Blue */
 }
 #error > div {
   background: var(--danger-bg);
@@ -149,7 +149,7 @@ textarea:focus::placeholder {
   box-shadow: 1px 1px 3px #000;
 }
 .close:hover {
-  background: hsl(135, 31%, 68%);
+  background: var(--success-color);
 }
 
 input.button {
