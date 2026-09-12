@@ -93,8 +93,19 @@
     "@type": "WebPage",
     "@id": "https://google.com/article"
     },
-    "datePublished": {{ .Date.Format "2006-01-02T15:04:05+08:00" }},
-    "dateModified": {{ .Lastmod.Format "2006-01-02T15:04:05+08:00" }},
+    {{/* `Z07:00` is Go's placeholder for the time's OWN UTC offset (the layout
+         is RFC 3339, as schema.org wants). The literal "+08:00" that stood here
+         was not a placeholder: Go copied those eight characters out verbatim,
+         so every article advertised a Singapore offset it had never been in.
+         It was demonstrably wrong in both directions — the same build that
+         wrote dateModified "2026-09-11T08:12:36+08:00" wrote the sitemap's
+         "2026-09-11T08:12:36+00:00" for that page, and datePublished read
+         "+08:00" for a front-matter date of 2026-08-05T21:00:00+02:00. Both
+         lines are fixed: the bug was in the layout string, not in either date.
+         layouts/_default/sitemap.xml already used a real offset ("-07:00") and
+         is left alone. */}}
+    "datePublished": {{ .Date.Format "2006-01-02T15:04:05Z07:00" }},
+    "dateModified": {{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }},
     "author": [{
         "@type": "Person",
           "name": "Donald Jenkins",
