@@ -29,7 +29,16 @@ enableRobotsTXT = true
 # Source: https://mertbakir.gitlab.io/hugo/last-modified-date-in-hugo/
 [frontmatter]
   date = ["date", "publishDate", "lastmod"]
-  lastmod = ['lastmod', ':fileModTime', ':default']
+  # `:git` must come before `:fileModTime`, and is the whole point of
+  # `enableGitInfo` above. Without it the chain fell through to the file's mtime
+  # — and Cloudflare builds from a FRESH CLONE, where every file's mtime is the
+  # moment of the clone. Every page therefore claimed to have been modified at
+  # build time: three deployments on 11 Sep 2026 stamped the same article
+  # 04:06:46, 07:02:54 and 08:12:36, and all 69 sitemap <lastmod> values were
+  # identical to the second. `:git` reads the AuthorDate of the last commit that
+  # touched the file, so the date changes when the CONTENT does, not when a
+  # build runs. `:fileModTime` stays as the fallback for files not in git.
+  lastmod = ['lastmod', ':git', ':fileModTime', ':default']
   publishDate = ["publishDate", "date"]
   expiryDate = ["expiryDate"]
 
