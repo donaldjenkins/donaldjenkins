@@ -99,9 +99,18 @@ To get true per-file dates the build command must deepen the clone first:
 git fetch --unshallow || true && <the two-pass command above>
 ```
 
-Not applied as of 12 Sep 2026 — it is a dashboard change, and per the note above it is
-shared with Preview, so it cannot be trialled there first. Do not add code that assumes
-per-file dates are accurate until that lands.
+✅ **Applied.** The live build command read on 13 Sep 2026 begins `git fetch --unshallow || true`,
+on Production and Preview alike (the command is shared; the env vars are not).
+
+Confirmed working the same day on preview `1fd16524`: 9 distinct `<lastmod>` values spanning
+2023→2026 (home `2023-05-27T20:37:34-04:00`, `/photos/` `2023-05-24`, one page still on
+`+00:00` from a 2023 commit made in UTC) — identical, value for value, to a local build with
+full history. Before the deepen, the same branch produced 1.
+
+⚠️ **It fails silently by design.** `|| true` means a failed deepen does not fail the build —
+it just puts the shallow behaviour back, and every `<lastmod>` collapses onto the tip
+commit's date again. Nothing in the build log says so. **The tell is the sitemap**: if all
+`<lastmod>` values are equal, the deepen did not happen.
 
 ### Toolchain pins
 
