@@ -78,6 +78,31 @@ cannot be trialled on Preview first.
 it is no longer load-bearing** — but PurgeCSS errors if `./hugo_stats.json` is missing, so
 the file must still be present in the repo. Keep it.
 
+### Cloudflare clones SHALLOW, and `lastmod` depends on the history
+
+`enableGitInfo = true` plus `lastmod = ['lastmod', ':git', …]` in `config.toml` means each
+page's `Lastmod` is the AuthorDate of the last commit that touched its file. That is only
+as good as the history Cloudflare cloned — **and Pages clones shallow.** Measured 12 Sep
+2026 on preview `b8d62a4a`: all 69 sitemap `<lastmod>` values came out equal, to the
+second and in its own `+02:00` zone, to the tip commit's AuthorDate. A shallow clone
+attributes *every* file to HEAD (`git log -- content/_index.md` reports HEAD, not its real
+2023 commit), so per-file dates collapse.
+
+This is still far better than what preceded it — before `:git` was added, `lastmod` fell
+through to `:fileModTime`, and since Cloudflare builds from a fresh clone every file's
+mtime is the clone time, so every page claimed to be modified at *build* time and the
+dates moved on every deployment. With `:git` they move only when a commit deploys.
+
+To get true per-file dates the build command must deepen the clone first:
+
+```
+git fetch --unshallow || true && <the two-pass command above>
+```
+
+Not applied as of 12 Sep 2026 — it is a dashboard change, and per the note above it is
+shared with Preview, so it cannot be trialled there first. Do not add code that assumes
+per-file dates are accurate until that lands.
+
 ### Toolchain pins
 
 | Tool | Version | Where pinned |
