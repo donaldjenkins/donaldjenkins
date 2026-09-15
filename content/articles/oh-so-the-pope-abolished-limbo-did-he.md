@@ -4,6 +4,7 @@ categories: ["Religion"]
 tags: [catholicism, limbo, theology]
 seoTitle: "Donald Jenkins: Oh, so the Pope abolished Limbo, did he?"
 date: 2007-06-01T16:13:41+00:00
+lastmod: 2007-06-01T16:13:41+00:00
 type: articles
 layout: "single"
 slug: "oh-so-the-pope-abolished-limbo-did-he"

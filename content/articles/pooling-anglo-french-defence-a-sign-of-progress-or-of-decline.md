@@ -4,6 +4,7 @@ categories: ["Politics"]
 tags: [defence, france, politics, uk]
 seoTitle: "Donald Jenkins: Pooling Anglo-French defence: a sign of progress, or of decline?"
 date: 2010-11-02T18:10:11+00:00
+lastmod: 2023-05-17T12:11:39Z
 type: articles
 notable: false
 layout: "single"

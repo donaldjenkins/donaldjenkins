@@ -4,6 +4,7 @@ categories: ["Tech"]
 tags: [adobe, apple, ipad, iphone, lightroom, photos, retina, wordpress]
 seoTitle: "Donald Jenkins: Connecting WordPress, Lightroom and Apple Photos"
 date: 2019-05-27T20:28:52+00:00
+lastmod: 2023-05-26T23:37:00-04:00
 type: articles
 notable: true
 layout: "single"

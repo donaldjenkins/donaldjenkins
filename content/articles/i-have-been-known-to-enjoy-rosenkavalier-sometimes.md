@@ -4,6 +4,7 @@ categories: ["Culture"]
 tags: [france, strauss, rosenkavalier, opera, paris]
 seoTitle: "Donald Jenkins: I have been know to enjoy Rosenkavalier sometimes"
 date: 2007-01-10T11:35:34+00:00
+lastmod: 2023-05-15T01:55:59Z
 type: articles
 notable: true
 layout: "single"

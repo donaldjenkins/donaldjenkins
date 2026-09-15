@@ -4,6 +4,7 @@ categories: ["Sundry"]
 tags: [anonymous, blogging, facebook, internet, privacy]
 seoTitle: "Donald Jenkins: The welcome trend away from anonymous posting on the Internet"
 date: 2010-04-10T19:16:07+00:00
+lastmod: 2023-05-12T08:37:23Z
 type: articles
 notable: false
 layout: "single"

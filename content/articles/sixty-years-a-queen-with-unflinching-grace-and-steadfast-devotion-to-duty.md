@@ -4,6 +4,7 @@ categories: ["Sundry"]
 tags: [uk, commonwealth, "hm the queen", jubilee]
 seoTitle: "Donald Jenkins: Sixty years a Queen, with unflinching grace and steadfast devotion to duty"
 date: 2012-02-06T08:35:24+00:00
+lastmod: 2023-05-12T01:03:06Z
 type: articles
 notable: true
 layout: "single"

@@ -4,6 +4,7 @@ categories: ["Personal"]
 tags: ["france", "healthcare", "paris"]
 seoTitle: "Donald Jenkins: A better new decade?"
 date: 2011-01-07T15:45:25+00:00
+lastmod: 2011-01-07T15:45:25+00:00
 type: articles
 layout: "articles"
 slug: "a-better-new-decade"

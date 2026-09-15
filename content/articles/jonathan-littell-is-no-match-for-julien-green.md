@@ -4,6 +4,7 @@ categories: ["Literature"]
 tags: [france, "jonathan littel", nazism, occupation, "julian green"]
 seoTitle: "Donald Jenkins: Jonathan Littell is no match for Julien Green"
 date: 2006-11-21T02:12:38+00:00
+lastmod: 2006-11-21T02:12:38+00:00
 type: articles
 layout: "single"
 slug: "jonathan-littell-is-no-match-for-julien-green"

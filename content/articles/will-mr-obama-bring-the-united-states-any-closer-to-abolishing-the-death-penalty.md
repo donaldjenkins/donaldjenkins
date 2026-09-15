@@ -4,6 +4,7 @@ categories: ["Politics"]
 tags: ["death penalty", obama, politics, us]
 seoTitle: "Donald Jenkins: Will Mr Obama bring the United States any closer to abolishing the death penalty?"
 date: 2009-02-06T01:10:39+00:00
+lastmod: 2023-05-24T10:07:27-04:00
 type: articles
 notable: false
 layout: "single"

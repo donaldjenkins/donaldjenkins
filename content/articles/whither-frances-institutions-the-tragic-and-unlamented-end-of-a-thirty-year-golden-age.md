@@ -4,6 +4,7 @@ categories: ["Politics"]
 tags: [constitution, "de gaulle", "fifth republic", france, politics]
 seoTitle: "Donald Jenkins: Whither France’s institutions? The tragic and unlamented end of a thirty-year golden age"
 date: 2010-02-18T16:34:13+00:00
+lastmod: 2010-02-18T16:34:13+00:00
 type: articles
 notable: true
 layout: "single"
