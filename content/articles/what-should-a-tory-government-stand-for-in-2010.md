@@ -4,6 +4,7 @@ categories: ["Politics"]
 tags: [brexit, "european union", uk]
 seoTitle: "Donald Jenkins: What should a Tory government stand for in 2010?"
 date: 2010-05-11T13:58:10+00:00
+lastmod: 2023-06-02T19:48:52-04:00
 type: articles
 notable: false
 layout: "single"

@@ -4,6 +4,7 @@ categories: ['Culture']
 tags: [ballet, 'benjamin millepied', paris, 'philip glass']
 seoTitle: "Donald Jenkins: Benjamin Millepied takes Paris by storm"
 date: 2006-11-12T16:51:07+00:00
+lastmod: 2006-11-12T16:51:07+00:00
 type: articles
 layout: 'single'
 slug: "benjamin-millepied-takes-paris-by-storm"  

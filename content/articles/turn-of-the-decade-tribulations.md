@@ -4,6 +4,7 @@ categories: ["Personal"]
 tags: [france, literature, paris]
 seoTitle: "Donald Jenkins: Turn-of-the-decade tribulations"
 date: 2010-01-04T00:57:51+00:00
+lastmod: 2023-05-12T01:03:06Z
 type: articles
 notable: false
 layout: "single"

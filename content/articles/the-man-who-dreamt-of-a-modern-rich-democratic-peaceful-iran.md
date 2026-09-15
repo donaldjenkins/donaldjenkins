@@ -4,6 +4,7 @@ categories: ["Politics"]
 tags: [iran, pahlavi, shah]
 seoTitle: "Donald Jenkins: The man who dreamt of a modern, rich, democratic, peaceful Iran"
 date: 2009-01-19T13:00:28+00:00
+lastmod: 2009-01-19T13:00:28+00:00
 type: articles
 notable: false
 layout: "single"

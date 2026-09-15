@@ -4,6 +4,7 @@ categories: ["Tech"]
 tags: [apple, mac, "macbook air"]
 seoTitle: "Donald Jenkins: The new MacBook Air: with its first-rate GPU and SSD, its real-life performance belies the paper specs"
 date: 2010-10-23T16:32:10+00:00
+lastmod: 2023-05-12T01:03:06Z
 type: articles
 notable: false
 layout: "single"

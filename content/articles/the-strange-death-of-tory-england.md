@@ -4,6 +4,7 @@ categories: ["Politics"]
 tags: [uk, conservatism]
 seoTitle: "Donald Jenkins: The strange death of Tory England"
 date: 2024-05-25T16:32:10+00:00
+lastmod: 2024-05-27T06:52:26+02:00
 type: articles
 notable: true
 layout: "single"

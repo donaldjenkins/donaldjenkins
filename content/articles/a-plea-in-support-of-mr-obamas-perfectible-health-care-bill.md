@@ -4,6 +4,7 @@ categories: ["Politics"]
 tags: ["health care", obama, "tea party", us]
 seoTitle: "Donald Jenkins: A plea in support of Mr Obama’s perfectible health-care bill"
 date: 2010-03-21T08:29:08+00:00
+lastmod: 2023-05-10T19:30:06Z
 type: articles
 notable: false
 layout: "single"

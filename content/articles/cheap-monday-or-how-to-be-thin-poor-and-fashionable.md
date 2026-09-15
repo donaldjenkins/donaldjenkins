@@ -4,6 +4,7 @@ categories: ['Sundry']
 tags: ['cheap monday', dior, fashion, france, paris, slimane]
 seoTitle: "Donald Jenkins: Cheap Monday or how to be thin, poor and fashionable"
 date: '2006-08-26T23:53:37+00:00'
+lastmod: '2006-08-26T23:53:37+00:00'
 type: articles
 layout: 'single'
 slug: "cheap-monday-or-how-to-be-thin-poor-and-fashionable"  

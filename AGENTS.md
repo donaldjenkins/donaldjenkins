@@ -112,6 +112,19 @@ it just puts the shallow behaviour back, and every `<lastmod>` collapses onto th
 commit's date again. Nothing in the build log says so. **The tell is the sitemap**: if all
 `<lastmod>` values are equal, the deepen did not happen.
 
+### Older articles carry an explicit `lastmod` — keep it by hand
+
+`:git` counts *any* commit, including site-wide sweeps (tags lowercased, apostrophes curled,
+hair spaces), so a sweep restamps every article it touches. Since 15 Sep 2026 the 55 articles
+the tags sweep touched carry `lastmod:` in front matter, which wins over `:git`. Each value is
+the author date of the **last commit that changed the article's words** (title, summary or
+prose), or the publication `date` if it was never reworded. Commits that only changed
+markup, punctuation style, spacing, links, tags or shortcode syntax do not count.
+
+- ⛔ **Don't add or bump `lastmod` for a sweep.** Leaving it untouched is the point.
+- ✅ **Do update it when you reword one of these articles** — git can no longer do it for
+  them. Articles without the field still get the git date automatically.
+
 ### Toolchain pins
 
 | Tool | Version | Where pinned |

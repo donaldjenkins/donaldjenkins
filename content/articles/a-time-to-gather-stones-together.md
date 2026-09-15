@@ -4,6 +4,7 @@ categories: ['Personal']
 tags: [blogging, catholicism, death]
 seoTitle: "Donald Jenkins: A time to gather stones together"
 date: 2009-10-16T23:48:03+00:00
+lastmod: 2009-10-16T23:48:03+00:00
 type: articles
 layout: 'single'
 slug: "a-time-to-gather-stones-together"  

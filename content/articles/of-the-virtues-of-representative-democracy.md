@@ -4,6 +4,7 @@ categories: ["Politics"]
 tags: [brexit, "european union", uk]
 seoTitle: "Donald Jenkins: Of the virtues of representative democracy"
 date: 2009-12-27T15:37:43+00:00
+lastmod: 2009-12-27T15:37:43+00:00
 type: articles
 notable: false
 layout: "single"

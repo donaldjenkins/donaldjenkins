@@ -4,6 +4,7 @@ categories: ["Tech"]
 tags: [facebook, google, privacy, "social networks", twitter]
 seoTitle: "Donald Jenkins: Social networking: going towards an oligopolistic closed-shop system?"
 date: 2010-01-11T18:24:56+00:00
+lastmod: 2023-06-03T06:19:53-04:00
 type: articles
 notable: false
 layout: "single"

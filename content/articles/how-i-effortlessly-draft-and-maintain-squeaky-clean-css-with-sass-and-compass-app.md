@@ -4,6 +4,7 @@ categories: ["Tech"]
 tags: [app, code, compass, css, preprocessor, sass]
 seoTitle: "Donald Jenkins: How I effortlessly draft and maintain squeaky-clean CSS with SASS and Compass.app"
 date: 2012-03-14T09:14:00+00:00
+lastmod: 2012-03-14T09:14:00+00:00
 type: articles
 notable: false
 layout: "single"

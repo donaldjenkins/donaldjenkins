@@ -4,6 +4,7 @@ categories: ["Politics"]
 tags: ["death penalty", politics, "supreme court", us]
 seoTitle: "Donald Jenkins: I guess a moratorium, if we get one, is better than nothing"
 date: 2007-10-19T17:15:23+00:00
+lastmod: 2023-05-17T10:25:51Z
 type: articles
 notable: false
 layout: "single"
