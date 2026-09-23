@@ -11,7 +11,7 @@
  * That rounding is what made $gurkha compile to #9C9A77 for years.
  *
  * ✅ THE ONLY CORRECT SOURCE IS THE HEX, converted to exact fractional HSL:
- *     python3 "System/40 Identity/assets/hex_to_exact_hsl.py" '#9C9B77'
+ *     python3 "System/40 Identity/assets/tools/hex_to_exact_hsl.py" '#9C9B77'
  *     ... --verify   compiles each value and proves it returns the same hex
  *
  * ⚠️ If a drift checker reports a mismatch, ADD DECIMAL PLACES. Do not convert
