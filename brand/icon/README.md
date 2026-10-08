@@ -2,7 +2,7 @@
 
 The mark is two discs — one Eton Blue `#96C8A2`, one Chicago `#575757` — inside a rounded Gurkha `#9C9B77` frame, outlined not filled, 3084 × 3084 on a transparent ground.
 
-⭐ **The master is the vault's canonical favicon build.** `icon.svg` here is a byte-for-byte copy of `System/40 Identity/assets/donaldjenkins-favicon.svg`, which the [[Design charter]] §4 makes the single authority for this artwork. Change it there and copy it here; never the other way round, and never by hand.
+⭐ **The master is the vault's canonical favicon build.** `icon.svg` here is a byte-for-byte copy of `System/40 Identity/assets/marks/donaldjenkins-favicon.svg`, which the [[Design charter]] §4 makes the single authority for this artwork. Change it there and copy it here; never the other way round, and never by hand.
 
 Set up 6th September, 2026, on the model of `~/Sites/raffish.design/brand/icon/`. Re-pointed at the canonical master 7th September, 2026 — see *The colour drift* below, which is the reason this folder exists in its present form.
 

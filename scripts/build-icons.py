@@ -2,7 +2,7 @@
 """Build the donaldjenkins.com icon set from the canonical square mark.
 
 The master is `brand/icon/icon.svg`, which is a byte-for-byte copy of
-`System/40 Identity/assets/donaldjenkins-favicon.svg` in the vault — the
+`System/40 Identity/assets/marks/donaldjenkins-favicon.svg` in the vault — the
 canonical favicon build described in the Design charter §4. It is
 transparent, carries a `prefers-color-scheme: dark` block, and uses the
 palette colours Gurkha #9C9B77, Eton Blue #96C8A2 and Chicago #575757.
